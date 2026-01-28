@@ -51,6 +51,14 @@ app.get('/widget.js', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/widget.js'))
 })
 
+// Widget-test.js route
+app.get('/widget-test.js', (req, res) => {
+  res.setHeader('Content-Type', 'application/javascript')
+  res.setHeader('Access-Control-Allow-Origin', '*')
+  res.setHeader('Cache-Control', 'no-cache')
+  res.sendFile(path.join(__dirname, '../public/widget-test.js'))
+})
+
 // API Routes
 app.use('/api/tests', testRoutes)
 app.use('/api/sessions', sessionRoutes)
