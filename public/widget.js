@@ -284,8 +284,9 @@
         return;
       }
 
-      // Check for pending task
-      await this.checkTask();
+      // Luôn hiển thị widget, check task khi click
+      log('Widget always visible mode');
+      this.renderWidget();
     }
 
     async checkTask() {
@@ -306,12 +307,14 @@
 
         if (data.hasTask && data.task) {
           this.task = data.task;
-          this.renderWidget();
+          return true;
         } else {
           log('No pending task for this device on this site');
+          return false;
         }
       } catch (error) {
         log('❌ Error checking task:', error.message);
+        return false;
       }
     }
 
@@ -349,10 +352,19 @@
       log('Widget rendered - banner visible at bottom');
     }
 
-    openPopup() {
+    async openPopup() {
       const popup = document.getElementById('tbw-popup');
       popup.classList.add('show');
       this.isPopupOpen = true;
+      
+      // Check task khi mở popup
+      const hasTask = await this.checkTask();
+      
+      if (!hasTask) {
+        // Không có task, hiện thông báo
+        this.showNoTask();
+        return;
+      }
       
       if (!this.task.code) {
         this.startCountdown();
@@ -361,6 +373,17 @@
       }
       
       log('Popup opened');
+    }
+
+    showNoTask() {
+      const content = document.getElementById('tbw-content');
+      content.innerHTML = `
+        <div style="text-align: center; padding: 20px;">
+          <div style="font-size: 48px; margin-bottom: 10px;">😔</div>
+          <p style="color: #a0aec0; margin-bottom: 15px;">Bạn chưa có nhiệm vụ nào trên thiết bị này</p>
+          <p style="font-size: 12px; color: #666;">Hãy hoàn thành bài test IQ/EQ trước để nhận mã xác nhận</p>
+        </div>
+      `;
     }
 
     closePopup() {
