@@ -235,6 +235,17 @@ const demoSite = {
   isActive: true
 }
 
+// Chou Chou Phu Quoc site
+const chouchouSite = {
+  siteKey: 'SITE_ME4MZQ29',
+  name: 'Chou Chou Phu Quoc',
+  domain: 'chouchouphuquoc.com.vn',
+  url: 'https://chouchouphuquoc.com.vn/',
+  searchKeyword: 'chou chou phu quoc',
+  instruction: 'Truy cập website và đợi 60 giây để nhận mã xác nhận',
+  isActive: true
+}
+
 async function seed() {
   try {
     await mongoose.connect(MONGODB_URI)
@@ -291,12 +302,16 @@ async function seed() {
     await Site.create(demoSite)
     console.log('✅ Created demo site')
 
+    // Create Chou Chou Phu Quoc site
+    await Site.create(chouchouSite)
+    console.log('✅ Created Chou Chou Phu Quoc site')
+
     console.log('\n🎉 Seed completed successfully!')
     console.log(`📊 Results:`)
     console.log(`   - Cleared all tasks and sessions`)
     console.log(`   - 5 IQ tests (100 questions)`)
     console.log(`   - 5 EQ tests (100 questions)`)
-    console.log(`   - 1 demo site`)
+    console.log(`   - 2 sites (Demo + Chou Chou Phu Quoc)`)
     
     process.exit(0)
   } catch (error) {
