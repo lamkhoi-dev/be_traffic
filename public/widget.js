@@ -10,7 +10,7 @@
   'use strict';
 
   // Configuration
-  const WIDGET_VERSION = '2.0.1'; // Updated to force cache refresh
+  const WIDGET_VERSION = '2.0.2'; // v2.0.2 - Removed devicePixelRatio from fingerprint
   const COUNTDOWN_SECONDS = 60;
   
   // API Base - Always use production Railway URL
@@ -29,13 +29,13 @@
   };
 
   // Generate device fingerprint (cross-browser compatible on same device)
-  // Chỉ dùng các thuộc tính ỔN ĐỊNH - không thay đổi theo cửa sổ/taskbar
+  // Chỉ dùng các thuộc tính ỔN ĐỊNH - không thay đổi theo zoom/cửa sổ
+  // ĐÃ BỎ: devicePixelRatio vì nó thay đổi theo browser zoom level
   const getFingerprint = () => {
     const dataArray = [
       screen.width,           // Độ phân giải màn hình - ổn định
       screen.height,          // Độ phân giải màn hình - ổn định
       screen.colorDepth,      // Độ sâu màu - phần cứng
-      window.devicePixelRatio || 1,  // DPI scaling - phần cứng
       Intl.DateTimeFormat().resolvedOptions().timeZone,  // Timezone - hệ thống
       new Date().getTimezoneOffset(),  // Timezone offset - hệ thống
       navigator.hardwareConcurrency || 0,  // CPU cores - phần cứng
@@ -49,7 +49,6 @@
       screenWidth: screen.width,
       screenHeight: screen.height,
       colorDepth: screen.colorDepth,
-      devicePixelRatio: window.devicePixelRatio || 1,
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       timezoneOffset: new Date().getTimezoneOffset(),
       hardwareConcurrency: navigator.hardwareConcurrency || 0,
