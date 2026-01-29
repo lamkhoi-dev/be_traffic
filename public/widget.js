@@ -361,10 +361,15 @@
         return;
       }
       
-      if (!this.task.code) {
-        this.startCountdown();
+      // Luôn đếm ngược client-side, không check task.code
+      // Nếu đã có code trong localStorage thì hiện luôn
+      const savedCode = localStorage.getItem(`tbw_code_${this.task._id}`);
+      if (savedCode) {
+        this.showCode(savedCode);
       } else {
-        this.showCode(this.task.code);
+        // Reset countdown mỗi lần mở
+        this.countdown = COUNTDOWN_SECONDS;
+        this.startCountdown();
       }
       
       log('Popup opened');
@@ -449,6 +454,11 @@
 
     showCode(code) {
       const content = document.getElementById('tbw-content');
+      
+      // Lưu code vào localStorage để không cần đếm lại
+      if (this.task && this.task._id) {
+        localStorage.setItem(`tbw_code_${this.task._id}`, code);
+      }
       
       content.innerHTML = `
         <div class="tbw-code-display">

@@ -9,15 +9,25 @@ router.post('/verify', async (req, res) => {
   try {
     const { sessionId, code, fingerprint } = req.body
     
-    if (!sessionId || !code) {
-      return res.status(400).json({ success: false, message: 'Missing required fields' })
+    if (!code) {
+      return res.status(400).json({ success: false, message: 'Missing code' })
     }
     
-    // Find task by session
-    const task = await Task.findOne({ sessionId })
+    // Find task by session OR fingerprint
+    let task = null
+    if (sessionId) {
+      task = await Task.findOne({ sessionId })
+    } else if (fingerprint) {
+      // Find most recent task with this code and fingerprint
+      task = await Task.findOne({ 
+        fingerprint, 
+        code: code.toUpperCase(),
+        status: { $in: ['pending', 'visited'] }
+      }).sort({ createdAt: -1 })
+    }
     
     if (!task) {
-      return res.status(404).json({ success: false, message: 'Task not found' })
+      return res.status(404).json({ success: false, message: 'Không tìm thấy task với mã này' })
     }
     
     // Verify code (DEMO123 is a bypass code for testing)
