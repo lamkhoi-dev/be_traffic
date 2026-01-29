@@ -26,13 +26,34 @@ router.post('/check', async (req, res) => {
       })
     }
     
-    // Find valid task
-    const task = await Task.findOne({
+    console.log('[Task Check] Site found:', site._id, site.name)
+    
+    // Find valid task - tìm theo fingerprint và siteKey (qua siteId)
+    let task = await Task.findOne({
       fingerprint,
       siteId: site._id,
       status: { $in: ['pending', 'in_progress'] },
       expiresAt: { $gt: new Date() }
     })
+    
+    // Nếu không tìm thấy, thử tìm task pending/in_progress bất kỳ của fingerprint này
+    // (trường hợp siteId cũ sau khi seed)
+    if (!task) {
+      console.log('[Task Check] No task found with siteId, trying without siteId filter...')
+      task = await Task.findOne({
+        fingerprint,
+        status: { $in: ['pending', 'in_progress'] },
+        expiresAt: { $gt: new Date() }
+      })
+      
+      if (task) {
+        console.log('[Task Check] Found task with different siteId:', task._id, 'task.siteId:', task.siteId)
+        // Cập nhật siteId cho đúng
+        task.siteId = site._id
+        await task.save()
+        console.log('[Task Check] Updated task siteId to:', site._id)
+      }
+    }
     
     if (!task) {
       console.log('[Task Check] No pending task found for fingerprint:', fingerprint)
@@ -43,7 +64,7 @@ router.post('/check', async (req, res) => {
       })
     }
     
-    console.log('[Task Check] Task found:', task._id)
+    console.log('[Task Check] Task found:', task._id, 'status:', task.status)
     
     res.json({
       success: true,

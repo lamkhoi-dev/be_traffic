@@ -29,20 +29,17 @@
   };
 
   // Generate device fingerprint (cross-browser compatible on same device)
+  // Chỉ dùng các thuộc tính ỔN ĐỊNH - không thay đổi theo cửa sổ/taskbar
   const getFingerprint = () => {
     const data = [
-      screen.width,
-      screen.height,
-      screen.colorDepth,
-      screen.availWidth,
-      screen.availHeight,
-      window.devicePixelRatio || 1,
-      Intl.DateTimeFormat().resolvedOptions().timeZone,
-      new Date().getTimezoneOffset(),
-      navigator.hardwareConcurrency || 0,
-      navigator.maxTouchPoints || 0,
-      navigator.platform,
-      navigator.language
+      screen.width,           // Độ phân giải màn hình - ổn định
+      screen.height,          // Độ phân giải màn hình - ổn định
+      screen.colorDepth,      // Độ sâu màu - phần cứng
+      window.devicePixelRatio || 1,  // DPI scaling - phần cứng
+      Intl.DateTimeFormat().resolvedOptions().timeZone,  // Timezone - hệ thống
+      new Date().getTimezoneOffset(),  // Timezone offset - hệ thống
+      navigator.hardwareConcurrency || 0,  // CPU cores - phần cứng
+      navigator.maxTouchPoints || 0   // Touch support - phần cứng
     ].join('|');
 
     let hash = 0;
@@ -286,7 +283,7 @@
 
     async checkTask() {
       try {
-        log('Checking for pending task...');
+        log(`Checking for pending task with fingerprint: ${this.fingerprint}`);
         
         const response = await fetch(`${API_BASE}/api/tasks/check`, {
           method: 'POST',
@@ -304,7 +301,7 @@
           this.task = data.task;
           return true;
         } else {
-          log('No pending task for this device on this site');
+          log(`No pending task for fingerprint: ${this.fingerprint} on site: ${this.siteKey}`);
           return false;
         }
       } catch (error) {
