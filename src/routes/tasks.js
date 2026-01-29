@@ -251,17 +251,23 @@ router.post('/create-test', async (req, res) => {
       })
     }
     
-    // Create new task
+    // Create a dummy session ID for testing (required by Task model)
+    const mongoose = require('mongoose')
+    const dummySessionId = new mongoose.Types.ObjectId()
+    
+    // Create new task with code
     const task = new Task({
+      sessionId: dummySessionId, // Dummy session for testing
       fingerprint,
       siteId: site._id,
+      code: generateCode(), // Generate code immediately
       status: 'pending',
       expiresAt: new Date(Date.now() + 30 * 60 * 1000) // 30 minutes
     })
     
     await task.save()
     
-    console.log('[Create Test Task] New task created:', task._id)
+    console.log('[Create Test Task] New task created:', task._id, 'code:', task.code)
     
     res.json({
       success: true,
