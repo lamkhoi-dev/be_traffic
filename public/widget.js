@@ -284,9 +284,13 @@
         return;
       }
 
-      // Luôn hiển thị widget, check task khi click
-      log('Widget always visible mode');
-      this.renderWidget();
+      // Chỉ hiện widget khi có task (cùng thiết bị/fingerprint)
+      const hasTask = await this.checkTask();
+      if (hasTask) {
+        this.renderWidget();
+      } else {
+        log('Widget hidden - no pending task for this device');
+      }
     }
 
     async checkTask() {

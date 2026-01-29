@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 const Test = require('./models/Test')
 const Question = require('./models/Question')
 const Site = require('./models/Site')
+const Task = require('./models/Task')
+const Session = require('./models/Session')
 
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/iqtest'
 
@@ -262,7 +264,10 @@ async function seed() {
       }
       console.log(`✅ Created IQ test: ${test.name}`)
     }
-
+    // Clear Tasks and Sessions
+    await Task.deleteMany({})
+    await Session.deleteMany({})
+    console.log('✅ Cleared all tasks and sessions')
     // Create EQ tests
     const eqQuestionsAll = [...eqQuestions1, ...generateMoreEQQuestions()]
     for (let i = 0; i < eqTests.length; i++) {
@@ -287,7 +292,8 @@ async function seed() {
     console.log('✅ Created demo site')
 
     console.log('\n🎉 Seed completed successfully!')
-    console.log(`📊 Created:`)
+    console.log(`📊 Results:`)
+    console.log(`   - Cleared all tasks and sessions`)
     console.log(`   - 5 IQ tests (100 questions)`)
     console.log(`   - 5 EQ tests (100 questions)`)
     console.log(`   - 1 demo site`)
