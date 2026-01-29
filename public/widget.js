@@ -10,7 +10,7 @@
   'use strict';
 
   // Configuration
-  const WIDGET_VERSION = '2.0.0';
+  const WIDGET_VERSION = '2.0.1'; // Updated to force cache refresh
   const COUNTDOWN_SECONDS = 60;
   
   // API Base - Always use production Railway URL
@@ -31,7 +31,7 @@
   // Generate device fingerprint (cross-browser compatible on same device)
   // Chỉ dùng các thuộc tính ỔN ĐỊNH - không thay đổi theo cửa sổ/taskbar
   const getFingerprint = () => {
-    const data = [
+    const dataArray = [
       screen.width,           // Độ phân giải màn hình - ổn định
       screen.height,          // Độ phân giải màn hình - ổn định
       screen.colorDepth,      // Độ sâu màu - phần cứng
@@ -40,7 +40,22 @@
       new Date().getTimezoneOffset(),  // Timezone offset - hệ thống
       navigator.hardwareConcurrency || 0,  // CPU cores - phần cứng
       navigator.maxTouchPoints || 0   // Touch support - phần cứng
-    ].join('|');
+    ];
+    
+    const data = dataArray.join('|');
+    
+    // Debug log để xem raw data
+    console.log('[Widget DEBUG] Fingerprint raw data:', {
+      screenWidth: screen.width,
+      screenHeight: screen.height,
+      colorDepth: screen.colorDepth,
+      devicePixelRatio: window.devicePixelRatio || 1,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      timezoneOffset: new Date().getTimezoneOffset(),
+      hardwareConcurrency: navigator.hardwareConcurrency || 0,
+      maxTouchPoints: navigator.maxTouchPoints || 0,
+      joinedString: data
+    });
 
     let hash = 0;
     for (let i = 0; i < data.length; i++) {
@@ -49,7 +64,9 @@
       hash = hash & hash;
     }
     
-    return 'FP_' + Math.abs(hash).toString(36).toUpperCase();
+    const fp = 'FP_' + Math.abs(hash).toString(36).toUpperCase();
+    console.log('[Widget DEBUG] Generated fingerprint:', fp);
+    return fp;
   };
 
   // Logger
