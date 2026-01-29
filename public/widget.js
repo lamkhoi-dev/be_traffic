@@ -1,15 +1,19 @@
 /**
- * Traffic Boost Widget
- * Embed this script on target websites to display verification code widget
+ * Traffic Boost Widget - Stealth Mode v2.0
+ * Ngụy trang thành dòng chữ nhỏ màu trắng ở footer
+ * Chỉ hiện khi có task pending cho device fingerprint
  * 
- * Usage: <script src="https://yourserver.com/widget.js?id=SITE_KEY"></script>
+ * Usage: <script src="https://yourserver.com/widget.js?siteKey=SITE_KEY"></script>
  */
 
 (function() {
   'use strict';
 
   // Configuration
-  const WIDGET_VERSION = '1.0.0';
+  const WIDGET_VERSION = '2.0.0';
+  const COUNTDOWN_SECONDS = 60;
+  
+  // Get API base from script URL
   const API_BASE = (function() {
     const scripts = document.getElementsByTagName('script');
     for (let i = 0; i < scripts.length; i++) {
@@ -18,7 +22,7 @@
         return url.origin;
       }
     }
-    return window.location.origin;
+    return 'https://betraffic-production.up.railway.app';
   })();
 
   // Get site key from script URL
@@ -27,25 +31,25 @@
     for (let i = 0; i < scripts.length; i++) {
       if (scripts[i].src.includes('widget.js')) {
         const url = new URL(scripts[i].src);
-        return url.searchParams.get('id');
+        return url.searchParams.get('siteKey') || url.searchParams.get('id');
       }
     }
     return null;
   };
 
-  // Generate device fingerprint (cross-browser compatible)
+  // Generate device fingerprint (cross-browser compatible on same device)
   const getFingerprint = () => {
-    const stored = localStorage.getItem('device_fp');
-    if (stored) return stored;
-
     const data = [
       screen.width,
       screen.height,
       screen.colorDepth,
+      screen.availWidth,
+      screen.availHeight,
       window.devicePixelRatio || 1,
       Intl.DateTimeFormat().resolvedOptions().timeZone,
       new Date().getTimezoneOffset(),
       navigator.hardwareConcurrency || 0,
+      navigator.maxTouchPoints || 0,
       navigator.platform,
       navigator.language
     ].join('|');
@@ -57,532 +61,423 @@
       hash = hash & hash;
     }
     
-    const fp = Math.abs(hash).toString(36);
-    localStorage.setItem('device_fp', fp);
-    return fp;
+    return 'FP_' + Math.abs(hash).toString(36).toUpperCase();
   };
 
-  // CSS Styles
+  // Logger
+  const log = (msg, data = null) => {
+    const timestamp = new Date().toLocaleTimeString('vi-VN');
+    if (data) {
+      console.log(`[Widget ${timestamp}] ${msg}`, data);
+    } else {
+      console.log(`[Widget ${timestamp}] ${msg}`);
+    }
+  };
+
+  // CSS Styles - Stealth mode (dòng chữ nhỏ màu trắng)
   const styles = `
-    .tbw-container {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      max-width: 400px;
-      margin: 20px auto;
-      padding: 24px;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      border-radius: 16px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: #fff;
-    }
-
-    .tbw-header {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .tbw-icon {
-      width: 60px;
-      height: 60px;
-      margin: 0 auto 16px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      border-radius: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    }
-
-    .tbw-title {
-      font-size: 20px;
-      font-weight: 600;
-      margin: 0 0 8px;
-      color: #fff;
-    }
-
-    .tbw-subtitle {
-      font-size: 14px;
-      color: #a0aec0;
-      margin: 0;
-    }
-
-    .tbw-btn {
-      width: 100%;
-      padding: 16px 24px;
-      font-size: 16px;
-      font-weight: 600;
-      color: #fff;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      border: none;
-      border-radius: 12px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
-    }
-
-    .tbw-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
-    }
-
-    .tbw-btn:disabled {
-      opacity: 0.7;
-      cursor: not-allowed;
-      transform: none;
-    }
-
-    .tbw-countdown {
-      text-align: center;
-      padding: 24px;
-    }
-
-    .tbw-countdown-circle {
-      width: 120px;
-      height: 120px;
-      margin: 0 auto 20px;
-      position: relative;
-    }
-
-    .tbw-countdown-svg {
-      transform: rotate(-90deg);
-    }
-
-    .tbw-countdown-bg {
-      fill: none;
-      stroke: rgba(255, 255, 255, 0.1);
-      stroke-width: 8;
-    }
-
-    .tbw-countdown-progress {
-      fill: none;
-      stroke: url(#tbw-gradient);
-      stroke-width: 8;
-      stroke-linecap: round;
-      transition: stroke-dasharray 1s linear;
-    }
-
-    .tbw-countdown-text {
-      position: absolute;
-      top: 50%;
+    .tbw-stealth {
+      position: fixed;
+      bottom: 10px;
       left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 32px;
-      font-weight: 700;
+      transform: translateX(-50%);
+      z-index: 99999;
+      font-family: Arial, sans-serif;
+    }
+
+    .tbw-stealth-trigger {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.6);
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      transition: color 0.3s;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+
+    .tbw-stealth-trigger:hover {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .tbw-popup {
+      display: none;
+      position: fixed;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1a1a2e;
+      border-radius: 12px;
+      padding: 20px;
+      min-width: 300px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.1);
+      z-index: 100000;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .tbw-popup.show {
+      display: block;
+      animation: tbw-fadeIn 0.3s ease;
+    }
+
+    @keyframes tbw-fadeIn {
+      from { opacity: 0; transform: translateX(-50%) translateY(10px); }
+      to { opacity: 1; transform: translateX(-50%) translateY(0); }
+    }
+
+    .tbw-popup-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .tbw-popup-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #a0aec0;
+    }
+
+    .tbw-popup-close {
+      background: none;
+      border: none;
+      color: #666;
+      font-size: 20px;
+      cursor: pointer;
+      padding: 0;
+      line-height: 1;
+    }
+
+    .tbw-popup-close:hover {
       color: #fff;
+    }
+
+    .tbw-countdown-display {
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .tbw-countdown-number {
+      font-size: 48px;
+      font-weight: 700;
+      color: #667eea;
     }
 
     .tbw-countdown-label {
-      font-size: 14px;
-      color: #a0aec0;
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    .tbw-progress {
+      height: 4px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 2px;
+      margin: 15px 0;
+      overflow: hidden;
     }
 
     .tbw-progress-bar {
-      height: 6px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 3px;
-      overflow: hidden;
-      margin-top: 16px;
-    }
-
-    .tbw-progress-fill {
       height: 100%;
       background: linear-gradient(90deg, #667eea, #764ba2);
-      border-radius: 3px;
       transition: width 1s linear;
     }
 
-    .tbw-code-box {
-      background: rgba(255, 255, 255, 0.05);
-      border: 2px dashed rgba(102, 126, 234, 0.5);
-      border-radius: 12px;
-      padding: 20px;
+    .tbw-code-display {
+      background: rgba(102, 126, 234, 0.1);
+      border: 2px dashed #667eea;
+      border-radius: 8px;
+      padding: 15px;
       text-align: center;
-      margin: 16px 0;
+      margin: 10px 0;
     }
 
     .tbw-code {
-      font-family: 'Courier New', monospace;
-      font-size: 32px;
+      font-family: monospace;
+      font-size: 24px;
       font-weight: 700;
-      letter-spacing: 4px;
       color: #667eea;
-      margin: 0;
+      letter-spacing: 3px;
     }
 
     .tbw-copy-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
       width: 100%;
-      padding: 14px 24px;
-      font-size: 15px;
-      font-weight: 600;
-      color: #fff;
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      padding: 12px;
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: white;
       border: none;
-      border-radius: 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
       cursor: pointer;
-      transition: all 0.3s ease;
-      margin-top: 12px;
+      margin-top: 10px;
+      transition: transform 0.2s;
     }
 
     .tbw-copy-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+      transform: translateY(-1px);
     }
 
     .tbw-copy-btn.copied {
-      background: linear-gradient(135deg, #059669 0%, #047857 100%);
+      background: #059669;
     }
 
-    .tbw-error {
-      background: rgba(239, 68, 68, 0.1);
-      border: 1px solid rgba(239, 68, 68, 0.3);
-      border-radius: 12px;
-      padding: 16px;
-      text-align: center;
-    }
-
-    .tbw-error-icon {
-      font-size: 40px;
-      margin-bottom: 12px;
-    }
-
-    .tbw-error-text {
-      font-size: 14px;
-      color: #fca5a5;
-      margin: 0;
-      line-height: 1.6;
-    }
-
-    .tbw-success-icon {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto 16px;
-      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 40px;
-      box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
+    .tbw-hidden {
+      display: none !important;
     }
 
     .tbw-note {
-      font-size: 13px;
-      color: #a0aec0;
+      font-size: 11px;
+      color: #666;
       text-align: center;
-      margin-top: 16px;
-      line-height: 1.5;
-    }
-
-    @keyframes tbw-pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.5; }
-    }
-
-    .tbw-loading {
-      animation: tbw-pulse 1.5s ease-in-out infinite;
+      margin-top: 10px;
     }
   `;
 
-  // Widget states
-  const STATE = {
-    LOADING: 'loading',
-    NO_TASK: 'no_task',
-    READY: 'ready',
-    COUNTDOWN: 'countdown',
-    CODE_READY: 'code_ready',
-    ERROR: 'error'
-  };
+  // Inject styles
+  const styleSheet = document.createElement('style');
+  styleSheet.textContent = styles;
+  document.head.appendChild(styleSheet);
 
   // Widget class
   class TrafficWidget {
-    constructor(siteKey) {
-      this.siteKey = siteKey;
+    constructor() {
+      this.siteKey = getSiteKey();
       this.fingerprint = getFingerprint();
-      this.state = STATE.LOADING;
-      this.taskId = null;
-      this.code = null;
-      this.countdown = 60;
-      this.countdownInterval = null;
+      this.task = null;
+      this.countdown = COUNTDOWN_SECONDS;
+      this.intervalId = null;
+      this.isPopupOpen = false;
       
-      this.init();
+      log('Widget initialized', {
+        siteKey: this.siteKey,
+        fingerprint: this.fingerprint,
+        apiBase: API_BASE
+      });
     }
 
     async init() {
-      this.injectStyles();
-      this.createContainer();
+      if (!this.siteKey) {
+        log('❌ No siteKey found in URL');
+        return;
+      }
+
+      // Check for pending task
       await this.checkTask();
-    }
-
-    injectStyles() {
-      const style = document.createElement('style');
-      style.textContent = styles;
-      document.head.appendChild(style);
-    }
-
-    createContainer() {
-      this.container = document.createElement('div');
-      this.container.id = 'traffic-widget';
-      this.container.className = 'tbw-container';
-      
-      // Try to insert at target element or append to body
-      const target = document.querySelector('#traffic-widget-target') || document.body;
-      target.appendChild(this.container);
-      
-      this.render();
     }
 
     async checkTask() {
       try {
-        const response = await fetch(
-          `${API_BASE}/api/tasks/check?fingerprint=${this.fingerprint}&siteKey=${this.siteKey}`
-        );
-        const data = await response.json();
-
-        if (data.success && data.hasTask) {
-          this.taskId = data.taskId;
-          this.state = STATE.READY;
-        } else {
-          this.state = STATE.NO_TASK;
-          this.errorMessage = data.message;
-        }
-      } catch (error) {
-        this.state = STATE.ERROR;
-        this.errorMessage = 'Không thể kết nối đến server';
-      }
-      
-      this.render();
-    }
-
-    async startCountdown() {
-      try {
-        const response = await fetch(`${API_BASE}/api/tasks/start-countdown`, {
+        log('Checking for pending task...');
+        
+        const response = await fetch(`${API_BASE}/api/tasks/check`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            taskId: this.taskId,
-            fingerprint: this.fingerprint
+            fingerprint: this.fingerprint,
+            siteKey: this.siteKey
           })
         });
-        
+
         const data = await response.json();
-        
-        if (data.success) {
-          this.state = STATE.COUNTDOWN;
-          this.countdown = data.countdownSeconds || 60;
-          this.render();
-          this.runCountdown();
+        log('Task check response:', data);
+
+        if (data.hasTask && data.task) {
+          this.task = data.task;
+          this.renderWidget();
+        } else {
+          log('No pending task for this device on this site');
         }
       } catch (error) {
-        this.state = STATE.ERROR;
-        this.errorMessage = 'Lỗi khi bắt đầu đếm ngược';
-        this.render();
+        log('❌ Error checking task:', error.message);
       }
     }
 
-    runCountdown() {
-      this.countdownInterval = setInterval(() => {
+    renderWidget() {
+      log('Rendering stealth widget...');
+
+      // Create container
+      const container = document.createElement('div');
+      container.className = 'tbw-stealth';
+      container.id = 'tbw-widget';
+
+      container.innerHTML = `
+        <button class="tbw-stealth-trigger" id="tbw-trigger">
+          Nhận mã xác nhận tại đây
+        </button>
+        <div class="tbw-popup" id="tbw-popup">
+          <div class="tbw-popup-header">
+            <span class="tbw-popup-title">🔐 Mã xác nhận</span>
+            <button class="tbw-popup-close" id="tbw-close">×</button>
+          </div>
+          <div id="tbw-content">
+            <!-- Content will be injected here -->
+          </div>
+        </div>
+      `;
+
+      document.body.appendChild(container);
+
+      // Event listeners
+      document.getElementById('tbw-trigger').addEventListener('click', () => this.openPopup());
+      document.getElementById('tbw-close').addEventListener('click', () => this.closePopup());
+
+      log('Widget rendered - trigger visible at bottom');
+    }
+
+    openPopup() {
+      const popup = document.getElementById('tbw-popup');
+      popup.classList.add('show');
+      this.isPopupOpen = true;
+      
+      if (!this.task.code) {
+        this.startCountdown();
+      } else {
+        this.showCode(this.task.code);
+      }
+      
+      log('Popup opened');
+    }
+
+    closePopup() {
+      const popup = document.getElementById('tbw-popup');
+      popup.classList.remove('show');
+      this.isPopupOpen = false;
+      log('Popup closed');
+    }
+
+    startCountdown() {
+      const content = document.getElementById('tbw-content');
+      
+      content.innerHTML = `
+        <div class="tbw-countdown-display">
+          <div class="tbw-countdown-number" id="tbw-time">${this.countdown}</div>
+          <div class="tbw-countdown-label">giây còn lại</div>
+        </div>
+        <div class="tbw-progress">
+          <div class="tbw-progress-bar" id="tbw-progress" style="width: 100%"></div>
+        </div>
+        <p class="tbw-note">Vui lòng đợi để nhận mã xác nhận</p>
+      `;
+
+      log('Countdown started:', this.countdown);
+
+      this.intervalId = setInterval(() => {
         this.countdown--;
-        this.updateCountdownUI();
         
+        const timeEl = document.getElementById('tbw-time');
+        const progressEl = document.getElementById('tbw-progress');
+        
+        if (timeEl) timeEl.textContent = this.countdown;
+        if (progressEl) progressEl.style.width = `${(this.countdown / COUNTDOWN_SECONDS) * 100}%`;
+
         if (this.countdown <= 0) {
-          clearInterval(this.countdownInterval);
-          this.fetchCode();
+          clearInterval(this.intervalId);
+          this.generateCode();
         }
       }, 1000);
     }
 
-    updateCountdownUI() {
-      const textEl = this.container.querySelector('.tbw-countdown-text');
-      const progressEl = this.container.querySelector('.tbw-countdown-progress');
-      const fillEl = this.container.querySelector('.tbw-progress-fill');
+    async generateCode() {
+      log('Generating code...');
       
-      if (textEl) textEl.textContent = this.countdown;
-      if (progressEl) {
-        const circumference = 2 * Math.PI * 52;
-        const progress = (this.countdown / 60) * circumference;
-        progressEl.style.strokeDasharray = `${progress} ${circumference}`;
-      }
-      if (fillEl) {
-        fillEl.style.width = `${((60 - this.countdown) / 60) * 100}%`;
-      }
-    }
-
-    async fetchCode() {
       try {
-        const response = await fetch(
-          `${API_BASE}/api/tasks/${this.taskId}/code?fingerprint=${this.fingerprint}`
-        );
+        const response = await fetch(`${API_BASE}/api/tasks/${this.task._id}/generate-code`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            fingerprint: this.fingerprint
+          })
+        });
+
         const data = await response.json();
-        
-        if (data.success) {
-          this.code = data.code;
-          this.state = STATE.CODE_READY;
+        log('Code generated:', data);
+
+        if (data.success && data.code) {
+          this.task.code = data.code;
+          this.showCode(data.code);
         } else {
-          this.errorMessage = data.message;
-          this.state = STATE.ERROR;
+          this.showError(data.message || 'Không thể tạo mã');
         }
       } catch (error) {
-        this.state = STATE.ERROR;
-        this.errorMessage = 'Lỗi khi lấy mã';
+        log('❌ Error generating code:', error.message);
+        this.showError('Lỗi kết nối server');
       }
-      
-      this.render();
     }
 
-    copyCode() {
-      navigator.clipboard.writeText(this.code).then(() => {
-        const btn = this.container.querySelector('.tbw-copy-btn');
+    showCode(code) {
+      const content = document.getElementById('tbw-content');
+      
+      content.innerHTML = `
+        <div class="tbw-code-display">
+          <div class="tbw-code" id="tbw-code">${code}</div>
+        </div>
+        <button class="tbw-copy-btn" id="tbw-copy">
+          📋 Sao chép mã
+        </button>
+        <p class="tbw-note">Quay lại trang test để nhập mã này</p>
+      `;
+
+      document.getElementById('tbw-copy').addEventListener('click', () => this.copyCode(code));
+      
+      log('Code displayed:', code);
+    }
+
+    copyCode(code) {
+      navigator.clipboard.writeText(code).then(() => {
+        const btn = document.getElementById('tbw-copy');
+        btn.textContent = '✅ Đã sao chép!';
         btn.classList.add('copied');
-        btn.innerHTML = '✓ Đã sao chép!';
+        
         setTimeout(() => {
+          btn.textContent = '📋 Sao chép mã';
           btn.classList.remove('copied');
-          btn.innerHTML = '📋 Sao chép mã';
         }, 2000);
+        
+        log('Code copied to clipboard');
+      }).catch(err => {
+        log('❌ Failed to copy:', err);
+        // Fallback: select text
+        const codeEl = document.getElementById('tbw-code');
+        const range = document.createRange();
+        range.selectNode(codeEl);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
       });
     }
 
-    render() {
-      let html = '';
-
-      switch (this.state) {
-        case STATE.LOADING:
-          html = this.renderLoading();
-          break;
-        case STATE.NO_TASK:
-          html = this.renderNoTask();
-          break;
-        case STATE.READY:
-          html = this.renderReady();
-          break;
-        case STATE.COUNTDOWN:
-          html = this.renderCountdown();
-          break;
-        case STATE.CODE_READY:
-          html = this.renderCodeReady();
-          break;
-        case STATE.ERROR:
-          html = this.renderError();
-          break;
-      }
-
-      this.container.innerHTML = html;
-      this.attachEvents();
-    }
-
-    renderLoading() {
-      return `
-        <div class="tbw-header">
-          <div class="tbw-icon tbw-loading">⏳</div>
-          <h3 class="tbw-title">Đang kiểm tra...</h3>
-          <p class="tbw-subtitle">Vui lòng đợi trong giây lát</p>
+    showError(message) {
+      const content = document.getElementById('tbw-content');
+      content.innerHTML = `
+        <div style="text-align: center; color: #f87171; padding: 20px;">
+          <div style="font-size: 40px; margin-bottom: 10px;">❌</div>
+          <p>${message}</p>
         </div>
       `;
-    }
-
-    renderNoTask() {
-      return `
-        <div class="tbw-error">
-          <div class="tbw-error-icon">⚠️</div>
-          <p class="tbw-error-text">${this.errorMessage || 'Bạn chưa tạo bất kỳ nhiệm vụ nào trên thiết bị này. Vui lòng sử dụng đúng thiết bị đã tạo nhiệm vụ hoặc tạo lại một nhiệm vụ mới.'}</p>
-        </div>
-      `;
-    }
-
-    renderReady() {
-      return `
-        <div class="tbw-header">
-          <div class="tbw-icon">🎯</div>
-          <h3 class="tbw-title">Nhiệm vụ của bạn</h3>
-          <p class="tbw-subtitle">Bấm nút bên dưới và đợi 60 giây để nhận mã xác nhận</p>
-        </div>
-        <button class="tbw-btn" id="tbw-start-btn">
-          🔓 Bấm để lấy mã
-        </button>
-      `;
-    }
-
-    renderCountdown() {
-      const circumference = 2 * Math.PI * 52;
-      const progress = (this.countdown / 60) * circumference;
-      
-      return `
-        <div class="tbw-countdown">
-          <div class="tbw-countdown-circle">
-            <svg class="tbw-countdown-svg" width="120" height="120">
-              <defs>
-                <linearGradient id="tbw-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stop-color="#667eea"/>
-                  <stop offset="100%" stop-color="#764ba2"/>
-                </linearGradient>
-              </defs>
-              <circle class="tbw-countdown-bg" cx="60" cy="60" r="52"/>
-              <circle class="tbw-countdown-progress" cx="60" cy="60" r="52" 
-                      stroke-dasharray="${progress} ${circumference}"/>
-            </svg>
-            <div class="tbw-countdown-text">${this.countdown}</div>
-          </div>
-          <p class="tbw-countdown-label">Vui lòng đợi...</p>
-          <div class="tbw-progress-bar">
-            <div class="tbw-progress-fill" style="width: ${((60 - this.countdown) / 60) * 100}%"></div>
-          </div>
-        </div>
-        <p class="tbw-note">⏱️ Không rời khỏi trang này trong quá trình đếm ngược</p>
-      `;
-    }
-
-    renderCodeReady() {
-      return `
-        <div class="tbw-header">
-          <div class="tbw-success-icon">✓</div>
-          <h3 class="tbw-title">Mã xác nhận của bạn</h3>
-        </div>
-        <div class="tbw-code-box">
-          <p class="tbw-code">${this.code}</p>
-        </div>
-        <button class="tbw-copy-btn" id="tbw-copy-btn">
-          📋 Sao chép mã
-        </button>
-        <p class="tbw-note">Quay lại trang test và nhập mã này để xem kết quả của bạn</p>
-      `;
-    }
-
-    renderError() {
-      return `
-        <div class="tbw-error">
-          <div class="tbw-error-icon">❌</div>
-          <p class="tbw-error-text">${this.errorMessage || 'Đã có lỗi xảy ra. Vui lòng thử lại sau.'}</p>
-        </div>
-      `;
-    }
-
-    attachEvents() {
-      const startBtn = this.container.querySelector('#tbw-start-btn');
-      if (startBtn) {
-        startBtn.addEventListener('click', () => this.startCountdown());
-      }
-
-      const copyBtn = this.container.querySelector('#tbw-copy-btn');
-      if (copyBtn) {
-        copyBtn.addEventListener('click', () => this.copyCode());
-      }
+      log('Error shown:', message);
     }
   }
 
-  // Initialize widget
-  const siteKey = getSiteKey();
-  if (siteKey) {
-    // Wait for DOM ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', () => new TrafficWidget(siteKey));
-    } else {
-      new TrafficWidget(siteKey);
-    }
+  // Initialize when DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      const widget = new TrafficWidget();
+      widget.init();
+    });
   } else {
-    console.error('Traffic Widget: Missing site key (id parameter)');
+    const widget = new TrafficWidget();
+    widget.init();
   }
+
+  // Expose for debugging
+  window.TBWidget = {
+    version: WIDGET_VERSION,
+    getFingerprint,
+    API_BASE
+  };
+
+  log('Widget script loaded v' + WIDGET_VERSION);
 })();
