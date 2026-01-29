@@ -13,17 +13,8 @@
   const WIDGET_VERSION = '2.0.0';
   const COUNTDOWN_SECONDS = 60;
   
-  // Get API base from script URL
-  const API_BASE = (function() {
-    const scripts = document.getElementsByTagName('script');
-    for (let i = 0; i < scripts.length; i++) {
-      if (scripts[i].src.includes('widget.js')) {
-        const url = new URL(scripts[i].src);
-        return url.origin;
-      }
-    }
-    return 'https://betraffic-production.up.railway.app';
-  })();
+  // API Base - Always use production Railway URL
+  const API_BASE = 'https://betraffic-production.up.railway.app';
 
   // Get site key from script URL
   const getSiteKey = () => {
