@@ -78,10 +78,17 @@ router.post('/verify', async (req, res) => {
       completedAt: new Date()
     })
     
-    // Update site stats
-    await Site.findByIdAndUpdate(task.siteId, {
-      $inc: { totalCompleted: 1 }
-    })
+    // Update site stats and decrement quota
+    const site = await Site.findById(task.siteId)
+    if (site) {
+      site.totalCompleted += 1
+      // Decrement remaining quota if site has limited quota
+      if (site.quota > 0 && site.remainingQuota > 0) {
+        site.remainingQuota -= 1
+        console.log('[Verify Code] Decremented quota for site:', site.name, 'remaining:', site.remainingQuota)
+      }
+      await site.save()
+    }
     
     res.json({
       success: true,

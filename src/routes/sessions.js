@@ -71,13 +71,34 @@ router.post('/submit', async (req, res) => {
       await task.save()
       targetSite = existingTask.siteId
     } else {
-      // No pending task - create new one with random site
-      const sites = await Site.find({ isActive: true })
+      // No pending task - create new one with weighted random site based on priority and quota
+      // Only select sites that have remaining quota > 0 OR quota = 0 (unlimited)
+      const sites = await Site.find({ 
+        isActive: true,
+        $or: [
+          { quota: 0 },  // Unlimited quota
+          { remainingQuota: { $gt: 0 } }  // Has remaining quota
+        ]
+      })
+      
       if (sites.length === 0) {
-        return res.status(500).json({ success: false, message: 'No active sites available' })
+        return res.status(500).json({ success: false, message: 'No active sites with available quota' })
       }
-      const randomSite = sites[Math.floor(Math.random() * sites.length)]
-      console.log('[Submit Test] Creating new task for random site:', randomSite.name)
+      
+      // Weighted random selection based on priority
+      const totalWeight = sites.reduce((sum, site) => sum + (site.priority || 1), 0)
+      let random = Math.random() * totalWeight
+      let randomSite = sites[0]
+      
+      for (const site of sites) {
+        random -= (site.priority || 1)
+        if (random <= 0) {
+          randomSite = site
+          break
+        }
+      }
+      
+      console.log('[Submit Test] Creating new task for site:', randomSite.name, 'priority:', randomSite.priority)
       
       // Create new task
       const code = generateCode()

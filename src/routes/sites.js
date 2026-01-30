@@ -7,7 +7,7 @@ const { generateSiteKey } = require('../utils/helpers')
 router.get('/', async (req, res) => {
   try {
     const sites = await Site.find().sort({ createdAt: -1 })
-    res.json(sites)
+    res.json({ success: true, sites })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -29,7 +29,7 @@ router.get('/key/:siteKey', async (req, res) => {
 // Create new site
 router.post('/', async (req, res) => {
   try {
-    const { name, domain, url, searchKeyword, instruction, targetElement } = req.body
+    const { name, domain, url, searchKeyword, instruction, targetElement, quota, priority } = req.body
     
     const site = new Site({
       siteKey: generateSiteKey(),
@@ -38,7 +38,10 @@ router.post('/', async (req, res) => {
       url,
       searchKeyword,
       instruction,
-      targetElement
+      targetElement,
+      quota: quota || 0,
+      remainingQuota: quota || 0,  // Initialize remaining = quota
+      priority: priority || 1
     })
     
     await site.save()
@@ -56,11 +59,65 @@ router.post('/', async (req, res) => {
 // Update site
 router.put('/:id', async (req, res) => {
   try {
-    const site = await Site.findByIdAndUpdate(req.params.id, req.body, { new: true })
+    const updateData = { ...req.body }
+    
+    // If quota is being updated, also update remainingQuota proportionally
+    if (updateData.quota !== undefined) {
+      const site = await Site.findById(req.params.id)
+      if (site) {
+        const oldQuota = site.quota || 0
+        const newQuota = updateData.quota || 0
+        
+        if (oldQuota === 0) {
+          // Was unlimited, now has quota - set remaining to full quota
+          updateData.remainingQuota = newQuota
+        } else if (newQuota === 0) {
+          // Was limited, now unlimited
+          updateData.remainingQuota = 0
+        } else {
+          // Adjust remaining proportionally or set to new quota if increasing
+          const used = oldQuota - site.remainingQuota
+          updateData.remainingQuota = Math.max(0, newQuota - used)
+        }
+      }
+    }
+    
+    const site = await Site.findByIdAndUpdate(req.params.id, updateData, { new: true })
     if (!site) {
       return res.status(404).json({ success: false, message: 'Site not found' })
     }
-    res.json(site)
+    res.json({ success: true, site })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Reset quota for a site
+router.post('/:id/reset-quota', async (req, res) => {
+  try {
+    const { newQuota } = req.body
+    const site = await Site.findById(req.params.id)
+    
+    if (!site) {
+      return res.status(404).json({ success: false, message: 'Site not found' })
+    }
+    
+    // Reset quota
+    if (newQuota !== undefined) {
+      site.quota = newQuota
+      site.remainingQuota = newQuota
+    } else {
+      // Reset to original quota
+      site.remainingQuota = site.quota
+    }
+    
+    await site.save()
+    
+    res.json({ 
+      success: true, 
+      site,
+      message: `Quota reset to ${site.remainingQuota}`
+    })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -89,7 +146,10 @@ router.get('/:id/stats', async (req, res) => {
       totalCompleted: site.totalCompleted,
       completionRate: site.totalVisits > 0 
         ? ((site.totalCompleted / site.totalVisits) * 100).toFixed(2) 
-        : 0
+        : 0,
+      quota: site.quota,
+      remainingQuota: site.remainingQuota,
+      priority: site.priority
     })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })

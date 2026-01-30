@@ -3,18 +3,22 @@ const router = express.Router()
 const Test = require('../models/Test')
 const Question = require('../models/Question')
 
-// Get all tests
+// Get all tests (public - only active)
 router.get('/', async (req, res) => {
   try {
-    const tests = await Test.find({ isActive: true })
-    res.json(tests)
+    // Check if admin request (include inactive tests)
+    const includeInactive = req.query.all === 'true'
+    const query = includeInactive ? {} : { isActive: true }
+    
+    const tests = await Test.find(query).sort({ createdAt: -1 })
+    res.json({ success: true, tests })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
 })
 
 // Get tests by type (iq or eq)
-router.get('/:type', async (req, res) => {
+router.get('/type/:type', async (req, res) => {
   try {
     const { type } = req.params
     if (!['iq', 'eq'].includes(type)) {
@@ -22,7 +26,20 @@ router.get('/:type', async (req, res) => {
     }
     
     const tests = await Test.find({ type, isActive: true })
-    res.json(tests)
+    res.json({ success: true, tests })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Get single test by ID
+router.get('/:id', async (req, res) => {
+  try {
+    const test = await Test.findById(req.params.id)
+    if (!test) {
+      return res.status(404).json({ success: false, message: 'Test not found' })
+    }
+    res.json({ success: true, test })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -36,11 +53,14 @@ router.get('/:id/questions', async (req, res) => {
       return res.status(404).json({ success: false, message: 'Test not found' })
     }
     
+    // Check if admin request (include answers)
+    const includeAnswers = req.query.admin === 'true'
+    
     const questions = await Question.find({ testId: req.params.id })
       .sort({ order: 1 })
-      .select('-correctAnswer -explanation') // Hide answers
+      .select(includeAnswers ? '' : '-correctAnswer -explanation')
     
-    res.json({ test, questions })
+    res.json({ success: true, test, questions })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -49,9 +69,24 @@ router.get('/:id/questions', async (req, res) => {
 // Create test (admin)
 router.post('/', async (req, res) => {
   try {
-    const test = new Test(req.body)
+    const { type, name, description, duration, questionCount, difficulty, isActive } = req.body
+    
+    if (!type || !name || !description) {
+      return res.status(400).json({ success: false, message: 'Missing required fields: type, name, description' })
+    }
+    
+    const test = new Test({
+      type,
+      name,
+      description,
+      duration: duration || 15,
+      questionCount: questionCount || 20,
+      difficulty: difficulty || 'medium',
+      isActive: isActive !== undefined ? isActive : true
+    })
+    
     await test.save()
-    res.status(201).json(test)
+    res.status(201).json({ success: true, test })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -64,7 +99,24 @@ router.put('/:id', async (req, res) => {
     if (!test) {
       return res.status(404).json({ success: false, message: 'Test not found' })
     }
-    res.json(test)
+    res.json({ success: true, test })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Toggle test active status
+router.post('/:id/toggle-active', async (req, res) => {
+  try {
+    const test = await Test.findById(req.params.id)
+    if (!test) {
+      return res.status(404).json({ success: false, message: 'Test not found' })
+    }
+    
+    test.isActive = !test.isActive
+    await test.save()
+    
+    res.json({ success: true, test, message: `Test ${test.isActive ? 'activated' : 'deactivated'}` })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
@@ -73,9 +125,16 @@ router.put('/:id', async (req, res) => {
 // Delete test (admin)
 router.delete('/:id', async (req, res) => {
   try {
-    await Test.findByIdAndDelete(req.params.id)
+    const test = await Test.findById(req.params.id)
+    if (!test) {
+      return res.status(404).json({ success: false, message: 'Test not found' })
+    }
+    
+    // Delete all questions for this test
     await Question.deleteMany({ testId: req.params.id })
-    res.json({ success: true, message: 'Test deleted' })
+    await Test.findByIdAndDelete(req.params.id)
+    
+    res.json({ success: true, message: 'Test and all its questions deleted' })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }

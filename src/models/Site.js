@@ -28,6 +28,22 @@ const siteSchema = new mongoose.Schema({
     type: Boolean,
     default: true
   },
+  // Quota management - số lượng traffic cần chạy
+  quota: {
+    type: Number,
+    default: 0  // 0 = unlimited
+  },
+  remainingQuota: {
+    type: Number,
+    default: 0
+  },
+  // Priority - tỉ lệ phân bổ traffic (weight-based)
+  priority: {
+    type: Number,
+    default: 1,  // 1 = normal priority
+    min: 0,
+    max: 100
+  },
   totalVisits: {
     type: Number,
     default: 0
