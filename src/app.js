@@ -30,12 +30,26 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization']
 }))
 
-// Rate limiting
+// Rate limiting - tăng limit cho production
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100 // limit each IP to 100 requests per windowMs
+  windowMs: 1 * 60 * 1000, // 1 minute window
+  max: 200, // 200 requests per minute per IP
+  message: { success: false, message: 'Too many requests, please try again later.' },
+  standardHeaders: true,
+  legacyHeaders: false,
 })
+
+// Strict rate limit cho sensitive routes
+const strictLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 50, // 50 requests per 15 minutes
+  message: { success: false, message: 'Too many attempts, please try again later.' }
+})
+
+// Apply general limiter to API routes
 app.use('/api/', limiter)
+// Apply strict limiter to admin login
+app.use('/api/admin/login', strictLimiter)
 
 // Body parser
 app.use(express.json())
