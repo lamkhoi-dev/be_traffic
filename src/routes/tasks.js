@@ -260,7 +260,9 @@ router.post('/create-test', async (req, res) => {
           status: existingTask.status,
           siteKey: existingTask.siteId?.siteKey,
           siteName: existingTask.siteId?.name,
-          siteUrl: existingTask.siteId?.url
+          siteUrl: existingTask.siteId?.url,
+          step2Image: existingTask.siteId?.step2Image || '',
+          step3Image: existingTask.siteId?.step3Image || ''
         }
       })
     }
@@ -297,7 +299,9 @@ router.post('/create-test', async (req, res) => {
         status: task.status,
         siteKey: siteKey,
         siteName: site.name,
-        siteUrl: site.url
+        siteUrl: site.url,
+        step2Image: site.step2Image || '',
+        step3Image: site.step3Image || ''
       }
     })
   } catch (error) {
