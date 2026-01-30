@@ -20,6 +20,15 @@ const siteSchema = new mongoose.Schema({
     type: String,
     default: 'Truy cập website và lấy mã xác nhận'
   },
+  // Instruction images - ảnh minh hoạ cho các bước hướng dẫn
+  step2Image: {
+    type: String,
+    default: ''  // URL ảnh cho bước 2 - Truy cập website
+  },
+  step3Image: {
+    type: String,
+    default: ''  // URL ảnh cho bước 3 - Lấy mã xác nhận
+  },
   targetElement: {
     type: String,
     default: '#traffic-widget'

@@ -1,5 +1,6 @@
 const express = require('express')
 const router = express.Router()
+const mongoose = require('mongoose')
 const Session = require('../models/Session')
 const Task = require('../models/Task')
 const Site = require('../models/Site')
@@ -13,6 +14,11 @@ router.post('/start', async (req, res) => {
     
     if (!testId || !fingerprint) {
       return res.status(400).json({ success: false, message: 'Missing required fields' })
+    }
+    
+    // Validate testId is a valid ObjectId
+    if (!mongoose.Types.ObjectId.isValid(testId)) {
+      return res.status(400).json({ success: false, message: 'Invalid testId format' })
     }
     
     const session = new Session({
@@ -36,6 +42,11 @@ router.post('/start', async (req, res) => {
 router.post('/submit', async (req, res) => {
   try {
     const { sessionId, answers, fingerprint } = req.body
+    
+    // Validate sessionId is a valid ObjectId
+    if (!mongoose.Types.ObjectId.isValid(sessionId)) {
+      return res.status(400).json({ success: false, message: 'Invalid sessionId format' })
+    }
     
     const session = await Session.findById(sessionId)
     if (!session) {
@@ -195,6 +206,8 @@ router.get('/:id/task', async (req, res) => {
       siteUrl: task.siteId?.url || 'https://example.com',
       searchKeyword: task.siteId?.searchKeyword || 'example keyword',
       instruction: task.siteId?.instruction || 'Truy cập website và lấy mã xác nhận',
+      step2Image: task.siteId?.step2Image || '',
+      step3Image: task.siteId?.step3Image || '',
       status: task.status
     })
   } catch (error) {

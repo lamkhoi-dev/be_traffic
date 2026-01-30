@@ -29,7 +29,7 @@ router.get('/key/:siteKey', async (req, res) => {
 // Create new site
 router.post('/', async (req, res) => {
   try {
-    const { name, domain, url, searchKeyword, instruction, targetElement, quota, priority } = req.body
+    const { name, domain, url, searchKeyword, instruction, targetElement, quota, priority, step2Image, step3Image } = req.body
     
     const site = new Site({
       siteKey: generateSiteKey(),
@@ -39,6 +39,8 @@ router.post('/', async (req, res) => {
       searchKeyword,
       instruction,
       targetElement,
+      step2Image: step2Image || '',
+      step3Image: step3Image || '',
       quota: quota || 0,
       remainingQuota: quota || 0,  // Initialize remaining = quota
       priority: priority || 1
