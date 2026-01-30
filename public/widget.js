@@ -10,7 +10,7 @@
   'use strict';
 
   // Configuration
-  const WIDGET_VERSION = '2.0.2'; // v2.0.2 - Removed devicePixelRatio from fingerprint
+  const WIDGET_VERSION = '2.0.3'; // v2.0.3 - Footer text-only placement
   const COUNTDOWN_SECONDS = 60;
   
   // API Base - Always use production Railway URL
@@ -78,56 +78,40 @@
     }
   };
 
-  // CSS Styles - Footer banner dễ nhìn
+  // CSS Styles - Footer text-only
   const styles = `
     .tbw-stealth {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
+      position: static;
       z-index: 99999;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      border-top: 2px solid #667eea;
-      padding: 12px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-      box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
-    }
-
-    .tbw-stealth-icon {
-      font-size: 24px;
-    }
-
-    .tbw-stealth-text {
-      color: #a0aec0;
-      font-size: 14px;
+      background: transparent;
+      border-top: none;
+      padding: 6px 0 0;
+      display: block;
+      text-align: center;
+      color: #9ca3af;
+      font-size: 12px;
     }
 
     .tbw-stealth-trigger {
-      font-size: 14px;
-      color: white;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      font-size: 12px;
+      color: inherit;
+      background: transparent;
       border: none;
       cursor: pointer;
-      padding: 10px 24px;
-      border-radius: 25px;
+      padding: 0;
       font-weight: 600;
-      transition: all 0.3s;
-      text-decoration: none;
+      text-decoration: underline;
     }
 
     .tbw-stealth-trigger:hover {
-      transform: scale(1.05);
-      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      color: #667eea;
     }
 
     .tbw-popup {
       display: none;
       position: fixed;
-      bottom: 70px;
+      bottom: 20px;
       left: 50%;
       transform: translateX(-50%);
       background: #1a1a2e;
@@ -327,7 +311,7 @@
     }
 
     renderWidget() {
-      log('Rendering footer banner widget...');
+      log('Rendering footer text widget...');
 
       // Create container
       const container = document.createElement('div');
@@ -335,11 +319,7 @@
       container.id = 'tbw-widget';
 
       container.innerHTML = `
-        <span class="tbw-stealth-icon">🎁</span>
-        <span class="tbw-stealth-text">Bạn có mã xác nhận đang chờ!</span>
-        <button class="tbw-stealth-trigger" id="tbw-trigger">
-          👉 Nhận mã ngay
-        </button>
+        <button class="tbw-stealth-trigger" id="tbw-trigger">Mã Code</button>
         <div class="tbw-popup" id="tbw-popup">
           <div class="tbw-popup-header">
             <span class="tbw-popup-title">🔐 Mã xác nhận</span>
@@ -351,13 +331,18 @@
         </div>
       `;
 
-      document.body.appendChild(container);
+      const footer = document.querySelector('footer');
+      if (footer) {
+        footer.appendChild(container);
+      } else {
+        document.body.appendChild(container);
+      }
 
       // Event listeners
       document.getElementById('tbw-trigger').addEventListener('click', () => this.openPopup());
       document.getElementById('tbw-close').addEventListener('click', () => this.closePopup());
 
-      log('Widget rendered - banner visible at bottom');
+      log('Widget rendered - footer text');
     }
 
     async openPopup() {
