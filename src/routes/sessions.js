@@ -60,16 +60,34 @@ router.post('/submit', async (req, res) => {
     }
     const randomSite = sites[Math.floor(Math.random() * sites.length)]
     
-    // Create task
-    const code = generateCode()
-    const task = new Task({
-      sessionId: session._id,
-      siteId: randomSite._id,
+    // Check if already has pending task for this fingerprint (đồng bộ với trang test)
+    const existingTask = await Task.findOne({
       fingerprint,
-      code,
-      status: 'pending'
+      siteId: randomSite._id,
+      status: { $in: ['pending', 'in_progress'] },
+      expiresAt: { $gt: new Date() }
     })
-    await task.save()
+    
+    let task
+    if (existingTask) {
+      console.log('[Submit Test] Reusing existing task:', existingTask._id)
+      task = existingTask
+      // Update sessionId to current session
+      task.sessionId = session._id
+      await task.save()
+    } else {
+      // Create new task
+      const code = generateCode()
+      task = new Task({
+        sessionId: session._id,
+        siteId: randomSite._id,
+        fingerprint,
+        code,
+        status: 'pending'
+      })
+      await task.save()
+      console.log('[Submit Test] Created new task:', task._id)
+    }
     
     // Update session
     session.answers = answers
