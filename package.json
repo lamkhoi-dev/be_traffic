@@ -1,7 +1,7 @@
 {
   "name": "iq-test-server",
   "version": "1.0.0",
-  "description": "IQ/EQ Test API Server with Traffic Boost System",
+  "description": "",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
@@ -11,7 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
@@ -21,6 +20,7 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.1.5",
+    "multer": "^2.0.2",
     "nanoid": "^5.1.6"
   },
   "devDependencies": {

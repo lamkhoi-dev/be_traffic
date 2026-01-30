@@ -15,6 +15,7 @@ const siteRoutes = require('./routes/sites')
 const statsRoutes = require('./routes/stats')
 const adminRoutes = require('./routes/admin')
 const questionRoutes = require('./routes/questions')
+const uploadRoutes = require('./routes/upload')
 
 const app = express()
 
@@ -58,6 +59,9 @@ app.use(express.urlencoded({ extended: true }))
 // Static files for widget
 app.use('/static', express.static(path.join(__dirname, '../public')))
 
+// Serve uploaded images
+app.use('/uploads', express.static(path.join(__dirname, '../public/uploads')))
+
 // Widget.js route with CORS headers
 app.get('/widget.js', (req, res) => {
   res.setHeader('Content-Type', 'application/javascript')
@@ -83,6 +87,7 @@ app.use('/api/sites', siteRoutes)
 app.use('/api/stats', statsRoutes)
 app.use('/api/admin', adminRoutes)
 app.use('/api/questions', questionRoutes)
+app.use('/api/upload', uploadRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {
