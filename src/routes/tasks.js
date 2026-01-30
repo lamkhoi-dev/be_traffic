@@ -306,4 +306,131 @@ router.post('/create-test', async (req, res) => {
   }
 })
 
+// ============ ADMIN API ============
+
+// Get all tasks with filters (for admin)
+router.get('/admin/list', async (req, res) => {
+  try {
+    const { status, siteId, limit = 100, page = 1 } = req.query
+    
+    const filter = {}
+    if (status && status !== 'all') {
+      filter.status = status
+    }
+    if (siteId && siteId !== 'all') {
+      filter.siteId = siteId
+    }
+    
+    const skip = (parseInt(page) - 1) * parseInt(limit)
+    
+    const [tasks, total] = await Promise.all([
+      Task.find(filter)
+        .populate('siteId', 'name siteKey url')
+        .populate('sessionId', 'score totalQuestions')
+        .sort({ createdAt: -1 })
+        .skip(skip)
+        .limit(parseInt(limit)),
+      Task.countDocuments(filter)
+    ])
+    
+    // Get stats
+    const [pending, inProgress, completed, expired] = await Promise.all([
+      Task.countDocuments({ status: 'pending' }),
+      Task.countDocuments({ status: 'in_progress' }),
+      Task.countDocuments({ status: 'completed' }),
+      Task.countDocuments({ status: 'expired' })
+    ])
+    
+    res.json({
+      success: true,
+      tasks,
+      total,
+      page: parseInt(page),
+      totalPages: Math.ceil(total / parseInt(limit)),
+      stats: { pending, inProgress, completed, expired, total: pending + inProgress + completed + expired }
+    })
+  } catch (error) {
+    console.error('[Admin Tasks] Error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Get real-time stats (lightweight endpoint for polling)
+router.get('/admin/realtime-stats', async (req, res) => {
+  try {
+    const now = new Date()
+    const todayStart = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+    
+    const [pending, inProgress, completed, expired, todayTotal, todayCompleted, recentTasks] = await Promise.all([
+      Task.countDocuments({ status: 'pending' }),
+      Task.countDocuments({ status: 'in_progress' }),
+      Task.countDocuments({ status: 'completed' }),
+      Task.countDocuments({ status: 'expired' }),
+      Task.countDocuments({ createdAt: { $gte: todayStart } }),
+      Task.countDocuments({ status: 'completed', verifiedAt: { $gte: todayStart } }),
+      Task.find()
+        .populate('siteId', 'name siteKey')
+        .sort({ updatedAt: -1 })
+        .limit(20)
+        .lean()
+    ])
+    
+    res.json({
+      success: true,
+      stats: {
+        pending,
+        inProgress,
+        completed,
+        expired,
+        total: pending + inProgress + completed + expired,
+        todayTotal,
+        todayCompleted
+      },
+      recentTasks,
+      timestamp: new Date().toISOString()
+    })
+  } catch (error) {
+    console.error('[Realtime Stats] Error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Delete a task
+router.delete('/admin/:id', async (req, res) => {
+  try {
+    const task = await Task.findByIdAndDelete(req.params.id)
+    if (!task) {
+      return res.status(404).json({ success: false, message: 'Task not found' })
+    }
+    res.json({ success: true, message: 'Task deleted' })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Bulk delete tasks
+router.post('/admin/bulk-delete', async (req, res) => {
+  try {
+    const { taskIds } = req.body
+    if (!taskIds || !Array.isArray(taskIds)) {
+      return res.status(400).json({ success: false, message: 'taskIds array required' })
+    }
+    
+    const result = await Task.deleteMany({ _id: { $in: taskIds } })
+    res.json({ success: true, deletedCount: result.deletedCount })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Clear expired tasks
+router.post('/admin/clear-expired', async (req, res) => {
+  try {
+    const result = await Task.deleteMany({ status: 'expired' })
+    res.json({ success: true, deletedCount: result.deletedCount })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
 module.exports = router
