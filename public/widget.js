@@ -111,15 +111,15 @@
     .tbw-popup {
       display: none;
       position: fixed;
-      bottom: 20px;
+      bottom: 16px;
       left: 50%;
       transform: translateX(-50%);
-      background: #1a1a2e;
-      border-radius: 12px;
-      padding: 20px;
-      min-width: 320px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-      border: 1px solid rgba(102, 126, 234, 0.3);
+      background: #0f1220;
+      border-radius: 10px;
+      padding: 12px 14px;
+      min-width: 160px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+      border: 1px solid rgba(102, 126, 234, 0.25);
       z-index: 100000;
       color: white;
       font-family: Arial, sans-serif;
@@ -137,22 +137,16 @@
 
     .tbw-popup-header {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
-      margin-bottom: 15px;
-    }
-
-    .tbw-popup-title {
-      font-size: 14px;
-      font-weight: 600;
-      color: #a0aec0;
+      margin-bottom: 6px;
     }
 
     .tbw-popup-close {
       background: none;
       border: none;
-      color: #666;
-      font-size: 20px;
+      color: #6b7280;
+      font-size: 16px;
       cursor: pointer;
       padding: 0;
       line-height: 1;
@@ -164,26 +158,20 @@
 
     .tbw-countdown-display {
       text-align: center;
-      padding: 15px 0;
+      padding: 6px 0 2px;
     }
 
     .tbw-countdown-number {
-      font-size: 48px;
+      font-size: 28px;
       font-weight: 700;
       color: #667eea;
     }
 
-    .tbw-countdown-label {
-      font-size: 12px;
-      color: #666;
-      margin-top: 5px;
-    }
-
     .tbw-progress {
-      height: 4px;
+      height: 3px;
       background: rgba(255,255,255,0.1);
       border-radius: 2px;
-      margin: 15px 0;
+      margin: 8px 0 4px;
       overflow: hidden;
     }
 
@@ -194,53 +182,26 @@
     }
 
     .tbw-code-display {
-      background: rgba(102, 126, 234, 0.1);
-      border: 2px dashed #667eea;
-      border-radius: 8px;
-      padding: 15px;
       text-align: center;
-      margin: 10px 0;
+      margin: 6px 0 2px;
     }
 
     .tbw-code {
       font-family: monospace;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
-      color: #667eea;
-      letter-spacing: 3px;
-    }
-
-    .tbw-copy-btn {
-      width: 100%;
-      padding: 12px;
-      background: linear-gradient(135deg, #10b981, #059669);
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 600;
+      color: #8ab4ff;
+      letter-spacing: 2px;
       cursor: pointer;
-      margin-top: 10px;
-      transition: transform 0.2s;
+      user-select: none;
     }
 
-    .tbw-copy-btn:hover {
-      transform: translateY(-1px);
-    }
-
-    .tbw-copy-btn.copied {
-      background: #059669;
+    .tbw-code.copied {
+      color: #10b981;
     }
 
     .tbw-hidden {
       display: none !important;
-    }
-
-    .tbw-note {
-      font-size: 11px;
-      color: #666;
-      text-align: center;
-      margin-top: 10px;
     }
   `;
 
@@ -322,7 +283,6 @@
         <button class="tbw-stealth-trigger" id="tbw-trigger">Mã Code</button>
         <div class="tbw-popup" id="tbw-popup">
           <div class="tbw-popup-header">
-            <span class="tbw-popup-title">🔐 Mã xác nhận</span>
             <button class="tbw-popup-close" id="tbw-close">×</button>
           </div>
           <div id="tbw-content">
@@ -397,12 +357,10 @@
       content.innerHTML = `
         <div class="tbw-countdown-display">
           <div class="tbw-countdown-number" id="tbw-time">${this.countdown}</div>
-          <div class="tbw-countdown-label">giây còn lại</div>
         </div>
         <div class="tbw-progress">
           <div class="tbw-progress-bar" id="tbw-progress" style="width: 100%"></div>
         </div>
-        <p class="tbw-note">Vui lòng đợi để nhận mã xác nhận</p>
       `;
 
       log('Countdown started:', this.countdown);
@@ -460,29 +418,22 @@
       
       content.innerHTML = `
         <div class="tbw-code-display">
-          <div class="tbw-code" id="tbw-code">${code}</div>
+          <div class="tbw-code" id="tbw-code" title="Bấm để sao chép">${code}</div>
         </div>
-        <button class="tbw-copy-btn" id="tbw-copy">
-          📋 Sao chép mã
-        </button>
-        <p class="tbw-note">Quay lại trang test để nhập mã này</p>
       `;
-
-      document.getElementById('tbw-copy').addEventListener('click', () => this.copyCode(code));
+      document.getElementById('tbw-code').addEventListener('click', () => this.copyCode(code));
       
       log('Code displayed:', code);
     }
 
     copyCode(code) {
       navigator.clipboard.writeText(code).then(() => {
-        const btn = document.getElementById('tbw-copy');
-        btn.textContent = '✅ Đã sao chép!';
-        btn.classList.add('copied');
+        const codeEl = document.getElementById('tbw-code');
+        codeEl.classList.add('copied');
         
         setTimeout(() => {
-          btn.textContent = '📋 Sao chép mã';
-          btn.classList.remove('copied');
-        }, 2000);
+          codeEl.classList.remove('copied');
+        }, 1200);
         
         log('Code copied to clipboard');
       }).catch(err => {
