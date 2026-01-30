@@ -243,33 +243,32 @@ router.post('/create-test', async (req, res) => {
       return res.status(400).json({ success: false, message: 'Missing fingerprint or siteKey' })
     }
     
-    // Find site
-    const site = await Site.findOne({ siteKey, isActive: true })
-    if (!site) {
-      return res.status(404).json({ success: false, message: 'Site not found' })
-    }
-    
-    // Check if already has pending task
+    // Check if already has ANY pending task (regardless of site)
     const existingTask = await Task.findOne({
       fingerprint,
-      siteId: site._id,
       status: { $in: ['pending', 'in_progress'] },
       expiresAt: { $gt: new Date() }
-    })
+    }).populate('siteId')
     
     if (existingTask) {
-      console.log('[Create Test Task] Existing task found:', existingTask._id)
+      console.log('[Create Test Task] Existing task found:', existingTask._id, 'for site:', existingTask.siteId?.name)
       return res.json({
         success: true,
         message: 'You already have a pending task',
         task: {
           _id: existingTask._id,
           status: existingTask.status,
-          siteKey: siteKey,
-          siteName: site.name,
-          siteUrl: site.url
+          siteKey: existingTask.siteId?.siteKey,
+          siteName: existingTask.siteId?.name,
+          siteUrl: existingTask.siteId?.url
         }
       })
+    }
+    
+    // No existing task - find site and create new one
+    const site = await Site.findOne({ siteKey, isActive: true })
+    if (!site) {
+      return res.status(404).json({ success: false, message: 'Site not found' })
     }
     
     // Create a dummy session ID for testing (required by Task model)
