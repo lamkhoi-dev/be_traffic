@@ -53,29 +53,32 @@ router.post('/submit', async (req, res) => {
     // Generate analysis
     const analysis = generateAnalysis(score, maxScore, session.testId)
     
-    // Get random active site for task
-    const sites = await Site.find({ isActive: true })
-    if (sites.length === 0) {
-      return res.status(500).json({ success: false, message: 'No active sites available' })
-    }
-    const randomSite = sites[Math.floor(Math.random() * sites.length)]
-    
-    // Check if already has pending task for this fingerprint (đồng bộ với trang test)
-    const existingTask = await Task.findOne({
+    // Check if already has any pending/in_progress task for this fingerprint (any site)
+    let existingTask = await Task.findOne({
       fingerprint,
-      siteId: randomSite._id,
       status: { $in: ['pending', 'in_progress'] },
       expiresAt: { $gt: new Date() }
-    })
+    }).populate('siteId')
     
     let task
+    let targetSite
+    
     if (existingTask) {
-      console.log('[Submit Test] Reusing existing task:', existingTask._id)
+      // Reuse existing task - update sessionId to current session
+      console.log('[Submit Test] Reusing existing task:', existingTask._id, 'for site:', existingTask.siteId?.name)
       task = existingTask
-      // Update sessionId to current session
       task.sessionId = session._id
       await task.save()
+      targetSite = existingTask.siteId
     } else {
+      // No pending task - create new one with random site
+      const sites = await Site.find({ isActive: true })
+      if (sites.length === 0) {
+        return res.status(500).json({ success: false, message: 'No active sites available' })
+      }
+      const randomSite = sites[Math.floor(Math.random() * sites.length)]
+      console.log('[Submit Test] Creating new task for random site:', randomSite.name)
+      
       // Create new task
       const code = generateCode()
       task = new Task({
@@ -86,6 +89,7 @@ router.post('/submit', async (req, res) => {
         status: 'pending'
       })
       await task.save()
+      targetSite = randomSite
       console.log('[Submit Test] Created new task:', task._id)
     }
     
@@ -100,17 +104,17 @@ router.post('/submit', async (req, res) => {
     await session.save()
     
     // Update site stats
-    await Site.findByIdAndUpdate(randomSite._id, { $inc: { totalVisits: 1 } })
+    await Site.findByIdAndUpdate(targetSite._id, { $inc: { totalVisits: 1 } })
     
     res.json({
       success: true,
       taskId: task._id,
       targetSite: {
-        name: randomSite.name,
-        domain: randomSite.domain,
-        url: randomSite.url,
-        searchKeyword: randomSite.searchKeyword,
-        instruction: randomSite.instruction
+        name: targetSite.name,
+        domain: targetSite.domain,
+        url: targetSite.url,
+        searchKeyword: targetSite.searchKeyword,
+        instruction: targetSite.instruction
       }
     })
   } catch (error) {
