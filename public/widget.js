@@ -118,14 +118,8 @@
       this.element = document.createElement('div');
       this.element.className = 'tbw-text';
       this.element.id = 'tbw-widget';
-      
-      const savedCode = this.task ? localStorage.getItem(`tbw_code_${this.task._id}`) : null;
-      if (savedCode) {
-        this.showCode(savedCode);
-      } else {
-        this.element.textContent = 'Mã Code';
-        this.element.addEventListener('click', () => this.onClick());
-      }
+      this.element.textContent = 'Mã Code';
+      this.element.addEventListener('click', () => this.onClick());
 
       const footer = document.querySelector('footer');
       if (footer) {
@@ -195,10 +189,6 @@
       this.element.classList.remove('counting');
       this.element.classList.add('code');
       this.element.textContent = code;
-      
-      if (this.task && this.task._id) {
-        localStorage.setItem(`tbw_code_${this.task._id}`, code);
-      }
       
       this.element.onclick = () => this.copyCode();
     }
