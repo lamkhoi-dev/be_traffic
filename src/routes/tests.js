@@ -449,6 +449,7 @@ router.post('/mbti/submit', async (req, res) => {
     if (!mbtiTest) {
       mbtiTest = new Test({
         name: mbtiData.name,
+        description: mbtiData.description || 'Trắc nghiệm tính cách MBTI - Khám phá 16 kiểu tính cách',
         type: 'mbti',
         duration: mbtiData.duration,
         questionCount: 30
