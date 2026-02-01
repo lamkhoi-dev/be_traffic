@@ -163,8 +163,14 @@ router.get('/:id', async (req, res) => {
       return res.status(404).json({ success: false, message: 'Session not found' })
     }
     
-    // Always return result for demo purposes
-    // In production, check: if (!session.unlocked)
+    // Check if session is unlocked (task completed)
+    if (!session.unlocked) {
+      return res.status(403).json({ 
+        success: false, 
+        message: 'Vui lòng hoàn thành nhiệm vụ để xem kết quả!',
+        requireTask: true
+      })
+    }
     
     res.json({
       type: session.testId?.type || 'iq',

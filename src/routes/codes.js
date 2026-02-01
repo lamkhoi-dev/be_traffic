@@ -71,12 +71,17 @@ router.post('/verify', async (req, res) => {
     task.verifiedAt = new Date()
     await task.save()
     
-    // Update session
-    await Session.findByIdAndUpdate(sessionId, {
-      unlocked: true,
-      status: 'completed',
-      completedAt: new Date()
-    })
+    // Update session and get test type
+    const session = await Session.findById(sessionId).populate('testId')
+    if (session) {
+      session.unlocked = true
+      session.status = 'completed'
+      session.completedAt = new Date()
+      await session.save()
+    }
+    
+    // Get test type for frontend redirect
+    const testType = session?.testId?.type || 'iq'
     
     // Update site stats and decrement quota
     const site = await Site.findById(task.siteId)
@@ -92,7 +97,8 @@ router.post('/verify', async (req, res) => {
     
     res.json({
       success: true,
-      message: 'Code verified successfully'
+      message: 'Code verified successfully',
+      testType
     })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })

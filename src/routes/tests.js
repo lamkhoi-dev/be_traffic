@@ -1,7 +1,12 @@
 const express = require('express')
 const router = express.Router()
+const mongoose = require('mongoose')
 const Test = require('../models/Test')
 const Question = require('../models/Question')
+const Session = require('../models/Session')
+const Task = require('../models/Task')
+const Site = require('../models/Site')
+const { generateCode } = require('../utils/helpers')
 
 // Subject mapping
 const SUBJECT_MAP = {
@@ -362,16 +367,20 @@ router.get('/mbti/start', async (req, res) => {
   }
 })
 
-// Calculate MBTI result
-router.post('/mbti/result', async (req, res) => {
+// Submit MBTI test - creates session and task, returns taskId
+router.post('/mbti/submit', async (req, res) => {
   try {
-    const { answers } = req.body // { questionId: 'A' or 'B', ... }
+    const { answers, fingerprint } = req.body // { questionId: 'A' or 'B', ... }
     
     if (!answers || Object.keys(answers).length < 20) {
       return res.status(400).json({ 
         success: false, 
         message: 'Cần trả lời ít nhất 20 câu hỏi để có kết quả chính xác' 
       })
+    }
+
+    if (!fingerprint) {
+      return res.status(400).json({ success: false, message: 'Missing fingerprint' })
     }
     
     // Load MBTI data
@@ -398,71 +407,197 @@ router.post('/mbti/result', async (req, res) => {
     })
     
     // Determine type
-    const type = 
+    const mbtiType = 
       (scores.E >= scores.I ? 'E' : 'I') +
       (scores.S >= scores.N ? 'S' : 'N') +
       (scores.T >= scores.F ? 'T' : 'F') +
       (scores.J >= scores.P ? 'J' : 'P')
     
     // Get result details
-    const result = mbtiData.results[type]
+    const result = mbtiData.results[mbtiType]
     
     // Calculate percentages for each dimension
     const dimensionScores = {
       EI: { 
-        E: scores.E, 
-        I: scores.I, 
+        E: scores.E, I: scores.I, 
         total: scores.E + scores.I,
         dominant: scores.E >= scores.I ? 'E' : 'I',
-        percentage: scores.E + scores.I > 0 
-          ? Math.round((Math.max(scores.E, scores.I) / (scores.E + scores.I)) * 100) 
-          : 50
+        percentage: scores.E + scores.I > 0 ? Math.round((Math.max(scores.E, scores.I) / (scores.E + scores.I)) * 100) : 50
       },
       SN: { 
-        S: scores.S, 
-        N: scores.N, 
+        S: scores.S, N: scores.N, 
         total: scores.S + scores.N,
         dominant: scores.S >= scores.N ? 'S' : 'N',
-        percentage: scores.S + scores.N > 0 
-          ? Math.round((Math.max(scores.S, scores.N) / (scores.S + scores.N)) * 100) 
-          : 50
+        percentage: scores.S + scores.N > 0 ? Math.round((Math.max(scores.S, scores.N) / (scores.S + scores.N)) * 100) : 50
       },
       TF: { 
-        T: scores.T, 
-        F: scores.F, 
+        T: scores.T, F: scores.F, 
         total: scores.T + scores.F,
         dominant: scores.T >= scores.F ? 'T' : 'F',
-        percentage: scores.T + scores.F > 0 
-          ? Math.round((Math.max(scores.T, scores.F) / (scores.T + scores.F)) * 100) 
-          : 50
+        percentage: scores.T + scores.F > 0 ? Math.round((Math.max(scores.T, scores.F) / (scores.T + scores.F)) * 100) : 50
       },
       JP: { 
-        J: scores.J, 
-        P: scores.P, 
+        J: scores.J, P: scores.P, 
         total: scores.J + scores.P,
         dominant: scores.J >= scores.P ? 'J' : 'P',
-        percentage: scores.J + scores.P > 0 
-          ? Math.round((Math.max(scores.J, scores.P) / (scores.J + scores.P)) * 100) 
-          : 50
+        percentage: scores.J + scores.P > 0 ? Math.round((Math.max(scores.J, scores.P) / (scores.J + scores.P)) * 100) : 50
       }
     }
+
+    // Find or create MBTI test in database
+    let mbtiTest = await Test.findOne({ type: 'mbti' })
+    if (!mbtiTest) {
+      mbtiTest = new Test({
+        name: mbtiData.name,
+        type: 'mbti',
+        duration: mbtiData.duration,
+        questionCount: 30
+      })
+      await mbtiTest.save()
+    }
+
+    // Create session to store MBTI result
+    const session = new Session({
+      testId: mbtiTest._id,
+      fingerprint,
+      status: 'submitted',
+      score: 0, // MBTI doesn't have score
+      maxScore: 0,
+      percentile: 0,
+      analysis: {
+        mbtiType,
+        result: result,
+        scores,
+        dimensionScores,
+        dimensions: mbtiData.dimensions
+      },
+      startedAt: new Date(),
+      submittedAt: new Date()
+    })
+    await session.save()
+
+    // Check if already has pending task for this fingerprint
+    let existingTask = await Task.findOne({
+      fingerprint,
+      status: { $in: ['pending', 'in_progress'] },
+      expiresAt: { $gt: new Date() }
+    }).populate('siteId')
+
+    let task
+    let targetSite
+
+    if (existingTask) {
+      task = existingTask
+      task.sessionId = session._id
+      await task.save()
+      targetSite = existingTask.siteId
+    } else {
+      // Create new task with weighted random site
+      const sites = await Site.find({ 
+        isActive: true,
+        $or: [{ quota: 0 }, { remainingQuota: { $gt: 0 } }]
+      })
+      
+      if (sites.length === 0) {
+        return res.status(500).json({ success: false, message: 'No active sites available' })
+      }
+      
+      const totalWeight = sites.reduce((sum, site) => sum + (site.priority || 1), 0)
+      let random = Math.random() * totalWeight
+      let randomSite = sites[0]
+      
+      for (const site of sites) {
+        random -= (site.priority || 1)
+        if (random <= 0) {
+          randomSite = site
+          break
+        }
+      }
+      
+      const code = generateCode()
+      task = new Task({
+        sessionId: session._id,
+        siteId: randomSite._id,
+        fingerprint,
+        code,
+        status: 'pending'
+      })
+      await task.save()
+      targetSite = randomSite
+    }
+
+    // Update site stats
+    await Site.findByIdAndUpdate(targetSite._id, { $inc: { totalVisits: 1 } })
+
+    res.json({
+      success: true,
+      sessionId: session._id,
+      taskId: task._id,
+      targetSite: {
+        name: targetSite.name,
+        domain: targetSite.domain,
+        url: targetSite.url,
+        searchKeyword: targetSite.searchKeyword,
+        instruction: targetSite.instruction
+      }
+    })
+  } catch (error) {
+    console.error('MBTI submit error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Get MBTI result (only if session unlocked)
+router.get('/mbti/result/:sessionId', async (req, res) => {
+  try {
+    const session = await Session.findById(req.params.sessionId).populate('testId')
+    
+    if (!session) {
+      return res.status(404).json({ success: false, message: 'Session not found' })
+    }
+
+    // Check if test is MBTI
+    if (session.testId?.type !== 'mbti') {
+      return res.status(400).json({ success: false, message: 'Invalid session type' })
+    }
+
+    // Check if unlocked
+    if (!session.unlocked) {
+      return res.status(403).json({ 
+        success: false, 
+        message: 'Vui lòng hoàn thành nhiệm vụ để xem kết quả!',
+        requireTask: true
+      })
+    }
+
+    // Return stored MBTI result
+    const analysis = session.analysis || {}
     
     res.json({
       success: true,
-      type,
+      type: analysis.mbtiType,
       result: {
-        ...result,
-        type
+        ...analysis.result,
+        type: analysis.mbtiType
       },
-      scores,
-      dimensionScores,
-      dimensions: mbtiData.dimensions,
-      answeredCount: Object.keys(answers).length
+      scores: analysis.scores,
+      dimensionScores: analysis.dimensionScores,
+      dimensions: analysis.dimensions,
+      answeredCount: 30
     })
   } catch (error) {
     console.error('MBTI result error:', error)
     res.status(500).json({ success: false, message: error.message })
   }
+})
+
+// OLD: Calculate MBTI result directly (kept for backward compatibility but now redirects)
+router.post('/mbti/result', async (req, res) => {
+  // Now requires going through submit flow
+  return res.status(400).json({
+    success: false,
+    message: 'Please use /mbti/submit endpoint instead'
+  })
 })
 
 module.exports = router
