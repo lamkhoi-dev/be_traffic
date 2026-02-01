@@ -3,8 +3,8 @@ const mongoose = require('mongoose')
 const testSchema = new mongoose.Schema({
   type: {
     type: String,
-    enum: ['iq', 'eq', 'grade10', 'grade11', 'grade12'],
     required: true
+    // No enum restriction - allows custom types like 'iq', 'eq', 'toan', 'ly', 'hoa', etc.
   },
   name: {
     type: String,
