@@ -31,10 +31,17 @@ const sessionSchema = new mongoose.Schema({
     default: 50
   },
   analysis: {
+    // For IQ/EQ tests
     level: String,
     description: String,
     strengths: [String],
-    improvements: [String]
+    improvements: [String],
+    // For MBTI tests
+    mbtiType: String,
+    result: mongoose.Schema.Types.Mixed, // Store full MBTI result object
+    scores: mongoose.Schema.Types.Mixed, // { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 }
+    dimensionScores: mongoose.Schema.Types.Mixed, // { EI: {...}, SN: {...}, TF: {...}, JP: {...} }
+    dimensions: mongoose.Schema.Types.Mixed // MBTI dimensions info
   },
   status: {
     type: String,
