@@ -292,4 +292,177 @@ router.delete('/:id', async (req, res) => {
   }
 })
 
+// ========== MBTI TEST ==========
+const fs = require('fs')
+const path = require('path')
+
+// Get MBTI test with random 30 questions
+router.get('/mbti/start', async (req, res) => {
+  try {
+    // Load MBTI data
+    const mbtiPath = path.join(__dirname, '../public/data/mbti.json')
+    const mbtiData = JSON.parse(fs.readFileSync(mbtiPath, 'utf8'))
+    
+    // Seeded random for consistent shuffling per session
+    const seed = Date.now()
+    const seededRandom = (s) => {
+      const x = Math.sin(s++) * 10000
+      return x - Math.floor(x)
+    }
+    
+    // Group questions by dimension
+    const questionsByDimension = {
+      EI: mbtiData.questions.filter(q => q.dimension === 'EI'),
+      SN: mbtiData.questions.filter(q => q.dimension === 'SN'),
+      TF: mbtiData.questions.filter(q => q.dimension === 'TF'),
+      JP: mbtiData.questions.filter(q => q.dimension === 'JP')
+    }
+    
+    // Select random questions from each dimension (7-8 per dimension = 30 total)
+    const selectedQuestions = []
+    const questionsPerDimension = { EI: 8, SN: 8, TF: 7, JP: 7 } // 8+8+7+7 = 30
+    
+    Object.keys(questionsPerDimension).forEach((dim, dimIdx) => {
+      const dimQuestions = [...questionsByDimension[dim]]
+      // Shuffle
+      for (let i = dimQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(seededRandom(seed + dimIdx * 100 + i) * (i + 1))
+        ;[dimQuestions[i], dimQuestions[j]] = [dimQuestions[j], dimQuestions[i]]
+      }
+      // Take required number
+      selectedQuestions.push(...dimQuestions.slice(0, questionsPerDimension[dim]))
+    })
+    
+    // Shuffle all selected questions
+    for (let i = selectedQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(seededRandom(seed + 1000 + i) * (i + 1))
+      ;[selectedQuestions[i], selectedQuestions[j]] = [selectedQuestions[j], selectedQuestions[i]]
+    }
+    
+    res.json({
+      success: true,
+      test: {
+        name: mbtiData.name,
+        description: mbtiData.description,
+        duration: mbtiData.duration,
+        questionCount: 30
+      },
+      questions: selectedQuestions.map((q, idx) => ({
+        id: q.id,
+        index: idx + 1,
+        dimension: q.dimension,
+        question: q.question,
+        options: q.options
+      })),
+      dimensions: mbtiData.dimensions
+    })
+  } catch (error) {
+    console.error('MBTI start error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Calculate MBTI result
+router.post('/mbti/result', async (req, res) => {
+  try {
+    const { answers } = req.body // { questionId: 'A' or 'B', ... }
+    
+    if (!answers || Object.keys(answers).length < 20) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'Cần trả lời ít nhất 20 câu hỏi để có kết quả chính xác' 
+      })
+    }
+    
+    // Load MBTI data
+    const mbtiPath = path.join(__dirname, '../public/data/mbti.json')
+    const mbtiData = JSON.parse(fs.readFileSync(mbtiPath, 'utf8'))
+    
+    // Create question map
+    const questionMap = {}
+    mbtiData.questions.forEach(q => {
+      questionMap[q.id] = q
+    })
+    
+    // Calculate scores
+    const scores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 }
+    
+    Object.entries(answers).forEach(([qId, answerId]) => {
+      const question = questionMap[parseInt(qId)]
+      if (question) {
+        const selectedOption = question.options.find(o => o.id === answerId)
+        if (selectedOption && selectedOption.value) {
+          scores[selectedOption.value]++
+        }
+      }
+    })
+    
+    // Determine type
+    const type = 
+      (scores.E >= scores.I ? 'E' : 'I') +
+      (scores.S >= scores.N ? 'S' : 'N') +
+      (scores.T >= scores.F ? 'T' : 'F') +
+      (scores.J >= scores.P ? 'J' : 'P')
+    
+    // Get result details
+    const result = mbtiData.results[type]
+    
+    // Calculate percentages for each dimension
+    const dimensionScores = {
+      EI: { 
+        E: scores.E, 
+        I: scores.I, 
+        total: scores.E + scores.I,
+        dominant: scores.E >= scores.I ? 'E' : 'I',
+        percentage: scores.E + scores.I > 0 
+          ? Math.round((Math.max(scores.E, scores.I) / (scores.E + scores.I)) * 100) 
+          : 50
+      },
+      SN: { 
+        S: scores.S, 
+        N: scores.N, 
+        total: scores.S + scores.N,
+        dominant: scores.S >= scores.N ? 'S' : 'N',
+        percentage: scores.S + scores.N > 0 
+          ? Math.round((Math.max(scores.S, scores.N) / (scores.S + scores.N)) * 100) 
+          : 50
+      },
+      TF: { 
+        T: scores.T, 
+        F: scores.F, 
+        total: scores.T + scores.F,
+        dominant: scores.T >= scores.F ? 'T' : 'F',
+        percentage: scores.T + scores.F > 0 
+          ? Math.round((Math.max(scores.T, scores.F) / (scores.T + scores.F)) * 100) 
+          : 50
+      },
+      JP: { 
+        J: scores.J, 
+        P: scores.P, 
+        total: scores.J + scores.P,
+        dominant: scores.J >= scores.P ? 'J' : 'P',
+        percentage: scores.J + scores.P > 0 
+          ? Math.round((Math.max(scores.J, scores.P) / (scores.J + scores.P)) * 100) 
+          : 50
+      }
+    }
+    
+    res.json({
+      success: true,
+      type,
+      result: {
+        ...result,
+        type
+      },
+      scores,
+      dimensionScores,
+      dimensions: mbtiData.dimensions,
+      answeredCount: Object.keys(answers).length
+    })
+  } catch (error) {
+    console.error('MBTI result error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
 module.exports = router

@@ -1,0 +1,716 @@
+{
+  "name": "Trắc nghiệm tính cách MBTI",
+  "description": "Khám phá 16 loại tính cách MBTI - Hiểu rõ bản thân qua 30 câu hỏi",
+  "questionCount": 30,
+  "duration": 15,
+  "dimensions": {
+    "EI": { "name": "Năng lượng", "E": "Hướng ngoại (Extraversion)", "I": "Hướng nội (Introversion)" },
+    "SN": { "name": "Nhận thức", "S": "Giác quan (Sensing)", "N": "Trực giác (iNtuition)" },
+    "TF": { "name": "Quyết định", "T": "Lý trí (Thinking)", "F": "Cảm xúc (Feeling)" },
+    "JP": { "name": "Lối sống", "J": "Nguyên tắc (Judging)", "P": "Linh hoạt (Perceiving)" }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "dimension": "EI",
+      "question": "Sau một tuần làm việc căng thẳng, bạn thường muốn:",
+      "options": [
+        { "id": "A", "text": "Đi chơi với bạn bè, tham gia tiệc tùng", "value": "E" },
+        { "id": "B", "text": "Ở nhà một mình, đọc sách hoặc xem phim", "value": "I" }
+      ]
+    },
+    {
+      "id": 2,
+      "dimension": "EI",
+      "question": "Khi gặp người lạ ở buổi tiệc, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Chủ động bắt chuyện và làm quen", "value": "E" },
+        { "id": "B", "text": "Chờ người khác tiếp cận trước", "value": "I" }
+      ]
+    },
+    {
+      "id": 3,
+      "dimension": "EI",
+      "question": "Bạn thích làm việc trong môi trường nào hơn?",
+      "options": [
+        { "id": "A", "text": "Văn phòng mở, nhiều tương tác với đồng nghiệp", "value": "E" },
+        { "id": "B", "text": "Không gian riêng tư, yên tĩnh để tập trung", "value": "I" }
+      ]
+    },
+    {
+      "id": 4,
+      "dimension": "EI",
+      "question": "Khi cần đưa ra quyết định quan trọng, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Thảo luận với nhiều người để nghe ý kiến", "value": "E" },
+        { "id": "B", "text": "Tự suy nghĩ kỹ một mình trước", "value": "I" }
+      ]
+    },
+    {
+      "id": 5,
+      "dimension": "EI",
+      "question": "Trong một cuộc họp nhóm, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Phát biểu ý kiến ngay khi có suy nghĩ", "value": "E" },
+        { "id": "B", "text": "Lắng nghe và chỉ nói khi có ý kiến chín chắn", "value": "I" }
+      ]
+    },
+    {
+      "id": 6,
+      "dimension": "EI",
+      "question": "Bạn cảm thấy năng lượng dồi dào hơn khi:",
+      "options": [
+        { "id": "A", "text": "Ở giữa đám đông, nói chuyện với nhiều người", "value": "E" },
+        { "id": "B", "text": "Có thời gian một mình hoặc với vài người thân", "value": "I" }
+      ]
+    },
+    {
+      "id": 7,
+      "dimension": "EI",
+      "question": "Khi có vấn đề cần giải quyết, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Brainstorm với người khác, nói ra ý tưởng", "value": "E" },
+        { "id": "B", "text": "Suy nghĩ trong đầu trước rồi mới chia sẻ", "value": "I" }
+      ]
+    },
+    {
+      "id": 8,
+      "dimension": "EI",
+      "question": "Bạn mô tả bản thân là người:",
+      "options": [
+        { "id": "A", "text": "Cởi mở, dễ gần, thích giao tiếp", "value": "E" },
+        { "id": "B", "text": "Kín đáo, sâu sắc, chọn lọc bạn bè", "value": "I" }
+      ]
+    },
+    {
+      "id": 9,
+      "dimension": "EI",
+      "question": "Khi nghỉ ngơi, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Đi cafe, xem phim, du lịch cùng bạn bè", "value": "E" },
+        { "id": "B", "text": "Đọc sách, chơi game, làm sở thích một mình", "value": "I" }
+      ]
+    },
+    {
+      "id": 10,
+      "dimension": "EI",
+      "question": "Bạn thường được người khác nhận xét là:",
+      "options": [
+        { "id": "A", "text": "Năng động, vui vẻ, là linh hồn của nhóm", "value": "E" },
+        { "id": "B", "text": "Trầm tĩnh, bí ẩn, khó đoán", "value": "I" }
+      ]
+    },
+    {
+      "id": 11,
+      "dimension": "EI",
+      "question": "Số lượng bạn bè của bạn thường:",
+      "options": [
+        { "id": "A", "text": "Nhiều, đa dạng từ nhiều nhóm khác nhau", "value": "E" },
+        { "id": "B", "text": "Ít nhưng rất thân thiết, chất lượng", "value": "I" }
+      ]
+    },
+    {
+      "id": 12,
+      "dimension": "EI",
+      "question": "Khi gặp stress, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Tìm người để tâm sự, chia sẻ", "value": "E" },
+        { "id": "B", "text": "Cần không gian riêng để xử lý cảm xúc", "value": "I" }
+      ]
+    },
+    {
+      "id": 13,
+      "dimension": "EI",
+      "question": "Trong các cuộc trò chuyện, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Nói nhiều, dẫn dắt câu chuyện", "value": "E" },
+        { "id": "B", "text": "Lắng nghe nhiều, hỏi câu hỏi sâu", "value": "I" }
+      ]
+    },
+    {
+      "id": 14,
+      "dimension": "EI",
+      "question": "Bạn thích học tập/làm việc như thế nào?",
+      "options": [
+        { "id": "A", "text": "Học nhóm, thảo luận, tương tác", "value": "E" },
+        { "id": "B", "text": "Tự học, nghiên cứu độc lập", "value": "I" }
+      ]
+    },
+    {
+      "id": 15,
+      "dimension": "EI",
+      "question": "Khi nhận được tin vui, bạn muốn:",
+      "options": [
+        { "id": "A", "text": "Chia sẻ ngay với nhiều người", "value": "E" },
+        { "id": "B", "text": "Tận hưởng một mình hoặc chỉ với người thân nhất", "value": "I" }
+      ]
+    },
+    {
+      "id": 16,
+      "dimension": "SN",
+      "question": "Khi học một điều mới, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Hướng dẫn từng bước cụ thể, có ví dụ thực tế", "value": "S" },
+        { "id": "B", "text": "Hiểu tổng quan trước, tự khám phá chi tiết sau", "value": "N" }
+      ]
+    },
+    {
+      "id": 17,
+      "dimension": "SN",
+      "question": "Bạn thường chú ý đến điều gì hơn?",
+      "options": [
+        { "id": "A", "text": "Những chi tiết cụ thể, thực tế trước mắt", "value": "S" },
+        { "id": "B", "text": "Ý nghĩa sâu xa, khả năng trong tương lai", "value": "N" }
+      ]
+    },
+    {
+      "id": 18,
+      "dimension": "SN",
+      "question": "Khi mô tả một sự việc, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Kể lại đúng những gì đã xảy ra, theo trình tự", "value": "S" },
+        { "id": "B", "text": "Thêm nhận xét, liên tưởng và diễn giải", "value": "N" }
+      ]
+    },
+    {
+      "id": 19,
+      "dimension": "SN",
+      "question": "Bạn đánh giá cao điều gì hơn ở một người?",
+      "options": [
+        { "id": "A", "text": "Thực tế, đáng tin cậy, làm việc có phương pháp", "value": "S" },
+        { "id": "B", "text": "Sáng tạo, có tầm nhìn, luôn có ý tưởng mới", "value": "N" }
+      ]
+    },
+    {
+      "id": 20,
+      "dimension": "SN",
+      "question": "Khi đọc sách, bạn thích thể loại nào?",
+      "options": [
+        { "id": "A", "text": "Sách hướng dẫn thực hành, kinh nghiệm thực tế", "value": "S" },
+        { "id": "B", "text": "Sách về ý tưởng, lý thuyết, khoa học viễn tưởng", "value": "N" }
+      ]
+    },
+    {
+      "id": 21,
+      "dimension": "SN",
+      "question": "Bạn tin tưởng điều gì hơn?",
+      "options": [
+        { "id": "A", "text": "Kinh nghiệm thực tế, những gì đã được chứng minh", "value": "S" },
+        { "id": "B", "text": "Linh cảm, trực giác của bản thân", "value": "N" }
+      ]
+    },
+    {
+      "id": 22,
+      "dimension": "SN",
+      "question": "Khi giải quyết vấn đề, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Dựa vào dữ liệu, số liệu cụ thể", "value": "S" },
+        { "id": "B", "text": "Tìm các mô hình, quy luật ẩn sau", "value": "N" }
+      ]
+    },
+    {
+      "id": 23,
+      "dimension": "SN",
+      "question": "Bạn thích nói về điều gì hơn?",
+      "options": [
+        { "id": "A", "text": "Những điều đang xảy ra trong hiện tại", "value": "S" },
+        { "id": "B", "text": "Những khả năng, ý tưởng cho tương lai", "value": "N" }
+      ]
+    },
+    {
+      "id": 24,
+      "dimension": "SN",
+      "question": "Trong công việc, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Công việc có quy trình rõ ràng, lặp lại", "value": "S" },
+        { "id": "B", "text": "Công việc đòi hỏi sáng tạo, giải quyết vấn đề mới", "value": "N" }
+      ]
+    },
+    {
+      "id": 25,
+      "dimension": "SN",
+      "question": "Bạn thường nhớ điều gì rõ hơn?",
+      "options": [
+        { "id": "A", "text": "Chi tiết cụ thể: ngày tháng, số liệu, sự kiện", "value": "S" },
+        { "id": "B", "text": "Ấn tượng chung, cảm xúc, ý nghĩa", "value": "N" }
+      ]
+    },
+    {
+      "id": 26,
+      "dimension": "SN",
+      "question": "Khi được hỏi 'Bạn muốn gì?', bạn thường:",
+      "options": [
+        { "id": "A", "text": "Nói rõ ràng, cụ thể những gì mình muốn", "value": "S" },
+        { "id": "B", "text": "Mô tả khái quát, để ngỏ nhiều khả năng", "value": "N" }
+      ]
+    },
+    {
+      "id": 27,
+      "dimension": "SN",
+      "question": "Bạn thường được nhận xét là người:",
+      "options": [
+        { "id": "A", "text": "Thực tế, chân đất, đáng tin cậy", "value": "S" },
+        { "id": "B", "text": "Mơ mộng, sáng tạo, đầy ý tưởng", "value": "N" }
+      ]
+    },
+    {
+      "id": 28,
+      "dimension": "SN",
+      "question": "Khi lên kế hoạch du lịch, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Đến những địa điểm nổi tiếng, được review tốt", "value": "S" },
+        { "id": "B", "text": "Khám phá nơi mới lạ, ít người biết đến", "value": "N" }
+      ]
+    },
+    {
+      "id": 29,
+      "dimension": "SN",
+      "question": "Bạn thích câu nói nào hơn?",
+      "options": [
+        { "id": "A", "text": "Nhìn là biết ngay / Seeing is believing", "value": "S" },
+        { "id": "B", "text": "Mọi thứ đều có thể / Everything is possible", "value": "N" }
+      ]
+    },
+    {
+      "id": 30,
+      "dimension": "SN",
+      "question": "Trong một dự án, bạn thích vai trò:",
+      "options": [
+        { "id": "A", "text": "Người thực thi, biến ý tưởng thành hiện thực", "value": "S" },
+        { "id": "B", "text": "Người đưa ra ý tưởng, tầm nhìn ban đầu", "value": "N" }
+      ]
+    },
+    {
+      "id": 31,
+      "dimension": "TF",
+      "question": "Khi có mâu thuẫn với người thân, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Phân tích ai đúng ai sai một cách khách quan", "value": "T" },
+        { "id": "B", "text": "Cân nhắc cảm xúc của mọi người trước", "value": "F" }
+      ]
+    },
+    {
+      "id": 32,
+      "dimension": "TF",
+      "question": "Khi đưa ra quyết định quan trọng, yếu tố nào quan trọng hơn?",
+      "options": [
+        { "id": "A", "text": "Logic, lý lẽ và kết quả thực tế", "value": "T" },
+        { "id": "B", "text": "Giá trị cá nhân và ảnh hưởng đến người khác", "value": "F" }
+      ]
+    },
+    {
+      "id": 33,
+      "dimension": "TF",
+      "question": "Khi một người bạn thất bại, bạn sẽ:",
+      "options": [
+        { "id": "A", "text": "Phân tích nguyên nhân và đề xuất cách cải thiện", "value": "T" },
+        { "id": "B", "text": "An ủi, động viên và cho họ biết bạn hiểu", "value": "F" }
+      ]
+    },
+    {
+      "id": 34,
+      "dimension": "TF",
+      "question": "Bạn thường bị người khác nhận xét là:",
+      "options": [
+        { "id": "A", "text": "Lý trí, công bằng, đôi khi hơi lạnh lùng", "value": "T" },
+        { "id": "B", "text": "Nhiệt tình, thân thiện, đôi khi quá cảm tính", "value": "F" }
+      ]
+    },
+    {
+      "id": 35,
+      "dimension": "TF",
+      "question": "Điều gì quan trọng hơn với bạn?",
+      "options": [
+        { "id": "A", "text": "Sự thật, dù đôi khi khó nghe", "value": "T" },
+        { "id": "B", "text": "Sự hài hòa trong các mối quan hệ", "value": "F" }
+      ]
+    },
+    {
+      "id": 36,
+      "dimension": "TF",
+      "question": "Khi ai đó kể khổ với bạn, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Đưa ra lời khuyên, giải pháp cụ thể", "value": "T" },
+        { "id": "B", "text": "Lắng nghe, đồng cảm với cảm xúc của họ", "value": "F" }
+      ]
+    },
+    {
+      "id": 37,
+      "dimension": "TF",
+      "question": "Bạn đánh giá một quyết định tốt dựa trên:",
+      "options": [
+        { "id": "A", "text": "Kết quả, hiệu quả đạt được", "value": "T" },
+        { "id": "B", "text": "Mọi người có hài lòng và hạnh phúc không", "value": "F" }
+      ]
+    },
+    {
+      "id": 38,
+      "dimension": "TF",
+      "question": "Khi phải phê bình ai đó, bạn:",
+      "options": [
+        { "id": "A", "text": "Nói thẳng, tập trung vào vấn đề cần sửa", "value": "T" },
+        { "id": "B", "text": "Cân nhắc cách nói để không làm họ tổn thương", "value": "F" }
+      ]
+    },
+    {
+      "id": 39,
+      "dimension": "TF",
+      "question": "Trong tranh luận, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Bảo vệ quan điểm đúng, dù không được ưa thích", "value": "T" },
+        { "id": "B", "text": "Tìm điểm chung, tránh làm mất hòa khí", "value": "F" }
+      ]
+    },
+    {
+      "id": 40,
+      "dimension": "TF",
+      "question": "Bạn thích làm việc với người:",
+      "options": [
+        { "id": "A", "text": "Có năng lực, làm việc hiệu quả", "value": "T" },
+        { "id": "B", "text": "Dễ chịu, hợp tác tốt dù năng lực trung bình", "value": "F" }
+      ]
+    },
+    {
+      "id": 41,
+      "dimension": "TF",
+      "question": "Khi bị chỉ trích, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Phân tích xem lời chỉ trích có đúng không", "value": "T" },
+        { "id": "B", "text": "Cảm thấy bị tổn thương, cần thời gian xử lý", "value": "F" }
+      ]
+    },
+    {
+      "id": 42,
+      "dimension": "TF",
+      "question": "Bạn tin rằng trong công việc:",
+      "options": [
+        { "id": "A", "text": "Công bằng quan trọng hơn lòng nhân từ", "value": "T" },
+        { "id": "B", "text": "Lòng nhân từ quan trọng hơn sự công bằng", "value": "F" }
+      ]
+    },
+    {
+      "id": 43,
+      "dimension": "TF",
+      "question": "Khi xem phim/đọc truyện, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Phân tích cốt truyện, logic của tình tiết", "value": "T" },
+        { "id": "B", "text": "Đồng cảm với nhân vật, cảm nhận cảm xúc", "value": "F" }
+      ]
+    },
+    {
+      "id": 44,
+      "dimension": "TF",
+      "question": "Bạn nghĩ điều gì tốt hơn?",
+      "options": [
+        { "id": "A", "text": "Nói thật dù có thể làm người khác buồn", "value": "T" },
+        { "id": "B", "text": "Nói khéo để giữ mối quan hệ tốt đẹp", "value": "F" }
+      ]
+    },
+    {
+      "id": 45,
+      "dimension": "TF",
+      "question": "Người khác thường tìm đến bạn khi họ cần:",
+      "options": [
+        { "id": "A", "text": "Lời khuyên, giải pháp cho vấn đề", "value": "T" },
+        { "id": "B", "text": "Ai đó lắng nghe và thấu hiểu", "value": "F" }
+      ]
+    },
+    {
+      "id": 46,
+      "dimension": "JP",
+      "question": "Khi lên kế hoạch đi chơi, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Lập kế hoạch chi tiết từ trước", "value": "J" },
+        { "id": "B", "text": "Quyết định theo tình hình, linh hoạt", "value": "P" }
+      ]
+    },
+    {
+      "id": 47,
+      "dimension": "JP",
+      "question": "Bàn làm việc của bạn thường:",
+      "options": [
+        { "id": "A", "text": "Ngăn nắp, mọi thứ có chỗ của nó", "value": "J" },
+        { "id": "B", "text": "Hơi bừa bộn nhưng bạn biết mọi thứ ở đâu", "value": "P" }
+      ]
+    },
+    {
+      "id": 48,
+      "dimension": "JP",
+      "question": "Khi có deadline, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Hoàn thành sớm để yên tâm", "value": "J" },
+        { "id": "B", "text": "Làm hiệu quả nhất khi gần deadline", "value": "P" }
+      ]
+    },
+    {
+      "id": 49,
+      "dimension": "JP",
+      "question": "Bạn thích lịch trình công việc như thế nào?",
+      "options": [
+        { "id": "A", "text": "Có lịch rõ ràng, biết trước phải làm gì", "value": "J" },
+        { "id": "B", "text": "Linh hoạt, có thể thay đổi tùy tình huống", "value": "P" }
+      ]
+    },
+    {
+      "id": 50,
+      "dimension": "JP",
+      "question": "Khi kế hoạch bị thay đổi đột ngột, bạn:",
+      "options": [
+        { "id": "A", "text": "Cảm thấy khó chịu, mất kiểm soát", "value": "J" },
+        { "id": "B", "text": "Chấp nhận dễ dàng, thích ứng nhanh", "value": "P" }
+      ]
+    },
+    {
+      "id": 51,
+      "dimension": "JP",
+      "question": "Bạn thích mua sắm như thế nào?",
+      "options": [
+        { "id": "A", "text": "Lên danh sách, mua đúng những gì cần", "value": "J" },
+        { "id": "B", "text": "Đi xem, thích gì thì mua", "value": "P" }
+      ]
+    },
+    {
+      "id": 52,
+      "dimension": "JP",
+      "question": "Trong công việc, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Hoàn thành xong việc này mới làm việc khác", "value": "J" },
+        { "id": "B", "text": "Làm nhiều việc song song, chuyển đổi linh hoạt", "value": "P" }
+      ]
+    },
+    {
+      "id": 53,
+      "dimension": "JP",
+      "question": "Bạn cảm thấy thoải mái hơn khi:",
+      "options": [
+        { "id": "A", "text": "Mọi thứ đã được quyết định rõ ràng", "value": "J" },
+        { "id": "B", "text": "Vẫn còn nhiều lựa chọn để mở", "value": "P" }
+      ]
+    },
+    {
+      "id": 54,
+      "dimension": "JP",
+      "question": "Khi đi du lịch, bạn thích:",
+      "options": [
+        { "id": "A", "text": "Có lịch trình cụ thể cho từng ngày", "value": "J" },
+        { "id": "B", "text": "Tự do khám phá, không bị ràng buộc", "value": "P" }
+      ]
+    },
+    {
+      "id": 55,
+      "dimension": "JP",
+      "question": "Bạn thường:",
+      "options": [
+        { "id": "A", "text": "Đến đúng giờ hoặc sớm hơn", "value": "J" },
+        { "id": "B", "text": "Đến vừa kịp giờ hoặc hơi muộn", "value": "P" }
+      ]
+    },
+    {
+      "id": 56,
+      "dimension": "JP",
+      "question": "Khi làm một dự án lớn, bạn:",
+      "options": [
+        { "id": "A", "text": "Chia nhỏ và lập kế hoạch cho từng phần", "value": "J" },
+        { "id": "B", "text": "Bắt đầu làm và điều chỉnh dần", "value": "P" }
+      ]
+    },
+    {
+      "id": 57,
+      "dimension": "JP",
+      "question": "Bạn thích cuộc sống:",
+      "options": [
+        { "id": "A", "text": "Có cấu trúc, dự đoán được", "value": "J" },
+        { "id": "B", "text": "Tự do, nhiều bất ngờ thú vị", "value": "P" }
+      ]
+    },
+    {
+      "id": 58,
+      "dimension": "JP",
+      "question": "Khi phải quyết định nhanh, bạn:",
+      "options": [
+        { "id": "A", "text": "Quyết định dứt khoát và theo đến cùng", "value": "J" },
+        { "id": "B", "text": "Giữ các lựa chọn mở, có thể thay đổi sau", "value": "P" }
+      ]
+    },
+    {
+      "id": 59,
+      "dimension": "JP",
+      "question": "Bạn được nhận xét là người:",
+      "options": [
+        { "id": "A", "text": "Có tổ chức, đáng tin cậy, đúng hạn", "value": "J" },
+        { "id": "B", "text": "Linh hoạt, dễ tính, dễ thích ứng", "value": "P" }
+      ]
+    },
+    {
+      "id": 60,
+      "dimension": "JP",
+      "question": "Khi có việc cần làm, bạn thường:",
+      "options": [
+        { "id": "A", "text": "Làm ngay để xong sớm", "value": "J" },
+        { "id": "B", "text": "Chờ đến khi có cảm hứng hoặc cần thiết", "value": "P" }
+      ]
+    }
+  ],
+  "results": {
+    "INTJ": {
+      "title": "INTJ - Nhà Chiến Lược",
+      "nickname": "The Architect",
+      "description": "Bạn là người có tầm nhìn xa, độc lập và quyết đoán. Bạn luôn tìm kiếm cách cải thiện mọi thứ và có khả năng lập kế hoạch chiến lược xuất sắc.",
+      "strengths": ["Tư duy chiến lược", "Độc lập", "Quyết đoán", "Cầu tiến", "Tự tin"],
+      "weaknesses": ["Có thể quá phê phán", "Khó thể hiện cảm xúc", "Thiếu kiên nhẫn với người khác"],
+      "careers": ["Nhà khoa học", "Kỹ sư", "Quản lý chiến lược", "Luật sư", "Nhà đầu tư"],
+      "compatibility": ["ENFP", "ENTP"],
+      "percentage": "2.1%"
+    },
+    "INTP": {
+      "title": "INTP - Nhà Logic Học",
+      "nickname": "The Logician",
+      "description": "Bạn yêu thích phân tích và lý thuyết. Bạn luôn tìm kiếm sự hiểu biết sâu sắc về cách mọi thứ hoạt động và thích giải quyết các vấn đề phức tạp.",
+      "strengths": ["Phân tích logic", "Sáng tạo", "Khách quan", "Thích học hỏi", "Trung thực"],
+      "weaknesses": ["Có thể xa cách", "Khó theo deadline", "Hay do dự"],
+      "careers": ["Nhà nghiên cứu", "Lập trình viên", "Triết gia", "Kiến trúc sư", "Nhà toán học"],
+      "compatibility": ["ENTJ", "ENFJ"],
+      "percentage": "3.3%"
+    },
+    "ENTJ": {
+      "title": "ENTJ - Nhà Chỉ Huy",
+      "nickname": "The Commander",
+      "description": "Bạn là người lãnh đạo bẩm sinh với sự quyết đoán và khả năng tổ chức xuất sắc. Bạn có tầm nhìn lớn và biết cách truyền cảm hứng cho người khác.",
+      "strengths": ["Lãnh đạo mạnh mẽ", "Quyết đoán", "Hiệu quả", "Tự tin", "Chiến lược"],
+      "weaknesses": ["Có thể áp đảo", "Thiếu kiên nhẫn", "Khó chấp nhận thất bại"],
+      "careers": ["CEO", "Doanh nhân", "Luật sư", "Giám đốc điều hành", "Chính trị gia"],
+      "compatibility": ["INTP", "INFP"],
+      "percentage": "1.8%"
+    },
+    "ENTP": {
+      "title": "ENTP - Người Tranh Luận",
+      "nickname": "The Debater",
+      "description": "Bạn thông minh, sáng tạo và thích thách thức các ý tưởng. Bạn giỏi trong việc tìm ra giải pháp mới và thích tranh luận để khám phá sự thật.",
+      "strengths": ["Sáng tạo", "Nhanh nhẹn", "Linh hoạt", "Tự tin", "Hài hước"],
+      "weaknesses": ["Có thể tranh cãi quá nhiều", "Khó hoàn thành việc", "Thiếu kiên nhẫn"],
+      "careers": ["Doanh nhân", "Luật sư", "Nhà tư vấn", "Nhà báo", "Nhà phát minh"],
+      "compatibility": ["INTJ", "INFJ"],
+      "percentage": "3.2%"
+    },
+    "INFJ": {
+      "title": "INFJ - Người Ủng Hộ",
+      "nickname": "The Advocate",
+      "description": "Bạn là người có trực giác mạnh mẽ, lý tưởng và luôn muốn giúp đỡ người khác. Bạn có khả năng thấu hiểu sâu sắc và tìm kiếm ý nghĩa trong cuộc sống.",
+      "strengths": ["Thấu hiểu sâu sắc", "Sáng tạo", "Tận tâm", "Có nguyên tắc", "Kiên định"],
+      "weaknesses": ["Có thể quá cầu toàn", "Dễ kiệt sức", "Khó mở lòng"],
+      "careers": ["Nhà tâm lý", "Nhà văn", "Giáo viên", "Nhà hoạt động xã hội", "Bác sĩ"],
+      "compatibility": ["ENTP", "ENFP"],
+      "percentage": "1.5%"
+    },
+    "INFP": {
+      "title": "INFP - Người Hòa Giải",
+      "nickname": "The Mediator",
+      "description": "Bạn là người lý tưởng, sáng tạo và luôn tìm kiếm ý nghĩa sâu sắc trong cuộc sống. Bạn có trái tim nhân hậu và luôn đấu tranh cho những giá trị mình tin tưởng.",
+      "strengths": ["Sáng tạo", "Đồng cảm", "Trung thành", "Lý tưởng", "Tận tâm"],
+      "weaknesses": ["Có thể quá nhạy cảm", "Khó thực tế", "Dễ tự chỉ trích"],
+      "careers": ["Nhà văn", "Nghệ sĩ", "Nhà tâm lý", "Nhà hoạt động xã hội", "Nhạc sĩ"],
+      "compatibility": ["ENTJ", "ENFJ"],
+      "percentage": "4.4%"
+    },
+    "ENFJ": {
+      "title": "ENFJ - Người Đại Diện",
+      "nickname": "The Protagonist",
+      "description": "Bạn là người lãnh đạo có sức ảnh hưởng, quan tâm đến người khác và giỏi truyền cảm hứng. Bạn có khả năng kết nối con người và tạo ra sự thay đổi tích cực.",
+      "strengths": ["Lãnh đạo truyền cảm hứng", "Đồng cảm", "Giao tiếp tốt", "Tận tâm", "Đáng tin cậy"],
+      "weaknesses": ["Có thể quá lý tưởng", "Dễ bị tổn thương", "Khó từ chối người khác"],
+      "careers": ["Giáo viên", "Huấn luyện viên", "HR Manager", "Nhà ngoại giao", "Nhà tâm lý"],
+      "compatibility": ["INTP", "INFP"],
+      "percentage": "2.5%"
+    },
+    "ENFP": {
+      "title": "ENFP - Người Truyền Cảm Hứng",
+      "nickname": "The Campaigner",
+      "description": "Bạn nhiệt tình, sáng tạo và luôn tìm kiếm những khả năng mới. Bạn có năng lượng tích cực lan tỏa và khả năng kết nối với mọi người.",
+      "strengths": ["Sáng tạo", "Nhiệt tình", "Giao tiếp tốt", "Thích ứng nhanh", "Lạc quan"],
+      "weaknesses": ["Có thể thiếu tập trung", "Dễ chán", "Khó thực hiện ý tưởng"],
+      "careers": ["Diễn viên", "Nhà văn", "Nhà tư vấn", "Doanh nhân", "MC"],
+      "compatibility": ["INTJ", "INFJ"],
+      "percentage": "8.1%"
+    },
+    "ISTJ": {
+      "title": "ISTJ - Người Thực Thi",
+      "nickname": "The Logistician",
+      "description": "Bạn đáng tin cậy, có trách nhiệm và luôn hoàn thành nhiệm vụ được giao. Bạn tôn trọng truyền thống và có đạo đức làm việc mạnh mẽ.",
+      "strengths": ["Đáng tin cậy", "Có tổ chức", "Thực tế", "Kiên nhẫn", "Trung thực"],
+      "weaknesses": ["Có thể quá cứng nhắc", "Khó thay đổi", "Ít linh hoạt"],
+      "careers": ["Kế toán", "Luật sư", "Bác sĩ", "Quản lý dự án", "Kiểm toán viên"],
+      "compatibility": ["ESFP", "ESTP"],
+      "percentage": "11.6%"
+    },
+    "ISFJ": {
+      "title": "ISFJ - Người Bảo Vệ",
+      "nickname": "The Defender",
+      "description": "Bạn là người ấm áp, chu đáo và luôn sẵn sàng giúp đỡ người thân yêu. Bạn có trí nhớ tốt và rất chú ý đến nhu cầu của người khác.",
+      "strengths": ["Chu đáo", "Đáng tin cậy", "Kiên nhẫn", "Trung thành", "Quan sát tốt"],
+      "weaknesses": ["Có thể quá khiêm tốn", "Khó từ chối", "Tránh xung đột"],
+      "careers": ["Y tá", "Giáo viên", "Nhân viên xã hội", "Quản gia", "Thư ký"],
+      "compatibility": ["ESFP", "ESTP"],
+      "percentage": "13.8%"
+    },
+    "ESTJ": {
+      "title": "ESTJ - Người Giám Sát",
+      "nickname": "The Executive",
+      "description": "Bạn là người tổ chức giỏi, thực tế và luôn duy trì trật tự. Bạn có khả năng quản lý và đưa ra quyết định nhanh chóng.",
+      "strengths": ["Tổ chức giỏi", "Quyết đoán", "Trung thực", "Có trách nhiệm", "Thực tế"],
+      "weaknesses": ["Có thể quá cứng nhắc", "Khó linh hoạt", "Thiếu kiên nhẫn"],
+      "careers": ["Quản lý", "Cảnh sát", "Thẩm phán", "Kế toán trưởng", "Quân đội"],
+      "compatibility": ["ISFP", "ISTP"],
+      "percentage": "8.7%"
+    },
+    "ESFJ": {
+      "title": "ESFJ - Người Chăm Sóc",
+      "nickname": "The Consul",
+      "description": "Bạn thân thiện, quan tâm đến người khác và luôn muốn tạo sự hài hòa. Bạn có khả năng tổ chức các sự kiện và kết nối mọi người.",
+      "strengths": ["Quan tâm", "Trung thành", "Hợp tác", "Thực tế", "Tổ chức tốt"],
+      "weaknesses": ["Có thể quá lo lắng", "Sợ xung đột", "Cần được công nhận"],
+      "careers": ["Y tá", "Giáo viên", "HR", "Event Organizer", "Nhân viên bán hàng"],
+      "compatibility": ["ISFP", "ISTP"],
+      "percentage": "12.3%"
+    },
+    "ISTP": {
+      "title": "ISTP - Nhà Kỹ Thuật",
+      "nickname": "The Virtuoso",
+      "description": "Bạn thực tế, linh hoạt và giỏi giải quyết vấn đề. Bạn thích khám phá cách mọi thứ hoạt động và có kỹ năng thực hành tốt.",
+      "strengths": ["Thực tế", "Linh hoạt", "Logic", "Giải quyết vấn đề", "Bình tĩnh"],
+      "weaknesses": ["Có thể xa cách", "Khó cam kết dài hạn", "Ít thể hiện cảm xúc"],
+      "careers": ["Kỹ sư", "Phi công", "Thợ cơ khí", "Nhà phân tích", "Vận động viên"],
+      "compatibility": ["ESTJ", "ESFJ"],
+      "percentage": "5.4%"
+    },
+    "ISFP": {
+      "title": "ISFP - Nghệ Sĩ",
+      "nickname": "The Adventurer",
+      "description": "Bạn nhạy cảm, sáng tạo và yêu cái đẹp trong cuộc sống. Bạn sống theo giá trị cá nhân và có khiếu thẩm mỹ cao.",
+      "strengths": ["Sáng tạo", "Nhạy cảm", "Trung thành", "Linh hoạt", "Thẩm mỹ"],
+      "weaknesses": ["Có thể quá nhạy cảm", "Tránh xung đột", "Khó lên kế hoạch"],
+      "careers": ["Nghệ sĩ", "Nhà thiết kế", "Nhạc sĩ", "Đầu bếp", "Nhiếp ảnh gia"],
+      "compatibility": ["ESTJ", "ESFJ"],
+      "percentage": "8.8%"
+    },
+    "ESTP": {
+      "title": "ESTP - Người Hành Động",
+      "nickname": "The Entrepreneur",
+      "description": "Bạn năng động, thực tế và thích những trải nghiệm mới mẻ. Bạn có khả năng phản ứng nhanh và thích sống trong hiện tại.",
+      "strengths": ["Năng động", "Thực tế", "Linh hoạt", "Quyết đoán", "Xã giao tốt"],
+      "weaknesses": ["Có thể thiếu kiên nhẫn", "Bốc đồng", "Khó lên kế hoạch dài hạn"],
+      "careers": ["Doanh nhân", "Nhân viên bán hàng", "Cảnh sát", "Vận động viên", "MC"],
+      "compatibility": ["ISFJ", "ISTJ"],
+      "percentage": "4.3%"
+    },
+    "ESFP": {
+      "title": "ESFP - Người Biểu Diễn",
+      "nickname": "The Entertainer",
+      "description": "Bạn vui vẻ, hào phóng và luôn biết cách làm mọi người xung quanh vui. Bạn sống trọn vẹn trong hiện tại và yêu thích cuộc sống.",
+      "strengths": ["Vui vẻ", "Thực tế", "Linh hoạt", "Hào phóng", "Xã giao tốt"],
+      "weaknesses": ["Có thể thiếu tập trung", "Tránh xung đột", "Khó lên kế hoạch"],
+      "careers": ["Diễn viên", "MC", "Nhân viên bán hàng", "Huấn luyện viên", "Event Planner"],
+      "compatibility": ["ISFJ", "ISTJ"],
+      "percentage": "8.5%"
+    }
+  }
+}
