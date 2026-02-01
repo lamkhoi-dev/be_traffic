@@ -94,6 +94,96 @@ router.get('/grade-type/:gradeType', async (req, res) => {
   }
 })
 
+// Get assessment test with mixed questions from all subjects and grades
+router.get('/assessment/:assessmentId', async (req, res) => {
+  try {
+    const assessmentId = parseInt(req.params.assessmentId)
+    
+    if (assessmentId < 1 || assessmentId > 50) {
+      return res.status(400).json({ success: false, message: 'Invalid assessment ID (1-50)' })
+    }
+    
+    // Use assessmentId as seed for consistent random selection
+    const seed = assessmentId
+    
+    // Get all questions from grade10, grade11, grade12 tests
+    const gradeTypes = ['grade10', 'grade11', 'grade12']
+    const subjects = ['math', 'physics', 'english', 'history']
+    
+    // Get all tests from these grade types
+    const tests = await Test.find({ 
+      type: { $in: gradeTypes },
+      isActive: true 
+    })
+    
+    const testIds = tests.map(t => t._id)
+    
+    // Get all questions from these tests
+    const allQuestions = await Question.find({ 
+      testId: { $in: testIds }
+    })
+    
+    if (allQuestions.length < 30) {
+      return res.status(400).json({ 
+        success: false, 
+        message: `Không đủ câu hỏi. Hiện có ${allQuestions.length} câu, cần ít nhất 30 câu.`
+      })
+    }
+    
+    // Seeded random function for consistent results
+    const seededRandom = (s) => {
+      const x = Math.sin(s++) * 10000
+      return x - Math.floor(x)
+    }
+    
+    // Shuffle array with seed
+    const shuffleWithSeed = (array, s) => {
+      const shuffled = [...array]
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(seededRandom(s + i) * (i + 1))
+        ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+      }
+      return shuffled
+    }
+    
+    // Create a test-to-info map
+    const testInfoMap = {}
+    tests.forEach(t => {
+      testInfoMap[t._id.toString()] = {
+        subject: t.subject,
+        grade: t.type.replace('grade', '')
+      }
+    })
+    
+    // Add subject and grade info to questions
+    const questionsWithInfo = allQuestions.map(q => {
+      const testInfo = testInfoMap[q.testId.toString()] || {}
+      return {
+        question: q.question,
+        options: q.options,
+        correctAnswer: q.correctAnswer,
+        subject: testInfo.subject,
+        grade: testInfo.grade
+      }
+    })
+    
+    // Shuffle and pick 30 questions
+    const shuffled = shuffleWithSeed(questionsWithInfo, seed)
+    const selectedQuestions = shuffled.slice(0, 30)
+    
+    res.json({ 
+      success: true, 
+      assessmentId,
+      questions: selectedQuestions,
+      totalQuestions: 30,
+      duration: 45
+    })
+  } catch (error) {
+    console.error('Assessment error:', error)
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
 // Get single test by ID
 router.get('/:id', async (req, res) => {
   try {
