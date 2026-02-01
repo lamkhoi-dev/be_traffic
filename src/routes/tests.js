@@ -299,8 +299,8 @@ const path = require('path')
 // Get MBTI test with random 30 questions
 router.get('/mbti/start', async (req, res) => {
   try {
-    // Load MBTI data
-    const mbtiPath = path.join(__dirname, '../public/data/mbti.json')
+    // Load MBTI data - __dirname is /app/src/routes, so go up 2 levels to /app/public
+    const mbtiPath = path.join(__dirname, '../../public/data/mbti.json')
     const mbtiData = JSON.parse(fs.readFileSync(mbtiPath, 'utf8'))
     
     // Seeded random for consistent shuffling per session
@@ -375,7 +375,7 @@ router.post('/mbti/result', async (req, res) => {
     }
     
     // Load MBTI data
-    const mbtiPath = path.join(__dirname, '../public/data/mbti.json')
+    const mbtiPath = path.join(__dirname, '../../public/data/mbti.json')
     const mbtiData = JSON.parse(fs.readFileSync(mbtiPath, 'utf8'))
     
     // Create question map
