@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Bộ Chính trị Trung ương Đảng đề ra kế hoạch giải phóng hoàn toàn miền Nam trong:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hai năm 1975 và 1976"
+        },
+        {
+          "id": "B",
+          "text": "Năm 1975"
+        },
+        {
+          "id": "C",
+          "text": "Năm 1976"
+        },
+        {
+          "id": "D",
+          "text": "Ba năm 1975, 1976, 1977"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kế hoạch ban đầu là 2 năm 1975-1976, nhưng có phương án linh hoạt nếu thời cơ đến sớm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự trở về của Hồng Kông và Ma Cao với chủ quyền Trung Quốc?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuối những năm 90 của thế kỷ XX"
+        },
+        {
+          "id": "B",
+          "text": "Đầu những năm 2000"
+        },
+        {
+          "id": "C",
+          "text": "Năm 1978"
+        },
+        {
+          "id": "D",
+          "text": "Năm 1949"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hồng Kông (1997), Ma Cao (1999) trở về TQ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Bình Giã là chiến thắng mở đầu cho khả năng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh bại chiến thuật trực thăng vận"
+        },
+        {
+          "id": "B",
+          "text": "Đánh bại chiến lược Chiến tranh cục bộ"
+        },
+        {
+          "id": "C",
+          "text": "Đánh bại chiến lược Chiến tranh đặc biệt"
+        },
+        {
+          "id": "D",
+          "text": "Giải phóng toàn miền Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chiến thắng Bình Giã (12/1964) cho thấy quân giải phóng có thể đánh bại quân chủ lực ngụy trong các chiến dịch lớn, báo hiệu sự sụp đổ của Chiến tranh đặc biệt."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam và Trung Hoa Dân Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam và Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam và Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Pháp và Trung Hoa Dân Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ta ký với Pháp để đuổi quân Trung Hoa Dân Quốc về nước (Hòa để tiến)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của chiến thắng Tây Nguyên là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiêu diệt một bộ phận sinh lực địch"
+        },
+        {
+          "id": "B",
+          "text": "Giải phóng vùng đất rộng lớn"
+        },
+        {
+          "id": "C",
+          "text": "Chuyển cuộc kháng chiến từ tiến công chiến lược sang tổng tiến công chiến lược"
+        },
+        {
+          "id": "D",
+          "text": "Làm tinh thần địch hoang mang"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bước ngoặt chuyển sang tổng tiến công trên toàn miền Nam."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gửi Yêu sách đến Hội nghị Véc-xai (1919)"
+        },
+        {
+          "id": "B",
+          "text": "Đọc sơ thảo Luận cương của Lê-nin (7/1920)"
+        },
+        {
+          "id": "C",
+          "text": "Bỏ phiếu tán thành Quốc tế thứ 3 (12/1920)"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên (1925)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sự kiện bỏ phiếu gia nhập Quốc tế 3 (12/1920) đánh dấu bước chuyển từ chủ nghĩa yêu nước sang chủ nghĩa cộng sản."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Thắng lợi quân sự nào của ta đã buộc Mỹ phải ký Hiệp định Paris (1973)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến thắng Vạn Tường"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Tiến công chiến lược năm 1972"
+        },
+        {
+          "id": "C",
+          "text": "Trận \"Điện Biên Phủ trên không\" (12/1972)"
+        },
+        {
+          "id": "D",
+          "text": "Tổng tiến công Mậu Thân 1968"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đòn quyết định đập tan nỗ lực quân sự cao nhất của Mỹ, buộc Mỹ ký hiệp định."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sự kiện nào chấm dứt sự khủng hoảng về đường lối cứu nước ở Việt Nam?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Ái Quốc ra đi tìm đường cứu nước (1911)"
+        },
+        {
+          "id": "B",
+          "text": "Nguyễn Ái Quốc tìm thấy con đường cứu nước (1920)"
+        },
+        {
+          "id": "C",
+          "text": "Đảng Cộng sản Việt Nam thành lập (1930)"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng tháng Tám thành công (1945)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đảng ra đời với đường lối đúng đắn đã chấm dứt thời kỳ khủng hoảng về đường lối và giai cấp lãnh đạo."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Phong trào \"Đồng khởi\" (1959-1960) nổ ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "B",
+          "text": "Bến Tre"
+        },
+        {
+          "id": "C",
+          "text": "Quảng Ngãi"
+        },
+        {
+          "id": "D",
+          "text": "Bình Định"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bến Tre là lá cờ đầu của phong trào Đồng khởi (17/1/1960)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng Xanh trong nông nghiệp được thực hiện thành công nhất ở quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "C",
+          "text": "Thái Lan"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ấn Độ nổi tiếng với cuộc Cách mạng Xanh (tự túc lương thực) và Cách mạng Chất xám."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Lời kêu gọi Toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh ra đời vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "19/12/1946"
+        },
+        {
+          "id": "B",
+          "text": "2/9/1945"
+        },
+        {
+          "id": "C",
+          "text": "6/3/1946"
+        },
+        {
+          "id": "D",
+          "text": "22/12/1944"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đêm 19/12/1946, kháng chiến toàn quốc bùng nổ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan quyết định thắng lợi của Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự lãnh đạo đúng đắn của Đảng và Bác Hồ"
+        },
+        {
+          "id": "B",
+          "text": "Quân Đồng minh đánh bại phát xít Nhật"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần đoàn kết của nhân dân thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Sự ủng hộ của Liên Xô"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tuyến phòng thủ kiên cố nhất của địch bảo vệ Sài Gòn từ hướng Đông là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xuân Lộc"
+        },
+        {
+          "id": "B",
+          "text": "Phan Rang"
+        },
+        {
+          "id": "C",
+          "text": "Biên Hòa"
+        },
+        {
+          "id": "D",
+          "text": "Vũng Tàu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xuân Lộc là 'cánh cửa thép'. Ta đập tan tuyến này ngày 21/4."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Đường lối kháng chiến chống Pháp của Đảng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Toàn dân, toàn diện, trường kỳ, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế"
+        },
+        {
+          "id": "B",
+          "text": "Đánh nhanh thắng nhanh"
+        },
+        {
+          "id": "C",
+          "text": "Phòng ngự chặt, phản công nhanh"
+        },
+        {
+          "id": "D",
+          "text": "Dựa hoàn toàn vào viện trợ nước ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường lối kháng chiến đúng đắn được đúc kết trong tác phẩm 'Kháng chiến nhất định thắng lợi'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bức tường Berlin được xây dựng vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1957"
+        },
+        {
+          "id": "B",
+          "text": "1959"
+        },
+        {
+          "id": "C",
+          "text": "1961"
+        },
+        {
+          "id": "D",
+          "text": "1963"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bức tường Berlin được xây dựng năm 1961 để chia cách Berlin Tây và Berlin Đông."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cuộc đấu tranh đòi thả Phan Bội Châu (1925) do giai cấp nào khởi xướng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nhân"
+        },
+        {
+          "id": "B",
+          "text": "Tư sản và Tiểu tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Địa chủ"
+        },
+        {
+          "id": "D",
+          "text": "Nông dân"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là phong trào dân chủ công khai của tầng lớp tư sản và tiểu tư sản trí thức."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chính sách 'Glasnost' của Gorbachev có nghĩa là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cải cách kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Công khai minh bạch"
+        },
+        {
+          "id": "C",
+          "text": "Tự do chính trị"
+        },
+        {
+          "id": "D",
+          "text": "Cộng hòa hóa"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Glasnost là chính sách công khai, minh bạch được Gorbachev đề ra."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Chiến thắng Vạn Tường (8/1965) được coi là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "\"Ấp Bắc\" đối với quân Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Trận Điện Biên Phủ trên không"
+        },
+        {
+          "id": "C",
+          "text": "Đòn quyết định kết thúc chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Sự khởi đầu của phong trào Đồng khởi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chứng minh quân dân miền Nam hoàn toàn có thể đánh bại quân Mỹ (như Ấp Bắc đánh bại quân ngụy)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hội nghị Trung ương 8 (5/1941) do Nguyễn Ái Quốc chủ trì đã xác định nhiệm vụ hàng đầu của cách mạng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giải phóng dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng ruộng đất"
+        },
+        {
+          "id": "C",
+          "text": "Đấu tranh giai cấp"
+        },
+        {
+          "id": "D",
+          "text": "Xây dựng chủ nghĩa xã hội"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, tạm gác khẩu hiệu cách mạng ruộng đất."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chiến thắng nào đã phá tan cuộc tấn công mùa đông của Pháp lên Việt Bắc năm 1947?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến thắng Biên giới"
+        },
+        {
+          "id": "B",
+          "text": "Chiến thắng Việt Bắc thu - đông"
+        },
+        {
+          "id": "C",
+          "text": "Chiến thắng Sông Lô"
+        },
+        {
+          "id": "D",
+          "text": "Chiến thắng Đông Khê"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến dịch Việt Bắc thu - đông 1947 làm thất bại âm mưu 'đánh nhanh thắng nhanh' của Pháp."
+    }
+  ]
+}

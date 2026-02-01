@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "We usually ________ visiting our grandparents on weekends.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoy"
+        },
+        {
+          "id": "B",
+          "text": "are enjoying"
+        },
+        {
+          "id": "C",
+          "text": "enjoys"
+        },
+        {
+          "id": "D",
+          "text": "enjoyed"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Enjoy' là động từ chỉ trạng thái/cảm xúc (stative verb), thường không dùng ở tiếp diễn. 'Usually' -> Hiện tại đơn."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Find the word closest in meaning to 'economical'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "expensive"
+        },
+        {
+          "id": "B",
+          "text": "wasteful"
+        },
+        {
+          "id": "C",
+          "text": "cheap"
+        },
+        {
+          "id": "D",
+          "text": "money-saving"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Economical: tiết kiệm (money-saving)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Conditional Sentence: 'Unless you work hard, you ________ pass the exam.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will"
+        },
+        {
+          "id": "B",
+          "text": "won't"
+        },
+        {
+          "id": "C",
+          "text": "would"
+        },
+        {
+          "id": "D",
+          "text": "wouldn't"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Unless = If not. Nếu không học chăm thì sẽ không đậu (won't)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Look! The rain ________ heavily.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "falls"
+        },
+        {
+          "id": "B",
+          "text": "fall"
+        },
+        {
+          "id": "C",
+          "text": "is falling"
+        },
+        {
+          "id": "D",
+          "text": "are falling"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có từ 'Look!' báo hiệu hành động đang xảy ra -> Hiện tại tiếp diễn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "More trees ________ in the schoolyard next week.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "plant"
+        },
+        {
+          "id": "B",
+          "text": "will plant"
+        },
+        {
+          "id": "C",
+          "text": "will be planted"
+        },
+        {
+          "id": "D",
+          "text": "are planted"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cây được trồng (bị động) và thời gian 'next week' -> Tương lai đơn bị động."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "I have ________ used a 3D printer before.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ever"
+        },
+        {
+          "id": "B",
+          "text": "never"
+        },
+        {
+          "id": "C",
+          "text": "ago"
+        },
+        {
+          "id": "D",
+          "text": "since"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Have never used (chưa bao giờ dùng)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "If I saw a bear, I ________ run away.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will"
+        },
+        {
+          "id": "B",
+          "text": "would"
+        },
+        {
+          "id": "C",
+          "text": "can"
+        },
+        {
+          "id": "D",
+          "text": "shall"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 2 (saw -> would run)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "My parents let me ________ out late on weekends.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "stay"
+        },
+        {
+          "id": "B",
+          "text": "to stay"
+        },
+        {
+          "id": "C",
+          "text": "staying"
+        },
+        {
+          "id": "D",
+          "text": "stayed"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc: Let + O + V (bare infinitive - nguyên thể không to)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "UNICEF aims to support ________ children and mothers.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "disadvantage"
+        },
+        {
+          "id": "B",
+          "text": "disadvantaged"
+        },
+        {
+          "id": "C",
+          "text": "advantage"
+        },
+        {
+          "id": "D",
+          "text": "rich"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Disadvantaged children: trẻ em chịu thiệt thòi."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "My father said: 'I will repair the bike tomorrow.' -> My father said he would repair the bike ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tomorrow"
+        },
+        {
+          "id": "B",
+          "text": "the next day"
+        },
+        {
+          "id": "C",
+          "text": "yesterday"
+        },
+        {
+          "id": "D",
+          "text": "today"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tomorrow -> the next day / the following day."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Sea levels are rising because the polar ice caps are ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "freezing"
+        },
+        {
+          "id": "B",
+          "text": "melting"
+        },
+        {
+          "id": "C",
+          "text": "burning"
+        },
+        {
+          "id": "D",
+          "text": "falling"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Melting: tan chảy."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Relative Clauses: 'The laptop ________ I bought yesterday is very fast.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "whom"
+        },
+        {
+          "id": "C",
+          "text": "whose"
+        },
+        {
+          "id": "D",
+          "text": "which"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vật (laptop) -> dùng Which (hoặc That)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Using technology in class prepares students for the ________ world.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "modern"
+        },
+        {
+          "id": "B",
+          "text": "future"
+        },
+        {
+          "id": "C",
+          "text": "past"
+        },
+        {
+          "id": "D",
+          "text": "history"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Modern world: thế giới hiện đại."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vietnam has become an active ________ of ASEAN since 1995.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "member"
+        },
+        {
+          "id": "B",
+          "text": "membership"
+        },
+        {
+          "id": "C",
+          "text": "person"
+        },
+        {
+          "id": "D",
+          "text": "guest"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Active member: thành viên tích cực."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Choose the word pronounced differently: 'put', 'cut', 'but', 'shut'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "put"
+        },
+        {
+          "id": "B",
+          "text": "cut"
+        },
+        {
+          "id": "C",
+          "text": "but"
+        },
+        {
+          "id": "D",
+          "text": "shut"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Put phát âm /ʊ/ (u ngắn), các từ còn lại là /ʌ/."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify the error: 'He said me that he was tired.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "me"
+        },
+        {
+          "id": "C",
+          "text": "that"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sai dùng 'said me'. Phải là 'told me' hoặc 'said to me'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "He asked me where I ________ from.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "come"
+        },
+        {
+          "id": "B",
+          "text": "came"
+        },
+        {
+          "id": "C",
+          "text": "coming"
+        },
+        {
+          "id": "D",
+          "text": "to come"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu hỏi tường thuật (Wh-question): lùi thì (come -> came)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "At 8 PM last night, I ________ TV.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "watched"
+        },
+        {
+          "id": "B",
+          "text": "was watching"
+        },
+        {
+          "id": "C",
+          "text": "watch"
+        },
+        {
+          "id": "D",
+          "text": "have watched"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời điểm cụ thể trong quá khứ (8 PM last night) -> Quá khứ tiếp diễn."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "We are looking for volunteers to help ________ the local orphanage.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Help at + địa điểm (orphanage/school...)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "If you ________ now, you will be late for the bus.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "didn't leave"
+        },
+        {
+          "id": "B",
+          "text": "don't leave"
+        },
+        {
+          "id": "C",
+          "text": "won't leave"
+        },
+        {
+          "id": "D",
+          "text": "not leave"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 1. Mệnh đề If phủ định hiện tại đơn."
+    }
+  ]
+}

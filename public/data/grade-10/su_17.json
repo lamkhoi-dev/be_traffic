@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Việc sử dụng rộng rãi máy móc dẫn đến quá trình nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đô thị hóa (sự ra đời của các thành phố công nghiệp)."
+        },
+        {
+          "id": "B",
+          "text": "Nông thôn hóa."
+        },
+        {
+          "id": "C",
+          "text": "Giảm dân số."
+        },
+        {
+          "id": "D",
+          "text": "Trở về thiên nhiên."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nông dân mất đất đổ về thành thị làm công nhân, tạo nên các đô thị lớn (như Manchester, Liverpool)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Khái niệm 'Công dân toàn cầu' xuất hiện trong bối cảnh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khi con người chỉ sống trong lũy tre làng."
+        },
+        {
+          "id": "B",
+          "text": "Khi Internet và toàn cầu hóa xóa nhòa khoảng cách địa lý."
+        },
+        {
+          "id": "C",
+          "text": "Khi có chiến tranh thế giới."
+        },
+        {
+          "id": "D",
+          "text": "Khi đi du lịch."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CMCN hiện đại thúc đẩy toàn cầu hóa mạnh mẽ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nhà nước phong kiến Trung Quốc được tổ chức theo thể chế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dân chủ chủ nô."
+        },
+        {
+          "id": "B",
+          "text": "Quân chủ chuyên chế trung ương tập quyền."
+        },
+        {
+          "id": "C",
+          "text": "Quân chủ lập hiến."
+        },
+        {
+          "id": "D",
+          "text": "Cộng hòa."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quyền lực tập trung tối đa vào tay Hoàng đế."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Yếu tố cốt lõi để thu hút khách du lịch văn hóa là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "giá rẻ."
+        },
+        {
+          "id": "B",
+          "text": "sự độc đáo và giá trị lịch sử của di sản."
+        },
+        {
+          "id": "C",
+          "text": "khách sạn sang trọng."
+        },
+        {
+          "id": "D",
+          "text": "đồ ăn ngon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nguyên bản và giá trị lịch sử là sức hút chính."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mục tiêu đấu tranh chính của phong trào Văn hóa Phục hưng là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chống lại chế độ phong kiến và Giáo hội Thiên Chúa giáo."
+        },
+        {
+          "id": "B",
+          "text": "Chống lại sự xâm lược của người Mông Cổ."
+        },
+        {
+          "id": "C",
+          "text": "Đòi tăng lương cho công nhân."
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ quyền lợi cho nông dân."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ tấn công vào trật tự phong kiến và giáo lý lỗi thời kìm hãm con người."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "CMCN lần thứ nhất bắt đầu từ ngành công nghiệp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Luyện kim."
+        },
+        {
+          "id": "B",
+          "text": "Công nghiệp dệt (nhẹ)."
+        },
+        {
+          "id": "C",
+          "text": "Hóa chất."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác than."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhu cầu mặc tăng cao thúc đẩy cải tiến máy dệt (thoi bay, máy kéo sợi...)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tư tưởng chủ đạo của văn hóa Phục hưng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thần học (đề cao Thần thánh)."
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa nhân văn (đề cao con người)."
+        },
+        {
+          "id": "C",
+          "text": "Chủ nghĩa khắc kỷ."
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa xã hội."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chủ nghĩa nhân văn đề cao giá trị, vẻ đẹp và quyền tự do của con người."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Câu nói nổi tiếng 'Hãy cho tôi một điểm tựa, tôi sẽ nâng bổng cả Trái Đất lên' là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ác-si-mét (Archimedes)."
+        },
+        {
+          "id": "B",
+          "text": "Ơ-clít."
+        },
+        {
+          "id": "C",
+          "text": "Platon."
+        },
+        {
+          "id": "D",
+          "text": "Socrates."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ác-si-mét nổi tiếng với nguyên lý đòn bẩy."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nền văn minh Ai Cập cổ đại hình thành trên lưu vực con sông nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Ấn."
+        },
+        {
+          "id": "B",
+          "text": "Sông Hằng."
+        },
+        {
+          "id": "C",
+          "text": "Sông Nin (Nile)."
+        },
+        {
+          "id": "D",
+          "text": "Sông Ơ-phrát."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ai Cập là 'tặng phẩm của sông Nin'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Nhận thức lịch sử là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Là chính bản thân các sự kiện đã diễn ra."
+        },
+        {
+          "id": "B",
+          "text": "Là những hiểu biết, tri thức của con người về quá khứ."
+        },
+        {
+          "id": "C",
+          "text": "Là sự tái hiện nguyên vẹn 100% quá khứ."
+        },
+        {
+          "id": "D",
+          "text": "Là những sự kiện lịch sử chưa từng được ghi chép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức lịch sử mang tính chủ quan, phụ thuộc vào người nghiên cứu."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ảnh hưởng của văn minh Trung Hoa đối với Việt Nam thể hiện rõ nhất ở lĩnh vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo, chữ viết, tổ chức nhà nước."
+        },
+        {
+          "id": "B",
+          "text": "Trang phục phương Tây."
+        },
+        {
+          "id": "C",
+          "text": "Ngôn ngữ Latinh."
+        },
+        {
+          "id": "D",
+          "text": "Kiến trúc Gothic."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việt Nam chịu ảnh hưởng sâu sắc của Nho giáo, chữ Hán và mô hình nhà nước phong kiến."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tri thức lịch sử có vai trò như thế nào đối với mỗi cá nhân?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giúp con người biết trước tương lai."
+        },
+        {
+          "id": "B",
+          "text": "Trang bị hiểu biết để hội nhập và phát triển."
+        },
+        {
+          "id": "C",
+          "text": "Giúp con người trở nên giàu có."
+        },
+        {
+          "id": "D",
+          "text": "Giúp con người không bao giờ mắc sai lầm."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu biết quá khứ là nền tảng để hiểu hiện tại và định hướng tương lai."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sự ra đời của ngành 'Sử liệu học' là kết quả của sự kết hợp giữa Sử học và",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "phương pháp lưu trữ, giám định văn bản."
+        },
+        {
+          "id": "B",
+          "text": "Nông nghiệp."
+        },
+        {
+          "id": "C",
+          "text": "Y học."
+        },
+        {
+          "id": "D",
+          "text": "Hóa học."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử liệu học chuyên về thu thập, phân loại và đánh giá nguồn tin."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Các vị thần Hy Lạp thường được mô tả như thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình dáng quái vật đáng sợ."
+        },
+        {
+          "id": "B",
+          "text": "Hình dáng và tính cách giống con người (nhưng bất tử)."
+        },
+        {
+          "id": "C",
+          "text": "Vô hình, không có hình dạng."
+        },
+        {
+          "id": "D",
+          "text": "Là các loài động vật."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần thoại Hy Lạp mang tính nhân bản sâu sắc (thần cũng có cảm xúc yêu ghét như người)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nguyên tắc 'nhân văn' trong Sử học đòi hỏi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bênh vực kẻ mạnh."
+        },
+        {
+          "id": "B",
+          "text": "hướng tới các giá trị tốt đẹp của con người."
+        },
+        {
+          "id": "C",
+          "text": "chỉ nghiên cứu về văn học."
+        },
+        {
+          "id": "D",
+          "text": "bỏ qua các sai lầm trong quá khứ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nhân văn hướng tới sự tiến bộ và hạnh phúc của con người."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tác động tiêu cực của Cách mạng công nghiệp là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng suất lao động tăng cao."
+        },
+        {
+          "id": "B",
+          "text": "Ô nhiễm môi trường và bóc lột lao động trẻ em."
+        },
+        {
+          "id": "C",
+          "text": "Giá thành sản phẩm rẻ."
+        },
+        {
+          "id": "D",
+          "text": "Giao thông thuận tiện."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khí thải từ than đá, điều kiện làm việc tồi tệ trong các nhà máy."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Vật liệu xây dựng đặc biệt mà người La Mã phát minh ra, giúp các công trình bền vững ngàn năm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gạch nung."
+        },
+        {
+          "id": "B",
+          "text": "Bê tông tự nhiên."
+        },
+        {
+          "id": "C",
+          "text": "Thép không gỉ."
+        },
+        {
+          "id": "D",
+          "text": "Kính cường lực."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bê tông La Mã (trộn tro núi lửa) cực kỳ bền chắc."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nhà nước Ai Cập cổ đại thống nhất vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khoảng năm 3200 TCN."
+        },
+        {
+          "id": "B",
+          "text": "Năm 179 TCN."
+        },
+        {
+          "id": "C",
+          "text": "Thế kỷ I."
+        },
+        {
+          "id": "D",
+          "text": "Năm 476."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vua Menes (Narmer) thống nhất Thượng và Hạ Ai Cập khoảng 3200 TCN."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Văn hóa Chăm-pa ở Việt Nam chịu ảnh hưởng chủ yếu của nền văn minh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung Hoa."
+        },
+        {
+          "id": "B",
+          "text": "Ấn Độ."
+        },
+        {
+          "id": "C",
+          "text": "Lưỡng Hà."
+        },
+        {
+          "id": "D",
+          "text": "Ai Cập."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Di tích Mỹ Sơn và văn hóa Chăm mang đậm dấu ấn Hin-đu giáo của Ấn Độ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Di sản văn hóa phi vật thể (như Dân ca) là đối tượng nghiên cứu của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Văn hóa học, Âm nhạc học và Sử học."
+        },
+        {
+          "id": "B",
+          "text": "chỉ riêng Sử học."
+        },
+        {
+          "id": "C",
+          "text": "Toán học."
+        },
+        {
+          "id": "D",
+          "text": "Vật lý."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần tiếp cận liên ngành để hiểu đầy đủ giá trị của di sản."
+    }
+  ]
+}

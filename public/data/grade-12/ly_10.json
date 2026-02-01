@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 10: Tổng ôn tập Học kì 2",
+    "description": "Đề tổng hợp kiến thức: Dao động điện từ, Sóng ánh sáng, Lượng tử ánh sáng và Hạt nhân nguyên tử.",
+    "duration": 50,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 12,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trong mạch dao động LC lí tưởng, năng lượng điện trường tập trung ở:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tụ điện" },
+        { "id": "B", "text": "Cuộn cảm" },
+        { "id": "C", "text": "Dây dẫn nối" },
+        { "id": "D", "text": "Không gian xung quanh mạch" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năng lượng điện trường $W_C$ tập trung ở tụ điện, năng lượng từ trường $W_L$ tập trung ở cuộn cảm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Chiếu xiên góc một chùm sáng trắng hẹp từ không khí vào nước. Chùm sáng bị khúc xạ và tách thành dải màu. Tia lệch ít nhất so với phương tia tới là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia tím" },
+        { "id": "B", "text": "Tia đỏ" },
+        { "id": "C", "text": "Tia vàng" },
+        { "id": "D", "text": "Tia lam" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$n_{đỏ} < n_{tím}$ nên $r_{đỏ} > r_{tím}$. Tia đỏ lệch ít nhất, tia tím lệch nhiều nhất."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Giới hạn quang điện của kẽm là $0,35\\mu m$. Hiện tượng quang điện sẽ **không** xảy ra nếu chiếu vào kẽm bức xạ có bước sóng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,1 $\\mu m$" },
+        { "id": "B", "text": "0,2 $\\mu m$" },
+        { "id": "C", "text": "0,3 $\\mu m$" },
+        { "id": "D", "text": "0,4 $\\mu m$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Điều kiện xảy ra quang điện: $\\lambda \\le \\lambda_0$. Ở đây $0,4 > 0,35$ nên không xảy ra."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hạt nhân $_6^{14}C$ phóng xạ $\\beta^-$ tạo thành hạt nhân con:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$_7^{14}N$" },
+        { "id": "B", "text": "$_5^{14}B$" },
+        { "id": "C", "text": "$_6^{13}C$" },
+        { "id": "D", "text": "$_7^{13}N$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phóng xạ $\\beta^-$ ($_{-1}^0 e$): Số khối A không đổi, Z tăng 1. $6 - (-1) = 7$. Vậy hạt nhân con là Nitơ $_7^{14}N$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sóng điện từ và sóng âm khi truyền từ không khí vào nước thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sóng điện từ bước sóng giảm, sóng âm bước sóng tăng" },
+        { "id": "B", "text": "Sóng điện từ bước sóng tăng, sóng âm bước sóng giảm" },
+        { "id": "C", "text": "Cả hai bước sóng đều tăng" },
+        { "id": "D", "text": "Cả hai bước sóng đều giảm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng điện từ: $v_{khí} > v_{nước} \\Rightarrow \\lambda$ giảm. Sóng âm: $v_{khí} < v_{nước} \\Rightarrow \\lambda$ tăng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng, dùng ánh sáng có $\\lambda=0,5\\mu m$, $a=1$mm, $D=2$m. Khoảng vân là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 mm" },
+        { "id": "B", "text": "0,5 mm" },
+        { "id": "C", "text": "2 mm" },
+        { "id": "D", "text": "0,25 mm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$i = \\lambda D / a = (0,5 \\cdot 2) / 1 = 1$mm."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trạng thái dừng của nguyên tử là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trạng thái electron không chuyển động" },
+        { "id": "B", "text": "Trạng thái hạt nhân không dao động" },
+        { "id": "C", "text": "Trạng thái có năng lượng hoàn toàn xác định" },
+        { "id": "D", "text": "Trạng thái nguyên tử đứng yên" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tiên đề Bo."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là phản ứng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kết hợp hai hạt nhân nhẹ thành hạt nhân nặng hơn ở nhiệt độ rất cao" },
+        { "id": "B", "text": "Hạt nhân nặng vỡ thành hai mảnh nhẹ hơn" },
+        { "id": "C", "text": "Phân rã phóng xạ" },
+        { "id": "D", "text": "Kết hợp hai hạt nhân nặng thành hạt nhân siêu nặng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa phản ứng nhiệt hạch."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tia Rơnghen (Tia X) có cùng bản chất với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia tử ngoại" },
+        { "id": "B", "text": "Tia alpha" },
+        { "id": "C", "text": "Tia beta" },
+        { "id": "D", "text": "Sóng siêu âm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cả hai đều là sóng điện từ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Biết khối lượng của proton là 1,0073u, neutron là 1,0087u, hạt nhân He(2;4) là 4,0015u. Độ hụt khối của hạt nhân He là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,0305 u" },
+        { "id": "B", "text": "0,0145 u" },
+        { "id": "C", "text": "4,0320 u" },
+        { "id": "D", "text": "0,0025 u" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta m = 2m_p + 2m_n - m_{He} = 2(1,0073) + 2(1,0087) - 4,0015 = 2,0146 + 2,0174 - 4,0015 = 4,032 - 4,0015 = 0,0305$u."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một mạch dao động LC có $L=1\\mu H$, $C=1pF$. Tần số dao động riêng của mạch là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$159$ MHz" },
+        { "id": "B", "text": "$5$ MHz" },
+        { "id": "C", "text": "$10$ MHz" },
+        { "id": "D", "text": "$50$ MHz" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f = 1/(2\\pi\\sqrt{LC})$. $LC = 10^{-6} \\cdot 10^{-12} = 10^{-18}$. $\\sqrt{LC} = 10^{-9}$. $f \\approx 1/(6,28 \\cdot 10^{-9}) \\approx 159 \\cdot 10^6$ Hz."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong quang phổ vạch của Hiđrô, dãy Banme gồm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các vạch trong vùng ánh sáng nhìn thấy và một số vạch vùng tử ngoại" },
+        { "id": "B", "text": "Chỉ các vạch trong vùng nhìn thấy" },
+        { "id": "C", "text": "Các vạch trong vùng hồng ngoại" },
+        { "id": "D", "text": "Chỉ các vạch trong vùng tử ngoại" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dãy Banme có 4 vạch (Đỏ, Lam, Chàm, Tím) vùng khả kiến và các vạch khác vùng tử ngoại."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một chất phóng xạ có chu kì bán rã là 8 ngày đêm. Sau 24 ngày đêm, tỉ lệ số hạt nhân còn lại so với ban đầu là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/8" },
+        { "id": "B", "text": "1/4" },
+        { "id": "C", "text": "1/16" },
+        { "id": "D", "text": "7/8" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$t = 24 = 3T$. Số hạt còn lại $N = N_0 \\cdot 2^{-3} = N_0/8$. Tỉ lệ 1/8."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Pin quang điện biến đổi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quang năng thành điện năng" },
+        { "id": "B", "text": "Nhiệt năng thành điện năng" },
+        { "id": "C", "text": "Cơ năng thành điện năng" },
+        { "id": "D", "text": "Hóa năng thành điện năng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên tắc hoạt động của pin mặt trời."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tia nào sau đây được dùng để tiệt trùng thực phẩm?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia tử ngoại" },
+        { "id": "B", "text": "Tia hồng ngoại" },
+        { "id": "C", "text": "Tia X" },
+        { "id": "D", "text": "Ánh sáng nhìn thấy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia tử ngoại có tác dụng diệt khuẩn mạnh."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hai khe Y-âng cách nhau $a=1$mm, màn cách khe $D=2$m. Chiếu ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Bề rộng quang phổ bậc 1 trên màn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,76 mm" },
+        { "id": "B", "text": "0,38 mm" },
+        { "id": "C", "text": "1,52 mm" },
+        { "id": "D", "text": "1,14 mm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\u0394x_1 = x_{đ1} - x_{t1} = \\frac{D}{a}(\\lambda_đ - \\lambda_t) = \\frac{2}{1}(0,76 - 0,38) = 2(0,38) = 0,76$mm."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sóng điện từ dùng trong thông tin liên lạc dưới nước là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sóng dài" },
+        { "id": "B", "text": "Sóng trung" },
+        { "id": "C", "text": "Sóng ngắn" },
+        { "id": "D", "text": "Sóng cực ngắn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng dài ít bị nước hấp thụ, dùng để liên lạc tàu ngầm."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Theo thuyết lượng tử, ánh sáng được tạo thành bởi các hạt gọi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Photon" },
+        { "id": "B", "text": "Electron" },
+        { "id": "C", "text": "Proton" },
+        { "id": "D", "text": "Neutron" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hạt ánh sáng là photon."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hạt nhân càng bền vững khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Năng lượng liên kết riêng càng lớn" },
+        { "id": "B", "text": "Năng lượng liên kết càng lớn" },
+        { "id": "C", "text": "Số khối càng lớn" },
+        { "id": "D", "text": "Độ hụt khối càng nhỏ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năng lượng liên kết RIÊNG đặc trưng cho độ bền vững."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đặc điểm nào sau đây là của quang phổ vạch hấp thụ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gồm các vạch tối trên nền quang phổ liên tục" },
+        { "id": "B", "text": "Gồm các vạch màu riêng lẻ trên nền tối" },
+        { "id": "C", "text": "Dải màu biến thiên liên tục" },
+        { "id": "D", "text": "Phụ thuộc vào nhiệt độ nguồn sáng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang phổ vạch hấp thụ là hệ thống các vạch tối trên nền quang phổ liên tục."
+    }
+  ]
+}

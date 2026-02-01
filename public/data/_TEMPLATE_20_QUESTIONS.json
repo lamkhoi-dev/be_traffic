@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 1: [Tên bài]",
+    "description": "[Mô tả ngắn về nội dung bài test]",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 1]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 2]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 3]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 4]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 5]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 6]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 7]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 8]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 9]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 10]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 11]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 12]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 13]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 14]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 15]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 16]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 17]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 18]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 19]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "[Nội dung câu hỏi 20]",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "[Đáp án A]" },
+        { "id": "B", "text": "[Đáp án B]" },
+        { "id": "C", "text": "[Đáp án C]" },
+        { "id": "D", "text": "[Đáp án D]" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "[Giải thích]"
+    }
+  ]
+}

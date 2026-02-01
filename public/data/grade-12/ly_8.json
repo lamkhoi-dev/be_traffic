@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 8: Hạt nhân nguyên tử",
+    "description": "Kiểm tra kiến thức về Cấu tạo hạt nhân, Năng lượng liên kết, Phóng xạ và Phản ứng hạt nhân.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hạt nhân nguyên tử được cấu tạo từ các hạt:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Proton và Neutron" },
+        { "id": "B", "text": "Proton và Electron" },
+        { "id": "C", "text": "Neutron và Electron" },
+        { "id": "D", "text": "Chỉ có Proton" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hạt nhân gồm các nucleon là proton và neutron."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đồng vị là các nguyên tử mà hạt nhân của chúng có:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cùng số proton nhưng khác số neutron" },
+        { "id": "B", "text": "Cùng số neutron nhưng khác số proton" },
+        { "id": "C", "text": "Cùng số khối A" },
+        { "id": "D", "text": "Cùng số electron nhưng khác số proton" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đồng vị: Cùng Z (proton), khác N (neutron) dẫn đến khác A."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lực hạt nhân là lực:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực tương tác mạnh giữa các nucleon" },
+        { "id": "B", "text": "Lực tĩnh điện" },
+        { "id": "C", "text": "Lực hấp dẫn" },
+        { "id": "D", "text": "Lực từ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lực hạt nhân (tương tác mạnh) giữ các nucleon liên kết với nhau, thắng lực đẩy tĩnh điện."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hệ thức Anh-xtanh giữa năng lượng và khối lượng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$E = mc^2$" },
+        { "id": "B", "text": "$E = \\frac{1}{2}mc^2$" },
+        { "id": "C", "text": "$E = mc$" },
+        { "id": "D", "text": "$E = m^2c$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức nổi tiếng $E = mc^2$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Độ hụt khối $\\Delta m$ của hạt nhân $_Z^A X$ được tính bằng ($m_p, m_n, m_X$ lần lượt là khối lượng proton, neutron và hạt nhân):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\Delta m = Zm_p + (A-Z)m_n - m_X$" },
+        { "id": "B", "text": "$\\Delta m = m_X - Zm_p - (A-Z)m_n$" },
+        { "id": "C", "text": "$\\Delta m = Zm_p + Am_n - m_X$" },
+        { "id": "D", "text": "$\\Delta m = m_X - Am_p$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ hụt khối = Tổng khối lượng các nucleon riêng rẽ - Khối lượng hạt nhân."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đại lượng đặc trưng cho độ bền vững của hạt nhân là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Năng lượng liên kết riêng" },
+        { "id": "B", "text": "Năng lượng liên kết" },
+        { "id": "C", "text": "Độ hụt khối" },
+        { "id": "D", "text": "Số khối A" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năng lượng liên kết riêng $\\epsilon = W_{lk}/A$ càng lớn thì hạt nhân càng bền."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phóng xạ là hiện tượng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hạt nhân không bền vững tự phân rã" },
+        { "id": "B", "text": "Hạt nhân bền vững bị phá vỡ" },
+        { "id": "C", "text": "Kết hợp hai hạt nhân nhẹ thành hạt nhân nặng" },
+        { "id": "D", "text": "Hạt nhân nặng vỡ thành hai hạt nhân nhẹ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa phóng xạ: tự động phân rã, phát ra tia phóng xạ và biến đổi thành hạt nhân khác."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tia $\\alpha$ là dòng các hạt:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hạt nhân Heli $_2^4 He$" },
+        { "id": "B", "text": "Electron" },
+        { "id": "C", "text": "Positron" },
+        { "id": "D", "text": "Photon" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bản chất tia alpha là dòng hạt nhân $_2^4 He$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tia nào sau đây có khả năng đâm xuyên mạnh nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia $\\gamma$" },
+        { "id": "B", "text": "Tia $\\alpha$" },
+        { "id": "C", "text": "Tia $\\beta^+$" },
+        { "id": "D", "text": "Tia $\\beta^-$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia gamma (sóng điện từ cao tần) đâm xuyên mạnh nhất, đi qua được bê tông, chì dày."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Chu kì bán rã $T$ là khoảng thời gian để:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một nửa số hạt nhân ban đầu bị phân rã" },
+        { "id": "B", "text": "Toàn bộ số hạt nhân bị phân rã" },
+        { "id": "C", "text": "Khối lượng chất phóng xạ giảm đi 4 lần" },
+        { "id": "D", "text": "Số hạt nhân giảm đi $e$ lần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì bán rã."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đơn vị đo khối lượng nguyên tử $u$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/12 khối lượng nguyên tử cacbon $^{12}C$" },
+        { "id": "B", "text": "Khối lượng của một proton" },
+        { "id": "C", "text": "Khối lượng của một neutron" },
+        { "id": "D", "text": "1,66055.$10^{-24}$ kg" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa đơn vị u (đvC)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong phản ứng hạt nhân, định luật nào sau đây **không** được bảo toàn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bảo toàn khối lượng nghỉ" },
+        { "id": "B", "text": "Bảo toàn số khối A" },
+        { "id": "C", "text": "Bảo toàn điện tích Z" },
+        { "id": "D", "text": "Bảo toàn năng lượng toàn phần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khối lượng nghỉ không bảo toàn (có độ hụt khối tỏa năng lượng). Các đại lượng khác bảo toàn."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Phản ứng phân hạch là phản ứng trong đó:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một hạt nhân nặng vỡ thành hai hạt nhân trung bình" },
+        { "id": "B", "text": "Hai hạt nhân nhẹ tổng hợp thành hạt nhân nặng hơn" },
+        { "id": "C", "text": "Hạt nhân tự động phát ra tia phóng xạ" },
+        { "id": "D", "text": "Hạt nhân bền vững trở thành hạt nhân không bền" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phân hạch: hạt nhân nặng hấp thụ neutron rồi vỡ ra."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là nguồn gốc năng lượng của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mặt trời và các ngôi sao" },
+        { "id": "B", "text": "Nhà máy điện hạt nhân hiện nay" },
+        { "id": "C", "text": "Bom nguyên tử" },
+        { "id": "D", "text": "Sự phân rã Uranium" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phản ứng nhiệt hạch xảy ra ở tâm Mặt trời (tổng hợp Hidro thành Heli)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Số hạt nhân còn lại sau thời gian $t$ được tính bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$N = N_0 . 2^{-t/T}$" },
+        { "id": "B", "text": "$N = N_0 . 2^{t/T}$" },
+        { "id": "C", "text": "$N = N_0 (1 - 2^{-t/T})$" },
+        { "id": "D", "text": "$N = N_0 . e^{-\\lambda t^2}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật phóng xạ: $N = N_0 e^{-\\lambda t} = N_0 2^{-t/T}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hạt nhân càng bền vững khi có:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Số khối A từ 50 đến 80" },
+        { "id": "B", "text": "Số khối A rất lớn" },
+        { "id": "C", "text": "Số khối A rất nhỏ" },
+        { "id": "D", "text": "Số proton bằng số neutron" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các hạt nhân trung bình (A khoảng 50-80, như Sắt Fe) có năng lượng liên kết riêng lớn nhất nên bền nhất."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong phóng xạ $\\beta^-$, hạt nhân mẹ biến đổi thành hạt nhân con có:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Số khối không đổi, số proton tăng 1" },
+        { "id": "B", "text": "Số khối giảm 4, số proton giảm 2" },
+        { "id": "C", "text": "Số khối không đổi, số proton giảm 1" },
+        { "id": "D", "text": "Số khối tăng 1, số proton không đổi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\beta^-$ là electron ($_{-1}^0 e$). Bảo toàn Z: $Z_{con} = Z_{me} - (-1) = Z_{me} + 1$. A không đổi."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Năng lượng tỏa ra của phản ứng hạt nhân được tính bằng công thức ($m_{tr}$: tổng khối lượng trước, $m_{sau}$: tổng khối lượng sau):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$W = (m_{tr} - m_{sau})c^2$" },
+        { "id": "B", "text": "$W = (m_{sau} - m_{tr})c^2$" },
+        { "id": "C", "text": "$W = (m_{tr} + m_{sau})c^2$" },
+        { "id": "D", "text": "$W = m_{tr}c^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu $m_{tr} > m_{sau}$ thì tỏa năng lượng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tia $\\gamma$ có bản chất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sóng điện từ có bước sóng rất ngắn" },
+        { "id": "B", "text": "Dòng hạt proton" },
+        { "id": "C", "text": "Dòng hạt electron" },
+        { "id": "D", "text": "Sóng âm siêu tần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gamma là photon năng lượng cao, bản chất là sóng điện từ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Để tạo ra phản ứng nhiệt hạch, điều kiện cần thiết là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhiệt độ cực cao (hàng chục triệu độ)" },
+        { "id": "B", "text": "Áp suất rất thấp" },
+        { "id": "C", "text": "Bắn phá bằng neutron chậm" },
+        { "id": "D", "text": "Nhiệt độ phòng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần nhiệt độ cao để các hạt nhân có động năng đủ lớn thắng lực đẩy Coulomb và kết hợp với nhau."
+    }
+  ]
+}

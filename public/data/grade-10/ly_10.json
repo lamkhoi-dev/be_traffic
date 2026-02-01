@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 10: Đề thi thử cuối năm",
+    "description": "Đề thi tổng hợp bao quát toàn bộ chương trình Vật lý 10.",
+    "duration": 60,
+    "questionCount": 10,
+    "difficulty": "hard",
+    "grade": 10,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hành khách ngồi trên xe buýt đang chuyển động bỗng thấy mình bị nghiêng sang phải. Điều đó chứng tỏ xe buýt:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đột ngột tăng tốc" },
+        { "id": "B", "text": "Đột ngột giảm tốc" },
+        { "id": "C", "text": "Đang rẽ sang trái" },
+        { "id": "D", "text": "Đang rẽ sang phải" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Theo quán tính, người có xu hướng chuyển động thẳng. Xe rẽ trái thì người bị nghiêng về phía ngược lại (phải)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tính chất bảo toàn cơ năng KHÔNG áp dụng được cho trường hợp:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vật rơi tự do" },
+        { "id": "B", "text": "Con lắc đơn dao động (bỏ qua ma sát)" },
+        { "id": "C", "text": "Vật trượt trên mặt phẳng nghiêng có ma sát" },
+        { "id": "D", "text": "Vật ném ngang (bỏ qua sức cản không khí)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có ma sát thì cơ năng không bảo toàn (chuyển thành nhiệt)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10 N" },
+        { "id": "B", "text": "20 N" },
+        { "id": "C", "text": "5 N" },
+        { "id": "D", "text": "2 N" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Watt (W) là đơn vị của công suất, 1 W tương đương với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 kg.m²/s³" },
+        { "id": "B", "text": "1 kg.m/s²" },
+        { "id": "C", "text": "1 kg.m²/s²" },
+        { "id": "D", "text": "1 N.s" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = A/t = (F.s)/t = (ma.s)/t$. Đơn vị: $(kg . m/s^2 . m) / s = kg.m^2/s^3$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một viên đạn pháo đang bay ngang thì nổ thành hai mảnh. Mảnh 1 bay thẳng đứng xuống dưới. Hỏi mảnh 2 bay theo hướng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bay ngược chiều đạn cũ" },
+        { "id": "B", "text": "Bay chếch lên trên" },
+        { "id": "C", "text": "Bay ngang tiếp tục" },
+        { "id": "D", "text": "Bay thẳng đứng lên trên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vẽ giản đồ vectơ bảo toàn động lượng: $\\vec{p}_{trước} = \\vec{p}_1 + \\vec{p}_2$. Quy tắc hình bình hành cho thấy $\\vec{p}_2$ phải hướng chếch lên."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng bằng nhau. Vật 1 chuyển động nhanh gấp đôi vật 2. Động năng của vật 1 so với vật 2 sẽ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gấp 2 lần" },
+        { "id": "B", "text": "Gấp 4 lần" },
+        { "id": "C", "text": "Bằng nhau" },
+        { "id": "D", "text": "Gấp $\\sqrt{2}$ lần" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d \\sim v^2$. Nếu $v$ tăng 2 lần thì $W_d$ tăng $2^2 = 4$ lần."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cánh tay đòn của một lực $F$ tác dụng vào vật có trục quay O là $d$. Nếu tăng lực lên 2 lần và giảm cánh tay đòn đi 2 lần thì moment lực sẽ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không đổi" },
+        { "id": "B", "text": "Tăng 4 lần" },
+        { "id": "C", "text": "Giảm 4 lần" },
+        { "id": "D", "text": "Tăng 2 lần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$M' = (2F) \\times (d/2) = F.d = M$. Không đổi."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Thí nghiệm đo hệ số ma sát trượt dùng mặt phẳng nghiêng. Khi vật bắt đầu trượt đều xuống thì hệ số ma sát $\\mu$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sin \\alpha$" },
+        { "id": "B", "text": "$\\cos \\alpha$" },
+        { "id": "C", "text": "$\\tan \\alpha$" },
+        { "id": "D", "text": "$\\cot \\alpha$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi trượt đều: $mg\\sin\\alpha = \\mu mg\\cos\\alpha \\Rightarrow \\mu = \\tan\\alpha$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong hệ tọa độ (p, T), đường đẳng tích là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đường thẳng đi qua gốc tọa độ" },
+        { "id": "B", "text": "Đường hypebol" },
+        { "id": "C", "text": "Đường thẳng song song trục p" },
+        { "id": "D", "text": "Đường thẳng song song trục T" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật Sác-lơ: $p \\sim T$. Đồ thị p theo T là đường thẳng qua gốc tọa độ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một lò xo treo thẳng đứng, đầu dưới treo vật m. Tại vị trí cân bằng lò xo dãn $\\Delta l$. Chu kì dao động riêng của hệ nếu bỏ qua ma sát (kiến thức mở rộng dao động cơ học lớp 10 cũ hoặc nâng cao) tỉ lệ với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{\\Delta l}$" },
+        { "id": "B", "text": "$\\Delta l$" },
+        { "id": "C", "text": "$1/\\sqrt{\\Delta l}$" },
+        { "id": "D", "text": "$m^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tương tự con lắc đơn, $T = 2\\pi \\sqrt{\\Delta l / g}$. Tỉ lệ với căn bậc hai độ biến dạng."
+    }
+  ]
+}

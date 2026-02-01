@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một trong những bài học kinh nghiệm của Chính sách kinh tế mới (NEP) đối với công cuộc đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực hiện nền kinh tế chỉ huy, bao cấp"
+        },
+        {
+          "id": "B",
+          "text": "Phát triển nền kinh tế hàng hóa nhiều thành phần có sự quản lý của Nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ phát triển kinh tế tập thể"
+        },
+        {
+          "id": "D",
+          "text": "Tư nhân hóa hoàn toàn nền kinh tế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "NEP là sự vận dụng linh hoạt kinh tế thị trường trong định hướng XHCN, là bài học lớn cho Việt Nam."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "\"Bình Ngô đại cáo\" của Nguyễn Trãi được coi là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bản Tuyên ngôn độc lập thứ hai của dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Một bài thơ thần"
+        },
+        {
+          "id": "C",
+          "text": "Một tác phẩm văn học lãng mạn"
+        },
+        {
+          "id": "D",
+          "text": "Một bộ luật hình sự"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác phẩm tổng kết thắng lợi cuộc kháng chiến chống Minh và tuyên bố nền độc lập."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Khái niệm \"Chủ nghĩa tư bản hiện đại\" dùng để chỉ giai đoạn phát triển của CNTB từ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sau Cách mạng tháng Mười Nga (1917)"
+        },
+        {
+          "id": "B",
+          "text": "Sau Chiến tranh thế giới thứ hai (1945) đến nay"
+        },
+        {
+          "id": "C",
+          "text": "Đầu thế kỷ XXI"
+        },
+        {
+          "id": "D",
+          "text": "Sau khủng hoảng kinh tế 1929-1933"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CNTB hiện đại là thuật ngữ chỉ CNTB từ sau 1945 với những đặc điểm mới."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đặc điểm cơ bản nhất của chủ nghĩa tư bản độc quyền là sự xuất hiện của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các tổ chức độc quyền"
+        },
+        {
+          "id": "B",
+          "text": "Thị trường tự do"
+        },
+        {
+          "id": "C",
+          "text": "Giai cấp công nhân"
+        },
+        {
+          "id": "D",
+          "text": "Các công trường thủ công"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các Cartel, Syndicate, Trust, Concern chi phối nền kinh tế."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Phong trào Tây Sơn (cuối thế kỷ XVIII) ban đầu là một cuộc khởi nghĩa nông dân, sau đó phát triển thành:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuộc chiến tranh bảo vệ tổ quốc thuần túy"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào giải phóng dân tộc, thống nhất đất nước và bảo vệ tổ quốc"
+        },
+        {
+          "id": "C",
+          "text": "Cuộc nội chiến giữa các tập đoàn phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Cuộc cách mạng tư sản"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tây Sơn đã lật đổ các tập đoàn phong kiến (Nguyễn, Trịnh, Lê), thống nhất đất nước và đánh tan quân Xiêm, Thanh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chính sách kinh tế mới (NEP) do Lê-nin đề xướng bắt đầu được thực hiện từ năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1917"
+        },
+        {
+          "id": "B",
+          "text": "1918"
+        },
+        {
+          "id": "C",
+          "text": "1921"
+        },
+        {
+          "id": "D",
+          "text": "1922"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 3/1921, Đảng Bônsêvich Nga quyết định thực hiện NEP để khôi phục kinh tế sau chiến tranh."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nhiệm vụ trọng tâm của các kế hoạch 5 năm ở Liên Xô (1928 - 1941) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển nông nghiệp xuất khẩu"
+        },
+        {
+          "id": "B",
+          "text": "Công nghiệp hóa xã hội chủ nghĩa, ưu tiên công nghiệp nặng"
+        },
+        {
+          "id": "C",
+          "text": "Phát triển thương mại dịch vụ"
+        },
+        {
+          "id": "D",
+          "text": "Sản xuất hàng tiêu dùng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên Xô tập trung mọi nguồn lực để phát triển công nghiệp nặng nhằm bảo vệ tổ quốc và xây dựng cơ sở vật chất."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sự sụp đổ của chế độ phong kiến Nga hoàng là kết quả của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Mười 1917"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Hai 1917"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng 1905-1907"
+        },
+        {
+          "id": "D",
+          "text": "Nội chiến 1918-1920"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Hai lật đổ Nga hoàng, dẫn đến tình trạng hai chính quyền song song tồn tại."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh thế giới thứ hai, chủ nghĩa xã hội đã vượt ra khỏi phạm vi một nước và trở thành:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một hệ thống thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Một liên minh quân sự"
+        },
+        {
+          "id": "C",
+          "text": "Một tổ chức kinh tế khu vực"
+        },
+        {
+          "id": "D",
+          "text": "Một khối hiệp ước phòng thủ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với sự ra đời của các nước dân chủ nhân dân Đông Âu và thắng lợi ở châu Á, CNXH trở thành hệ thống thế giới."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Vị trí địa chính trị quan trọng của Đông Nam Á là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nằm giữa Ấn Độ Dương và Thái Bình Dương, cầu nối lục địa Á - Âu và lục địa Úc"
+        },
+        {
+          "id": "B",
+          "text": "Nằm hoàn toàn trong nội địa châu Á"
+        },
+        {
+          "id": "C",
+          "text": "Nằm ở phía Bắc Trung Quốc"
+        },
+        {
+          "id": "D",
+          "text": "Nằm giữa Đại Tây Dương và Thái Bình Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vị trí ngã tư đường hàng hải quốc tế quan trọng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Khuynh hướng chính trị nào xuất hiện trong phong trào giải phóng dân tộc ở Đông Nam Á vào đầu thế kỷ XX?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phong kiến và Vô sản"
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ tư sản và Vô sản"
+        },
+        {
+          "id": "C",
+          "text": "Phong kiến và Dân chủ tư sản"
+        },
+        {
+          "id": "D",
+          "text": "Vô sản và Phát xít"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của giai cấp tư sản và vô sản dẫn đến sự xuất hiện của hai khuynh hướng cứu nước mới."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Sự sụp đổ của chế độ phong kiến Nga hoàng là kết quả của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Mười 1917"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Hai 1917"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng 1905-1907"
+        },
+        {
+          "id": "D",
+          "text": "Nội chiến 1918-1920"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Hai lật đổ Nga hoàng, dẫn đến tình trạng hai chính quyền song song tồn tại."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sau khi Lê-nin qua đời (1924), ai là người tiếp tục lãnh đạo công cuộc xây dựng chủ nghĩa xã hội ở Liên Xô?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Goóc-ba-chốp"
+        },
+        {
+          "id": "B",
+          "text": "Xta-lin"
+        },
+        {
+          "id": "C",
+          "text": "Khru-xthốp"
+        },
+        {
+          "id": "D",
+          "text": "Pu-tin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giô-xép Xta-lin là người kế nhiệm lãnh đạo Liên Xô trong giai đoạn công nghiệp hóa."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Kế sách \"Vườn không nhà trống\" được quân dân nhà Trần thực hiện thành công trong cuộc kháng chiến chống:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Tống"
+        },
+        {
+          "id": "B",
+          "text": "Quân Mông - Nguyên"
+        },
+        {
+          "id": "C",
+          "text": "Quân Minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Thanh"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kế sách này khiến quân Mông - Nguyên lâm vào tình trạng thiếu lương thực và bị cô lập."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tổ chức Hiệp ước Vác-sa-va (1955) là liên minh về:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Văn hóa"
+        },
+        {
+          "id": "C",
+          "text": "Chính trị và quân sự"
+        },
+        {
+          "id": "D",
+          "text": "Giáo dục"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Là liên minh quân sự - chính trị của các nước XHCN để đối trọng với NATO."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Người anh hùng áo vải cờ đào lãnh đạo phong trào Tây Sơn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Nhạc"
+        },
+        {
+          "id": "B",
+          "text": "Nguyễn Lữ"
+        },
+        {
+          "id": "C",
+          "text": "Nguyễn Huệ (Quang Trung)"
+        },
+        {
+          "id": "D",
+          "text": "Nguyễn Ánh"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nguyễn Huệ là linh hồn và lãnh tụ kiệt xuất của phong trào Tây Sơn."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quốc gia nào ở Đông Nam Á là nước duy nhất giữ được nền độc lập trước sự xâm lược của thực dân phương Tây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Xiêm (Thái Lan)"
+        },
+        {
+          "id": "D",
+          "text": "Phi-líp-pin"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhờ chính sách ngoại giao khéo léo 'cây tre' và cải cách đất nước, Xiêm giữ được độc lập (dù chịu nhiều thiệt thòi)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong Cách mạng tư sản Anh, lực lượng nào đại diện cho quan hệ sản xuất mới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quý tộc cũ"
+        },
+        {
+          "id": "B",
+          "text": "Nông dân"
+        },
+        {
+          "id": "C",
+          "text": "Quý tộc mới và tư sản"
+        },
+        {
+          "id": "D",
+          "text": "Thợ thủ công"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quý tộc mới và tư sản đại diện cho phương thức sản xuất TBCN."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hình thức chính quyền được thiết lập sau Cách mạng tư sản Anh là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cộng hòa dân chủ"
+        },
+        {
+          "id": "B",
+          "text": "Quân chủ chuyên chế"
+        },
+        {
+          "id": "C",
+          "text": "Quân chủ lập hiến"
+        },
+        {
+          "id": "D",
+          "text": "Xã hội chủ nghĩa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Vua vẫn tồn tại nhưng quyền lực bị hạn chế bởi Hiến pháp/Nghị viện (Vua trị vì nhưng không cai trị)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu chấm dứt chế độ phân biệt chủng tộc A-pác-thai ở Nam Phi nhưng có sự ủng hộ của các nước XHCN?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nen-xơn Man-đê-la làm Tổng thống (1994)"
+        },
+        {
+          "id": "B",
+          "text": "Nam Phi độc lập"
+        },
+        {
+          "id": "C",
+          "text": "Thành lập Liên minh châu Phi"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng An-giê-ri thành công"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ thống XHCN luôn ủng hộ phong trào giải phóng dân tộc, bao gồm chống A-pác-thai."
+    }
+  ]
+}

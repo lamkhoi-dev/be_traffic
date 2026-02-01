@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lí 11 - Bài 1: Dao động điều hòa",
+    "description": "Kiểm tra kiến thức cơ bản về các đại lượng đặc trưng của dao động điều hòa (Li độ, Biên độ, Chu kì, Tần số, Pha dao động).",
+    "duration": 15,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Dao động điều hòa là dao động trong đó li độ của vật là một hàm",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "bậc nhất theo thời gian." },
+        { "id": "B", "text": "bậc hai theo thời gian." },
+        { "id": "C", "text": "cosin (hay sin) theo thời gian." },
+        { "id": "D", "text": "tang (hay cotang) theo thời gian." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Theo định nghĩa, dao động điều hòa có phương trình dạng $x = A\\cos(\\omega t + \\varphi)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong phương trình dao động điều hòa $x = A\\cos(\\omega t + \\varphi)$, đại lượng $A$ được gọi là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "li độ dao động." },
+        { "id": "B", "text": "biên độ dao động." },
+        { "id": "C", "text": "pha dao động." },
+        { "id": "D", "text": "tần số góc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A$ là biên độ, là li độ cực đại của vật và luôn có giá trị dương."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa thực hiện được 10 dao động toàn phần trong 20 giây. Chu kì dao động của vật là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2 s." },
+        { "id": "B", "text": "0,5 s." },
+        { "id": "C", "text": "20 s." },
+        { "id": "D", "text": "10 s." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{\\Delta t}{N} = \\frac{20}{10} = 2$ s."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Pha ban đầu $\\varphi$ trong phương trình dao động cho biết",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trạng thái dao động ở thời điểm t bất kì." },
+        { "id": "B", "text": "trạng thái dao động ở thời điểm ban đầu (t = 0)." },
+        { "id": "C", "text": "biên độ dao động." },
+        { "id": "D", "text": "chu kì dao động." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại $t=0$, pha dao động là $\\varphi$, xác định li độ và chiều chuyển động ban đầu."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mối liên hệ giữa tần số góc $\\omega$, chu kì $T$ và tần số $f$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\omega = 2\\pi T = \\frac{2\\pi}{f}$" },
+        { "id": "B", "text": "$\\omega = \\frac{2\\pi}{T} = 2\\pi f$" },
+        { "id": "C", "text": "$T = \\frac{1}{\\omega} = 2\\pi f$" },
+        { "id": "D", "text": "$f = \\frac{2\\pi}{\\omega} = \\frac{1}{T}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $\\omega = \\frac{2\\pi}{T} = 2\\pi f$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6 m." },
+        { "id": "B", "text": "4 cm." },
+        { "id": "C", "text": "6 cm." },
+        { "id": "D", "text": "4\\pi cm." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ trong dao động điều hòa có dạng là đường",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "thẳng." },
+        { "id": "B", "text": "parabol." },
+        { "id": "C", "text": "hình sin." },
+        { "id": "D", "text": "tròn." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do x là hàm cosin (hoặc sin) theo thời gian nên đồ thị có dạng hình sin."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Vận tốc của vật dao động điều hòa có độ lớn cực đại khi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vật ở vị trí biên dương." },
+        { "id": "B", "text": "vật ở vị trí biên âm." },
+        { "id": "C", "text": "vật đi qua vị trí cân bằng." },
+        { "id": "D", "text": "li độ của vật bằng một nửa biên độ." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tại vị trí cân bằng ($x=0$), vận tốc có độ lớn cực đại $v_{max} = \\omega A$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Gia tốc trong dao động điều hòa luôn",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cùng chiều với vận tốc." },
+        { "id": "B", "text": "ngược chiều với vận tốc." },
+        { "id": "C", "text": "hướng về vị trí cân bằng." },
+        { "id": "D", "text": "hướng ra xa vị trí cân bằng." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$, luôn trái dấu với li độ, tức là luôn hướng về vị trí cân bằng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với tần số $f = 2$ Hz. Tần số góc của dao động là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pi$ rad/s." },
+        { "id": "B", "text": "$2\\pi$ rad/s." },
+        { "id": "C", "text": "$4\\pi$ rad/s." },
+        { "id": "D", "text": "2 rad/s." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi f = 2\\pi \\cdot 2 = 4\\pi$ rad/s."
+    }
+  ]
+}

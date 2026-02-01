@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "By the time we arrive at the zoo, they ______ closing.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will be"
+        },
+        {
+          "id": "B",
+          "text": "will have been"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        },
+        {
+          "id": "D",
+          "text": "have been"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dùng tương lai hoàn thành để diễn tả việc sở thú 'đã đóng cửa xong' trước khi mình đến."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "She decided to apply ______ the position of marketing manager.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "to"
+        },
+        {
+          "id": "C",
+          "text": "with"
+        },
+        {
+          "id": "D",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'apply for a job/position' (nộp đơn xin việc)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Wearing traditional ______ is a way to show pride in one's culture.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "customs"
+        },
+        {
+          "id": "B",
+          "text": "costumes"
+        },
+        {
+          "id": "C",
+          "text": "habits"
+        },
+        {
+          "id": "D",
+          "text": "behaviors"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Costumes' (trang phục). 'Customs' là phong tục."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "vocational"
+        },
+        {
+          "id": "B",
+          "text": "education"
+        },
+        {
+          "id": "C",
+          "text": "university"
+        },
+        {
+          "id": "D",
+          "text": "secondary"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'secondary' nhấn âm 1. Các từ còn lại nhấn âm trước đuôi -tion/-al (âm 2 hoặc 3)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The process of ______ has brought about many changes in the city's infrastructure.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "urban"
+        },
+        {
+          "id": "B",
+          "text": "urbanise"
+        },
+        {
+          "id": "C",
+          "text": "urbanisation"
+        },
+        {
+          "id": "D",
+          "text": "urbanity"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau giới từ 'of' cần một danh từ chỉ quá trình: 'urbanisation' (sự đô thị hóa)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "If you ______ breakfast, you wouldn't feel hungry now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "had eaten"
+        },
+        {
+          "id": "B",
+          "text": "ate"
+        },
+        {
+          "id": "C",
+          "text": "eat"
+        },
+        {
+          "id": "D",
+          "text": "have eaten"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mixed Conditional (3-2). Nếu quá khứ đã ăn (had eaten) thì hiện tại không đói (wouldn't feel)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Communication: 'I think social media wastes our time.' - '______ It helps us connect.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I agree with you."
+        },
+        {
+          "id": "B",
+          "text": "I don't think so."
+        },
+        {
+          "id": "C",
+          "text": "You're right."
+        },
+        {
+          "id": "D",
+          "text": "That's true."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người nói thứ 2 đưa ra ý kiến phản bác (giúp kết nối), nên chọn 'I don't think so'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "You should ______ your computer repaired by a professional.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "make"
+        },
+        {
+          "id": "B",
+          "text": "have"
+        },
+        {
+          "id": "C",
+          "text": "ask"
+        },
+        {
+          "id": "D",
+          "text": "do"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến: 'have something done' (nhờ/thuê ai làm gì)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "urbanise"
+        },
+        {
+          "id": "B",
+          "text": "illustrate"
+        },
+        {
+          "id": "C",
+          "text": "suffering"
+        },
+        {
+          "id": "D",
+          "text": "recommend"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D nhấn âm 3 (re-com-MEND). Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Closest meaning: Social media allows us to 'interact' with people all over the world.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "communicate"
+        },
+        {
+          "id": "B",
+          "text": "ignore"
+        },
+        {
+          "id": "C",
+          "text": "argue"
+        },
+        {
+          "id": "D",
+          "text": "meet"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Interact' (tương tác) gần nghĩa nhất với 'communicate' (giao tiếp)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "It is recommended that he ______ this course to improve his skills.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "took"
+        },
+        {
+          "id": "B",
+          "text": "takes"
+        },
+        {
+          "id": "C",
+          "text": "take"
+        },
+        {
+          "id": "D",
+          "text": "taking"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc giả định cách: 'It is recommended that S + (should) + V-inf'. Động từ để nguyên mẫu 'take'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Many young people use social media to ______ their identity.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "express"
+        },
+        {
+          "id": "B",
+          "text": "make"
+        },
+        {
+          "id": "C",
+          "text": "do"
+        },
+        {
+          "id": "D",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Express identity' (thể hiện bản sắc/cá tính)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sentence transformation: 'It's a long time since we last met.' means:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "We haven't met for a long time."
+        },
+        {
+          "id": "B",
+          "text": "We have met for a long time."
+        },
+        {
+          "id": "C",
+          "text": "We didn't meet for a long time."
+        },
+        {
+          "id": "D",
+          "text": "We last met a long time."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc: 'Đã lâu rồi kể từ lần cuối chúng ta gặp nhau' tương đương với 'Chúng ta đã không gặp nhau một thời gian dài' (Hiện tại hoàn thành phủ định + for)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "My parents want me to ______ a career in medicine.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "pursue"
+        },
+        {
+          "id": "B",
+          "text": "chase"
+        },
+        {
+          "id": "C",
+          "text": "hunt"
+        },
+        {
+          "id": "D",
+          "text": "catch"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Pursue a career' (theo đuổi một sự nghiệp)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Many people use ______ farming methods to avoid chemicals.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "inorganic"
+        },
+        {
+          "id": "B",
+          "text": "organic"
+        },
+        {
+          "id": "C",
+          "text": "industrial"
+        },
+        {
+          "id": "D",
+          "text": "mechanized"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Organic farming' là canh tác hữu cơ (không dùng hóa chất)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify the mistake: 'Because the water was polluted, so we couldn't swim in it.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Because"
+        },
+        {
+          "id": "B",
+          "text": "polluted"
+        },
+        {
+          "id": "C",
+          "text": "so"
+        },
+        {
+          "id": "D",
+          "text": "swim"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trong tiếng Anh, không dùng 'Because' và 'so' trong cùng một câu. Bỏ 'so'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "The doctor suggested that the patient ______ smoking immediately.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "stop"
+        },
+        {
+          "id": "B",
+          "text": "stops"
+        },
+        {
+          "id": "C",
+          "text": "stopped"
+        },
+        {
+          "id": "D",
+          "text": "to stop"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc giả định với động từ 'suggest': S + suggest + that + S + (should) + V-inf."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "She feels ______ because she can't speak the local language.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "isolated"
+        },
+        {
+          "id": "B",
+          "text": "connected"
+        },
+        {
+          "id": "C",
+          "text": "proud"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Isolated' (bị cô lập) là cảm giác khi không giao tiếp được."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "By the time he was 25, he ______ several best-selling books.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "wrote"
+        },
+        {
+          "id": "B",
+          "text": "has written"
+        },
+        {
+          "id": "C",
+          "text": "had written"
+        },
+        {
+          "id": "D",
+          "text": "was writing"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc 'By the time + S + V(quá khứ), S + had + V3'. Diễn tả hành động hoàn thành trước một mốc thời gian trong quá khứ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lifelong learning helps us keep our minds ______ and active.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sharp"
+        },
+        {
+          "id": "B",
+          "text": "dull"
+        },
+        {
+          "id": "C",
+          "text": "bored"
+        },
+        {
+          "id": "D",
+          "text": "slow"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Sharp' (sắc bén, minh mẫn)."
+    }
+  ]
+}

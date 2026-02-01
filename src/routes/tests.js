@@ -3,6 +3,18 @@ const router = express.Router()
 const Test = require('../models/Test')
 const Question = require('../models/Question')
 
+// Subject mapping
+const SUBJECT_MAP = {
+  math: 'math',
+  physics: 'physics',
+  english: 'english',
+  history: 'history',
+  toan: 'math',
+  ly: 'physics',
+  anh: 'english',
+  su: 'history'
+}
+
 // Get all tests (public - only active)
 router.get('/', async (req, res) => {
   try {
@@ -26,6 +38,56 @@ router.get('/type/:type', async (req, res) => {
     }
     
     const tests = await Test.find({ type, isActive: true })
+    res.json({ success: true, tests })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Get tests by grade and subject (NEW)
+router.get('/grade/:grade/subject/:subject', async (req, res) => {
+  try {
+    const grade = parseInt(req.params.grade)
+    const subjectInput = req.params.subject
+    const subject = SUBJECT_MAP[subjectInput] || subjectInput
+    
+    if (grade < 1 || grade > 12) {
+      return res.status(400).json({ success: false, message: 'Invalid grade (1-12)' })
+    }
+    
+    if (!['math', 'physics', 'english', 'history'].includes(subject)) {
+      return res.status(400).json({ success: false, message: 'Invalid subject' })
+    }
+    
+    // For grades 7-9, map to source grades 10-12
+    let sourceGrade = grade
+    if (grade === 7) sourceGrade = 10
+    else if (grade === 8) sourceGrade = 11
+    else if (grade === 9) sourceGrade = 12
+    
+    const gradeType = `grade${sourceGrade}`
+    
+    const tests = await Test.find({ 
+      type: gradeType, 
+      subject: subject,
+      isActive: true 
+    }).sort({ name: 1 })
+    
+    res.json({ success: true, tests, sourceGrade, requestedGrade: grade })
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message })
+  }
+})
+
+// Get tests by grade type (grade10, grade11, grade12)
+router.get('/grade-type/:gradeType', async (req, res) => {
+  try {
+    const { gradeType } = req.params
+    if (!['grade10', 'grade11', 'grade12'].includes(gradeType)) {
+      return res.status(400).json({ success: false, message: 'Invalid grade type' })
+    }
+    
+    const tests = await Test.find({ type: gradeType, isActive: true })
     res.json({ success: true, tests })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })

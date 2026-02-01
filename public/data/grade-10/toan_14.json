@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trong một mặt phẳng có 5 điểm, trừ 2 điểm A, B thì không có 3 điểm nào thẳng hàng. Số tam giác được tạo thành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì chỉ có 2 điểm A, B thẳng hàng (hiển nhiên), nên không có bộ 3 điểm nào thẳng hàng cả. Số tam giác là $C_5^3 = 10$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $P = \\frac{A_5^2}{C_5^2}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A_5^2 = 20$, $C_5^2 = 10$. $P = 20/10 = 2$. (Hoặc $A_n^k = k! C_n^k \\Rightarrow A/C = k! = 2! = 2$)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Số tập con có 2 phần tử của tập hợp $A = \\{1; 2; 3; 4\\}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$C_4^2 = 6$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong mặt phẳng cho 10 điểm phân biệt, không có 3 điểm nào thẳng hàng. Số vectơ khác $\\vec{0}$ được tạo thành từ các điểm đó là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "90"
+        },
+        {
+          "id": "B",
+          "text": "45"
+        },
+        {
+          "id": "C",
+          "text": "100"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vectơ có điểm đầu và điểm cuối khác nhau (có thứ tự) $\\Rightarrow$ Chỉnh hợp $A_{10}^2 = 10 \\times 9 = 90$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Vectơ pháp tuyến của đường thẳng $2x - 3y + 1 = 0$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{n} = (2; -3)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{n} = (2; 3)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{n} = (3; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (-3; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số của x và y trong pt tổng quát: $(2; -3)$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một lớp có 30 học sinh. Có bao nhiêu cách chọn ra 3 học sinh đi trực nhật (vai trò như nhau)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$A_{30}^3$"
+        },
+        {
+          "id": "B",
+          "text": "$C_{30}^3$"
+        },
+        {
+          "id": "C",
+          "text": "$30^3$"
+        },
+        {
+          "id": "D",
+          "text": "$3^{30}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chọn không sắp xếp thứ tự $\\Rightarrow$ Tổ hợp $C_{30}^3$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC. Công thức tính bán kính đường tròn nội tiếp $r$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$r = \\frac{S}{p}$"
+        },
+        {
+          "id": "B",
+          "text": "$r = \\frac{abc}{4S}$"
+        },
+        {
+          "id": "C",
+          "text": "$r = p.S$"
+        },
+        {
+          "id": "D",
+          "text": "$r = 4R$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S = pr \\Rightarrow r = S/p$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tìm m để hàm số $y = \\sqrt{x - m + 1}$ xác định trên $[2; +\\infty)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 3$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le 3$"
+        },
+        {
+          "id": "C",
+          "text": "$m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m = 2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ĐK: $x \\ge m - 1$. Tập xác định $D = [m-1; +\\infty)$. Để $[2; +\\infty) \\subset D$ thì $m-1 \\le 2 \\Leftrightarrow m \\le 3$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một hộp có 3 bi đỏ và 7 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được bi đỏ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,3"
+        },
+        {
+          "id": "B",
+          "text": "0,7"
+        },
+        {
+          "id": "C",
+          "text": "0,4"
+        },
+        {
+          "id": "D",
+          "text": "0,1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng 10 bi. Đỏ 3 bi. $P = 3/10 = 0,3$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Vectơ chỉ phương của đường thẳng đi qua $A(1; 2)$ và $B(3; 5)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(2; 3)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(4; 7)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-2; -3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AB} = (2; 3)$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 được lập từ các chữ số 0, 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "36"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "TH1: Tận cùng là 0. Chọn 2 số từ {1,2,3,4,5}: $A_5^2 = 20$. TH2: Tận cùng là 5. Chữ số đầu (khác 0, khác 5): 4 cách. Chữ số giữa: 4 cách. Tổng: $4 \\times 4 = 16$. Tổng cộng: $20 + 16 = 36$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cho $k, n$ là số tự nhiên, $0 \\le k \\le n$. Đẳng thức nào sau đây SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$C_n^k = C_n^{n-k}$"
+        },
+        {
+          "id": "B",
+          "text": "$A_n^k = k! C_n^k$"
+        },
+        {
+          "id": "C",
+          "text": "$C_n^0 = 1$"
+        },
+        {
+          "id": "D",
+          "text": "$A_n^n = 1$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$A_n^n = n!$. Đáp án D sai."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC có $A(1; 2), B(3; -4), C(5; 2)$. Tọa độ trọng tâm G là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(3; 0)$"
+        },
+        {
+          "id": "B",
+          "text": "$(9; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$(3; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-3; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x_G = (1+3+5)/3 = 3$. $y_G = (2-4+2)/3 = 0$. Vậy $G(3; 0)$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Parabol $y = x^2 - 2x + 3$ có trục đối xứng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$x = -1$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "D",
+          "text": "$y = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x = -b/2a = 2/2 = 1$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Giao điểm của Parabol $y = x^2 - 3x + 2$ với trục hoành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; 0)$ và $(2; 0)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0; 1)$ và $(0; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-1; 0)$ và $(-2; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cho $y=0 \\Rightarrow x^2 - 3x + 2 = 0 \\Rightarrow x=1, x=2$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đường thẳng $d: 2x + y = 2$ chia mặt phẳng thành 2 nửa. Nửa mặt phẳng chứa gốc O là miền nghiệm của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2x + y > 2$"
+        },
+        {
+          "id": "B",
+          "text": "$2x + y < 2$"
+        },
+        {
+          "id": "C",
+          "text": "$2x + y \\ge 2$"
+        },
+        {
+          "id": "D",
+          "text": "$2x + y = 2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay O(0;0) vào: $0 < 2$. Vậy miền chứa O tương ứng dấu <."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Vectơ nào sau đây vuông góc với vectơ chỉ phương $\\vec{u} = (a; b)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{n} = (-b; a)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{n} = (a; -b)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{n} = (b; a)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (a; b)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tích vô hướng bằng 0: $a(-b) + ba = 0$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tính tổng $S = C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "32"
+        },
+        {
+          "id": "B",
+          "text": "16"
+        },
+        {
+          "id": "C",
+          "text": "64"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng các hệ số nhị thức Newton bằng $2^n = 2^5 = 32$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho hình bình hành ABCD tâm O. Vectơ $\\vec{AO} - \\vec{DO}$ bằng vectơ nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{AD}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{BC}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{AC}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{DC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AO} - \\vec{DO} = \\vec{AO} + \\vec{OD} = \\vec{AD}$. (Quy tắc trừ: $\\vec{u} - \\vec{v} = \\vec{v'}\\vec{u'}$ sai. Đúng là $\\vec{AO} - \\vec{DO} = \\vec{OD} + \\vec{AO}$ - SAI. Quy tắc: $\\vec{OB} - \\vec{OA} = \\vec{AB}$. Vậy $\\vec{AO} - \\vec{DO} = \\vec{DA}$? Không phải. $\\vec{AO} - \\vec{DO} = \\vec{AO} + \\vec{OD} = \\vec{AD}$. Đúng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nếu tất cả các giá trị của mẫu số liệu được cộng thêm 5 thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số trung bình tăng 5, phương sai không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Số trung bình tăng 5, phương sai tăng 5"
+        },
+        {
+          "id": "C",
+          "text": "Số trung bình không đổi, phương sai tăng 25"
+        },
+        {
+          "id": "D",
+          "text": "Cả hai đều tăng 5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cộng hằng số làm tịnh tiến dữ liệu (trung bình tăng) nhưng độ phân tán (khoảng cách giữa các số) không đổi."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một chất phóng xạ có chu kì bán rã là 8 ngày đêm. Sau 24 ngày đêm, tỉ lệ số hạt nhân còn lại so với ban đầu là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/8"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "1/16"
+        },
+        {
+          "id": "D",
+          "text": "7/8"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$t = 24 = 3T$. Số hạt còn lại $N = N_0 \\cdot 2^{-3} = N_0/8$. Tỉ lệ 1/8."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Sóng điện từ có bước sóng 100m là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng trung"
+        },
+        {
+          "id": "B",
+          "text": "Sóng ngắn"
+        },
+        {
+          "id": "C",
+          "text": "Sóng dài"
+        },
+        {
+          "id": "D",
+          "text": "Sóng cực ngắn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng trung (100m - 1000m). 100m nằm ở ranh giới sóng ngắn và trung, nhưng thường được xếp vào đầu sóng trung."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Quang trở là một linh kiện hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng quang điện trong"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng nhiệt điện"
+        },
+        {
+          "id": "C",
+          "text": "Hiện tượng siêu dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Hiện tượng quang điện ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang trở làm bằng chất bán dẫn, dựa trên quang điện trong."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nguyên tắc hoạt động của máy biến áp dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự cảm"
+        },
+        {
+          "id": "B",
+          "text": "Cảm ứng điện từ"
+        },
+        {
+          "id": "C",
+          "text": "Cộng hưởng điện"
+        },
+        {
+          "id": "D",
+          "text": "Tác dụng từ của dòng điện"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ thông biến thiên qua cuộn sơ cấp móc vòng qua cuộn thứ cấp gây ra cảm ứng điện từ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Bán kính quỹ đạo dừng thứ $n$ của electron trong nguyên tử hiđrô được tính theo công thức ($r_0$ là bán kính Bo):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$r_n = n^2 r_0$"
+        },
+        {
+          "id": "B",
+          "text": "$r_n = n r_0$"
+        },
+        {
+          "id": "C",
+          "text": "$r_n = \\sqrt{n} r_0$"
+        },
+        {
+          "id": "D",
+          "text": "$r_n = n^3 r_0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức bán kính quỹ đạo dừng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một mạch dao động LC có $L=1\\mu H$, $C=1pF$. Tần số dao động riêng của mạch là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$159$ MHz"
+        },
+        {
+          "id": "B",
+          "text": "$5$ MHz"
+        },
+        {
+          "id": "C",
+          "text": "$10$ MHz"
+        },
+        {
+          "id": "D",
+          "text": "$50$ MHz"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f = 1/(2\\pi\\sqrt{LC})$. $LC = 10^{-6} \\cdot 10^{-12} = 10^{-18}$. $\\sqrt{LC} = 10^{-9}$. $f \\approx 1/(6,28 \\cdot 10^{-9}) \\approx 159 \\cdot 10^6$ Hz."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phản ứng phân hạch là phản ứng trong đó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một hạt nhân nặng vỡ thành hai hạt nhân trung bình"
+        },
+        {
+          "id": "B",
+          "text": "Hai hạt nhân nhẹ tổng hợp thành hạt nhân nặng hơn"
+        },
+        {
+          "id": "C",
+          "text": "Hạt nhân tự động phát ra tia phóng xạ"
+        },
+        {
+          "id": "D",
+          "text": "Hạt nhân bền vững trở thành hạt nhân không bền"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phân hạch: hạt nhân nặng hấp thụ neutron rồi vỡ ra."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là phản ứng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kết hợp hai hạt nhân nhẹ thành hạt nhân nặng hơn ở nhiệt độ rất cao"
+        },
+        {
+          "id": "B",
+          "text": "Hạt nhân nặng vỡ thành hai mảnh nhẹ hơn"
+        },
+        {
+          "id": "C",
+          "text": "Phân rã phóng xạ"
+        },
+        {
+          "id": "D",
+          "text": "Kết hợp hai hạt nhân nặng thành hạt nhân siêu nặng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa phản ứng nhiệt hạch."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng về giao thoa ánh sáng, khoảng vân $i$ được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$i = \\frac{\\lambda D}{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$i = \\frac{\\lambda a}{D}$"
+        },
+        {
+          "id": "C",
+          "text": "$i = \\frac{a D}{\\lambda}$"
+        },
+        {
+          "id": "D",
+          "text": "$i = \\lambda D a$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $i = \\lambda D / a$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong phản ứng hạt nhân, định luật nào sau đây **không** được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn khối lượng nghỉ"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn số khối A"
+        },
+        {
+          "id": "C",
+          "text": "Bảo toàn điện tích Z"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn năng lượng toàn phần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khối lượng nghỉ không bảo toàn (có độ hụt khối tỏa năng lượng). Các đại lượng khác bảo toàn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Khi nguyên tử chuyển từ trạng thái dừng có năng lượng $E_n$ sang trạng thái dừng có năng lượng $E_m$ ($E_n > E_m$) thì nó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "B",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "C",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n + E_m$"
+        },
+        {
+          "id": "D",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n + E_m$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ cao xuống thấp thì phát xạ photon."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nếu tăng số vòng dây cuộn sơ cấp của máy biến áp lên 2 lần (giữ nguyên các đại lượng khác) thì điện áp ở cuộn thứ cấp sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giảm 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Tăng 2 lần"
+        },
+        {
+          "id": "C",
+          "text": "Không đổi"
+        },
+        {
+          "id": "D",
+          "text": "Tăng 4 lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_2 = U_1 \\cdot \\frac{N_2}{N_1}$. Nếu $N_1$ tăng 2 lần (nằm dưới mẫu) thì $U_2$ giảm 2 lần."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hiện tượng cộng hưởng cơ xảy ra khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tần số của lực cưỡng bức bằng tần số riêng của hệ"
+        },
+        {
+          "id": "B",
+          "text": "Tần số của lực cưỡng bức lớn hơn tần số riêng của hệ"
+        },
+        {
+          "id": "C",
+          "text": "Tần số của lực cưỡng bức nhỏ hơn tần số riêng của hệ"
+        },
+        {
+          "id": "D",
+          "text": "Lực ma sát của môi trường rất lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện cộng hưởng là $f_{cưỡng bức} = f_{riêng}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hai khe Y-âng cách nhau $a=1$mm, màn cách khe $D=2$m. Chiếu ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Bề rộng quang phổ bậc 1 trên màn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,76 mm"
+        },
+        {
+          "id": "B",
+          "text": "0,38 mm"
+        },
+        {
+          "id": "C",
+          "text": "1,52 mm"
+        },
+        {
+          "id": "D",
+          "text": "1,14 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Δx_1 = x_{đ1} - x_{t1} = \\frac{D}{a}(\\lambda_đ - \\lambda_t) = \\frac{2}{1}(0,76 - 0,38) = 2(0,38) = 0,76$mm."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một dòng điện xoay chiều có cường độ hiệu dụng 2A chạy qua điện trở $R=50\\Omega$. Nhiệt lượng tỏa ra trong 1 phút là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "12000 J"
+        },
+        {
+          "id": "B",
+          "text": "6000 J"
+        },
+        {
+          "id": "C",
+          "text": "200 J"
+        },
+        {
+          "id": "D",
+          "text": "100 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Q = I^2Rt = 2^2 \\cdot 50 \\cdot 60 = 4 \\cdot 50 \\cdot 60 = 12000$J."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Theo mẫu nguyên tử Bo, trạng thái dừng là trạng thái:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có năng lượng xác định và electron chuyển động trên quỹ đạo dừng"
+        },
+        {
+          "id": "B",
+          "text": "Electron đứng yên"
+        },
+        {
+          "id": "C",
+          "text": "Hạt nhân đứng yên"
+        },
+        {
+          "id": "D",
+          "text": "Nguyên tử không bức xạ và không hấp thụ năng lượng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiên đề Bo về trạng thái dừng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Các cuộn dây của phần cảm máy phát điện xoay chiều một pha được mắc:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nối tiếp nhau"
+        },
+        {
+          "id": "B",
+          "text": "Song song nhau"
+        },
+        {
+          "id": "C",
+          "text": "Mắc hình sao"
+        },
+        {
+          "id": "D",
+          "text": "Mắc hình tam giác"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các cuộn dây trong phần ứng (hoặc phần cảm tùy cấu tạo) thường mắc nối tiếp để tăng suất điện động."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Sự phát quang của chất nào sau đây là hiện tượng lân quang?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chất rắn"
+        },
+        {
+          "id": "B",
+          "text": "Chất lỏng"
+        },
+        {
+          "id": "C",
+          "text": "Chất khí"
+        },
+        {
+          "id": "D",
+          "text": "Hơi kim loại"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Huỳnh quang thường xảy ra với lỏng/khí (tắt ngay). Lân quang xảy ra với chất rắn (kéo dài)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Pin quang điện hoạt động dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quang điện trong"
+        },
+        {
+          "id": "B",
+          "text": "Quang điện ngoài"
+        },
+        {
+          "id": "C",
+          "text": "Quang phát quang"
+        },
+        {
+          "id": "D",
+          "text": "Tán sắc ánh sáng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Pin mặt trời (quang điện) dựa trên hiện tượng quang điện trong (xảy ra ở chất bán dẫn)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Biên độ dao động tổng hợp của hai dao động cùng phương, cùng tần số không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ của dao động thứ nhất"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ của dao động thứ hai"
+        },
+        {
+          "id": "C",
+          "text": "Tần số chung của hai dao động"
+        },
+        {
+          "id": "D",
+          "text": "Độ lệch pha giữa hai dao động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công thức $A^2 = A_1^2 + A_2^2 + 2A_1A_2\\cos(\\Delta \\varphi)$. Không chứa $\\omega$ (tần số)."
+    }
+  ]
+}

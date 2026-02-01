@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Năm 1945, ba quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a, Việt Nam, Lào"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam, Lào, Cam-pu-chia"
+        },
+        {
+          "id": "C",
+          "text": "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam, Thái Lan, Mi-an-ma"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lợi dụng Nhật đầu hàng Đồng minh, 3 nước này đã chớp thời cơ giành độc lập (Indo: 17/8, VN: 2/9, Lào: 12/10)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Quốc gia nào là nhà nước chuyên chính vô sản đầu tiên trên thế giới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Pháp (Công xã Pa-ri)"
+        },
+        {
+          "id": "B",
+          "text": "Nga"
+        },
+        {
+          "id": "C",
+          "text": "Trung Quốc"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công xã Pa-ri chỉ là nhà nước kiểu mới (sơ khai). Nga sau CM tháng Mười mới là nhà nước chuyên chính vô sản hoàn chỉnh đầu tiên."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Sự ra đời của Đảng Quốc đại ở Ấn Độ (1885) phản ánh sự trưởng thành của giai cấp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nông dân"
+        },
+        {
+          "id": "B",
+          "text": "Công nhân"
+        },
+        {
+          "id": "C",
+          "text": "Tư sản dân tộc"
+        },
+        {
+          "id": "D",
+          "text": "Địa chủ phong kiến"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đảng Quốc đại là chính đảng của giai cấp tư sản Ấn Độ."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sự ra đời của Liên bang Xô viết có ý nghĩa như thế nào đối với nước Nga?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng cường sức mạnh kinh tế, quốc phòng cho các nước cộng hòa"
+        },
+        {
+          "id": "B",
+          "text": "Làm suy yếu vai trò của nước Nga"
+        },
+        {
+          "id": "C",
+          "text": "Gây ra mâu thuẫn sắc tộc"
+        },
+        {
+          "id": "D",
+          "text": "Phụ thuộc vào viện trợ nước ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự liên kết giúp tập trung nguồn lực để xây dựng và bảo vệ đất nước."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Quốc gia nào giành độc lập bằng con đường hòa bình, thương lượng với thực dân Anh vào năm 1957?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên bang Mã Lai (Malaysia) giành độc lập qua đàm phán Hiến pháp với Anh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự thắng lợi của Cách mạng tháng Mười Nga năm 1917?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vua Ni-cô-lai II thoái vị"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc tấn công Cung điện Mùa Đông (đêm 25/10)"
+        },
+        {
+          "id": "C",
+          "text": "Thành lập Chính phủ lâm thời tư sản"
+        },
+        {
+          "id": "D",
+          "text": "Lê-nin về nước trực tiếp lãnh đạo cách mạng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc tấn công Cung điện Mùa Đông, bắt giữ các bộ trưởng Chính phủ lâm thời đánh dấu thắng lợi quyết định."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong Chính sách kinh tế mới, Nhà nước Xô viết có chủ trương gì đối với tư bản nước ngoài?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tịch thu toàn bộ tài sản"
+        },
+        {
+          "id": "B",
+          "text": "Cấm hoàn toàn việc đầu tư"
+        },
+        {
+          "id": "C",
+          "text": "Khuyến khích tư bản nước ngoài đầu tư, kinh doanh ở Nga"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ cho phép đầu tư vào nông nghiệp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lê-nin chủ trương dùng CNTB nhà nước để xây dựng CNXH, cho phép tư bản nước ngoài thuê xí nghiệp."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Chính sách kinh tế mới (NEP) do Lê-nin đề xướng bắt đầu được thực hiện từ năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1917"
+        },
+        {
+          "id": "B",
+          "text": "1918"
+        },
+        {
+          "id": "C",
+          "text": "1921"
+        },
+        {
+          "id": "D",
+          "text": "1922"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 3/1921, Đảng Bônsêvich Nga quyết định thực hiện NEP để khôi phục kinh tế sau chiến tranh."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Chiến thắng Rạch Gầm - Xoài Mút (1785) của Nguyễn Huệ đã đánh tan quân xâm lược nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Thanh"
+        },
+        {
+          "id": "B",
+          "text": "Quân Xiêm"
+        },
+        {
+          "id": "C",
+          "text": "Quân Minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Hà Lan"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đánh tan 5 vạn quân Xiêm ở đoạn sông Tiền (Tiền Giang)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong ba lần kháng chiến chống quân Mông - Nguyên, vị tướng nào giữ vai trò Quốc công tiết chế (Tổng chỉ huy)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trần Thủ Độ"
+        },
+        {
+          "id": "B",
+          "text": "Trần Quang Khải"
+        },
+        {
+          "id": "C",
+          "text": "Trần Hưng Đạo (Trần Quốc Tuấn)"
+        },
+        {
+          "id": "D",
+          "text": "Trần Nhật Duật"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trần Hưng Đạo là linh hồn của cuộc kháng chiến chống Mông - Nguyên."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Sự sụp đổ của chế độ phong kiến Nga hoàng là kết quả của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Mười 1917"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Hai 1917"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng 1905-1907"
+        },
+        {
+          "id": "D",
+          "text": "Nội chiến 1918-1920"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Hai lật đổ Nga hoàng, dẫn đến tình trạng hai chính quyền song song tồn tại."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Bốn nước cộng hòa đầu tiên gia nhập Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nga, U-crai-na, Bê-la-rút, Ngoại Cáp-ca-dơ"
+        },
+        {
+          "id": "B",
+          "text": "Nga, U-crai-na, Ca-dắc-xtan, U-dơ-bê-ki-xtan"
+        },
+        {
+          "id": "C",
+          "text": "Nga, Bê-la-rút, Lát-vi-a, Ét-tô-ni-a"
+        },
+        {
+          "id": "D",
+          "text": "Nga, U-crai-na, Môn-đô-va, Ác-mê-ni-a"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 nước cộng hòa đầu tiên hợp nhất thành Liên Xô."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Điểm khác biệt của Cách mạng tư sản Mỹ so với Cách mạng tư sản Anh là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do giai cấp tư sản lãnh đạo"
+        },
+        {
+          "id": "B",
+          "text": "Lật đổ chế độ phong kiến trong nước"
+        },
+        {
+          "id": "C",
+          "text": "Là cuộc chiến tranh giải phóng dân tộc khỏi thực dân"
+        },
+        {
+          "id": "D",
+          "text": "Có động lực là quần chúng nhân dân"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mỹ đánh đuổi thực dân Anh để giành độc lập, trong khi Anh là nội chiến lật đổ Vua."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong cuộc kháng chiến chống Mỹ, mặt trận nào đóng vai trò quyết định nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt trận ngoại giao"
+        },
+        {
+          "id": "B",
+          "text": "Mặt trận chính trị"
+        },
+        {
+          "id": "C",
+          "text": "Mặt trận quân sự"
+        },
+        {
+          "id": "D",
+          "text": "Mặt trận văn hóa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thắng lợi quân sự trên chiến trường tạo thế lực để giành thắng lợi trên bàn đàm phán."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế to lớn của sự ra đời Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Làm cho chủ nghĩa tư bản sụp đổ hoàn toàn"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt chiến tranh thế giới thứ nhất"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất toàn bộ châu Âu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Liên Xô trở thành chỗ dựa tinh thần và vật chất cho phong trào cách mạng thế giới."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Câu nói \"Ngồi yên đợi giặc không bằng đem quân đánh trước để chặn thế mạnh của giặc\" (Tiên phát chế nhân) là tư tưởng quân sự của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trần Hưng Đạo"
+        },
+        {
+          "id": "B",
+          "text": "Lý Thường Kiệt"
+        },
+        {
+          "id": "C",
+          "text": "Lê Lợi"
+        },
+        {
+          "id": "D",
+          "text": "Nguyễn Huệ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là chủ trương táo bạo của Lý Thường Kiệt trong cuộc kháng chiến chống Tống (1075-1077)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Thành tựu khoa học kỹ thuật nổi bật nhất của Liên Xô năm 1957 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chế tạo thành công bom nguyên tử"
+        },
+        {
+          "id": "B",
+          "text": "Phóng thành công vệ tinh nhân tạo đầu tiên"
+        },
+        {
+          "id": "C",
+          "text": "Đưa con người lên Mặt Trăng"
+        },
+        {
+          "id": "D",
+          "text": "Xây dựng nhà máy điện hạt nhân đầu tiên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1957, Liên Xô phóng vệ tinh Sputnik 1, mở đầu kỷ nguyên chinh phục vũ trụ."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tư tưởng \"Tam quyền phân lập\" (lập pháp, hành pháp, tư pháp) được vận dụng rõ nét nhất trong hiến pháp nước nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh"
+        },
+        {
+          "id": "B",
+          "text": "Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Đức"
+        },
+        {
+          "id": "D",
+          "text": "Nhật Bản"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiến pháp Mỹ năm 1787 vận dụng triệt để học thuyết của Mông-te-xki-ơ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Mục tiêu chung của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lật đổ chế độ phong kiến, thực dân, mở đường cho CNTB phát triển"
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng chế độ xã hội chủ nghĩa"
+        },
+        {
+          "id": "C",
+          "text": "Đưa giai cấp công nhân lên nắm quyền"
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ quyền lợi cho giai cấp nông dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu xuyên suốt là xóa bỏ rào cản phong kiến/thực dân để phát triển kinh tế tư bản."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Việc thực dân Pháp nổ súng tấn công Đà Nẵng (1858) mở đầu cho quá trình xâm lược nước nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lào"
+        },
+        {
+          "id": "B",
+          "text": "Cam-pu-chia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên quân Pháp - Tây Ban Nha tấn công Đà Nẵng mở đầu cuộc xâm lược Việt Nam."
+    }
+  ]
+}

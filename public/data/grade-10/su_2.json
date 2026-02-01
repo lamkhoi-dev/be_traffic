@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 2: Tri thức lịch sử và Cuộc sống",
+    "description": "Kiểm tra kiến thức về vai trò của tri thức lịch sử đối với cuộc sống, mối quan hệ giữa Sử học với du lịch và bảo tồn di sản.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tại sao cần phải học tập lịch sử suốt đời?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vì tri thức lịch sử rất rộng lớn và luôn biến đổi." },
+        { "id": "B", "text": "Vì để lấy bằng cấp cao." },
+        { "id": "C", "text": "Vì lịch sử giúp chúng ta giải trí." },
+        { "id": "D", "text": "Vì đó là môn học bắt buộc ở mọi cấp." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tri thức lịch sử vô tận, nhận thức con người luôn đổi mới nên cần học tập suốt đời."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tri thức lịch sử có vai trò như thế nào đối với mỗi cá nhân?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giúp con người biết trước tương lai." },
+        { "id": "B", "text": "Trang bị hiểu biết để hội nhập và phát triển." },
+        { "id": "C", "text": "Giúp con người trở nên giàu có." },
+        { "id": "D", "text": "Giúp con người không bao giờ mắc sai lầm." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu biết quá khứ là nền tảng để hiểu hiện tại và định hướng tương lai."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Sử học có mối quan hệ như thế nào với công tác bảo tồn di sản văn hóa?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không có mối quan hệ gì." },
+        { "id": "B", "text": "Mối quan hệ mật thiết, tương hỗ." },
+        { "id": "C", "text": "Sử học cản trở bảo tồn di sản." },
+        { "id": "D", "text": "Bảo tồn di sản thay thế cho Sử học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp cơ sở khoa học để xác định giá trị và phương pháp bảo tồn di sản."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Di sản văn hóa là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tài sản của riêng các nhà sử học." },
+        { "id": "B", "text": "Những sản phẩm vật chất và tinh thần có giá trị lịch sử, văn hóa." },
+        { "id": "C", "text": "Những công trình xây dựng hiện đại." },
+        { "id": "D", "text": "Tài nguyên thiên nhiên chưa được khai thác." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa về di sản văn hóa (bao gồm vật thể và phi vật thể)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Du lịch văn hóa phát triển dựa trên nền tảng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các trung tâm thương mại hiện đại." },
+        { "id": "B", "text": "Các giá trị di sản văn hóa, lịch sử." },
+        { "id": "C", "text": "Các khu công nghiệp công nghệ cao." },
+        { "id": "D", "text": "Hệ thống giao thông vận tải." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Du lịch văn hóa khai thác giá trị của di tích, lễ hội, phong tục..."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sử học đóng góp gì cho sự phát triển của ngành du lịch?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cung cấp nhân viên phục vụ." },
+        { "id": "B", "text": "Cung cấp tri thức để xây dựng sản phẩm du lịch hấp dẫn." },
+        { "id": "C", "text": "Đầu tư vốn xây dựng khách sạn." },
+        { "id": "D", "text": "Quảng cáo sản phẩm." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tri thức lịch sử là 'nguyên liệu' để tạo nên nội dung thuyết minh, tour tuyến hấp dẫn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ngành du lịch có vai trò gì đối với Sử học?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tạo nguồn thu để tái đầu tư bảo tồn di tích." },
+        { "id": "B", "text": "Làm thay đổi sự thật lịch sử." },
+        { "id": "C", "text": "Không có vai trò gì." },
+        { "id": "D", "text": "Giúp các nhà sử học chuyển nghề." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Du lịch mang lại nguồn lực tài chính để trùng tu, tôn tạo di tích."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Yếu tố cốt lõi để thu hút khách du lịch văn hóa là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "giá rẻ." },
+        { "id": "B", "text": "sự độc đáo và giá trị lịch sử của di sản." },
+        { "id": "C", "text": "khách sạn sang trọng." },
+        { "id": "D", "text": "đồ ăn ngon." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nguyên bản và giá trị lịch sử là sức hút chính."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Công tác bảo tồn di sản cần tuân thủ nguyên tắc nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Làm mới hoàn toàn di tích." },
+        { "id": "B", "text": "Giữ gìn tối đa tính nguyên gốc." },
+        { "id": "C", "text": "Phá bỏ để xây dựng lại đẹp hơn." },
+        { "id": "D", "text": "Thay đổi theo sở thích của khách du lịch." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc hàng đầu là bảo vệ tính chân xác (nguyên gốc) của di sản."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Quần thể di tích Cố đô Huế là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Di sản thiên nhiên thế giới." },
+        { "id": "B", "text": "Di sản văn hóa thế giới." },
+        { "id": "C", "text": "Di sản hỗn hợp." },
+        { "id": "D", "text": "Di sản tư liệu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cố đô Huế được UNESCO công nhận là Di sản văn hóa thế giới."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Việc học tập lịch sử thông qua tham quan bảo tàng là hình thức",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "học trên lớp." },
+        { "id": "B", "text": "học tập trải nghiệm thực tế." },
+        { "id": "C", "text": "học qua sách vở." },
+        { "id": "D", "text": "học trực tuyến." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tham quan bảo tàng, di tích là hình thức trải nghiệm thực tế sinh động."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Kết nối kiến thức lịch sử với các ngành khoa học khác giúp",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "hiểu lịch sử một cách toàn diện sâu sắc hơn." },
+        { "id": "B", "text": "làm phức tạp vấn đề." },
+        { "id": "C", "text": "xóa bỏ ranh giới các môn học." },
+        { "id": "D", "text": "giảm tải nội dung học tập." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử học là môn liên ngành, cần kiến thức địa lý, văn học... để hiểu sâu."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Di sản nào sau đây là Di sản văn hóa phi vật thể?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vịnh Hạ Long." },
+        { "id": "B", "text": "Thánh địa Mỹ Sơn." },
+        { "id": "C", "text": "Dân ca Quan họ Bắc Ninh." },
+        { "id": "D", "text": "Hoàng thành Thăng Long." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dân ca Quan họ là loại hình nghệ thuật trình diễn (phi vật thể)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thu thập và xử lý thông tin là kĩ năng cần thiết để",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tự học lịch sử suốt đời." },
+        { "id": "B", "text": "trở thành hướng dẫn viên du lịch." },
+        { "id": "C", "text": "làm bài kiểm tra." },
+        { "id": "D", "text": "cả A và B đều đúng." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Kỹ năng này quan trọng cho cả việc học tập và ứng dụng trong nghề nghiệp."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hoạt động nào sau đây góp phần bảo tồn giá trị di sản?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Viết vẽ bậy lên di tích." },
+        { "id": "B", "text": "Trùng tu, tôn tạo di tích đúng quy cách." },
+        { "id": "C", "text": "Xây dựng khách sạn che khuất tầm nhìn di tích." },
+        { "id": "D", "text": "Buôn bán cổ vật trái phép." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trùng tu tôn tạo giúp di sản tồn tại lâu dài."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tri thức lịch sử hỗ trợ lĩnh vực nào trong việc xây dựng thương hiệu quốc gia?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nghiệp nặng." },
+        { "id": "B", "text": "Nông nghiệp." },
+        { "id": "C", "text": "Công nghiệp văn hóa." },
+        { "id": "D", "text": "Y tế." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công nghiệp văn hóa sử dụng chất liệu lịch sử để tạo ra sản phẩm mang bản sắc."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Để quảng bá du lịch Việt Nam, chúng ta cần khai thác yếu tố nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bề dày lịch sử và văn hóa truyền thống." },
+        { "id": "B", "text": "Công nghệ nhập khẩu." },
+        { "id": "C", "text": "Các tòa nhà chọc trời." },
+        { "id": "D", "text": "Các sản phẩm ngoại nhập." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lịch sử văn hóa là thế mạnh độc đáo của du lịch Việt Nam."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Lịch sử giúp chúng ta giải thích được",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "nguồn gốc của các sự kiện hiện tại." },
+        { "id": "B", "text": "cấu trúc của nguyên tử." },
+        { "id": "C", "text": "quy luật vận động của các hành tinh." },
+        { "id": "D", "text": "cách chữa bệnh ung thư." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi vấn đề hiện tại đều có gốc rễ từ quá khứ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một người hướng dẫn viên du lịch giỏi cần có kiến thức sâu sắc về",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Toán học." },
+        { "id": "B", "text": "Lịch sử và văn hóa." },
+        { "id": "C", "text": "Hóa học." },
+        { "id": "D", "text": "Vật lý." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Để thuyết minh hấp dẫn, HDV cần am hiểu lịch sử văn hóa điểm đến."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong bối cảnh toàn cầu hóa, việc giữ gìn bản sắc văn hóa dân tộc là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "không cần thiết." },
+        { "id": "B", "text": "vô cùng quan trọng." },
+        { "id": "C", "text": "cản trở sự phát triển." },
+        { "id": "D", "text": "chỉ là trách nhiệm của nhà nước." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hòa nhập nhưng không hòa tan, bản sắc là 'căn cước' của dân tộc."
+    }
+  ]
+}

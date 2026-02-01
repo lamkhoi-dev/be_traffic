@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 10: Ecotourism",
+    "description": "Kiểm tra từ vựng về Du lịch sinh thái và ngữ pháp Câu điều kiện loại 1 & 2 (Conditionals Type 1 & 2).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ecolog_y" },
+        { "id": "B", "text": "destina_tion" },
+        { "id": "C", "text": "activit_y" },
+        { "id": "D", "text": "rainy" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Destination: 'tion' có trọng âm và nguyên âm khác so với đuôi 'y' của các từ còn lại."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sustainable" },
+        { "id": "B", "text": "environment" },
+        { "id": "C", "text": "ecotourism" },
+        { "id": "D", "text": "beneficial" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ecotourism nhấn âm 1 (hoặc âm 4 phụ), các từ còn lại nhấn âm 2 hoặc 3 rõ ràng. Sustainable (2), Environment (2), Beneficial (3). Ecotourism (1)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "If I ________ rich, I would travel around the world.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "am" },
+        { "id": "B", "text": "was" },
+        { "id": "C", "text": "were" },
+        { "id": "D", "text": "be" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 2 (giả định không thật ở hiện tại). Động từ to be dùng 'were' cho mọi ngôi."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Ecotourism helps tourists learn about local ________ and customs.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "culture" },
+        { "id": "B", "text": "habit" },
+        { "id": "C", "text": "food" },
+        { "id": "D", "text": "people" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Local culture: văn hóa địa phương."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "If it ________ tomorrow, we will cancel the trip.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rains" },
+        { "id": "B", "text": "rained" },
+        { "id": "C", "text": "will rain" },
+        { "id": "D", "text": "raining" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 1 (có thể xảy ra). Mệnh đề If chia hiện tại đơn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tourists should respect the ________ environment.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "locally" },
+        { "id": "B", "text": "local" },
+        { "id": "C", "text": "location" },
+        { "id": "D", "text": "locate" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính từ bổ nghĩa cho danh từ environment -> local."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "If we cut down forests, wild animals ________ their homes.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "lose" },
+        { "id": "B", "text": "lost" },
+        { "id": "C", "text": "will lose" },
+        { "id": "D", "text": "would lose" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Điều kiện loại 1 (sự thật hiển nhiên/hệ quả). Mệnh đề chính dùng 'will'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Many tourists enjoy going on ________ tours to see wildlife.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "safari" },
+        { "id": "B", "text": "shopping" },
+        { "id": "C", "text": "beach" },
+        { "id": "D", "text": "city" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Safari tours: du lịch quan sát động vật hoang dã."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "If I ________ you, I would take that course on ecotourism.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "am" },
+        { "id": "B", "text": "was" },
+        { "id": "C", "text": "were" },
+        { "id": "D", "text": "be" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc lời khuyên loại 2: If I were you."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ecotourism is a form of ________ tourism.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sustainable" },
+        { "id": "B", "text": "mass" },
+        { "id": "C", "text": "cheap" },
+        { "id": "D", "text": "wasteful" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sustainable tourism: du lịch bền vững."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "What would you do if you ________ a large sum of money?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "win" },
+        { "id": "B", "text": "won" },
+        { "id": "C", "text": "have won" },
+        { "id": "D", "text": "winning" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu hỏi điều kiện loại 2. Mệnh đề If chia quá khứ đơn."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "We can help the local people by buying their ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "handicrafts" },
+        { "id": "B", "text": "garbage" },
+        { "id": "C", "text": "forests" },
+        { "id": "D", "text": "jobs" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Handicrafts: đồ thủ công mỹ nghệ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "If you ________ now, you will be late for the bus.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "didn't leave" },
+        { "id": "B", "text": "don't leave" },
+        { "id": "C", "text": "won't leave" },
+        { "id": "D", "text": "not leave" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 1. Mệnh đề If phủ định hiện tại đơn."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "A ________ is someone who shows tourists around.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tour guide" },
+        { "id": "B", "text": "driver" },
+        { "id": "C", "text": "tourist" },
+        { "id": "D", "text": "pilot" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tour guide: hướng dẫn viên du lịch."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Conditional Sentence: 'Unless you work hard, you ________ pass the exam.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will" },
+        { "id": "B", "text": "won't" },
+        { "id": "C", "text": "would" },
+        { "id": "D", "text": "wouldn't" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Unless = If not. Nếu không học chăm thì sẽ không đậu (won't)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "This eco-lodge is built from ________ materials.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "friendly" },
+        { "id": "B", "text": "eco-friendly" },
+        { "id": "C", "text": "friend" },
+        { "id": "D", "text": "pollution" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Eco-friendly materials: vật liệu thân thiện môi trường."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "If he ________ more time, he would learn to play the guitar.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "has" },
+        { "id": "B", "text": "had" },
+        { "id": "C", "text": "have" },
+        { "id": "D", "text": "having" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 2. Mệnh đề If chia quá khứ đơn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We should avoid damaging the ________ ecosystem.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "fragile" },
+        { "id": "B", "text": "strong" },
+        { "id": "C", "text": "hard" },
+        { "id": "D", "text": "heavy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Fragile ecosystem: hệ sinh thái mong manh/dễ vỡ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "If I saw a bear, I ________ run away.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will" },
+        { "id": "B", "text": "would" },
+        { "id": "C", "text": "can" },
+        { "id": "D", "text": "shall" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 2 (saw -> would run)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "The main principle of ecotourism is to ________ the environment.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "destroy" },
+        { "id": "B", "text": "conserve" },
+        { "id": "C", "text": "ignore" },
+        { "id": "D", "text": "exploit" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Conserve: bảo tồn."
+    }
+  ]
+}

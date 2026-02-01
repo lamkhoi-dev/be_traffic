@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hệ thức truy hồi $u_{n+1} = 3u_n$ xác định dãy số nào dưới đây (với $u_1=1$)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = 3n$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = 3^{n-1}$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = 3^n$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = n^3$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "1, 3, 9, 27... là lũy thừa của 3. Với $n=1$, $3^0=1$. Công thức $3^{n-1}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sin 2x}{x}$. (Gợi ý: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$)",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\frac{\\sin 2x}{x} = 2 \\cdot \\frac{\\sin 2x}{2x} \\to 2 \\cdot 1 = 2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Phương trình $2\\cos^2 x - 3\\cos x + 1 = 0$ có các họ nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = k2\\pi; x = \\pm \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\pi + k2\\pi; x = \\pm \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = k2\\pi; x = \\pm \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\frac{\\pi}{2} + k\\pi; x = \\pm \\frac{\\pi}{3} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $t = \\cos x$, ta có $2t^2 - 3t + 1 = 0 \\Leftrightarrow t=1$ hoặc $t=1/2$. $\\cos x = 1 \\Rightarrow x=k2\\pi$. $\\cos x = 1/2 \\Rightarrow x=\\pm \\pi/3 + k2\\pi$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cho $\\cot \\alpha = 3$. Tính $P = \\frac{2\\cos \\alpha - \\sin \\alpha}{\\cos \\alpha + 2\\sin \\alpha}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho $\\sin \\alpha$: $P = \\frac{2\\cot \\alpha - 1}{\\cot \\alpha + 2} = \\frac{2(3)-1}{3+2} = \\frac{5}{5} = 1$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tính tổng của cấp số nhân lùi vô hạn: $1; -\\frac{1}{2}; \\frac{1}{4}; -\\frac{1}{8}; ...$",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2/3"
+        },
+        {
+          "id": "B",
+          "text": "3/2"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 1, q = -1/2$. Tổng $S = \\frac{u_1}{1-q} = \\frac{1}{1 - (-1/2)} = \\frac{1}{3/2} = \\frac{2}{3}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tính $\\lim (\\sqrt{n^2+1} - n)$ là dạng vô định nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{0}{0}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\infty}{\\infty}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\infty - \\infty$"
+        },
+        {
+          "id": "D",
+          "text": "$0.\\infty$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$n^2 \\to \\infty$, $n \\to \\infty$, hiệu là dạng vô định $\\infty - \\infty$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim \\frac{2n + 1}{n - 3}$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "-1/3"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "+∞"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\lim \\frac{2 + 1/n}{1 - 3/n} = \\frac{2}{1} = 2$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim_{x \\to -\\infty} \\frac{\\sqrt{x^2+1}}{x}$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi $x < 0$, $\\sqrt{x^2} = -x$. Chia tử và mẫu cho x, ta được $-\\sqrt{1+1/x^2} / 1 \\to -1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Giải phương trình $\\cos x = \\frac{1}{2}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\pm \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\pm \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\pm \\frac{2\\pi}{3} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos x = \\cos(\\frac{\\pi}{3}) \\Leftrightarrow x = \\pm \\frac{\\pi}{3} + k2\\pi$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Công thức nào biểu diễn $\\tan(a+b)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\tan a + \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\tan a - \\tan b}{1 - \\tan a \\tan b}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tan tổng thì lấy tổng tan, chia 1 trừ với tích tan."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tìm $x$ để 3 số $10-3x; 2x^2+3; 7-4x$ theo thứ tự lập thành cấp số cộng.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1$ hoặc $x = \\frac{11}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$x = -1$ hoặc $x = \\frac{11}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 1$ hoặc $x = -\\frac{11}{4}$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$(10-3x) + (7-4x) = 2(2x^2+3) \\Rightarrow 17 - 7x = 4x^2 + 6 \\Rightarrow 4x^2 + 7x - 11 = 0$. Nghiệm $x=1$ hoặc $x=-11/4$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $S = \\sin^2 10^\\circ + \\sin^2 20^\\circ + ... + \\sin^2 80^\\circ$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ghép cặp $(\\sin^2 10^\\circ + \\sin^2 80^\\circ) = (\\sin^2 10^\\circ + \\cos^2 10^\\circ) = 1$. Có 4 cặp như vậy: (10,80), (20,70), (30,60), (40,50). Tổng = 4."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đơn giản biểu thức $C = \\cos(270^\\circ - x)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\cos(270^\\circ - x) = \\cos(180^\\circ + 90^\\circ - x) = -\\cos(90^\\circ - x) = -\\sin x$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phương trình $\\tan x = \\sqrt{3}$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{6} + k\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\frac{\\pi}{3} + k\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\tan x = \\tan(\\frac{\\pi}{3}) \\Leftrightarrow x = \\frac{\\pi}{3} + k\\pi$ (họ nghiệm của tan chu kì là $\\pi$)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Đổi số đo của góc $30^\\circ$ sang đơn vị radian.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\pi}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\pi}{6}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\pi}{3}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$30^\\circ = 30 \\cdot \\frac{\\pi}{180} = \\frac{\\pi}{6}$ rad."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho $\\tan \\alpha = 2$. Tính giá trị của biểu thức $M = \\frac{\\sin \\alpha + \\cos \\alpha}{\\sin \\alpha - \\cos \\alpha}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho $\\cos \\alpha$: $M = \\frac{\\tan \\alpha + 1}{\\tan \\alpha - 1} = \\frac{2+1}{2-1} = 3$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Dãy số $(q^n)$ có giới hạn bằng 0 khi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$q > 1$"
+        },
+        {
+          "id": "B",
+          "text": "$q = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$|q| < 1$"
+        },
+        {
+          "id": "D",
+          "text": "$q < -1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là định lý cơ bản về giới hạn của cấp số nhân lùi vô hạn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một đường tròn có bán kính $R = 10$ cm. Độ dài cung tròn có số đo $\\frac{\\pi}{2}$ rad là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$5\\pi$ cm"
+        },
+        {
+          "id": "B",
+          "text": "$10\\pi$ cm"
+        },
+        {
+          "id": "C",
+          "text": "$20\\pi$ cm"
+        },
+        {
+          "id": "D",
+          "text": "5 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$l = R\\alpha = 10 \\cdot \\frac{\\pi}{2} = 5\\pi$ cm."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong các đẳng thức sau, đẳng thức nào đúng với mọi $k \\in \\mathbb{Z}$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin(\\alpha + k\\pi) = \\sin \\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos(\\alpha + k\\pi) = \\cos \\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$\\tan(\\alpha + k\\pi) = \\tan \\alpha$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin(\\alpha + k2\\pi) = -\\sin \\alpha$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hàm tan và cot tuần hoàn với chu kì $\\pi$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin x + \\sqrt{3}\\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{5\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = -\\frac{\\pi}{6} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia 2 vế cho 2: $\\frac{1}{2}\\sin x + \\frac{\\sqrt{3}}{2}\\cos x = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{3}) = 1 \\Rightarrow x + \\frac{\\pi}{3} = \\frac{\\pi}{2} + k2\\pi \\Rightarrow x = \\frac{\\pi}{6} + k2\\pi$."
+    }
+  ]
+}

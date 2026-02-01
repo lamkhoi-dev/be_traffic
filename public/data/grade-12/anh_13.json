@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "We ______ friends since we were at primary school.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "have been"
+        },
+        {
+          "id": "B",
+          "text": "were"
+        },
+        {
+          "id": "C",
+          "text": "are"
+        },
+        {
+          "id": "D",
+          "text": "had been"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dấu hiệu 'since' đi với mốc thời gian trong quá khứ thường dùng thì Hiện tại hoàn thành (have been)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "If he hadn't missed the bus, he ______ late for the meeting now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "wouldn't be"
+        },
+        {
+          "id": "B",
+          "text": "wouldn't have been"
+        },
+        {
+          "id": "C",
+          "text": "won't be"
+        },
+        {
+          "id": "D",
+          "text": "isn't"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu điều kiện hỗn hợp (Mixed 3-2): Nguyên nhân quá khứ (missed bus) dẫn đến kết quả hiện tại (late now). Vế kết quả dùng 'would + V'."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Identify mistake: 'Despite he was tired, he continued working.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Despite"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "continued"
+        },
+        {
+          "id": "D",
+          "text": "working"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Despite' không đi với mệnh đề. Phải sửa thành 'Although' hoặc 'Despite being tired'."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "To live 'green', we should remove ______ from our homes.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "furniture"
+        },
+        {
+          "id": "B",
+          "text": "clutter"
+        },
+        {
+          "id": "C",
+          "text": "plants"
+        },
+        {
+          "id": "D",
+          "text": "light"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Clutter' (đồ đạc bừa bộn) nên được loại bỏ để không gian thoáng đãng và sạch sẽ hơn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The ______ of the internet has changed the way we communicate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "advent"
+        },
+        {
+          "id": "B",
+          "text": "event"
+        },
+        {
+          "id": "C",
+          "text": "intent"
+        },
+        {
+          "id": "D",
+          "text": "adventurous"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The advent of...' là cụm từ cố định, nghĩa là 'sự ra đời/xuất hiện của...'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Identify the Sentence Type: 'The wind blew strongly, and the trees swayed.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Simple Sentence"
+        },
+        {
+          "id": "B",
+          "text": "Compound Sentence"
+        },
+        {
+          "id": "C",
+          "text": "Complex Sentence"
+        },
+        {
+          "id": "D",
+          "text": "Compound-Complex Sentence"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu ghép (Compound) vì có 2 mệnh đề độc lập nối với nhau bằng liên từ 'and'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "identity"
+        },
+        {
+          "id": "B",
+          "text": "solidarity"
+        },
+        {
+          "id": "C",
+          "text": "majority"
+        },
+        {
+          "id": "D",
+          "text": "assimilate"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'solidarity' nhấn âm 3. Các từ còn lại nhấn âm 2 (identity, majority, assimilate)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Transformation: 'If you practise harder, you will get better results.' -> 'The harder...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The harder you practise, the better results you will get."
+        },
+        {
+          "id": "B",
+          "text": "The harder you practise, the best results you will get."
+        },
+        {
+          "id": "C",
+          "text": "The harder you practise, the gooder results you will get."
+        },
+        {
+          "id": "D",
+          "text": "The harder you practise, better results will come."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển đổi câu điều kiện sang so sánh kép đúng ngữ pháp."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word(s) CLOSEST in meaning to the underlined word: She is a 'generous' woman who has donated a lot of money to charity.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "mean"
+        },
+        {
+          "id": "B",
+          "text": "selfish"
+        },
+        {
+          "id": "C",
+          "text": "kind"
+        },
+        {
+          "id": "D",
+          "text": "rich"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Generous' (hào phóng) đồng nghĩa với 'kind' (tốt bụng). 'Mean' và 'selfish' là trái nghĩa."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Flexible working hours can help employees achieve a better ______ balance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "work-life"
+        },
+        {
+          "id": "B",
+          "text": "day-night"
+        },
+        {
+          "id": "C",
+          "text": "job-career"
+        },
+        {
+          "id": "D",
+          "text": "time-money"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Work-life balance' (cân bằng giữa công việc và cuộc sống)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "By the end of this month, I ______ my English course.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will finish"
+        },
+        {
+          "id": "B",
+          "text": "will be finishing"
+        },
+        {
+          "id": "C",
+          "text": "will have finished"
+        },
+        {
+          "id": "D",
+          "text": "have finished"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dấu hiệu 'By the end of...' (trước một thời điểm trong tương lai) dùng thì Tương lai hoàn thành."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "We need to protect the natural ______ of these rare birds.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "habit"
+        },
+        {
+          "id": "B",
+          "text": "habitat"
+        },
+        {
+          "id": "C",
+          "text": "habitation"
+        },
+        {
+          "id": "D",
+          "text": "inhabitant"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Habitat' (môi trường sống tự nhiên)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Opposite meaning: AI machines can be more 'accurate' than humans.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "precise"
+        },
+        {
+          "id": "B",
+          "text": "exact"
+        },
+        {
+          "id": "C",
+          "text": "imprecise"
+        },
+        {
+          "id": "D",
+          "text": "correct"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Accurate' (chính xác) trái nghĩa với 'imprecise' (không chính xác)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Many young people use social media to ______ their identity.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "express"
+        },
+        {
+          "id": "B",
+          "text": "make"
+        },
+        {
+          "id": "C",
+          "text": "do"
+        },
+        {
+          "id": "D",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Express identity' (thể hiện bản sắc/cá tính)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Closest meaning: She 'voluntarily' joined the project.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "willingly"
+        },
+        {
+          "id": "B",
+          "text": "reluctantly"
+        },
+        {
+          "id": "C",
+          "text": "forcedly"
+        },
+        {
+          "id": "D",
+          "text": "hardly"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voluntarily' (tự nguyện) đồng nghĩa với 'willingly' (sẵn lòng)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Rhinos are driven to the ______ of extinction.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "edge"
+        },
+        {
+          "id": "B",
+          "text": "side"
+        },
+        {
+          "id": "C",
+          "text": "verge"
+        },
+        {
+          "id": "D",
+          "text": "point"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thành ngữ 'on the verge of extinction' hoặc 'driven to the verge of extinction' (bên bờ vực tuyệt chủng)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "We need to ______ the software to the latest version.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "upgrade"
+        },
+        {
+          "id": "B",
+          "text": "grade"
+        },
+        {
+          "id": "C",
+          "text": "upside"
+        },
+        {
+          "id": "D",
+          "text": "upward"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Upgrade' (nâng cấp) phần mềm."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Advanced robots can ______ humans in dangerous jobs.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "place"
+        },
+        {
+          "id": "B",
+          "text": "replace"
+        },
+        {
+          "id": "C",
+          "text": "displace"
+        },
+        {
+          "id": "D",
+          "text": "emplaced"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Replace' (thay thế)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "You should ______ your computer repaired by a professional.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "make"
+        },
+        {
+          "id": "B",
+          "text": "have"
+        },
+        {
+          "id": "C",
+          "text": "ask"
+        },
+        {
+          "id": "D",
+          "text": "do"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến: 'have something done' (nhờ/thuê ai làm gì)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "If you ______ breakfast, you wouldn't feel hungry now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "had eaten"
+        },
+        {
+          "id": "B",
+          "text": "ate"
+        },
+        {
+          "id": "C",
+          "text": "eat"
+        },
+        {
+          "id": "D",
+          "text": "have eaten"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mixed Conditional (3-2). Nếu quá khứ đã ăn (had eaten) thì hiện tại không đói (wouldn't feel)."
+    }
+  ]
+}

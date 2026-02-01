@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trong chuyển động tròn đều, vectơ gia tốc có đặc điểm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng hướng với vectơ vận tốc"
+        },
+        {
+          "id": "B",
+          "text": "Ngược hướng với vectơ vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Luôn hướng vào tâm quỹ đạo"
+        },
+        {
+          "id": "D",
+          "text": "Có độ lớn bằng 0"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc trong chuyển động tròn đều là gia tốc hướng tâm, luôn vuông góc với vận tốc và hướng vào tâm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một vật chịu tác dụng của ba lực đồng quy $\\vec{F_1}, \\vec{F_2}, \\vec{F_3}$ và đang đứng yên. Khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F_1} + \\vec{F_2} = \\vec{F_3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_1 + F_2 = F_3$"
+        },
+        {
+          "id": "D",
+          "text": "Ba lực phải vuông góc nhau"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hợp lực bằng 0: $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0} \\Rightarrow \\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Công của trọng lực không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vị trí điểm đầu"
+        },
+        {
+          "id": "B",
+          "text": "Vị trí điểm cuối"
+        },
+        {
+          "id": "C",
+          "text": "Hình dạng đường đi"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trọng lực là lực thế, công không phụ thuộc hình dạng đường đi, chỉ phụ thuộc điểm đầu và cuối."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Va chạm mềm là va chạm mà sau khi va chạm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hai vật tách rời nhau và chuyển động với vận tốc khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Hai vật dính vào nhau và chuyển động cùng vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Động năng của hệ được bảo toàn"
+        },
+        {
+          "id": "D",
+          "text": "Tổng động lượng của hệ bằng 0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặc điểm của va chạm mềm (inelastic collision) là hai vật dính vào nhau sau va chạm."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Biểu thức của Định luật II Newton là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F} = -m\\vec{a}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{a} = \\frac{\\vec{F}}{m^2}$"
+        },
+        {
+          "id": "D",
+          "text": "$F = ma^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc tỉ lệ thuận với lực tác dụng và tỉ lệ nghịch với khối lượng: $\\vec{a} = \\frac{\\vec{F}}{m} \\Rightarrow \\vec{F} = m\\vec{a}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật chuyển động tròn đều với tốc độ không đổi. Nhận định nào sau đây SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vectơ vận tốc không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ dài không đổi"
+        },
+        {
+          "id": "C",
+          "text": "Tốc độ góc không đổi"
+        },
+        {
+          "id": "D",
+          "text": "Độ lớn gia tốc không đổi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong chuyển động tròn đều, vectơ vận tốc luôn thay đổi phương (tiếp tuyến với quỹ đạo), chỉ có độ lớn (tốc độ) là không đổi."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cánh tay đòn của một lực $F$ tác dụng vào vật có trục quay O là $d$. Nếu tăng lực lên 2 lần và giảm cánh tay đòn đi 2 lần thì moment lực sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Tăng 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Giảm 4 lần"
+        },
+        {
+          "id": "D",
+          "text": "Tăng 2 lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$M' = (2F) \\times (d/2) = F.d = M$. Không đổi."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Súng giật lùi khi bắn là ứng dụng của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Định luật bảo toàn cơ năng"
+        },
+        {
+          "id": "B",
+          "text": "Định luật bảo toàn động lượng"
+        },
+        {
+          "id": "C",
+          "text": "Định luật vạn vật hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Định luật Húc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tổng động lượng ban đầu bằng 0. Khi đạn bay về trước, súng phải giật lùi về sau để tổng động lượng vẫn bằng 0 (Chuyển động bằng phản lực)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khi xe ô tô đi qua đoạn đường cong, lực đóng vai trò lực hướng tâm giữ cho xe không bị trượt ra ngoài là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trọng lực"
+        },
+        {
+          "id": "B",
+          "text": "Phản lực của mặt đường"
+        },
+        {
+          "id": "C",
+          "text": "Lực ma sát nghỉ ngang"
+        },
+        {
+          "id": "D",
+          "text": "Lực phát động của động cơ"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát nghỉ giữa bánh xe và mặt đường đóng vai trò lực hướng tâm."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khi một vật trượt xuống dốc có ma sát, cơ năng của vật:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Được bảo toàn"
+        },
+        {
+          "id": "B",
+          "text": "Tăng lên"
+        },
+        {
+          "id": "C",
+          "text": "Giảm dần do chuyển hóa thành nhiệt"
+        },
+        {
+          "id": "D",
+          "text": "Biến thiên điều hòa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát là lực không thế, sinh công âm làm giảm cơ năng (chuyển hóa thành nhiệt năng)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đơn vị nào sau đây **không** phải là đơn vị của năng lượng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "B",
+          "text": "Calo (cal)"
+        },
+        {
+          "id": "C",
+          "text": "kWh"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Newton là đơn vị của lực."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Một lò xo có độ cứng $k = 100$ N/m. Khi lò xo bị giãn một đoạn 5 cm thì lực đàn hồi của lò xo có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "500 N"
+        },
+        {
+          "id": "B",
+          "text": "5 N"
+        },
+        {
+          "id": "C",
+          "text": "20 N"
+        },
+        {
+          "id": "D",
+          "text": "0,05 N"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đổi 5 cm = 0,05 m. Áp dụng định luật Húc: $F_{dh} = k|\\Delta l| = 100 \\times 0,05 = 5$ N."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tần số $f$ và chu kì $T$ liên hệ với nhau bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$f = T$"
+        },
+        {
+          "id": "B",
+          "text": "$f = 1/T$"
+        },
+        {
+          "id": "C",
+          "text": "$f = 2\\pi T$"
+        },
+        {
+          "id": "D",
+          "text": "$f = T^2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số là nghịch đảo của chu kì."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vệ tinh bay quanh Trái Đất theo quỹ đạo tròn. Lực hấp dẫn đóng vai trò:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cản"
+        },
+        {
+          "id": "B",
+          "text": "Lực phát động"
+        },
+        {
+          "id": "C",
+          "text": "Lực hướng tâm"
+        },
+        {
+          "id": "D",
+          "text": "Lực ma sát"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn vuông góc với vận tốc, giữ vệ tinh chuyển động tròn (hướng tâm)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Vật khối lượng m đặt trên mặt phẳng nghiêng góc $\\alpha$ so với phương ngang. Thành phần trọng lực gây ra gia tốc trượt cho vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P_x = mg \\cos\\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$P_x = mg \\sin\\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$P_x = mg$"
+        },
+        {
+          "id": "D",
+          "text": "$P_x = mg \\tan\\alpha$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích lực trên mặt phẳng nghiêng: $P_x = P\\sin\\alpha = mg\\sin\\alpha$ (song song mặt phẳng)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tính chất bảo toàn cơ năng KHÔNG áp dụng được cho trường hợp:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật rơi tự do"
+        },
+        {
+          "id": "B",
+          "text": "Con lắc đơn dao động (bỏ qua ma sát)"
+        },
+        {
+          "id": "C",
+          "text": "Vật trượt trên mặt phẳng nghiêng có ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Vật ném ngang (bỏ qua sức cản không khí)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có ma sát thì cơ năng không bảo toàn (chuyển thành nhiệt)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Cặp lực và phản lực trong định luật III Newton không có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng vào hai vật khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Cùng phương, ngược chiều"
+        },
+        {
+          "id": "C",
+          "text": "Cùng độ lớn"
+        },
+        {
+          "id": "D",
+          "text": "Cân bằng nhau"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vì tác dụng vào 2 vật khác nhau nên chúng KHÔNG cân bằng nhau (lực cân bằng phải đặt vào cùng 1 vật)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong hệ tọa độ (p, T), đường đẳng tích là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đường thẳng đi qua gốc tọa độ"
+        },
+        {
+          "id": "B",
+          "text": "Đường hypebol"
+        },
+        {
+          "id": "C",
+          "text": "Đường thẳng song song trục p"
+        },
+        {
+          "id": "D",
+          "text": "Đường thẳng song song trục T"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật Sác-lơ: $p \\sim T$. Đồ thị p theo T là đường thẳng qua gốc tọa độ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phát biểu nào sau đây đúng về sai số phép đo?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sai số ngẫu nhiên có thể loại bỏ hoàn toàn"
+        },
+        {
+          "id": "B",
+          "text": "Sai số hệ thống thường do dụng cụ đo gây ra"
+        },
+        {
+          "id": "C",
+          "text": "Sai số tuyệt đối bằng tổng các giá trị đo được"
+        },
+        {
+          "id": "D",
+          "text": "Kết quả đo luôn chính xác tuyệt đối"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai số hệ thống do dụng cụ (lệch điểm 0, chia độ không đều...) hoặc quy trình đo."
+    }
+  ]
+}

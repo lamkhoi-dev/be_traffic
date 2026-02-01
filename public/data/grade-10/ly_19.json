@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Watt (W) là đơn vị của công suất, 1 W tương đương với:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 kg.m²/s³"
+        },
+        {
+          "id": "B",
+          "text": "1 kg.m/s²"
+        },
+        {
+          "id": "C",
+          "text": "1 kg.m²/s²"
+        },
+        {
+          "id": "D",
+          "text": "1 N.s"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = A/t = (F.s)/t = (ma.s)/t$. Đơn vị: $(kg . m/s^2 . m) / s = kg.m^2/s^3$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Công suất là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khả năng thực hiện công của lực"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ thực hiện công"
+        },
+        {
+          "id": "C",
+          "text": "Năng lượng của vật"
+        },
+        {
+          "id": "D",
+          "text": "Thời gian thực hiện công"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công suất $P = A/t$ là đại lượng đo bằng công sinh ra trong một đơn vị thời gian, đặc trưng cho tốc độ thực hiện công."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Độ cứng $k$ của lò xo phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực tác dụng lên lò xo"
+        },
+        {
+          "id": "B",
+          "text": "Độ biến dạng của lò xo"
+        },
+        {
+          "id": "C",
+          "text": "Bản chất vật liệu và kích thước của lò xo"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật treo vào lò xo"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số k đặc trưng cho bản chất và kích thước của lò xo, không phụ thuộc ngoại lực."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phát biểu nào sau đây đúng về sai số phép đo?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sai số ngẫu nhiên có thể loại bỏ hoàn toàn"
+        },
+        {
+          "id": "B",
+          "text": "Sai số hệ thống thường do dụng cụ đo gây ra"
+        },
+        {
+          "id": "C",
+          "text": "Sai số tuyệt đối bằng tổng các giá trị đo được"
+        },
+        {
+          "id": "D",
+          "text": "Kết quả đo luôn chính xác tuyệt đối"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai số hệ thống do dụng cụ (lệch điểm 0, chia độ không đều...) hoặc quy trình đo."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đơn vị của độ cứng $k$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Newton trên mét (N/m)"
+        },
+        {
+          "id": "C",
+          "text": "Mét trên Newton (m/N)"
+        },
+        {
+          "id": "D",
+          "text": "Joule (J)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ $F=k\\Delta l \\Rightarrow k=F/\\Delta l$ (N/m)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Biểu thức của Định luật II Newton là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F} = -m\\vec{a}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{a} = \\frac{\\vec{F}}{m^2}$"
+        },
+        {
+          "id": "D",
+          "text": "$F = ma^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc tỉ lệ thuận với lực tác dụng và tỉ lệ nghịch với khối lượng: $\\vec{a} = \\frac{\\vec{F}}{m} \\Rightarrow \\vec{F} = m\\vec{a}$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Động lượng của một vật khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ là đại lượng vectơ được xác định bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{p} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{p} = m\\vec{v}$"
+        },
+        {
+          "id": "C",
+          "text": "$p = mv$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{p} = \\frac{1}{2}m\\vec{v}^2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động lượng là đại lượng vectơ cùng hướng với vận tốc: $\\vec{p} = m\\vec{v}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Để đo tốc độ tức thời của một viên bi lăn trên máng nghiêng trong phòng thí nghiệm, người ta thường dùng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thước mét và đồng hồ bấm giây thủ công"
+        },
+        {
+          "id": "B",
+          "text": "Cổng quang điện và đồng hồ đo thời gian hiện số"
+        },
+        {
+          "id": "C",
+          "text": "Lực kế"
+        },
+        {
+          "id": "D",
+          "text": "Nhiệt kế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cổng quang điện giúp đo thời gian chắn sáng rất ngắn để tính tốc độ tức thời chính xác."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Gia tốc rơi tự do $g$ phụ thuộc vào yếu tố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khối lượng của vật rơi"
+        },
+        {
+          "id": "B",
+          "text": "Vĩ độ địa lý và độ cao"
+        },
+        {
+          "id": "C",
+          "text": "Kích thước vật rơi"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc đầu của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$g$ thay đổi theo vị trí địa lý (vĩ độ) và độ cao so với mặt đất."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một lò xo bị nén 5cm, biết độ cứng k=100 N/m. Thế năng đàn hồi của lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,125 J"
+        },
+        {
+          "id": "B",
+          "text": "0,25 J"
+        },
+        {
+          "id": "C",
+          "text": "250 J"
+        },
+        {
+          "id": "D",
+          "text": "12,5 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_{dh} = 0,5 k (\\Delta l)^2 = 0,5 \\times 100 \\times (0,05)^2 = 50 \\times 0,0025 = 0,125$ J."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Động lượng được bảo toàn trong trường hợp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hệ kín (cô lập)"
+        },
+        {
+          "id": "B",
+          "text": "Hệ có ma sát"
+        },
+        {
+          "id": "C",
+          "text": "Hệ chịu tác dụng của ngoại lực lớn"
+        },
+        {
+          "id": "D",
+          "text": "Hệ vật chuyển động nhanh dần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật bảo toàn động lượng áp dụng cho hệ kín (tổng ngoại lực bằng 0)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hợp lực của hai lực đồng quy $F_1 = 3N$ và $F_2 = 4N$ vuông góc với nhau có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "7 N"
+        },
+        {
+          "id": "B",
+          "text": "1 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "12 N"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3^2 + 4^2} = 5$ N."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một thanh chắn đường dài 7,8m, có trọng lượng 210N và trọng tâm cách đầu bên trái 1,2m. Thanh có thể quay quanh một trục nằm ngang ở cách đầu bên trái 1,5m. Để thanh cân bằng nằm ngang, cần tác dụng vào đầu bên phải một lực bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "100 N"
+        },
+        {
+          "id": "D",
+          "text": "50 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trục quay O cách đầu trái A là 1,5m. Trọng tâm G cách A là 1,2m $\\Rightarrow OG = 1,5 - 1,2 = 0,3m$. Đầu phải B cách O là $7,8 - 1,5 = 6,3m$. Cân bằng moment: $P.OG = F.OB \\Rightarrow 210 \\times 0,3 = F \\times 6,3 \\Rightarrow F = 10$ N."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vectơ động lượng $\\vec{p}$ luôn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng hướng với vectơ vận tốc"
+        },
+        {
+          "id": "B",
+          "text": "Ngược hướng với vectơ vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Vuông góc với vectơ vận tốc"
+        },
+        {
+          "id": "D",
+          "text": "Cùng hướng với vectơ gia tốc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ công thức $\\vec{p} = m\\vec{v}$ (với $m>0$), suy ra $\\vec{p}$ cùng hướng $\\vec{v}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Công của trọng lực không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vị trí điểm đầu"
+        },
+        {
+          "id": "B",
+          "text": "Vị trí điểm cuối"
+        },
+        {
+          "id": "C",
+          "text": "Hình dạng đường đi"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trọng lực là lực thế, công không phụ thuộc hình dạng đường đi, chỉ phụ thuộc điểm đầu và cuối."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Chu kì $T$ của chuyển động tròn đều là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số vòng quay được trong 1 giây"
+        },
+        {
+          "id": "B",
+          "text": "Thời gian để vật đi được 1 mét"
+        },
+        {
+          "id": "C",
+          "text": "Thời gian để vật đi hết một vòng quỹ đạo"
+        },
+        {
+          "id": "D",
+          "text": "Góc mà bán kính nối vật quét được trong 1 giây"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì T."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Đơn vị nào sau đây **không** phải là đơn vị của năng lượng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "B",
+          "text": "Calo (cal)"
+        },
+        {
+          "id": "C",
+          "text": "kWh"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Newton là đơn vị của lực."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Thế năng trọng trường của một vật phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vận tốc của vật"
+        },
+        {
+          "id": "B",
+          "text": "Khối lượng và vị trí của vật so với mốc thế năng"
+        },
+        {
+          "id": "C",
+          "text": "Gia tốc của vật"
+        },
+        {
+          "id": "D",
+          "text": "Quỹ đạo chuyển động của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_t = mgh$. Phụ thuộc khối lượng m và độ cao h (vị trí)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tần số $f$ và chu kì $T$ liên hệ với nhau bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$f = T$"
+        },
+        {
+          "id": "B",
+          "text": "$f = 1/T$"
+        },
+        {
+          "id": "C",
+          "text": "$f = 2\\pi T$"
+        },
+        {
+          "id": "D",
+          "text": "$f = T^2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số là nghịch đảo của chu kì."
+    }
+  ]
+}

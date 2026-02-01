@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 5: Động lượng",
+    "description": "Kiểm tra kiến thức về Động lượng, Xung lượng của lực, Định luật bảo toàn động lượng và Va chạm.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Động lượng được bảo toàn trong trường hợp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hệ kín (cô lập)" },
+        { "id": "B", "text": "Hệ có ma sát" },
+        { "id": "C", "text": "Hệ chịu tác dụng của ngoại lực lớn" },
+        { "id": "D", "text": "Hệ vật chuyển động nhanh dần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật bảo toàn động lượng áp dụng cho hệ kín (tổng ngoại lực bằng 0)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Biểu thức liên hệ giữa độ biến thiên động lượng và xung lượng của lực là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\Delta \\vec{p} = \\vec{F}.\\Delta t$" },
+        { "id": "B", "text": "$\\Delta \\vec{p} = \\frac{\\vec{F}}{\\Delta t}$" },
+        { "id": "C", "text": "$\\vec{p} = \\vec{F}.\\Delta t$" },
+        { "id": "D", "text": "$\\vec{F} = \\Delta \\vec{p}.\\Delta t$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ biến thiên động lượng bằng xung lượng của lực tác dụng trong khoảng thời gian đó."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 500g chuyển động với vận tốc 4m/s. Động lượng của vật là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2000 kg.m/s" },
+        { "id": "B", "text": "2 kg.m/s" },
+        { "id": "C", "text": "20 kg.m/s" },
+        { "id": "D", "text": "0,2 kg.m/s" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$p = mv = 0,5 \\times 4 = 2$ kg.m/s."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Súng giật lùi khi bắn là ứng dụng của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Định luật bảo toàn cơ năng" },
+        { "id": "B", "text": "Định luật bảo toàn động lượng" },
+        { "id": "C", "text": "Định luật vạn vật hấp dẫn" },
+        { "id": "D", "text": "Định luật Húc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tổng động lượng ban đầu bằng 0. Khi đạn bay về trước, súng phải giật lùi về sau để tổng động lượng vẫn bằng 0 (Chuyển động bằng phản lực)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Va chạm đàn hồi là va chạm trong đó:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chỉ bảo toàn động lượng, động năng giảm" },
+        { "id": "B", "text": "Bảo toàn cả động lượng và động năng" },
+        { "id": "C", "text": "Vật dính vào nhau sau va chạm" },
+        { "id": "D", "text": "Động năng tăng lên sau va chạm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Va chạm đàn hồi bảo toàn cả động lượng và động năng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một quả bóng bay đập vào tường và nảy ra. Trong thời gian va chạm, lực của tường tác dụng lên bóng đã làm thay đổi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chỉ tốc độ của bóng" },
+        { "id": "B", "text": "Chỉ khối lượng của bóng" },
+        { "id": "C", "text": "Động lượng của bóng" },
+        { "id": "D", "text": "Thế năng của bóng" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực tác dụng gây ra xung lượng, làm thay đổi động lượng (cả hướng và độ lớn vận tốc)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Vectơ động lượng $\\vec{p}$ luôn:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cùng hướng với vectơ vận tốc" },
+        { "id": "B", "text": "Ngược hướng với vectơ vận tốc" },
+        { "id": "C", "text": "Vuông góc với vectơ vận tốc" },
+        { "id": "D", "text": "Cùng hướng với vectơ gia tốc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ công thức $\\vec{p} = m\\vec{v}$ (với $m>0$), suy ra $\\vec{p}$ cùng hướng $\\vec{v}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng $m_1 = 1$kg và $m_2 = 3$kg chuyển động ngược chiều nhau với vận tốc $v_1 = 3$m/s và $v_2 = 1$m/s. Tổng động lượng của hệ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6 kg.m/s" },
+        { "id": "B", "text": "0 kg.m/s" },
+        { "id": "C", "text": "2 kg.m/s" },
+        { "id": "D", "text": "4 kg.m/s" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chọn chiều dương theo chiều vật 1. $p_1 = 1 \\times 3 = 3$. $p_2 = 3 \\times (-1) = -3$. $p_{he} = 3 + (-3) = 0$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Chuyển động bằng phản lực tuân theo định luật nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bảo toàn công" },
+        { "id": "B", "text": "Bảo toàn động lượng" },
+        { "id": "C", "text": "Vạn vật hấp dẫn" },
+        { "id": "D", "text": "Bảo toàn khối lượng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tên lửa, súng giật, sứa bơi... là ví dụ của chuyển động bằng phản lực (Bảo toàn động lượng)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đơn vị của động lượng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "N.m" },
+        { "id": "B", "text": "kg.m/s" },
+        { "id": "C", "text": "kg.m/s²" },
+        { "id": "D", "text": "J.s" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$p = mv \\Rightarrow$ đơn vị kg.m/s."
+    }
+  ]
+}

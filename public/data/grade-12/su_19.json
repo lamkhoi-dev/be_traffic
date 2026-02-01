@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Liên Hợp Quốc được thành lập năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1944"
+        },
+        {
+          "id": "B",
+          "text": "1945"
+        },
+        {
+          "id": "C",
+          "text": "1946"
+        },
+        {
+          "id": "D",
+          "text": "1947"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên Hợp Quốc được thành lập ngày 24 tháng 10 năm 1945 tại San Francisco."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Xương sống của chiến lược \"Chiến tranh đặc biệt\" là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cố vấn Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Ấp chiến lược"
+        },
+        {
+          "id": "C",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "D",
+          "text": "Vũ khí hiện đại"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dồn dân lập ấp chiến lược để tách dân ra khỏi cách mạng."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu phong trào công nhân Việt Nam bước đầu chuyển từ tự phát sang tự giác?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thành lập Công hội (1920)"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc bãi công của thợ máy xưởng Ba Son (8/1925)"
+        },
+        {
+          "id": "C",
+          "text": "Đảng Cộng sản Việt Nam ra đời (1930)"
+        },
+        {
+          "id": "D",
+          "text": "Phong trào vô sản hóa (1928)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bãi công Ba Son (1925) đánh dấu bước chuyển quan trọng sang tự giác."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tuyến phòng thủ kiên cố nhất của địch bảo vệ Sài Gòn từ hướng Đông là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xuân Lộc"
+        },
+        {
+          "id": "B",
+          "text": "Phan Rang"
+        },
+        {
+          "id": "C",
+          "text": "Biên Hòa"
+        },
+        {
+          "id": "D",
+          "text": "Vũng Tàu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xuân Lộc là 'cánh cửa thép'. Ta đập tan tuyến này ngày 21/4."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Hội nghị Yalta được tổ chức vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1943"
+        },
+        {
+          "id": "B",
+          "text": "1944"
+        },
+        {
+          "id": "C",
+          "text": "1945"
+        },
+        {
+          "id": "D",
+          "text": "1946"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hội nghị Yalta được tổ chức tháng 2 năm 1945 giữa Roosevelt, Stalin và Churchill."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mỹ chính thức tiến hành cuộc chiến tranh phá hoại miền Bắc lần thứ nhất vào năm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1964"
+        },
+        {
+          "id": "B",
+          "text": "1965"
+        },
+        {
+          "id": "C",
+          "text": "1968"
+        },
+        {
+          "id": "D",
+          "text": "1972"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau sự kiện Vịnh Bắc Bộ (8/1964), Mỹ chính thức ném bom từ 1965."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Thắng lợi quan trọng nhất của Hiệp định Paris đối với cách mạng Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mỹ phải công nhận các quyền dân tộc cơ bản"
+        },
+        {
+          "id": "B",
+          "text": "Đánh cho \"Mỹ cút\", làm thay đổi so sánh lực lượng có lợi cho ta"
+        },
+        {
+          "id": "C",
+          "text": "Mỹ phải bồi thường chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Chấm dứt hoàn toàn chiến tranh"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ rút quân tạo thời cơ để ta 'đánh cho ngụy nhào'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Vì sao Mỹ buộc phải chấp nhận đàm phán ở Paris?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do thiện chí hòa bình của Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Do thất bại nặng nề trong cuộc Tổng tiến công Mậu Thân 1968"
+        },
+        {
+          "id": "C",
+          "text": "Do Liên Xô can thiệp"
+        },
+        {
+          "id": "D",
+          "text": "Do áp lực của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cú sốc Mậu Thân làm lung lay ý chí xâm lược của Mỹ."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của chiến thắng Tây Nguyên là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiêu diệt một bộ phận sinh lực địch"
+        },
+        {
+          "id": "B",
+          "text": "Giải phóng vùng đất rộng lớn"
+        },
+        {
+          "id": "C",
+          "text": "Chuyển cuộc kháng chiến từ tiến công chiến lược sang tổng tiến công chiến lược"
+        },
+        {
+          "id": "D",
+          "text": "Làm tinh thần địch hoang mang"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bước ngoặt chuyển sang tổng tiến công trên toàn miền Nam."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Pháp rút khỏi Đông Dương vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1952"
+        },
+        {
+          "id": "B",
+          "text": "1953"
+        },
+        {
+          "id": "C",
+          "text": "1954"
+        },
+        {
+          "id": "D",
+          "text": "1955"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pháp bị đánh bại tại Điện Biên Phủ năm 1954 và rút khỏi Đông Dương."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tuyên ngôn Độc lập (2/9/1945) được Bác Hồ đọc tại:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quảng trường Ba Đình"
+        },
+        {
+          "id": "B",
+          "text": "Nhà hát lớn Hà Nội"
+        },
+        {
+          "id": "C",
+          "text": "Bắc Bộ phủ"
+        },
+        {
+          "id": "D",
+          "text": "Tân Trào"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại Quảng trường Ba Đình lịch sử."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đông Dương Cộng sản đảng được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6/1929"
+        },
+        {
+          "id": "B",
+          "text": "8/1929"
+        },
+        {
+          "id": "C",
+          "text": "9/1929"
+        },
+        {
+          "id": "D",
+          "text": "2/1930"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành lập tháng 6/1929 tại Bắc Kỳ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam ra đời vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20/12/1960"
+        },
+        {
+          "id": "B",
+          "text": "19/5/1960"
+        },
+        {
+          "id": "C",
+          "text": "2/9/1960"
+        },
+        {
+          "id": "D",
+          "text": "30/4/1960"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sau thắng lợi của phong trào Đồng khởi, Mặt trận ra đời để đoàn kết toàn dân chống Mỹ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Đại hội Đảng nào đã xác định mục tiêu \"Dân giàu, nước mạnh, xã hội công bằng, văn minh\"?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại hội IX (2001)"
+        },
+        {
+          "id": "B",
+          "text": "Đại hội VIII (1996)"
+        },
+        {
+          "id": "C",
+          "text": "Đại hội VI (1986)"
+        },
+        {
+          "id": "D",
+          "text": "Đại hội VII (1991)"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu tổng quát được hoàn thiện dần và nêu rõ tại các kỳ đại hội sau đổi mới (ĐH IX nêu rõ cụm từ này)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "\"Ai có súng dùng súng. Ai có gươm dùng gươm...\" là đoạn trích trong văn kiện nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Lời kêu gọi Toàn quốc kháng chiến"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ thị Toàn dân kháng chiến"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến nhất định thắng lợi"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời kêu gọi bất hủ của Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam và Trung Hoa Dân Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam và Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam và Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Pháp và Trung Hoa Dân Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ta ký với Pháp để đuổi quân Trung Hoa Dân Quốc về nước (Hòa để tiến)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gửi Yêu sách đến Hội nghị Véc-xai (1919)"
+        },
+        {
+          "id": "B",
+          "text": "Đọc sơ thảo Luận cương của Lê-nin (7/1920)"
+        },
+        {
+          "id": "C",
+          "text": "Bỏ phiếu tán thành Quốc tế thứ 3 (12/1920)"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên (1925)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sự kiện bỏ phiếu gia nhập Quốc tế 3 (12/1920) đánh dấu bước chuyển từ chủ nghĩa yêu nước sang chủ nghĩa cộng sản."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thủ đoạn tàn bạo nhất của Mỹ - Diệm trong việc thi hành Đạo luật 10/59 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lê máy chém đi khắp miền Nam"
+        },
+        {
+          "id": "B",
+          "text": "Dồn dân lập ấp"
+        },
+        {
+          "id": "C",
+          "text": "Rải chất độc hóa học"
+        },
+        {
+          "id": "D",
+          "text": "Ném bom miền Bắc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công khai chém giết người vô tội, đặt cộng sản ra ngoài vòng pháp luật."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Điểm mới của Cương lĩnh chính trị đầu tiên so với Luận cương chính trị (10/1930) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh giá đúng khả năng cách mạng của tiểu tư sản, tư sản dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Xác định công nhân và nông dân là lực lượng chính"
+        },
+        {
+          "id": "C",
+          "text": "Đề cao nhiệm vụ đấu tranh giai cấp"
+        },
+        {
+          "id": "D",
+          "text": "Chủ trương làm tư sản dân quyền cách mạng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cương lĩnh đầu tiên tập hợp được đông đảo lực lượng (đại đoàn kết), còn Luận cương 10/1930 nặng về đấu tranh giai cấp."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự chấm dứt chế độ phân biệt chủng tộc (A-pác-thai) ở Nam Phi?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nen-xơn Man-đê-la được trả tự do (1990)"
+        },
+        {
+          "id": "B",
+          "text": "Nen-xơn Man-đê-la trở thành Tổng thống da màu đầu tiên (1993)"
+        },
+        {
+          "id": "C",
+          "text": "Hiến pháp mới được thông qua (1993)"
+        },
+        {
+          "id": "D",
+          "text": "Đại hội dân tộc Phi (ANC) được thành lập"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việc N. Man-đê-la trở thành Tổng thống (1994 - Lưu ý SGK ghi 1993/1994 tùy phiên bản cũ mới, chính xác bầu cử là 1994) đánh dấu sự sụp đổ hoàn toàn. Trong trắc nghiệm thường chọn mốc Man-đê-la làm Tổng thống."
+    }
+  ]
+}

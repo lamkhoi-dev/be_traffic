@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 9: Việt Nam 1973-1975",
+    "description": "Kiểm tra kiến thức về tình hình sau Hiệp định Paris, Chiến dịch Tây Nguyên, Huế - Đà Nẵng và Chiến dịch Hồ Chí Minh.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sau Hiệp định Paris 1973, so sánh lực lượng ở miền Nam thay đổi như thế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có lợi cho cách mạng" },
+        { "id": "B", "text": "Có lợi cho chính quyền Sài Gòn" },
+        { "id": "C", "text": "Cân bằng" },
+        { "id": "D", "text": "Bất lợi cho cả hai bên" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quân Mỹ rút đi, quân ngụy mất chỗ dựa, trong khi lực lượng ta được giữ nguyên và phát triển."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hội nghị lần thứ 21 Ban Chấp hành Trung ương Đảng (7/1973) chủ trương:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiếp tục cuộc cách mạng dân tộc dân chủ nhân dân bằng con đường bạo lực cách mạng" },
+        { "id": "B", "text": "Chuyển sang đấu tranh chính trị" },
+        { "id": "C", "text": "Thương lượng hòa bình với chính quyền Sài Gòn" },
+        { "id": "D", "text": "Xây dựng chủ nghĩa xã hội ở miền Nam" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trước hành động phá hoại hiệp định của địch, Đảng khẳng định phải tiếp tục dùng bạo lực cách mạng."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chiến thắng nào được coi là \"trận trinh sát chiến lược\", tạo tiền đề cho Tổng tiến công và nổi dậy Xuân 1975?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến thắng Buôn Ma Thuột" },
+        { "id": "B", "text": "Chiến thắng Đường 14 - Phước Long" },
+        { "id": "C", "text": "Chiến thắng Xuân Lộc" },
+        { "id": "D", "text": "Chiến thắng Tây Nguyên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Phước Long (1/1975) cho thấy sự suy yếu của quân ngụy và khả năng Mỹ không can thiệp trở lại."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Bộ Chính trị Trung ương Đảng đề ra kế hoạch giải phóng hoàn toàn miền Nam trong:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hai năm 1975 và 1976" },
+        { "id": "B", "text": "Năm 1975" },
+        { "id": "C", "text": "Năm 1976" },
+        { "id": "D", "text": "Ba năm 1975, 1976, 1977" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kế hoạch ban đầu là 2 năm 1975-1976, nhưng có phương án linh hoạt nếu thời cơ đến sớm."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chiến dịch mở màn cho cuộc Tổng tiến công và nổi dậy Xuân 1975 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến dịch Huế - Đà Nẵng" },
+        { "id": "B", "text": "Chiến dịch Hồ Chí Minh" },
+        { "id": "C", "text": "Chiến dịch Tây Nguyên" },
+        { "id": "D", "text": "Chiến dịch Đường 9 - Khe Sanh" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tây Nguyên được chọn làm hướng tiến công chủ yếu."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trận đánh then chốt mở màn chiến dịch Tây Nguyên là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Plâyku" },
+        { "id": "B", "text": "Kon Tum" },
+        { "id": "C", "text": "Buôn Ma Thuột" },
+        { "id": "D", "text": "An Khê" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đánh vào Buôn Ma Thuột (10/3/1975) làm rối loạn hệ thống phòng thủ của địch."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của chiến thắng Tây Nguyên là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiêu diệt một bộ phận sinh lực địch" },
+        { "id": "B", "text": "Giải phóng vùng đất rộng lớn" },
+        { "id": "C", "text": "Chuyển cuộc kháng chiến từ tiến công chiến lược sang tổng tiến công chiến lược" },
+        { "id": "D", "text": "Làm tinh thần địch hoang mang" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bước ngoặt chuyển sang tổng tiến công trên toàn miền Nam."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Ngày 29/3/1975 là ngày giải phóng thành phố nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Huế" },
+        { "id": "B", "text": "Đà Nẵng" },
+        { "id": "C", "text": "Quy Nhơn" },
+        { "id": "D", "text": "Nha Trang" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đà Nẵng được giải phóng, kết thúc chiến dịch Huế - Đà Nẵng."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Chiến dịch giải phóng Sài Gòn - Gia Định được đổi tên thành Chiến dịch Hồ Chí Minh vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "14/4/1975" },
+        { "id": "B", "text": "26/4/1975" },
+        { "id": "C", "text": "30/4/1975" },
+        { "id": "D", "text": "10/3/1975" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thể theo nguyện vọng của quân dân, Bộ Chính trị quyết định đổi tên."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "5 cánh quân tiến vào Sài Gòn trong Chiến dịch Hồ Chí Minh bắt đầu nổ súng vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "17 giờ ngày 26/4/1975" },
+        { "id": "B", "text": "10 giờ ngày 30/4/1975" },
+        { "id": "C", "text": "5 giờ ngày 26/4/1975" },
+        { "id": "D", "text": "0 giờ ngày 29/4/1975" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thời điểm mở màn chiến dịch Hồ Chí Minh."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tổng thống cuối cùng của chính quyền Sài Gòn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nguyễn Văn Thiệu" },
+        { "id": "B", "text": "Trần Văn Hương" },
+        { "id": "C", "text": "Dương Văn Minh" },
+        { "id": "D", "text": "Ngô Đình Diệm" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dương Văn Minh tuyên bố đầu hàng không điều kiện trưa 30/4."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thời cơ chiến lược để giải phóng Sài Gòn được xác định là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trước mùa mưa năm 1975" },
+        { "id": "B", "text": "Trong năm 1976" },
+        { "id": "C", "text": "Khi Mỹ rút hết quân" },
+        { "id": "D", "text": "Khi quân đội Sài Gòn tan rã hoàn toàn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kịp thời, nhanh chóng trước khi mùa mưa đến."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Lá cờ cách mạng tung bay trên nóc Dinh Độc Lập vào thời điểm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10 giờ 45 phút ngày 30/4/1975" },
+        { "id": "B", "text": "11 giờ 30 phút ngày 30/4/1975" },
+        { "id": "C", "text": "9 giờ 30 phút ngày 30/4/1975" },
+        { "id": "D", "text": "12 giờ ngày 1/5/1975" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời khắc lịch sử đánh dấu sự toàn thắng của chiến dịch."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tuyến phòng thủ kiên cố nhất của địch bảo vệ Sài Gòn từ hướng Đông là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xuân Lộc" },
+        { "id": "B", "text": "Phan Rang" },
+        { "id": "C", "text": "Biên Hòa" },
+        { "id": "D", "text": "Vũng Tàu" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xuân Lộc là 'cánh cửa thép'. Ta đập tan tuyến này ngày 21/4."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nguyên nhân khách quan làm nên thắng lợi của cuộc kháng chiến chống Mỹ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự lãnh đạo của Đảng" },
+        { "id": "B", "text": "Tinh thần đoàn kết chiến đấu của ba nước Đông Dương" },
+        { "id": "C", "text": "Nhân dân ta yêu nước" },
+        { "id": "D", "text": "Hậu phương miền Bắc vững chắc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự đoàn kết Đông Dương, sự giúp đỡ của Liên Xô, Trung Quốc... là nguyên nhân khách quan."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Điểm giống nhau trong chủ trương của Đảng qua hai cuộc kháng chiến chống Pháp và chống Mỹ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh nhanh thắng nhanh" },
+        { "id": "B", "text": "Đánh chắc tiến chắc" },
+        { "id": "C", "text": "Độc lập dân tộc gắn liền với chủ nghĩa xã hội" },
+        { "id": "D", "text": "Chiến tranh nhân dân, toàn dân, toàn diện" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đường lối chiến tranh nhân dân xuyên suốt cả hai cuộc kháng chiến."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Thắng lợi của cuộc kháng chiến chống Mỹ đã chấm dứt ách thống trị của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chủ nghĩa thực dân cũ" },
+        { "id": "B", "text": "Chủ nghĩa thực dân mới" },
+        { "id": "C", "text": "Chế độ phong kiến" },
+        { "id": "D", "text": "Phát xít" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ đại diện cho chủ nghĩa thực dân mới."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Ngày 2/5/1975, địa phương nào cuối cùng ở miền Nam được giải phóng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Côn Đảo" },
+        { "id": "B", "text": "Phú Quốc" },
+        { "id": "C", "text": "Châu Đốc (An Giang)" },
+        { "id": "D", "text": "Cà Mau" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Châu Đốc là tỉnh cuối cùng được giải phóng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sau đại thắng mùa Xuân 1975, Tổ quốc Việt Nam được:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hoàn toàn độc lập, thống nhất, non sông thu về một mối" },
+        { "id": "B", "text": "Gia nhập ASEAN ngay lập tức" },
+        { "id": "C", "text": "Bình thường hóa quan hệ với Mỹ" },
+        { "id": "D", "text": "Trở thành nước công nghiệp" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kỷ nguyên độc lập, thống nhất."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chiến dịch Tây Nguyên thắng lợi đã chuyển cuộc kháng chiến sang giai đoạn:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cầm cự" },
+        { "id": "B", "text": "Phản công" },
+        { "id": "C", "text": "Tổng tiến công chiến lược trên toàn miền Nam" },
+        { "id": "D", "text": "Đàm phán" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chuyển từ tiến công chiến lược sang tổng tiến công trên toàn chiến trường."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 3: The Green Movement",
+    "description": "Chủ đề Môi trường & Sống xanh. Ngữ pháp: Câu đơn, câu ghép, câu phức (Simple, Compound, Complex sentences).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "organic" },
+        { "id": "B", "text": "fossil" },
+        { "id": "C", "text": "soot" },
+        { "id": "D", "text": "global" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'soot' phát âm là /ʊ/ hoặc /u:/. Các đáp án còn lại chữ 'o' phát âm là /ɔ/ hoặc /əʊ/ (organic /ɔː/, fossil /ɒ/, global /əʊ/)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "depletion" },
+        { "id": "B", "text": "pollution" },
+        { "id": "C", "text": "chemical" },
+        { "id": "D", "text": "confusion" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'chemical' nhấn âm 1. Các từ còn lại đuôi -ion nhấn âm tiết trước nó (âm 2)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We should replace ordinary light bulbs with ______ bulbs to save energy.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "energy-wasting" },
+        { "id": "B", "text": "energy-efficient" },
+        { "id": "C", "text": "energy-consuming" },
+        { "id": "D", "text": "energy-lacking" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Energy-efficient' nghĩa là tiết kiệm năng lượng/sử dụng năng lượng hiệu quả."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "The chemical ______ from cars causes air pollution.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "emission" },
+        { "id": "B", "text": "depletion" },
+        { "id": "C", "text": "preservation" },
+        { "id": "D", "text": "conclusion" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Chemical emission' (sự thải ra hóa chất/khí thải)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Identify the Sentence Type: 'The wind blew strongly, and the trees swayed.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Simple Sentence" },
+        { "id": "B", "text": "Compound Sentence" },
+        { "id": "C", "text": "Complex Sentence" },
+        { "id": "D", "text": "Compound-Complex Sentence" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu ghép (Compound) vì có 2 mệnh đề độc lập nối với nhau bằng liên từ 'and'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Identify the Sentence Type: 'Although it rained, we went out.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Simple Sentence" },
+        { "id": "B", "text": "Compound Sentence" },
+        { "id": "C", "text": "Complex Sentence" },
+        { "id": "D", "text": "Fragment" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu phức (Complex) vì có mệnh đề phụ thuộc (Although it rained) và mệnh đề chính (we went out)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Using ______ public transport is a good way to reduce carbon footprint.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "a" },
+        { "id": "B", "text": "an" },
+        { "id": "C", "text": "the" },
+        { "id": "D", "text": "X (no article)" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "'Public transport' là danh từ không đếm được/nói chung trong ngữ cảnh này, không cần mạo từ."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "If you don't clean the bathroom regularly, ______ will grow.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "dust" },
+        { "id": "B", "text": "mold and mildew" },
+        { "id": "C", "text": "clutter" },
+        { "id": "D", "text": "mess" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Mold and mildew' (nấm mốc) thường phát triển ở nơi ẩm ướt như nhà tắm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: 'Hazardous' waste must be disposed of carefully.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Safe" },
+        { "id": "B", "text": "Dangerous" },
+        { "id": "C", "text": "Useful" },
+        { "id": "D", "text": "Natural" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Hazardous' (nguy hại) đồng nghĩa với 'Dangerous' (nguy hiểm)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: We should 'conserve' natural resources.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "protect" },
+        { "id": "B", "text": "save" },
+        { "id": "C", "text": "waste" },
+        { "id": "D", "text": "maintain" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Conserve' (bảo tồn, tiết kiệm) trái nghĩa với 'waste' (lãng phí)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Combine sentences: 'He didn't study hard. He failed the exam.' (Use 'so')",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "He didn't study hard, so he failed the exam." },
+        { "id": "B", "text": "He didn't study hard so he failed the exam." },
+        { "id": "C", "text": "He didn't study hard so, he failed the exam." },
+        { "id": "D", "text": "So he failed the exam, he didn't study hard." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu ghép dùng 'so' (chỉ kết quả), thường có dấu phẩy trước 'so'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "The path ______ leads to the river is very slippery.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "whom" },
+        { "id": "C", "text": "which" },
+        { "id": "D", "text": "where" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mệnh đề quan hệ bổ nghĩa cho vật 'The path' dùng 'which' hoặc 'that'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Soot comes from the ______ of coal and other fuels.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "combustion" },
+        { "id": "B", "text": "combination" },
+        { "id": "C", "text": "communication" },
+        { "id": "D", "text": "composition" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Combustion' là sự đốt cháy. Soot (muội than) sinh ra từ việc đốt than."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "______ is a long period without rain.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Flood" },
+        { "id": "B", "text": "Drought" },
+        { "id": "C", "text": "Storm" },
+        { "id": "D", "text": "Famine" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Drought' là hạn hán."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Many people use ______ farming methods to avoid chemicals.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "inorganic" },
+        { "id": "B", "text": "organic" },
+        { "id": "C", "text": "industrial" },
+        { "id": "D", "text": "mechanized" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Organic farming' là canh tác hữu cơ (không dùng hóa chất)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify the mistake: 'Because the water was polluted, so we couldn't swim in it.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Because" },
+        { "id": "B", "text": "polluted" },
+        { "id": "C", "text": "so" },
+        { "id": "D", "text": "swim" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trong tiếng Anh, không dùng 'Because' và 'so' trong cùng một câu. Bỏ 'so'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "To live 'green', we should remove ______ from our homes.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "furniture" },
+        { "id": "B", "text": "clutter" },
+        { "id": "C", "text": "plants" },
+        { "id": "D", "text": "light" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Clutter' (đồ đạc bừa bộn) nên được loại bỏ để không gian thoáng đãng và sạch sẽ hơn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Communication: 'Can I switch off the air conditioner?' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Yes, please do." },
+        { "id": "B", "text": "No, I don't." },
+        { "id": "C", "text": "You're welcome." },
+        { "id": "D", "text": "It's expensive." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu trả lời lịch sự đồng ý cho phép tắt máy lạnh."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The overuse of fertilizers leads to soil ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "deplete" },
+        { "id": "B", "text": "depletion" },
+        { "id": "C", "text": "depleted" },
+        { "id": "D", "text": "depleting" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần danh từ 'depletion' (sự suy kiệt/bạc màu) sau danh từ 'soil'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Combine: 'I was tired. I went to bed early.' (Use 'Since')",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Since I was tired, I went to bed early." },
+        { "id": "B", "text": "I was tired since I went to bed early." },
+        { "id": "C", "text": "Since I went to bed early, I was tired." },
+        { "id": "D", "text": "I went to bed early, since I was tired." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Since' ở đây nghĩa là 'Because' (bởi vì), đứng đầu câu mệnh đề nguyên nhân."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sóng ngang là sóng có phương dao động:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trùng với phương truyền sóng"
+        },
+        {
+          "id": "B",
+          "text": "Vuông góc với phương truyền sóng"
+        },
+        {
+          "id": "C",
+          "text": "Nằm ngang"
+        },
+        {
+          "id": "D",
+          "text": "Thẳng đứng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng ngang: phương dao động vuông góc phương truyền sóng. Sóng dọc: phương dao động trùng phương truyền sóng."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Khi cường độ âm tăng lên 100 lần thì mức cường độ âm tăng thêm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 dB"
+        },
+        {
+          "id": "B",
+          "text": "100 dB"
+        },
+        {
+          "id": "C",
+          "text": "10 dB"
+        },
+        {
+          "id": "D",
+          "text": "2 dB"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$ΔL = 10 \\log(I_2/I_1) = 10 \\log(100) = 10 \\times 2 = 20$ dB."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Theo mẫu nguyên tử Bo, trạng thái dừng là trạng thái:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có năng lượng xác định và electron chuyển động trên quỹ đạo dừng"
+        },
+        {
+          "id": "B",
+          "text": "Electron đứng yên"
+        },
+        {
+          "id": "C",
+          "text": "Hạt nhân đứng yên"
+        },
+        {
+          "id": "D",
+          "text": "Nguyên tử không bức xạ và không hấp thụ năng lượng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiên đề Bo về trạng thái dừng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Bộ phận có tác dụng phân tích chùm sáng phức tạp thành các thành phần đơn sắc trong máy quang phổ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hệ tán sắc (Lăng kính)"
+        },
+        {
+          "id": "B",
+          "text": "Ống chuẩn trực"
+        },
+        {
+          "id": "C",
+          "text": "Buồng tối"
+        },
+        {
+          "id": "D",
+          "text": "Thấu kính hội tụ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ tán sắc (thường là lăng kính) làm nhiệm vụ này."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai nút sóng liên tiếp trong sóng dừng bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một bước sóng"
+        },
+        {
+          "id": "B",
+          "text": "Một nửa bước sóng"
+        },
+        {
+          "id": "C",
+          "text": "Một phần tư bước sóng"
+        },
+        {
+          "id": "D",
+          "text": "Hai lần bước sóng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khoảng cách giữa 2 nút hoặc 2 bụng liên tiếp là $\\lambda/2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hình chiếu của một chuyển động tròn đều lên một đường kính là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một dao động điều hòa"
+        },
+        {
+          "id": "B",
+          "text": "Một dao động tắt dần"
+        },
+        {
+          "id": "C",
+          "text": "Một chuyển động thẳng đều"
+        },
+        {
+          "id": "D",
+          "text": "Một chuyển động biến đổi đều"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là mối liên hệ cơ bản giữa chuyển động tròn đều và dao động điều hòa."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hạt nhân càng bền vững khi có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số khối A từ 50 đến 80"
+        },
+        {
+          "id": "B",
+          "text": "Số khối A rất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Số khối A rất nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Số proton bằng số neutron"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các hạt nhân trung bình (A khoảng 50-80, như Sắt Fe) có năng lượng liên kết riêng lớn nhất nên bền nhất."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong chân không, sắp xếp các tia sau theo thứ tự bước sóng giảm dần:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hồng ngoại, Ánh sáng tím, Tử ngoại, Tia X"
+        },
+        {
+          "id": "B",
+          "text": "Tia X, Tử ngoại, Ánh sáng tím, Hồng ngoại"
+        },
+        {
+          "id": "C",
+          "text": "Hồng ngoại, Tử ngoại, Ánh sáng tím, Tia X"
+        },
+        {
+          "id": "D",
+          "text": "Tử ngoại, Hồng ngoại, Tia X, Ánh sáng tím"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bước sóng: Hồng ngoại > Đỏ ... Tím > Tử ngoại > X."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Vận tốc của vật dao động điều hòa có độ lớn cực đại khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật ở vị trí biên dương"
+        },
+        {
+          "id": "B",
+          "text": "Vật ở vị trí biên âm"
+        },
+        {
+          "id": "C",
+          "text": "Vật đi qua vị trí cân bằng"
+        },
+        {
+          "id": "D",
+          "text": "Vật có li độ bằng A/2"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Vận tốc đạt độ lớn cực đại $|v_{max}| = \\omega A$ khi vật đi qua vị trí cân bằng ($x=0$)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong dao động điều hòa, gia tốc biến đổi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng pha với li độ"
+        },
+        {
+          "id": "B",
+          "text": "Ngược pha với li độ"
+        },
+        {
+          "id": "C",
+          "text": "Sớm pha $\\pi/2$ so với li độ"
+        },
+        {
+          "id": "D",
+          "text": "Trễ pha $\\pi/2$ so với li độ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$. Dấu trừ cho thấy gia tốc luôn ngược pha với li độ."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Pin quang điện hoạt động dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quang điện trong"
+        },
+        {
+          "id": "B",
+          "text": "Quang điện ngoài"
+        },
+        {
+          "id": "C",
+          "text": "Quang phát quang"
+        },
+        {
+          "id": "D",
+          "text": "Tán sắc ánh sáng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Pin mặt trời (quang điện) dựa trên hiện tượng quang điện trong (xảy ra ở chất bán dẫn)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tổng trở của đoạn mạch RLC nối tiếp được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$Z = \\sqrt{R^2 + (Z_L + Z_C)^2}$"
+        },
+        {
+          "id": "B",
+          "text": "$Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$"
+        },
+        {
+          "id": "C",
+          "text": "$Z = R + Z_L + Z_C$"
+        },
+        {
+          "id": "D",
+          "text": "$Z = \\sqrt{|R^2 - (Z_L - Z_C)^2|}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tính tổng trở: $Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hiện tượng quang điện ngoài là hiện tượng electron bị bật ra khỏi bề mặt kim loại khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiếu vào kim loại ánh sáng thích hợp"
+        },
+        {
+          "id": "B",
+          "text": "Nung nóng kim loại"
+        },
+        {
+          "id": "C",
+          "text": "Đặt kim loại vào từ trường mạnh"
+        },
+        {
+          "id": "D",
+          "text": "Cho dòng điện chạy qua kim loại"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa hiện tượng quang điện ngoài."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong mạch dao động LC lí tưởng, năng lượng điện trường tập trung ở:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tụ điện"
+        },
+        {
+          "id": "B",
+          "text": "Cuộn cảm"
+        },
+        {
+          "id": "C",
+          "text": "Dây dẫn nối"
+        },
+        {
+          "id": "D",
+          "text": "Không gian xung quanh mạch"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năng lượng điện trường $W_C$ tập trung ở tụ điện, năng lượng từ trường $W_L$ tập trung ở cuộn cảm."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự phát quang của chất nào sau đây là hiện tượng lân quang?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chất rắn"
+        },
+        {
+          "id": "B",
+          "text": "Chất lỏng"
+        },
+        {
+          "id": "C",
+          "text": "Chất khí"
+        },
+        {
+          "id": "D",
+          "text": "Hơi kim loại"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Huỳnh quang thường xảy ra với lỏng/khí (tắt ngay). Lân quang xảy ra với chất rắn (kéo dài)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Động cơ không đồng bộ ba pha hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng cảm ứng điện từ và từ trường quay"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng quang điện trong"
+        },
+        {
+          "id": "C",
+          "text": "Tác dụng nhiệt của dòng điện"
+        },
+        {
+          "id": "D",
+          "text": "Lực Lo-ren-xơ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên tắc: Sử dụng từ trường quay tạo ra bởi dòng ba pha để làm quay roto."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tia X có cùng bản chất với:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tia hồng ngoại"
+        },
+        {
+          "id": "B",
+          "text": "Sóng âm"
+        },
+        {
+          "id": "C",
+          "text": "Tia catot"
+        },
+        {
+          "id": "D",
+          "text": "Tia beta"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cả hai đều là sóng điện từ. (Tia catot và beta là dòng hạt electron)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong máy phát điện xoay chiều ba pha, ba suất điện động trong ba cuộn dây lệch pha nhau một góc:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2\\pi/3$"
+        },
+        {
+          "id": "B",
+          "text": "$\\pi/3$"
+        },
+        {
+          "id": "C",
+          "text": "$\\pi/2$"
+        },
+        {
+          "id": "D",
+          "text": "$\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lệch nhau $120^\\circ$ hay $2\\pi/3$ rad."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Chu kì dao động riêng của mạch dao động LC lí tưởng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$T = 2\\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "B",
+          "text": "$T = \\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{2\\pi \\sqrt{LC}}$"
+        },
+        {
+          "id": "D",
+          "text": "$T = \\sqrt{LC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức Thomson: $T = 2\\pi \\sqrt{LC}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong phản ứng hạt nhân, định luật nào sau đây **không** được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn khối lượng nghỉ"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn số khối A"
+        },
+        {
+          "id": "C",
+          "text": "Bảo toàn điện tích Z"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn năng lượng toàn phần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khối lượng nghỉ không bảo toàn (có độ hụt khối tỏa năng lượng). Các đại lượng khác bảo toàn."
+    }
+  ]
+}

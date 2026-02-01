@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lý 11 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một sóng cơ có tần số 10 Hz lan truyền với tốc độ 2 m/s. Bước sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 m."
+        },
+        {
+          "id": "B",
+          "text": "0,2 m."
+        },
+        {
+          "id": "C",
+          "text": "5 m."
+        },
+        {
+          "id": "D",
+          "text": "0,5 m."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 2/10 = 0,2$ m."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Bước sóng $\\lambda$ là quãng đường sóng truyền đi được trong",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "một đơn vị thời gian."
+        },
+        {
+          "id": "B",
+          "text": "một chu kì dao động."
+        },
+        {
+          "id": "C",
+          "text": "nửa chu kì dao động."
+        },
+        {
+          "id": "D",
+          "text": "1 giây."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa bước sóng: $\\lambda = v.T$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Gia tốc trong dao động điều hòa luôn",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cùng chiều với vận tốc."
+        },
+        {
+          "id": "B",
+          "text": "ngược chiều với vận tốc."
+        },
+        {
+          "id": "C",
+          "text": "hướng về vị trí cân bằng."
+        },
+        {
+          "id": "D",
+          "text": "hướng ra xa vị trí cân bằng."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$, luôn trái dấu với li độ, tức là luôn hướng về vị trí cân bằng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng cơ phụ thuộc vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số sóng."
+        },
+        {
+          "id": "B",
+          "text": "bước sóng."
+        },
+        {
+          "id": "C",
+          "text": "biên độ sóng."
+        },
+        {
+          "id": "D",
+          "text": "bản chất của môi trường truyền sóng."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vận tốc truyền sóng đặc trưng cho môi trường (mật độ, tính đàn hồi...), thường $v_R > v_L > v_K$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Năng lượng sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "năng lượng dao động của các phần tử môi trường nơi có sóng truyền qua."
+        },
+        {
+          "id": "B",
+          "text": "năng lượng của nguồn sóng."
+        },
+        {
+          "id": "C",
+          "text": "tổng động năng của các hạt vật chất."
+        },
+        {
+          "id": "D",
+          "text": "năng lượng điện từ."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quá trình truyền sóng là quá trình truyền năng lượng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ trong dao động điều hòa có dạng là đường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "thẳng."
+        },
+        {
+          "id": "B",
+          "text": "parabol."
+        },
+        {
+          "id": "C",
+          "text": "hình sin."
+        },
+        {
+          "id": "D",
+          "text": "tròn."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do x là hàm cosin (hoặc sin) theo thời gian nên đồ thị có dạng hình sin."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng cơ phụ thuộc vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số sóng."
+        },
+        {
+          "id": "B",
+          "text": "bước sóng."
+        },
+        {
+          "id": "C",
+          "text": "biên độ sóng."
+        },
+        {
+          "id": "D",
+          "text": "bản chất của môi trường truyền sóng."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vận tốc truyền sóng đặc trưng cho môi trường (mật độ, tính đàn hồi...), thường $v_R > v_L > v_K$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m."
+        },
+        {
+          "id": "B",
+          "text": "4 cm."
+        },
+        {
+          "id": "C",
+          "text": "6 cm."
+        },
+        {
+          "id": "D",
+          "text": "4\\pi cm."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Mối liên hệ giữa tần số góc $\\omega$, chu kì $T$ và tần số $f$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\omega = 2\\pi T = \\frac{2\\pi}{f}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\omega = \\frac{2\\pi}{T} = 2\\pi f$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{\\omega} = 2\\pi f$"
+        },
+        {
+          "id": "D",
+          "text": "$f = \\frac{2\\pi}{\\omega} = \\frac{1}{T}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $\\omega = \\frac{2\\pi}{T} = 2\\pi f$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Gia tốc trong dao động điều hòa luôn",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cùng chiều với vận tốc."
+        },
+        {
+          "id": "B",
+          "text": "ngược chiều với vận tốc."
+        },
+        {
+          "id": "C",
+          "text": "hướng về vị trí cân bằng."
+        },
+        {
+          "id": "D",
+          "text": "hướng ra xa vị trí cân bằng."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$, luôn trái dấu với li độ, tức là luôn hướng về vị trí cân bằng."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với tần số $f = 2$ Hz. Tần số góc của dao động là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\pi$ rad/s."
+        },
+        {
+          "id": "B",
+          "text": "$2\\pi$ rad/s."
+        },
+        {
+          "id": "C",
+          "text": "$4\\pi$ rad/s."
+        },
+        {
+          "id": "D",
+          "text": "2 rad/s."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi f = 2\\pi \\cdot 2 = 4\\pi$ rad/s."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một sóng cơ có tần số 10 Hz lan truyền với tốc độ 2 m/s. Bước sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 m."
+        },
+        {
+          "id": "B",
+          "text": "0,2 m."
+        },
+        {
+          "id": "C",
+          "text": "5 m."
+        },
+        {
+          "id": "D",
+          "text": "0,5 m."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 2/10 = 0,2$ m."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bước sóng $\\lambda$ là quãng đường sóng truyền đi được trong",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "một đơn vị thời gian."
+        },
+        {
+          "id": "B",
+          "text": "một chu kì dao động."
+        },
+        {
+          "id": "C",
+          "text": "nửa chu kì dao động."
+        },
+        {
+          "id": "D",
+          "text": "1 giây."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa bước sóng: $\\lambda = v.T$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Phương trình sóng tại nguồn O là $u_O = A\\cos(\\omega t)$. Phương trình sóng tại điểm M cách O một khoảng $d$ (sóng truyền từ O đến M) là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "B",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "C",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "D",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{\\pi d}{\\lambda})$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng tại M trễ pha hơn tại nguồn O một lượng $\\Delta\\varphi = \\frac{2\\pi d}{\\lambda}$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda / 2$."
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda$."
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda / 4$."
+        },
+        {
+          "id": "D",
+          "text": "$2\\lambda$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là một định nghĩa khác của bước sóng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Sóng cơ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sự lan truyền vật chất trong không gian."
+        },
+        {
+          "id": "B",
+          "text": "sự lan truyền dao động cơ (pha dao động) trong môi trường vật chất."
+        },
+        {
+          "id": "C",
+          "text": "sự chuyển động của các phần tử môi trường."
+        },
+        {
+          "id": "D",
+          "text": "sự lan truyền của ánh sáng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ lan truyền trạng thái dao động (năng lượng), các phần tử vật chất chỉ dao động tại chỗ chứ không truyền đi."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Mối liên hệ giữa bước sóng $\\lambda$, vận tốc truyền sóng $v$, chu kì $T$ và tần số $f$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda = \\frac{v}{T} = v.f$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda = v.T = \\frac{v}{f}$"
+        },
+        {
+          "id": "C",
+          "text": "$v = \\lambda.T = \\frac{\\lambda}{f}$"
+        },
+        {
+          "id": "D",
+          "text": "$f = \\frac{1}{T} = \\frac{v}{\\lambda}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản của sóng: $\\lambda = vT = v/f$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Một người quan sát thấy 1 chiêc phao nhô lên cao 10 lần trong 18 giây. Chu kì của sóng biển là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1,8 s."
+        },
+        {
+          "id": "B",
+          "text": "2 s."
+        },
+        {
+          "id": "C",
+          "text": "18 s."
+        },
+        {
+          "id": "D",
+          "text": "0,9 s."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhô lên 10 lần tương ứng với 9 chu kì. $9T = 18s \\Rightarrow T = 2s$."
+    }
+  ]
+}

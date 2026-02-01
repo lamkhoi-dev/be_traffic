@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "english",
+    "name": "Tiếng Anh 11 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "activity"
+        },
+        {
+          "id": "B",
+          "text": "stability"
+        },
+        {
+          "id": "C",
+          "text": "community"
+        },
+        {
+          "id": "D",
+          "text": "leadership"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'leadership' nhấn âm 1. Các từ còn lại nhấn âm 2 (trước đuôi -ity)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "ASEAN stands for the Association of ______ Asian Nations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "South"
+        },
+        {
+          "id": "B",
+          "text": "East"
+        },
+        {
+          "id": "C",
+          "text": "Southeast"
+        },
+        {
+          "id": "D",
+          "text": "Northeast"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "ASEAN = Association of Southeast Asian Nations (Hiệp hội các quốc gia Đông Nam Á)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"She enjoys to learn about the cultures of ASEAN countries.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoys"
+        },
+        {
+          "id": "B",
+          "text": "to learn"
+        },
+        {
+          "id": "C",
+          "text": "cultures"
+        },
+        {
+          "id": "D",
+          "text": "countries"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lỗi sai ở 'to learn'. Sau 'enjoy' phải dùng V-ing. Sửa thành 'learning'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ch**a**rter"
+        },
+        {
+          "id": "B",
+          "text": "p**a**rtner"
+        },
+        {
+          "id": "C",
+          "text": "**a**ssociation"
+        },
+        {
+          "id": "D",
+          "text": "f**a**ther"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'association' âm 'a' đầu tiên phát âm là /ə/ (âm schwa). Các từ còn lại (charter, partner, father) phát âm là /ɑː/."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Parents should learn to ______ their children's privacy.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "respect"
+        },
+        {
+          "id": "B",
+          "text": "inspect"
+        },
+        {
+          "id": "C",
+          "text": "suspect"
+        },
+        {
+          "id": "D",
+          "text": "expect"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Respect privacy' (tôn trọng sự riêng tư)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "The ______ arises when there is a lack of understanding between parents and children.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "generation gap"
+        },
+        {
+          "id": "B",
+          "text": "bridge"
+        },
+        {
+          "id": "C",
+          "text": "space"
+        },
+        {
+          "id": "D",
+          "text": "distance"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ chủ đề bài học: 'Generation gap'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "activity"
+        },
+        {
+          "id": "B",
+          "text": "stability"
+        },
+        {
+          "id": "C",
+          "text": "community"
+        },
+        {
+          "id": "D",
+          "text": "leadership"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'leadership' nhấn âm 1. Các từ còn lại nhấn âm 2 (trước đuôi -ity)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"The region has maintained **stability** for many decades.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "security"
+        },
+        {
+          "id": "B",
+          "text": "insecurity"
+        },
+        {
+          "id": "C",
+          "text": "safety"
+        },
+        {
+          "id": "D",
+          "text": "peace"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Stability' (sự ổn định) trái nghĩa với 'insecurity' (sự mất an ninh, bất ổn)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ch**a**rter"
+        },
+        {
+          "id": "B",
+          "text": "p**a**rtner"
+        },
+        {
+          "id": "C",
+          "text": "**a**ssociation"
+        },
+        {
+          "id": "D",
+          "text": "f**a**ther"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'association' âm 'a' đầu tiên phát âm là /ə/ (âm schwa). Các từ còn lại (charter, partner, father) phát âm là /ɑː/."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sentence Transformation: \"It is necessary for us to protect the environment.\" -> \"We ______.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "We should protect the environment."
+        },
+        {
+          "id": "B",
+          "text": "We must protect the environment."
+        },
+        {
+          "id": "C",
+          "text": "We can protect the environment."
+        },
+        {
+          "id": "D",
+          "text": "We may protect the environment."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Necessary' (cần thiết/bắt buộc) tương đương với 'must' hoặc 'have to'. 'Should' chỉ là lời khuyên."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Conflicts often arise when parents try to ______ their opinions on their children.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "force"
+        },
+        {
+          "id": "B",
+          "text": "impose"
+        },
+        {
+          "id": "C",
+          "text": "make"
+        },
+        {
+          "id": "D",
+          "text": "put"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'impose ... on ...' (áp đặt cái gì lên ai)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "______ in ASEAN programmes has given me many opportunities.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Participate"
+        },
+        {
+          "id": "B",
+          "text": "Participating"
+        },
+        {
+          "id": "C",
+          "text": "Participation"
+        },
+        {
+          "id": "D",
+          "text": "Participated"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "V-ing (Participating) đóng vai trò làm chủ ngữ cho động từ 'has given'. Dùng 'Participation' (danh từ) cũng được nhưng 'Participating' nhấn mạnh hành động hơn và phổ biến trong cấu trúc ngữ pháp bài này."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"She enjoys to learn about the cultures of ASEAN countries.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoys"
+        },
+        {
+          "id": "B",
+          "text": "to learn"
+        },
+        {
+          "id": "C",
+          "text": "cultures"
+        },
+        {
+          "id": "D",
+          "text": "countries"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lỗi sai ở 'to learn'. Sau 'enjoy' phải dùng V-ing. Sửa thành 'learning'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Communication: \"I think we should take part in the ASEAN Youth Festival.\" - \"______ It's a great opportunity.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "I don't agree."
+        },
+        {
+          "id": "C",
+          "text": "It's wrong."
+        },
+        {
+          "id": "D",
+          "text": "You must be kidding."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' (Tôi hoàn toàn đồng ý). Vế sau 'It's a great opportunity' ủng hộ ý kiến đó."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "My parents want me to ______ in their footsteps and become a doctor.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "follow"
+        },
+        {
+          "id": "B",
+          "text": "go"
+        },
+        {
+          "id": "C",
+          "text": "chase"
+        },
+        {
+          "id": "D",
+          "text": "walk"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành ngữ 'follow in someone's footsteps' (nối nghiệp/theo bước ai)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"Become a member of ASEAN has brought many benefits to Vietnam.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Become"
+        },
+        {
+          "id": "B",
+          "text": "has brought"
+        },
+        {
+          "id": "C",
+          "text": "benefits"
+        },
+        {
+          "id": "D",
+          "text": "to"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lỗi sai ở 'Become'. Khi đứng đầu câu làm chủ ngữ, động từ phải ở dạng V-ing. Sửa thành 'Becoming'."
+    }
+  ]
+}

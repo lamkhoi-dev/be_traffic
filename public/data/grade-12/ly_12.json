@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đoạn mạch xoay chiều RLC nối tiếp có $R=40\\Omega, Z_L=80\\Omega, Z_C=50\\Omega$. Tổng trở của mạch là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "50 $\\Omega$"
+        },
+        {
+          "id": "B",
+          "text": "70 $\\Omega$"
+        },
+        {
+          "id": "C",
+          "text": "10 $\\Omega$"
+        },
+        {
+          "id": "D",
+          "text": "170 $\\Omega$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Z = \\sqrt{R^2 + (Z_L - Z_C)^2} = \\sqrt{40^2 + (80-50)^2} = \\sqrt{40^2 + 30^2} = 50\\Omega$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là nguồn gốc năng lượng của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt trời và các ngôi sao"
+        },
+        {
+          "id": "B",
+          "text": "Nhà máy điện hạt nhân hiện nay"
+        },
+        {
+          "id": "C",
+          "text": "Bom nguyên tử"
+        },
+        {
+          "id": "D",
+          "text": "Sự phân rã Uranium"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phản ứng nhiệt hạch xảy ra ở tâm Mặt trời (tổng hợp Hidro thành Heli)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Để tạo ra phản ứng nhiệt hạch, điều kiện cần thiết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhiệt độ cực cao (hàng chục triệu độ)"
+        },
+        {
+          "id": "B",
+          "text": "Áp suất rất thấp"
+        },
+        {
+          "id": "C",
+          "text": "Bắn phá bằng neutron chậm"
+        },
+        {
+          "id": "D",
+          "text": "Nhiệt độ phòng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần nhiệt độ cao để các hạt nhân có động năng đủ lớn thắng lực đẩy Coulomb và kết hợp với nhau."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phần ứng của máy phát điện xoay chiều là nơi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tạo ra dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Tạo ra từ trường"
+        },
+        {
+          "id": "C",
+          "text": "Giữ cho trục quay ổn định"
+        },
+        {
+          "id": "D",
+          "text": "Làm mát máy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phần cảm tạo từ trường, phần ứng tạo ra suất điện động (dòng điện)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một vật thực hiện đồng thời hai dao động điều hòa cùng phương: $x_1 = 4\\cos(10\\pi t)$ và $x_2 = 4\\sin(10\\pi t)$. Biên độ dao động tổng hợp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "8 cm"
+        },
+        {
+          "id": "B",
+          "text": "$4\\sqrt{2}$ cm"
+        },
+        {
+          "id": "C",
+          "text": "4 cm"
+        },
+        {
+          "id": "D",
+          "text": "0 cm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x_2 = 4\\cos(10\\pi t - \\pi/2)$. Hai dao động vuông pha. $A = \\sqrt{4^2 + 4^2} = 4\\sqrt{2}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hình chiếu của một chuyển động tròn đều lên một đường kính là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một dao động điều hòa"
+        },
+        {
+          "id": "B",
+          "text": "Một dao động tắt dần"
+        },
+        {
+          "id": "C",
+          "text": "Một chuyển động thẳng đều"
+        },
+        {
+          "id": "D",
+          "text": "Một chuyển động biến đổi đều"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là mối liên hệ cơ bản giữa chuyển động tròn đều và dao động điều hòa."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Biên độ dao động tổng hợp của hai dao động cùng phương, cùng tần số không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ của dao động thứ nhất"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ của dao động thứ hai"
+        },
+        {
+          "id": "C",
+          "text": "Tần số chung của hai dao động"
+        },
+        {
+          "id": "D",
+          "text": "Độ lệch pha giữa hai dao động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công thức $A^2 = A_1^2 + A_2^2 + 2A_1A_2\\cos(\\Delta \\varphi)$. Không chứa $\\omega$ (tần số)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Khi xảy ra hiện tượng cộng hưởng điện thì hệ số công suất của mạch bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0,5"
+        },
+        {
+          "id": "D",
+          "text": "-1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi cộng hưởng, $Z_L = Z_C \\Rightarrow \\varphi = 0 \\Rightarrow \\cos\\varphi = 1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Quang phổ liên tục phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhiệt độ của nguồn sáng"
+        },
+        {
+          "id": "B",
+          "text": "Thành phần cấu tạo của nguồn sáng"
+        },
+        {
+          "id": "C",
+          "text": "Kích thước của nguồn sáng"
+        },
+        {
+          "id": "D",
+          "text": "Khoảng cách từ nguồn đến máy quang phổ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang phổ liên tục chỉ phụ thuộc nhiệt độ, không phụ thuộc bản chất nguồn sáng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Biết khối lượng của proton là 1,0073u, neutron là 1,0087u, hạt nhân He(2;4) là 4,0015u. Độ hụt khối của hạt nhân He là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,0305 u"
+        },
+        {
+          "id": "B",
+          "text": "0,0145 u"
+        },
+        {
+          "id": "C",
+          "text": "4,0320 u"
+        },
+        {
+          "id": "D",
+          "text": "0,0025 u"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta m = 2m_p + 2m_n - m_{He} = 2(1,0073) + 2(1,0087) - 4,0015 = 2,0146 + 2,0174 - 4,0015 = 4,032 - 4,0015 = 0,0305$u."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Năng lượng tỏa ra của phản ứng hạt nhân được tính bằng công thức ($m_{tr}$: tổng khối lượng trước, $m_{sau}$: tổng khối lượng sau):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$W = (m_{tr} - m_{sau})c^2$"
+        },
+        {
+          "id": "B",
+          "text": "$W = (m_{sau} - m_{tr})c^2$"
+        },
+        {
+          "id": "C",
+          "text": "$W = (m_{tr} + m_{sau})c^2$"
+        },
+        {
+          "id": "D",
+          "text": "$W = m_{tr}c^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu $m_{tr} > m_{sau}$ thì tỏa năng lượng."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trạng thái dừng của nguyên tử là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trạng thái electron không chuyển động"
+        },
+        {
+          "id": "B",
+          "text": "Trạng thái hạt nhân không dao động"
+        },
+        {
+          "id": "C",
+          "text": "Trạng thái có năng lượng hoàn toàn xác định"
+        },
+        {
+          "id": "D",
+          "text": "Trạng thái nguyên tử đứng yên"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tiên đề Bo."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nguyên tắc tạo ra dòng điện xoay chiều dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng cảm ứng điện từ"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng tự cảm"
+        },
+        {
+          "id": "C",
+          "text": "Hiện tượng quang điện"
+        },
+        {
+          "id": "D",
+          "text": "Hiện tượng nhiệt điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy phát điện xoay chiều hoạt động dựa trên hiện tượng cảm ứng điện từ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tia tử ngoại có tính chất nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng sinh lý mạnh, diệt khuẩn"
+        },
+        {
+          "id": "B",
+          "text": "Không bị nước và thủy tinh hấp thụ"
+        },
+        {
+          "id": "C",
+          "text": "Có tác dụng nhiệt mạnh hơn tia hồng ngoại"
+        },
+        {
+          "id": "D",
+          "text": "Không làm ion hóa không khí"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia tử ngoại có khả năng diệt khuẩn, chữa bệnh còi xương, làm ion hóa không khí."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hạt nhân $_6^{14}C$ phóng xạ $\\beta^-$ tạo thành hạt nhân con:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$_7^{14}N$"
+        },
+        {
+          "id": "B",
+          "text": "$_5^{14}B$"
+        },
+        {
+          "id": "C",
+          "text": "$_6^{13}C$"
+        },
+        {
+          "id": "D",
+          "text": "$_7^{13}N$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phóng xạ $\\beta^-$ ($_{-1}^0 e$): Số khối A không đổi, Z tăng 1. $6 - (-1) = 7$. Vậy hạt nhân con là Nitơ $_7^{14}N$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tổng trở của đoạn mạch RLC nối tiếp được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$Z = \\sqrt{R^2 + (Z_L + Z_C)^2}$"
+        },
+        {
+          "id": "B",
+          "text": "$Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$"
+        },
+        {
+          "id": "C",
+          "text": "$Z = R + Z_L + Z_C$"
+        },
+        {
+          "id": "D",
+          "text": "$Z = \\sqrt{|R^2 - (Z_L - Z_C)^2|}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tính tổng trở: $Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong mạch dao động LC, điện tích trên tụ biến thiên điều hòa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng tần số với cường độ dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Lệch pha $\\pi$ so với cường độ dòng điện"
+        },
+        {
+          "id": "C",
+          "text": "Cùng pha với cường độ dòng điện"
+        },
+        {
+          "id": "D",
+          "text": "Sớm pha $\\pi/2$ so với dòng điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$q$ và $i$ cùng tần số. $i$ sớm pha $\\pi/2$ so với $q$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Hai khe Y-âng cách nhau $a=1$mm, màn cách khe $D=2$m. Chiếu ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Bề rộng quang phổ bậc 1 trên màn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,76 mm"
+        },
+        {
+          "id": "B",
+          "text": "0,38 mm"
+        },
+        {
+          "id": "C",
+          "text": "1,52 mm"
+        },
+        {
+          "id": "D",
+          "text": "1,14 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Δx_1 = x_{đ1} - x_{t1} = \\frac{D}{a}(\\lambda_đ - \\lambda_t) = \\frac{2}{1}(0,76 - 0,38) = 2(0,38) = 0,76$mm."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hiện tượng tán sắc ánh sáng xảy ra khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiếu chùm ánh sáng trắng qua lăng kính"
+        },
+        {
+          "id": "B",
+          "text": "Chiếu chùm ánh sáng đơn sắc qua lăng kính"
+        },
+        {
+          "id": "C",
+          "text": "Ánh sáng phản xạ trên gương phẳng"
+        },
+        {
+          "id": "D",
+          "text": "Ánh sáng truyền qua tấm thủy tinh phẳng song song"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tán sắc là hiện tượng lăng kính phân tách chùm sáng phức tạp thành các thành phần đơn sắc."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nếu tăng số vòng dây cuộn sơ cấp của máy biến áp lên 2 lần (giữ nguyên các đại lượng khác) thì điện áp ở cuộn thứ cấp sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giảm 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Tăng 2 lần"
+        },
+        {
+          "id": "C",
+          "text": "Không đổi"
+        },
+        {
+          "id": "D",
+          "text": "Tăng 4 lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_2 = U_1 \\cdot \\frac{N_2}{N_1}$. Nếu $N_1$ tăng 2 lần (nằm dưới mẫu) thì $U_2$ giảm 2 lần."
+    }
+  ]
+}

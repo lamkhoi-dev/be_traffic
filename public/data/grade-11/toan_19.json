@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mệnh đề nào sau đây là đúng về dấu của các giá trị lượng giác trong góc phần tư thứ II?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha < 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Góc phần tư thứ II: tung độ dương (sin > 0), hoành độ âm (cos < 0)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $K = \\sqrt{\\sin^4 x + 4\\cos^2 x} + \\sqrt{\\cos^4 x + 4\\sin^2 x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "$3 - \\cos^2 x$"
+        },
+        {
+          "id": "D",
+          "text": "$3 + \\sin^2 x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\sin^4 x + 4(1-\\sin^2 x) = \\sin^4 x - 4\\sin^2 x + 4 = (2-\\sin^2 x)^2$. Tương tự cho cos. $K = 2-\\sin^2 x + 2-\\cos^2 x = 4 - (\\sin^2 x + \\cos^2 x) = 3$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tìm $a$ để $\\lim_{x \\to 1} \\frac{x^2 - ax + a - 1}{x - 1} = 2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$a=1$"
+        },
+        {
+          "id": "B",
+          "text": "$a=0$"
+        },
+        {
+          "id": "C",
+          "text": "$a=-1$"
+        },
+        {
+          "id": "D",
+          "text": "$a=2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích tử: $(x-1)(x - (a-1))$. Rút gọn thành $x - a + 1$. Thay $x=1$: $1 - a + 1 = 2 \\Rightarrow 2 - a = 2 \\Rightarrow a = 0$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Công thức tính tổng $n$ số hạng đầu của cấp số cộng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$S_n = \\frac{n}{2}(u_1 + u_n)$"
+        },
+        {
+          "id": "B",
+          "text": "$S_n = n(u_1 + u_n)$"
+        },
+        {
+          "id": "C",
+          "text": "$S_n = \\frac{n}{2}(u_1 - u_n)$"
+        },
+        {
+          "id": "D",
+          "text": "$S_n = \\frac{n}{2}(u_1 + u_{n-1})$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức chuẩn: $S_n = \\frac{n(u_1 + u_n)}{2}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chọn mệnh đề sai.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lim n^k = +\\infty$ ($k$ nguyên dương)."
+        },
+        {
+          "id": "B",
+          "text": "$\\lim c = c$ ($c$ là hằng số)."
+        },
+        {
+          "id": "C",
+          "text": "$\\lim q^n = +\\infty$ với $q > 1$."
+        },
+        {
+          "id": "D",
+          "text": "$\\lim \\frac{1}{n} = 1$."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sai, vì $\\lim \\frac{1}{n} = 0$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tính tổng của cấp số nhân lùi vô hạn: $1; -\\frac{1}{2}; \\frac{1}{4}; -\\frac{1}{8}; ...$",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2/3"
+        },
+        {
+          "id": "B",
+          "text": "3/2"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 1, q = -1/2$. Tổng $S = \\frac{u_1}{1-q} = \\frac{1}{1 - (-1/2)} = \\frac{1}{3/2} = \\frac{2}{3}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cho dãy số $(u_n)$ với $u_n = \\frac{a n + 2}{n + 1}$. Tìm $a$ để dãy số là dãy tăng.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$a > 2$"
+        },
+        {
+          "id": "B",
+          "text": "$a < 2$"
+        },
+        {
+          "id": "C",
+          "text": "$a = 2$"
+        },
+        {
+          "id": "D",
+          "text": "$a > 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xét hàm $f(x) = \\frac{ax+2}{x+1}$. Đạo hàm $f' = \\frac{a-2}{(x+1)^2}$. Để tăng thì $a-2 > 0 \\Rightarrow a > 2$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{3^n - 4^n}{3^n + 4^n}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "3/4"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho $4^n$ (cơ số lớn nhất): $\\frac{(3/4)^n - 1}{(3/4)^n + 1} \\to \\frac{0 - 1}{0 + 1} = -1$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cho $\\cos a = \\frac{1}{3}$. Tính $\\cos 2a$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\frac{7}{9}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{7}{9}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{2}{3}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos 2a = 2\\cos^2 a - 1 = 2(\\frac{1}{9}) - 1 = \\frac{2}{9} - 1 = -\\frac{7}{9}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đổi số đo góc $\\frac{3\\pi}{4}$ rad sang độ.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$135^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$120^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$150^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$45^\\circ$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\frac{3\\pi}{4} \\cdot \\frac{180}{\\pi} = 135^\\circ$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Chọn mệnh đề sai.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lim n^k = +\\infty$ ($k$ nguyên dương)."
+        },
+        {
+          "id": "B",
+          "text": "$\\lim c = c$ ($c$ là hằng số)."
+        },
+        {
+          "id": "C",
+          "text": "$\\lim q^n = +\\infty$ với $q > 1$."
+        },
+        {
+          "id": "D",
+          "text": "$\\lim \\frac{1}{n} = 1$."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sai, vì $\\lim \\frac{1}{n} = 0$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một rạp hát có hàng ghế đầu 20 chỗ, mỗi hàng sau thêm 2 chỗ. Hàng thứ 15 có bao nhiêu chỗ?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "48"
+        },
+        {
+          "id": "B",
+          "text": "50"
+        },
+        {
+          "id": "C",
+          "text": "46"
+        },
+        {
+          "id": "D",
+          "text": "52"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 20, d = 2$. $u_{15} = 20 + 14(2) = 20 + 28 = 48$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tìm tập xác định của hàm số $y = \\frac{1}{\\sin x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\mathbb{R} \\setminus \\{ k\\pi \\}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k\\pi \\}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\mathbb{R} \\setminus \\{ k2\\pi \\}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\mathbb{R}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $\\sin x \\ne 0 \\Rightarrow x \\ne k\\pi$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sqrt{x+1} - 1}{x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhân liên hợp: $\\frac{x+1-1}{x(\\sqrt{x+1}+1)} = \\frac{1}{\\sqrt{x+1}+1}$. Thay $x=0$, được 1/2."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho $\\lim_{x \\to 2} f(x) = 3$. Giá trị của $\\lim_{x \\to 2} [2f(x) - 1]$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2(3) - 1 = 5$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Để phương trình $\\cos x = m$ có nghiệm thì giá trị của m phải là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 1$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le -1$"
+        },
+        {
+          "id": "C",
+          "text": "$-1 \\le m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m > 1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tập giá trị của cos là $[-1; 1]$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây là dãy số tăng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = \\frac{1}{n}$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = -2n + 1$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = n^2 + 1$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = (-1)^n$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Với $u_n = n^2 + 1$, khi $n$ tăng thì $u_n$ luôn tăng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho $\\lim u_n = L$. Chọn khẳng định đúng.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lim |u_n| = L$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lim \\sqrt{u_n} = \\sqrt{L}$ (nếu $u_n \\ge 0$)"
+        },
+        {
+          "id": "C",
+          "text": "$\\lim u_n^2 = L$"
+        },
+        {
+          "id": "D",
+          "text": "$\\lim (u_n + 1) = L$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nếu $\\lim u_n = L$ và $u_n \\ge 0$ thì $\\lim \\sqrt{u_n} = \\sqrt{L}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    }
+  ]
+}

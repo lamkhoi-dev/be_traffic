@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 4: The Mass Media",
+    "description": "Chủ đề Truyền thông đại chúng. Ngữ pháp: Thì Tương lai hoàn thành (Future Perfect) và Giới từ đi sau động từ (Verbs + Prepositions).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "searched" },
+        { "id": "B", "text": "typed" },
+        { "id": "C", "text": "played" },
+        { "id": "D", "text": "liked" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'played' phát âm đuôi -ed là /d/. Các từ còn lại phát âm là /t/ (sau âm vô thanh ch, p, k)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "digital" },
+        { "id": "B", "text": "media" },
+        { "id": "C", "text": "mobile" },
+        { "id": "D", "text": "addiction" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "The ______ of the internet has changed the way we communicate.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "advent" },
+        { "id": "B", "text": "event" },
+        { "id": "C", "text": "intent" },
+        { "id": "D", "text": "adventurous" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The advent of...' là cụm từ cố định, nghĩa là 'sự ra đời/xuất hiện của...'."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Many teenagers are ______ to social media and spend hours on it every day.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "addicted" },
+        { "id": "B", "text": "interested" },
+        { "id": "C", "text": "hooked" },
+        { "id": "D", "text": "bored" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'addicted to' (nghiện cái gì). 'Hooked' cũng đi với 'on'."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "By the end of this month, I ______ my English course.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will finish" },
+        { "id": "B", "text": "will be finishing" },
+        { "id": "C", "text": "will have finished" },
+        { "id": "D", "text": "have finished" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dấu hiệu 'By the end of...' (trước một thời điểm trong tương lai) dùng thì Tương lai hoàn thành."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Please ______ to our channel for more interesting videos.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "subscribe" },
+        { "id": "B", "text": "connect" },
+        { "id": "C", "text": "follow" },
+        { "id": "D", "text": "join" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Động từ 'subscribe' đi với giới từ 'to' (đăng ký kênh)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Print newspapers are becoming less popular as more people ______ on online news.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "believe" },
+        { "id": "B", "text": "rely" },
+        { "id": "C", "text": "trust" },
+        { "id": "D", "text": "depend" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Rely on' (dựa vào/tin vào). 'Depend on' cũng đúng ngữ pháp nhưng 'rely on' hợp ngữ cảnh tin tức hơn. Tuy nhiên 'depend on' cũng chấp nhận được, nhưng trong bài Mass Media thường học 'rely on'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Using social media too much can have a negative impact ______ your mental health.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "in" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "for" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cụm 'impact/influence/effect on' (ảnh hưởng lên cái gì)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: Social media allows us to 'interact' with people all over the world.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "communicate" },
+        { "id": "B", "text": "ignore" },
+        { "id": "C", "text": "argue" },
+        { "id": "D", "text": "meet" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Interact' (tương tác) gần nghĩa nhất với 'communicate' (giao tiếp)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: The internet has become 'dominant' in the media landscape.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "popular" },
+        { "id": "B", "text": "powerful" },
+        { "id": "C", "text": "minor" },
+        { "id": "D", "text": "controlling" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Dominant' (thống trị/chiếm ưu thế) trái nghĩa với 'minor' (nhỏ bé/thứ yếu)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "By the time you come back, the movie ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will start" },
+        { "id": "B", "text": "will have started" },
+        { "id": "C", "text": "has started" },
+        { "id": "D", "text": "started" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tương tự câu 5, 'By the time + hiện tại đơn', mệnh đề chính dùng Tương lai hoàn thành."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cyberbullying is a form of bullying that happens ______ the internet.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "in" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "by" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dùng giới từ 'on' cho các phương tiện truyền thông: on the internet, on TV, on the radio."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "This app allows users to ______ messages instantly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "transmit" },
+        { "id": "B", "text": "transport" },
+        { "id": "C", "text": "translate" },
+        { "id": "D", "text": "transform" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Transmit' (truyền tải/gửi) thông điệp."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "He kept ______ at his phone during the meeting.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "glancing" },
+        { "id": "B", "text": "watching" },
+        { "id": "C", "text": "seeing" },
+        { "id": "D", "text": "viewing" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Glance at' (liếc nhìn). Các từ còn lại không đi với 'at' theo nghĩa này."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I think social media wastes our time.' - '______ It helps us connect.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I agree with you." },
+        { "id": "B", "text": "I don't think so." },
+        { "id": "C", "text": "You're right." },
+        { "id": "D", "text": "That's true." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người nói thứ 2 đưa ra ý kiến phản bác (giúp kết nối), nên chọn 'I don't think so'."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'By next year, I will be lived in this city for ten years.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "By" },
+        { "id": "B", "text": "will be lived" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "for" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai thì. Phải dùng Tương lai hoàn thành 'will have lived' (sẽ đã sống được...). 'Will be lived' là bị động sai nghĩa."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Mass media is a powerful tool for ______ information.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "disseminating" },
+        { "id": "B", "text": "hiding" },
+        { "id": "C", "text": "collecting" },
+        { "id": "D", "text": "storing" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Disseminating' (phổ biến/truyền bá) thông tin là chức năng chính của truyền thông."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "I promise I ______ to your email by tomorrow morning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will reply" },
+        { "id": "B", "text": "will have replied" },
+        { "id": "C", "text": "reply" },
+        { "id": "D", "text": "have replied" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Có 'by tomorrow morning', dùng Tương lai hoàn thành để nhấn mạnh việc hoàn tất."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Many young people use social media to ______ their identity.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "express" },
+        { "id": "B", "text": "make" },
+        { "id": "C", "text": "do" },
+        { "id": "D", "text": "have" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Express identity' (thể hiện bản sắc/cá tính)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Don't forget to log ______ of your account when you finish using the public computer.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "in" },
+        { "id": "B", "text": "on" },
+        { "id": "C", "text": "out" },
+        { "id": "D", "text": "up" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Log out' (đăng xuất)."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 3: Sự hình thành Liên bang Xô viết",
+    "description": "Kiểm tra kiến thức về Cách mạng tháng Mười Nga, Chính sách kinh tế mới (NEP) và sự ra đời của Liên Xô.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự thắng lợi của Cách mạng tháng Mười Nga năm 1917?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vua Ni-cô-lai II thoái vị" },
+        { "id": "B", "text": "Cuộc tấn công Cung điện Mùa Đông (đêm 25/10)" },
+        { "id": "C", "text": "Thành lập Chính phủ lâm thời tư sản" },
+        { "id": "D", "text": "Lê-nin về nước trực tiếp lãnh đạo cách mạng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc tấn công Cung điện Mùa Đông, bắt giữ các bộ trưởng Chính phủ lâm thời đánh dấu thắng lợi quyết định."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tính chất của Cách mạng tháng Mười Nga năm 1917 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng dân chủ tư sản kiểu cũ" },
+        { "id": "B", "text": "Cách mạng dân chủ tư sản kiểu mới" },
+        { "id": "C", "text": "Cách mạng xã hội chủ nghĩa (Cách mạng vô sản)" },
+        { "id": "D", "text": "Cách mạng giải phóng dân tộc" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là cuộc cách mạng lật đổ chính quyền tư sản, thiết lập chính quyền Xô viết của giai cấp vô sản."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chính sách kinh tế mới (NEP) do Lê-nin đề xướng bắt đầu được thực hiện từ năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1917" },
+        { "id": "B", "text": "1918" },
+        { "id": "C", "text": "1921" },
+        { "id": "D", "text": "1922" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 3/1921, Đảng Bônsêvich Nga quyết định thực hiện NEP để khôi phục kinh tế sau chiến tranh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nội dung cơ bản của Chính sách kinh tế mới (NEP) trong nông nghiệp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thay chế độ trưng thu lương thực thừa bằng thuế lương thực" },
+        { "id": "B", "text": "Tịch thu toàn bộ ruộng đất của địa chủ" },
+        { "id": "C", "text": "Thành lập các nông trang tập thể" },
+        { "id": "D", "text": "Nhà nước nắm độc quyền thu mua lúa mì" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thay trưng thu bằng thuế lương thực khuyến khích nông dân sản xuất và tự do bán phần dư thừa."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Liên bang Cộng hòa xã hội chủ nghĩa Xô viết (Liên Xô) được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tháng 10/1917" },
+        { "id": "B", "text": "Tháng 12/1920" },
+        { "id": "C", "text": "Tháng 12/1922" },
+        { "id": "D", "text": "Tháng 1/1924" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đại hội Xô viết toàn Nga tuyên bố thành lập Liên Xô vào tháng 12/1922."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Bốn nước cộng hòa đầu tiên gia nhập Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nga, U-crai-na, Bê-la-rút, Ngoại Cáp-ca-dơ" },
+        { "id": "B", "text": "Nga, U-crai-na, Ca-dắc-xtan, U-dơ-bê-ki-xtan" },
+        { "id": "C", "text": "Nga, Bê-la-rút, Lát-vi-a, Ét-tô-ni-a" },
+        { "id": "D", "text": "Nga, U-crai-na, Môn-đô-va, Ác-mê-ni-a" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 nước cộng hòa đầu tiên hợp nhất thành Liên Xô."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế to lớn của sự ra đời Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên thế giới" },
+        { "id": "B", "text": "Làm cho chủ nghĩa tư bản sụp đổ hoàn toàn" },
+        { "id": "C", "text": "Chấm dứt chiến tranh thế giới thứ nhất" },
+        { "id": "D", "text": "Thống nhất toàn bộ châu Âu" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Liên Xô trở thành chỗ dựa tinh thần và vật chất cho phong trào cách mạng thế giới."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong Chính sách kinh tế mới, Nhà nước Xô viết có chủ trương gì đối với tư bản nước ngoài?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tịch thu toàn bộ tài sản" },
+        { "id": "B", "text": "Cấm hoàn toàn việc đầu tư" },
+        { "id": "C", "text": "Khuyến khích tư bản nước ngoài đầu tư, kinh doanh ở Nga" },
+        { "id": "D", "text": "Chỉ cho phép đầu tư vào nông nghiệp" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lê-nin chủ trương dùng CNTB nhà nước để xây dựng CNXH, cho phép tư bản nước ngoài thuê xí nghiệp."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tư tưởng chỉ đạo cơ bản của Lê-nin trong việc thành lập Liên Xô là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự bình đẳng, tự nguyện và chủ quyền của các dân tộc" },
+        { "id": "B", "text": "Sự cưỡng ép và sáp nhập bằng quân sự" },
+        { "id": "C", "text": "Sự phụ thuộc hoàn toàn vào nước Nga" },
+        { "id": "D", "text": "Phân chia đẳng cấp giữa các dân tộc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên tắc cơ bản là bình đẳng về mọi mặt và quyền tự quyết của các dân tộc."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trước khi thực hiện Chính sách kinh tế mới (NEP), nước Nga Xô viết đã thực hiện chính sách gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chính sách Cộng sản thời chiến" },
+        { "id": "B", "text": "Chính sách mở cửa" },
+        { "id": "C", "text": "Chính sách kinh tế thị trường" },
+        { "id": "D", "text": "Chính sách công nghiệp hóa" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính sách Cộng sản thời chiến được áp dụng trong thời kỳ nội chiến (1918-1920)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Sau khi Lê-nin qua đời (1924), ai là người tiếp tục lãnh đạo công cuộc xây dựng chủ nghĩa xã hội ở Liên Xô?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Goóc-ba-chốp" },
+        { "id": "B", "text": "Xta-lin" },
+        { "id": "C", "text": "Khru-xthốp" },
+        { "id": "D", "text": "Pu-tin" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giô-xép Xta-lin là người kế nhiệm lãnh đạo Liên Xô trong giai đoạn công nghiệp hóa."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nhiệm vụ trọng tâm của các kế hoạch 5 năm ở Liên Xô (1928 - 1941) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát triển nông nghiệp xuất khẩu" },
+        { "id": "B", "text": "Công nghiệp hóa xã hội chủ nghĩa, ưu tiên công nghiệp nặng" },
+        { "id": "C", "text": "Phát triển thương mại dịch vụ" },
+        { "id": "D", "text": "Sản xuất hàng tiêu dùng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên Xô tập trung mọi nguồn lực để phát triển công nghiệp nặng nhằm bảo vệ tổ quốc và xây dựng cơ sở vật chất."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đến năm 1937, về sản lượng công nghiệp, Liên Xô đứng vị trí nào trên thế giới?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thứ nhất thế giới" },
+        { "id": "B", "text": "Thứ hai thế giới (sau Mỹ) và đứng đầu châu Âu" },
+        { "id": "C", "text": "Thứ ba thế giới" },
+        { "id": "D", "text": "Thứ tư thế giới" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự phát triển thần kỳ giúp Liên Xô vươn lên đứng thứ 2 thế giới."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Chính quyền Xô viết được thiết lập dựa trên liên minh của giai cấp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nhân và tư sản" },
+        { "id": "B", "text": "Công nhân và nông dân" },
+        { "id": "C", "text": "Nông dân và trí thức" },
+        { "id": "D", "text": "Công nhân, nông dân và binh lính" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên minh công - nông là nòng cốt của chính quyền Xô viết."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự ra đời của Liên bang Xô viết có ý nghĩa như thế nào đối với nước Nga?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tăng cường sức mạnh kinh tế, quốc phòng cho các nước cộng hòa" },
+        { "id": "B", "text": "Làm suy yếu vai trò của nước Nga" },
+        { "id": "C", "text": "Gây ra mâu thuẫn sắc tộc" },
+        { "id": "D", "text": "Phụ thuộc vào viện trợ nước ngoài" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự liên kết giúp tập trung nguồn lực để xây dựng và bảo vệ đất nước."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một trong những bài học kinh nghiệm của Chính sách kinh tế mới (NEP) đối với công cuộc đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thực hiện nền kinh tế chỉ huy, bao cấp" },
+        { "id": "B", "text": "Phát triển nền kinh tế hàng hóa nhiều thành phần có sự quản lý của Nhà nước" },
+        { "id": "C", "text": "Chỉ phát triển kinh tế tập thể" },
+        { "id": "D", "text": "Tư nhân hóa hoàn toàn nền kinh tế" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "NEP là sự vận dụng linh hoạt kinh tế thị trường trong định hướng XHCN, là bài học lớn cho Việt Nam."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quốc gia nào là nhà nước chuyên chính vô sản đầu tiên trên thế giới?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pháp (Công xã Pa-ri)" },
+        { "id": "B", "text": "Nga" },
+        { "id": "C", "text": "Trung Quốc" },
+        { "id": "D", "text": "Việt Nam" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công xã Pa-ri chỉ là nhà nước kiểu mới (sơ khai). Nga sau CM tháng Mười mới là nhà nước chuyên chính vô sản hoàn chỉnh đầu tiên."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong Chiến tranh thế giới thứ hai (1939-1945), Liên Xô đóng vai trò như thế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đứng ngoài cuộc chiến" },
+        { "id": "B", "text": "Là trụ cột, đóng vai trò quyết định trong việc tiêu diệt chủ nghĩa phát xít" },
+        { "id": "C", "text": "Chỉ tham gia giai đoạn cuối" },
+        { "id": "D", "text": "Bị phát xít Đức đánh bại hoàn toàn" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hồng quân Liên Xô đã đập tan chủ lực quân đội Đức, giải phóng châu Âu."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Luận cương tháng Tư của Lê-nin đã chỉ ra mục tiêu chuyển từ cách mạng dân chủ tư sản sang:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng văn hóa" },
+        { "id": "B", "text": "Cách mạng xã hội chủ nghĩa" },
+        { "id": "C", "text": "Cách mạng ruộng đất" },
+        { "id": "D", "text": "Cách mạng khoa học kỹ thuật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lê-nin xác định phải chuyển ngay sang cách mạng XHCN sau khi chế độ Nga hoàng bị lật đổ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự sụp đổ của chế độ phong kiến Nga hoàng là kết quả của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng tháng Mười 1917" },
+        { "id": "B", "text": "Cách mạng tháng Hai 1917" },
+        { "id": "C", "text": "Cách mạng 1905-1907" },
+        { "id": "D", "text": "Nội chiến 1918-1920" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Hai lật đổ Nga hoàng, dẫn đến tình trạng hai chính quyền song song tồn tại."
+    }
+  ]
+}

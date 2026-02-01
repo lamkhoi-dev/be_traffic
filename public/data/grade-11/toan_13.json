@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tìm khẳng định sai trong các khẳng định sau.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos 3x = 4\\cos^3 x - 3\\cos x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin 3x = 3\\sin x - 4\\sin^3 x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin 2x = 2\\sin x \\cos x$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos 2x = 2\\cos x - 1$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công thức đúng là $\\cos 2x = 2\\cos^2 x - 1$ (thiếu bình phương)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $P = \\frac{\\sin 2x}{1 + \\cos 2x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cot x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\frac{2\\sin x \\cos x}{2\\cos^2 x} = \\frac{\\sin x}{\\cos x} = \\tan x$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\sin 2x$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\pi}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$4\\pi$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{2\\pi}{|a|} = \\frac{2\\pi}{2} = \\pi$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $M = \\cos a \\cos b - \\sin a \\sin b$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos(a-b)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos(a+b)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin(a-b)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin(a+b)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là công thức cộng đối với cos (Cos thì cos cos sin sin, dấu trừ)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Hàm số $y = \\cos x$ nghịch biến trên khoảng nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(0; \\pi)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-\\frac{\\pi}{2}; \\frac{\\pi}{2})$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\pi; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(\\pi; 2\\pi)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong khoảng $(0; \\pi)$ (góc phần tư I và II), giá trị cos giảm từ 1 xuống -1."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hàm số nào có đồ thị như hình sin nhưng đi qua điểm (0; 1)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = \\sin x$"
+        },
+        {
+          "id": "B",
+          "text": "$y = \\cos x$"
+        },
+        {
+          "id": "C",
+          "text": "$y = \\sin(x + \\pi)$"
+        },
+        {
+          "id": "D",
+          "text": "$y = \\cos(x - \\pi)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại $x=0$, $\\cos 0 = 1$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Dãy số $(q^n)$ có giới hạn bằng 0 khi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$q > 1$"
+        },
+        {
+          "id": "B",
+          "text": "$q = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$|q| < 1$"
+        },
+        {
+          "id": "D",
+          "text": "$q < -1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là định lý cơ bản về giới hạn của cấp số nhân lùi vô hạn."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây có giới hạn là $-\\infty$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = -n^2 + 4n$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = 2n^3 - n$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = \\frac{n^2-1}{n}$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = (-2)^n$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_n = n^2(-1 + 4/n) \\to (+\\infty).(-1) = -\\infty$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $A = \\cos(x - \\frac{\\pi}{2})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\cos(x - \\frac{\\pi}{2}) = \\cos(\\frac{\\pi}{2} - x) = \\sin x$ (Phụ chéo)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Mệnh đề nào sau đây là đúng về dấu của các giá trị lượng giác trong góc phần tư thứ II?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha < 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Góc phần tư thứ II: tung độ dương (sin > 0), hoành độ âm (cos < 0)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Dãy số $1, 3, 9, 27, 81, ...$ có công thức tổng quát là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = 3n$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = 3^n$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = 3^{n-1}$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = n^3$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Với $n=1, u_1=1=3^0$; $n=2, u_2=3=3^1$. Vậy $u_n = 3^{n-1}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $A = \\cos(x - \\frac{\\pi}{2})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\cos(x - \\frac{\\pi}{2}) = \\cos(\\frac{\\pi}{2} - x) = \\sin x$ (Phụ chéo)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nếu $\\sin x + \\cos x = \\frac{1}{2}$ thì $\\sin 2x$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\frac{3}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{3}{8}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bình phương 2 vế: $(\\sin x + \\cos x)^2 = 1 + \\sin 2x = 1/4 \\Rightarrow \\sin 2x = -3/4$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = \\sin x$ nhận điểm nào làm tâm đối xứng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gốc tọa độ O"
+        },
+        {
+          "id": "B",
+          "text": "Trục tung Oy"
+        },
+        {
+          "id": "C",
+          "text": "Điểm $(\\frac{\\pi}{2}; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "Đường thẳng $y=1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hàm số lẻ có đồ thị đối xứng qua gốc tọa độ O."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Công thức nào biểu diễn $\\tan(a+b)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\tan a + \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\tan a - \\tan b}{1 - \\tan a \\tan b}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tan tổng thì lấy tổng tan, chia 1 trừ với tích tan."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sqrt{x+1} - 1}{x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhân liên hợp: $\\frac{x+1-1}{x(\\sqrt{x+1}+1)} = \\frac{1}{\\sqrt{x+1}+1}$. Thay $x=0$, được 1/2."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho $\\sin \\alpha = \\frac{1}{2}$ và $0 < \\alpha < \\frac{\\pi}{2}$. Tính $\\cos \\alpha$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$-\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{3}{4}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\cos^2 \\alpha = 1 - \\sin^2 \\alpha = 1 - \\frac{1}{4} = \\frac{3}{4}$. Vì $0 < \\alpha < \\frac{\\pi}{2}$ nên $\\cos \\alpha > 0 \\Rightarrow \\cos \\alpha = \\frac{\\sqrt{3}}{2}$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Số 15 là số hạng thứ mấy của dãy $u_n = 3n - 6$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$3n - 6 = 15 \\Rightarrow 3n = 21 \\Rightarrow n = 7$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hàm số nào sau đây là hàm số chẵn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = \\sin x$"
+        },
+        {
+          "id": "B",
+          "text": "$y = \\cos x$"
+        },
+        {
+          "id": "C",
+          "text": "$y = \\tan x$"
+        },
+        {
+          "id": "D",
+          "text": "$y = \\cot x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vì $\\cos(-x) = \\cos x$ nên hàm cos là hàm chẵn. Các hàm còn lại là hàm lẻ."
+    }
+  ]
+}

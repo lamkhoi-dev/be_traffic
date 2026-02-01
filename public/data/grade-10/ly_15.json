@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cặp lực và phản lực trong định luật III Newton không có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng vào hai vật khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Cùng phương, ngược chiều"
+        },
+        {
+          "id": "C",
+          "text": "Cùng độ lớn"
+        },
+        {
+          "id": "D",
+          "text": "Cân bằng nhau"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vì tác dụng vào 2 vật khác nhau nên chúng KHÔNG cân bằng nhau (lực cân bằng phải đặt vào cùng 1 vật)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một ô tô khối lượng 1 tấn đang chuyển động với tốc độ 72 km/h. Động năng của ô tô là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "200 kJ"
+        },
+        {
+          "id": "B",
+          "text": "20 kJ"
+        },
+        {
+          "id": "C",
+          "text": "2000 J"
+        },
+        {
+          "id": "D",
+          "text": "2592 kJ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi $v = 72$ km/h = 20 m/s. $m = 1000$ kg. $W_d = 0,5 \\times 1000 \\times 20^2 = 200.000$ J = 200 kJ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hệ số ma sát trượt phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Diện tích mặt tiếp xúc"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ của vật"
+        },
+        {
+          "id": "C",
+          "text": "Vật liệu và tình trạng hai mặt tiếp xúc"
+        },
+        {
+          "id": "D",
+          "text": "Áp lực lên mặt tiếp xúc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số ma sát $\\mu$ là đặc tính của cặp vật liệu tiếp xúc."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Moment lực đối với một trục quay là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng làm vật chuyển động tịnh tiến"
+        },
+        {
+          "id": "B",
+          "text": "Tác dụng làm vật quay quanh trục"
+        },
+        {
+          "id": "C",
+          "text": "Tác dụng làm biến dạng vật"
+        },
+        {
+          "id": "D",
+          "text": "Mức quán tính của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Moment lực $M = F.d$ đặc trưng cho tác dụng làm quay của lực."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cánh tay đòn của lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khoảng cách từ trục quay đến điểm đặt của lực"
+        },
+        {
+          "id": "B",
+          "text": "Khoảng cách từ trục quay đến giá của lực"
+        },
+        {
+          "id": "C",
+          "text": "Chiều dài của vectơ lực"
+        },
+        {
+          "id": "D",
+          "text": "Khoảng cách giữa hai điểm đặt của ngẫu lực"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa: Cánh tay đòn là khoảng cách vuông góc từ trục quay đến giá (đường thẳng chứa vectơ) của lực."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng $m_1 = 1$kg và $m_2 = 3$kg chuyển động ngược chiều nhau với vận tốc $v_1 = 3$m/s và $v_2 = 1$m/s. Tổng động lượng của hệ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 kg.m/s"
+        },
+        {
+          "id": "B",
+          "text": "0 kg.m/s"
+        },
+        {
+          "id": "C",
+          "text": "2 kg.m/s"
+        },
+        {
+          "id": "D",
+          "text": "4 kg.m/s"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chọn chiều dương theo chiều vật 1. $p_1 = 1 \\times 3 = 3$. $p_2 = 3 \\times (-1) = -3$. $p_{he} = 3 + (-3) = 0$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Động lượng của một vật khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ là đại lượng vectơ được xác định bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{p} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{p} = m\\vec{v}$"
+        },
+        {
+          "id": "C",
+          "text": "$p = mv$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{p} = \\frac{1}{2}m\\vec{v}^2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động lượng là đại lượng vectơ cùng hướng với vận tốc: $\\vec{p} = m\\vec{v}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đơn vị kWh (kí-lô-oát giờ) là đơn vị của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công suất"
+        },
+        {
+          "id": "B",
+          "text": "Lực"
+        },
+        {
+          "id": "C",
+          "text": "Công (Năng lượng)"
+        },
+        {
+          "id": "D",
+          "text": "Thời gian"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "1 kWh là lượng điện năng tiêu thụ (Công) của thiết bị 1kW trong 1 giờ. $1 kWh = 3,6 \\times 10^6$ J."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một lò xo có chiều dài tự nhiên 20cm. Khi treo vật nặng, lò xo dài 24cm. Độ biến dạng của lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4 cm (dãn)"
+        },
+        {
+          "id": "B",
+          "text": "4 cm (nén)"
+        },
+        {
+          "id": "C",
+          "text": "20 cm"
+        },
+        {
+          "id": "D",
+          "text": "24 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta l = l - l_0 = 24 - 20 = 4$ cm. $l > l_0$ nên là dãn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một vệ tinh bay quanh Trái Đất theo quỹ đạo tròn. Lực hấp dẫn đóng vai trò:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cản"
+        },
+        {
+          "id": "B",
+          "text": "Lực phát động"
+        },
+        {
+          "id": "C",
+          "text": "Lực hướng tâm"
+        },
+        {
+          "id": "D",
+          "text": "Lực ma sát"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn vuông góc với vận tốc, giữ vệ tinh chuyển động tròn (hướng tâm)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Động lượng được bảo toàn trong trường hợp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hệ kín (cô lập)"
+        },
+        {
+          "id": "B",
+          "text": "Hệ có ma sát"
+        },
+        {
+          "id": "C",
+          "text": "Hệ chịu tác dụng của ngoại lực lớn"
+        },
+        {
+          "id": "D",
+          "text": "Hệ vật chuyển động nhanh dần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật bảo toàn động lượng áp dụng cho hệ kín (tổng ngoại lực bằng 0)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Độ dịch chuyển và quãng đường đi được của vật có độ lớn bằng nhau khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật chuyển động tròn"
+        },
+        {
+          "id": "B",
+          "text": "Vật chuyển động thẳng và không đổi chiều"
+        },
+        {
+          "id": "C",
+          "text": "Vật chuyển động thẳng và đổi chiều"
+        },
+        {
+          "id": "D",
+          "text": "Vật chuyển động cong"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chuyển động thẳng không đổi chiều, vectơ độ dịch chuyển có độ lớn bằng quãng đường."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hiệu suất của một máy được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công toàn phần chia cho công có ích"
+        },
+        {
+          "id": "B",
+          "text": "Công có ích chia cho công toàn phần"
+        },
+        {
+          "id": "C",
+          "text": "Công có ích trừ công toàn phần"
+        },
+        {
+          "id": "D",
+          "text": "Công toàn phần nhân công có ích"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$H = \\frac{A_{coich}}{A_{toanphan}} \\times 100\\%$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Định luật Húc (Hooke) về biến dạng cơ của lò xo được biểu diễn bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{dh} = k|\\Delta l|$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{dh} = m a$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{dh} = \\mu N$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{dh} = k \\Delta l^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong giới hạn đàn hồi, lực đàn hồi tỉ lệ thuận với độ biến dạng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật chuyển động tròn đều với tốc độ không đổi. Nhận định nào sau đây SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vectơ vận tốc không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ dài không đổi"
+        },
+        {
+          "id": "C",
+          "text": "Tốc độ góc không đổi"
+        },
+        {
+          "id": "D",
+          "text": "Độ lớn gia tốc không đổi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong chuyển động tròn đều, vectơ vận tốc luôn thay đổi phương (tiếp tuyến với quỹ đạo), chỉ có độ lớn (tốc độ) là không đổi."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Chuyển động bằng phản lực tuân theo định luật nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn công"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn động lượng"
+        },
+        {
+          "id": "C",
+          "text": "Vạn vật hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn khối lượng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tên lửa, súng giật, sứa bơi... là ví dụ của chuyển động bằng phản lực (Bảo toàn động lượng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Biểu thức liên hệ giữa độ biến thiên động lượng và xung lượng của lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\Delta \\vec{p} = \\vec{F}.\\Delta t$"
+        },
+        {
+          "id": "B",
+          "text": "$\\Delta \\vec{p} = \\frac{\\vec{F}}{\\Delta t}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{p} = \\vec{F}.\\Delta t$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{F} = \\Delta \\vec{p}.\\Delta t$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ biến thiên động lượng bằng xung lượng của lực tác dụng trong khoảng thời gian đó."
+    }
+  ]
+}

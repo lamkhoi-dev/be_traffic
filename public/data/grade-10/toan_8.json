@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 8: Đại số tổ hợp",
+    "description": "Kiểm tra kiến thức về Quy tắc đếm, Hoán vị, Chỉnh hợp, Tổ hợp và Nhị thức Newton.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một người có 4 cái quần và 6 cái áo. Số cách chọn một bộ quần áo (gồm 1 quần và 1 áo) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "24" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quy tắc nhân: $4 \\times 6 = 24$ cách."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Có bao nhiêu cách xếp 5 người vào một băng ghế dài có 5 chỗ ngồi?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "120" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hoán vị của 5 phần tử: $P_5 = 5! = 120$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Công thức tính số tổ hợp chập $k$ của $n$ phần tử ($C_n^k$) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{n!}{(n-k)!}$" },
+        { "id": "B", "text": "$\\frac{n!}{k!(n-k)!}$" },
+        { "id": "C", "text": "$\\frac{n!}{k!}$" },
+        { "id": "D", "text": "$n(n-1)...(n-k+1)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổ hợp."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Từ các chữ số 1, 2, 3, 4, 5 có thể lập được bao nhiêu số tự nhiên có 3 chữ số khác nhau?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "60" },
+        { "id": "B", "text": "125" },
+        { "id": "C", "text": "10" },
+        { "id": "D", "text": "20" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chỉnh hợp chập 3 của 5: $A_5^3 = 5 \\times 4 \\times 3 = 60$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một lớp có 30 học sinh. Có bao nhiêu cách chọn ra 3 học sinh đi trực nhật (vai trò như nhau)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$A_{30}^3$" },
+        { "id": "B", "text": "$C_{30}^3$" },
+        { "id": "C", "text": "$30^3$" },
+        { "id": "D", "text": "$3^{30}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chọn không sắp xếp thứ tự $\\Rightarrow$ Tổ hợp $C_{30}^3$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 2)^4$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "24" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "16" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} 2^k$. Để có $x^2$ thì $4-k=2 \\Rightarrow k=2$. Hệ số: $C_4^2 . 2^2 = 6 . 4 = 24$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên chẵn có 3 chữ số khác nhau được lập từ các chữ số 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "24" },
+        { "id": "B", "text": "12" },
+        { "id": "C", "text": "48" },
+        { "id": "D", "text": "36" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ số tận cùng có 2 cách chọn (2, 4). 2 chữ số còn lại chọn từ 4 số còn lại: $A_4^2 = 12$. Tổng: $2 \\times 12 = 24$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tính tổng $S = C_5^0 + C_5^1 + C_5^2 + C_5^3 + C_5^4 + C_5^5$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "32" },
+        { "id": "B", "text": "16" },
+        { "id": "C", "text": "64" },
+        { "id": "D", "text": "5" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng các hệ số nhị thức Newton bằng $2^n = 2^5 = 32$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một hộp có 5 bi đỏ và 4 bi xanh. Có bao nhiêu cách lấy ra 2 bi khác màu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "36" },
+        { "id": "D", "text": "40" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lấy 1 đỏ (5 cách) và 1 xanh (4 cách). Quy tắc nhân: $5 \\times 4 = 20$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Số tập con có 2 phần tử của tập hợp $A = \\{1; 2; 3; 4\\}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "12" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "16" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$C_4^2 = 6$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong mặt phẳng cho 10 điểm phân biệt, không có 3 điểm nào thẳng hàng. Số vectơ khác $\\vec{0}$ được tạo thành từ các điểm đó là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "90" },
+        { "id": "B", "text": "45" },
+        { "id": "C", "text": "100" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vectơ có điểm đầu và điểm cuối khác nhau (có thứ tự) $\\Rightarrow$ Chỉnh hợp $A_{10}^2 = 10 \\times 9 = 90$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Khai triển $(x - 1)^4$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x^4 - 4x^3 + 6x^2 - 4x + 1$" },
+        { "id": "B", "text": "$x^4 + 4x^3 + 6x^2 + 4x + 1$" },
+        { "id": "C", "text": "$x^4 - 2x^3 + 4x^2 - 2x + 1$" },
+        { "id": "D", "text": "$x^4 - 4x^3 - 6x^2 - 4x - 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các hệ số: 1, -4, 6, -4, 1 (dấu đan xen)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Có bao nhiêu cách xếp 4 quyển sách toán khác nhau và 3 quyển sách lý khác nhau lên một kệ sách sao cho các cuốn sách cùng môn nằm cạnh nhau?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "288" },
+        { "id": "B", "text": "144" },
+        { "id": "C", "text": "5040" },
+        { "id": "D", "text": "24" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hoán vị 2 nhóm môn: $2!$. Hoán vị sách toán: $4!$. Hoán vị sách lý: $3!$. Tổng: $2! \\times 4! \\times 3! = 2 \\times 24 \\times 6 = 288$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Số cách chọn một ban chấp hành gồm 1 Bí thư, 1 Phó bí thư và 1 Ủy viên từ 10 đoàn viên là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "720" },
+        { "id": "B", "text": "120" },
+        { "id": "C", "text": "30" },
+        { "id": "D", "text": "1000" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chọn có phân công chức vụ (có thứ tự) $\\Rightarrow A_{10}^3 = 10 \\times 9 \\times 8 = 720$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cho $k, n$ là số tự nhiên, $0 \\le k \\le n$. Đẳng thức nào sau đây SAI?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$C_n^k = C_n^{n-k}$" },
+        { "id": "B", "text": "$A_n^k = k! C_n^k$" },
+        { "id": "C", "text": "$C_n^0 = 1$" },
+        { "id": "D", "text": "$A_n^n = 1$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$A_n^n = n!$. Đáp án D sai."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tìm số hạng không chứa $x$ trong khai triển $(x + \\frac{1}{x})^4$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} (x^{-1})^k = C_4^k x^{4-2k}$. Không chứa x thì $4-2k=0 \\Rightarrow k=2$. Hệ số $C_4^2 = 6$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 được lập từ các chữ số 0, 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "36" },
+        { "id": "B", "text": "40" },
+        { "id": "C", "text": "32" },
+        { "id": "D", "text": "60" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "TH1: Tận cùng là 0. Chọn 2 số từ {1,2,3,4,5}: $A_5^2 = 20$. TH2: Tận cùng là 5. Chữ số đầu (khác 0, khác 5): 4 cách. Chữ số giữa: 4 cách. Tổng: $4 \\times 4 = 16$. Tổng cộng: $20 + 16 = 36$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Từ 5 bông hồng vàng, 3 bông hồng trắng và 4 bông hồng đỏ (các bông hoa xem như khác nhau). Người ta muốn chọn ra một bó hoa gồm 7 bông. Có bao nhiêu cách chọn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$C_{12}^7$" },
+        { "id": "B", "text": "$A_{12}^7$" },
+        { "id": "C", "text": "$12!$" },
+        { "id": "D", "text": "$7!$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng 12 bông. Chọn 7 bông bất kỳ (không quan tâm màu sắc và thứ tự) $\\Rightarrow C_{12}^7$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong một mặt phẳng có 5 điểm, trừ 2 điểm A, B thì không có 3 điểm nào thẳng hàng. Số tam giác được tạo thành là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "7" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì chỉ có 2 điểm A, B thẳng hàng (hiển nhiên), nên không có bộ 3 điểm nào thẳng hàng cả. Số tam giác là $C_5^3 = 10$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $P = \\frac{A_5^2}{C_5^2}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "120" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A_5^2 = 20$, $C_5^2 = 10$. $P = 20/10 = 2$. (Hoặc $A_n^k = k! C_n^k \\Rightarrow A/C = k! = 2! = 2$)."
+    }
+  ]
+}

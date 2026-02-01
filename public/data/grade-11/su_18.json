@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Vai trò của Nhà nước trong chủ nghĩa tư bản hiện đại là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không can thiệp vào kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Điều tiết và quản lý nền kinh tế vĩ mô"
+        },
+        {
+          "id": "C",
+          "text": "Sở hữu toàn bộ tư liệu sản xuất"
+        },
+        {
+          "id": "D",
+          "text": "Xóa bỏ hoàn toàn kinh tế tư nhân"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhà nước tư sản hiện đại can thiệp để giảm thiểu khủng hoảng và điều hòa xã hội."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một trong những bài học kinh nghiệm của Chính sách kinh tế mới (NEP) đối với công cuộc đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực hiện nền kinh tế chỉ huy, bao cấp"
+        },
+        {
+          "id": "B",
+          "text": "Phát triển nền kinh tế hàng hóa nhiều thành phần có sự quản lý của Nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ phát triển kinh tế tập thể"
+        },
+        {
+          "id": "D",
+          "text": "Tư nhân hóa hoàn toàn nền kinh tế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "NEP là sự vận dụng linh hoạt kinh tế thị trường trong định hướng XHCN, là bài học lớn cho Việt Nam."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trong Cách mạng tư sản Anh, lực lượng nào đại diện cho quan hệ sản xuất mới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quý tộc cũ"
+        },
+        {
+          "id": "B",
+          "text": "Nông dân"
+        },
+        {
+          "id": "C",
+          "text": "Quý tộc mới và tư sản"
+        },
+        {
+          "id": "D",
+          "text": "Thợ thủ công"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quý tộc mới và tư sản đại diện cho phương thức sản xuất TBCN."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sự ra đời của Liên bang Xô viết có ý nghĩa như thế nào đối với nước Nga?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng cường sức mạnh kinh tế, quốc phòng cho các nước cộng hòa"
+        },
+        {
+          "id": "B",
+          "text": "Làm suy yếu vai trò của nước Nga"
+        },
+        {
+          "id": "C",
+          "text": "Gây ra mâu thuẫn sắc tộc"
+        },
+        {
+          "id": "D",
+          "text": "Phụ thuộc vào viện trợ nước ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự liên kết giúp tập trung nguồn lực để xây dựng và bảo vệ đất nước."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Khởi nghĩa Yên Thế (1884-1913) do ai lãnh đạo?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phan Đình Phùng"
+        },
+        {
+          "id": "B",
+          "text": "Hoàng Hoa Thám (Đề Thám)"
+        },
+        {
+          "id": "C",
+          "text": "Nguyễn Trung Trực"
+        },
+        {
+          "id": "D",
+          "text": "Trương Định"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc khởi nghĩa nông dân kéo dài nhất trong phong trào chống Pháp cuối thế kỷ XIX."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Thực dân Hà Lan đã hoàn thành việc xâm lược và thiết lập ách cai trị tại quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "D",
+          "text": "Mi-an-ma"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hà Lan thống trị In-đô-nê-xi-a (trước đó có sự tranh chấp với Bồ Đào Nha, Anh)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản được xác lập trên phạm vi thế giới vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thế kỷ XVII"
+        },
+        {
+          "id": "B",
+          "text": "Cuối thế kỷ XVIII"
+        },
+        {
+          "id": "C",
+          "text": "Cuối thế kỷ XIX"
+        },
+        {
+          "id": "D",
+          "text": "Đầu thế kỷ XX"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Với sự thắng lợi của các cuộc CMTS và Cải cách Minh Trị (Nhật), Thống nhất Đức, Ý... vào cuối thế kỷ XIX."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời năm 1930 có ý nghĩa gì đối với phong trào cách mạng Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh dấu sự thắng thế hoàn toàn của khuynh hướng vô sản trong khu vực"
+        },
+        {
+          "id": "B",
+          "text": "Mở ra thời kỳ giai cấp công nhân nắm quyền lãnh đạo cách mạng Việt Nam và ảnh hưởng đến Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự cai trị của thực dân Pháp"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập được mặt trận thống nhất toàn khu vực"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chấm dứt sự khủng hoảng về đường lối ở VN và lãnh đạo phong trào ở cả Lào, Campuchia."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "D",
+          "text": "Xin-ga-po"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Lý Bí (Lý Nam Đế) sau khi khởi nghĩa thắng lợi đã đặt tên nước là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại Cồ Việt"
+        },
+        {
+          "id": "B",
+          "text": "Đại Việt"
+        },
+        {
+          "id": "C",
+          "text": "Vạn Xuân"
+        },
+        {
+          "id": "D",
+          "text": "Đại Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nước Vạn Xuân (mong muốn đất nước mãi mãi tươi đẹp như mùa xuân)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Khẩu hiệu nổi tiếng \"Tự do - Bình đẳng - Bác ái\" là của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tư sản Anh"
+        },
+        {
+          "id": "B",
+          "text": "Chiến tranh giành độc lập ở Bắc Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng tư sản Pháp"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng tháng Mười Nga"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là tiêu ngữ của Cộng hòa Pháp, xuất phát từ Cách mạng 1789."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phong trào Cần Vương ở Việt Nam cuối thế kỷ XIX thất bại chứng tỏ điều gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhân dân không ủng hộ vua quan"
+        },
+        {
+          "id": "B",
+          "text": "Hệ tư tưởng phong kiến đã lỗi thời trước nhiệm vụ lịch sử"
+        },
+        {
+          "id": "C",
+          "text": "Thực dân Pháp quá mạnh không thể đánh bại"
+        },
+        {
+          "id": "D",
+          "text": "Thiếu người lãnh đạo tài giỏi"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngọn cờ phong kiến không còn khả năng tập hợp lực lượng và đưa cách mạng đến thắng lợi."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Năm 1967, Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập tại:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hà Nội"
+        },
+        {
+          "id": "B",
+          "text": "Gia-các-ta"
+        },
+        {
+          "id": "C",
+          "text": "Băng Cốc"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ni-la"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tuyên bố Băng Cốc (Thái Lan) khai sinh ra ASEAN."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Các tổ chức độc quyền hình thành dựa trên cơ sở:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự phân tán sản xuất nhỏ lẻ"
+        },
+        {
+          "id": "B",
+          "text": "Tích tụ và tập trung sản xuất, tư bản"
+        },
+        {
+          "id": "C",
+          "text": "Sự hợp tác tự nguyện của nông dân"
+        },
+        {
+          "id": "D",
+          "text": "Sự can thiệp của quân đội"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cạnh tranh gay gắt dẫn đến các công ty lớn nuốt cá bé -> Tích tụ tập trung -> Độc quyền."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bài thơ \"Nam quốc sơn hà\" được coi là bản Tuyên ngôn độc lập lần thứ nhất của Việt Nam, ra đời trong cuộc kháng chiến nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kháng chiến chống Tống thời Tiền Lê"
+        },
+        {
+          "id": "B",
+          "text": "Kháng chiến chống Tống thời Lý"
+        },
+        {
+          "id": "C",
+          "text": "Kháng chiến chống Nguyên thời Trần"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến chống Minh thời Hồ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bài thơ vang lên trên sông Như Nguyệt trong kháng chiến chống Tống (1077)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "D",
+          "text": "Xin-ga-po"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Brunây tuyên bố độc lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1945"
+        },
+        {
+          "id": "B",
+          "text": "1957"
+        },
+        {
+          "id": "C",
+          "text": "1984"
+        },
+        {
+          "id": "D",
+          "text": "2002"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Brunây là một trong những nước giành độc lập muộn trong khu vực (từ Anh)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Sau khi Lê-nin qua đời (1924), ai là người tiếp tục lãnh đạo công cuộc xây dựng chủ nghĩa xã hội ở Liên Xô?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Goóc-ba-chốp"
+        },
+        {
+          "id": "B",
+          "text": "Xta-lin"
+        },
+        {
+          "id": "C",
+          "text": "Khru-xthốp"
+        },
+        {
+          "id": "D",
+          "text": "Pu-tin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giô-xép Xta-lin là người kế nhiệm lãnh đạo Liên Xô trong giai đoạn công nghiệp hóa."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Việc thực dân Pháp nổ súng tấn công Đà Nẵng (1858) mở đầu cho quá trình xâm lược nước nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lào"
+        },
+        {
+          "id": "B",
+          "text": "Cam-pu-chia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên quân Pháp - Tây Ban Nha tấn công Đà Nẵng mở đầu cuộc xâm lược Việt Nam."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đông Ti-mo tách ra khỏi quốc gia nào để trở thành một nhà nước độc lập (2002)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bồ Đào Nha"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Hà Lan"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau khi Bồ Đào Nha rút đi (1975), Indonesia sáp nhập Đông Ti-mo. Đến 2002 mới chính thức độc lập."
+    }
+  ]
+}

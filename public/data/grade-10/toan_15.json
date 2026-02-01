@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Gieo một con xúc xắc. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,5"
+        },
+        {
+          "id": "B",
+          "text": "0,2"
+        },
+        {
+          "id": "C",
+          "text": "0,3"
+        },
+        {
+          "id": "D",
+          "text": "0,4"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các mặt chẵn: {2, 4, 6}. $P = 3/6 = 0,5$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Công thức Heron tính diện tích tam giác theo nửa chu vi $p$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$S = \\sqrt{p(p-a)(p-b)(p-c)}$"
+        },
+        {
+          "id": "B",
+          "text": "$S = p(p-a)(p-b)(p-c)$"
+        },
+        {
+          "id": "C",
+          "text": "$S = \\sqrt{(p-a)(p-b)(p-c)}$"
+        },
+        {
+          "id": "D",
+          "text": "$S = \\sqrt{p(a+b+c)}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức Heron."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Để so sánh mức độ phân tán của hai mẫu số liệu có đơn vị đo khác nhau, ta nên dùng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Độ lệch chuẩn"
+        },
+        {
+          "id": "B",
+          "text": "Phương sai"
+        },
+        {
+          "id": "C",
+          "text": "Hệ số biến thiên (CV)"
+        },
+        {
+          "id": "D",
+          "text": "Số trung bình"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số biến thiên $CV = S/\\bar{x}$ (tính theo %) giúp loại bỏ đơn vị đo khi so sánh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tam giác ABC có $b=2, c=3, \\widehat{A}=120^\\circ$. Độ dài cạnh a là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{19}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{7}$"
+        },
+        {
+          "id": "C",
+          "text": "$19$"
+        },
+        {
+          "id": "D",
+          "text": "$7$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$a^2 = 4 + 9 - 2.2.3.\\cos 120 = 13 - 12(-0.5) = 13 + 6 = 19$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Ý nghĩa của phương sai là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cho biết độ tập trung của số liệu quanh giá trị trung bình"
+        },
+        {
+          "id": "B",
+          "text": "Cho biết giá trị lớn nhất"
+        },
+        {
+          "id": "C",
+          "text": "Cho biết giá trị xuất hiện nhiều nhất"
+        },
+        {
+          "id": "D",
+          "text": "Cho biết tổng các số liệu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương sai càng nhỏ, số liệu càng chụm quanh giá trị trung bình (độ ổn định cao)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hàm số $y = ax^2 + bx + c$ có giá trị lớn nhất bằng 5 tại $x=1$ và đi qua điểm $(2; 4)$. Hàm số đó là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = -x^2 + 2x + 4$"
+        },
+        {
+          "id": "B",
+          "text": "$y = -x^2 + 2x + 5$"
+        },
+        {
+          "id": "C",
+          "text": "$y = x^2 - 2x + 5$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -2x^2 + 4x + 3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đỉnh $(1; 5)$. Phương trình dạng $y = a(x-1)^2 + 5$. Qua $(2; 4) \\Rightarrow 4 = a(2-1)^2 + 5 \\Rightarrow a = -1$. Vậy $y = -(x^2-2x+1) + 5 = -x^2 + 2x + 4$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phương trình đường tròn tâm $I(2; -3)$, bán kính $R=4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(x-2)^2 + (y+3)^2 = 16$"
+        },
+        {
+          "id": "B",
+          "text": "$(x+2)^2 + (y-3)^2 = 16$"
+        },
+        {
+          "id": "C",
+          "text": "$(x-2)^2 + (y+3)^2 = 4$"
+        },
+        {
+          "id": "D",
+          "text": "$(x-2)^2 + (y-3)^2 = 16$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(x-a)^2 + (y-b)^2 = R^2$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Parabol $y = ax^2 + bx + c$ đi qua $A(0; -1), B(1; -1), C(-1; 1)$. Xác định a, b, c.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = x^2 - x - 1$"
+        },
+        {
+          "id": "B",
+          "text": "$y = 2x^2 - 2x - 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = x^2 - 2x - 1$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -x^2 - x - 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ giải hệ. $c=-1$. $a+b-1=-1 \\Rightarrow a+b=0$. $a-b-1=1 \\Rightarrow a-b=2$. Giải ra $a=1, b=-1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho tam giác đều cạnh a nội tiếp đường tròn bán kính R. Khi đó R bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{a\\sqrt{3}}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{a\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{a}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$a$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng định lý sin: $a/\\sin 60 = 2R \\Rightarrow R = a / (2.\\sqrt{3}/2) = a/\\sqrt{3} = a\\sqrt{3}/3$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đường tròn $(C): x^2 + y^2 - 4x + 2y - 3 = 0$ có bán kính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{8}$"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "$2\\sqrt{2}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$R = \\sqrt{2^2 + (-1)^2 - (-3)} = \\sqrt{4+1+3} = \\sqrt{8} = 2\\sqrt{2}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tiêu cự của elip là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$a^2=25, b^2=9 \\Rightarrow c^2 = 16 \\Rightarrow c=4$. Tiêu cự $2c = 8$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tìm m để hàm số $y = \\sqrt{x - m + 1}$ xác định trên $[2; +\\infty)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 3$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le 3$"
+        },
+        {
+          "id": "C",
+          "text": "$m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m = 2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ĐK: $x \\ge m - 1$. Tập xác định $D = [m-1; +\\infty)$. Để $[2; +\\infty) \\subset D$ thì $m-1 \\le 2 \\Leftrightarrow m \\le 3$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hai vectơ được gọi là bằng nhau khi và chỉ khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chúng cùng độ dài"
+        },
+        {
+          "id": "B",
+          "text": "Chúng cùng phương và cùng độ dài"
+        },
+        {
+          "id": "C",
+          "text": "Chúng cùng hướng và cùng độ dài"
+        },
+        {
+          "id": "D",
+          "text": "Chúng cùng điểm đầu"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Định nghĩa: Hai vectơ bằng nhau nếu chúng cùng hướng và cùng độ dài."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của $F = y - x$ trên miền nghiệm $\\begin{cases} y - 2x \\le 2 \\\\ 2y - x \\ge 4 \\\\ x + y \\le 5 \\end{cases}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tìm tọa độ các đỉnh của miền nghiệm, thay vào F để tìm min."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tam giác ABC có $AB=2, AC=1, \\widehat{A}=60^\\circ$. Độ dài đường cao hạ từ A là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$1$"
+        },
+        {
+          "id": "D",
+          "text": "$2\\sqrt{3}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Xin lỗi, tính lại. Diện tích $S = 1/2 \\cdot 2 \\cdot 1 \\cdot \\sin 60 = \\sqrt{3}/2$. Cạnh $BC = \\sqrt{4+1 - 2.2.1.0.5} = \\sqrt{3}$. Đường cao $h_a = 2S/BC = 2(\\sqrt{3}/2)/\\sqrt{3} = 1$. (Đáp án mẫu chọn B là sai theo tính toán. Tính lại: S = $\\sqrt{3}/2$. $a = \\sqrt{3}$. $h = 2S/a = \\sqrt{3}/\\sqrt{3} = 1$. Đáp án C mới đúng. Tôi sẽ sửa JSON để khớp)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đường tròn tâm O(0;0) bán kính R=1 có phương trình:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x^2 + y^2 = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$x^2 + y^2 = 0$"
+        },
+        {
+          "id": "C",
+          "text": "$x + y = 1$"
+        },
+        {
+          "id": "D",
+          "text": "$x^2 - y^2 = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đường tròn đơn vị."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Mốt của mẫu số liệu 2, 5, 3, 8, 2, 5, 2 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số 2 xuất hiện nhiều nhất (3 lần)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên chẵn có 3 chữ số khác nhau được lập từ các chữ số 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "48"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ số tận cùng có 2 cách chọn (2, 4). 2 chữ số còn lại chọn từ 4 số còn lại: $A_4^2 = 12$. Tổng: $2 \\times 12 = 24$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho $P(A) = 0,5; P(B) = 0,4; P(A \\cup B) = 0,7$. Tính $P(A \\cap B)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,2"
+        },
+        {
+          "id": "B",
+          "text": "0,1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "0,9"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0,5 + 0,4 - 0,7 = 0,2$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cho đường tròn $(C): x^2 + y^2 = 4$. Phương trình tiếp tuyến của (C) tại điểm $M(0; 2)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = 2$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "C",
+          "text": "$y = -2$"
+        },
+        {
+          "id": "D",
+          "text": "$x + y = 2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điểm M nằm trên trục tung, tiếp tuyến vuông góc với trục tung tại y=2 là đường thẳng $y=2$. Hoặc dùng công thức $xx_0 + yy_0 = R^2 \\Rightarrow x.0 + y.2 = 4 \\Rightarrow y=2$."
+    }
+  ]
+}

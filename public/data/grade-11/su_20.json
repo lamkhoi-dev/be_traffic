@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Pháp"
+        },
+        {
+          "id": "B",
+          "text": "Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Anh"
+        },
+        {
+          "id": "D",
+          "text": "Đức"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Anh là quê hương của CMCN lần 1 (động cơ hơi nước, dệt)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "\"Bình Ngô đại cáo\" của Nguyễn Trãi được coi là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bản Tuyên ngôn độc lập thứ hai của dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Một bài thơ thần"
+        },
+        {
+          "id": "C",
+          "text": "Một tác phẩm văn học lãng mạn"
+        },
+        {
+          "id": "D",
+          "text": "Một bộ luật hình sự"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác phẩm tổng kết thắng lợi cuộc kháng chiến chống Minh và tuyên bố nền độc lập."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chiến thắng Ngọc Hồi - Đống Đa (1789) là đỉnh cao của cuộc kháng chiến chống quân xâm lược nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Xiêm"
+        },
+        {
+          "id": "B",
+          "text": "Quân Thanh"
+        },
+        {
+          "id": "C",
+          "text": "Quân Minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Pháp"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quang Trung đại phá 29 vạn quân Thanh vào dịp Tết Kỷ Dậu 1789."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Bài học kinh nghiệm từ sự sụp đổ của Liên Xô đối với Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phải duy trì cơ chế bao cấp"
+        },
+        {
+          "id": "B",
+          "text": "Phải kiên định vai trò lãnh đạo của Đảng Cộng sản và đổi mới toàn diện, đồng bộ"
+        },
+        {
+          "id": "C",
+          "text": "Phải thực hiện đa nguyên đa đảng"
+        },
+        {
+          "id": "D",
+          "text": "Phải đóng cửa, không quan hệ với các nước tư bản"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự buông lỏng lãnh đạo của Đảng là một trong những nguyên nhân khiến Liên Xô sụp đổ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Vị trí địa chính trị quan trọng của Đông Nam Á là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nằm giữa Ấn Độ Dương và Thái Bình Dương, cầu nối lục địa Á - Âu và lục địa Úc"
+        },
+        {
+          "id": "B",
+          "text": "Nằm hoàn toàn trong nội địa châu Á"
+        },
+        {
+          "id": "C",
+          "text": "Nằm ở phía Bắc Trung Quốc"
+        },
+        {
+          "id": "D",
+          "text": "Nằm giữa Đại Tây Dương và Thái Bình Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vị trí ngã tư đường hàng hải quốc tế quan trọng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "\"Hịch tướng sĩ\" là áng văn bất hủ do ai soạn thảo để khích lệ tinh thần quân sĩ?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Trãi"
+        },
+        {
+          "id": "B",
+          "text": "Lý Thường Kiệt"
+        },
+        {
+          "id": "C",
+          "text": "Trần Quốc Tuấn"
+        },
+        {
+          "id": "D",
+          "text": "Quang Trung"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trần Quốc Tuấn viết Hịch tướng sĩ trước cuộc kháng chiến chống Mông - Nguyên lần 2."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự mở rộng của chủ nghĩa tư bản sang châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng Tân Hợi (Trung Quốc)"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Duy tân Minh Trị (Nhật Bản)"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào Xô viết Nghệ Tĩnh (Việt Nam)"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng ở Ấn Độ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Duy tân Minh Trị (1868) đưa Nhật Bản thoát khỏi phong kiến, trở thành nước TBCN."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Mâu thuẫn cơ bản nhất trong xã hội tư bản chủ nghĩa là mâu thuẫn giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nông dân và Địa chủ"
+        },
+        {
+          "id": "B",
+          "text": "Tư sản và Vô sản (Công nhân)"
+        },
+        {
+          "id": "C",
+          "text": "Các tập đoàn độc quyền với nhau"
+        },
+        {
+          "id": "D",
+          "text": "Chính quốc và thuộc địa"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mâu thuẫn giữa lao động và tư bản là mâu thuẫn gốc rễ."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Câu nói \"Ngồi yên đợi giặc không bằng đem quân đánh trước để chặn thế mạnh của giặc\" (Tiên phát chế nhân) là tư tưởng quân sự của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trần Hưng Đạo"
+        },
+        {
+          "id": "B",
+          "text": "Lý Thường Kiệt"
+        },
+        {
+          "id": "C",
+          "text": "Lê Lợi"
+        },
+        {
+          "id": "D",
+          "text": "Nguyễn Huệ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là chủ trương táo bạo của Lý Thường Kiệt trong cuộc kháng chiến chống Tống (1075-1077)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ 4 (4.0) tạo ra cơ hội gì cho chủ nghĩa tư bản?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng năng suất lao động đột biến, phát triển kinh tế tri thức"
+        },
+        {
+          "id": "B",
+          "text": "Quay lại sản xuất thủ công"
+        },
+        {
+          "id": "C",
+          "text": "Giảm bớt sự phụ thuộc vào máy móc"
+        },
+        {
+          "id": "D",
+          "text": "Đóng cửa biên giới quốc gia"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "CN 4.0 (AI, Big Data...) giúp tối ưu hóa sản xuất và quản lý."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cuộc Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ thực chất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một cuộc nội chiến"
+        },
+        {
+          "id": "B",
+          "text": "Một cuộc cách mạng tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Một cuộc chiến tranh nông dân"
+        },
+        {
+          "id": "D",
+          "text": "Một cuộc cải cách tôn giáo"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nó lật đổ ách thống trị thực dân (tương đương phong kiến), mở đường cho CNTB Mỹ phát triển."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nguyên nhân chính dẫn đến thất bại của nhà Hồ trong cuộc kháng chiến chống quân Minh (1407) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Minh quá mạnh"
+        },
+        {
+          "id": "B",
+          "text": "Đường lối kháng chiến sai lầm, không đoàn kết được toàn dân"
+        },
+        {
+          "id": "C",
+          "text": "Thiếu vũ khí hiện đại"
+        },
+        {
+          "id": "D",
+          "text": "Không có tướng tài"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hồ Quý Ly quá chú trọng xây thành đắp lũy (phòng ngự thụ động) mà không dựa vào dân ('Chính sự cốt ở lòng dân')."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào ở Đông Nam Á được đánh giá là toàn diện và triệt để nhất trong năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Tám ở Việt Nam"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng Lào"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Phi-líp-pin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Tám không chỉ giành độc lập mà còn xóa bỏ chế độ phong kiến, lập ra chế độ cộng hòa dân chủ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất mà chủ nghĩa tư bản hiện đại đang đối mặt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiếu hụt nguồn lao động"
+        },
+        {
+          "id": "B",
+          "text": "Sự chênh lệch giàu nghèo và khủng hoảng kinh tế, tài chính"
+        },
+        {
+          "id": "C",
+          "text": "Sự sụp đổ của thị trường chứng khoán"
+        },
+        {
+          "id": "D",
+          "text": "Thiếu tài nguyên thiên nhiên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bất bình đẳng xã hội gia tăng và các cuộc khủng hoảng chu kỳ là vấn đề nan giải."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cây trồng nào được thực dân phương Tây tập trung phát triển mạnh ở các đồn điền Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lúa mì"
+        },
+        {
+          "id": "B",
+          "text": "Cao su, cà phê, chè, lúa gạo"
+        },
+        {
+          "id": "C",
+          "text": "Nho và ô liu"
+        },
+        {
+          "id": "D",
+          "text": "Táo và lê"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là các cây công nghiệp nhiệt đới có giá trị xuất khẩu cao."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Chính quyền Xô viết được thiết lập dựa trên liên minh của giai cấp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nhân và tư sản"
+        },
+        {
+          "id": "B",
+          "text": "Công nhân và nông dân"
+        },
+        {
+          "id": "C",
+          "text": "Nông dân và trí thức"
+        },
+        {
+          "id": "D",
+          "text": "Công nhân, nông dân và binh lính"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên minh công - nông là nòng cốt của chính quyền Xô viết."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trước khi thực hiện Chính sách kinh tế mới (NEP), nước Nga Xô viết đã thực hiện chính sách gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chính sách Cộng sản thời chiến"
+        },
+        {
+          "id": "B",
+          "text": "Chính sách mở cửa"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách kinh tế thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Chính sách công nghiệp hóa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính sách Cộng sản thời chiến được áp dụng trong thời kỳ nội chiến (1918-1920)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu Lào tuyên bố độc lập vào năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhật đảo chính Pháp"
+        },
+        {
+          "id": "B",
+          "text": "Chính phủ Lào I-xa-la thành lập và Tuyên ngôn độc lập (12/10)"
+        },
+        {
+          "id": "C",
+          "text": "Quân Trung Hoa Dân Quốc tiến vào Lào"
+        },
+        {
+          "id": "D",
+          "text": "Vua Xa-vang Vát-tha-na thoái vị"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 12/10/1945, nhân dân Lào khởi nghĩa thắng lợi và tuyên bố độc lập."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trước khi thực hiện Chính sách kinh tế mới (NEP), nước Nga Xô viết đã thực hiện chính sách gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chính sách Cộng sản thời chiến"
+        },
+        {
+          "id": "B",
+          "text": "Chính sách mở cửa"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách kinh tế thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Chính sách công nghiệp hóa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính sách Cộng sản thời chiến được áp dụng trong thời kỳ nội chiến (1918-1920)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự bùng nổ của Cách mạng tư sản Pháp 1789?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vua Lu-i XVI triệu tập Hội nghị ba đẳng cấp"
+        },
+        {
+          "id": "B",
+          "text": "Quần chúng nhân dân tấn công ngục Ba-xti (14/7/1789)"
+        },
+        {
+          "id": "C",
+          "text": "Thông qua Tuyên ngôn Nhân quyền và Dân quyền"
+        },
+        {
+          "id": "D",
+          "text": "Vua Lu-i XVI bị xử chém"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện phá ngục Ba-xti là biểu tượng mở đầu cho cách mạng."
+    }
+  ]
+}

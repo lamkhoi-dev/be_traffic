@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đạo hàm của hàm số $y = 2^x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2^x \\ln 2$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2^x}{\\ln 2}$"
+        },
+        {
+          "id": "C",
+          "text": "$x 2^{x-1}$"
+        },
+        {
+          "id": "D",
+          "text": "$2^x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức $(a^x)' = a^x \\ln a$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = f(x)$ có đạo hàm $f'(x) = x(x-2)$. Hàm số đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(2; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-2; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xét dấu $f'(x)$: Ngoài khoảng 2 nghiệm là dương. Trong khoảng $(0; 2)$ là âm. Vậy đồng biến trên $(-\\infty; 0)$ và $(2; +\\infty)$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cho tích phân $I = \\int_{0}^{1} x(1-x)^5 \\text{d}x$. Đặt $u = 1-x$, khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I = \\int_{0}^{1} (u^5 - u^6) \\text{d}u$"
+        },
+        {
+          "id": "B",
+          "text": "$I = \\int_{0}^{1} (u^6 - u^5) \\text{d}u$"
+        },
+        {
+          "id": "C",
+          "text": "$I = -\\int_{1}^{0} (1-u)u^5 \\text{d}u$"
+        },
+        {
+          "id": "D",
+          "text": "$I = \\int_{0}^{1} u^5 \\text{d}u$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $u = 1-x \\Rightarrow x = 1-u, \\text{d}x = -\\text{d}u$. Đổi cận: $x=0 \\to u=1, x=1 \\to u=0$. $I = \\int_{1}^{0} (1-u)u^5 (-\\text{d}u) = \\int_{0}^{1} (u^5 - u^6) \\text{d}u$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Họ nguyên hàm của hàm số $f(x) = e^x + 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$e^x + x^2 + C$"
+        },
+        {
+          "id": "B",
+          "text": "$e^x + 2 + C$"
+        },
+        {
+          "id": "C",
+          "text": "$e^x + x + C$"
+        },
+        {
+          "id": "D",
+          "text": "$e^x + 2x^2 + C$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên hàm của $e^x$ là $e^x$. Nguyên hàm của $2x$ là $x^2$. Vậy $F(x) = e^x + x^2 + C$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = \\frac{2x - 3}{x + 1}$ cắt trục tung tại điểm có tọa độ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(0; -3)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-3; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(\\frac{3}{2}; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cắt trục tung thì $x = 0$. Thay vào hàm số: $y = \\frac{-3}{1} = -3$. Điểm $(0; -3)$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z + 2 - i| = 3$ là đường tròn có tâm $I$ và bán kính $R$:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(-2; 1), R = 3$"
+        },
+        {
+          "id": "B",
+          "text": "$I(2; -1), R = 3$"
+        },
+        {
+          "id": "C",
+          "text": "$I(-2; 1), R = 9$"
+        },
+        {
+          "id": "D",
+          "text": "$I(2; -1), R = 9$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình có dạng $|z - (-2 + i)| = 3$. Tâm $I(-2; 1)$, bán kính $R=3$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2$ và đường thẳng $y = 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{5}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hoành độ giao điểm: $x^2 = 2x \\Leftrightarrow x=0, x=2$. $S = \\int_{0}^{2} |x^2 - 2x| \\text{d}x = \\int_{0}^{2} (2x - x^2) \\text{d}x = \\frac{4}{3}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 1 + i$ và $z_2 = 3 - 2i$. Tính $z_1 + z_2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$4 - i$"
+        },
+        {
+          "id": "B",
+          "text": "$4 + i$"
+        },
+        {
+          "id": "C",
+          "text": "$2 - 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$2 + 3i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(1+3) + (1-2)i = 4 - i$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho cấp số cộng $(u_n)$ với $u_1 = 2$ và công sai $d = 3$. Giá trị của $u_4$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "14"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_4 = u_1 + 3d = 2 + 3(3) = 11$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, vectơ nào dưới đây là vectơ pháp tuyến của mặt phẳng $(Oxy)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{k} = (0; 0; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{i} = (1; 0; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{j} = (0; 1; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (1; 1; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$, nên VTPT là $(0; 0; 1)$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tập nghiệm của bất phương trình $2^{x+1} > 4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(2; +\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; 1)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\mathbb{R}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2^{x+1} > 2^2 \\Leftrightarrow x + 1 > 2 \\Leftrightarrow x > 1$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Có bao nhiêu cách xếp 5 học sinh thành một hàng dọc?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "120"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "24"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số cách xếp là hoán vị của 5 phần tử: $P_5 = 5! = 120$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tìm tập xác định $D$ của hàm số $y = (x^2 - 1)^{-3}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$D = \\mathbb{R} \\setminus \\{\\pm 1\\}$"
+        },
+        {
+          "id": "B",
+          "text": "$D = (-1; 1)$"
+        },
+        {
+          "id": "C",
+          "text": "$D = (-\\infty; -1) \\cup (1; +\\infty)$"
+        },
+        {
+          "id": "D",
+          "text": "$D = \\mathbb{R}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì số mũ nguyên âm (-3) nên điều kiện là cơ số khác 0: $x^2 - 1 \\ne 0 \\Leftrightarrow x \\ne \\pm 1$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $\\log_2(x + 1) = 3$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 7$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 8$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 5$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 6$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x + 1 = 2^3 = 8 \\Rightarrow x = 7$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một tổ có 6 nam và 4 nữ. Chọn ngẫu nhiên 3 người. Xác suất để 3 người được chọn có ít nhất 1 nữ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{5}{6}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{4}{5}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{29}{30}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng số cách chọn $C_{10}^3 = 120$. Biến cố đối: Chọn 3 nam (không có nữ) là $C_6^3 = 20$. Số cách chọn có ít nhất 1 nữ: $120 - 20 = 100$. $P = \\frac{100}{120} = \\frac{5}{6}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x-1}{2} = \\frac{y}{-1} = \\frac{z+1}{1}$ và mặt phẳng $(P): x + y + z - 10 = 0$. Góc giữa đường thẳng $d$ và mặt phẳng $(P)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$30^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$45^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$60^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$\\arcsin(\\frac{2}{3})$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$\\vec{u}_d = (2; -1; 1)$, $\\vec{n}_P = (1; 1; 1)$. $\\sin \\alpha = \\frac{|2\\cdot1 + (-1)\\cdot1 + 1\\cdot1|}{\\sqrt{4+1+1} \\cdot \\sqrt{1+1+1}} = \\frac{2}{\\sqrt{6}\\cdot\\sqrt{3}} = \\frac{2}{\\sqrt{18}} = \\frac{\\sqrt{2}}{3}$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z - 2i| = |z + 2|$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đường thẳng $y = -x$"
+        },
+        {
+          "id": "B",
+          "text": "Đường thẳng $y = x$"
+        },
+        {
+          "id": "C",
+          "text": "Đường tròn"
+        },
+        {
+          "id": "D",
+          "text": "Trục hoành"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi $z = x+yi$. $|x + (y-2)i| = |(x+2) + yi| \\Leftrightarrow x^2 + (y-2)^2 = (x+2)^2 + y^2 \\Leftrightarrow -4y + 4 = 4x + 4 \\Leftrightarrow -4y = 4x \\Leftrightarrow y = -x$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tìm $m$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2 - 4)x + 3$ đạt cực đại tại $x = 3$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m = 5$"
+        },
+        {
+          "id": "B",
+          "text": "$m = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$m = -1$"
+        },
+        {
+          "id": "D",
+          "text": "$m = -5$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = x^2 - 2mx + m^2 - 4$. $y'(3) = 9 - 6m + m^2 - 4 = 0 \\Leftrightarrow m^2 - 6m + 5 = 0 \\Leftrightarrow m=1, m=5$. $y'' = 2x - 2m$. Với $m=1, y''(3) = 6-2 > 0$ (Cực tiểu). Với $m=5, y''(3) = 6-10 < 0$ (Cực đại). Chọn $m=5$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $3^{2x - 1} = 27$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 3$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 4$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$3^{2x-1} = 3^3 \\Leftrightarrow 2x - 1 = 3 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, khoảng cách từ điểm $O(0;0;0)$ đến mặt phẳng $(P): 2x - 2y + z - 6 = 0$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = \\frac{|-6|}{\\sqrt{2^2 + (-2)^2 + 1^2}} = \\frac{6}{3} = 2$."
+    }
+  ]
+}

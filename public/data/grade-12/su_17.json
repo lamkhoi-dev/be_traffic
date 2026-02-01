@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đông Dương Cộng sản đảng được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6/1929"
+        },
+        {
+          "id": "B",
+          "text": "8/1929"
+        },
+        {
+          "id": "C",
+          "text": "9/1929"
+        },
+        {
+          "id": "D",
+          "text": "2/1930"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành lập tháng 6/1929 tại Bắc Kỳ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Lá cờ cách mạng tung bay trên nóc Dinh Độc Lập vào thời điểm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 giờ 45 phút ngày 30/4/1975"
+        },
+        {
+          "id": "B",
+          "text": "11 giờ 30 phút ngày 30/4/1975"
+        },
+        {
+          "id": "C",
+          "text": "9 giờ 30 phút ngày 30/4/1975"
+        },
+        {
+          "id": "D",
+          "text": "12 giờ ngày 1/5/1975"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời khắc lịch sử đánh dấu sự toàn thắng của chiến dịch."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế của sự thành lập nước CHND Trung Hoa là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm cho chủ nghĩa xã hội nối liền từ Âu sang Á"
+        },
+        {
+          "id": "B",
+          "text": "Đưa Trung Quốc trở thành cường quốc kinh tế số 1"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự thống trị của chế độ phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Kết thúc 100 năm nô dịch của thực dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời đã nối liền hệ thống XHCN từ châu Âu sang châu Á."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Thành tựu quan trọng nhất của cuộc cách mạng khoa học kỹ thuật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát minh ra máy tính điện tử"
+        },
+        {
+          "id": "B",
+          "text": "Tìm ra các nguồn năng lượng mới"
+        },
+        {
+          "id": "C",
+          "text": "Chinh phục vũ trụ"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng xanh"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy tính điện tử là phát minh then chốt thay đổi mọi mặt."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Vì sao Mỹ buộc phải chấp nhận đàm phán ở Paris?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do thiện chí hòa bình của Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Do thất bại nặng nề trong cuộc Tổng tiến công Mậu Thân 1968"
+        },
+        {
+          "id": "C",
+          "text": "Do Liên Xô can thiệp"
+        },
+        {
+          "id": "D",
+          "text": "Do áp lực của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cú sốc Mậu Thân làm lung lay ý chí xâm lược của Mỹ."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đổi mới chính trị ở Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thay đổi chế độ chính trị"
+        },
+        {
+          "id": "B",
+          "text": "Thực hiện đa nguyên đa đảng"
+        },
+        {
+          "id": "C",
+          "text": "Đổi mới tư duy lý luận, kiện toàn bộ máy nhà nước, dân chủ hóa xã hội"
+        },
+        {
+          "id": "D",
+          "text": "Bãi bỏ vai trò lãnh đạo của Đảng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đổi mới nhưng giữ vững vai trò lãnh đạo của Đảng Cộng sản."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào năm 1947 là đánh dấu sự kết thúc của chủ nghĩa thực dân ở châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "B",
+          "text": "Indonesia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ấn Độ tuyên bố độc lập năm 1947, đánh dấu sự suy thoái của chủ nghĩa thực dân ở châu Á."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Khó khăn lớn nhất của nước ta sau Cách mạng tháng Tám 1945 là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nạn đói, nạn dốt"
+        },
+        {
+          "id": "B",
+          "text": "Ngân sách trống rỗng"
+        },
+        {
+          "id": "C",
+          "text": "Giặc ngoại xâm và nội phản"
+        },
+        {
+          "id": "D",
+          "text": "Tàn dư chế độ cũ"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giặc ngoại xâm đe dọa trực tiếp đến sự tồn vong của chính quyền (Ngàn cân treo sợi tóc)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan quyết định thắng lợi của Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự lãnh đạo đúng đắn của Đảng và Bác Hồ"
+        },
+        {
+          "id": "B",
+          "text": "Quân Đồng minh đánh bại phát xít Nhật"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần đoàn kết của nhân dân thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Sự ủng hộ của Liên Xô"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Hiệp định Giơ-ne-vơ (1954) đã công nhận:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của 3 nước Đông Dương"
+        },
+        {
+          "id": "B",
+          "text": "Chia đôi Việt Nam thành hai miền Nam - Bắc"
+        },
+        {
+          "id": "C",
+          "text": "Mỹ thay thế Pháp ở Đông Dương"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam gia nhập phe xã hội chủ nghĩa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các nước tham dự cam kết tôn trọng các quyền dân tộc cơ bản của VN, Lào, Campuchia."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tuyến phòng thủ kiên cố nhất của địch bảo vệ Sài Gòn từ hướng Đông là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xuân Lộc"
+        },
+        {
+          "id": "B",
+          "text": "Phan Rang"
+        },
+        {
+          "id": "C",
+          "text": "Biên Hòa"
+        },
+        {
+          "id": "D",
+          "text": "Vũng Tàu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xuân Lộc là 'cánh cửa thép'. Ta đập tan tuyến này ngày 21/4."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thắng lợi của cuộc kháng chiến chống Mỹ đã chấm dứt ách thống trị của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thực dân cũ"
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa thực dân mới"
+        },
+        {
+          "id": "C",
+          "text": "Chế độ phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Phát xít"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ đại diện cho chủ nghĩa thực dân mới."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc tập dượt lần thứ nhất cho Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phong trào cách mạng 1930-1931"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào dân chủ 1936-1939"
+        },
+        {
+          "id": "C",
+          "text": "Cao trào kháng Nhật cứu nước 1945"
+        },
+        {
+          "id": "D",
+          "text": "Khởi nghĩa Bắc Sơn 1940"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "1930-1931 là cuộc tập dượt đầu tiên; 1936-1939 là cuộc tập dượt thứ hai."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Năm quốc gia sáng lập Hiệp hội các quốc gia Đông Nam Á (ASEAN) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam, Lào, Campuchia, Thái Lan, Singapo"
+        },
+        {
+          "id": "B",
+          "text": "Inđônêxia, Malaixia, Philíppin, Thái Lan, Singapo"
+        },
+        {
+          "id": "C",
+          "text": "Inđônêxia, Malaixia, Brunây, Thái Lan, Mianma"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan, Singapo, Việt Nam, Philíppin, Malaixia"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "5 nước sáng lập năm 1967 tại Băng Cốc."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Vai trò của miền Bắc trong giai đoạn 1954-1975 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiền tuyến lớn"
+        },
+        {
+          "id": "B",
+          "text": "Hậu phương lớn"
+        },
+        {
+          "id": "C",
+          "text": "Căn cứ địa duy nhất"
+        },
+        {
+          "id": "D",
+          "text": "Nơi tiếp nhận viện trợ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Miền Bắc là hậu phương lớn XHCN chi viện cho tiền tuyến lớn miền Nam."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Sài Gòn - Gia Định được chính thức mang tên Thành phố Hồ Chí Minh từ khi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kỳ họp thứ nhất Quốc hội khóa VI (1976)"
+        },
+        {
+          "id": "B",
+          "text": "Ngày 30/4/1975"
+        },
+        {
+          "id": "C",
+          "text": "Ngày 2/9/1975"
+        },
+        {
+          "id": "D",
+          "text": "Năm 1986"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quyết định của Quốc hội khóa VI."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Kẻ thù chủ yếu của phong trào giải phóng dân tộc ở Mỹ Latinh sau Chiến tranh thế giới thứ hai là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thực dân cũ"
+        },
+        {
+          "id": "B",
+          "text": "Chế độ phong kiến"
+        },
+        {
+          "id": "C",
+          "text": "Chế độ độc tài thân Mỹ (Thực dân mới)"
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa phát xít"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mỹ thiết lập các chế độ độc tài thân Mỹ để biến Mỹ Latinh thành sân sau."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phong trào \"Đồng khởi\" (1959-1960) nổ ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "B",
+          "text": "Bến Tre"
+        },
+        {
+          "id": "C",
+          "text": "Quảng Ngãi"
+        },
+        {
+          "id": "D",
+          "text": "Bình Định"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bến Tre là lá cờ đầu của phong trào Đồng khởi (17/1/1960)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hiệp ước Vác-sa-va là tổ chức liên minh về:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kinh tế của các nước XHCN"
+        },
+        {
+          "id": "B",
+          "text": "Chính trị và quân sự của các nước XHCN"
+        },
+        {
+          "id": "C",
+          "text": "Văn hóa của Đông Âu"
+        },
+        {
+          "id": "D",
+          "text": "Khoa học kỹ thuật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đối trọng với NATO (quân sự) của phương Tây."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "\"Ai có súng dùng súng. Ai có gươm dùng gươm...\" là đoạn trích trong văn kiện nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Lời kêu gọi Toàn quốc kháng chiến"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ thị Toàn dân kháng chiến"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến nhất định thắng lợi"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời kêu gọi bất hủ của Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến."
+    }
+  ]
+}

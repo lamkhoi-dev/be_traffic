@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 5: Cultural Identity",
+    "description": "Chủ đề Bản sắc văn hóa. Ngữ pháp: Thì Hiện tại hoàn thành vs. Hiện tại hoàn thành tiếp diễn, So sánh lặp (Repeated Comparatives).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "unite" },
+        { "id": "B", "text": "costume" },
+        { "id": "C", "text": "culture" },
+        { "id": "D", "text": "custom" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'unite' phát âm là /ju:/. Các từ còn lại là /k/ (costume, culture, custom)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "identity" },
+        { "id": "B", "text": "solidarity" },
+        { "id": "C", "text": "majority" },
+        { "id": "D", "text": "assimilate" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'solidarity' nhấn âm 3. Các từ còn lại nhấn âm 2 (identity, majority, assimilate)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We need to ______ our cultural heritage for future generations.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "preserve" },
+        { "id": "B", "text": "reserve" },
+        { "id": "C", "text": "destroy" },
+        { "id": "D", "text": "ignore" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Preserve cultural heritage' (bảo tồn di sản văn hóa)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Wearing traditional ______ is a way to show pride in one's culture.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "customs" },
+        { "id": "B", "text": "costumes" },
+        { "id": "C", "text": "habits" },
+        { "id": "D", "text": "behaviors" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Costumes' (trang phục). 'Customs' là phong tục."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Immigrants often try to ______ into the new culture while maintaining their own traditions.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "assimilate" },
+        { "id": "B", "text": "integrate" },
+        { "id": "C", "text": "separate" },
+        { "id": "D", "text": "divide" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Integrate' (hòa nhập) phù hợp với ngữ cảnh 'vẫn giữ truyền thống riêng'. 'Assimilate' thường mang nghĩa đồng hóa (mất bản sắc riêng)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "It is becoming ______ to find a job in this city.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "hard and hard" },
+        { "id": "B", "text": "harder and harder" },
+        { "id": "C", "text": "more and more hard" },
+        { "id": "D", "text": "the hardest" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh lặp (càng ngày càng): adj-er and adj-er."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "I ______ this book for two hours, but I haven't finished it yet.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "have read" },
+        { "id": "B", "text": "have been reading" },
+        { "id": "C", "text": "read" },
+        { "id": "D", "text": "am reading" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhấn mạnh quá trình liên tục kéo dài 2 tiếng đến hiện tại: Hiện tại hoàn thành tiếp diễn."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Festivals help to strengthen the ______ of the community.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "solidarity" },
+        { "id": "B", "text": "solitary" },
+        { "id": "C", "text": "identity" },
+        { "id": "D", "text": "personality" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Solidarity' (tinh thần đoàn kết)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: We should 'maintain' our cultural identity.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "give up" },
+        { "id": "B", "text": "keep" },
+        { "id": "C", "text": "destroy" },
+        { "id": "D", "text": "change" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Maintain' (duy trì) đồng nghĩa với 'keep' (giữ)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: It is important to prevent culture 'assimilation'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "integration" },
+        { "id": "B", "text": "mixture" },
+        { "id": "C", "text": "separation" },
+        { "id": "D", "text": "adoption" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Assimilation' (sự đồng hóa/hòa tan) có thể coi là trái nghĩa với 'separation' (sự tách biệt/giữ riêng biệt) trong ngữ cảnh này."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "The situation is getting ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "worse and worse" },
+        { "id": "B", "text": "bad and bad" },
+        { "id": "C", "text": "more and more bad" },
+        { "id": "D", "text": "worst and worst" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "So sánh lặp của 'bad' là 'worse and worse'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "I ______ three emails this morning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "write" },
+        { "id": "B", "text": "have written" },
+        { "id": "C", "text": "have been writing" },
+        { "id": "D", "text": "am writing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chỉ kết quả/số lượng (3 emails) đã hoàn thành trong buổi sáng (chưa qua): Hiện tại hoàn thành."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "She feels ______ because she can't speak the local language.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "isolated" },
+        { "id": "B", "text": "connected" },
+        { "id": "C", "text": "proud" },
+        { "id": "D", "text": "happy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Isolated' (bị cô lập) là cảm giác khi không giao tiếp được."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cultural ______ helps people understand each other better.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "shock" },
+        { "id": "B", "text": "exchange" },
+        { "id": "C", "text": "barrier" },
+        { "id": "D", "text": "conflict" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Cultural exchange' (trao đổi văn hóa)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'What does this symbol represent?' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "It stands for peace." },
+        { "id": "B", "text": "It is made of gold." },
+        { "id": "C", "text": "I bought it yesterday." },
+        { "id": "D", "text": "It is very expensive." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hỏi về ý nghĩa biểu tượng (represent). Trả lời dùng 'stand for' (tượng trưng cho)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'Her English is getting gooder and gooder every day.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is getting" },
+        { "id": "B", "text": "gooder and gooder" },
+        { "id": "C", "text": "every" },
+        { "id": "D", "text": "day" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai so sánh hơn. 'Good' -> 'better'. Sửa thành 'better and better'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "He has been sleeping ______ 10 o'clock.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "since" },
+        { "id": "C", "text": "at" },
+        { "id": "D", "text": "in" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mốc thời gian (10 o'clock) dùng 'since'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We should respect the cultural ______ of different nations.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "diversity" },
+        { "id": "B", "text": "diverse" },
+        { "id": "C", "text": "diversify" },
+        { "id": "D", "text": "diversification" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Cultural diversity' (sự đa dạng văn hóa)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'He started working here 5 years ago.' -> 'He has...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "He has worked here since 5 years." },
+        { "id": "B", "text": "He has been working here for 5 years." },
+        { "id": "C", "text": "He has worked here when 5 years." },
+        { "id": "D", "text": "He working here for 5 years." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chuyển từ Quá khứ đơn sang Hiện tại hoàn thành tiếp diễn (nhấn mạnh tính liên tục)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Language is a key feature of cultural ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "identical" },
+        { "id": "B", "text": "identify" },
+        { "id": "C", "text": "identity" },
+        { "id": "D", "text": "identically" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Cultural identity' (bản sắc văn hóa)."
+    }
+  ]
+}

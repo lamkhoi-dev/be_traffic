@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cánh tay đòn của một lực $F$ tác dụng vào vật có trục quay O là $d$. Nếu tăng lực lên 2 lần và giảm cánh tay đòn đi 2 lần thì moment lực sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Tăng 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Giảm 4 lần"
+        },
+        {
+          "id": "D",
+          "text": "Tăng 2 lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$M' = (2F) \\times (d/2) = F.d = M$. Không đổi."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trọng tâm của một vật là điểm đặt của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực đàn hồi"
+        },
+        {
+          "id": "B",
+          "text": "Trọng lực tác dụng lên vật"
+        },
+        {
+          "id": "C",
+          "text": "Lực ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Lực đẩy Ác-si-mét"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trọng tâm là điểm đặt của hợp lực các trọng lực nhỏ tác dụng lên mọi phần của vật."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một thanh chắn đường dài 7,8m, có trọng lượng 210N và trọng tâm cách đầu bên trái 1,2m. Thanh có thể quay quanh một trục nằm ngang ở cách đầu bên trái 1,5m. Để thanh cân bằng nằm ngang, cần tác dụng vào đầu bên phải một lực bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "100 N"
+        },
+        {
+          "id": "D",
+          "text": "50 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trục quay O cách đầu trái A là 1,5m. Trọng tâm G cách A là 1,2m $\\Rightarrow OG = 1,5 - 1,2 = 0,3m$. Đầu phải B cách O là $7,8 - 1,5 = 6,3m$. Cân bằng moment: $P.OG = F.OB \\Rightarrow 210 \\times 0,3 = F \\times 6,3 \\Rightarrow F = 10$ N."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Moment lực đối với một trục quay là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng làm vật chuyển động tịnh tiến"
+        },
+        {
+          "id": "B",
+          "text": "Tác dụng làm vật quay quanh trục"
+        },
+        {
+          "id": "C",
+          "text": "Tác dụng làm biến dạng vật"
+        },
+        {
+          "id": "D",
+          "text": "Mức quán tính của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Moment lực $M = F.d$ đặc trưng cho tác dụng làm quay của lực."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Trường hợp nào sau đây lực tác dụng **không** sinh công?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cùng phương với chuyển động"
+        },
+        {
+          "id": "B",
+          "text": "Lực hợp với phương chuyển động một góc nhọn"
+        },
+        {
+          "id": "C",
+          "text": "Lực vuông góc với phương chuyển động"
+        },
+        {
+          "id": "D",
+          "text": "Lực ngược chiều với phương chuyển động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công $A = F.s.\\cos\\alpha$. Nếu $\\alpha = 90^\\circ$ (vuông góc) thì $\\cos 90^\\circ = 0 \\Rightarrow A = 0$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg chuyển động với vận tốc 3m/s. Động năng của vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 J"
+        },
+        {
+          "id": "B",
+          "text": "9 J"
+        },
+        {
+          "id": "C",
+          "text": "18 J"
+        },
+        {
+          "id": "D",
+          "text": "3 J"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 9$ J."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Chuyển động bằng phản lực tuân theo định luật nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn công"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn động lượng"
+        },
+        {
+          "id": "C",
+          "text": "Vạn vật hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn khối lượng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tên lửa, súng giật, sứa bơi... là ví dụ của chuyển động bằng phản lực (Bảo toàn động lượng)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Va chạm đàn hồi là va chạm trong đó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ bảo toàn động lượng, động năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn cả động lượng và động năng"
+        },
+        {
+          "id": "C",
+          "text": "Vật dính vào nhau sau va chạm"
+        },
+        {
+          "id": "D",
+          "text": "Động năng tăng lên sau va chạm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Va chạm đàn hồi bảo toàn cả động lượng và động năng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một viên đạn được bắn lên cao. Tại điểm cao nhất:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng cực đại, thế năng cực tiểu"
+        },
+        {
+          "id": "B",
+          "text": "Động năng bằng 0 (nếu bắn thẳng đứng), thế năng cực đại"
+        },
+        {
+          "id": "C",
+          "text": "Cơ năng bằng 0"
+        },
+        {
+          "id": "D",
+          "text": "Động năng bằng thế năng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại điểm cao nhất, độ cao h cực đại nên thế năng cực đại. Vận tốc nhỏ nhất (hoặc bằng 0 nếu bắn thẳng đứng)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Công suất là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khả năng thực hiện công của lực"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ thực hiện công"
+        },
+        {
+          "id": "C",
+          "text": "Năng lượng của vật"
+        },
+        {
+          "id": "D",
+          "text": "Thời gian thực hiện công"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công suất $P = A/t$ là đại lượng đo bằng công sinh ra trong một đơn vị thời gian, đặc trưng cho tốc độ thực hiện công."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn chịu tác dụng của ba lực không song song là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ba lực đó phải đồng phẳng và đồng quy"
+        },
+        {
+          "id": "B",
+          "text": "Hợp lực của hai lực bất kỳ phải cân bằng với lực thứ ba"
+        },
+        {
+          "id": "C",
+          "text": "Ba lực đó phải vuông góc với nhau từng đôi một"
+        },
+        {
+          "id": "D",
+          "text": "Cả A và B đều đúng"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc hợp lực đồng quy: Ba lực phải đồng phẳng, đồng quy và hợp lực của 2 lực cân bằng lực thứ 3 (Tổng vectơ bằng 0)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hợp lực của hai lực đồng quy $F_1 = 3N$ và $F_2 = 4N$ vuông góc với nhau có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "7 N"
+        },
+        {
+          "id": "B",
+          "text": "1 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "12 N"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3^2 + 4^2} = 5$ N."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg thả rơi tự do từ độ cao 10m xuống đất. Lấy $g = 10 m/s^2$. Thế năng của vật tại độ cao 5m là (chọn gốc thế năng tại mặt đất):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "100 J"
+        },
+        {
+          "id": "B",
+          "text": "50 J"
+        },
+        {
+          "id": "C",
+          "text": "200 J"
+        },
+        {
+          "id": "D",
+          "text": "20 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_t = mgh = 2 \\times 10 \\times 5 = 100$ J."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Độ dịch chuyển và quãng đường đi được của vật có độ lớn bằng nhau khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật chuyển động tròn"
+        },
+        {
+          "id": "B",
+          "text": "Vật chuyển động thẳng và không đổi chiều"
+        },
+        {
+          "id": "C",
+          "text": "Vật chuyển động thẳng và đổi chiều"
+        },
+        {
+          "id": "D",
+          "text": "Vật chuyển động cong"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chuyển động thẳng không đổi chiều, vectơ độ dịch chuyển có độ lớn bằng quãng đường."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Gia tốc rơi tự do $g$ phụ thuộc vào yếu tố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khối lượng của vật rơi"
+        },
+        {
+          "id": "B",
+          "text": "Vĩ độ địa lý và độ cao"
+        },
+        {
+          "id": "C",
+          "text": "Kích thước vật rơi"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc đầu của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$g$ thay đổi theo vị trí địa lý (vĩ độ) và độ cao so với mặt đất."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 500g chuyển động với vận tốc 4m/s. Động lượng của vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2000 kg.m/s"
+        },
+        {
+          "id": "B",
+          "text": "2 kg.m/s"
+        },
+        {
+          "id": "C",
+          "text": "20 kg.m/s"
+        },
+        {
+          "id": "D",
+          "text": "0,2 kg.m/s"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$p = mv = 0,5 \\times 4 = 2$ kg.m/s."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ngẫu lực là hệ gồm hai lực:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Song song, cùng chiều, có độ lớn bằng nhau"
+        },
+        {
+          "id": "B",
+          "text": "Song song, ngược chiều, có độ lớn bằng nhau và cùng tác dụng vào một vật"
+        },
+        {
+          "id": "C",
+          "text": "Cùng phương, ngược chiều, độ lớn bằng nhau"
+        },
+        {
+          "id": "D",
+          "text": "Vuông góc với nhau và cùng độ lớn"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa ngẫu lực: Hai lực song song, ngược chiều, cùng độ lớn, tác dụng vào cùng một vật, làm vật quay thuần túy."
+    }
+  ]
+}

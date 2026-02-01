@@ -1,0 +1,613 @@
+{
+  "test_unit_4": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lí 11 - Bài 4: Năng lượng trong dao động điều hòa",
+    "description": "Kiểm tra kiến thức về Động năng, Thế năng, Cơ năng và sự chuyển hóa năng lượng trong dao động điều hòa.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions_unit_4": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Công thức tính động năng của một vật dao động điều hòa có khối lượng $m$ và vận tốc $v$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$W_d = \\frac{1}{2}mv$." },
+        { "id": "B", "text": "$W_d = \\frac{1}{2}mv^2$." },
+        { "id": "C", "text": "$W_d = mv^2$." },
+        { "id": "D", "text": "$W_d = \\frac{1}{2}m^2v$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động năng là năng lượng do chuyển động mà có: $W_d = \\frac{1}{2}mv^2$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thế năng của con lắc lò xo có độ cứng $k$ ở li độ $x$ được tính bằng công thức",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$W_t = \\frac{1}{2}kx$." },
+        { "id": "B", "text": "$W_t = kx^2$." },
+        { "id": "C", "text": "$W_t = \\frac{1}{2}k^2x$." },
+        { "id": "D", "text": "$W_t = \\frac{1}{2}kx^2$." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Thế năng đàn hồi: $W_t = \\frac{1}{2}kx^2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cơ năng của vật dao động điều hòa được bảo toàn khi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "có ma sát lớn." },
+        { "id": "B", "text": "bỏ qua mọi ma sát và lực cản." },
+        { "id": "C", "text": "vật dao động cưỡng bức." },
+        { "id": "D", "text": "biên độ dao động giảm dần." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nếu bỏ qua ma sát, cơ năng được bảo toàn (W = const)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Khi vật đi từ vị trí cân bằng ra biên thì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "động năng tăng, thế năng giảm." },
+        { "id": "B", "text": "động năng giảm, thế năng tăng." },
+        { "id": "C", "text": "động năng và thế năng đều tăng." },
+        { "id": "D", "text": "động năng và thế năng đều giảm." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ra biên: vận tốc giảm (động năng giảm), li độ tăng (thế năng tăng)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Động năng của vật dao động điều hòa biến thiên tuần hoàn với chu kì $T'$. Mối liên hệ giữa $T'$ và chu kì dao động $T$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$T' = T$." },
+        { "id": "B", "text": "$T' = 2T$." },
+        { "id": "C", "text": "$T' = T/2$." },
+        { "id": "D", "text": "$T' = 4T$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Động năng và thế năng biến thiên tuần hoàn với tần số gấp đôi ($2f$) và chu kì bằng một nửa ($T/2$) so với li độ."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cơ năng của vật dao động điều hòa tỉ lệ thuận với",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "li độ dao động." },
+        { "id": "B", "text": "biên độ dao động." },
+        { "id": "C", "text": "bình phương biên độ dao động." },
+        { "id": "D", "text": "chu kì dao động." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$W = \\frac{1}{2}kA^2 = \\frac{1}{2}m\\omega^2 A^2$. Cơ năng tỉ lệ với bình phương biên độ."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tại vị trí cân bằng, cơ năng của vật bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "động năng cực đại." },
+        { "id": "B", "text": "thế năng cực đại." },
+        { "id": "C", "text": "0." },
+        { "id": "D", "text": "một nửa động năng cực đại." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại VTCB ($x=0$), thế năng bằng 0, toàn bộ cơ năng là động năng cực đại."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tại vị trí biên, cơ năng của vật bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "động năng cực đại." },
+        { "id": "B", "text": "thế năng cực đại." },
+        { "id": "C", "text": "động năng + thế năng cực đại." },
+        { "id": "D", "text": "0." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại biên ($v=0$), động năng bằng 0, toàn bộ cơ năng là thế năng cực đại."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khi động năng bằng thế năng, li độ $x$ của vật bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pm \\frac{A}{2}$." },
+        { "id": "B", "text": "$\\pm \\frac{A}{\\sqrt{2}}$." },
+        { "id": "C", "text": "$\\pm \\frac{A\\sqrt{3}}{2}$." },
+        { "id": "D", "text": "$\\pm A$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d = W_t \\Rightarrow W = 2W_t \\Rightarrow \\frac{1}{2}kA^2 = 2.\\frac{1}{2}kx^2 \\Rightarrow A^2 = 2x^2 \\Rightarrow x = \\pm \\frac{A}{\\sqrt{2}}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khi động năng bằng 3 lần thế năng, li độ của vật là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pm \\frac{A}{2}$." },
+        { "id": "B", "text": "$\\pm \\frac{A}{\\sqrt{2}}$." },
+        { "id": "C", "text": "$\\pm \\frac{A\\sqrt{3}}{2}$." },
+        { "id": "D", "text": "$\\pm \\frac{A}{3}$." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_d = 3W_t \\Rightarrow W = 4W_t \\Rightarrow A^2 = 4x^2 \\Rightarrow x = \\pm \\frac{A}{2}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn sự phụ thuộc của động năng vào thế năng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "một đường thẳng đi qua gốc tọa độ." },
+        { "id": "B", "text": "một đường parabol." },
+        { "id": "C", "text": "một đoạn thẳng có hệ số góc âm." },
+        { "id": "D", "text": "một đường elip." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$W_d = W - W_t$. Đây là hàm bậc nhất dạng $y = -x + b$. Đồ thị là đoạn thẳng dốc xuống."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với biên độ $A = 10$ cm. Mốc thế năng ở VTCB. Khi vật cách VTCB 5 cm thì tỉ số giữa động năng và cơ năng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/4." },
+        { "id": "B", "text": "3/4." },
+        { "id": "C", "text": "1/2." },
+        { "id": "D", "text": "1/3." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x = A/2 \\Rightarrow W_t = W/4$. Vậy $W_d = W - W/4 = 3W/4$. Tỉ số là 3/4."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Biết cơ năng của một vật là $E$. Khi li độ $x = A/2$, động năng của vật là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$E/2$." },
+        { "id": "B", "text": "$E/4$." },
+        { "id": "C", "text": "$3E/4$." },
+        { "id": "D", "text": "$E$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tại $x=A/2$, thế năng chiếm 1/4 cơ năng, động năng chiếm 3/4."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tần số biến thiên của động năng bằng bao nhiêu lần tần số dao động của vật?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 lần." },
+        { "id": "B", "text": "2 lần." },
+        { "id": "C", "text": "0,5 lần." },
+        { "id": "D", "text": "4 lần." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$f' = 2f$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nếu tăng khối lượng vật nặng lên 4 lần và giữ nguyên các thông số khác (đối với con lắc lò xo) thì cơ năng sẽ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tăng 4 lần." },
+        { "id": "B", "text": "giảm 4 lần." },
+        { "id": "C", "text": "không đổi." },
+        { "id": "D", "text": "tăng 2 lần." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$W = \\frac{1}{2}kA^2$. Cơ năng chỉ phụ thuộc độ cứng k và biên độ A, không phụ thuộc m (nếu A không đổi)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một con lắc lò xo có $k = 100$ N/m, dao động với biên độ 5 cm. Cơ năng của con lắc là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,125 J." },
+        { "id": "B", "text": "12,5 J." },
+        { "id": "C", "text": "250 J." },
+        { "id": "D", "text": "0,25 J." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A = 0,05$ m. $W = 0,5 \\cdot 100 \\cdot (0,05)^2 = 0,125$ J."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Động năng đạt giá trị cực tiểu khi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vật qua VTCB." },
+        { "id": "B", "text": "vật ở biên." },
+        { "id": "C", "text": "vật đi được nửa quãng đường." },
+        { "id": "D", "text": "gia tốc bằng 0." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại biên, vận tốc bằng 0 nên động năng cực tiểu (bằng 0)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong quá trình dao động điều hòa, đại lượng nào sau đây không bảo toàn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cơ năng (khi không ma sát)." },
+        { "id": "B", "text": "Động năng." },
+        { "id": "C", "text": "Tần số." },
+        { "id": "D", "text": "Chu kì." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động năng biến thiên liên tục, không bảo toàn."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Khi thế năng tăng 2 lần thì cơ năng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tăng 2 lần." },
+        { "id": "B", "text": "giảm 2 lần." },
+        { "id": "C", "text": "không đổi." },
+        { "id": "D", "text": "tăng 4 lần." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cơ năng là hằng số (trong dao động điều hòa lý tưởng), không phụ thuộc vào sự thay đổi tức thời của thế năng."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Khoảng thời gian giữa hai lần liên tiếp động năng bằng thế năng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$T$." },
+        { "id": "B", "text": "$T/2$." },
+        { "id": "C", "text": "$T/4$." },
+        { "id": "D", "text": "$T/8$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Động năng bằng thế năng tại các vị trí $\\pm A/\\sqrt{2}$. Thời gian đi giữa các vị trí này liên tiếp là $T/4$."
+    }
+  ],
+  "test_unit_5": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lí 11 - Bài 5: Dao động tắt dần và Dao động cưỡng bức",
+    "description": "Kiểm tra kiến thức về đặc điểm, nguyên nhân của dao động tắt dần, dao động duy trì, dao động cưỡng bức và hiện tượng cộng hưởng.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions_unit_5": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Dao động tắt dần là dao động có",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "biên độ giảm dần theo thời gian." },
+        { "id": "B", "text": "chu kì giảm dần theo thời gian." },
+        { "id": "C", "text": "tần số tăng dần theo thời gian." },
+        { "id": "D", "text": "pha dao động giảm dần theo thời gian." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa: Dao động tắt dần có biên độ (và cơ năng) giảm dần theo thời gian."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nguyên nhân chính gây ra dao động tắt dần là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "do trọng lực tác dụng lên vật." },
+        { "id": "B", "text": "do lực ma sát và lực cản của môi trường." },
+        { "id": "C", "text": "do dây treo bị dãn." },
+        { "id": "D", "text": "do biên độ ban đầu quá nhỏ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lực cản/ma sát làm tiêu hao cơ năng của hệ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Dao động duy trì là dao động tắt dần mà người ta đã",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "làm mất lực cản môi trường." },
+        { "id": "B", "text": "tác dụng ngoại lực biến đổi điều hòa." },
+        { "id": "C", "text": "cung cấp thêm năng lượng đúng bằng phần năng lượng tiêu hao sau mỗi chu kì." },
+        { "id": "D", "text": "thay đổi cấu tạo hệ dao động." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bù năng lượng đúng lúc để biên độ không đổi mà không làm thay đổi chu kì riêng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Dao động cưỡng bức là dao động dưới tác dụng của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "nội lực đàn hồi." },
+        { "id": "B", "text": "ngoại lực không đổi." },
+        { "id": "C", "text": "ngoại lực cưỡng bức tuần hoàn." },
+        { "id": "D", "text": "trọng lực." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dao động chịu tác dụng của ngoại lực biến thiên tuần hoàn $F = F_0\\cos(\\Omega t + \\varphi)$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Hiện tượng cộng hưởng xảy ra khi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tần số của lực cưỡng bức bằng tần số riêng của hệ." },
+        { "id": "B", "text": "biên độ của lực cưỡng bức đạt cực đại." },
+        { "id": "C", "text": "ma sát của môi trường rất lớn." },
+        { "id": "D", "text": "tần số của lực cưỡng bức lớn hơn nhiều tần số riêng." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện cộng hưởng: $f_{cb} = f_0$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Biên độ của dao động cưỡng bức KHÔNG phụ thuộc vào",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "biên độ của lực cưỡng bức." },
+        { "id": "B", "text": "pha ban đầu của lực cưỡng bức." },
+        { "id": "C", "text": "lực cản môi trường." },
+        { "id": "D", "text": "độ chênh lệch giữa tần số lực cưỡng bức và tần số riêng." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Biên độ dao động cưỡng bức phụ thuộc vào $F_0$, lực cản và độ chênh lệch tần số $|f - f_0|$, không phụ thuộc pha ban đầu."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Khi xảy ra cộng hưởng, biên độ dao động cưỡng bức sẽ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "đạt giá trị cực đại." },
+        { "id": "B", "text": "đạt giá trị cực tiểu." },
+        { "id": "C", "text": "bằng biên độ lực cưỡng bức." },
+        { "id": "D", "text": "tiến tới 0." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặc điểm nổi bật của cộng hưởng là biên độ tăng vọt lên giá trị cực đại."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong dao động tắt dần, đại lượng nào sau đây giảm dần theo thời gian?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Li độ cực đại (Biên độ) và Cơ năng." },
+        { "id": "B", "text": "Li độ và Tốc độ." },
+        { "id": "C", "text": "Tần số và Chu kì." },
+        { "id": "D", "text": "Pha dao động." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biên độ giảm dẫn đến cơ năng giảm. Tần số/Chu kì coi như không đổi."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Dao động của con lắc đồng hồ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "dao động tắt dần." },
+        { "id": "B", "text": "dao động cưỡng bức." },
+        { "id": "C", "text": "dao động duy trì." },
+        { "id": "D", "text": "dao động tự do." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pin hoặc dây cót cung cấp năng lượng để duy trì dao động mà không làm sai lệch chu kì."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một hệ dao động chịu tác dụng của ngoại lực $F = 5\\cos(10\\pi t)$ N. Tần số dao động của hệ khi ổn định là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10 Hz." },
+        { "id": "B", "text": "5 Hz." },
+        { "id": "C", "text": "Tần số riêng của hệ." },
+        { "id": "D", "text": "2,5 Hz." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi ổn định, hệ dao động với tần số của ngoại lực: $f = \\omega/2\\pi = 10\\pi/2\\pi = 5$ Hz."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hiện tượng cộng hưởng có hại trong trường hợp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hộp đàn guitar làm tăng âm lượng." },
+        { "id": "B", "text": "Đoàn quân đi đều bước qua cầu treo." },
+        { "id": "C", "text": "Lò vi sóng làm nóng thức ăn." },
+        { "id": "D", "text": "Thu sóng radio." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cộng hưởng làm biên độ dao động cầu tăng mạnh, có thể gây sập cầu ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Biên độ dao động cưỡng bức càng lớn khi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "lực cản môi trường càng lớn." },
+        { "id": "B", "text": "tần số ngoại lực càng gần tần số riêng." },
+        { "id": "C", "text": "biên độ ngoại lực càng nhỏ." },
+        { "id": "D", "text": "thời gian tác dụng lực càng ngắn." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi $f$ tiến gần $f_0$, biên độ tăng dần đến cực đại."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tần số của dao động duy trì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "bằng tần số của ngoại lực cưỡng bức." },
+        { "id": "B", "text": "bằng tần số riêng của hệ." },
+        { "id": "C", "text": "phụ thuộc vào năng lượng cung cấp." },
+        { "id": "D", "text": "biến đổi theo thời gian." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặc điểm quan trọng của dao động duy trì là giữ nguyên tần số riêng."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một con lắc lò xo có tần số riêng $f_0 = 2$ Hz. Nếu tác dụng ngoại lực $F = F_0\\cos(4\\pi t)$, biên độ dao động sẽ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rất nhỏ." },
+        { "id": "B", "text": "đạt cực đại (cộng hưởng)." },
+        { "id": "C", "text": "bằng 0." },
+        { "id": "D", "text": "giảm dần." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số ngoại lực $f = 4\\pi/2\\pi = 2$ Hz. $f = f_0$ nên xảy ra cộng hưởng."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Dao động nào sau đây có tần số bằng tần số riêng của hệ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dao động cưỡng bức (khi chưa cộng hưởng)." },
+        { "id": "B", "text": "Dao động tắt dần." },
+        { "id": "C", "text": "Dao động duy trì." },
+        { "id": "D", "text": "Cả B và C." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Dao động tắt dần và duy trì đều dao động với chu kì/tần số riêng (gần đúng với tắt dần)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Khi nói về dao động cưỡng bức, phát biểu nào sau đây là SAI?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dao động cưỡng bức có tần số bằng tần số của lực cưỡng bức." },
+        { "id": "B", "text": "Biên độ của dao động cưỡng bức là biên độ của lực cưỡng bức." },
+        { "id": "C", "text": "Dao động cưỡng bức có biên độ không đổi." },
+        { "id": "D", "text": "Dao động cưỡng bức không bị tắt dần." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Biên độ dao động cưỡng bức (A) khác biên độ lực cưỡng bức ($F_0$), nó phụ thuộc vào $F_0$ nhưng không bằng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật dao động tắt dần chậm. Cứ sau mỗi chu kì, biên độ giảm 2%. Năng lượng của con lắc mất đi sau mỗi chu kì là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2%." },
+        { "id": "B", "text": "4%." },
+        { "id": "C", "text": "96%." },
+        { "id": "D", "text": "0,04%." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W \\sim A^2$. $A' = 0,98A \\Rightarrow W' = 0,98^2 W \\approx 0,96W$. Mất đi $1 - 0,96 = 0,04 = 4\\%$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Để duy trì dao động cho một cơ hệ mà không làm thay đổi chu kì riêng, ta phải",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tác dụng ngoại lực biến thiên tuần hoàn với tần số bất kì." },
+        { "id": "B", "text": "tác dụng ngoại lực có tần số bằng tần số riêng." },
+        { "id": "C", "text": "làm nhẵn, bôi trơn để triệt tiêu ma sát." },
+        { "id": "D", "text": "cung cấp năng lượng bù đắp sau mỗi chu kì." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đây là nguyên tắc của dao động duy trì."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ứng dụng nào sau đây KHÔNG phải của hiện tượng cộng hưởng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hộp cộng hưởng của đàn ghita." },
+        { "id": "B", "text": "Hệ thống giảm xóc ô tô." },
+        { "id": "C", "text": "Lò vi sóng." },
+        { "id": "D", "text": "Máy thu thanh (Radio)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giảm xóc ứng dụng dao động tắt dần, mục đích là *tránh* rung lắc, ngược lại với cộng hưởng."
+    }
+  ]
+}

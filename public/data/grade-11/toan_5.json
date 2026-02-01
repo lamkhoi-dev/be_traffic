@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Bài 5: Cấp số cộng",
+    "description": "Kiểm tra kiến thức về định nghĩa, công thức số hạng tổng quát, tính chất và công thức tính tổng n số hạng đầu của cấp số cộng.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây là một cấp số cộng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1; 3; 6; 10; 15" },
+        { "id": "B", "text": "1; 3; 5; 7; 9" },
+        { "id": "C", "text": "1; 2; 4; 8; 16" },
+        { "id": "D", "text": "1; -1; 1; -1; 1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dãy B có hiệu hai số hạng liên tiếp không đổi (công sai $d=2$)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cho cấp số cộng $(u_n)$ có $u_1 = -3$ và công sai $d = 2$. Số hạng tổng quát của dãy là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$u_n = 2n - 3$" },
+        { "id": "B", "text": "$u_n = 2n - 5$" },
+        { "id": "C", "text": "$u_n = 3n - 2$" },
+        { "id": "D", "text": "$u_n = -3n + 2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$u_n = u_1 + (n-1)d = -3 + (n-1)2 = 2n - 5$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tìm công sai $d$ của cấp số cộng có $u_1 = 2$ và $u_4 = 11$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "9" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_4 = u_1 + 3d \\Rightarrow 11 = 2 + 3d \\Rightarrow 3d = 9 \\Rightarrow d = 3$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Công thức tính tổng $n$ số hạng đầu của cấp số cộng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$S_n = \\frac{n}{2}(u_1 + u_n)$" },
+        { "id": "B", "text": "$S_n = n(u_1 + u_n)$" },
+        { "id": "C", "text": "$S_n = \\frac{n}{2}(u_1 - u_n)$" },
+        { "id": "D", "text": "$S_n = \\frac{n}{2}(u_1 + u_{n-1})$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức chuẩn: $S_n = \\frac{n(u_1 + u_n)}{2}$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cho cấp số cộng có $u_1 = 5$ và $d = -2$. Tính tổng 10 số hạng đầu tiên.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "-40" },
+        { "id": "B", "text": "-30" },
+        { "id": "C", "text": "-50" },
+        { "id": "D", "text": "40" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_{10} = \\frac{10[2(5) + 9(-2)]}{2} = 5(10 - 18) = 5(-8) = -40$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ba số $x; 5; 3x$ lập thành một cấp số cộng. Giá trị của $x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "2,5" },
+        { "id": "D", "text": "5" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tính chất trung bình cộng: $x + 3x = 2(5) \\Rightarrow 4x = 10 \\Rightarrow x = 2,5$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Số hạng thứ 20 của cấp số cộng 2, 7, 12, 17... là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "97" },
+        { "id": "B", "text": "102" },
+        { "id": "C", "text": "92" },
+        { "id": "D", "text": "87" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 2, d = 5$. $u_{20} = 2 + 19(5) = 2 + 95 = 97$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cho dãy số $(u_n)$ xác định bởi $u_n = 3n + 1$. Khẳng định nào đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Là cấp số cộng với $d=3$." },
+        { "id": "B", "text": "Là cấp số cộng với $d=1$." },
+        { "id": "C", "text": "Là cấp số nhân." },
+        { "id": "D", "text": "Không phải cấp số cộng." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_{n+1} - u_n = [3(n+1)+1] - (3n+1) = 3$. Hiệu không đổi nên là CSC với $d=3$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tìm $x$ để 3 số $10-3x; 2x^2+3; 7-4x$ theo thứ tự lập thành cấp số cộng.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 1$ hoặc $x = \\frac{11}{4}$" },
+        { "id": "B", "text": "$x = -1$ hoặc $x = \\frac{11}{4}$" },
+        { "id": "C", "text": "$x = 1$ hoặc $x = -\\frac{11}{4}$" },
+        { "id": "D", "text": "$x = 0$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$(10-3x) + (7-4x) = 2(2x^2+3) \\Rightarrow 17 - 7x = 4x^2 + 6 \\Rightarrow 4x^2 + 7x - 11 = 0$. Nghiệm $x=1$ hoặc $x=-11/4$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Biết $S_n = 2n^2 + 3n$. Tìm số hạng $u_5$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "65" },
+        { "id": "B", "text": "44" },
+        { "id": "C", "text": "21" },
+        { "id": "D", "text": "25" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$u_5 = S_5 - S_4$. $S_5 = 2(25)+15 = 65$. $S_4 = 2(16)+12 = 44$. $u_5 = 65 - 44 = 21$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một rạp hát có hàng ghế đầu 20 chỗ, mỗi hàng sau thêm 2 chỗ. Hàng thứ 15 có bao nhiêu chỗ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "48" },
+        { "id": "B", "text": "50" },
+        { "id": "C", "text": "46" },
+        { "id": "D", "text": "52" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 20, d = 2$. $u_{15} = 20 + 14(2) = 20 + 28 = 48$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cho CSC có $u_1=1, u_n=29, S_n=150$. Tìm $n$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "15" },
+        { "id": "C", "text": "20" },
+        { "id": "D", "text": "12" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_n = \\frac{n(1+29)}{2} = 150 \\Rightarrow 15n = 150 \\Rightarrow n = 10$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tính tổng $S = 1 + 5 + 9 + ... + 401$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20301" },
+        { "id": "B", "text": "20200" },
+        { "id": "C", "text": "20000" },
+        { "id": "D", "text": "40200" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1=1, d=4$. Tìm n: $401 = 1 + (n-1)4 \\Rightarrow 400 = 4(n-1) \\Rightarrow n=101$. $S = \\frac{101(1+401)}{2} = 101 \\cdot 201 = 20301$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cho CSC $(u_n)$ thỏa mãn $\\begin{cases} u_2 - u_3 + u_5 = 10 \\\\ u_4 + u_6 = 26 \\end{cases}$. Tìm $u_1, d$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$u_1=1, d=3$" },
+        { "id": "B", "text": "$u_1=3, d=1$" },
+        { "id": "C", "text": "$u_1=2, d=4$" },
+        { "id": "D", "text": "$u_1=-1, d=3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giải hệ: $(u_1+d) - (u_1+2d) + (u_1+4d) = 10 \\Rightarrow u_1 + 3d = 10$. Và $(u_1+3d) + (u_1+5d) = 26 \\Rightarrow 2u_1 + 8d = 26$. Giải hệ tìm được $u_1=1, d=3$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nếu cấp số cộng có công sai $d=0$ thì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dãy số tăng." },
+        { "id": "B", "text": "Dãy số giảm." },
+        { "id": "C", "text": "Dãy số không đổi." },
+        { "id": "D", "text": "Dãy số đan dấu." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$u_{n+1} = u_n + 0$, các số hạng bằng nhau."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Ba góc của một tam giác vuông lập thành cấp số cộng. Số đo ba góc đó là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$30^\\circ, 60^\\circ, 90^\\circ$" },
+        { "id": "B", "text": "$20^\\circ, 70^\\circ, 90^\\circ$" },
+        { "id": "C", "text": "$45^\\circ, 45^\\circ, 90^\\circ$" },
+        { "id": "D", "text": "$15^\\circ, 75^\\circ, 90^\\circ$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi 3 góc là $a-d, a, a+d$. Tổng $3a = 180 \\Rightarrow a = 60^\\circ$. Góc lớn nhất $a+d=90 \\Rightarrow d=30$. Vậy 30, 60, 90."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tìm $n$ biết tổng $n$ số tự nhiên lẻ đầu tiên bằng 225.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "15" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "14" },
+        { "id": "D", "text": "20" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dãy lẻ: 1, 3, 5... có $u_1=1, d=2$. $S_n = \\frac{n[2 + (n-1)2]}{2} = n^2$. $n^2 = 225 \\Rightarrow n=15$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho cấp số cộng có $u_5 = 18, u_{10} = 38$. Tìm $u_{15}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "58" },
+        { "id": "B", "text": "62" },
+        { "id": "C", "text": "54" },
+        { "id": "D", "text": "60" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_{10} = u_5 + 5d \\Rightarrow 38 = 18 + 5d \\Rightarrow d=4$. $u_{15} = u_{10} + 5d = 38 + 20 = 58$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Phương trình $1 + 4 + 7 + ... + x = 117$ có nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "22" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "28" },
+        { "id": "D", "text": "31" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x = u_n = 1 + (n-1)3 = 3n-2$. $S_n = \\frac{n(1 + 3n-2)}{2} = \\frac{3n^2-n}{2} = 117 \\Rightarrow 3n^2-n-234=0 \\Rightarrow n=9$. $x = u_9 = 1 + 8(3) = 25$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Giữa các số -2 và 22, ta chèn thêm 5 số để được một cấp số cộng. Số thứ 3 trong dãy mới (sau -2) là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dãy mới có 7 số hạng ($u_1=-2, u_7=22$). $u_7 = u_1 + 6d \\Rightarrow 22 = -2 + 6d \\Rightarrow d=4$. Số thứ 3 là $u_3 = -2 + 2(4) = 6$."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 1: Mệnh đề và Tập hợp",
+    "description": "Kiểm tra kiến thức cơ bản về Mệnh đề toán học, các phép toán trên Tập hợp và các tập hợp số.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Câu nào sau đây là một mệnh đề toán học?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hôm nay trời đẹp quá!" },
+        { "id": "B", "text": "Bạn có thích học Toán không?" },
+        { "id": "C", "text": "$3 + 5 = 10$" },
+        { "id": "D", "text": "Hãy làm bài tập về nhà đi." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mệnh đề toán học là câu khẳng định đúng hoặc sai. Câu C là mệnh đề sai. Các câu còn lại là câu cảm thán, nghi vấn, mệnh lệnh."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mệnh đề phủ định của mệnh đề $P: \"\\forall x \\in \\mathbb{R}, x^2 + 1 > 0\"$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0$" },
+        { "id": "B", "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 \\le 0$" },
+        { "id": "C", "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 < 0$" },
+        { "id": "D", "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 > 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phủ định của $\\forall$ là $\\exists$, phủ định của $>$ là $\\le$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} | x < 5\\}$. Tập hợp A được viết dưới dạng liệt kê là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$A = \\{1; 2; 3; 4; 5\\}$" },
+        { "id": "B", "text": "$A = \\{0; 1; 2; 3; 4\\}$" },
+        { "id": "C", "text": "$A = \\{1; 2; 3; 4\\}$" },
+        { "id": "D", "text": "$A = \\{0; 1; 2; 3; 4; 5\\}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số tự nhiên nhỏ hơn 5 bao gồm 0, 1, 2, 3, 4."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cho hai tập hợp $A = \\{1; 3; 5; 7\\}$ và $B = \\{1; 2; 3; 6\\}$. Tập hợp $A \\cap B$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\{1; 3\\}$" },
+        { "id": "B", "text": "$\\{1; 2; 3; 5; 6; 7\\}$" },
+        { "id": "C", "text": "$\\{5; 7\\}$" },
+        { "id": "D", "text": "$\\{2; 6\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giao của hai tập hợp là lấy phần tử chung: 1 và 3."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cho tập hợp $X = \\{a; b; c\\}$. Số tập con của X là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "7" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số tập con là $2^n = 2^3 = 8$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cho hai khoảng $A = (-2; 3)$ và $B = [1; 5]$. Tập hợp $A \\cup B$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(-2; 5]$" },
+        { "id": "B", "text": "$[1; 3)$" },
+        { "id": "C", "text": "$(-2; 1)$" },
+        { "id": "D", "text": "$(-2; 5)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hợp của hai tập hợp lấy từ điểm đầu của A đến điểm cuối của B (vì chúng giao nhau): $(-2; 5]$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phần bù của tập hợp $\\mathbb{Q}$ trong tập hợp $\\mathbb{R}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\mathbb{N}$" },
+        { "id": "B", "text": "$\\mathbb{Z}$" },
+        { "id": "C", "text": "$\\mathbb{I}$ (tập số vô tỉ)" },
+        { "id": "D", "text": "$\\varnothing$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$C_{\\mathbb{R}}\\mathbb{Q} = \\mathbb{R} \\setminus \\mathbb{Q} = \\mathbb{I}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong các mệnh đề sau, mệnh đề nào đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tam giác đều là tam giác có ba góc bằng nhau" },
+        { "id": "B", "text": "Hình thoi là hình vuông" },
+        { "id": "C", "text": "Mọi số nguyên tố đều là số lẻ" },
+        { "id": "D", "text": "$x^2 > x$ với mọi số thực x" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "A đúng. C sai vì số 2 là số nguyên tố chẵn. D sai với $x=0,5$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho $A = (-\\infty; 2]$ và $B = (2; +\\infty)$. Tập hợp $A \\cap B$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\mathbb{R}$" },
+        { "id": "B", "text": "$\\varnothing$" },
+        { "id": "C", "text": "$\\{2\\}$" },
+        { "id": "D", "text": "$(2; 2)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Một tập lấy đến 2 (có số 2), tập kia lấy lớn hơn 2 (không có số 2). Giao nhau bằng rỗng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Lớp 10A có 45 học sinh. Trong đó có 20 em thích bóng đá, 15 em thích cầu lông, 5 em thích cả hai môn. Hỏi có bao nhiêu em không thích môn nào trong hai môn trên?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "15" },
+        { "id": "C", "text": "25" },
+        { "id": "D", "text": "5" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số em thích ít nhất 1 môn là: $n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 20 + 15 - 5 = 30$. Số em không thích môn nào: $45 - 30 = 15$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho tập hợp $M = \\{x \\in \\mathbb{R} | x^2 - 4x + 3 = 0\\}$. Tập M viết dưới dạng liệt kê là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$M = \\{1; 3\\}$" },
+        { "id": "B", "text": "$M = \\{-1; -3\\}$" },
+        { "id": "C", "text": "$M = \\{1; -3\\}$" },
+        { "id": "D", "text": "$M = \\{-1; 3\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giải phương trình $x^2 - 4x + 3 = 0 \\Rightarrow x = 1$ hoặc $x = 3$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Mệnh đề $P \\Rightarrow Q$ sai khi nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "P đúng và Q đúng" },
+        { "id": "B", "text": "P sai và Q đúng" },
+        { "id": "C", "text": "P đúng và Q sai" },
+        { "id": "D", "text": "P sai và Q sai" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mệnh đề kéo theo chỉ sai khi Giả thiết đúng mà Kết luận sai."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho $A = [-3; 7]$. Tập hợp $C_{\\mathbb{R}}A$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(-\\infty; -3) \\cup (7; +\\infty)$" },
+        { "id": "B", "text": "$(-\\infty; -3] \\cup [7; +\\infty)$" },
+        { "id": "C", "text": "$(-3; 7)$" },
+        { "id": "D", "text": "$\\mathbb{R}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phần bù của đoạn là hợp của hai khoảng vô cùng."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cách viết nào sau đây là đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\{a\\} \\in \\{a; b\\}$" },
+        { "id": "B", "text": "$a \\subset \\{a; b\\}$" },
+        { "id": "C", "text": "$\\{a\\} \\subset \\{a; b\\}$" },
+        { "id": "D", "text": "$a \\in [a; b]$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tập hợp con phải dùng ký hiệu $\\subset$. Phần tử thuộc tập hợp dùng $\\in$. Đáp án C là quan hệ giữa 2 tập hợp."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Phủ định của mệnh đề \"Có ít nhất một số tự nhiên là số chẵn\" là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mọi số tự nhiên đều là số lẻ" },
+        { "id": "B", "text": "Mọi số tự nhiên đều là số chẵn" },
+        { "id": "C", "text": "Có ít nhất một số tự nhiên là số lẻ" },
+        { "id": "D", "text": "Không có số tự nhiên nào là số lẻ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phủ định của 'tồn tại số chẵn' là 'tất cả đều không chẵn' (tức là lẻ)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho $A = \\{x \\in \\mathbb{R} | |x| \\le 3\\}$. Tập A là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$[0; 3]$" },
+        { "id": "B", "text": "$[-3; 3]$" },
+        { "id": "C", "text": "$(-\\infty; 3]$" },
+        { "id": "D", "text": "$(-3; 3)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$|x| \\le 3 \\Leftrightarrow -3 \\le x \\le 3$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tập hợp nào sau đây là tập rỗng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\{x \\in \\mathbb{R} | x^2 + 1 = 0\\}$" },
+        { "id": "B", "text": "$\\{x \\in \\mathbb{R} | x^2 - 1 = 0\\}$" },
+        { "id": "C", "text": "$\\{x \\in \\mathbb{Q} | 2x - 1 = 0\\}$" },
+        { "id": "D", "text": "$\\{0\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x^2 + 1 = 0$ vô nghiệm thực."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Số phần tử của tập hợp $A = \\{k^2 + 1 | k \\in \\mathbb{Z}, |k| \\le 2\\}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$k \\in \\{-2; -1; 0; 1; 2\\}$. Tính giá trị: $k=0 \\to 1$; $k=\\pm 1 \\to 2$; $k=\\pm 2 \\to 5$. Tập A = $\\{1; 2; 5\\}$. Có 3 phần tử."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Điều kiện cần và đủ để $A \\subset B$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\forall x, x \\in B \\Rightarrow x \\in A$" },
+        { "id": "B", "text": "$\\forall x, x \\in A \\Rightarrow x \\in B$" },
+        { "id": "C", "text": "$A \\cap B = B$" },
+        { "id": "D", "text": "$A \\cup B = A$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa tập con."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cho $A = [m; m+2]$ và $B = [1; 3]$. Tìm m để $A \\cap B = \\varnothing$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m < -1$ hoặc $m > 3$" },
+        { "id": "B", "text": "$m \\le -1$ hoặc $m \\ge 3$" },
+        { "id": "C", "text": "$m < -1$ hoặc $m > 1$" },
+        { "id": "D", "text": "$m > 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Để giao bằng rỗng thì A nằm hẳn bên trái hoặc bên phải B. $m+2 < 1 \\Rightarrow m < -1$ hoặc $m > 3$."
+    }
+  ]
+}

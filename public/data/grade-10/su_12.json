@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trong Y học, Trung Hoa nổi tiếng với phương pháp chữa bệnh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Châm cứu và bấm huyệt."
+        },
+        {
+          "id": "B",
+          "text": "Phẫu thuật tim."
+        },
+        {
+          "id": "C",
+          "text": "Ghép tạng."
+        },
+        {
+          "id": "D",
+          "text": "Dùng tia X."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông y Trung Quốc đặc sắc với châm cứu, bắt mạch, thảo dược."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thơ Đường đạt đến đỉnh cao với các tác giả tiêu biểu nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ngô Thừa Ân, Thi Nại Am."
+        },
+        {
+          "id": "B",
+          "text": "Lý Bạch, Đỗ Phủ, Bạch Cư Dị."
+        },
+        {
+          "id": "C",
+          "text": "Tào Tuyết Cần, La Quán Trung."
+        },
+        {
+          "id": "D",
+          "text": "Lỗ Tấn, Mạc Ngôn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lý Bạch (Tiên thơ) và Đỗ Phủ (Thánh thơ) là đại diện tiêu biểu nhất."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Ý nào KHÔNG phải là chức năng của Sử học?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khoa học."
+        },
+        {
+          "id": "B",
+          "text": "Xã hội."
+        },
+        {
+          "id": "C",
+          "text": "Giáo dục."
+        },
+        {
+          "id": "D",
+          "text": "Kinh doanh."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Kinh doanh không phải là chức năng cơ bản của khoa học lịch sử."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tri thức lịch sử hỗ trợ lĩnh vực nào trong việc xây dựng thương hiệu quốc gia?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nghiệp nặng."
+        },
+        {
+          "id": "B",
+          "text": "Nông nghiệp."
+        },
+        {
+          "id": "C",
+          "text": "Công nghiệp văn hóa."
+        },
+        {
+          "id": "D",
+          "text": "Y tế."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công nghiệp văn hóa sử dụng chất liệu lịch sử để tạo ra sản phẩm mang bản sắc."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mối quan hệ giữa Sử học và các ngành khoa học xã hội nhân văn là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "đối kháng, bài trừ lẫn nhau."
+        },
+        {
+          "id": "B",
+          "text": "quan hệ tương tác, hỗ trợ hai chiều."
+        },
+        {
+          "id": "C",
+          "text": "Sử học phụ thuộc hoàn toàn vào các ngành khác."
+        },
+        {
+          "id": "D",
+          "text": "Các ngành khác phụ thuộc hoàn toàn vào Sử học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp bối cảnh cho các ngành khác, ngược lại các ngành khác cung cấp tư liệu, phương pháp cho Sử học."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Nhà văn Đan-tê (Dante) được mệnh danh là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Người cuối cùng của đêm trường Trung cổ và người đầu tiên của thời Phục hưng."
+        },
+        {
+          "id": "B",
+          "text": "Ông vua của hài kịch."
+        },
+        {
+          "id": "C",
+          "text": "Cha đẻ của tiểu thuyết hiện đại."
+        },
+        {
+          "id": "D",
+          "text": "Nhà thơ của tình yêu."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với tác phẩm 'Thần khúc', Dante là người mở đầu cho văn học Phục hưng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc nào được coi là biểu tượng của tình yêu và là niềm tự hào của Ấn Độ?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chùa Hang A-jan-ta."
+        },
+        {
+          "id": "B",
+          "text": "Lăng Ta-giơ Ma-han (Taj Mahal)."
+        },
+        {
+          "id": "C",
+          "text": "Đại bảo tháp San-chi."
+        },
+        {
+          "id": "D",
+          "text": "Cố cung."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lăng Taj Mahal được vua Shah Jahan xây dựng để tưởng nhớ hoàng hậu của mình."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Ảnh hưởng của văn minh Trung Hoa đối với Việt Nam thể hiện rõ nhất ở lĩnh vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo, chữ viết, tổ chức nhà nước."
+        },
+        {
+          "id": "B",
+          "text": "Trang phục phương Tây."
+        },
+        {
+          "id": "C",
+          "text": "Ngôn ngữ Latinh."
+        },
+        {
+          "id": "D",
+          "text": "Kiến trúc Gothic."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việt Nam chịu ảnh hưởng sâu sắc của Nho giáo, chữ Hán và mô hình nhà nước phong kiến."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Người đứng đầu nhà nước Ai Cập cổ đại được gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiên tử."
+        },
+        {
+          "id": "B",
+          "text": "En-xi."
+        },
+        {
+          "id": "C",
+          "text": "Pharaong (Pharaoh)."
+        },
+        {
+          "id": "D",
+          "text": "Hoàng đế."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pharaoh là vua của Ai Cập, được coi là con của thần Ra."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Di sản văn hóa phi vật thể (như Dân ca) là đối tượng nghiên cứu của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Văn hóa học, Âm nhạc học và Sử học."
+        },
+        {
+          "id": "B",
+          "text": "chỉ riêng Sử học."
+        },
+        {
+          "id": "C",
+          "text": "Toán học."
+        },
+        {
+          "id": "D",
+          "text": "Vật lý."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần tiếp cận liên ngành để hiểu đầy đủ giá trị của di sản."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Nô-ben (Nobel) là người phát minh ra cái gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thuốc nổ (Đinamit)."
+        },
+        {
+          "id": "B",
+          "text": "Máy chụp ảnh."
+        },
+        {
+          "id": "C",
+          "text": "Tia X."
+        },
+        {
+          "id": "D",
+          "text": "Sóng vô tuyến."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Alfred Nobel phát minh thuốc nổ an toàn, sau này dùng tài sản lập giải Nobel."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đại hội thể thao Ô-lim-pic (Olympic) bắt nguồn từ quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "La Mã."
+        },
+        {
+          "id": "B",
+          "text": "Hy Lạp."
+        },
+        {
+          "id": "C",
+          "text": "Ai Cập."
+        },
+        {
+          "id": "D",
+          "text": "Trung Quốc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Olympic ra đời tại đền thờ thần Zeus ở Olympia, Hy Lạp."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Triết học Hy Lạp cổ đại chia thành hai trường phái chính là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Duy vật và Duy tâm."
+        },
+        {
+          "id": "B",
+          "text": "Phật giáo và Đạo giáo."
+        },
+        {
+          "id": "C",
+          "text": "Nho gia và Pháp gia."
+        },
+        {
+          "id": "D",
+          "text": "Thiên văn và Địa lý."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự đấu tranh giữa chủ nghĩa duy vật và duy tâm rất gay gắt ở Hy Lạp."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phát minh máy bay (năm 1903) là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh em nhà Mon-gôn-fi-ê."
+        },
+        {
+          "id": "B",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "C",
+          "text": "E-đi-xơn."
+        },
+        {
+          "id": "D",
+          "text": "Nô-ben."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh em nhà Wright thực hiện chuyến bay lịch sử đầu tiên."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất về mặt xã hội của CMCN 4.0 là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiếu lương thực."
+        },
+        {
+          "id": "B",
+          "text": "Nguy cơ thất nghiệp cho lao động trình độ thấp và vấn đề bảo mật."
+        },
+        {
+          "id": "C",
+          "text": "Dư thừa năng lượng."
+        },
+        {
+          "id": "D",
+          "text": "Không có điện thoại để dùng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy móc, AI thay thế con người trong nhiều công việc lặp lại."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ hai diễn ra vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuối thế kỷ XVIII - đầu thế kỷ XIX."
+        },
+        {
+          "id": "B",
+          "text": "Nửa sau thế kỷ XIX - đầu thế kỷ XX."
+        },
+        {
+          "id": "C",
+          "text": "Giữa thế kỷ XX."
+        },
+        {
+          "id": "D",
+          "text": "Đầu thế kỷ XXI."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CMCN lần 2 gắn liền với điện và động cơ đốt trong."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Phong trào Văn hóa Phục hưng khởi đầu tại quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh."
+        },
+        {
+          "id": "B",
+          "text": "Pháp."
+        },
+        {
+          "id": "C",
+          "text": "I-ta-li-a (Ý)."
+        },
+        {
+          "id": "D",
+          "text": "Đức."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Các thành thị Ý giàu có là nơi khởi nguồn của Phục hưng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Câu nói 'Lịch sử là thầy dạy của cuộc sống' (Cicero) nhấn mạnh điều gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch sử rất khó học."
+        },
+        {
+          "id": "B",
+          "text": "Vai trò, ý nghĩa to lớn của tri thức lịch sử."
+        },
+        {
+          "id": "C",
+          "text": "Lịch sử chỉ dành cho giáo viên."
+        },
+        {
+          "id": "D",
+          "text": "Lịch sử không liên quan đến hiện tại."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lịch sử cung cấp bài học kinh nghiệm quý báu cho hiện tại và tương lai."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tiểu thuyết 'Tam quốc diễn nghĩa' là tác phẩm của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "La Quán Trung."
+        },
+        {
+          "id": "B",
+          "text": "Thi Nại Am."
+        },
+        {
+          "id": "C",
+          "text": "Ngô Thừa Ân."
+        },
+        {
+          "id": "D",
+          "text": "Tào Tuyết Cần."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Một trong Tứ đại danh tác của văn học Minh - Thanh."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự ra đời của máy hơi nước đã dẫn đến sự ra đời của phương tiện giao thông nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xe đạp."
+        },
+        {
+          "id": "B",
+          "text": "Tàu hỏa (đầu máy xe lửa) và Tàu thủy chạy bằng hơi nước."
+        },
+        {
+          "id": "C",
+          "text": "Máy bay."
+        },
+        {
+          "id": "D",
+          "text": "Xe buýt điện."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Stephenson chế tạo đầu máy xe lửa, Fulton chế tạo tàu thủy."
+    }
+  ]
+}

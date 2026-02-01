@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 4: Khái niệm Văn minh và Văn minh Ai Cập",
+    "description": "Kiểm tra kiến thức về khái niệm Văn hóa - Văn minh và các thành tựu tiêu biểu của văn minh Ai Cập cổ đại.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Văn minh là trạng thái tiến bộ về",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vật chất và tinh thần của xã hội loài người." },
+        { "id": "B", "text": "chỉ riêng về kinh tế." },
+        { "id": "C", "text": "chỉ riêng về kỹ thuật." },
+        { "id": "D", "text": "sức mạnh quân sự." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Văn minh là sự kết hợp tiến bộ cả về vật chất (đô thị, nhà nước...) và tinh thần."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Điểm khác biệt cơ bản giữa Văn hóa và Văn minh là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Văn hóa ra đời cùng loài người, Văn minh ra đời khi có nhà nước." },
+        { "id": "B", "text": "Văn hóa chỉ là tinh thần, Văn minh chỉ là vật chất." },
+        { "id": "C", "text": "Văn hóa là phương Tây, Văn minh là phương Đông." },
+        { "id": "D", "text": "Không có gì khác biệt." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Văn hóa có bề dày lịch sử lâu đời hơn, gắn với sự xuất hiện của con người. Văn minh xuất hiện ở giai đoạn phát triển cao (có nhà nước, chữ viết)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nền văn minh Ai Cập cổ đại hình thành trên lưu vực con sông nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sông Ấn." },
+        { "id": "B", "text": "Sông Hằng." },
+        { "id": "C", "text": "Sông Nin (Nile)." },
+        { "id": "D", "text": "Sông Ơ-phrát." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ai Cập là 'tặng phẩm của sông Nin'."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Người đứng đầu nhà nước Ai Cập cổ đại được gọi là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thiên tử." },
+        { "id": "B", "text": "En-xi." },
+        { "id": "C", "text": "Pharaong (Pharaoh)." },
+        { "id": "D", "text": "Hoàng đế." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pharaoh là vua của Ai Cập, được coi là con của thần Ra."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chữ viết của người Ai Cập cổ đại là loại chữ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chữ cái Latinh." },
+        { "id": "B", "text": "Chữ tượng hình." },
+        { "id": "C", "text": "Chữ Hán." },
+        { "id": "D", "text": "Chữ Phạn." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người Ai Cập dùng hình vẽ để biểu thị sự vật, ý niệm (Tượng hình)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Vật liệu viết chủ yếu của người Ai Cập cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giấy làm từ cây Papyrus." },
+        { "id": "B", "text": "Mai rùa, xương thú." },
+        { "id": "C", "text": "Thẻ tre." },
+        { "id": "D", "text": "Đất sét nung." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giấy Papyrus là đặc trưng của Ai Cập."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc tiêu biểu nhất của Ai Cập cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vạn Lý Trường Thành." },
+        { "id": "B", "text": "Đấu trường La Mã." },
+        { "id": "C", "text": "Kim tự tháp." },
+        { "id": "D", "text": "Vườn treo Ba-bi-lon." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Kim tự tháp là lăng mộ của các Pharaoh."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Người Ai Cập cổ đại rất giỏi về lĩnh vực khoa học nào nhờ việc đo đạc ruộng đất và xây dựng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Toán học (Hình học)." },
+        { "id": "B", "text": "Triết học." },
+        { "id": "C", "text": "Văn học." },
+        { "id": "D", "text": "Lịch sử." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhu cầu đo lại ruộng sau lũ và xây Kim tự tháp thúc đẩy Hình học phát triển."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tục ướp xác của người Ai Cập thể hiện niềm tin vào",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cuộc sống vĩnh hằng ở thế giới bên kia." },
+        { "id": "B", "text": "sự luân hồi chuyển kiếp." },
+        { "id": "C", "text": "việc con người sẽ sống lại ngay lập tức." },
+        { "id": "D", "text": "sự trừng phạt của thần linh." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ tin linh hồn (Ka) cần thể xác nguyên vẹn để trú ngụ ở thế giới bên kia."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Nhà nước Ai Cập cổ đại thống nhất vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khoảng năm 3200 TCN." },
+        { "id": "B", "text": "Năm 179 TCN." },
+        { "id": "C", "text": "Thế kỷ I." },
+        { "id": "D", "text": "Năm 476." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vua Menes (Narmer) thống nhất Thượng và Hạ Ai Cập khoảng 3200 TCN."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Thành tựu Y học nổi bật của người Ai Cập là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "kỹ thuật phẫu thuật và giải phẫu (thông qua ướp xác)." },
+        { "id": "B", "text": "châm cứu." },
+        { "id": "C", "text": "thuốc nam." },
+        { "id": "D", "text": "vắc-xin." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quá trình ướp xác giúp họ hiểu rõ cấu tạo cơ thể người."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Ai Cập cổ đại nằm ở khu vực nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đông Bắc Châu Phi." },
+        { "id": "B", "text": "Đông Nam Á." },
+        { "id": "C", "text": "Tây Âu." },
+        { "id": "D", "text": "Nam Mỹ." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vị trí địa lý của Ai Cập."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tầng lớp đông đảo nhất và là lực lượng sản xuất chính ở Ai Cập cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân công xã." },
+        { "id": "B", "text": "Nô lệ." },
+        { "id": "C", "text": "Thương nhân." },
+        { "id": "D", "text": "Quý tộc." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nông dân chiếm đa số, canh tác trên đất của công xã/nhà vua."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hệ đếm của người Ai Cập cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hệ thập phân." },
+        { "id": "B", "text": "Hệ nhị phân." },
+        { "id": "C", "text": "Hệ 60 (lục thập phân)." },
+        { "id": "D", "text": "Hệ đếm La Mã." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Người Ai Cập rất giỏi số học, dùng hệ đếm cơ số 10."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thần Mặt Trời - vị thần tối cao của Ai Cập cổ đại tên là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Zeus." },
+        { "id": "B", "text": "Ra (hoặc Amun-Ra)." },
+        { "id": "C", "text": "Osiris." },
+        { "id": "D", "text": "Poseidon." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần Ra là thần Mặt Trời."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Ý nghĩa quan trọng nhất của sông Nin đối với Ai Cập là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cung cấp nước tưới và phù sa màu mỡ." },
+        { "id": "B", "text": "là tuyến đường giao thông duy nhất." },
+        { "id": "C", "text": "tạo cảnh quan du lịch." },
+        { "id": "D", "text": "ngăn chặn quân xâm lược." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nông nghiệp Ai Cập phụ thuộc hoàn toàn vào sông Nin."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tiêu chuẩn nào KHÔNG phải là dấu hiệu nhận biết văn minh?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có nhà nước." },
+        { "id": "B", "text": "Có chữ viết." },
+        { "id": "C", "text": "Có đô thị." },
+        { "id": "D", "text": "Sống trong hang động, hái lượm." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sống trong hang động là thời kỳ nguyên thủy (dã man), chưa có văn minh."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tượng Nhân sư (Sphinx) có hình dáng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đầu người, mình sư tử." },
+        { "id": "B", "text": "Đầu sư tử, mình người." },
+        { "id": "C", "text": "Toàn thân sư tử." },
+        { "id": "D", "text": "Đầu chim ưng, mình người." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biểu tượng cho trí tuệ (đầu người) và sức mạnh (mình sư tử) của vua."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Người Ai Cập đã tính được số Pi (π) bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3,16." },
+        { "id": "B", "text": "3,14." },
+        { "id": "C", "text": "3,00." },
+        { "id": "D", "text": "3,5." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính xác là khoảng 3.1605 (gần đúng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tại sao các nền văn minh phương Đông (như Ai Cập) thường ra đời sớm?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Do điều kiện tự nhiên thuận lợi (lưu vực sông lớn)." },
+        { "id": "B", "text": "Do họ thông minh hơn." },
+        { "id": "C", "text": "Do có nhiều vàng bạc." },
+        { "id": "D", "text": "Do không có chiến tranh." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đất đai màu mỡ ven sông thuận lợi cho nông nghiệp phát triển sớm, dẫn đến sự ra đời nhà nước sớm."
+    }
+  ]
+}

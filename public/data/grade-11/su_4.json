@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 4: Sự phát triển của CNXH sau CTTG II",
+    "description": "Kiểm tra kiến thức về sự mở rộng của CNXH sang Đông Âu, châu Á, Mỹ Latinh và công cuộc cải cách, mở cửa.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh thế giới thứ hai, chủ nghĩa xã hội đã vượt ra khỏi phạm vi một nước và trở thành:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một hệ thống thế giới" },
+        { "id": "B", "text": "Một liên minh quân sự" },
+        { "id": "C", "text": "Một tổ chức kinh tế khu vực" },
+        { "id": "D", "text": "Một khối hiệp ước phòng thủ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với sự ra đời của các nước dân chủ nhân dân Đông Âu và thắng lợi ở châu Á, CNXH trở thành hệ thống thế giới."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thắng lợi của cuộc cách mạng nào đã nối liền hệ thống xã hội chủ nghĩa từ Âu sang Á?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng Việt Nam (1945)" },
+        { "id": "B", "text": "Cách mạng Trung Quốc (1949)" },
+        { "id": "C", "text": "Cách mạng Cu-ba (1959)" },
+        { "id": "D", "text": "Cách mạng Lào (1975)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời (1949) có ý nghĩa nối liền hệ thống XHCN."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Quốc gia nào được coi là \"ngọn cờ đầu\" của phong trào giải phóng dân tộc và chủ nghĩa xã hội ở Tây Bán cầu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vê-nê-xu-ê-la" },
+        { "id": "B", "text": "Mê-hi-cô" },
+        { "id": "C", "text": "Cu-ba" },
+        { "id": "D", "text": "Bra-zin" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau cách mạng 1959, Cu-ba tuyên bố đi lên CNXH (1961), là nước XHCN đầu tiên ở Mỹ Latinh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự sụp đổ của chế độ xã hội chủ nghĩa ở Liên Xô và Đông Âu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bức tường Béc-lin sụp đổ (1989)" },
+        { "id": "B", "text": "Liên Xô tan rã (1991)" },
+        { "id": "C", "text": "Khủng hoảng dầu mỏ (1973)" },
+        { "id": "D", "text": "Mỹ rút quân khỏi Việt Nam (1973)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1991, sự tan rã của Liên Xô đánh dấu sự sụp đổ của mô hình CNXH hiện thực tại đây."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan dẫn đến sự sụp đổ của chủ nghĩa xã hội ở Liên Xô và Đông Âu là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự chống phá của các thế lực thù địch" },
+        { "id": "B", "text": "Đường lối lãnh đạo mang tính chủ quan, duy ý chí, chậm đổi mới" },
+        { "id": "C", "text": "Sự lạc hậu của khoa học kỹ thuật" },
+        { "id": "D", "text": "Thiếu tài nguyên thiên nhiên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai lầm trong đường lối lãnh đạo và sự quan liêu bao cấp là nguyên nhân sâu xa, chủ quan."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trung Quốc bắt đầu thực hiện công cuộc cải cách mở cửa vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1949" },
+        { "id": "B", "text": "1956" },
+        { "id": "C", "text": "1978" },
+        { "id": "D", "text": "1986" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 12/1978, TƯ Đảng CS Trung Quốc đề ra đường lối cải cách mở cửa."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Việt Nam bắt đầu thực hiện công cuộc Đổi mới vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1975" },
+        { "id": "B", "text": "1979" },
+        { "id": "C", "text": "1986" },
+        { "id": "D", "text": "1991" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đại hội VI (12/1986) của Đảng CSVN khởi xướng công cuộc Đổi mới."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của công cuộc cải cách ở Trung Quốc và Đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Từ bỏ hoàn toàn chủ nghĩa xã hội" },
+        { "id": "B", "text": "Xây dựng chủ nghĩa xã hội mang bản sắc/đặc sắc của mỗi nước" },
+        { "id": "C", "text": "Thực hiện đa nguyên, đa đảng về chính trị" },
+        { "id": "D", "text": "Phụ thuộc hoàn toàn vào tư bản nước ngoài" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cả hai nước đều kiên định mục tiêu XHCN nhưng đổi mới phương thức thực hiện cho phù hợp (Kinh tế thị trường định hướng XHCN/Đặc sắc TQ)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thành tựu khoa học kỹ thuật nổi bật nhất của Liên Xô năm 1957 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chế tạo thành công bom nguyên tử" },
+        { "id": "B", "text": "Phóng thành công vệ tinh nhân tạo đầu tiên" },
+        { "id": "C", "text": "Đưa con người lên Mặt Trăng" },
+        { "id": "D", "text": "Xây dựng nhà máy điện hạt nhân đầu tiên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1957, Liên Xô phóng vệ tinh Sputnik 1, mở đầu kỷ nguyên chinh phục vũ trụ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Các nước Đông Âu hoàn thành cách mạng dân chủ nhân dân và bước vào xây dựng CNXH trong khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1945 - 1949" },
+        { "id": "B", "text": "1950 - 1970" },
+        { "id": "C", "text": "1939 - 1945" },
+        { "id": "D", "text": "1970 - 1980" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giai đoạn 1945-1949 là giai đoạn củng cố chính quyền và hoàn thành nhiệm vụ dân chủ nhân dân."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tổ chức Hiệp ước Vác-sa-va (1955) là liên minh về:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kinh tế" },
+        { "id": "B", "text": "Văn hóa" },
+        { "id": "C", "text": "Chính trị và quân sự" },
+        { "id": "D", "text": "Giáo dục" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Là liên minh quân sự - chính trị của các nước XHCN để đối trọng với NATO."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hội đồng Tương trợ Kinh tế (SEV) được thành lập nhằm mục đích:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đẩy mạnh hợp tác, giúp đỡ lẫn nhau giữa các nước XHCN về kinh tế, KHKT" },
+        { "id": "B", "text": "Cạnh tranh với Cộng đồng châu Âu (EC)" },
+        { "id": "C", "text": "Viện trợ quân sự cho các nước thành viên" },
+        { "id": "D", "text": "Thống nhất tiền tệ toàn khối" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "SEV (1949) nhằm tăng cường sự hợp tác kinh tế giữa các nước XHCN."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trọng tâm của công cuộc cải cách mở cửa ở Trung Quốc (từ 1978) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cải tổ chính trị" },
+        { "id": "B", "text": "Phát triển kinh tế" },
+        { "id": "C", "text": "Tăng cường quân sự" },
+        { "id": "D", "text": "Mở rộng văn hóa" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trung Quốc lấy phát triển kinh tế làm trung tâm (khác với Liên Xô cải tổ chính trị trước)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Quốc gia nào hiện nay vẫn kiên định con đường đi lên chủ nghĩa xã hội?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nga" },
+        { "id": "B", "text": "Ba Lan" },
+        { "id": "C", "text": "Việt Nam" },
+        { "id": "D", "text": "Hung-ga-ri" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Việt Nam, Trung Quốc, Lào, Cu-ba, Triều Tiên là các nước hiện nay vẫn theo chế độ XHCN."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thành tựu lớn nhất của công cuộc Đổi mới ở Việt Nam sau hơn 35 năm là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trở thành cường quốc quân sự" },
+        { "id": "B", "text": "Kinh tế tăng trưởng khá, đời sống nhân dân được cải thiện, vị thế quốc tế nâng cao" },
+        { "id": "C", "text": "Hoàn thành công nghiệp hóa hiện đại hóa" },
+        { "id": "D", "text": "Trở thành nước phát triển" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đất nước đã ra khỏi tình trạng kém phát triển, kinh tế - xã hội thay đổi to lớn."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Bài học kinh nghiệm từ sự sụp đổ của Liên Xô đối với Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phải duy trì cơ chế bao cấp" },
+        { "id": "B", "text": "Phải kiên định vai trò lãnh đạo của Đảng Cộng sản và đổi mới toàn diện, đồng bộ" },
+        { "id": "C", "text": "Phải thực hiện đa nguyên đa đảng" },
+        { "id": "D", "text": "Phải đóng cửa, không quan hệ với các nước tư bản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự buông lỏng lãnh đạo của Đảng là một trong những nguyên nhân khiến Liên Xô sụp đổ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Năm 1961, Liên Xô đạt được thành tựu gì trong lĩnh vực chinh phục vũ trụ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phóng tàu vũ trụ đưa người bay vòng quanh Trái Đất (Ga-ga-rin)" },
+        { "id": "B", "text": "Đưa người lên Mặt Trăng" },
+        { "id": "C", "text": "Xây dựng trạm vũ trụ hòa bình" },
+        { "id": "D", "text": "Phóng vệ tinh nhân tạo đầu tiên" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Yuri Gagarin là người đầu tiên bay vào vũ trụ (1961)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mô hình kinh tế của Trung Quốc sau cải cách được gọi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kinh tế thị trường tự do" },
+        { "id": "B", "text": "Kinh tế kế hoạch hóa tập trung" },
+        { "id": "C", "text": "Kinh tế thị trường xã hội chủ nghĩa đặc sắc Trung Quốc" },
+        { "id": "D", "text": "Kinh tế tư bản nhà nước" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là tên gọi chính thức cho mô hình phát triển của Trung Quốc."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu chấm dứt chế độ phân biệt chủng tộc A-pác-thai ở Nam Phi nhưng có sự ủng hộ của các nước XHCN?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nen-xơn Man-đê-la làm Tổng thống (1994)" },
+        { "id": "B", "text": "Nam Phi độc lập" },
+        { "id": "C", "text": "Thành lập Liên minh châu Phi" },
+        { "id": "D", "text": "Cách mạng An-giê-ri thành công" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ thống XHCN luôn ủng hộ phong trào giải phóng dân tộc, bao gồm chống A-pác-thai."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ý nghĩa của sự tồn tại và phát triển của hệ thống xã hội chủ nghĩa đối với thế giới là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Là chỗ dựa cho hòa bình và phong trào cách mạng thế giới" },
+        { "id": "B", "text": "Gây ra chiến tranh lạnh" },
+        { "id": "C", "text": "Kìm hãm sự phát triển của CNTB" },
+        { "id": "D", "text": "Chia rẽ thế giới thành nhiều cực" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ thống XHCN đã ngăn chặn chiến tranh, bảo vệ hòa bình và ủng hộ các dân tộc bị áp bức."
+    }
+  ]
+}

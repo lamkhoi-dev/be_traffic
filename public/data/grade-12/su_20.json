@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Vì sao Mỹ buộc phải chấp nhận đàm phán ở Paris?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do thiện chí hòa bình của Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Do thất bại nặng nề trong cuộc Tổng tiến công Mậu Thân 1968"
+        },
+        {
+          "id": "C",
+          "text": "Do Liên Xô can thiệp"
+        },
+        {
+          "id": "D",
+          "text": "Do áp lực của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cú sốc Mậu Thân làm lung lay ý chí xâm lược của Mỹ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Âm mưu của chiến lược \"Việt Nam hóa chiến tranh\" là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dùng người Việt đánh người Việt"
+        },
+        {
+          "id": "B",
+          "text": "Dùng người Mỹ đánh người Việt"
+        },
+        {
+          "id": "C",
+          "text": "Lấy chiến tranh nuôi chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Mở rộng chiến tranh ra cả Đông Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Rút quân Mỹ, tăng cường quân đội Sài Gòn để tiếp tục chiến tranh (Thay màu da xác chết)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Khẩu hiệu \"Đả đảo chủ nghĩa đế quốc! Đả đảo phong kiến!\" thuộc phong trào nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phong trào 1930-1931"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào 1936-1939"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào 1939-1945"
+        },
+        {
+          "id": "D",
+          "text": "Phong trào Cần Vương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu chiến lược của phong trào 1930-1931."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Âm mưu cơ bản của chiến lược \"Chiến tranh đặc biệt\" (1961-1965) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dùng người Việt đánh người Việt"
+        },
+        {
+          "id": "B",
+          "text": "Dùng người Mỹ đánh người Việt"
+        },
+        {
+          "id": "C",
+          "text": "Biến miền Nam thành căn cứ quân sự khổng lồ"
+        },
+        {
+          "id": "D",
+          "text": "Đưa quân chư hầu vào tham chiến"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ dùng quân đội Sài Gòn, dưới sự chỉ huy của cố vấn Mỹ và vũ khí Mỹ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Bốn tỉnh giành chính quyền sớm nhất trong Cách mạng tháng Tám 1945 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hà Nội, Huế, Sài Gòn, Bắc Giang"
+        },
+        {
+          "id": "B",
+          "text": "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam"
+        },
+        {
+          "id": "C",
+          "text": "Hà Nội, Bắc Giang, Hải Dương, Huế"
+        },
+        {
+          "id": "D",
+          "text": "Thái Nguyên, Tuyên Quang, Hà Nội, Sài Gòn"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 18/8/1945, 4 tỉnh giành chính quyền sớm nhất cả nước."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đỉnh cao của phong trào cách mạng 1930-1931 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các cuộc bãi công của công nhân Vinh - Bến Thủy"
+        },
+        {
+          "id": "B",
+          "text": "Sự ra đời của Xô viết Nghệ - Tĩnh"
+        },
+        {
+          "id": "C",
+          "text": "Cuộc biểu tình của nông dân Hưng Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Phong trào đấu tranh nhân ngày Quốc tế Lao động 1/5"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của chính quyền Xô viết là đỉnh cao, là chính quyền của dân, do dân, vì dân."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Mặt trận Việt Minh được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "19/5/1890"
+        },
+        {
+          "id": "B",
+          "text": "19/5/1941"
+        },
+        {
+          "id": "C",
+          "text": "22/12/1944"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 19/5/1941, Mặt trận Việt Minh ra đời tại Pác Bó (Cao Bằng)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Châu Phi được mệnh danh là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lục địa già"
+        },
+        {
+          "id": "B",
+          "text": "Lục địa mới trỗi dậy"
+        },
+        {
+          "id": "C",
+          "text": "Lục địa ngủ kỹ"
+        },
+        {
+          "id": "D",
+          "text": "Lục địa bùng cháy"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thực ra thuật ngữ SGK hay dùng là 'Lục địa mới trỗi dậy' (sau khi giành độc lập) hoặc trước đó là 'Lục địa ngủ kỹ/đen'. Câu hỏi này tùy ngữ cảnh, nhưng đáp án B mang tính tích cực sau CTTG 2."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Quốc gia nào được mệnh danh là \"Lá cờ đầu\" trong phong trào giải phóng dân tộc ở Mỹ Latinh?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bra-zin"
+        },
+        {
+          "id": "B",
+          "text": "Ác-hen-ti-na"
+        },
+        {
+          "id": "C",
+          "text": "Cu-ba"
+        },
+        {
+          "id": "D",
+          "text": "Mê-hi-cô"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cách mạng Cu-ba (1959) mở đầu cho phong trào đấu tranh vũ trang ở khu vực."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "22/12/1944"
+        },
+        {
+          "id": "B",
+          "text": "15/5/1945"
+        },
+        {
+          "id": "C",
+          "text": "19/8/1945"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiền thân của Quân đội nhân dân Việt Nam, thành lập 22/12/1944."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hình thái của cuộc Cách mạng tháng Tám 1945 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa"
+        },
+        {
+          "id": "B",
+          "text": "Tổng khởi nghĩa đồng loạt trên cả nước"
+        },
+        {
+          "id": "C",
+          "text": "Đấu tranh chính trị kết hợp vũ trang"
+        },
+        {
+          "id": "D",
+          "text": "Đấu tranh ngoại giao là chủ yếu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là nét độc đáo của nghệ thuật khởi nghĩa (từ tháng 3 đến tháng 8/1945)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nước Cộng hòa Nhân dân Trung Hoa được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10/1945"
+        },
+        {
+          "id": "B",
+          "text": "10/1949"
+        },
+        {
+          "id": "C",
+          "text": "1/1950"
+        },
+        {
+          "id": "D",
+          "text": "12/1978"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 1/10/1949, Mao Trạch Đông tuyên bố thành lập nước CHND Trung Hoa."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mỹ đã sử dụng loại máy bay chiến lược nào để đánh phá Hà Nội năm 1972?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "F-4"
+        },
+        {
+          "id": "B",
+          "text": "B-52"
+        },
+        {
+          "id": "C",
+          "text": "F-111"
+        },
+        {
+          "id": "D",
+          "text": "B-2"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháo đài bay B-52."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Ý nghĩa lịch sử quan trọng nhất của việc hoàn thành thống nhất đất nước về mặt nhà nước (1976) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tạo điều kiện chính trị cơ bản để phát huy sức mạnh toàn dân tộc xây dựng và bảo vệ Tổ quốc"
+        },
+        {
+          "id": "B",
+          "text": "Được quốc tế công nhận"
+        },
+        {
+          "id": "C",
+          "text": "Tạo thuận lợi để gia nhập Liên Hợp Quốc"
+        },
+        {
+          "id": "D",
+          "text": "Nâng cao vị thế Việt Nam"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thống nhất tạo nên sức mạnh tổng hợp của cả dân tộc."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất vào năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "B",
+          "text": "Inđônêxia"
+        },
+        {
+          "id": "C",
+          "text": "Lào"
+        },
+        {
+          "id": "D",
+          "text": "Malaixia"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Inđônêxia (17/8/1945), Việt Nam (2/9/1945), Lào (12/10/1945)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế của sự thành lập nước CHND Trung Hoa là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm cho chủ nghĩa xã hội nối liền từ Âu sang Á"
+        },
+        {
+          "id": "B",
+          "text": "Đưa Trung Quốc trở thành cường quốc kinh tế số 1"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự thống trị của chế độ phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Kết thúc 100 năm nô dịch của thực dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời đã nối liền hệ thống XHCN từ châu Âu sang châu Á."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chính quyền Ngô Đình Diệm bị lật đổ vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "11/1960"
+        },
+        {
+          "id": "B",
+          "text": "1/1963"
+        },
+        {
+          "id": "C",
+          "text": "11/1963"
+        },
+        {
+          "id": "D",
+          "text": "12/1964"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc đảo chính ngày 1/11/1963 do Mỹ giật dây đã giết chết anh em Diệm - Nhu."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Xương sống của chiến lược \"Chiến tranh đặc biệt\" là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cố vấn Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Ấp chiến lược"
+        },
+        {
+          "id": "C",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "D",
+          "text": "Vũ khí hiện đại"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dồn dân lập ấp chiến lược để tách dân ra khỏi cách mạng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sau CTTG II, Nhật Bản thực hiện chính sách đối ngoại như thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Liên minh chặt chẽ với Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Độc lập, tự chủ hoàn toàn"
+        },
+        {
+          "id": "C",
+          "text": "Hợp tác với Liên Xô"
+        },
+        {
+          "id": "D",
+          "text": "Hướng về châu Á"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ký Hiệp ước an ninh Mỹ - Nhật, núp dưới bóng ô bảo trợ hạt nhân của Mỹ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lực lượng giữ vai trò quan trọng nhất trong chiến lược \"Chiến tranh cục bộ\" (1965-1968) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "B",
+          "text": "Quân Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Quân đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Cố vấn Mỹ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh cục bộ đặc trưng bởi sự tham chiến trực tiếp của quân viễn chinh Mỹ (lực lượng chủ yếu)."
+    }
+  ]
+}

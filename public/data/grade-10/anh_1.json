@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 1: Family Life",
+    "description": "Kiểm tra từ vựng về chủ đề Gia đình, phát âm và ngữ pháp thì Hiện tại đơn vs Hiện tại tiếp diễn.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "chores" },
+        { "id": "B", "text": "children" },
+        { "id": "C", "text": "kitchen" },
+        { "id": "D", "text": "chorus" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Câu D phát âm là /k/ (chorus), các từ còn lại phát âm là /tʃ/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "grocery" },
+        { "id": "B", "text": "homemaker" },
+        { "id": "C", "text": "routine" },
+        { "id": "D", "text": "laundry" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu C nhấn âm 2 (rou'tine), các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "My mother is a ________. She works at home and takes care of the house.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "breadwinner" },
+        { "id": "B", "text": "homemaker" },
+        { "id": "C", "text": "servant" },
+        { "id": "D", "text": "houseman" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Homemaker: người nội trợ. Breadwinner: trụ cột tài chính."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Look! The rain ________ heavily.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "falls" },
+        { "id": "B", "text": "fall" },
+        { "id": "C", "text": "is falling" },
+        { "id": "D", "text": "are falling" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có từ 'Look!' báo hiệu hành động đang xảy ra -> Hiện tại tiếp diễn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "My father usually ________ the heavy lifting in the house.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "do" },
+        { "id": "B", "text": "does" },
+        { "id": "C", "text": "is doing" },
+        { "id": "D", "text": "make" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'do the heavy lifting'. Có 'usually' -> Hiện tại đơn. Chủ ngữ số ít -> does."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "In my family, we ________ the household chores equally.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "split" },
+        { "id": "B", "text": "divide" },
+        { "id": "C", "text": "share" },
+        { "id": "D", "text": "All are correct" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Split/divide/share the chores đều có nghĩa chia sẻ việc nhà."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ms. Lan is not in the office. She ________ lunch with a client.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "have" },
+        { "id": "B", "text": "has" },
+        { "id": "C", "text": "is having" },
+        { "id": "D", "text": "had" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Diễn tả hành động đang xảy ra lúc nói (not in office -> đang đi ăn)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Parents should encourage their children to ________ the rubbish.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "take out" },
+        { "id": "B", "text": "put out" },
+        { "id": "C", "text": "make out" },
+        { "id": "D", "text": "get out" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Take out the rubbish: đi đổ rác."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Choose the incorrect part: 'My mother is cooking dinner every day at 6 PM.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is cooking" },
+        { "id": "B", "text": "dinner" },
+        { "id": "C", "text": "every day" },
+        { "id": "D", "text": "at" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Có 'every day' chỉ thói quen -> dùng Hiện tại đơn (cooks), không dùng tiếp diễn."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "________ is the person who earns the money for the family.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Breadwinner" },
+        { "id": "B", "text": "Homemaker" },
+        { "id": "C", "text": "Shopkeeper" },
+        { "id": "D", "text": "Assistant" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa của Breadwinner (trụ cột tài chính)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "He often ________ the washing-up after dinner.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "makes" },
+        { "id": "B", "text": "does" },
+        { "id": "C", "text": "takes" },
+        { "id": "D", "text": "washes" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Collocation: 'do the washing-up' (rửa bát)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "My sister can't answer the phone. She ________ a bath.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "takes" },
+        { "id": "B", "text": "is taking" },
+        { "id": "C", "text": "took" },
+        { "id": "D", "text": "has taken" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động đang diễn ra làm gián đoạn việc nghe điện thoại -> Hiện tại tiếp diễn."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Children should be responsible ________ their housework.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "to" },
+        { "id": "B", "text": "with" },
+        { "id": "C", "text": "for" },
+        { "id": "D", "text": "of" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc: be responsible for (chịu trách nhiệm về...)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "A ________ family consists of only parents and children.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "nuclear" },
+        { "id": "B", "text": "extended" },
+        { "id": "C", "text": "single" },
+        { "id": "D", "text": "crowded" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nuclear family: gia đình hạt nhân (2 thế hệ)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Which word has the CLOSEST meaning to 'mend'?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "break" },
+        { "id": "B", "text": "repair" },
+        { "id": "C", "text": "buy" },
+        { "id": "D", "text": "clean" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mend = Repair (sửa chữa)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "What time ________ the train ________?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "does / leave" },
+        { "id": "B", "text": "is / leaving" },
+        { "id": "C", "text": "do / leave" },
+        { "id": "D", "text": "was / left" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lịch trình tàu xe cố định dùng thì Hiện tại đơn."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Choose the word pronounced differently: 'put', 'cut', 'but', 'shut'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "put" },
+        { "id": "B", "text": "cut" },
+        { "id": "C", "text": "but" },
+        { "id": "D", "text": "shut" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Put phát âm /ʊ/ (u ngắn), các từ còn lại là /ʌ/."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Preparing meals is considered one of the most important ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "housework" },
+        { "id": "B", "text": "chores" },
+        { "id": "C", "text": "works" },
+        { "id": "D", "text": "duties" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chores (việc vặt trong nhà). Housework là danh từ không đếm được nên không dùng 'one of the...'."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "At the moment, my sister ________ to music.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "listens" },
+        { "id": "B", "text": "is listening" },
+        { "id": "C", "text": "listened" },
+        { "id": "D", "text": "has listened" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "At the moment -> Hiện tại tiếp diễn."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "We usually ________ visiting our grandparents on weekends.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "enjoy" },
+        { "id": "B", "text": "are enjoying" },
+        { "id": "C", "text": "enjoys" },
+        { "id": "D", "text": "enjoyed" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Enjoy' là động từ chỉ trạng thái/cảm xúc (stative verb), thường không dùng ở tiếp diễn. 'Usually' -> Hiện tại đơn."
+    }
+  ]
+}

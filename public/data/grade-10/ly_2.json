@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 2: Động lực học & Các định luật bảo toàn",
+    "description": "Đề ôn tập về Các định luật Newton, Lực ma sát, Lực đàn hồi, Lực hướng tâm, Công và Năng lượng.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Biểu thức của Định luật II Newton là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{F} = m\\vec{a}$" },
+        { "id": "B", "text": "$\\vec{F} = -m\\vec{a}$" },
+        { "id": "C", "text": "$\\vec{a} = \\frac{\\vec{F}}{m^2}$" },
+        { "id": "D", "text": "$F = ma^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc tỉ lệ thuận với lực tác dụng và tỉ lệ nghịch với khối lượng: $\\vec{a} = \\frac{\\vec{F}}{m} \\Rightarrow \\vec{F} = m\\vec{a}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một lò xo có độ cứng $k = 100$ N/m. Khi lò xo bị giãn một đoạn 5 cm thì lực đàn hồi của lò xo có độ lớn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "500 N" },
+        { "id": "B", "text": "5 N" },
+        { "id": "C", "text": "20 N" },
+        { "id": "D", "text": "0,05 N" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đổi 5 cm = 0,05 m. Áp dụng định luật Húc: $F_{dh} = k|\\Delta l| = 100 \\times 0,05 = 5$ N."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Động lượng của một vật khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ là đại lượng vectơ được xác định bởi công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{p} = m\\vec{a}$" },
+        { "id": "B", "text": "$\\vec{p} = m\\vec{v}$" },
+        { "id": "C", "text": "$p = mv$" },
+        { "id": "D", "text": "$\\vec{p} = \\frac{1}{2}m\\vec{v}^2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động lượng là đại lượng vectơ cùng hướng với vận tốc: $\\vec{p} = m\\vec{v}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$F_{ht} = m \\omega r$" },
+        { "id": "B", "text": "$F_{ht} = m \\frac{v^2}{r}$" },
+        { "id": "C", "text": "$F_{ht} = m v^2 r$" },
+        { "id": "D", "text": "$F_{ht} = \\frac{v^2}{r}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$F_{mst} = \\mu mg$" },
+        { "id": "B", "text": "$F_{mst} = \\mu N$" },
+        { "id": "C", "text": "$F_{mst} = N / \\mu$" },
+        { "id": "D", "text": "$F_{mst} = \\mu m$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cơ năng của một vật chịu tác dụng của lực thế (như trọng lực, lực đàn hồi) được bảo toàn khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vật chuyển động thẳng đều" },
+        { "id": "B", "text": "Vật chịu tác dụng của lực ma sát lớn" },
+        { "id": "C", "text": "Vật chịu tác dụng của lực cản không khí" },
+        { "id": "D", "text": "Không có ma sát và lực cản của môi trường" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Định luật bảo toàn cơ năng chỉ đúng khi vật chuyển động trong trường lực thế và không có ma sát/lực cản."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Công suất là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khả năng thực hiện công của lực" },
+        { "id": "B", "text": "Tốc độ thực hiện công" },
+        { "id": "C", "text": "Năng lượng của vật" },
+        { "id": "D", "text": "Thời gian thực hiện công" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công suất $P = A/t$ là đại lượng đo bằng công sinh ra trong một đơn vị thời gian, đặc trưng cho tốc độ thực hiện công."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Va chạm mềm là va chạm mà sau khi va chạm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hai vật tách rời nhau và chuyển động với vận tốc khác nhau" },
+        { "id": "B", "text": "Hai vật dính vào nhau và chuyển động cùng vận tốc" },
+        { "id": "C", "text": "Động năng của hệ được bảo toàn" },
+        { "id": "D", "text": "Tổng động lượng của hệ bằng 0" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặc điểm của va chạm mềm (inelastic collision) là hai vật dính vào nhau sau va chạm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg thả rơi tự do từ độ cao 10m xuống đất. Lấy $g = 10 m/s^2$. Thế năng của vật tại độ cao 5m là (chọn gốc thế năng tại mặt đất):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "100 J" },
+        { "id": "B", "text": "50 J" },
+        { "id": "C", "text": "200 J" },
+        { "id": "D", "text": "20 J" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_t = mgh = 2 \\times 10 \\times 5 = 100$ J."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn chịu tác dụng của ba lực không song song là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ba lực đó phải đồng phẳng và đồng quy" },
+        { "id": "B", "text": "Hợp lực của hai lực bất kỳ phải cân bằng với lực thứ ba" },
+        { "id": "C", "text": "Ba lực đó phải vuông góc với nhau từng đôi một" },
+        { "id": "D", "text": "Cả A và B đều đúng" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc hợp lực đồng quy: Ba lực phải đồng phẳng, đồng quy và hợp lực của 2 lực cân bằng lực thứ 3 (Tổng vectơ bằng 0)."
+    }
+  ]
+}

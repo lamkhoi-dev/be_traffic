@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 4: For a Better Community",
+    "description": "Kiểm tra từ vựng về Tình nguyện, Cộng đồng và ngữ pháp Quá khứ đơn vs Quá khứ tiếp diễn, Tính từ đuôi -ed/-ing.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "d_o_nate" },
+        { "id": "B", "text": "rem_o_te" },
+        { "id": "C", "text": "h_o_peless" },
+        { "id": "D", "text": "p_o_sitive" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Positive: 'o' phát âm là /ɒ/. Các từ còn lại phát âm là /əʊ/ (donate, remote, hopeless)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "volunteer" },
+        { "id": "B", "text": "charity" },
+        { "id": "C", "text": "benefit" },
+        { "id": "D", "text": "orphanage" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Volunteer nhấn âm 3. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We are looking for volunteers to help ________ the local orphanage.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "on" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "of" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Help at + địa điểm (orphanage/school...)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "While I ________ home yesterday, I saw a terrible accident.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "walked" },
+        { "id": "B", "text": "was walking" },
+        { "id": "C", "text": "walk" },
+        { "id": "D", "text": "am walking" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động đang xảy ra (đi bộ) thì hành động khác chen vào (nhìn thấy) -> Quá khứ tiếp diễn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Many people in this area are ________; they don't have enough money for basic needs.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "wealthy" },
+        { "id": "B", "text": "rich" },
+        { "id": "C", "text": "needy" },
+        { "id": "D", "text": "lucky" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Needy: nghèo túng, thiếu thốn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "This charity organization provides ________ for homeless children.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "shelter" },
+        { "id": "B", "text": "donate" },
+        { "id": "C", "text": "fund" },
+        { "id": "D", "text": "pay" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Provide shelter: cung cấp chỗ ở/nơi trú ẩn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "I felt so ________ when I watched that sad movie.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "move" },
+        { "id": "B", "text": "moving" },
+        { "id": "C", "text": "moved" },
+        { "id": "D", "text": "moves" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tính từ chỉ cảm xúc người -> đuôi -ed (moved: cảm động)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "It was an ________ experience to work with those dedicated teachers.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "excite" },
+        { "id": "B", "text": "exciting" },
+        { "id": "C", "text": "excited" },
+        { "id": "D", "text": "excitement" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính từ chỉ tính chất sự việc (experience) -> đuôi -ing."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "When he ________, we were having dinner.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "arrive" },
+        { "id": "B", "text": "arrived" },
+        { "id": "C", "text": "was arriving" },
+        { "id": "D", "text": "has arrived" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động chen ngang (đến) chia Quá khứ đơn."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Volunteering helps students gain useful ________ life experiences.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "practice" },
+        { "id": "B", "text": "practical" },
+        { "id": "C", "text": "practically" },
+        { "id": "D", "text": "practicing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần tính từ bổ nghĩa cho danh từ 'life experiences'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "The boy was ________ in the story his grandmother told.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "interested" },
+        { "id": "B", "text": "interesting" },
+        { "id": "C", "text": "interest" },
+        { "id": "D", "text": "interests" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cảm xúc của người (interested in)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "We ________ old clothes to the poor children last week.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "donated" },
+        { "id": "B", "text": "donate" },
+        { "id": "C", "text": "were donating" },
+        { "id": "D", "text": "have donated" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Last week -> Quá khứ đơn."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Find the synonym of 'fortunate'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rich" },
+        { "id": "B", "text": "lucky" },
+        { "id": "C", "text": "happy" },
+        { "id": "D", "text": "poor" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Fortunate = Lucky (may mắn)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "At 8 PM last night, I ________ TV.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "watched" },
+        { "id": "B", "text": "was watching" },
+        { "id": "C", "text": "watch" },
+        { "id": "D", "text": "have watched" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời điểm cụ thể trong quá khứ (8 PM last night) -> Quá khứ tiếp diễn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Teaching English to children in remote areas is a ________ job.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "meaning" },
+        { "id": "B", "text": "meant" },
+        { "id": "C", "text": "meaningful" },
+        { "id": "D", "text": "meaningless" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Meaningful: đầy ý nghĩa."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "He ________ his leg while he was playing football.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "broke" },
+        { "id": "B", "text": "was breaking" },
+        { "id": "C", "text": "break" },
+        { "id": "D", "text": "broken" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hành động gãy chân xảy ra tức thời (Quá khứ đơn) cắt ngang hành động đá bóng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "The local community helps people with ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "disabilities" },
+        { "id": "B", "text": "abilities" },
+        { "id": "C", "text": "disable" },
+        { "id": "D", "text": "unable" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "People with disabilities: người khuyết tật."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Choose the correct sentence.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I was meeting him when I walked in the park." },
+        { "id": "B", "text": "I met him when I was walking in the park." },
+        { "id": "C", "text": "I meet him when I walked in the park." },
+        { "id": "D", "text": "I met him when I walk in the park." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu B đúng cấu trúc hành động dài (was walking) bị hành động ngắn (met) cắt ngang."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "We should help people ________ natural disasters.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "suffer" },
+        { "id": "B", "text": "suffering" },
+        { "id": "C", "text": "suffered" },
+        { "id": "D", "text": "suffers" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Rút gọn mệnh đề quan hệ: people (who are) suffering..."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Non-governmental organizations (NGOs) are non-profit ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "members" },
+        { "id": "B", "text": "groups" },
+        { "id": "C", "text": "organizations" },
+        { "id": "D", "text": "individuals" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dựa vào chính tên gọi (NGOs)."
+    }
+  ]
+}

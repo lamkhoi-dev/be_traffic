@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 6: Chuyển động tròn",
+    "description": "Kiểm tra kiến thức về Tốc độ góc, Tốc độ dài, Gia tốc hướng tâm và Lực hướng tâm.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đơn vị của tốc độ góc $\\omega$ trong hệ SI là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mét trên giây (m/s)" },
+        { "id": "B", "text": "Radian trên giây (rad/s)" },
+        { "id": "C", "text": "Vòng trên phút (rpm)" },
+        { "id": "D", "text": "Độ trên giây (degree/s)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tốc độ góc đo bằng góc quét được (radian) trong một đơn vị thời gian (giây)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Công thức liên hệ giữa tốc độ dài $v$, tốc độ góc $\\omega$ và bán kính quỹ đạo $r$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$v = \\omega r$" },
+        { "id": "B", "text": "$\\omega = v r$" },
+        { "id": "C", "text": "$v = \\frac{\\omega}{r}$" },
+        { "id": "D", "text": "$v = \\omega^2 r$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $v = \\omega r$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trong chuyển động tròn đều, vectơ gia tốc có đặc điểm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cùng hướng với vectơ vận tốc" },
+        { "id": "B", "text": "Ngược hướng với vectơ vận tốc" },
+        { "id": "C", "text": "Luôn hướng vào tâm quỹ đạo" },
+        { "id": "D", "text": "Có độ lớn bằng 0" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc trong chuyển động tròn đều là gia tốc hướng tâm, luôn vuông góc với vận tốc và hướng vào tâm."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Chu kì $T$ của chuyển động tròn đều là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Số vòng quay được trong 1 giây" },
+        { "id": "B", "text": "Thời gian để vật đi được 1 mét" },
+        { "id": "C", "text": "Thời gian để vật đi hết một vòng quỹ đạo" },
+        { "id": "D", "text": "Góc mà bán kính nối vật quét được trong 1 giây" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì T."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một chất điểm chuyển động tròn đều với bán kính $r = 0,5$m và tốc độ góc $\\omega = 4$ rad/s. Gia tốc hướng tâm của chất điểm là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2 m/s²" },
+        { "id": "B", "text": "4 m/s²" },
+        { "id": "C", "text": "8 m/s²" },
+        { "id": "D", "text": "16 m/s²" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$a_{ht} = \\omega^2 r = 4^2 \\times 0,5 = 16 \\times 0,5 = 8$ m/s²."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Lực nào sau đây đóng vai trò là lực hướng tâm khi vệ tinh quay quanh Trái Đất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực đàn hồi" },
+        { "id": "B", "text": "Lực ma sát" },
+        { "id": "C", "text": "Lực hấp dẫn" },
+        { "id": "D", "text": "Lực điện" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn giữa Trái Đất và vệ tinh giữ cho vệ tinh chuyển động tròn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Đổi góc $60^\\circ$ sang radian:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{\\pi}{2}$ rad" },
+        { "id": "B", "text": "$\\frac{\\pi}{3}$ rad" },
+        { "id": "C", "text": "$\\frac{\\pi}{4}$ rad" },
+        { "id": "D", "text": "$\\frac{\\pi}{6}$ rad" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\alpha_{rad} = \\alpha_{do} \\times \\frac{\\pi}{180} = 60 \\times \\frac{\\pi}{180} = \\frac{\\pi}{3}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Khi xe ô tô đi qua đoạn đường cong, lực đóng vai trò lực hướng tâm giữ cho xe không bị trượt ra ngoài là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trọng lực" },
+        { "id": "B", "text": "Phản lực của mặt đường" },
+        { "id": "C", "text": "Lực ma sát nghỉ ngang" },
+        { "id": "D", "text": "Lực phát động của động cơ" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát nghỉ giữa bánh xe và mặt đường đóng vai trò lực hướng tâm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tần số $f$ và chu kì $T$ liên hệ với nhau bởi công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$f = T$" },
+        { "id": "B", "text": "$f = 1/T$" },
+        { "id": "C", "text": "$f = 2\\pi T$" },
+        { "id": "D", "text": "$f = T^2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số là nghịch đảo của chu kì."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật chuyển động tròn đều với tốc độ không đổi. Nhận định nào sau đây SAI?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vectơ vận tốc không đổi" },
+        { "id": "B", "text": "Tốc độ dài không đổi" },
+        { "id": "C", "text": "Tốc độ góc không đổi" },
+        { "id": "D", "text": "Độ lớn gia tốc không đổi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong chuyển động tròn đều, vectơ vận tốc luôn thay đổi phương (tiếp tuyến với quỹ đạo), chỉ có độ lớn (tốc độ) là không đổi."
+    }
+  ]
+}

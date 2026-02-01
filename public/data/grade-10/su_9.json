@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 9: Các cuộc cách mạng công nghiệp thời kì cận đại",
+    "description": "Kiểm tra kiến thức về Cách mạng công nghiệp lần thứ nhất (Cơ khí hóa) và lần thứ hai (Điện khí hóa).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ nhất khởi đầu tại quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pháp." },
+        { "id": "B", "text": "Đức." },
+        { "id": "C", "text": "Anh." },
+        { "id": "D", "text": "Mỹ." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nước Anh là 'công xưởng của thế giới', nơi bắt đầu CMCN vào cuối thế kỷ XVIII."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Phát minh nào được coi là quan trọng nhất, đánh dấu sự khởi đầu của Cách mạng công nghiệp lần thứ nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thoi bay." },
+        { "id": "B", "text": "Máy kéo sợi Gien-ni." },
+        { "id": "C", "text": "Máy hơi nước (cải tiến bởi Giêm Oát)." },
+        { "id": "D", "text": "Đầu máy xe lửa." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Máy hơi nước giúp con người chuyển từ lao động thủ công sang lao động bằng máy móc."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nội dung cơ bản của Cách mạng công nghiệp lần thứ nhất là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Điện khí hóa." },
+        { "id": "B", "text": "Cơ khí hóa (chuyển từ lao động thủ công sang máy móc)." },
+        { "id": "C", "text": "Tự động hóa." },
+        { "id": "D", "text": "Tin học hóa." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử dụng máy móc thay thế sức người."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ hai diễn ra vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cuối thế kỷ XVIII - đầu thế kỷ XIX." },
+        { "id": "B", "text": "Nửa sau thế kỷ XIX - đầu thế kỷ XX." },
+        { "id": "C", "text": "Giữa thế kỷ XX." },
+        { "id": "D", "text": "Đầu thế kỷ XXI." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CMCN lần 2 gắn liền với điện và động cơ đốt trong."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nguồn năng lượng chủ đạo của Cách mạng công nghiệp lần thứ hai là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Than đá và hơi nước." },
+        { "id": "B", "text": "Điện và Dầu mỏ." },
+        { "id": "C", "text": "Năng lượng hạt nhân." },
+        { "id": "D", "text": "Năng lượng mặt trời." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điện năng và động cơ đốt trong (dùng xăng dầu) là đặc trưng của giai đoạn này."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ai là người phát minh ra bóng đèn sợi đốt, góp phần phổ biến điện năng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "An-be Anh-xtanh." },
+        { "id": "B", "text": "Tô-mát Ê-đi-xơn (Edison)." },
+        { "id": "C", "text": "Ni-cô-la Tét-la." },
+        { "id": "D", "text": "A-lếch-xan-đơ Gra-ham Bell." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Edison là nhà phát minh vĩ đại với hơn 1000 bằng sáng chế, tiêu biểu là bóng đèn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chiếc ô tô đầu tiên chạy bằng động cơ đốt trong được chế tạo bởi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các Ben (Karl Benz)." },
+        { "id": "B", "text": "Hen-ry Pho (Ford)." },
+        { "id": "C", "text": "Anh em nhà Rai (Wright)." },
+        { "id": "D", "text": "Giêm Oát." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Karl Benz (người Đức) chế tạo chiếc xe hơi 3 bánh đầu tiên năm 1886."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hệ quả xã hội quan trọng nhất của các cuộc cách mạng công nghiệp thời cận đại là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hình thành hai giai cấp cơ bản: Tư sản và Vô sản." },
+        { "id": "B", "text": "Nông dân trở nên giàu có." },
+        { "id": "C", "text": "Xóa bỏ hoàn toàn chế độ phong kiến." },
+        { "id": "D", "text": "Con người không cần làm việc nữa." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xã hội phân hóa thành giai cấp làm chủ tư liệu sản xuất (Tư sản) và giai cấp làm thuê (Vô sản)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Phát minh máy bay (năm 1903) là của ai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh em nhà Mon-gôn-fi-ê." },
+        { "id": "B", "text": "Anh em nhà Rai (Wright)." },
+        { "id": "C", "text": "E-đi-xơn." },
+        { "id": "D", "text": "Nô-ben." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh em nhà Wright thực hiện chuyến bay lịch sử đầu tiên."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Quy trình sản xuất dây chuyền (lắp ráp) được Hen-ry Pho (Ford) ứng dụng lần đầu trong ngành nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dệt may." },
+        { "id": "B", "text": "Sản xuất ô tô." },
+        { "id": "C", "text": "Chế biến thực phẩm." },
+        { "id": "D", "text": "Đóng tàu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dây chuyền lắp ráp giúp giảm giá thành ô tô, biến nó thành phương tiện phổ thông."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Phát minh nào giúp thông tin liên lạc được truyền đi xa tức thì trong CMCN lần 2?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thư tín." },
+        { "id": "B", "text": "Điện thoại và Điện tín." },
+        { "id": "C", "text": "Internet." },
+        { "id": "D", "text": "Chim bồ câu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Alexander Graham Bell phát minh điện thoại, Morse phát minh điện tín."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "CMCN lần thứ nhất bắt đầu từ ngành công nghiệp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Luyện kim." },
+        { "id": "B", "text": "Công nghiệp dệt (nhẹ)." },
+        { "id": "C", "text": "Hóa chất." },
+        { "id": "D", "text": "Khai thác than." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhu cầu mặc tăng cao thúc đẩy cải tiến máy dệt (thoi bay, máy kéo sợi...)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tác động tiêu cực của Cách mạng công nghiệp là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Năng suất lao động tăng cao." },
+        { "id": "B", "text": "Ô nhiễm môi trường và bóc lột lao động trẻ em." },
+        { "id": "C", "text": "Giá thành sản phẩm rẻ." },
+        { "id": "D", "text": "Giao thông thuận tiện." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khí thải từ than đá, điều kiện làm việc tồi tệ trong các nhà máy."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Động cơ đốt trong ra đời tạo tiền đề cho sự phát triển của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ngành dệt." },
+        { "id": "B", "text": "Giao thông vận tải (ô tô, máy bay)." },
+        { "id": "C", "text": "Ngành in ấn." },
+        { "id": "D", "text": "Ngành gốm sứ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Là trái tim của các phương tiện giao thông hiện đại."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nô-ben (Nobel) là người phát minh ra cái gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thuốc nổ (Đinamit)." },
+        { "id": "B", "text": "Máy chụp ảnh." },
+        { "id": "C", "text": "Tia X." },
+        { "id": "D", "text": "Sóng vô tuyến." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Alfred Nobel phát minh thuốc nổ an toàn, sau này dùng tài sản lập giải Nobel."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Sự ra đời của máy hơi nước đã dẫn đến sự ra đời của phương tiện giao thông nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xe đạp." },
+        { "id": "B", "text": "Tàu hỏa (đầu máy xe lửa) và Tàu thủy chạy bằng hơi nước." },
+        { "id": "C", "text": "Máy bay." },
+        { "id": "D", "text": "Xe buýt điện." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Stephenson chế tạo đầu máy xe lửa, Fulton chế tạo tàu thủy."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "CMCN lần thứ hai gắn liền với sự trỗi dậy của các cường quốc nào (ngoài Anh)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mỹ và Đức." },
+        { "id": "B", "text": "Tây Ban Nha và Bồ Đào Nha." },
+        { "id": "C", "text": "Trung Quốc và Ấn Độ." },
+        { "id": "D", "text": "Hy Lạp và La Mã." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ và Đức đi đầu trong các phát minh về điện và hóa chất."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đặc điểm của CMCN lần 1 là dựa trên",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khoa học đi trước mở đường cho kỹ thuật." },
+        { "id": "B", "text": "Kinh nghiệm thực tiễn và cải tiến kỹ thuật của thợ lành nghề." },
+        { "id": "C", "text": "Sự chỉ đạo của nhà nước." },
+        { "id": "D", "text": "Công nghệ sinh học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giai đoạn này chủ yếu là các thợ cơ khí mày mò sáng chế (như Giêm Oát). CMCN lần 2 mới là Khoa học dẫn đường."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Việc sử dụng rộng rãi máy móc dẫn đến quá trình nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đô thị hóa (sự ra đời của các thành phố công nghiệp)." },
+        { "id": "B", "text": "Nông thôn hóa." },
+        { "id": "C", "text": "Giảm dân số." },
+        { "id": "D", "text": "Trở về thiên nhiên." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nông dân mất đất đổ về thành thị làm công nhân, tạo nên các đô thị lớn (như Manchester, Liverpool)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng công nghiệp đã chuyển nền sản xuất từ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công trường thủ công sang Đại công nghiệp cơ khí." },
+        { "id": "B", "text": "Nông nghiệp sang Du lịch." },
+        { "id": "C", "text": "Thủ công sang Buôn bán." },
+        { "id": "D", "text": "Sản xuất nhỏ sang sản xuất hộ gia đình." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bước chuyển biến căn bản về chất trong lực lượng sản xuất."
+    }
+  ]
+}

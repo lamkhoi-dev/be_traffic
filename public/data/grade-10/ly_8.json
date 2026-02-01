@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 8: Ôn tập Học kỳ 1",
+    "description": "Tổng hợp kiến thức Động học, Động lực học và Tĩnh học vật rắn.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "hard",
+    "grade": 10,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một vật rơi tự do từ độ cao $h$. Thời gian rơi được tính bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$t = \\sqrt{\\frac{2h}{g}}$" },
+        { "id": "B", "text": "$t = \\sqrt{\\frac{h}{2g}}$" },
+        { "id": "C", "text": "$t = \\frac{2h}{g}$" },
+        { "id": "D", "text": "$t = \\sqrt{2hg}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$h = \\frac{1}{2}gt^2 \\Rightarrow t = \\sqrt{\\frac{2h}{g}}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cặp lực và phản lực trong định luật III Newton không có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tác dụng vào hai vật khác nhau" },
+        { "id": "B", "text": "Cùng phương, ngược chiều" },
+        { "id": "C", "text": "Cùng độ lớn" },
+        { "id": "D", "text": "Cân bằng nhau" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vì tác dụng vào 2 vật khác nhau nên chúng KHÔNG cân bằng nhau (lực cân bằng phải đặt vào cùng 1 vật)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Độ dịch chuyển và quãng đường đi được của vật có độ lớn bằng nhau khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vật chuyển động tròn" },
+        { "id": "B", "text": "Vật chuyển động thẳng và không đổi chiều" },
+        { "id": "C", "text": "Vật chuyển động thẳng và đổi chiều" },
+        { "id": "D", "text": "Vật chuyển động cong" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chuyển động thẳng không đổi chiều, vectơ độ dịch chuyển có độ lớn bằng quãng đường."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Một người kéo một hòm gỗ trượt trên sàn nhà. Lực tác dụng lên hòm gỗ gồm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trọng lực, phản lực, lực kéo" },
+        { "id": "B", "text": "Trọng lực, phản lực, lực kéo, lực ma sát" },
+        { "id": "C", "text": "Trọng lực, lực kéo, lực ma sát" },
+        { "id": "D", "text": "Lực kéo, lực ma sát" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đầy đủ các lực: P (trọng lực), N (phản lực), Fk (kéo), Fms (ma sát)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Phát biểu nào sau đây đúng về sai số phép đo?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sai số ngẫu nhiên có thể loại bỏ hoàn toàn" },
+        { "id": "B", "text": "Sai số hệ thống thường do dụng cụ đo gây ra" },
+        { "id": "C", "text": "Sai số tuyệt đối bằng tổng các giá trị đo được" },
+        { "id": "D", "text": "Kết quả đo luôn chính xác tuyệt đối" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai số hệ thống do dụng cụ (lệch điểm 0, chia độ không đều...) hoặc quy trình đo."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Vật khối lượng m đặt trên mặt phẳng nghiêng góc $\\alpha$ so với phương ngang. Thành phần trọng lực gây ra gia tốc trượt cho vật là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$P_x = mg \\cos\\alpha$" },
+        { "id": "B", "text": "$P_x = mg \\sin\\alpha$" },
+        { "id": "C", "text": "$P_x = mg$" },
+        { "id": "D", "text": "$P_x = mg \\tan\\alpha$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích lực trên mặt phẳng nghiêng: $P_x = P\\sin\\alpha = mg\\sin\\alpha$ (song song mặt phẳng)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hợp lực của hai lực đồng quy $F_1 = 3N$ và $F_2 = 4N$ vuông góc với nhau có độ lớn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "7 N" },
+        { "id": "B", "text": "1 N" },
+        { "id": "C", "text": "5 N" },
+        { "id": "D", "text": "12 N" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3^2 + 4^2} = 5$ N."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Một vật ném ngang từ độ cao $h$ với vận tốc ban đầu $v_0$. Tầm xa của vật xác định bởi công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$L = v_0 \\sqrt{\\frac{2h}{g}}$" },
+        { "id": "B", "text": "$L = v_0 \\frac{2h}{g}$" },
+        { "id": "C", "text": "$L = \\frac{v_0^2}{g}$" },
+        { "id": "D", "text": "$L = v_0 t^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tầm xa = vận tốc ngang $\\times$ thời gian rơi = $v_0 \\times \\sqrt{2h/g}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Gia tốc rơi tự do $g$ phụ thuộc vào yếu tố nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khối lượng của vật rơi" },
+        { "id": "B", "text": "Vĩ độ địa lý và độ cao" },
+        { "id": "C", "text": "Kích thước vật rơi" },
+        { "id": "D", "text": "Vận tốc đầu của vật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$g$ thay đổi theo vị trí địa lý (vĩ độ) và độ cao so với mặt đất."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Để đo tốc độ tức thời của một viên bi lăn trên máng nghiêng trong phòng thí nghiệm, người ta thường dùng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thước mét và đồng hồ bấm giây thủ công" },
+        { "id": "B", "text": "Cổng quang điện và đồng hồ đo thời gian hiện số" },
+        { "id": "C", "text": "Lực kế" },
+        { "id": "D", "text": "Nhiệt kế" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cổng quang điện giúp đo thời gian chắn sáng rất ngắn để tính tốc độ tức thời chính xác."
+    }
+  ]
+}

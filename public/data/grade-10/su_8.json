@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 8: Văn minh Tây Âu thời Phục hưng",
+    "description": "Kiểm tra kiến thức về phong trào Văn hóa Phục hưng: Nguyên nhân, nội dung tư tưởng (Chủ nghĩa nhân văn) và các thành tựu tiêu biểu.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Phong trào Văn hóa Phục hưng khởi đầu tại quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh." },
+        { "id": "B", "text": "Pháp." },
+        { "id": "C", "text": "I-ta-li-a (Ý)." },
+        { "id": "D", "text": "Đức." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Các thành thị Ý giàu có là nơi khởi nguồn của Phục hưng."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "'Phục hưng' có nghĩa là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khôi phục lại chế độ nô lệ." },
+        { "id": "B", "text": "Tái sinh, khôi phục lại tinh hoa văn hóa Hy Lạp - La Mã cổ đại." },
+        { "id": "C", "text": "Phục hồi kinh tế sau chiến tranh." },
+        { "id": "D", "text": "Xây dựng lại các nhà thờ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Họ muốn khôi phục các giá trị rực rỡ thời cổ đại đã bị lãng quên trong đêm trường trung cổ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tư tưởng chủ đạo của văn hóa Phục hưng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chủ nghĩa thần học (đề cao Thần thánh)." },
+        { "id": "B", "text": "Chủ nghĩa nhân văn (đề cao con người)." },
+        { "id": "C", "text": "Chủ nghĩa khắc kỷ." },
+        { "id": "D", "text": "Chủ nghĩa xã hội." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chủ nghĩa nhân văn đề cao giá trị, vẻ đẹp và quyền tự do của con người."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Giai cấp nào là người khởi xướng phong trào Văn hóa Phục hưng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân." },
+        { "id": "B", "text": "Quý tộc phong kiến." },
+        { "id": "C", "text": "Tư sản." },
+        { "id": "D", "text": "Tăng lữ giáo hội." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giai cấp tư sản mới ra đời, có thế lực kinh tế nhưng chưa có địa vị xã hội tương xứng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Lê-ô-na đơ Vanh-xi (Leonardo da Vinci) là tác giả của bức tranh nổi tiếng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bữa ăn tối cuối cùng và Nàng Mô-na Li-sa." },
+        { "id": "B", "text": "Sáng tạo Adam." },
+        { "id": "C", "text": "Trường học A-ten." },
+        { "id": "D", "text": "Đức mẹ sầu bi." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Da Vinci là thiên tài toàn năng, tác giả của nụ cười bí ẩn Mona Lisa."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mi-ken-lăng-giơ (Michelangelo) nổi tiếng với tác phẩm điêu khắc nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tượng thần Vệ nữ." },
+        { "id": "B", "text": "Tượng Đa-vít (David)." },
+        { "id": "C", "text": "Người suy tư." },
+        { "id": "D", "text": "Tượng Nữ thần Tự do." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tượng David thể hiện vẻ đẹp hình thể hoàn mỹ của con người."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nhà thiên văn học nào đã đưa ra 'Thuyết Nhật tâm' (Mặt Trời là trung tâm), chống lại quan điểm của Giáo hội?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Niu-tơn." },
+        { "id": "B", "text": "Cô-péc-ních (Copernicus)." },
+        { "id": "C", "text": "Đác-uyn." },
+        { "id": "D", "text": "Anh-xtanh." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Copernicus khẳng định Trái Đất quay quanh Mặt Trời, mở đầu cách mạng thiên văn học."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nhà soạn kịch vĩ đại người Anh thời Phục hưng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vich-to Huy-gô." },
+        { "id": "B", "text": "Uy-li-am Sếch-xpia (Shakespeare)." },
+        { "id": "C", "text": "Đan-tê." },
+        { "id": "D", "text": "Gơ-tê." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tác giả của Romeo và Juliet, Hamlet..."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tác phẩm 'Đôn Ki-hô-tê' chế giễu tàn dư của chế độ phong kiến là của nhà văn nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xéc-van-téc (Cervantes)." },
+        { "id": "B", "text": "Bô-ca-xi-ô." },
+        { "id": "C", "text": "Ra-bơ-le." },
+        { "id": "D", "text": "Pê-trác-ca." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhà văn Tây Ban Nha Cervantes châm biếm thói hiệp sĩ lỗi thời."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ga-li-lê (Galileo) nổi tiếng với phát minh nào hỗ trợ quan sát thiên văn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kính hiển vi." },
+        { "id": "B", "text": "Kính thiên văn (viễn vọng)." },
+        { "id": "C", "text": "La bàn." },
+        { "id": "D", "text": "Đồng hồ quả lắc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Galileo dùng kính thiên văn để chứng minh thuyết Nhật tâm."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Mục tiêu đấu tranh chính của phong trào Văn hóa Phục hưng là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chống lại chế độ phong kiến và Giáo hội Thiên Chúa giáo." },
+        { "id": "B", "text": "Chống lại sự xâm lược của người Mông Cổ." },
+        { "id": "C", "text": "Đòi tăng lương cho công nhân." },
+        { "id": "D", "text": "Bảo vệ quyền lợi cho nông dân." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ tấn công vào trật tự phong kiến và giáo lý lỗi thời kìm hãm con người."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Vở kịch 'Rô-mê-ô và Giu-li-ét' ca ngợi điều gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lòng trung thành với vua." },
+        { "id": "B", "text": "Tình yêu tự do và khát vọng hạnh phúc của con người." },
+        { "id": "C", "text": "Sự giàu có." },
+        { "id": "D", "text": "Chiến tranh." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ca ngợi tình yêu vượt qua định kiến dòng họ phong kiến."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Phát minh kỹ thuật nào (vào thế kỷ XV) giúp tri thức Phục hưng lan truyền nhanh chóng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Máy hơi nước." },
+        { "id": "B", "text": "Máy in (do Gutenberg cải tiến)." },
+        { "id": "C", "text": "Điện thoại." },
+        { "id": "D", "text": "Internet." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy in giúp sách vở rẻ hơn và phổ biến rộng rãi."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Đặc điểm nghệ thuật (hội họa, điêu khắc) thời Phục hưng là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vẽ tranh biếm họa." },
+        { "id": "B", "text": "Sử dụng luật xa gần (phối cảnh) và miêu tả cơ thể người chân thực." },
+        { "id": "C", "text": "Vẽ theo lối tượng trưng, ước lệ." },
+        { "id": "D", "text": "Chỉ vẽ tranh phong cảnh." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nghệ thuật Phục hưng đạt đỉnh cao về tỷ lệ giải phẫu và chiều sâu không gian."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Câu nói 'Dù sao Trái Đất vẫn quay' là của ai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Brunô." },
+        { "id": "B", "text": "Ga-li-lê." },
+        { "id": "C", "text": "Cô-péc-ních." },
+        { "id": "D", "text": "Kepler." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ga-li-lê đã thốt lên câu này trước tòa án dị giáo."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Văn hóa Phục hưng đã mở đường cho",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự sụp đổ hoàn toàn của châu Âu." },
+        { "id": "B", "text": "Các cuộc cách mạng tư sản và sự phát triển của khoa học." },
+        { "id": "C", "text": "Chế độ phong kiến củng cố vững chắc hơn." },
+        { "id": "D", "text": "Sự thống trị của Hồi giáo." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là cuộc cách mạng tư tưởng dọn đường cho biến đổi chính trị - xã hội sau này."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Những 'người khổng lồ' thời Phục hưng được gọi như vậy vì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Họ có thân hình to lớn." },
+        { "id": "B", "text": "Họ có trí tuệ uyên bác và tài năng trên nhiều lĩnh vực." },
+        { "id": "C", "text": "Họ rất giàu có." },
+        { "id": "D", "text": "Họ sống rất lâu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Như Engels đã gọi, họ là những người khổng lồ về tư duy, nhiệt tình và tính cách."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thành phố nào được coi là thủ đô nghệ thuật của thời kỳ Phục hưng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pa-ri (Pháp)." },
+        { "id": "B", "text": "Phlo-ren-ce (Ý)." },
+        { "id": "C", "text": "Luân Đôn (Anh)." },
+        { "id": "D", "text": "Béc-lin (Đức)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Florence là nơi quy tụ nhiều thiên tài nghệ thuật nhất."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nhà văn Đan-tê (Dante) được mệnh danh là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Người cuối cùng của đêm trường Trung cổ và người đầu tiên của thời Phục hưng." },
+        { "id": "B", "text": "Ông vua của hài kịch." },
+        { "id": "C", "text": "Cha đẻ của tiểu thuyết hiện đại." },
+        { "id": "D", "text": "Nhà thơ của tình yêu." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với tác phẩm 'Thần khúc', Dante là người mở đầu cho văn học Phục hưng."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tác phẩm 'Bữa ăn tối cuối cùng' miêu tả sự kiện gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bữa tiệc của vua chúa." },
+        { "id": "B", "text": "Bữa ăn của Chúa Giê-su và 12 tông đồ trước khi bị bắt." },
+        { "id": "C", "text": "Bữa cơm gia đình bình thường." },
+        { "id": "D", "text": "Lễ hội ở Rome." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bức tranh tường nổi tiếng của Da Vinci."
+    }
+  ]
+}

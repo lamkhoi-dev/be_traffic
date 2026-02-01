@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lý 11 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Phân loại sóng cơ dựa vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bản chất của môi trường truyền sóng."
+        },
+        {
+          "id": "B",
+          "text": "hướng dao động của các phần tử môi trường so với phương truyền sóng."
+        },
+        {
+          "id": "C",
+          "text": "tần số của sóng."
+        },
+        {
+          "id": "D",
+          "text": "biên độ của sóng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ chia làm hai loại: Sóng ngang (dao động vuông góc với phương truyền sóng) và Sóng dọc (dao động cùng phương truyền sóng)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong phương trình dao động điều hòa $x = A\\cos(\\omega t + \\varphi)$, đại lượng $A$ được gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "li độ dao động."
+        },
+        {
+          "id": "B",
+          "text": "biên độ dao động."
+        },
+        {
+          "id": "C",
+          "text": "pha dao động."
+        },
+        {
+          "id": "D",
+          "text": "tần số góc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A$ là biên độ, là li độ cực đại của vật và luôn có giá trị dương."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Phương trình sóng tại nguồn O là $u_O = A\\cos(\\omega t)$. Phương trình sóng tại điểm M cách O một khoảng $d$ (sóng truyền từ O đến M) là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "B",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "C",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "D",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{\\pi d}{\\lambda})$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng tại M trễ pha hơn tại nguồn O một lượng $\\Delta\\varphi = \\frac{2\\pi d}{\\lambda}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Gia tốc trong dao động điều hòa luôn",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cùng chiều với vận tốc."
+        },
+        {
+          "id": "B",
+          "text": "ngược chiều với vận tốc."
+        },
+        {
+          "id": "C",
+          "text": "hướng về vị trí cân bằng."
+        },
+        {
+          "id": "D",
+          "text": "hướng ra xa vị trí cân bằng."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$, luôn trái dấu với li độ, tức là luôn hướng về vị trí cân bằng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sóng cơ KHÔNG thể lan truyền trong môi trường nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không khí."
+        },
+        {
+          "id": "B",
+          "text": "Chân không."
+        },
+        {
+          "id": "C",
+          "text": "Nước."
+        },
+        {
+          "id": "D",
+          "text": "Thép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ cần môi trường vật chất đàn hồi để lan truyền, chân không không có vật chất."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ trong dao động điều hòa có dạng là đường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "thẳng."
+        },
+        {
+          "id": "B",
+          "text": "parabol."
+        },
+        {
+          "id": "C",
+          "text": "hình sin."
+        },
+        {
+          "id": "D",
+          "text": "tròn."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do x là hàm cosin (hoặc sin) theo thời gian nên đồ thị có dạng hình sin."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Vận tốc của vật dao động điều hòa có độ lớn cực đại khi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "vật ở vị trí biên dương."
+        },
+        {
+          "id": "B",
+          "text": "vật ở vị trí biên âm."
+        },
+        {
+          "id": "C",
+          "text": "vật đi qua vị trí cân bằng."
+        },
+        {
+          "id": "D",
+          "text": "li độ của vật bằng một nửa biên độ."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tại vị trí cân bằng ($x=0$), vận tốc có độ lớn cực đại $v_{max} = \\omega A$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Dao động điều hòa là dao động trong đó li độ của vật là một hàm",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bậc nhất theo thời gian."
+        },
+        {
+          "id": "B",
+          "text": "bậc hai theo thời gian."
+        },
+        {
+          "id": "C",
+          "text": "cosin (hay sin) theo thời gian."
+        },
+        {
+          "id": "D",
+          "text": "tang (hay cotang) theo thời gian."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Theo định nghĩa, dao động điều hòa có phương trình dạng $x = A\\cos(\\omega t + \\varphi)$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khi sóng truyền từ không khí vào nước thì",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số không đổi, bước sóng tăng."
+        },
+        {
+          "id": "B",
+          "text": "tần số không đổi, bước sóng giảm."
+        },
+        {
+          "id": "C",
+          "text": "tần số thay đổi, vận tốc thay đổi."
+        },
+        {
+          "id": "D",
+          "text": "cả tần số và bước sóng đều không đổi."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tần số sóng do nguồn quyết định (không đổi). Vào nước vận tốc tăng ($v_{L} > v_{K}$) nên bước sóng $\\lambda = v/f$ tăng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong phương trình dao động điều hòa $x = A\\cos(\\omega t + \\varphi)$, đại lượng $A$ được gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "li độ dao động."
+        },
+        {
+          "id": "B",
+          "text": "biên độ dao động."
+        },
+        {
+          "id": "C",
+          "text": "pha dao động."
+        },
+        {
+          "id": "D",
+          "text": "tần số góc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A$ là biên độ, là li độ cực đại của vật và luôn có giá trị dương."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Gia tốc trong dao động điều hòa luôn",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cùng chiều với vận tốc."
+        },
+        {
+          "id": "B",
+          "text": "ngược chiều với vận tốc."
+        },
+        {
+          "id": "C",
+          "text": "hướng về vị trí cân bằng."
+        },
+        {
+          "id": "D",
+          "text": "hướng ra xa vị trí cân bằng."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc $a = -\\omega^2 x$, luôn trái dấu với li độ, tức là luôn hướng về vị trí cân bằng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Phương trình sóng tại nguồn O là $u_O = A\\cos(\\omega t)$. Phương trình sóng tại điểm M cách O một khoảng $d$ (sóng truyền từ O đến M) là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "B",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{2\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "C",
+          "text": "$u_M = A\\cos(\\omega t - \\frac{\\pi d}{\\lambda})$."
+        },
+        {
+          "id": "D",
+          "text": "$u_M = A\\cos(\\omega t + \\frac{\\pi d}{\\lambda})$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng tại M trễ pha hơn tại nguồn O một lượng $\\Delta\\varphi = \\frac{2\\pi d}{\\lambda}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Sóng dọc truyền được trong các môi trường nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ chất rắn."
+        },
+        {
+          "id": "B",
+          "text": "Chỉ chất lỏng và khí."
+        },
+        {
+          "id": "C",
+          "text": "Rắn, lỏng và khí."
+        },
+        {
+          "id": "D",
+          "text": "Chân không."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sóng dọc (như sóng âm) truyền được trong cả 3 môi trường Rắn, Lỏng, Khí. (Sóng cơ không truyền trong chân không)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m."
+        },
+        {
+          "id": "B",
+          "text": "4 cm."
+        },
+        {
+          "id": "C",
+          "text": "6 cm."
+        },
+        {
+          "id": "D",
+          "text": "4\\pi cm."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với tần số $f = 2$ Hz. Tần số góc của dao động là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\pi$ rad/s."
+        },
+        {
+          "id": "B",
+          "text": "$2\\pi$ rad/s."
+        },
+        {
+          "id": "C",
+          "text": "$4\\pi$ rad/s."
+        },
+        {
+          "id": "D",
+          "text": "2 rad/s."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi f = 2\\pi \\cdot 2 = 4\\pi$ rad/s."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quá trình truyền sóng cơ là quá trình truyền",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "pha dao động và năng lượng."
+        },
+        {
+          "id": "B",
+          "text": "các phần tử vật chất."
+        },
+        {
+          "id": "C",
+          "text": "vận tốc."
+        },
+        {
+          "id": "D",
+          "text": "lực tác dụng."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vật chất không truyền đi, chỉ có pha (trạng thái) và năng lượng truyền đi."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m."
+        },
+        {
+          "id": "B",
+          "text": "4 cm."
+        },
+        {
+          "id": "C",
+          "text": "6 cm."
+        },
+        {
+          "id": "D",
+          "text": "4\\pi cm."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Độ lệch pha giữa hai điểm M, N cách nguồn lần lượt $d_1, d_2$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\Delta \\varphi = \\frac{2\\pi (d_2 - d_1)}{\\lambda}$."
+        },
+        {
+          "id": "B",
+          "text": "$\\Delta \\varphi = \\frac{\\pi (d_2 - d_1)}{\\lambda}$."
+        },
+        {
+          "id": "C",
+          "text": "$\\Delta \\varphi = \\frac{2\\pi (d_2 + d_1)}{\\lambda}$."
+        },
+        {
+          "id": "D",
+          "text": "$\\Delta \\varphi = \\frac{\\lambda}{2\\pi (d_2 - d_1)}$."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tính độ lệch pha: $\\Delta \\varphi = 2\\pi \\Delta d / \\lambda$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Một sóng cơ có tần số 10 Hz lan truyền với tốc độ 2 m/s. Bước sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 m."
+        },
+        {
+          "id": "B",
+          "text": "0,2 m."
+        },
+        {
+          "id": "C",
+          "text": "5 m."
+        },
+        {
+          "id": "D",
+          "text": "0,5 m."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 2/10 = 0,2$ m."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 10: Việt Nam 1975-2000",
+    "description": "Kiểm tra kiến thức về Hoàn thành thống nhất nhà nước, Chiến tranh bảo vệ biên giới và Công cuộc Đổi mới.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Nhiệm vụ trọng tâm của cả nước sau năm 1975 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khắc phục hậu quả chiến tranh" },
+        { "id": "B", "text": "Hoàn thành thống nhất đất nước về mặt nhà nước" },
+        { "id": "C", "text": "Phát triển kinh tế thị trường" },
+        { "id": "D", "text": "Hội nhập quốc tế" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thống nhất lãnh thổ rồi thì phải thống nhất về bộ máy nhà nước."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cuộc Tổng tuyển cử bầu Quốc hội chung của cả nước diễn ra vào ngày:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "25/4/1976" },
+        { "id": "B", "text": "2/7/1976" },
+        { "id": "C", "text": "30/4/1976" },
+        { "id": "D", "text": "1/5/1976" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngày 25/4/1976 là ngày hội thống nhất non sông."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Kỳ họp thứ nhất Quốc hội khóa VI (7/1976) đã quyết định tên nước ta là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam Dân chủ Cộng hòa" },
+        { "id": "B", "text": "Cộng hòa Xã hội chủ nghĩa Việt Nam" },
+        { "id": "C", "text": "Cộng hòa miền Nam Việt Nam" },
+        { "id": "D", "text": "Việt Nam Dân quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tên nước CHXHCN Việt Nam được dùng từ đó đến nay."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đường lối Đổi mới của Đảng được đề ra lần đầu tiên tại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đại hội V (1982)" },
+        { "id": "B", "text": "Đại hội VI (12/1986)" },
+        { "id": "C", "text": "Đại hội VII (1991)" },
+        { "id": "D", "text": "Hội nghị Trung ương năm 1985" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đại hội VI là đại hội mở đầu công cuộc Đổi mới."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Trọng tâm của công cuộc Đổi mới là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đổi mới chính trị" },
+        { "id": "B", "text": "Đổi mới văn hóa" },
+        { "id": "C", "text": "Đổi mới kinh tế" },
+        { "id": "D", "text": "Đổi mới giáo dục" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đổi mới toàn diện nhưng trọng tâm là kinh tế."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chủ trương đổi mới kinh tế của Đảng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xóa bỏ cơ chế tập trung quan liêu bao cấp, xây dựng nền kinh tế hàng hóa nhiều thành phần" },
+        { "id": "B", "text": "Tư nhân hóa hoàn toàn nền kinh tế" },
+        { "id": "C", "text": "Duy trì kinh tế kế hoạch hóa tập trung" },
+        { "id": "D", "text": "Chỉ phát triển kinh tế nhà nước" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển sang kinh tế thị trường định hướng XHCN."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cuộc chiến tranh bảo vệ biên giới Tây Nam chống chế độ Pôn Pốt bắt đầu từ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Năm 1975" },
+        { "id": "B", "text": "Năm 1978" },
+        { "id": "C", "text": "Năm 1979" },
+        { "id": "D", "text": "Năm 1986" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngay sau 1975, Pôn Pốt đã xâm phạm biên giới. Chiến tranh leo thang dần."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trung Quốc mở cuộc tấn công xâm lược biên giới phía Bắc nước ta vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "17/2/1979" },
+        { "id": "B", "text": "30/4/1975" },
+        { "id": "C", "text": "12/1978" },
+        { "id": "D", "text": "1988" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sáng 17/2/1979, quân Trung Quốc tràn sang biên giới."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thành tựu lớn nhất sau 15 năm thực hiện Đổi mới (1986-2000) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đất nước thoát khỏi khủng hoảng kinh tế - xã hội" },
+        { "id": "B", "text": "Trở thành nước công nghiệp hiện đại" },
+        { "id": "C", "text": "Gia nhập WTO" },
+        { "id": "D", "text": "Xuất khẩu gạo đứng đầu thế giới" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đến năm 1996 nước ta thoát khỏi khủng hoảng, năm 2000 kinh tế tăng trưởng khá."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ba chương trình kinh tế lớn được đề ra tại Đại hội VI là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lương thực - thực phẩm, hàng tiêu dùng, hàng xuất khẩu" },
+        { "id": "B", "text": "Công nghiệp nặng, nông nghiệp, giao thông" },
+        { "id": "C", "text": "Dầu khí, thủy sản, du lịch" },
+        { "id": "D", "text": "Giáo dục, y tế, quốc phòng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tập trung vào 3 mục tiêu thiết yếu nhất để ổn định đời sống."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Năm 1995 ghi dấu sự kiện ngoại giao quan trọng nào của Việt Nam?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gia nhập ASEAN và bình thường hóa quan hệ với Mỹ" },
+        { "id": "B", "text": "Gia nhập WTO" },
+        { "id": "C", "text": "Gia nhập Liên Hợp Quốc" },
+        { "id": "D", "text": "Tổ chức hội nghị APEC" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năm 1995 là năm \"bội thu\" ngoại giao (vào ASEAN, ký hiệp định với EU, bình thường hóa với Mỹ)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Khẩu hiệu \"Tất cả vì Tổ quốc xã hội chủ nghĩa, vì hạnh phúc của nhân dân\" được nêu ra tại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đại hội IV (1976)" },
+        { "id": "B", "text": "Đại hội V (1982)" },
+        { "id": "C", "text": "Đại hội VI (1986)" },
+        { "id": "D", "text": "Quốc hội khóa VI" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đại hội IV tổng kết kháng chiến chống Mỹ và đưa cả nước tiến lên CNXH."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Việt Nam bắt đầu xuất khẩu gạo từ năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1989" },
+        { "id": "B", "text": "1986" },
+        { "id": "C", "text": "1995" },
+        { "id": "D", "text": "1990" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năm 1989, Việt Nam từ nước thiếu ăn trở thành nước xuất khẩu gạo thứ 3 thế giới."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Quan điểm đổi mới của Đảng CSVN là đổi mới toàn diện và đồng bộ, nhưng quan trọng nhất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giữ vững định hướng xã hội chủ nghĩa" },
+        { "id": "B", "text": "Đổi mới công nghệ" },
+        { "id": "C", "text": "Đổi mới nhân sự" },
+        { "id": "D", "text": "Hợp tác với phương Tây" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi mới không phải là thay đổi mục tiêu CNXH mà làm cho mục tiêu đó thực hiện hiệu quả hơn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong giai đoạn 1975-1979, quân dân ta đã chiến đấu bảo vệ biên giới ở:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tây Nam và phía Bắc" },
+        { "id": "B", "text": "Phía Bắc" },
+        { "id": "C", "text": "Phía Tây" },
+        { "id": "D", "text": "Vùng biển đảo" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chiến tranh biên giới Tây Nam (với Khmer Đỏ) và biên giới phía Bắc (với Trung Quốc)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đổi mới chính trị ở Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thay đổi chế độ chính trị" },
+        { "id": "B", "text": "Thực hiện đa nguyên đa đảng" },
+        { "id": "C", "text": "Đổi mới tư duy lý luận, kiện toàn bộ máy nhà nước, dân chủ hóa xã hội" },
+        { "id": "D", "text": "Bãi bỏ vai trò lãnh đạo của Đảng" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đổi mới nhưng giữ vững vai trò lãnh đạo của Đảng Cộng sản."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sài Gòn - Gia Định được chính thức mang tên Thành phố Hồ Chí Minh từ khi nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kỳ họp thứ nhất Quốc hội khóa VI (1976)" },
+        { "id": "B", "text": "Ngày 30/4/1975" },
+        { "id": "C", "text": "Ngày 2/9/1975" },
+        { "id": "D", "text": "Năm 1986" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quyết định của Quốc hội khóa VI."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nền kinh tế hàng hóa nhiều thành phần ở Việt Nam vận hành theo cơ chế:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thị trường có sự quản lý của Nhà nước" },
+        { "id": "B", "text": "Bao cấp" },
+        { "id": "C", "text": "Tự do hoàn toàn" },
+        { "id": "D", "text": "Kế hoạch hóa tập trung" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cơ chế thị trường định hướng XHCN."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Ý nghĩa lịch sử quan trọng nhất của việc hoàn thành thống nhất đất nước về mặt nhà nước (1976) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tạo điều kiện chính trị cơ bản để phát huy sức mạnh toàn dân tộc xây dựng và bảo vệ Tổ quốc" },
+        { "id": "B", "text": "Được quốc tế công nhận" },
+        { "id": "C", "text": "Tạo thuận lợi để gia nhập Liên Hợp Quốc" },
+        { "id": "D", "text": "Nâng cao vị thế Việt Nam" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thống nhất tạo nên sức mạnh tổng hợp của cả dân tộc."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đại hội Đảng nào đã xác định mục tiêu \"Dân giàu, nước mạnh, xã hội công bằng, văn minh\"?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đại hội IX (2001)" },
+        { "id": "B", "text": "Đại hội VIII (1996)" },
+        { "id": "C", "text": "Đại hội VI (1986)" },
+        { "id": "D", "text": "Đại hội VII (1991)" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu tổng quát được hoàn thiện dần và nêu rõ tại các kỳ đại hội sau đổi mới (ĐH IX nêu rõ cụm từ này)."
+    }
+  ]
+}

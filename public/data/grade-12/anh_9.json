@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 9: Choosing a Career",
+    "description": "Chủ đề Lựa chọn nghề nghiệp. Ngữ pháp: Cụm động từ (Phrasal Verbs) và Mệnh đề nhượng bộ (Adverbial clauses of concession).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "career" },
+        { "id": "B", "text": "apply" },
+        { "id": "C", "text": "carry" },
+        { "id": "D", "text": "academic" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'career' phần 'a' đọc là /ə/. 'Carry' và 'academic' là /æ/. 'Apply' là /ə/ nhưng trọng âm khác. Tuy nhiên câu này kiểm tra âm 'a'. 'Career' /kəˈrɪər/, 'Academic' /ˌæk.əˈdem.ɪk/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vocational" },
+        { "id": "B", "text": "education" },
+        { "id": "C", "text": "university" },
+        { "id": "D", "text": "secondary" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'secondary' nhấn âm 1. Các từ còn lại nhấn âm trước đuôi -tion/-al (âm 2 hoặc 3)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Many students choose ______ education instead of going to university.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vocational" },
+        { "id": "B", "text": "academic" },
+        { "id": "C", "text": "higher" },
+        { "id": "D", "text": "primary" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Vocational education' (giáo dục nghề nghiệp/học nghề)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "You should ______ more information about the course before enrolling.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "look for" },
+        { "id": "B", "text": "look after" },
+        { "id": "C", "text": "look up" },
+        { "id": "D", "text": "look into" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Look for' (tìm kiếm)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "______ he studied hard, he failed the exam.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Because" },
+        { "id": "B", "text": "Although" },
+        { "id": "C", "text": "Despite" },
+        { "id": "D", "text": "In spite of" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mệnh đề nhượng bộ có chủ ngữ + động từ (he studied hard) dùng 'Although'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "______ his lack of experience, he got the job.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Although" },
+        { "id": "B", "text": "Because of" },
+        { "id": "C", "text": "In spite of" },
+        { "id": "D", "text": "Though" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau chỗ trống là cụm danh từ 'his lack of experience', dùng 'In spite of' hoặc 'Despite'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "My parents want me to ______ a career in medicine.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pursue" },
+        { "id": "B", "text": "chase" },
+        { "id": "C", "text": "hunt" },
+        { "id": "D", "text": "catch" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Pursue a career' (theo đuổi một sự nghiệp)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "If you are not sure what to do, you can ask a career ______ for advice.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "adviser" },
+        { "id": "B", "text": "advise" },
+        { "id": "C", "text": "advisory" },
+        { "id": "D", "text": "advising" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Career adviser' (cố vấn nghề nghiệp)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: Don't 'give up' even if it gets difficult.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "continue" },
+        { "id": "B", "text": "stop" },
+        { "id": "C", "text": "try" },
+        { "id": "D", "text": "start" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Give up' (từ bỏ) đồng nghĩa với 'stop' (dừng lại/bỏ cuộc)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: The job offers a 'stable' income.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "steady" },
+        { "id": "B", "text": "secure" },
+        { "id": "C", "text": "temporary" },
+        { "id": "D", "text": "fixed" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Stable' (ổn định) trái nghĩa với 'temporary' (tạm thời/không ổn định)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "He turned ______ the job offer because the salary was too low.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "down" },
+        { "id": "B", "text": "up" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "off" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Turn down' (từ chối)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "She managed to finish the project ______ she was ill.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "despite" },
+        { "id": "B", "text": "even though" },
+        { "id": "C", "text": "because" },
+        { "id": "D", "text": "in spite of" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau chỗ trống là mệnh đề 'she was ill', dùng 'even though'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "An ______ allows you to learn a trade while working.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "apprenticeship" },
+        { "id": "B", "text": "application" },
+        { "id": "C", "text": "scholarship" },
+        { "id": "D", "text": "relationship" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Apprenticeship' (thời gian học việc/công tác thực tập sinh)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "You need to ______ the application form and send it by post.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "fill in" },
+        { "id": "B", "text": "take up" },
+        { "id": "C", "text": "go on" },
+        { "id": "D", "text": "put off" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Fill in/Fill out' (điền vào mẫu đơn)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I'm thinking of becoming a teacher.' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Good luck!" },
+        { "id": "B", "text": "I think you'd make a great one." },
+        { "id": "C", "text": "No, you shouldn't." },
+        { "id": "D", "text": "It's boring." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời động viên và nhận xét tích cực phù hợp nhất."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'Despite he was tired, he continued working.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Despite" },
+        { "id": "B", "text": "was" },
+        { "id": "C", "text": "continued" },
+        { "id": "D", "text": "working" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Despite' không đi với mệnh đề. Phải sửa thành 'Although' hoặc 'Despite being tired'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Doing a ______ job can help you decide if you like the career.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "part-time" },
+        { "id": "B", "text": "full-time" },
+        { "id": "C", "text": "permanent" },
+        { "id": "D", "text": "well-paid" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Part-time job' (việc làm thêm) giúp trải nghiệm thử."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "He ______ working even though he is 65.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "goes on" },
+        { "id": "B", "text": "goes off" },
+        { "id": "C", "text": "goes out" },
+        { "id": "D", "text": "goes in" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Go on' (tiếp tục)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'Although it was raining heavily, they went out.' -> 'Despite...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Despite the heavy rain, they went out." },
+        { "id": "B", "text": "Despite it was raining heavily, they went out." },
+        { "id": "C", "text": "Despite the rain was heavy, they went out." },
+        { "id": "D", "text": "Despite of the heavy rain, they went out." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển mệnh đề 'it was raining heavily' thành cụm danh từ 'the heavy rain'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Some people take a ______ year before going to university.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "gap" },
+        { "id": "B", "text": "space" },
+        { "id": "C", "text": "break" },
+        { "id": "D", "text": "blank" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Gap year' (năm nghỉ ngắt quãng để trải nghiệm)."
+    }
+  ]
+}

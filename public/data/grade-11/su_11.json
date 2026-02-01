@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc kháng chiến chống thực dân Pháp (1945-1954) kết thúc bằng thắng lợi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Tám"
+        },
+        {
+          "id": "B",
+          "text": "Chiến dịch Điện Biên Phủ"
+        },
+        {
+          "id": "C",
+          "text": "Chiến dịch Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Trận \"Điện Biên Phủ trên không\""
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Điện Biên Phủ lừng lẫy năm châu đã kết thúc 9 năm kháng chiến chống Pháp."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Quốc gia nào giành độc lập bằng con đường hòa bình, thương lượng với thực dân Anh vào năm 1957?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên bang Mã Lai (Malaysia) giành độc lập qua đàm phán Hiến pháp với Anh."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đông Ti-mo tách ra khỏi quốc gia nào để trở thành một nhà nước độc lập (2002)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bồ Đào Nha"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Hà Lan"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau khi Bồ Đào Nha rút đi (1975), Indonesia sáp nhập Đông Ti-mo. Đến 2002 mới chính thức độc lập."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Động lực chính (lực lượng nòng cốt) của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quý tộc và tăng lữ"
+        },
+        {
+          "id": "B",
+          "text": "Giai cấp tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Quần chúng nhân dân (nông dân, bình dân thành thị, công nhân...)"
+        },
+        {
+          "id": "D",
+          "text": "Vua và hoàng gia"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quần chúng nhân dân là lực lượng đông đảo nhất, thúc đẩy cách mạng đi lên."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mi-an-ma (Birma) và Ma-lai-xi-a trở thành thuộc địa của đế quốc nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh"
+        },
+        {
+          "id": "B",
+          "text": "Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Hà Lan"
+        },
+        {
+          "id": "D",
+          "text": "Bồ Đào Nha"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thực dân Anh chiếm đóng Mi-an-ma (sáp nhập vào Ấn Độ thuộc Anh) và Mã Lai."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Bốn nước cộng hòa đầu tiên gia nhập Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nga, U-crai-na, Bê-la-rút, Ngoại Cáp-ca-dơ"
+        },
+        {
+          "id": "B",
+          "text": "Nga, U-crai-na, Ca-dắc-xtan, U-dơ-bê-ki-xtan"
+        },
+        {
+          "id": "C",
+          "text": "Nga, Bê-la-rút, Lát-vi-a, Ét-tô-ni-a"
+        },
+        {
+          "id": "D",
+          "text": "Nga, U-crai-na, Môn-đô-va, Ác-mê-ni-a"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 nước cộng hòa đầu tiên hợp nhất thành Liên Xô."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phong trào Thakin (1930) là phong trào yêu nước tiêu biểu ở:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lào"
+        },
+        {
+          "id": "B",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "C",
+          "text": "Thái Lan"
+        },
+        {
+          "id": "D",
+          "text": "Cam-pu-chia"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phong trào của trí thức trẻ Myanmar, tự gọi mình là 'Thakin' (người chủ đất nước)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng tháng Tám năm 1945 là cuộc cách mạng giải phóng dân tộc điển hình vì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lật đổ chế độ phong kiến tồn tại hàng ngàn năm"
+        },
+        {
+          "id": "B",
+          "text": "Đánh đổ ách thống trị của thực dân Pháp và phát xít Nhật, giành lại độc lập hoàn toàn"
+        },
+        {
+          "id": "C",
+          "text": "Thiết lập chế độ xã hội chủ nghĩa"
+        },
+        {
+          "id": "D",
+          "text": "Do giai cấp tư sản lãnh đạo"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhiệm vụ hàng đầu là giải phóng dân tộc khỏi ách ngoại xâm (Pháp - Nhật)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "D",
+          "text": "Xin-ga-po"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Luận cương tháng Tư của Lê-nin đã chỉ ra mục tiêu chuyển từ cách mạng dân chủ tư sản sang:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng văn hóa"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng xã hội chủ nghĩa"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng ruộng đất"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng khoa học kỹ thuật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lê-nin xác định phải chuyển ngay sang cách mạng XHCN sau khi chế độ Nga hoàng bị lật đổ."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của công cuộc cải cách ở Trung Quốc và Đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Từ bỏ hoàn toàn chủ nghĩa xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng chủ nghĩa xã hội mang bản sắc/đặc sắc của mỗi nước"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện đa nguyên, đa đảng về chính trị"
+        },
+        {
+          "id": "D",
+          "text": "Phụ thuộc hoàn toàn vào tư bản nước ngoài"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cả hai nước đều kiên định mục tiêu XHCN nhưng đổi mới phương thức thực hiện cho phù hợp (Kinh tế thị trường định hướng XHCN/Đặc sắc TQ)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Pháp"
+        },
+        {
+          "id": "B",
+          "text": "Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Anh"
+        },
+        {
+          "id": "D",
+          "text": "Đức"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Anh là quê hương của CMCN lần 1 (động cơ hơi nước, dệt)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mục tiêu chung của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lật đổ chế độ phong kiến, thực dân, mở đường cho CNTB phát triển"
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng chế độ xã hội chủ nghĩa"
+        },
+        {
+          "id": "C",
+          "text": "Đưa giai cấp công nhân lên nắm quyền"
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ quyền lợi cho giai cấp nông dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu xuyên suốt là xóa bỏ rào cản phong kiến/thực dân để phát triển kinh tế tư bản."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tính chất chưa triệt để của Cách mạng tư sản Anh thể hiện ở chỗ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vẫn duy trì ngôi Vua và không giải quyết vấn đề ruộng đất cho nông dân"
+        },
+        {
+          "id": "B",
+          "text": "Tư sản không nắm quyền lực"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế không phát triển sau cách mạng"
+        },
+        {
+          "id": "D",
+          "text": "Chưa xóa bỏ được Giáo hội"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thiết lập quân chủ lập hiến và nông dân không có ruộng đất cho thấy sự thỏa hiệp của tư sản."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bài thơ \"Nam quốc sơn hà\" được coi là bản Tuyên ngôn độc lập lần thứ nhất của Việt Nam, ra đời trong cuộc kháng chiến nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kháng chiến chống Tống thời Tiền Lê"
+        },
+        {
+          "id": "B",
+          "text": "Kháng chiến chống Tống thời Lý"
+        },
+        {
+          "id": "C",
+          "text": "Kháng chiến chống Nguyên thời Trần"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến chống Minh thời Hồ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bài thơ vang lên trên sông Như Nguyệt trong kháng chiến chống Tống (1077)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Việc xuất khẩu tư bản (đầu tư ra nước ngoài) nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giúp đỡ các nước nghèo phát triển"
+        },
+        {
+          "id": "B",
+          "text": "Tìm kiếm lợi nhuận cao ở nơi có nhân công rẻ, tài nguyên dồi dào"
+        },
+        {
+          "id": "C",
+          "text": "Giải quyết vấn đề thừa tiền trong nước"
+        },
+        {
+          "id": "D",
+          "text": "Giao lưu văn hóa"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mục đích tối thượng của tư bản là lợi nhuận siêu ngạch."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sau khi Lê-nin qua đời (1924), ai là người tiếp tục lãnh đạo công cuộc xây dựng chủ nghĩa xã hội ở Liên Xô?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Goóc-ba-chốp"
+        },
+        {
+          "id": "B",
+          "text": "Xta-lin"
+        },
+        {
+          "id": "C",
+          "text": "Khru-xthốp"
+        },
+        {
+          "id": "D",
+          "text": "Pu-tin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giô-xép Xta-lin là người kế nhiệm lãnh đạo Liên Xô trong giai đoạn công nghiệp hóa."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đến năm 1937, về sản lượng công nghiệp, Liên Xô đứng vị trí nào trên thế giới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thứ nhất thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Thứ hai thế giới (sau Mỹ) và đứng đầu châu Âu"
+        },
+        {
+          "id": "C",
+          "text": "Thứ ba thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Thứ tư thế giới"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự phát triển thần kỳ giúp Liên Xô vươn lên đứng thứ 2 thế giới."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Điểm giống nhau cơ bản trong phong trào giải phóng dân tộc ở Đông Nam Á sau Chiến tranh thế giới thứ nhất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đều do Đảng Cộng sản lãnh đạo"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển mạnh mẽ của phong trào dân tộc tư sản và sự lớn mạnh của giai cấp công nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đều giành được thắng lợi"
+        },
+        {
+          "id": "D",
+          "text": "Đều đấu tranh vũ trang"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là giai đoạn thức tỉnh của chủ nghĩa dân tộc và sự lớn mạnh của phong trào công nhân."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào ở Đông Nam Á được đánh giá là toàn diện và triệt để nhất trong năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Tám ở Việt Nam"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng Lào"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Phi-líp-pin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Tám không chỉ giành độc lập mà còn xóa bỏ chế độ phong kiến, lập ra chế độ cộng hòa dân chủ."
+    }
+  ]
+}

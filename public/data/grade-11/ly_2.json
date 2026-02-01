@@ -1,0 +1,628 @@
+{
+  "test_unit_2": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lí 11 - Bài 2: Mô tả dao động điều hòa",
+    "description": "Kiểm tra kiến thức về các đại lượng đặc trưng (pha, tần số góc), độ lệch pha và kỹ năng đọc đồ thị dao động (x-t).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions_unit_2": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Pha của dao động được dùng để xác định",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "biên độ dao động." },
+        { "id": "B", "text": "trạng thái dao động." },
+        { "id": "C", "text": "chu kì dao động." },
+        { "id": "D", "text": "tần số dao động." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pha dao động $(\\omega t + \\varphi)$ xác định trạng thái (vị trí và chiều chuyển động) của vật tại thời điểm t."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hai dao động điều hòa cùng phương, cùng tần số, ngược pha nhau thì độ lệch pha $\\Delta \\varphi$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2k\\pi$ ($k$ là số nguyên)." },
+        { "id": "B", "text": "$(2k+1)\\pi$ ($k$ là số nguyên)." },
+        { "id": "C", "text": "$(2k+1)\\frac{\\pi}{2}$ ($k$ là số nguyên)." },
+        { "id": "D", "text": "$\\frac{\\pi}{4}$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hai dao động ngược pha có độ lệch pha là một số lẻ lần $\\pi$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đồ thị li độ - thời gian ($x-t$) của một vật dao động điều hòa có dạng là đường",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "thẳng đi qua gốc tọa độ." },
+        { "id": "B", "text": "parabol." },
+        { "id": "C", "text": "hình sin." },
+        { "id": "D", "text": "tròn." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Phương trình $x = A\\cos(\\omega t + \\varphi)$ có đồ thị dạng hình sin."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trên đồ thị ($x-t$), một chu kì $T$ tương ứng với khoảng thời gian để đồ thị",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "lặp lại trạng thái cũ 1 lần." },
+        { "id": "B", "text": "đi từ biên dương đến biên âm." },
+        { "id": "C", "text": "đi qua vị trí cân bằng 1 lần." },
+        { "id": "D", "text": "đi được quãng đường bằng biên độ A." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chu kì là khoảng thời gian ngắn nhất để trạng thái dao động lặp lại như cũ (trên đồ thị là 1 sóng đầy đủ)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 5\\cos(2\\pi t - \\frac{\\pi}{3})$ cm. Pha ban đầu của dao động là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{\\pi}{3}$ rad." },
+        { "id": "B", "text": "$-\\frac{\\pi}{3}$ rad." },
+        { "id": "C", "text": "$2\\pi$ rad." },
+        { "id": "D", "text": "5 rad." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đối chiếu phương trình chuẩn $x = A\\cos(\\omega t + \\varphi)$, ta có $\\varphi = -\\frac{\\pi}{3}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong dao động điều hòa, li độ $x$ biến đổi điều hòa cùng tần số với vận tốc nhưng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sớm pha $\\frac{\\pi}{2}$ so với vận tốc." },
+        { "id": "B", "text": "trễ pha $\\frac{\\pi}{2}$ so với vận tốc." },
+        { "id": "C", "text": "ngược pha với vận tốc." },
+        { "id": "D", "text": "cùng pha với vận tốc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vận tốc sớm pha $\\frac{\\pi}{2}$ so với li độ, nên li độ trễ pha $\\frac{\\pi}{2}$ so với vận tốc."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tại thời điểm $t = 0$, vật đang ở biên dương ($x = A$). Pha ban đầu của dao động là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$0$." },
+        { "id": "B", "text": "$\\pi$." },
+        { "id": "C", "text": "$\\frac{\\pi}{2}$." },
+        { "id": "D", "text": "$-\\frac{\\pi}{2}$." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay vào $x = A\\cos\\varphi$: $A = A\\cos\\varphi \\Rightarrow \\cos\\varphi = 1 \\Rightarrow \\varphi = 0$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tại thời điểm $t = 0$, vật đi qua VTCB theo chiều dương. Pha ban đầu là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{\\pi}{2}$." },
+        { "id": "B", "text": "$-\\frac{\\pi}{2}$." },
+        { "id": "C", "text": "$\\pi$." },
+        { "id": "D", "text": "$0$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Qua VTCB ($x=0$) theo chiều dương ($v>0$) thì pha ban đầu là $-\\frac{\\pi}{2}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khoảng thời gian ngắn nhất để vật đi từ vị trí cân bằng đến vị trí biên là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$T$." },
+        { "id": "B", "text": "$\\frac{T}{2}$." },
+        { "id": "C", "text": "$\\frac{T}{4}$." },
+        { "id": "D", "text": "$\\frac{T}{8}$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Từ VTCB ra biên quét một góc $\\frac{\\pi}{2}$ tương ứng với thời gian $\\frac{T}{4}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Nếu tăng biên độ dao động lên 2 lần thì chu kì dao động điều hòa của con lắc lò xo sẽ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tăng 2 lần." },
+        { "id": "B", "text": "giảm 2 lần." },
+        { "id": "C", "text": "không đổi." },
+        { "id": "D", "text": "tăng $\\sqrt{2}$ lần." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chu kì dao động điều hòa không phụ thuộc vào biên độ (với dao động nhỏ/lý tưởng)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hai dao động có phương trình $x_1 = A\\cos(\\omega t)$ và $x_2 = A\\cos(\\omega t + \\pi)$. Hai dao động này",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cùng pha." },
+        { "id": "B", "text": "ngược pha." },
+        { "id": "C", "text": "vuông pha." },
+        { "id": "D", "text": "lệch pha $\\frac{\\pi}{4}$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Độ lệch pha $\\pi$ chứng tỏ hai dao động ngược pha."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trên đồ thị dao động, điểm cắt của đồ thị với trục hoành (trục thời gian) biểu thị",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vật ở biên dương." },
+        { "id": "B", "text": "Vật ở biên âm." },
+        { "id": "C", "text": "Vật đang qua vị trí cân bằng." },
+        { "id": "D", "text": "Vật có vận tốc bằng 0." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trục hoành ứng với $x=0$, tức là vị trí cân bằng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Độ lệch pha giữa hai dao động $\\Delta \\varphi = \\varphi_2 - \\varphi_1 > 0$ thì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "dao động 2 trễ pha hơn dao động 1." },
+        { "id": "B", "text": "dao động 2 sớm pha hơn dao động 1." },
+        { "id": "C", "text": "hai dao động cùng pha." },
+        { "id": "D", "text": "không kết luận được." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiệu pha dương nghĩa là dao động 2 có pha lớn hơn, tức là sớm pha hơn."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa thực hiện 5 dao động trong 10 giây. Tần số góc là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pi$ rad/s." },
+        { "id": "B", "text": "$2\\pi$ rad/s." },
+        { "id": "C", "text": "$0,5\\pi$ rad/s." },
+        { "id": "D", "text": "5 rad/s." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$T = 10/5 = 2s \\Rightarrow \\omega = \\frac{2\\pi}{T} = \\pi$ rad/s."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Biên độ dao động phụ thuộc vào",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cấu tạo hệ dao động." },
+        { "id": "B", "text": "năng lượng kích thích ban đầu." },
+        { "id": "C", "text": "thời gian dao động." },
+        { "id": "D", "text": "gốc thời gian." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Biên độ phụ thuộc vào cách kích thích dao động (năng lượng cung cấp ban đầu)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khi vật dao động điều hòa đi từ biên về vị trí cân bằng thì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "độ lớn li độ tăng." },
+        { "id": "B", "text": "độ lớn vận tốc giảm." },
+        { "id": "C", "text": "vật chuyển động nhanh dần." },
+        { "id": "D", "text": "vật chuyển động chậm dần." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đi từ biên ($v=0$) về VTCB ($v_{max}$) là chuyển động nhanh dần (lưu ý: không phải nhanh dần đều)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chu kì dao động T phụ thuộc vào",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pha ban đầu." },
+        { "id": "B", "text": "biên độ dao động." },
+        { "id": "C", "text": "cấu tạo của hệ dao động." },
+        { "id": "D", "text": "cách kích thích dao động." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chu kì (T) là đặc tính riêng của hệ (ví dụ con lắc lò xo phụ thuộc m và k)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phương trình $x = -5\\cos(4\\pi t)$ cm có thể viết lại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 5\\cos(4\\pi t + \\pi)$ cm." },
+        { "id": "B", "text": "$x = 5\\cos(4\\pi t - \\frac{\\pi}{2})$ cm." },
+        { "id": "C", "text": "$x = 5\\sin(4\\pi t)$ cm." },
+        { "id": "D", "text": "$x = 5\\cos(4\\pi t)$ cm." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dấu trừ đằng trước cos tương ứng với cộng thêm pha $\\pi$ (hai vecto đối nhau)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hình chiếu của một chuyển động tròn đều lên một đường kính là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "một chuyển động thẳng đều." },
+        { "id": "B", "text": "một dao động điều hòa." },
+        { "id": "C", "text": "một chuyển động biến đổi đều." },
+        { "id": "D", "text": "một chuyển động tròn khác." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là mối liên hệ cơ bản giữa chuyển động tròn đều và dao động điều hòa."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Quỹ đạo chuyển động của vật dao động điều hòa là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "một đường hình sin." },
+        { "id": "B", "text": "một đường tròn." },
+        { "id": "C", "text": "một đoạn thẳng có chiều dài 2A." },
+        { "id": "D", "text": "một đoạn thẳng có chiều dài A." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Vật dao động qua lại quanh VTCB trên một đoạn thẳng dài $L = 2A$."
+    }
+  ],
+  "test_unit_3": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lí 11 - Bài 3: Vận tốc, gia tốc trong dao động điều hòa",
+    "description": "Kiểm tra kiến thức về phương trình vận tốc, gia tốc; giá trị cực đại/cực tiểu và mối quan hệ giữa các đại lượng.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions_unit_3": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Biểu thức vận tốc của vật dao động điều hòa có dạng (với $x = A\\cos(\\omega t + \\varphi)$)",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$v = \\omega A\\cos(\\omega t + \\varphi)$." },
+        { "id": "B", "text": "$v = -\\omega A\\sin(\\omega t + \\varphi)$." },
+        { "id": "C", "text": "$v = -\\omega^2 A\\cos(\\omega t + \\varphi)$." },
+        { "id": "D", "text": "$v = \\omega A\\sin(\\omega t + \\varphi)$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vận tốc là đạo hàm bậc nhất của li độ theo thời gian: $v = x' = -\\omega A\\sin(\\omega t + \\varphi)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Vận tốc của vật dao động điều hòa có độ lớn cực đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$v_{max} = \\omega A$." },
+        { "id": "B", "text": "$v_{max} = \\omega^2 A$." },
+        { "id": "C", "text": "$v_{max} = 2\\omega A$." },
+        { "id": "D", "text": "$v_{max} = A$." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giá trị cực đại của hàm sin/cos là 1, nên $|v|_{max} = \\omega A$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Gia tốc của vật dao động điều hòa có độ lớn cực đại khi vật ở",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vị trí cân bằng." },
+        { "id": "B", "text": "vị trí biên." },
+        { "id": "C", "text": "vị trí có li độ $A/2$." },
+        { "id": "D", "text": "vị trí bất kì." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$a = -\\omega^2 x$. Độ lớn $|a|$ cực đại khi $|x|$ cực đại (tức là tại biên)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Vecto gia tốc của vật dao động điều hòa luôn hướng về",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vị trí biên dương." },
+        { "id": "B", "text": "vị trí biên âm." },
+        { "id": "C", "text": "vị trí cân bằng." },
+        { "id": "D", "text": "chiều chuyển động của vật." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Gia tốc là lực kéo về (tỉ lệ với lực hồi phục), luôn hướng về VTCB."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Hệ thức độc lập với thời gian giữa li độ $x$, vận tốc $v$ và tần số góc $\\omega$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$A^2 = x^2 + \\frac{v^2}{\\omega}$." },
+        { "id": "B", "text": "$A^2 = x^2 + \\frac{v^2}{\\omega^2}$." },
+        { "id": "C", "text": "$A^2 = x^2 + v^2\\omega^2$." },
+        { "id": "D", "text": "$x^2 = A^2 + \\frac{v^2}{\\omega^2}$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dựa trên $\\sin^2 + \\cos^2 = 1$, ta có hệ thức: $x^2 + (v/\\omega)^2 = A^2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tại vị trí cân bằng, gia tốc của vật có giá trị",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cực đại." },
+        { "id": "B", "text": "cực tiểu (âm)." },
+        { "id": "C", "text": "bằng 0." },
+        { "id": "D", "text": "bằng $g$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tại VTCB $x=0$, nên $a = -\\omega^2 x = 0$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "So về pha, gia tốc biến đổi điều hòa",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cùng pha với li độ." },
+        { "id": "B", "text": "ngược pha với li độ." },
+        { "id": "C", "text": "sớm pha $\\frac{\\pi}{2}$ so với li độ." },
+        { "id": "D", "text": "trễ pha $\\frac{\\pi}{2}$ so với li độ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$a = -\\omega^2 x$. Dấu trừ biểu thị sự ngược pha."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "So về pha, vận tốc biến đổi điều hòa",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sớm pha $\\frac{\\pi}{2}$ so với gia tốc." },
+        { "id": "B", "text": "trễ pha $\\frac{\\pi}{2}$ so với gia tốc." },
+        { "id": "C", "text": "ngược pha với gia tốc." },
+        { "id": "D", "text": "cùng pha với gia tốc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Gia tốc sớm pha $\\pi/2$ so với vận tốc, hay vận tốc trễ pha $\\pi/2$ so với gia tốc."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một vật dao động với biên độ $A = 4$ cm, tần số góc $\\omega = 10$ rad/s. Độ lớn vận tốc cực đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "40 cm/s." },
+        { "id": "B", "text": "4 cm/s." },
+        { "id": "C", "text": "40 m/s." },
+        { "id": "D", "text": "2,5 cm/s." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$v_{max} = \\omega A = 10 \\times 4 = 40$ cm/s."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật dao động với biên độ $A = 5$ cm, tần số góc $\\omega = 2$ rad/s. Độ lớn gia tốc cực đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10 cm/s$^2$." },
+        { "id": "B", "text": "20 cm/s$^2$." },
+        { "id": "C", "text": "50 cm/s$^2$." },
+        { "id": "D", "text": "4 cm/s$^2$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$a_{max} = \\omega^2 A = 2^2 \\times 5 = 20$ cm/s$^2$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đồ thị vận tốc - thời gian ($v-t$) của dao động điều hòa có dạng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "đường thẳng." },
+        { "id": "B", "text": "đường hình sin." },
+        { "id": "C", "text": "đường elip." },
+        { "id": "D", "text": "đường parabol." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vận tốc cũng biến thiên điều hòa theo thời gian."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn mối quan hệ giữa vận tốc $v$ và li độ $x$ có dạng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "đường tròn." },
+        { "id": "B", "text": "đường thẳng." },
+        { "id": "C", "text": "đường elip." },
+        { "id": "D", "text": "đường parabol." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Từ hệ thức độc lập $\\frac{x^2}{A^2} + \\frac{v^2}{(\\omega A)^2} = 1$, đồ thị là đường elip."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Khi vật chuyển động từ VTCB ra biên thì",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vận tốc và gia tốc cùng dấu." },
+        { "id": "B", "text": "vận tốc và gia tốc trái dấu." },
+        { "id": "C", "text": "tích $a.v > 0$." },
+        { "id": "D", "text": "gia tốc bằng 0." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ra biên là chuyển động chậm dần, nên $a$ và $v$ trái dấu."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Ở vị trí biên, vận tốc của vật bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cực đại." },
+        { "id": "B", "text": "0." },
+        { "id": "C", "text": "cực tiểu (âm)." },
+        { "id": "D", "text": "một nửa cực đại." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại biên vật đổi chiều chuyển động, vận tốc tức thời bằng 0."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong một chu kì, vật đi qua vị trí cân bằng mấy lần?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 lần." },
+        { "id": "B", "text": "2 lần." },
+        { "id": "C", "text": "4 lần." },
+        { "id": "D", "text": "Vô số lần." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trong 1 chu kì, vật qua VTCB 2 lần (một lần theo chiều dương, một lần theo chiều âm)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Phương trình $v = 20\\pi\\cos(4\\pi t)$ cm/s. Vận tốc cực đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20 cm/s." },
+        { "id": "B", "text": "20$\\pi$ cm/s." },
+        { "id": "C", "text": "4$\\pi$ cm/s." },
+        { "id": "D", "text": "5 cm/s." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Biên độ của vận tốc chính là giá trị đứng trước hàm cos/sin."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Gia tốc $a$ và li độ $x$ liên hệ với nhau bởi công thức",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a = \\omega^2 x$." },
+        { "id": "B", "text": "$a = -\\omega x$." },
+        { "id": "C", "text": "$a = -\\omega^2 x$." },
+        { "id": "D", "text": "$a = \\omega x^2$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là phương trình động lực học cơ bản của dao động điều hòa."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn mối quan hệ giữa gia tốc $a$ và li độ $x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "đường thẳng qua gốc tọa độ có hệ số góc âm." },
+        { "id": "B", "text": "đường thẳng qua gốc tọa độ có hệ số góc dương." },
+        { "id": "C", "text": "đường elip." },
+        { "id": "D", "text": "đường parabol." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì $a = -\\omega^2 x$, đây là hàm bậc nhất $y = kx$ với $k = -\\omega^2 < 0$, là đoạn thẳng nghịch biến."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Khi vật ở vị trí biên âm, gia tốc của vật",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "có giá trị cực đại (dương)." },
+        { "id": "B", "text": "có giá trị cực tiểu (âm)." },
+        { "id": "C", "text": "bằng 0." },
+        { "id": "D", "text": "bằng g." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại $x = -A$, $a = -\\omega^2 (-A) = \\omega^2 A$ (giá trị cực đại dương)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Một chất điểm dao động điều hòa với chu kì $T = 1s$. Tại thời điểm $t$, pha dao động là $\\pi/3$. Tại thời điểm $t + 0,5s$, pha dao động là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pi$." },
+        { "id": "B", "text": "$\\frac{4\\pi}{3}$." },
+        { "id": "C", "text": "$\\frac{2\\pi}{3}$." },
+        { "id": "D", "text": "$\\frac{5\\pi}{6}$." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "0,5s = T/2. Sau nửa chu kì, pha dao động tăng thêm $\\pi$. Vậy pha mới là $\\pi/3 + \\pi = 4\\pi/3$."
+    }
+  ]
+}

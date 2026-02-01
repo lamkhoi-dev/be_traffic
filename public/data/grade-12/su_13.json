@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "\"Năm Châu Phi\" là tên gọi của năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1954"
+        },
+        {
+          "id": "B",
+          "text": "1960"
+        },
+        {
+          "id": "C",
+          "text": "1975"
+        },
+        {
+          "id": "D",
+          "text": "1994"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1960 có 17 quốc gia châu Phi tuyên bố độc lập."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "\"Ai có súng dùng súng. Ai có gươm dùng gươm...\" là đoạn trích trong văn kiện nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Lời kêu gọi Toàn quốc kháng chiến"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ thị Toàn dân kháng chiến"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến nhất định thắng lợi"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời kêu gọi bất hủ của Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trong Đông - Xuân 1953 - 1954, ta mở các chiến dịch tấn công nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiêu diệt sinh lực địch"
+        },
+        {
+          "id": "B",
+          "text": "Buộc địch phải phân tán lực lượng, phá vỡ khối cơ động mạnh của Na-va"
+        },
+        {
+          "id": "C",
+          "text": "Giải phóng Tây Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ Việt Bắc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đánh vào những nơi địch sơ hở nhưng quan trọng để buộc chúng phải điều quân đến giữ (phân tán lực lượng)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong cuộc khai thác thuộc địa lần thứ hai, Pháp đầu tư vốn nhiều nhất vào ngành nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nghiệp nhẹ"
+        },
+        {
+          "id": "B",
+          "text": "Giao thông vận tải"
+        },
+        {
+          "id": "C",
+          "text": "Nông nghiệp và khai thác mỏ"
+        },
+        {
+          "id": "D",
+          "text": "Thương nghiệp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nông nghiệp (trồng cao su) và khai thác mỏ (than) mang lại lợi nhuận nhanh và lớn nhất."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự khởi đầu của Chiến tranh lạnh?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thông điệp của Tổng thống Tru-man (1947)"
+        },
+        {
+          "id": "B",
+          "text": "Sự ra đời của NATO"
+        },
+        {
+          "id": "C",
+          "text": "Kế hoạch Mác-san"
+        },
+        {
+          "id": "D",
+          "text": "Sự ra đời của khối Vác-sa-va"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thông điệp Tru-man tại Quốc hội Mỹ (3/1947) khẳng định sự tồn tại đe dọa của CNCS, khởi đầu Chiến tranh lạnh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cao trào kháng Nhật cứu nước diễn ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bắc Kỳ và Bắc Trung Kỳ"
+        },
+        {
+          "id": "B",
+          "text": "Nam Kỳ"
+        },
+        {
+          "id": "C",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Các đô thị lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nơi chính quyền địch bị tê liệt và phong trào quần chúng lên cao, cộng với nạn đói diễn ra gay gắt."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Thắng lợi quân sự nào của ta đã buộc Mỹ phải ký Hiệp định Paris (1973)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến thắng Vạn Tường"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Tiến công chiến lược năm 1972"
+        },
+        {
+          "id": "C",
+          "text": "Trận \"Điện Biên Phủ trên không\" (12/1972)"
+        },
+        {
+          "id": "D",
+          "text": "Tổng tiến công Mậu Thân 1968"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đòn quyết định đập tan nỗ lực quân sự cao nhất của Mỹ, buộc Mỹ ký hiệp định."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc bầu cử Quốc hội khóa I của nước Việt Nam Dân chủ Cộng hòa diễn ra vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6/1/1946"
+        },
+        {
+          "id": "B",
+          "text": "2/9/1945"
+        },
+        {
+          "id": "C",
+          "text": "19/12/1946"
+        },
+        {
+          "id": "D",
+          "text": "9/11/1946"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự kiện quan trọng khẳng định tính pháp lý của chính quyền mới."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trái Tim của mục tiêu kinh tế Marshall Plan là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tái chiếm các thuộc địa"
+        },
+        {
+          "id": "B",
+          "text": "Tái xây dựng nước Anh"
+        },
+        {
+          "id": "C",
+          "text": "Tái xây dựng Tây Âu"
+        },
+        {
+          "id": "D",
+          "text": "Tái xây dựng Liên Xô"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Kế hoạch Marshall (1948-1952) nhằm tái xây dựng Tây Âu sau Thế chiến II."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Lực lượng giữ vai trò quan trọng nhất trong chiến lược \"Chiến tranh cục bộ\" (1965-1968) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "B",
+          "text": "Quân Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Quân đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Cố vấn Mỹ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh cục bộ đặc trưng bởi sự tham chiến trực tiếp của quân viễn chinh Mỹ (lực lượng chủ yếu)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong chiến lược \"Chiến tranh đặc biệt\", Mỹ sử dụng lực lượng quân đội nào là chủ yếu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân đội Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "C",
+          "text": "Quân đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Lính đánh thuê"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quân đội Sài Gòn là lực lượng chủ lực."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Ủy ban Dân tộc giải phóng Việt Nam do ai làm Chủ tịch?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trường Chinh"
+        },
+        {
+          "id": "B",
+          "text": "Phạm Văn Đồng"
+        },
+        {
+          "id": "C",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Võ Nguyên Giáp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Được bầu tại Quốc dân Đại hội Tân Trào."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Thắng lợi của phong trào chống chiến lược \"Việt Nam hóa chiến tranh\" đã tạo ra bước ngoặt gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh cho Mỹ cút"
+        },
+        {
+          "id": "B",
+          "text": "Đánh cho ngụy nhào"
+        },
+        {
+          "id": "C",
+          "text": "Giải phóng miền Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất đất nước"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Buộc Mỹ rút quân (Mỹ cút), tạo đà cho bước tiếp theo (ngụy nhào)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thực dân Pháp tiến hành cuộc khai thác thuộc địa lần thứ hai ở Việt Nam (1919-1929) trong hoàn cảnh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kinh tế Pháp đang phát triển mạnh mẽ"
+        },
+        {
+          "id": "B",
+          "text": "Nước Pháp bị tàn phá nặng nề sau CTTG I"
+        },
+        {
+          "id": "C",
+          "text": "Pháp đang chuẩn bị cho CTTG II"
+        },
+        {
+          "id": "D",
+          "text": "Tình hình chính trị Pháp ổn định"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau CTTG I, Pháp là nước thắng trận nhưng bị tàn phá nặng nề, cần khai thác thuộc địa để bù đắp thiệt hại."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu phong trào công nhân Việt Nam bước đầu chuyển từ tự phát sang tự giác?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thành lập Công hội (1920)"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc bãi công của thợ máy xưởng Ba Son (8/1925)"
+        },
+        {
+          "id": "C",
+          "text": "Đảng Cộng sản Việt Nam ra đời (1930)"
+        },
+        {
+          "id": "D",
+          "text": "Phong trào vô sản hóa (1928)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bãi công Ba Son (1925) đánh dấu bước chuyển quan trọng sang tự giác."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan quyết định thắng lợi của Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự lãnh đạo đúng đắn của Đảng và Bác Hồ"
+        },
+        {
+          "id": "B",
+          "text": "Quân Đồng minh đánh bại phát xít Nhật"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần đoàn kết của nhân dân thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Sự ủng hộ của Liên Xô"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Vì sao Mỹ buộc phải chấp nhận đàm phán ở Paris?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do thiện chí hòa bình của Mỹ"
+        },
+        {
+          "id": "B",
+          "text": "Do thất bại nặng nề trong cuộc Tổng tiến công Mậu Thân 1968"
+        },
+        {
+          "id": "C",
+          "text": "Do Liên Xô can thiệp"
+        },
+        {
+          "id": "D",
+          "text": "Do áp lực của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cú sốc Mậu Thân làm lung lay ý chí xâm lược của Mỹ."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Chiến thắng Biên giới thu - đông 1950 có ý nghĩa gì đối với cuộc kháng chiến?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ta giành được quyền chủ động trên chiến trường chính (Bắc Bộ)"
+        },
+        {
+          "id": "B",
+          "text": "Buộc Pháp phải chuyển sang đánh lâu dài"
+        },
+        {
+          "id": "C",
+          "text": "Kết thúc cuộc kháng chiến"
+        },
+        {
+          "id": "D",
+          "text": "Giải phóng hoàn toàn biên giới Việt - Lào"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sau chiến dịch này, ta nắm quyền chủ động về chiến lược trên chiến trường chính."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Quan điểm đổi mới của Đảng CSVN là đổi mới toàn diện và đồng bộ, nhưng quan trọng nhất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giữ vững định hướng xã hội chủ nghĩa"
+        },
+        {
+          "id": "B",
+          "text": "Đổi mới công nghệ"
+        },
+        {
+          "id": "C",
+          "text": "Đổi mới nhân sự"
+        },
+        {
+          "id": "D",
+          "text": "Hợp tác với phương Tây"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi mới không phải là thay đổi mục tiêu CNXH mà làm cho mục tiêu đó thực hiện hiệu quả hơn."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chiến dịch Tây Nguyên thắng lợi đã chuyển cuộc kháng chiến sang giai đoạn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cầm cự"
+        },
+        {
+          "id": "B",
+          "text": "Phản công"
+        },
+        {
+          "id": "C",
+          "text": "Tổng tiến công chiến lược trên toàn miền Nam"
+        },
+        {
+          "id": "D",
+          "text": "Đàm phán"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chuyển từ tiến công chiến lược sang tổng tiến công trên toàn chiến trường."
+    }
+  ]
+}

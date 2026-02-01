@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập số 09",
+    "description": "Đề luyện tập số 9: Tổng hợp kiến thức trọng tâm chuẩn bị cho kỳ thi THPT Quốc Gia.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^4 - 2x^2$. Mệnh đề nào dưới đây đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hàm số nghịch biến trên khoảng $(0; 1)$" },
+        { "id": "B", "text": "Hàm số đồng biến trên khoảng $(-\\infty; -2)$" },
+        { "id": "C", "text": "Hàm số nghịch biến trên khoảng $(-1; 1)$" },
+        { "id": "D", "text": "Hàm số đồng biến trên khoảng $(0; +\\infty)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 4x^3 - 4x$. $y'=0 \\Leftrightarrow x=0, x=\\pm 1$. Bảng xét dấu: Nghịch biến trên $(-\\infty; -1)$ và $(0; 1)$. Đồng biến trên $(-1; 0)$ và $(1; +\\infty)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\log_2(x^2 - 3x + 2)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(-\\infty; 1) \\cup (2; +\\infty)$" },
+        { "id": "B", "text": "$(1; 2)$" },
+        { "id": "C", "text": "$[1; 2]$" },
+        { "id": "D", "text": "$\\mathbb{R} \\setminus \\{1; 2\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện: $x^2 - 3x + 2 > 0 \\Leftrightarrow x < 1$ hoặc $x > 2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nguyên hàm của hàm số $f(x) = 3x^2 + 1$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x^3 + x + C$" },
+        { "id": "B", "text": "$x^3 + C$" },
+        { "id": "C", "text": "$6x + C$" },
+        { "id": "D", "text": "$3x^3 + x + C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\int (3x^2 + 1) \\text{d}x = x^3 + x + C$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, hình chiếu vuông góc của điểm $A(3; 2; -1)$ lên trục $Oy$ là điểm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$M(0; 2; 0)$" },
+        { "id": "B", "text": "$M(3; 0; -1)$" },
+        { "id": "C", "text": "$M(0; 0; -1)$" },
+        { "id": "D", "text": "$M(3; 2; 0)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chiếu lên trục $Oy$ thì giữ nguyên tung độ $y$, cho $x=0, z=0$. Vậy $M(0; 2; 0)$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cho số phức $z = 2 - 5i$. Tìm phần thực và phần ảo của số phức liên hợp $\\bar{z}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phần thực bằng 2, phần ảo bằng 5" },
+        { "id": "B", "text": "Phần thực bằng 2, phần ảo bằng -5" },
+        { "id": "C", "text": "Phần thực bằng 5, phần ảo bằng 2" },
+        { "id": "D", "text": "Phần thực bằng 2, phần ảo bằng $5i$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = 2 - 5i \\Rightarrow \\bar{z} = 2 + 5i$. Phần thực là 2, phần ảo là 5."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $3^x = 5$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = \\log_3 5$" },
+        { "id": "B", "text": "$x = \\log_5 3$" },
+        { "id": "C", "text": "$x = \\frac{5}{3}$" },
+        { "id": "D", "text": "$x = \\frac{3}{5}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Theo định nghĩa logarit: $a^x = b \\Leftrightarrow x = \\log_a b$. Vậy $x = \\log_3 5$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = \\frac{x - 2}{x + 1}$ có đường tiệm cận ngang là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = 1$" },
+        { "id": "B", "text": "$x = -1$" },
+        { "id": "C", "text": "$y = -2$" },
+        { "id": "D", "text": "$x = 2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận ngang $y = \\frac{a}{c} = \\frac{1}{1} = 1$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tính diện tích xung quanh của hình nón có bán kính đáy $r = 3$ và độ dài đường sinh $l = 5$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$15\\pi$" },
+        { "id": "B", "text": "$30\\pi$" },
+        { "id": "C", "text": "$9\\pi$" },
+        { "id": "D", "text": "$24\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_{xq} = \\pi r l = \\pi \\cdot 3 \\cdot 5 = 15\\pi$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính tích phân $I = \\int_{0}^{1} e^{2x} \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{e^2 - 1}{2}$" },
+        { "id": "B", "text": "$e^2 - 1$" },
+        { "id": "C", "text": "$\\frac{e^2}{2}$" },
+        { "id": "D", "text": "$2(e^2 - 1)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\frac{1}{2}e^{2x} \\Big|_0^1 = \\frac{1}{2}(e^2 - e^0) = \\frac{e^2 - 1}{2}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (2; -3; 1)$ và $\\vec{b} = (-1; 0; 4)$. Tọa độ của vectơ $\\vec{u} = \\vec{a} - 2\\vec{b}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(4; -3; -7)$" },
+        { "id": "B", "text": "$(0; -3; 9)$" },
+        { "id": "C", "text": "$(4; -3; 9)$" },
+        { "id": "D", "text": "$(0; -3; -7)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{a} - 2\\vec{b} = (2 - 2(-1); -3 - 2(0); 1 - 2(4)) = (4; -3; -7)$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho số phức $z$ thỏa mãn $(1 + i)z = 3 - i$. Môđun của số phức $z$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{5}$" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "$\\sqrt{2}$" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$|1+i| \\cdot |z| = |3-i| \\Rightarrow \\sqrt{2} |z| = \\sqrt{10} \\Rightarrow |z| = \\sqrt{5}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thể tích khối lăng trụ đứng có đáy là tam giác vuông cân tại $A$, cạnh $AB = AC = a$, cạnh bên $AA' = 2a$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a^3$" },
+        { "id": "B", "text": "$\\frac{a^3}{3}$" },
+        { "id": "C", "text": "$2a^3$" },
+        { "id": "D", "text": "$\\frac{2a^3}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_{ABC} = \\frac{1}{2} a^2$. $V = S_{ABC} \\cdot AA' = \\frac{1}{2} a^2 \\cdot 2a = a^3$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x + \\frac{9}{x}$ trên khoảng $(0; +\\infty)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "9" },
+        { "id": "D", "text": "12" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng BĐT Cauchy: $x + \\frac{9}{x} \\ge 2\\sqrt{x \\cdot \\frac{9}{x}} = 2\\sqrt{9} = 6$. Dấu bằng khi $x=3$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Với $a, b$ là các số thực dương tùy ý và $a \\ne 1$, $\\log_{a^2}(ab)$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2} + \\frac{1}{2}\\log_a b$" },
+        { "id": "B", "text": "$2 + 2\\log_a b$" },
+        { "id": "C", "text": "$\\frac{1}{4}\\log_a b$" },
+        { "id": "D", "text": "$\\frac{1}{2}\\log_a b$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\log_{a^2}(ab) = \\frac{1}{2} \\log_a(ab) = \\frac{1}{2}(\\log_a a + \\log_a b) = \\frac{1}{2}(1 + \\log_a b)$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Từ một hộp chứa 10 quả cầu trắng và 8 quả cầu đỏ, lấy ngẫu nhiên 1 quả. Xác suất để lấy được quả cầu đỏ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{4}{9}$" },
+        { "id": "B", "text": "$\\frac{5}{9}$" },
+        { "id": "C", "text": "$\\frac{8}{10}$" },
+        { "id": "D", "text": "$\\frac{1}{18}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng số quả: 18. Số quả đỏ: 8. $P = \\frac{8}{18} = \\frac{4}{9}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 4x + 3$ và trục hoành là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{4}{3}$" },
+        { "id": "B", "text": "$\\frac{2}{3}$" },
+        { "id": "C", "text": "$\\frac{8}{3}$" },
+        { "id": "D", "text": "$\\frac{1}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm: $x^2 - 4x + 3 = 0 \\Leftrightarrow x=1, x=3$. $S = \\int_{1}^{3} |x^2 - 4x + 3| \\text{d}x = \\frac{4}{3}$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt cầu tâm $I(1; -2; 0)$ và đi qua điểm $A(3; 0; 1)$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(x-1)^2 + (y+2)^2 + z^2 = 9$" },
+        { "id": "B", "text": "$(x-1)^2 + (y+2)^2 + z^2 = 3$" },
+        { "id": "C", "text": "$(x+1)^2 + (y-2)^2 + z^2 = 9$" },
+        { "id": "D", "text": "$(x-3)^2 + y^2 + (z-1)^2 = 9$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$R^2 = IA^2 = (3-1)^2 + (0-(-2))^2 + (1-0)^2 = 4 + 4 + 1 = 9$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tìm $m$ để hàm số $y = \\frac{x - m}{x + 1}$ đồng biến trên từng khoảng xác định.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m > -1$" },
+        { "id": "B", "text": "$m < -1$" },
+        { "id": "C", "text": "$m \\ge -1$" },
+        { "id": "D", "text": "$m \\ne -1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{1 - (-m)}{(x+1)^2} = \\frac{1+m}{(x+1)^2}$. Đồng biến $\\Leftrightarrow y' > 0 \\Leftrightarrow 1+m > 0 \\Leftrightarrow m > -1$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tập hợp điểm biểu diễn số phức $z$ thỏa mãn $|z - 3 + 4i| = 2$ là một đường tròn có tâm $I$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I(3; -4)$" },
+        { "id": "B", "text": "$I(-3; 4)$" },
+        { "id": "C", "text": "$I(3; 4)$" },
+        { "id": "D", "text": "$I(-3; -4)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$|z - (3 - 4i)| = 2$. Tâm $I(3; -4)$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, khoảng cách từ điểm $O(0;0;0)$ đến mặt phẳng $(P): 2x - 2y + z - 6 = 0$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = \\frac{|-6|}{\\sqrt{2^2 + (-2)^2 + 1^2}} = \\frac{6}{3} = 2$."
+    }
+  ]
+}

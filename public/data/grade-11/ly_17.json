@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lý 11 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mối liên hệ giữa tần số góc $\\omega$, chu kì $T$ và tần số $f$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\omega = 2\\pi T = \\frac{2\\pi}{f}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\omega = \\frac{2\\pi}{T} = 2\\pi f$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{\\omega} = 2\\pi f$"
+        },
+        {
+          "id": "D",
+          "text": "$f = \\frac{2\\pi}{\\omega} = \\frac{1}{T}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $\\omega = \\frac{2\\pi}{T} = 2\\pi f$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Biên độ sóng tại một điểm thường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tăng dần khi càng xa nguồn."
+        },
+        {
+          "id": "B",
+          "text": "giảm dần khi càng xa nguồn (do năng lượng phân tán và ma sát)."
+        },
+        {
+          "id": "C",
+          "text": "không đổi trong mọi môi trường."
+        },
+        {
+          "id": "D",
+          "text": "bằng biên độ nguồn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trong thực tế, năng lượng sóng giảm dần khi lan truyền ra xa nên biên độ giảm."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Phân loại sóng cơ dựa vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bản chất của môi trường truyền sóng."
+        },
+        {
+          "id": "B",
+          "text": "hướng dao động của các phần tử môi trường so với phương truyền sóng."
+        },
+        {
+          "id": "C",
+          "text": "tần số của sóng."
+        },
+        {
+          "id": "D",
+          "text": "biên độ của sóng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ chia làm hai loại: Sóng ngang (dao động vuông góc với phương truyền sóng) và Sóng dọc (dao động cùng phương truyền sóng)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Pha ban đầu $\\varphi$ trong phương trình dao động cho biết",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trạng thái dao động ở thời điểm t bất kì."
+        },
+        {
+          "id": "B",
+          "text": "trạng thái dao động ở thời điểm ban đầu (t = 0)."
+        },
+        {
+          "id": "C",
+          "text": "biên độ dao động."
+        },
+        {
+          "id": "D",
+          "text": "chu kì dao động."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại $t=0$, pha dao động là $\\varphi$, xác định li độ và chiều chuyển động ban đầu."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa thực hiện được 10 dao động toàn phần trong 20 giây. Chu kì dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 s."
+        },
+        {
+          "id": "B",
+          "text": "0,5 s."
+        },
+        {
+          "id": "C",
+          "text": "20 s."
+        },
+        {
+          "id": "D",
+          "text": "10 s."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{\\Delta t}{N} = \\frac{20}{10} = 2$ s."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa thực hiện được 10 dao động toàn phần trong 20 giây. Chu kì dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 s."
+        },
+        {
+          "id": "B",
+          "text": "0,5 s."
+        },
+        {
+          "id": "C",
+          "text": "20 s."
+        },
+        {
+          "id": "D",
+          "text": "10 s."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{\\Delta t}{N} = \\frac{20}{10} = 2$ s."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hai điểm trên cùng một phương truyền sóng cách nhau một khoảng $d$ sẽ dao động ngược pha khi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$d = k\\lambda$."
+        },
+        {
+          "id": "B",
+          "text": "$d = (k + 0,5)\\lambda$."
+        },
+        {
+          "id": "C",
+          "text": "$d = (2k + 1)\\lambda$."
+        },
+        {
+          "id": "D",
+          "text": "$d = k\\lambda / 2$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngược pha: $d = (2k+1)\\frac{\\lambda}{2} = (k + 0,5)\\lambda$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sóng dọc truyền được trong các môi trường nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ chất rắn."
+        },
+        {
+          "id": "B",
+          "text": "Chỉ chất lỏng và khí."
+        },
+        {
+          "id": "C",
+          "text": "Rắn, lỏng và khí."
+        },
+        {
+          "id": "D",
+          "text": "Chân không."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sóng dọc (như sóng âm) truyền được trong cả 3 môi trường Rắn, Lỏng, Khí. (Sóng cơ không truyền trong chân không)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với tần số $f = 2$ Hz. Tần số góc của dao động là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\pi$ rad/s."
+        },
+        {
+          "id": "B",
+          "text": "$2\\pi$ rad/s."
+        },
+        {
+          "id": "C",
+          "text": "$4\\pi$ rad/s."
+        },
+        {
+          "id": "D",
+          "text": "2 rad/s."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi f = 2\\pi \\cdot 2 = 4\\pi$ rad/s."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda / 2$."
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda$."
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda / 4$."
+        },
+        {
+          "id": "D",
+          "text": "$2\\lambda$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là một định nghĩa khác của bước sóng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Biên độ sóng tại một điểm thường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tăng dần khi càng xa nguồn."
+        },
+        {
+          "id": "B",
+          "text": "giảm dần khi càng xa nguồn (do năng lượng phân tán và ma sát)."
+        },
+        {
+          "id": "C",
+          "text": "không đổi trong mọi môi trường."
+        },
+        {
+          "id": "D",
+          "text": "bằng biên độ nguồn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trong thực tế, năng lượng sóng giảm dần khi lan truyền ra xa nên biên độ giảm."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Năng lượng sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "năng lượng dao động của các phần tử môi trường nơi có sóng truyền qua."
+        },
+        {
+          "id": "B",
+          "text": "năng lượng của nguồn sóng."
+        },
+        {
+          "id": "C",
+          "text": "tổng động năng của các hạt vật chất."
+        },
+        {
+          "id": "D",
+          "text": "năng lượng điện từ."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quá trình truyền sóng là quá trình truyền năng lượng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m."
+        },
+        {
+          "id": "B",
+          "text": "4 cm."
+        },
+        {
+          "id": "C",
+          "text": "6 cm."
+        },
+        {
+          "id": "D",
+          "text": "4\\pi cm."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng cơ phụ thuộc vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số sóng."
+        },
+        {
+          "id": "B",
+          "text": "bước sóng."
+        },
+        {
+          "id": "C",
+          "text": "biên độ sóng."
+        },
+        {
+          "id": "D",
+          "text": "bản chất của môi trường truyền sóng."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vận tốc truyền sóng đặc trưng cho môi trường (mật độ, tính đàn hồi...), thường $v_R > v_L > v_K$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sóng ngang là sóng trong đó các phần tử môi trường dao động theo phương",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trùng với phương truyền sóng."
+        },
+        {
+          "id": "B",
+          "text": "vuông góc với phương truyền sóng."
+        },
+        {
+          "id": "C",
+          "text": "nằm ngang."
+        },
+        {
+          "id": "D",
+          "text": "thẳng đứng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa sóng ngang [Image of transverse vs longitudinal wave]. Ví dụ: sóng trên mặt nước, sóng trên dây."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng dao động cùng pha là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda / 2$."
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda$."
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda / 4$."
+        },
+        {
+          "id": "D",
+          "text": "$2\\lambda$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là một định nghĩa khác của bước sóng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Bước sóng $\\lambda$ là quãng đường sóng truyền đi được trong",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "một đơn vị thời gian."
+        },
+        {
+          "id": "B",
+          "text": "một chu kì dao động."
+        },
+        {
+          "id": "C",
+          "text": "nửa chu kì dao động."
+        },
+        {
+          "id": "D",
+          "text": "1 giây."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa bước sóng: $\\lambda = v.T$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một sóng cơ có tần số 10 Hz lan truyền với tốc độ 2 m/s. Bước sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "20 m."
+        },
+        {
+          "id": "B",
+          "text": "0,2 m."
+        },
+        {
+          "id": "C",
+          "text": "5 m."
+        },
+        {
+          "id": "D",
+          "text": "0,5 m."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 2/10 = 0,2$ m."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Độ lệch pha giữa hai điểm M, N cách nguồn lần lượt $d_1, d_2$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\Delta \\varphi = \\frac{2\\pi (d_2 - d_1)}{\\lambda}$."
+        },
+        {
+          "id": "B",
+          "text": "$\\Delta \\varphi = \\frac{\\pi (d_2 - d_1)}{\\lambda}$."
+        },
+        {
+          "id": "C",
+          "text": "$\\Delta \\varphi = \\frac{2\\pi (d_2 + d_1)}{\\lambda}$."
+        },
+        {
+          "id": "D",
+          "text": "$\\Delta \\varphi = \\frac{\\lambda}{2\\pi (d_2 - d_1)}$."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tính độ lệch pha: $\\Delta \\varphi = 2\\pi \\Delta d / \\lambda$."
+    }
+  ]
+}

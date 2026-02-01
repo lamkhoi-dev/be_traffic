@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 10: Các cuộc cách mạng công nghiệp thời kì hiện đại",
+    "description": "Kiểm tra kiến thức về Cách mạng công nghiệp lần thứ ba (Kỹ thuật số) và lần thứ tư (4.0 - Trí tuệ nhân tạo, Kết nối vạn vật).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ ba bắt đầu vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đầu thế kỷ XX." },
+        { "id": "B", "text": "Những năm 40 của thế kỷ XX (Gắn với máy tính điện tử)." },
+        { "id": "C", "text": "Năm 2000." },
+        { "id": "D", "text": "Năm 2011." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khởi đầu từ Mỹ với sự ra đời của máy tính điện tử ENIAC (1946)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Yếu tố cốt lõi của Cách mạng công nghiệp lần thứ ba là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nghệ thông tin và Tự động hóa." },
+        { "id": "B", "text": "Động cơ hơi nước." },
+        { "id": "C", "text": "Động cơ đốt trong." },
+        { "id": "D", "text": "In ấn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giai đoạn này còn gọi là Cách mạng Kỹ thuật số (Digital Revolution)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Internet (Mạng toàn cầu) bắt đầu phổ biến rộng rãi từ khi nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thập niên 1950." },
+        { "id": "B", "text": "Thập niên 1990." },
+        { "id": "C", "text": "Thập niên 1970." },
+        { "id": "D", "text": "Năm 2010." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của World Wide Web (WWW) đầu thập niên 90 đã bùng nổ Internet."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Khái niệm 'Cách mạng công nghiệp 4.0' lần đầu tiên được đưa ra tại đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tại Mỹ (2000)." },
+        { "id": "B", "text": "Tại Hội chợ Hannover, Đức (2011)." },
+        { "id": "C", "text": "Tại Nhật Bản (2015)." },
+        { "id": "D", "text": "Tại Trung Quốc (2008)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đức là nước khởi xướng khái niệm Industrie 4.0."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Công nghệ nào sau đây KHÔNG phải là đặc trưng của CMCN 4.0?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trí tuệ nhân tạo (AI)." },
+        { "id": "B", "text": "Máy hơi nước." },
+        { "id": "C", "text": "Internet vạn vật (IoT)." },
+        { "id": "D", "text": "Dữ liệu lớn (Big Data)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy hơi nước là của CMCN lần 1."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Robot Sophia là biểu tượng cho sự phát triển của công nghệ nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nghệ gen." },
+        { "id": "B", "text": "Trí tuệ nhân tạo (AI) và Robot." },
+        { "id": "C", "text": "Công nghệ in 3D." },
+        { "id": "D", "text": "Công nghệ nano." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sophia là robot hình người đầu tiên được cấp quyền công dân."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Sự kết hợp giữa thế giới thực và thế giới ảo (Cyber-Physical Systems) là đặc điểm của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "CMCN lần 1." },
+        { "id": "B", "text": "CMCN lần 2." },
+        { "id": "C", "text": "CMCN lần 3." },
+        { "id": "D", "text": "CMCN lần 4." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Hệ thống thực-ảo là cốt lõi của 4.0."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tác động tích cực của CMCN 4.0 đối với sản xuất là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cần nhiều lao động chân tay hơn." },
+        { "id": "B", "text": "Tăng năng suất, chất lượng và tính cá nhân hóa sản phẩm." },
+        { "id": "C", "text": "Làm chậm quá trình giao hàng." },
+        { "id": "D", "text": "Giảm sự phụ thuộc vào công nghệ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhà máy thông minh giúp sản xuất hiệu quả và linh hoạt hơn."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất về mặt xã hội của CMCN 4.0 là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thiếu lương thực." },
+        { "id": "B", "text": "Nguy cơ thất nghiệp cho lao động trình độ thấp và vấn đề bảo mật." },
+        { "id": "C", "text": "Dư thừa năng lượng." },
+        { "id": "D", "text": "Không có điện thoại để dùng." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy móc, AI thay thế con người trong nhiều công việc lặp lại."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "'Điện toán đám mây' (Cloud Computing) cho phép",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lưu trữ và truy cập dữ liệu qua Internet thay vì ổ cứng cục bộ." },
+        { "id": "B", "text": "Tạo ra mây nhân tạo." },
+        { "id": "C", "text": "Bay lên trời bằng máy tính." },
+        { "id": "D", "text": "Chạy máy tính bằng hơi nước." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nền tảng của các dịch vụ trực tuyến hiện nay."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Vật liệu mới nào có độ bền gấp trăm lần thép nhưng siêu nhẹ, đặc trưng cho công nghệ hiện đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhựa." },
+        { "id": "B", "text": "Gra-phen (Graphene) và vật liệu Nano." },
+        { "id": "C", "text": "Gỗ ép." },
+        { "id": "D", "text": "Đồng đen." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công nghệ vật liệu mới là một trụ cột quan trọng."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong nông nghiệp, CMCN 4.0 thể hiện qua hình thức nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cày bằng trâu." },
+        { "id": "B", "text": "Nông nghiệp thông minh (Smart Farming) dùng cảm biến, drone." },
+        { "id": "C", "text": "Dùng phân bón hóa học tràn lan." },
+        { "id": "D", "text": "Gặt lúa bằng liềm." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tự động hóa tưới tiêu, giám sát cây trồng bằng máy bay không người lái."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mạng xã hội (Facebook, Zalo...) là sản phẩm của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng công nghiệp hiện đại (Kết nối toàn cầu)." },
+        { "id": "B", "text": "Cách mạng công nghiệp hơi nước." },
+        { "id": "C", "text": "Thời kỳ Phục hưng." },
+        { "id": "D", "text": "Thời kỳ đồ đá." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kết nối con người qua không gian mạng."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thương mại điện tử (E-commerce) giúp con người",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mua sắm mọi lúc mọi nơi qua Internet." },
+        { "id": "B", "text": "Phải đến tận cửa hàng để mua." },
+        { "id": "C", "text": "Chỉ mua được hàng hóa trong nước." },
+        { "id": "D", "text": "Không cần dùng tiền." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay đổi hoàn toàn thói quen tiêu dùng."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Công nghệ In 3D (Additive Manufacturing) cho phép",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "In văn bản nhanh hơn." },
+        { "id": "B", "text": "Tạo ra các vật thể 3 chiều từ bản vẽ số bằng cách đắp lớp." },
+        { "id": "C", "text": "In ảnh màu sắc nét." },
+        { "id": "D", "text": "In tiền giả." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chế tạo nhanh các chi tiết phức tạp, thậm chí in nhà cửa, bộ phận cơ thể."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khái niệm 'Công dân toàn cầu' xuất hiện trong bối cảnh nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khi con người chỉ sống trong lũy tre làng." },
+        { "id": "B", "text": "Khi Internet và toàn cầu hóa xóa nhòa khoảng cách địa lý." },
+        { "id": "C", "text": "Khi có chiến tranh thế giới." },
+        { "id": "D", "text": "Khi đi du lịch." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CMCN hiện đại thúc đẩy toàn cầu hóa mạnh mẽ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Năng lượng tái tạo (gió, mặt trời) được ưu tiên phát triển trong thời kỳ hiện đại nhằm",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiết kiệm tiền." },
+        { "id": "B", "text": "Bảo vệ môi trường và phát triển bền vững." },
+        { "id": "C", "text": "Vì hết than đá." },
+        { "id": "D", "text": "Vì sở thích." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hướng tới tăng trưởng xanh, giảm phát thải carbon."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Để thích ứng với CMCN 4.0, học sinh cần trang bị gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chỉ cần học thuộc lòng sách giáo khoa." },
+        { "id": "B", "text": "Kỹ năng số, ngoại ngữ, tư duy sáng tạo và khả năng tự học." },
+        { "id": "C", "text": "Học võ thuật." },
+        { "id": "D", "text": "Không cần học gì vì máy làm hết." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kỹ năng mềm và tư duy số là chìa khóa trong kỷ nguyên số."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Blockchain (Chuỗi khối) là công nghệ nền tảng của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiền điện tử (như Bitcoin) và bảo mật dữ liệu." },
+        { "id": "B", "text": "Trò chơi điện tử." },
+        { "id": "C", "text": "Mạng xã hội." },
+        { "id": "D", "text": "Xe tự lái." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đảm bảo tính minh bạch và không thể sửa đổi của dữ liệu."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Thành tựu chinh phục vũ trụ tiêu biểu của thời kỳ hiện đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phóng vệ tinh nhân tạo và đưa người lên Mặt Trăng/Trạm vũ trụ." },
+        { "id": "B", "text": "Bay khinh khí cầu." },
+        { "id": "C", "text": "Tìm ra Châu Mỹ." },
+        { "id": "D", "text": "Lặn xuống đáy biển." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mở ra kỷ nguyên khám phá không gian (Sputnik, Apollo, ISS)."
+    }
+  ]
+}

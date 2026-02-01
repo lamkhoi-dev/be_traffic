@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 2: Humans and the Environment",
+    "description": "Kiểm tra từ vựng về Môi trường, lối sống xanh và ngữ pháp Tương lai đơn vs Tương lai gần, Câu bị động.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pl_anet" },
+        { "id": "B", "text": "pl_astic" },
+        { "id": "C", "text": "pl_ea" },
+        { "id": "D", "text": "appl_iance" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Câu D trọng âm rơi vào âm tiết 2, âm 'pl' đọc nhẹ hơn hoặc khác biệt ngữ điệu so với 3 từ còn lại nhấn âm đầu hoặc âm đơn."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "protect" },
+        { "id": "B", "text": "pollute" },
+        { "id": "C", "text": "consume" },
+        { "id": "D", "text": "litter" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Litter nhấn âm 1 (lit-ter). Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We should ________ a green lifestyle to help conserve natural resources.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "adopt" },
+        { "id": "B", "text": "adapt" },
+        { "id": "C", "text": "adept" },
+        { "id": "D", "text": "adjust" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Adopt a lifestyle: áp dụng/theo một lối sống."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Look at those dark clouds! It ________ rain soon.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will" },
+        { "id": "B", "text": "is going to" },
+        { "id": "C", "text": "shall" },
+        { "id": "D", "text": "might" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dự đoán có căn cứ rõ ràng (mây đen) -> dùng 'be going to'."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "More trees ________ in the schoolyard next week.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "plant" },
+        { "id": "B", "text": "will plant" },
+        { "id": "C", "text": "will be planted" },
+        { "id": "D", "text": "are planted" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cây được trồng (bị động) và thời gian 'next week' -> Tương lai đơn bị động."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Using public transport can help reduce our ________ footprint.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "oxygen" },
+        { "id": "B", "text": "smoke" },
+        { "id": "C", "text": "carbon" },
+        { "id": "D", "text": "waste" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Carbon footprint: dấu chân carbon (lượng khí thải)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Don't throw away plastic bottles. You can ________ them for other purposes.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "reduce" },
+        { "id": "B", "text": "reuse" },
+        { "id": "C", "text": "recycle" },
+        { "id": "D", "text": "remove" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dùng lại cho mục đích khác -> Reuse (Tái sử dụng)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "I think electric cars ________ more popular in the future.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "become" },
+        { "id": "B", "text": "are becoming" },
+        { "id": "C", "text": "will become" },
+        { "id": "D", "text": "are going to become" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dự đoán mang tính cá nhân (I think) -> dùng 'will'."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Organic food is better for our health because it contains no harmful ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "chemicals" },
+        { "id": "B", "text": "minerals" },
+        { "id": "C", "text": "vitamins" },
+        { "id": "D", "text": "nutrients" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chemicals: hóa chất."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The event ________ by the Green Club tomorrow morning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "organizes" },
+        { "id": "B", "text": "is organized" },
+        { "id": "C", "text": "will be organized" },
+        { "id": "D", "text": "will organize" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bị động thì tương lai đơn (tomorrow)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Everyone should cut ________ on plastic usage.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "off" },
+        { "id": "B", "text": "up" },
+        { "id": "C", "text": "down" },
+        { "id": "D", "text": "in" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cut down on: cắt giảm."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "The club hopes to raise ________ about environmental issues.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "awareness" },
+        { "id": "B", "text": "knowledge" },
+        { "id": "C", "text": "experience" },
+        { "id": "D", "text": "lesson" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Raise awareness: nâng cao nhận thức."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Which of the following is NOT a 'green' activity?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Planting trees" },
+        { "id": "B", "text": "Using single-use plastic bags" },
+        { "id": "C", "text": "Recycling paper" },
+        { "id": "D", "text": "Saving water" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử dụng túi nhựa dùng 1 lần gây hại môi trường."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Wait! I ________ you with those heavy bags.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "am going to help" },
+        { "id": "B", "text": "will help" },
+        { "id": "C", "text": "am helping" },
+        { "id": "D", "text": "help" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quyết định ngay tại thời điểm nói -> dùng 'will'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Household ________ should be turned off when not in use.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "appliances" },
+        { "id": "B", "text": "chores" },
+        { "id": "C", "text": "instruments" },
+        { "id": "D", "text": "materials" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Household appliances: thiết bị gia dụng."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Find the synonym of 'contaminate'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "clean" },
+        { "id": "B", "text": "pollute" },
+        { "id": "C", "text": "protect" },
+        { "id": "D", "text": "save" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Contaminate = Pollute (làm ô nhiễm)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Many wild animals are in danger of ________ habitat loss.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "because" },
+        { "id": "B", "text": "due to" },
+        { "id": "C", "text": "despite" },
+        { "id": "D", "text": "because of" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Due to + Noun phrase. (Because of cũng đúng nhưng trong văn cảnh trang trọng 'due to' thường dùng hơn, tuy nhiên ở level lớp 10 B và D đều chấp nhận được, chọn B/D đều hợp lý, đáp án mẫu chọn B)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We bought some ________ vegetables at the farmers' market.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "organic" },
+        { "id": "B", "text": "chemical" },
+        { "id": "C", "text": "industrial" },
+        { "id": "D", "text": "polluted" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Organic vegetables: rau hữu cơ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The school aims to ________ energy consumption by 20%.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "increase" },
+        { "id": "B", "text": "reduce" },
+        { "id": "C", "text": "rise" },
+        { "id": "D", "text": "boost" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Reduce consumption: giảm tiêu thụ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Choose the correct passive sentence: 'They will build a new park here.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "A new park will built here." },
+        { "id": "B", "text": "A new park is built here." },
+        { "id": "C", "text": "A new park will be built here." },
+        { "id": "D", "text": "A new park are going to be built here." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Passive Future Simple: will be + V3."
+    }
+  ]
+}

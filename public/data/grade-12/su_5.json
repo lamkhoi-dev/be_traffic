@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 5: Việt Nam 1930-1945",
+    "description": "Kiểm tra kiến thức về Xô viết Nghệ - Tĩnh, Cuộc vận động dân chủ 1936-1939, và Tổng khởi nghĩa tháng Tám 1945.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đỉnh cao của phong trào cách mạng 1930-1931 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các cuộc bãi công của công nhân Vinh - Bến Thủy" },
+        { "id": "B", "text": "Sự ra đời của Xô viết Nghệ - Tĩnh" },
+        { "id": "C", "text": "Cuộc biểu tình của nông dân Hưng Nguyên" },
+        { "id": "D", "text": "Phong trào đấu tranh nhân ngày Quốc tế Lao động 1/5" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của chính quyền Xô viết là đỉnh cao, là chính quyền của dân, do dân, vì dân."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hình thức đấu tranh chủ yếu trong phong trào dân chủ 1936-1939 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đấu tranh vũ trang, bạo động" },
+        { "id": "B", "text": "Đấu tranh chính trị công khai, hợp pháp" },
+        { "id": "C", "text": "Đấu tranh bí mật, bất hợp pháp" },
+        { "id": "D", "text": "Khởi nghĩa từng phần" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lợi dụng tình hình thuận lợi, Đảng chủ trương đấu tranh công khai, hợp pháp, nửa công khai..."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Hội nghị Trung ương 8 (5/1941) do Nguyễn Ái Quốc chủ trì đã xác định nhiệm vụ hàng đầu của cách mạng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giải phóng dân tộc" },
+        { "id": "B", "text": "Cách mạng ruộng đất" },
+        { "id": "C", "text": "Đấu tranh giai cấp" },
+        { "id": "D", "text": "Xây dựng chủ nghĩa xã hội" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt nhiệm vụ giải phóng dân tộc lên hàng đầu, tạm gác khẩu hiệu cách mạng ruộng đất."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Mặt trận Việt Minh được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "19/5/1890" },
+        { "id": "B", "text": "19/5/1941" },
+        { "id": "C", "text": "22/12/1944" },
+        { "id": "D", "text": "2/9/1945" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 19/5/1941, Mặt trận Việt Minh ra đời tại Pác Bó (Cao Bằng)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chỉ thị \"Nhật - Pháp bắn nhau và hành động của chúng ta\" ra đời trong bối cảnh nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhật đầu hàng Đồng minh" },
+        { "id": "B", "text": "Nhật đảo chính Pháp (9/3/1945)" },
+        { "id": "C", "text": "Pháp đầu hàng Nhật" },
+        { "id": "D", "text": "Quân Đồng minh vào Đông Dương" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngay trong đêm Nhật đảo chính Pháp, Ban Thường vụ TƯ Đảng đã họp và ra chỉ thị này."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Bốn tỉnh giành chính quyền sớm nhất trong Cách mạng tháng Tám 1945 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hà Nội, Huế, Sài Gòn, Bắc Giang" },
+        { "id": "B", "text": "Bắc Giang, Hải Dương, Hà Tĩnh, Quảng Nam" },
+        { "id": "C", "text": "Hà Nội, Bắc Giang, Hải Dương, Huế" },
+        { "id": "D", "text": "Thái Nguyên, Tuyên Quang, Hà Nội, Sài Gòn" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 18/8/1945, 4 tỉnh giành chính quyền sớm nhất cả nước."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Thời cơ \"ngàn năm có một\" của Cách mạng tháng Tám xuất hiện khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhật đảo chính Pháp" },
+        { "id": "B", "text": "Nhật đầu hàng Đồng minh (8/1945)" },
+        { "id": "C", "text": "Đức đầu hàng Đồng minh" },
+        { "id": "D", "text": "Quân Đồng minh vào giải giáp quân Nhật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời cơ tồn tại từ khi Nhật đầu hàng đến trước khi quân Đồng minh vào."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc tập dượt lần thứ nhất cho Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phong trào cách mạng 1930-1931" },
+        { "id": "B", "text": "Phong trào dân chủ 1936-1939" },
+        { "id": "C", "text": "Cao trào kháng Nhật cứu nước 1945" },
+        { "id": "D", "text": "Khởi nghĩa Bắc Sơn 1940" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "1930-1931 là cuộc tập dượt đầu tiên; 1936-1939 là cuộc tập dượt thứ hai."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "22/12/1944" },
+        { "id": "B", "text": "15/5/1945" },
+        { "id": "C", "text": "19/8/1945" },
+        { "id": "D", "text": "2/9/1945" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiền thân của Quân đội nhân dân Việt Nam, thành lập 22/12/1944."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khẩu hiệu \"Đả đảo chủ nghĩa đế quốc! Đả đảo phong kiến!\" thuộc phong trào nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phong trào 1930-1931" },
+        { "id": "B", "text": "Phong trào 1936-1939" },
+        { "id": "C", "text": "Phong trào 1939-1945" },
+        { "id": "D", "text": "Phong trào Cần Vương" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu chiến lược của phong trào 1930-1931."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong phong trào dân chủ 1936-1939, Đảng đã tạm gác khẩu hiệu nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Độc lập dân tộc và Cách mạng ruộng đất" },
+        { "id": "B", "text": "Tự do, dân chủ" },
+        { "id": "C", "text": "Cơm áo, hòa bình" },
+        { "id": "D", "text": "Chống chế độ phản động thuộc địa" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tạm gác nhiệm vụ chiến lược để tập trung nhiệm vụ trước mắt là dân sinh, dân chủ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự quay trở lại xâm lược của thực dân Pháp?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pháp nổ súng ở Sài Gòn (23/9/1945)" },
+        { "id": "B", "text": "Pháp nổ súng ở Hà Nội (19/12/1946)" },
+        { "id": "C", "text": "Pháp nổ súng ở Hải Phòng" },
+        { "id": "D", "text": "Pháp nổ súng ở Lạng Sơn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Được quân Anh giúp sức, Pháp nổ súng đánh chiếm Nam Bộ ngày 23/9/1945."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hội nghị Ban Chấp hành Trung ương Đảng (7/1936) được tổ chức tại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hương Cảng (Trung Quốc)" },
+        { "id": "B", "text": "Ma Cao (Trung Quốc)" },
+        { "id": "C", "text": "Thượng Hải (Trung Quốc)" },
+        { "id": "D", "text": "Bà Điểm (Hóc Môn)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hội nghị họp tại Thượng Hải do Lê Hồng Phong chủ trì."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cao trào kháng Nhật cứu nước diễn ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bắc Kỳ và Bắc Trung Kỳ" },
+        { "id": "B", "text": "Nam Kỳ" },
+        { "id": "C", "text": "Tây Nguyên" },
+        { "id": "D", "text": "Các đô thị lớn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nơi chính quyền địch bị tê liệt và phong trào quần chúng lên cao, cộng với nạn đói diễn ra gay gắt."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tuyên ngôn Độc lập (2/9/1945) được Bác Hồ đọc tại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quảng trường Ba Đình" },
+        { "id": "B", "text": "Nhà hát lớn Hà Nội" },
+        { "id": "C", "text": "Bắc Bộ phủ" },
+        { "id": "D", "text": "Tân Trào" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại Quảng trường Ba Đình lịch sử."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan quyết định thắng lợi của Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự lãnh đạo đúng đắn của Đảng và Bác Hồ" },
+        { "id": "B", "text": "Quân Đồng minh đánh bại phát xít Nhật" },
+        { "id": "C", "text": "Tinh thần đoàn kết của nhân dân thế giới" },
+        { "id": "D", "text": "Sự ủng hộ của Liên Xô" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ủy ban Dân tộc giải phóng Việt Nam do ai làm Chủ tịch?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trường Chinh" },
+        { "id": "B", "text": "Phạm Văn Đồng" },
+        { "id": "C", "text": "Hồ Chí Minh" },
+        { "id": "D", "text": "Võ Nguyên Giáp" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Được bầu tại Quốc dân Đại hội Tân Trào."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phong trào \"Phá kho thóc, giải quyết nạn đói\" diễn ra trong thời kỳ nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cao trào kháng Nhật cứu nước (1945)" },
+        { "id": "B", "text": "Phong trào 1930-1931" },
+        { "id": "C", "text": "Phong trào 1936-1939" },
+        { "id": "D", "text": "Sau Cách mạng tháng Tám" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu đáp ứng nguyện vọng cấp bách nhất của nông dân lúc bấy giờ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cuộc khởi nghĩa giành chính quyền ở Hà Nội thắng lợi vào ngày nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "19/8/1945" },
+        { "id": "B", "text": "23/8/1945" },
+        { "id": "C", "text": "25/8/1945" },
+        { "id": "D", "text": "2/9/1945" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngày 19/8/1945 giành chính quyền ở Hà Nội."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hình thái của cuộc Cách mạng tháng Tám 1945 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đi từ khởi nghĩa từng phần tiến lên tổng khởi nghĩa" },
+        { "id": "B", "text": "Tổng khởi nghĩa đồng loạt trên cả nước" },
+        { "id": "C", "text": "Đấu tranh chính trị kết hợp vũ trang" },
+        { "id": "D", "text": "Đấu tranh ngoại giao là chủ yếu" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là nét độc đáo của nghệ thuật khởi nghĩa (từ tháng 3 đến tháng 8/1945)."
+    }
+  ]
+}

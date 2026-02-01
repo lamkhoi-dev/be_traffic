@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hợp lực của hai lực đồng quy $F_1 = 3N$ và $F_2 = 4N$ vuông góc với nhau có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "7 N"
+        },
+        {
+          "id": "B",
+          "text": "1 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "12 N"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3^2 + 4^2} = 5$ N."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Độ dịch chuyển và quãng đường đi được của vật có độ lớn bằng nhau khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật chuyển động tròn"
+        },
+        {
+          "id": "B",
+          "text": "Vật chuyển động thẳng và không đổi chiều"
+        },
+        {
+          "id": "C",
+          "text": "Vật chuyển động thẳng và đổi chiều"
+        },
+        {
+          "id": "D",
+          "text": "Vật chuyển động cong"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chuyển động thẳng không đổi chiều, vectơ độ dịch chuyển có độ lớn bằng quãng đường."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Va chạm đàn hồi là va chạm trong đó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ bảo toàn động lượng, động năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn cả động lượng và động năng"
+        },
+        {
+          "id": "C",
+          "text": "Vật dính vào nhau sau va chạm"
+        },
+        {
+          "id": "D",
+          "text": "Động năng tăng lên sau va chạm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Va chạm đàn hồi bảo toàn cả động lượng và động năng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Moment lực đối với một trục quay là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng làm vật chuyển động tịnh tiến"
+        },
+        {
+          "id": "B",
+          "text": "Tác dụng làm vật quay quanh trục"
+        },
+        {
+          "id": "C",
+          "text": "Tác dụng làm biến dạng vật"
+        },
+        {
+          "id": "D",
+          "text": "Mức quán tính của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Moment lực $M = F.d$ đặc trưng cho tác dụng làm quay của lực."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Biểu thức liên hệ giữa độ biến thiên động lượng và xung lượng của lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\Delta \\vec{p} = \\vec{F}.\\Delta t$"
+        },
+        {
+          "id": "B",
+          "text": "$\\Delta \\vec{p} = \\frac{\\vec{F}}{\\Delta t}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{p} = \\vec{F}.\\Delta t$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{F} = \\Delta \\vec{p}.\\Delta t$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ biến thiên động lượng bằng xung lượng của lực tác dụng trong khoảng thời gian đó."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong va chạm mềm, đại lượng nào được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng"
+        },
+        {
+          "id": "B",
+          "text": "Cơ năng"
+        },
+        {
+          "id": "C",
+          "text": "Động lượng"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Va chạm mềm là hệ kín (hoặc coi như kín trong thời gian ngắn) nên bảo toàn động lượng. Động năng không bảo toàn (mất mát thành nhiệt)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đơn vị của tốc độ góc $\\omega$ trong hệ SI là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mét trên giây (m/s)"
+        },
+        {
+          "id": "B",
+          "text": "Radian trên giây (rad/s)"
+        },
+        {
+          "id": "C",
+          "text": "Vòng trên phút (rpm)"
+        },
+        {
+          "id": "D",
+          "text": "Độ trên giây (degree/s)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tốc độ góc đo bằng góc quét được (radian) trong một đơn vị thời gian (giây)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đơn vị nào sau đây **không** phải là đơn vị của năng lượng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "B",
+          "text": "Calo (cal)"
+        },
+        {
+          "id": "C",
+          "text": "kWh"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Newton là đơn vị của lực."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đơn vị kWh (kí-lô-oát giờ) là đơn vị của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công suất"
+        },
+        {
+          "id": "B",
+          "text": "Lực"
+        },
+        {
+          "id": "C",
+          "text": "Công (Năng lượng)"
+        },
+        {
+          "id": "D",
+          "text": "Thời gian"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "1 kWh là lượng điện năng tiêu thụ (Công) của thiết bị 1kW trong 1 giờ. $1 kWh = 3,6 \\times 10^6$ J."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn chịu tác dụng của ba lực không song song là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ba lực đó phải đồng phẳng và đồng quy"
+        },
+        {
+          "id": "B",
+          "text": "Hợp lực của hai lực bất kỳ phải cân bằng với lực thứ ba"
+        },
+        {
+          "id": "C",
+          "text": "Ba lực đó phải vuông góc với nhau từng đôi một"
+        },
+        {
+          "id": "D",
+          "text": "Cả A và B đều đúng"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc hợp lực đồng quy: Ba lực phải đồng phẳng, đồng quy và hợp lực của 2 lực cân bằng lực thứ 3 (Tổng vectơ bằng 0)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Độ cứng $k$ của lò xo phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực tác dụng lên lò xo"
+        },
+        {
+          "id": "B",
+          "text": "Độ biến dạng của lò xo"
+        },
+        {
+          "id": "C",
+          "text": "Bản chất vật liệu và kích thước của lò xo"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật treo vào lò xo"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số k đặc trưng cho bản chất và kích thước của lò xo, không phụ thuộc ngoại lực."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng bằng nhau. Vật 1 chuyển động nhanh gấp đôi vật 2. Động năng của vật 1 so với vật 2 sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gấp 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Gấp 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Bằng nhau"
+        },
+        {
+          "id": "D",
+          "text": "Gấp $\\sqrt{2}$ lần"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d \\sim v^2$. Nếu $v$ tăng 2 lần thì $W_d$ tăng $2^2 = 4$ lần."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Công thức liên hệ giữa tốc độ dài $v$, tốc độ góc $\\omega$ và bán kính quỹ đạo $r$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$v = \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$\\omega = v r$"
+        },
+        {
+          "id": "C",
+          "text": "$v = \\frac{\\omega}{r}$"
+        },
+        {
+          "id": "D",
+          "text": "$v = \\omega^2 r$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $v = \\omega r$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một viên đạn pháo đang bay ngang thì nổ thành hai mảnh. Mảnh 1 bay thẳng đứng xuống dưới. Hỏi mảnh 2 bay theo hướng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bay ngược chiều đạn cũ"
+        },
+        {
+          "id": "B",
+          "text": "Bay chếch lên trên"
+        },
+        {
+          "id": "C",
+          "text": "Bay ngang tiếp tục"
+        },
+        {
+          "id": "D",
+          "text": "Bay thẳng đứng lên trên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vẽ giản đồ vectơ bảo toàn động lượng: $\\vec{p}_{trước} = \\vec{p}_1 + \\vec{p}_2$. Quy tắc hình bình hành cho thấy $\\vec{p}_2$ phải hướng chếch lên."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cơ năng của một vật chịu tác dụng của lực thế (như trọng lực, lực đàn hồi) được bảo toàn khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật chuyển động thẳng đều"
+        },
+        {
+          "id": "B",
+          "text": "Vật chịu tác dụng của lực ma sát lớn"
+        },
+        {
+          "id": "C",
+          "text": "Vật chịu tác dụng của lực cản không khí"
+        },
+        {
+          "id": "D",
+          "text": "Không có ma sát và lực cản của môi trường"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Định luật bảo toàn cơ năng chỉ đúng khi vật chuyển động trong trường lực thế và không có ma sát/lực cản."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Công của trọng lực không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vị trí điểm đầu"
+        },
+        {
+          "id": "B",
+          "text": "Vị trí điểm cuối"
+        },
+        {
+          "id": "C",
+          "text": "Hình dạng đường đi"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trọng lực là lực thế, công không phụ thuộc hình dạng đường đi, chỉ phụ thuộc điểm đầu và cuối."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật ném ngang từ độ cao $h$ với vận tốc ban đầu $v_0$. Tầm xa của vật xác định bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$L = v_0 \\sqrt{\\frac{2h}{g}}$"
+        },
+        {
+          "id": "B",
+          "text": "$L = v_0 \\frac{2h}{g}$"
+        },
+        {
+          "id": "C",
+          "text": "$L = \\frac{v_0^2}{g}$"
+        },
+        {
+          "id": "D",
+          "text": "$L = v_0 t^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tầm xa = vận tốc ngang $\\times$ thời gian rơi = $v_0 \\times \\sqrt{2h/g}$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một ô tô khối lượng 1 tấn đang chuyển động với tốc độ 72 km/h. Động năng của ô tô là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "200 kJ"
+        },
+        {
+          "id": "B",
+          "text": "20 kJ"
+        },
+        {
+          "id": "C",
+          "text": "2000 J"
+        },
+        {
+          "id": "D",
+          "text": "2592 kJ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi $v = 72$ km/h = 20 m/s. $m = 1000$ kg. $W_d = 0,5 \\times 1000 \\times 20^2 = 200.000$ J = 200 kJ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "C",
+          "text": "Newton mét (N.m)"
+        },
+        {
+          "id": "D",
+          "text": "Kilogam mét (kg.m)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    }
+  ]
+}

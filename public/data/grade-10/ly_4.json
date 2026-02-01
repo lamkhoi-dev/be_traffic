@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 4: Năng lượng và Công",
+    "description": "Kiểm tra kiến thức về Công cơ học, Công suất, Động năng, Thế năng và Định luật bảo toàn cơ năng.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trường hợp nào sau đây lực tác dụng **không** sinh công?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực cùng phương với chuyển động" },
+        { "id": "B", "text": "Lực hợp với phương chuyển động một góc nhọn" },
+        { "id": "C", "text": "Lực vuông góc với phương chuyển động" },
+        { "id": "D", "text": "Lực ngược chiều với phương chuyển động" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công $A = F.s.\\cos\\alpha$. Nếu $\\alpha = 90^\\circ$ (vuông góc) thì $\\cos 90^\\circ = 0 \\Rightarrow A = 0$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đơn vị của công suất là Oát (W). 1 W bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 J.s" },
+        { "id": "B", "text": "1 J/s" },
+        { "id": "C", "text": "1 N.m" },
+        { "id": "D", "text": "1 N/s" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công suất $P = A/t$. Đơn vị Joule/giây (J/s)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Thế năng trọng trường của một vật phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vận tốc của vật" },
+        { "id": "B", "text": "Khối lượng và vị trí của vật so với mốc thế năng" },
+        { "id": "C", "text": "Gia tốc của vật" },
+        { "id": "D", "text": "Quỹ đạo chuyển động của vật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_t = mgh$. Phụ thuộc khối lượng m và độ cao h (vị trí)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg chuyển động với vận tốc 3m/s. Động năng của vật là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6 J" },
+        { "id": "B", "text": "9 J" },
+        { "id": "C", "text": "18 J" },
+        { "id": "D", "text": "3 J" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d = \\frac{1}{2}mv^2 = \\frac{1}{2} \\times 2 \\times 3^2 = 9$ J."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Khi một vật trượt xuống dốc có ma sát, cơ năng của vật:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Được bảo toàn" },
+        { "id": "B", "text": "Tăng lên" },
+        { "id": "C", "text": "Giảm dần do chuyển hóa thành nhiệt" },
+        { "id": "D", "text": "Biến thiên điều hòa" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát là lực không thế, sinh công âm làm giảm cơ năng (chuyển hóa thành nhiệt năng)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một động cơ có công suất 100W hoạt động trong 1 phút. Công mà động cơ thực hiện là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "100 J" },
+        { "id": "B", "text": "6000 J" },
+        { "id": "C", "text": "60 J" },
+        { "id": "D", "text": "1000 J" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A = P.t = 100 \\times 60 = 6000$ J."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Định lý động năng phát biểu rằng: Độ biến thiên động năng của một vật bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công của ngoại lực tác dụng lên vật" },
+        { "id": "B", "text": "Công suất của ngoại lực" },
+        { "id": "C", "text": "Thế năng của vật" },
+        { "id": "D", "text": "Xung lượng của lực" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta W_d = A_{ngoailuc}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Một viên đạn được bắn lên cao. Tại điểm cao nhất:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Động năng cực đại, thế năng cực tiểu" },
+        { "id": "B", "text": "Động năng bằng 0 (nếu bắn thẳng đứng), thế năng cực đại" },
+        { "id": "C", "text": "Cơ năng bằng 0" },
+        { "id": "D", "text": "Động năng bằng thế năng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại điểm cao nhất, độ cao h cực đại nên thế năng cực đại. Vận tốc nhỏ nhất (hoặc bằng 0 nếu bắn thẳng đứng)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Hiệu suất của một máy được tính bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công toàn phần chia cho công có ích" },
+        { "id": "B", "text": "Công có ích chia cho công toàn phần" },
+        { "id": "C", "text": "Công có ích trừ công toàn phần" },
+        { "id": "D", "text": "Công toàn phần nhân công có ích" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$H = \\frac{A_{coich}}{A_{toanphan}} \\times 100\\%$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đơn vị kWh (kí-lô-oát giờ) là đơn vị của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công suất" },
+        { "id": "B", "text": "Lực" },
+        { "id": "C", "text": "Công (Năng lượng)" },
+        { "id": "D", "text": "Thời gian" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "1 kWh là lượng điện năng tiêu thụ (Công) của thiết bị 1kW trong 1 giờ. $1 kWh = 3,6 \\times 10^6$ J."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Định lý động năng phát biểu rằng: Độ biến thiên động năng của một vật bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công của ngoại lực tác dụng lên vật"
+        },
+        {
+          "id": "B",
+          "text": "Công suất của ngoại lực"
+        },
+        {
+          "id": "C",
+          "text": "Thế năng của vật"
+        },
+        {
+          "id": "D",
+          "text": "Xung lượng của lực"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta W_d = A_{ngoailuc}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một lò xo có độ cứng $k = 100$ N/m. Khi lò xo bị giãn một đoạn 5 cm thì lực đàn hồi của lò xo có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "500 N"
+        },
+        {
+          "id": "B",
+          "text": "5 N"
+        },
+        {
+          "id": "C",
+          "text": "20 N"
+        },
+        {
+          "id": "D",
+          "text": "0,05 N"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đổi 5 cm = 0,05 m. Áp dụng định luật Húc: $F_{dh} = k|\\Delta l| = 100 \\times 0,05 = 5$ N."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Biểu thức của Định luật II Newton là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F} = -m\\vec{a}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{a} = \\frac{\\vec{F}}{m^2}$"
+        },
+        {
+          "id": "D",
+          "text": "$F = ma^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc tỉ lệ thuận với lực tác dụng và tỉ lệ nghịch với khối lượng: $\\vec{a} = \\frac{\\vec{F}}{m} \\Rightarrow \\vec{F} = m\\vec{a}$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một lò xo bị nén 5cm, biết độ cứng k=100 N/m. Thế năng đàn hồi của lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,125 J"
+        },
+        {
+          "id": "B",
+          "text": "0,25 J"
+        },
+        {
+          "id": "C",
+          "text": "250 J"
+        },
+        {
+          "id": "D",
+          "text": "12,5 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_{dh} = 0,5 k (\\Delta l)^2 = 0,5 \\times 100 \\times (0,05)^2 = 50 \\times 0,0025 = 0,125$ J."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một ô tô khối lượng 1 tấn đang chuyển động với tốc độ 72 km/h. Động năng của ô tô là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "200 kJ"
+        },
+        {
+          "id": "B",
+          "text": "20 kJ"
+        },
+        {
+          "id": "C",
+          "text": "2000 J"
+        },
+        {
+          "id": "D",
+          "text": "2592 kJ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi $v = 72$ km/h = 20 m/s. $m = 1000$ kg. $W_d = 0,5 \\times 1000 \\times 20^2 = 200.000$ J = 200 kJ."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Vectơ động lượng $\\vec{p}$ luôn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng hướng với vectơ vận tốc"
+        },
+        {
+          "id": "B",
+          "text": "Ngược hướng với vectơ vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Vuông góc với vectơ vận tốc"
+        },
+        {
+          "id": "D",
+          "text": "Cùng hướng với vectơ gia tốc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ công thức $\\vec{p} = m\\vec{v}$ (với $m>0$), suy ra $\\vec{p}$ cùng hướng $\\vec{v}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn chịu tác dụng của ba lực không song song là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ba lực đó phải đồng phẳng và đồng quy"
+        },
+        {
+          "id": "B",
+          "text": "Hợp lực của hai lực bất kỳ phải cân bằng với lực thứ ba"
+        },
+        {
+          "id": "C",
+          "text": "Ba lực đó phải vuông góc với nhau từng đôi một"
+        },
+        {
+          "id": "D",
+          "text": "Cả A và B đều đúng"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc hợp lực đồng quy: Ba lực phải đồng phẳng, đồng quy và hợp lực của 2 lực cân bằng lực thứ 3 (Tổng vectơ bằng 0)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trọng tâm của một vật là điểm đặt của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực đàn hồi"
+        },
+        {
+          "id": "B",
+          "text": "Trọng lực tác dụng lên vật"
+        },
+        {
+          "id": "C",
+          "text": "Lực ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Lực đẩy Ác-si-mét"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trọng tâm là điểm đặt của hợp lực các trọng lực nhỏ tác dụng lên mọi phần của vật."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "C",
+          "text": "Newton mét (N.m)"
+        },
+        {
+          "id": "D",
+          "text": "Kilogam mét (kg.m)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Va chạm mềm là va chạm mà sau khi va chạm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hai vật tách rời nhau và chuyển động với vận tốc khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Hai vật dính vào nhau và chuyển động cùng vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Động năng của hệ được bảo toàn"
+        },
+        {
+          "id": "D",
+          "text": "Tổng động lượng của hệ bằng 0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặc điểm của va chạm mềm (inelastic collision) là hai vật dính vào nhau sau va chạm."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vật chịu tác dụng của ba lực đồng quy $\\vec{F_1}, \\vec{F_2}, \\vec{F_3}$ và đang đứng yên. Khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F_1} + \\vec{F_2} = \\vec{F_3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_1 + F_2 = F_3$"
+        },
+        {
+          "id": "D",
+          "text": "Ba lực phải vuông góc nhau"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hợp lực bằng 0: $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0} \\Rightarrow \\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cặp lực và phản lực trong định luật III Newton không có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng vào hai vật khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Cùng phương, ngược chiều"
+        },
+        {
+          "id": "C",
+          "text": "Cùng độ lớn"
+        },
+        {
+          "id": "D",
+          "text": "Cân bằng nhau"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vì tác dụng vào 2 vật khác nhau nên chúng KHÔNG cân bằng nhau (lực cân bằng phải đặt vào cùng 1 vật)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Ngẫu lực là hệ gồm hai lực:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Song song, cùng chiều, có độ lớn bằng nhau"
+        },
+        {
+          "id": "B",
+          "text": "Song song, ngược chiều, có độ lớn bằng nhau và cùng tác dụng vào một vật"
+        },
+        {
+          "id": "C",
+          "text": "Cùng phương, ngược chiều, độ lớn bằng nhau"
+        },
+        {
+          "id": "D",
+          "text": "Vuông góc với nhau và cùng độ lớn"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa ngẫu lực: Hai lực song song, ngược chiều, cùng độ lớn, tác dụng vào cùng một vật, làm vật quay thuần túy."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Đơn vị của tốc độ góc $\\omega$ trong hệ SI là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mét trên giây (m/s)"
+        },
+        {
+          "id": "B",
+          "text": "Radian trên giây (rad/s)"
+        },
+        {
+          "id": "C",
+          "text": "Vòng trên phút (rpm)"
+        },
+        {
+          "id": "D",
+          "text": "Độ trên giây (degree/s)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tốc độ góc đo bằng góc quét được (radian) trong một đơn vị thời gian (giây)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Va chạm đàn hồi là va chạm trong đó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ bảo toàn động lượng, động năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn cả động lượng và động năng"
+        },
+        {
+          "id": "C",
+          "text": "Vật dính vào nhau sau va chạm"
+        },
+        {
+          "id": "D",
+          "text": "Động năng tăng lên sau va chạm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Va chạm đàn hồi bảo toàn cả động lượng và động năng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một vật rơi tự do từ độ cao $h$. Thời gian rơi được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$t = \\sqrt{\\frac{2h}{g}}$"
+        },
+        {
+          "id": "B",
+          "text": "$t = \\sqrt{\\frac{h}{2g}}$"
+        },
+        {
+          "id": "C",
+          "text": "$t = \\frac{2h}{g}$"
+        },
+        {
+          "id": "D",
+          "text": "$t = \\sqrt{2hg}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$h = \\frac{1}{2}gt^2 \\Rightarrow t = \\sqrt{\\frac{2h}{g}}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hệ số ma sát trượt phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Diện tích mặt tiếp xúc"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ của vật"
+        },
+        {
+          "id": "C",
+          "text": "Vật liệu và tình trạng hai mặt tiếp xúc"
+        },
+        {
+          "id": "D",
+          "text": "Áp lực lên mặt tiếp xúc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số ma sát $\\mu$ là đặc tính của cặp vật liệu tiếp xúc."
+    }
+  ]
+}

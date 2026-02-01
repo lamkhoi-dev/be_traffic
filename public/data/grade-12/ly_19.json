@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Vận tốc truyền sóng điện từ trong chân không là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$3.10^8$ m/s"
+        },
+        {
+          "id": "B",
+          "text": "$340$ m/s"
+        },
+        {
+          "id": "C",
+          "text": "$3.10^5$ km/h"
+        },
+        {
+          "id": "D",
+          "text": "$10^8$ m/s"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bằng vận tốc ánh sáng c."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một chất có giới hạn quang điện $\\lambda_0 = 0,3 \\mu m$. Công thoát của electron là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4,14 eV"
+        },
+        {
+          "id": "B",
+          "text": "3,15 eV"
+        },
+        {
+          "id": "C",
+          "text": "6,625 eV"
+        },
+        {
+          "id": "D",
+          "text": "2,2 eV"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A = hc/\\lambda_0$. Tính ra J, sau đó chia cho $1,6.10^{-19}$ để ra eV. $A \\approx 6,625.10^{-19}$ J $\\approx 4,14$ eV."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trên một sợi dây đàn hồi dài 1m, hai đầu cố định, đang có sóng dừng với 5 nút sóng (kể cả 2 đầu). Bước sóng của sóng truyền trên dây là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,5 m"
+        },
+        {
+          "id": "B",
+          "text": "0,25 m"
+        },
+        {
+          "id": "C",
+          "text": "2 m"
+        },
+        {
+          "id": "D",
+          "text": "0,4 m"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "5 nút sóng $\\Rightarrow k = 4$ bó sóng. $l = k \\frac{\\lambda}{2} \\Rightarrow 1 = 4 \\frac{\\lambda}{2} = 2\\lambda \\Rightarrow \\lambda = 0,5$ m."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Ứng dụng nổi bật của tia hồng ngoại là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sấy khô, sưởi ấm"
+        },
+        {
+          "id": "B",
+          "text": "Chụp điện, chiếu điện"
+        },
+        {
+          "id": "C",
+          "text": "Khử trùng dụng cụ y tế"
+        },
+        {
+          "id": "D",
+          "text": "Tìm khuyết tật bên trong vật đúc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác dụng nổi bật nhất của tia hồng ngoại là tác dụng nhiệt."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng, dùng ánh sáng có $\\lambda=0,5\\mu m$, $a=1$mm, $D=2$m. Khoảng vân là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 mm"
+        },
+        {
+          "id": "B",
+          "text": "0,5 mm"
+        },
+        {
+          "id": "C",
+          "text": "2 mm"
+        },
+        {
+          "id": "D",
+          "text": "0,25 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$i = \\lambda D / a = (0,5 \\cdot 2) / 1 = 1$mm."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một photon có năng lượng $3,3125.10^{-19}$ J. Tần số của bức xạ này là (lấy $h=6,625.10^{-34}$ Js):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$5.10^{14}$ Hz"
+        },
+        {
+          "id": "B",
+          "text": "$2.10^{14}$ Hz"
+        },
+        {
+          "id": "C",
+          "text": "$5.10^{15}$ Hz"
+        },
+        {
+          "id": "D",
+          "text": "$4.10^{14}$ Hz"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f = \\varepsilon / h = 3,3125.10^{-19} / 6,625.10^{-34} = 0,5.10^{15} = 5.10^{14}$ Hz."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hạt nhân càng bền vững khi có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số khối A từ 50 đến 80"
+        },
+        {
+          "id": "B",
+          "text": "Số khối A rất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Số khối A rất nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Số proton bằng số neutron"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các hạt nhân trung bình (A khoảng 50-80, như Sắt Fe) có năng lượng liên kết riêng lớn nhất nên bền nhất."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hệ số công suất $\\cos\\varphi$ của đoạn mạch điện xoay chiều có giá trị trong khoảng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$0 \\le \\cos\\varphi \\le 1$"
+        },
+        {
+          "id": "B",
+          "text": "$-1 \\le \\cos\\varphi \\le 1$"
+        },
+        {
+          "id": "C",
+          "text": "$1 < \\cos\\varphi < 2$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos\\varphi \\ge 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số công suất luôn không âm và nhỏ hơn hoặc bằng 1."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong mạch RLC nối tiếp, công suất tiêu thụ của mạch được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P = UI\\cos\\varphi$"
+        },
+        {
+          "id": "B",
+          "text": "$P = UI\\sin\\varphi$"
+        },
+        {
+          "id": "C",
+          "text": "$P = U^2/R$"
+        },
+        {
+          "id": "D",
+          "text": "$P = I^2Z$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $P = UI\\cos\\varphi = I^2R$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Hình chiếu của một chuyển động tròn đều lên một đường kính là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một dao động điều hòa"
+        },
+        {
+          "id": "B",
+          "text": "Một dao động tắt dần"
+        },
+        {
+          "id": "C",
+          "text": "Một chuyển động thẳng đều"
+        },
+        {
+          "id": "D",
+          "text": "Một chuyển động biến đổi đều"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là mối liên hệ cơ bản giữa chuyển động tròn đều và dao động điều hòa."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Điện áp tức thời giữa hai đầu đoạn mạch xoay chiều là $u = 220\\sqrt{2}\\cos(100\\pi t)$ (V). Điện áp hiệu dụng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "220 V"
+        },
+        {
+          "id": "B",
+          "text": "$220\\sqrt{2}$ V"
+        },
+        {
+          "id": "C",
+          "text": "110 V"
+        },
+        {
+          "id": "D",
+          "text": "380 V"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U = U_0 / \\sqrt{2} = 220\\sqrt{2} / \\sqrt{2} = 220$ V."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong y học, tia laze được dùng để:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phẫu thuật (dao mổ laze)"
+        },
+        {
+          "id": "B",
+          "text": "Chụp X-quang"
+        },
+        {
+          "id": "C",
+          "text": "Siêu âm"
+        },
+        {
+          "id": "D",
+          "text": "Đo nhịp tim"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Laze có năng lượng tập trung cao, dùng làm dao mổ, chữa mắt..."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong phản ứng hạt nhân, định luật nào sau đây **không** được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn khối lượng nghỉ"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn số khối A"
+        },
+        {
+          "id": "C",
+          "text": "Bảo toàn điện tích Z"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn năng lượng toàn phần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khối lượng nghỉ không bảo toàn (có độ hụt khối tỏa năng lượng). Các đại lượng khác bảo toàn."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Khi nguyên tử chuyển từ trạng thái dừng có năng lượng $E_n$ sang trạng thái dừng có năng lượng $E_m$ ($E_n > E_m$) thì nó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "B",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "C",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n + E_m$"
+        },
+        {
+          "id": "D",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n + E_m$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ cao xuống thấp thì phát xạ photon."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Khi truyền tải điện năng đi xa, nếu tăng điện áp nơi phát lên 10 lần thì công suất hao phí trên đường dây sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giảm 100 lần"
+        },
+        {
+          "id": "B",
+          "text": "Giảm 10 lần"
+        },
+        {
+          "id": "C",
+          "text": "Tăng 100 lần"
+        },
+        {
+          "id": "D",
+          "text": "Tăng 10 lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P_{hp} \\sim 1/U^2$. $U$ tăng 10 thì $P_{hp}$ giảm $10^2 = 100$ lần."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đặt điện áp xoay chiều vào hai đầu tụ điện. Dung kháng của tụ điện:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tỉ lệ thuận với tần số dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Tỉ lệ nghịch với tần số dòng điện"
+        },
+        {
+          "id": "C",
+          "text": "Không phụ thuộc vào tần số dòng điện"
+        },
+        {
+          "id": "D",
+          "text": "Tỉ lệ thuận với điện dung của tụ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$Z_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$. Dung kháng tỉ lệ nghịch với tần số."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tính chất nổi bật của tia X là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khả năng đâm xuyên"
+        },
+        {
+          "id": "B",
+          "text": "Tác dụng nhiệt"
+        },
+        {
+          "id": "C",
+          "text": "Làm ion hóa không khí"
+        },
+        {
+          "id": "D",
+          "text": "Gây ra hiện tượng quang điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tính đâm xuyên mạnh dùng để chụp X-quang."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tại một điểm, đại lượng đo bằng lượng năng lượng mà sóng âm truyền qua một đơn vị diện tích đặt vuông góc với phương truyền sóng trong một đơn vị thời gian là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cường độ âm"
+        },
+        {
+          "id": "B",
+          "text": "Mức cường độ âm"
+        },
+        {
+          "id": "C",
+          "text": "Công suất âm"
+        },
+        {
+          "id": "D",
+          "text": "Năng lượng âm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đó là định nghĩa của Cường độ âm ($I$), đơn vị W/m²."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Pha của dao động dùng để xác định:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ dao động"
+        },
+        {
+          "id": "B",
+          "text": "Trạng thái dao động"
+        },
+        {
+          "id": "C",
+          "text": "Chu kì dao động"
+        },
+        {
+          "id": "D",
+          "text": "Tần số dao động"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pha dao động $(\\omega t + \\varphi)$ xác định trạng thái dao động (vị trí và chiều chuyển động) tại thời điểm $t$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phóng xạ là hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hạt nhân không bền vững tự phân rã"
+        },
+        {
+          "id": "B",
+          "text": "Hạt nhân bền vững bị phá vỡ"
+        },
+        {
+          "id": "C",
+          "text": "Kết hợp hai hạt nhân nhẹ thành hạt nhân nặng"
+        },
+        {
+          "id": "D",
+          "text": "Hạt nhân nặng vỡ thành hai hạt nhân nhẹ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa phóng xạ: tự động phân rã, phát ra tia phóng xạ và biến đổi thành hạt nhân khác."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Máy biến áp không thể làm thay đổi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tần số dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Cường độ dòng điện"
+        },
+        {
+          "id": "C",
+          "text": "Điện áp"
+        },
+        {
+          "id": "D",
+          "text": "Pha của dòng điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy biến áp giữ nguyên tần số."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong dao động điều hòa, khi vật đi từ vị trí cân bằng ra biên thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng tăng, thế năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Động năng giảm, thế năng tăng"
+        },
+        {
+          "id": "C",
+          "text": "Động năng và thế năng đều tăng"
+        },
+        {
+          "id": "D",
+          "text": "Cơ năng giảm dần"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ VTCB ra biên: tốc độ giảm (động năng giảm), li độ tăng (thế năng tăng)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Số hạt nhân còn lại sau thời gian $t$ được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$N = N_0 . 2^{-t/T}$"
+        },
+        {
+          "id": "B",
+          "text": "$N = N_0 . 2^{t/T}$"
+        },
+        {
+          "id": "C",
+          "text": "$N = N_0 (1 - 2^{-t/T})$"
+        },
+        {
+          "id": "D",
+          "text": "$N = N_0 . e^{-\\lambda t^2}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật phóng xạ: $N = N_0 e^{-\\lambda t} = N_0 2^{-t/T}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đại lượng đặc trưng cho độ bền vững của hạt nhân là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng lượng liên kết riêng"
+        },
+        {
+          "id": "B",
+          "text": "Năng lượng liên kết"
+        },
+        {
+          "id": "C",
+          "text": "Độ hụt khối"
+        },
+        {
+          "id": "D",
+          "text": "Số khối A"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năng lượng liên kết riêng $\\epsilon = W_{lk}/A$ càng lớn thì hạt nhân càng bền."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cường độ dòng điện $i = 2\\sqrt{2}\\cos(100\\pi t)$ (A) có giá trị hiệu dụng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 A"
+        },
+        {
+          "id": "B",
+          "text": "$2\\sqrt{2}$ A"
+        },
+        {
+          "id": "C",
+          "text": "$\\sqrt{2}$ A"
+        },
+        {
+          "id": "D",
+          "text": "4 A"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\frac{I_0}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2$ A."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng, dùng ánh sáng có $\\lambda=0,5\\mu m$, $a=1$mm, $D=2$m. Khoảng vân là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 mm"
+        },
+        {
+          "id": "B",
+          "text": "0,5 mm"
+        },
+        {
+          "id": "C",
+          "text": "2 mm"
+        },
+        {
+          "id": "D",
+          "text": "0,25 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$i = \\lambda D / a = (0,5 \\cdot 2) / 1 = 1$mm."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Theo mẫu nguyên tử Bo, trạng thái dừng là trạng thái:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có năng lượng xác định và electron chuyển động trên quỹ đạo dừng"
+        },
+        {
+          "id": "B",
+          "text": "Electron đứng yên"
+        },
+        {
+          "id": "C",
+          "text": "Hạt nhân đứng yên"
+        },
+        {
+          "id": "D",
+          "text": "Nguyên tử không bức xạ và không hấp thụ năng lượng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiên đề Bo về trạng thái dừng."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Giới hạn quang điện của kẽm là $0,35\\mu m$. Hiện tượng quang điện sẽ **không** xảy ra nếu chiếu vào kẽm bức xạ có bước sóng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1 $\\mu m$"
+        },
+        {
+          "id": "B",
+          "text": "0,2 $\\mu m$"
+        },
+        {
+          "id": "C",
+          "text": "0,3 $\\mu m$"
+        },
+        {
+          "id": "D",
+          "text": "0,4 $\\mu m$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Điều kiện xảy ra quang điện: $\\lambda \\le \\lambda_0$. Ở đây $0,4 > 0,35$ nên không xảy ra."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Sóng cơ **không** truyền được trong môi trường nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chất rắn"
+        },
+        {
+          "id": "B",
+          "text": "Chất lỏng"
+        },
+        {
+          "id": "C",
+          "text": "Chất khí"
+        },
+        {
+          "id": "D",
+          "text": "Chân không"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sóng cơ cần môi trường vật chất đàn hồi để lan truyền, do đó không truyền được trong chân không."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một chất phóng xạ có chu kì bán rã là 8 ngày đêm. Sau 24 ngày đêm, tỉ lệ số hạt nhân còn lại so với ban đầu là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/8"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "1/16"
+        },
+        {
+          "id": "D",
+          "text": "7/8"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$t = 24 = 3T$. Số hạt còn lại $N = N_0 \\cdot 2^{-3} = N_0/8$. Tỉ lệ 1/8."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Chu kì dao động riêng của mạch dao động LC lí tưởng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$T = 2\\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "B",
+          "text": "$T = \\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{2\\pi \\sqrt{LC}}$"
+        },
+        {
+          "id": "D",
+          "text": "$T = \\sqrt{LC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức Thomson: $T = 2\\pi \\sqrt{LC}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nguyên tắc hoạt động của máy biến áp dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tự cảm"
+        },
+        {
+          "id": "B",
+          "text": "Cảm ứng điện từ"
+        },
+        {
+          "id": "C",
+          "text": "Cộng hưởng điện"
+        },
+        {
+          "id": "D",
+          "text": "Tác dụng từ của dòng điện"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ thông biến thiên qua cuộn sơ cấp móc vòng qua cuộn thứ cấp gây ra cảm ứng điện từ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sóng điện từ có bước sóng 100m là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng trung"
+        },
+        {
+          "id": "B",
+          "text": "Sóng ngắn"
+        },
+        {
+          "id": "C",
+          "text": "Sóng dài"
+        },
+        {
+          "id": "D",
+          "text": "Sóng cực ngắn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng trung (100m - 1000m). 100m nằm ở ranh giới sóng ngắn và trung, nhưng thường được xếp vào đầu sóng trung."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tần số góc của mạch dao động LC là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\omega = \\frac{1}{\\sqrt{LC}}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\omega = \\sqrt{LC}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\omega = 2\\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\omega = \\frac{1}{LC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi/T = 1/\\sqrt{LC}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hạt nhân nguyên tử được cấu tạo từ các hạt:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Proton và Neutron"
+        },
+        {
+          "id": "B",
+          "text": "Proton và Electron"
+        },
+        {
+          "id": "C",
+          "text": "Neutron và Electron"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ có Proton"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hạt nhân gồm các nucleon là proton và neutron."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Chùm sáng laze **không** có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công suất luôn rất lớn"
+        },
+        {
+          "id": "B",
+          "text": "Tính đơn sắc cao"
+        },
+        {
+          "id": "C",
+          "text": "Tính định hướng cao"
+        },
+        {
+          "id": "D",
+          "text": "Tính kết hợp cao"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Laze có thể có công suất nhỏ (như bút laze), không phải lúc nào cũng lớn. 3 đặc điểm còn lại là đặc trưng của laze."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quang trở là một linh kiện hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng quang điện trong"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng nhiệt điện"
+        },
+        {
+          "id": "C",
+          "text": "Hiện tượng siêu dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Hiện tượng quang điện ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang trở làm bằng chất bán dẫn, dựa trên quang điện trong."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thế năng của con lắc lò xo treo thẳng đứng tại vị trí cân bằng (chọn gốc thế năng tại VTCB) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cực đại"
+        },
+        {
+          "id": "B",
+          "text": "Bằng 0"
+        },
+        {
+          "id": "C",
+          "text": "Bằng cơ năng"
+        },
+        {
+          "id": "D",
+          "text": "Biến thiên điều hòa"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại VTCB thì $x=0$, nên thế năng đàn hồi $W_t = \\frac{1}{2}kx^2 = 0$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tầng điện li phản xạ tốt các sóng vô tuyến nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng ngắn"
+        },
+        {
+          "id": "B",
+          "text": "Sóng dài"
+        },
+        {
+          "id": "C",
+          "text": "Sóng cực ngắn"
+        },
+        {
+          "id": "D",
+          "text": "Sóng trung vào ban ngày"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng ngắn phản xạ tốt trên tầng điện li nên truyền đi xa được trên mặt đất."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sóng vô tuyến được dùng trong thông tin liên lạc vũ trụ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng cực ngắn"
+        },
+        {
+          "id": "B",
+          "text": "Sóng ngắn"
+        },
+        {
+          "id": "C",
+          "text": "Sóng trung"
+        },
+        {
+          "id": "D",
+          "text": "Sóng dài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng cực ngắn xuyên qua được tầng điện li, dùng để liên lạc vũ trụ."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập số 04",
+    "description": "Đề tổng hợp kiến thức học kỳ 1 và học kỳ 2, bao gồm các câu hỏi vận dụng về Tích phân, Oxyz và Số phức.",
+    "duration": 40,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^4 - 2x^2 - 1$. Kết luận nào sau đây sai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hàm số có 3 điểm cực trị." },
+        { "id": "B", "text": "Đồ thị hàm số nhận trục tung làm trục đối xứng." },
+        { "id": "C", "text": "Hàm số nghịch biến trên khoảng $(0; 1)$." },
+        { "id": "D", "text": "Giá trị cực đại của hàm số bằng -2." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Tại $x=0$, $y=-1$ (Cực đại). Tại $x=\\pm 1$, $y=-2$ (Cực tiểu). Vậy giá trị cực đại là -1, đáp án D nói -2 là sai."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tập nghiệm của phương trình $\\log_2(x^2 - x + 2) = 1$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\{0; 1\\}$" },
+        { "id": "B", "text": "$\\{0\\}$" },
+        { "id": "C", "text": "$\\{1\\}$" },
+        { "id": "D", "text": "$\\{1; 2\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x^2 - x + 2 = 2^1 = 2 \\Leftrightarrow x^2 - x = 0 \\Leftrightarrow x(x-1) = 0 \\Rightarrow x=0, x=1$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cho $a$ là số thực dương. Giá trị của biểu thức $P = a^{\\frac{2}{3}} \\cdot \\sqrt{a}$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a^{\\frac{7}{6}}$" },
+        { "id": "B", "text": "$a^{\\frac{5}{6}}$" },
+        { "id": "C", "text": "$a^{\\frac{2}{3}}$" },
+        { "id": "D", "text": "$a^{\\frac{1}{6}}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = a^{\\frac{2}{3}} \\cdot a^{\\frac{1}{2}} = a^{\\frac{2}{3} + \\frac{1}{2}} = a^{\\frac{4+3}{6}} = a^{\\frac{7}{6}}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tính nguyên hàm $I = \\int \\frac{1}{2x+3} \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2} \\ln |2x+3| + C$" },
+        { "id": "B", "text": "$\\ln |2x+3| + C$" },
+        { "id": "C", "text": "$2 \\ln |2x+3| + C$" },
+        { "id": "D", "text": "$\\frac{1}{2x+3} + C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng công thức $\\int \\frac{1}{ax+b} \\text{d}x = \\frac{1}{a} \\ln|ax+b| + C$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cho tích phân $I = \\int_{0}^{1} x(1-x)^5 \\text{d}x$. Đặt $u = 1-x$, khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I = \\int_{0}^{1} (u^5 - u^6) \\text{d}u$" },
+        { "id": "B", "text": "$I = \\int_{0}^{1} (u^6 - u^5) \\text{d}u$" },
+        { "id": "C", "text": "$I = -\\int_{1}^{0} (1-u)u^5 \\text{d}u$" },
+        { "id": "D", "text": "$I = \\int_{0}^{1} u^5 \\text{d}u$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $u = 1-x \\Rightarrow x = 1-u, \\text{d}x = -\\text{d}u$. Đổi cận: $x=0 \\to u=1, x=1 \\to u=0$. $I = \\int_{1}^{0} (1-u)u^5 (-\\text{d}u) = \\int_{0}^{1} (u^5 - u^6) \\text{d}u$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x-2}{-1} = \\frac{y-1}{2} = \\frac{z}{1}$. Đường thẳng $d$ có một vectơ chỉ phương là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{u} = (-1; 2; 1)$" },
+        { "id": "B", "text": "$\\vec{u} = (2; 1; 0)$" },
+        { "id": "C", "text": "$\\vec{u} = (2; 1; 1)$" },
+        { "id": "D", "text": "$\\vec{u} = (-1; 2; 0)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vectơ chỉ phương là hệ số dưới mẫu của phương trình chính tắc: $(-1; 2; 1)$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cho số phức $z = 3 + 4i$. Tìm phần thực và phần ảo của số phức $w = \\frac{1}{z}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phần thực $\\frac{3}{25}$, phần ảo $-\\frac{4}{25}$" },
+        { "id": "B", "text": "Phần thực $\\frac{3}{25}$, phần ảo $\\frac{4}{25}$" },
+        { "id": "C", "text": "Phần thực 3, phần ảo -4" },
+        { "id": "D", "text": "Phần thực $\\frac{3}{5}$, phần ảo $-\\frac{4}{5}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$w = \\frac{1}{3+4i} = \\frac{3-4i}{3^2+4^2} = \\frac{3}{25} - \\frac{4}{25}i$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Mặt cầu $(S)$ tâm $I(2; 1; -1)$ và tiếp xúc với mặt phẳng $(P): 2x - 2y - z + 3 = 0$ có bán kính $R$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "$\\frac{2}{3}$" },
+        { "id": "C", "text": "$\\frac{4}{3}$" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$R = d(I, P) = \\frac{|2(2) - 2(1) - (-1) + 3|}{\\sqrt{2^2+(-2)^2+(-1)^2}} = \\frac{|4 - 2 + 1 + 3|}{\\sqrt{9}} = \\frac{6}{3} = 2$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho hình trụ có bán kính đáy $r$ và chiều cao $h$. Thể tích $V$ của khối trụ được tính theo công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$V = \\pi r^2 h$" },
+        { "id": "B", "text": "$V = \\frac{1}{3} \\pi r^2 h$" },
+        { "id": "C", "text": "$V = 2\\pi r h$" },
+        { "id": "D", "text": "$V = \\pi r h^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản SGK: $V = B.h = (\\pi r^2)h$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $f(x) = x^3 - 3x + 1$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "-1" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f'(x) = 3x^2 - 3$. $f'(x)=0 \\Leftrightarrow x=1$ (thuộc đoạn) hoặc $x=-1$ (loại). $f(0)=1, f(1)=-1, f(2)=3$. Min là -1."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Gọi $z_1, z_2$ là hai nghiệm của phương trình $z^2 + 2z + 10 = 0$. Giá trị của $A = |z_1| + |z_2|$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2\\sqrt{10}$" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "$2\\sqrt{2}$" },
+        { "id": "D", "text": "20" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z_1, z_2$ là nghiệm phức liên hợp. Theo định lý Vi-ét: $|z_1| = |z_2| = \\sqrt{c/a} = \\sqrt{10}$. Vậy $A = 2\\sqrt{10}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cho $\\int_{0}^{2} f(x) \\text{d}x = 3$. Tính $J = \\int_{0}^{2} [4f(x) - 3] \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "9" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "12" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$J = 4 \\int f(x) \\text{d}x - \\int 3 \\text{d}x = 4(3) - 3x\\Big|_0^2 = 12 - 6 = 6$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt phẳng đi qua $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 1$" },
+        { "id": "B", "text": "$\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 0$" },
+        { "id": "C", "text": "$x + 2y + 3z = 1$" },
+        { "id": "D", "text": "$6x + 3y + 2z = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đoạn chắn."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Số đường tiệm cận (đứng và ngang) của đồ thị hàm số $y = \\frac{x - 2}{x^2 - 4}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y = \\frac{x-2}{(x-2)(x+2)} = \\frac{1}{x+2}$. Có 1 TCĐ $x=-2$ và 1 TCN $y=0$. Tổng là 2."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cho hình chóp $S.ABC$ có $SA$ vuông góc đáy, đáy $ABC$ là tam giác vuông tại $B$. $SA=a, AB=a, BC=a$. Thể tích khối chóp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{a^3}{6}$" },
+        { "id": "B", "text": "$\\frac{a^3}{3}$" },
+        { "id": "C", "text": "$\\frac{a^3}{2}$" },
+        { "id": "D", "text": "$a^3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_{ABC} = \\frac{1}{2} AB \\cdot BC = \\frac{1}{2} a^2$. $V = \\frac{1}{3} S_{ABC} \\cdot SA = \\frac{1}{3} \\cdot \\frac{a^2}{2} \\cdot a = \\frac{a^3}{6}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z - (3 - 4i)| = 2$ là đường tròn có tâm $I$ tọa độ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I(3; -4)$" },
+        { "id": "B", "text": "$I(-3; 4)$" },
+        { "id": "C", "text": "$I(3; 4)$" },
+        { "id": "D", "text": "$I(-3; -4)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đường tròn $|z - (a+bi)| = R$ có tâm $I(a; b)$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Với $k, n$ là các số nguyên dương và $k \\le n$, công thức nào sau đây đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$C_n^k = \\frac{n!}{k!(n-k)!}$" },
+        { "id": "B", "text": "$C_n^k = \\frac{n!}{(n-k)!}$" },
+        { "id": "C", "text": "$C_n^k = \\frac{n!}{k!}$" },
+        { "id": "D", "text": "$A_n^k = \\frac{n!}{k!(n-k)!}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổ hợp chập k của n phần tử."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đạo hàm của hàm số $y = (2x^2 + 1)^{\\frac{1}{3}}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{4x}{3(2x^2+1)^{\\frac{2}{3}}}$" },
+        { "id": "B", "text": "$\\frac{1}{3(2x^2+1)^{\\frac{2}{3}}}$" },
+        { "id": "C", "text": "$\\frac{4x}{3}(2x^2+1)^{\\frac{2}{3}}$" },
+        { "id": "D", "text": "$4x(2x^2+1)^{\\frac{2}{3}}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{1}{3}(2x^2+1)^{-\\frac{2}{3}} \\cdot (2x^2+1)' = \\frac{1}{3} \\frac{1}{(2x^2+1)^{\\frac{2}{3}}} \\cdot 4x$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho $\\log_2 5 = a$. Tính $\\log_4 1250$ theo $a$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1 + 4a}{2}$" },
+        { "id": "B", "text": "$2(1+4a)$" },
+        { "id": "C", "text": "$1 + 4a$" },
+        { "id": "D", "text": "$\\frac{1 - 4a}{2}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\log_4 1250 = \\frac{1}{2} \\log_2 (2 \\cdot 5^4) = \\frac{1}{2} (\\log_2 2 + 4\\log_2 5) = \\frac{1 + 4a}{2}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tìm $m$ để hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2 - 4)x + 3$ đạt cực đại tại $x = 3$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m = 5$" },
+        { "id": "B", "text": "$m = 1$" },
+        { "id": "C", "text": "$m = -1$" },
+        { "id": "D", "text": "$m = -5$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = x^2 - 2mx + m^2 - 4$. $y'(3) = 9 - 6m + m^2 - 4 = 0 \\Leftrightarrow m^2 - 6m + 5 = 0 \\Leftrightarrow m=1, m=5$. $y'' = 2x - 2m$. Với $m=1, y''(3) = 6-2 > 0$ (Cực tiểu). Với $m=5, y''(3) = 6-10 < 0$ (Cực đại). Chọn $m=5$."
+    }
+  ]
+}

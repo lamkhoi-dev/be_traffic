@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trung Quốc mở cuộc tấn công xâm lược biên giới phía Bắc nước ta vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "17/2/1979"
+        },
+        {
+          "id": "B",
+          "text": "30/4/1975"
+        },
+        {
+          "id": "C",
+          "text": "12/1978"
+        },
+        {
+          "id": "D",
+          "text": "1988"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sáng 17/2/1979, quân Trung Quốc tràn sang biên giới."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thời cơ \"ngàn năm có một\" của Cách mạng tháng Tám xuất hiện khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhật đảo chính Pháp"
+        },
+        {
+          "id": "B",
+          "text": "Nhật đầu hàng Đồng minh (8/1945)"
+        },
+        {
+          "id": "C",
+          "text": "Đức đầu hàng Đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Đồng minh vào giải giáp quân Nhật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời cơ tồn tại từ khi Nhật đầu hàng đến trước khi quân Đồng minh vào."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lãnh tụ của cuộc cách mạng Cu-ba là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Che Guevara"
+        },
+        {
+          "id": "B",
+          "text": "Phi-đen Cát-xtơ-rô"
+        },
+        {
+          "id": "C",
+          "text": "Hô-xê Mác-ti"
+        },
+        {
+          "id": "D",
+          "text": "Ba-ti-xta"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phi-đen Cát-xtơ-rô là lãnh tụ vĩ đại của Cu-ba."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nền kinh tế hàng hóa nhiều thành phần ở Việt Nam vận hành theo cơ chế:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thị trường có sự quản lý của Nhà nước"
+        },
+        {
+          "id": "B",
+          "text": "Bao cấp"
+        },
+        {
+          "id": "C",
+          "text": "Tự do hoàn toàn"
+        },
+        {
+          "id": "D",
+          "text": "Kế hoạch hóa tập trung"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cơ chế thị trường định hướng XHCN."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của chiến thắng Tây Nguyên là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiêu diệt một bộ phận sinh lực địch"
+        },
+        {
+          "id": "B",
+          "text": "Giải phóng vùng đất rộng lớn"
+        },
+        {
+          "id": "C",
+          "text": "Chuyển cuộc kháng chiến từ tiến công chiến lược sang tổng tiến công chiến lược"
+        },
+        {
+          "id": "D",
+          "text": "Làm tinh thần địch hoang mang"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bước ngoặt chuyển sang tổng tiến công trên toàn miền Nam."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cao trào kháng Nhật cứu nước diễn ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bắc Kỳ và Bắc Trung Kỳ"
+        },
+        {
+          "id": "B",
+          "text": "Nam Kỳ"
+        },
+        {
+          "id": "C",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Các đô thị lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nơi chính quyền địch bị tê liệt và phong trào quần chúng lên cao, cộng với nạn đói diễn ra gay gắt."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng khoa học - kỹ thuật hiện đại có nguồn gốc từ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Yêu cầu của cuộc sống và sản xuất"
+        },
+        {
+          "id": "B",
+          "text": "Do chiến tranh thế giới"
+        },
+        {
+          "id": "C",
+          "text": "Do sự bùng nổ dân số"
+        },
+        {
+          "id": "D",
+          "text": "Do sự vơi cạn tài nguyên"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi cuộc cách mạng đều xuất phát từ nhu cầu thực tiễn của cuộc sống và sản xuất."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tổng thống cuối cùng của chính quyền Sài Gòn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Văn Thiệu"
+        },
+        {
+          "id": "B",
+          "text": "Trần Văn Hương"
+        },
+        {
+          "id": "C",
+          "text": "Dương Văn Minh"
+        },
+        {
+          "id": "D",
+          "text": "Ngô Đình Diệm"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dương Văn Minh tuyên bố đầu hàng không điều kiện trưa 30/4."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Việt Nam gia nhập ASEAN vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1992"
+        },
+        {
+          "id": "B",
+          "text": "1995"
+        },
+        {
+          "id": "C",
+          "text": "1997"
+        },
+        {
+          "id": "D",
+          "text": "1999"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việt Nam gia nhập ngày 28/7/1995."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Chính quyền Ngô Đình Diệm bị lật đổ vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "11/1960"
+        },
+        {
+          "id": "B",
+          "text": "1/1963"
+        },
+        {
+          "id": "C",
+          "text": "11/1963"
+        },
+        {
+          "id": "D",
+          "text": "12/1964"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc đảo chính ngày 1/11/1963 do Mỹ giật dây đã giết chết anh em Diệm - Nhu."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Thời cơ chiến lược để giải phóng Sài Gòn được xác định là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trước mùa mưa năm 1975"
+        },
+        {
+          "id": "B",
+          "text": "Trong năm 1976"
+        },
+        {
+          "id": "C",
+          "text": "Khi Mỹ rút hết quân"
+        },
+        {
+          "id": "D",
+          "text": "Khi quân đội Sài Gòn tan rã hoàn toàn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kịp thời, nhanh chóng trước khi mùa mưa đến."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trái Tim của mục tiêu kinh tế Marshall Plan là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tái chiếm các thuộc địa"
+        },
+        {
+          "id": "B",
+          "text": "Tái xây dựng nước Anh"
+        },
+        {
+          "id": "C",
+          "text": "Tái xây dựng Tây Âu"
+        },
+        {
+          "id": "D",
+          "text": "Tái xây dựng Liên Xô"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Kế hoạch Marshall (1948-1952) nhằm tái xây dựng Tây Âu sau Thế chiến II."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đại hội Đảng nào đã xác định mục tiêu \"Dân giàu, nước mạnh, xã hội công bằng, văn minh\"?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại hội IX (2001)"
+        },
+        {
+          "id": "B",
+          "text": "Đại hội VIII (1996)"
+        },
+        {
+          "id": "C",
+          "text": "Đại hội VI (1986)"
+        },
+        {
+          "id": "D",
+          "text": "Đại hội VII (1991)"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu tổng quát được hoàn thiện dần và nêu rõ tại các kỳ đại hội sau đổi mới (ĐH IX nêu rõ cụm từ này)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hội nghị Potsdam được tổ chức vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1944"
+        },
+        {
+          "id": "B",
+          "text": "1945"
+        },
+        {
+          "id": "C",
+          "text": "1946"
+        },
+        {
+          "id": "D",
+          "text": "1947"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hội nghị Potsdam được tổ chức tháng 7-8 năm 1945 về những vấn đề sau Thế chiến II."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hệ thống \"Ấp chiến lược\" được Mỹ coi là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quốc sách"
+        },
+        {
+          "id": "B",
+          "text": "Chiến thuật mới"
+        },
+        {
+          "id": "C",
+          "text": "Kế hoạch nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Biện pháp tạm thời"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "\"Xương sống\" và là \"quốc sách\" của Chiến tranh đặc biệt."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tướng Pháp nào đã xây dựng Điện Biên Phủ thành \"pháo đài bất khả xâm phạm\"?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Na-va"
+        },
+        {
+          "id": "B",
+          "text": "Đờ Cát-xtơ-ri"
+        },
+        {
+          "id": "C",
+          "text": "Lơ-clec"
+        },
+        {
+          "id": "D",
+          "text": "Bô-la-e"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện Biên Phủ là tâm điểm của kế hoạch Na-va."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ủy ban Dân tộc giải phóng Việt Nam do ai làm Chủ tịch?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trường Chinh"
+        },
+        {
+          "id": "B",
+          "text": "Phạm Văn Đồng"
+        },
+        {
+          "id": "C",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Võ Nguyên Giáp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Được bầu tại Quốc dân Đại hội Tân Trào."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nét nổi bật của quan hệ quốc tế sau sự kiện 11/9/2001 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hòa bình ổn định hoàn toàn"
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa khủng bố xuất hiện và đe dọa an ninh thế giới"
+        },
+        {
+          "id": "C",
+          "text": "Sự thỏa hiệp giữa các nước lớn"
+        },
+        {
+          "id": "D",
+          "text": "Chiến tranh lạnh quay trở lại"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện 11/9 đặt thế giới trước thách thức của chủ nghĩa khủng bố."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Xu thế toàn cầu hóa là hệ quả của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuộc cách mạng khoa học - công nghệ"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển của các công ty xuyên quốc gia"
+        },
+        {
+          "id": "C",
+          "text": "Sự kết thúc Chiến tranh lạnh"
+        },
+        {
+          "id": "D",
+          "text": "Sự ra đời của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "CM KH-CN tạo điều kiện vật chất và phương tiện cho toàn cầu hóa (internet, giao thông...)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam và Trung Hoa Dân Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam và Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam và Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Pháp và Trung Hoa Dân Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ta ký với Pháp để đuổi quân Trung Hoa Dân Quốc về nước (Hòa để tiến)."
+    }
+  ]
+}

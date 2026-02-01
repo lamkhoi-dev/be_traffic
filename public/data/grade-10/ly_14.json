@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một động cơ có công suất 100W hoạt động trong 1 phút. Công mà động cơ thực hiện là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "100 J"
+        },
+        {
+          "id": "B",
+          "text": "6000 J"
+        },
+        {
+          "id": "C",
+          "text": "60 J"
+        },
+        {
+          "id": "D",
+          "text": "1000 J"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A = P.t = 100 \\times 60 = 6000$ J."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Khi xe ô tô đi qua đoạn đường cong, lực đóng vai trò lực hướng tâm giữ cho xe không bị trượt ra ngoài là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trọng lực"
+        },
+        {
+          "id": "B",
+          "text": "Phản lực của mặt đường"
+        },
+        {
+          "id": "C",
+          "text": "Lực ma sát nghỉ ngang"
+        },
+        {
+          "id": "D",
+          "text": "Lực phát động của động cơ"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát nghỉ giữa bánh xe và mặt đường đóng vai trò lực hướng tâm."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một chất điểm chuyển động tròn đều với bán kính $r = 0,5$m và tốc độ góc $\\omega = 4$ rad/s. Gia tốc hướng tâm của chất điểm là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "4 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "8 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "16 m/s²"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$a_{ht} = \\omega^2 r = 4^2 \\times 0,5 = 16 \\times 0,5 = 8$ m/s²."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trường hợp nào sau đây lực tác dụng **không** sinh công?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cùng phương với chuyển động"
+        },
+        {
+          "id": "B",
+          "text": "Lực hợp với phương chuyển động một góc nhọn"
+        },
+        {
+          "id": "C",
+          "text": "Lực vuông góc với phương chuyển động"
+        },
+        {
+          "id": "D",
+          "text": "Lực ngược chiều với phương chuyển động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công $A = F.s.\\cos\\alpha$. Nếu $\\alpha = 90^\\circ$ (vuông góc) thì $\\cos 90^\\circ = 0 \\Rightarrow A = 0$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cặp lực và phản lực trong định luật III Newton không có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng vào hai vật khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Cùng phương, ngược chiều"
+        },
+        {
+          "id": "C",
+          "text": "Cùng độ lớn"
+        },
+        {
+          "id": "D",
+          "text": "Cân bằng nhau"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vì tác dụng vào 2 vật khác nhau nên chúng KHÔNG cân bằng nhau (lực cân bằng phải đặt vào cùng 1 vật)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg thả rơi tự do từ độ cao 10m xuống đất. Lấy $g = 10 m/s^2$. Thế năng của vật tại độ cao 5m là (chọn gốc thế năng tại mặt đất):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "100 J"
+        },
+        {
+          "id": "B",
+          "text": "50 J"
+        },
+        {
+          "id": "C",
+          "text": "200 J"
+        },
+        {
+          "id": "D",
+          "text": "20 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_t = mgh = 2 \\times 10 \\times 5 = 100$ J."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Dạng cân bằng của một quả cầu đặt trên mặt bàn nằm ngang là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cân bằng bền"
+        },
+        {
+          "id": "B",
+          "text": "Cân bằng không bền"
+        },
+        {
+          "id": "C",
+          "text": "Cân bằng phiếm định"
+        },
+        {
+          "id": "D",
+          "text": "Không cân bằng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi dời chỗ, trọng tâm quả cầu không thay đổi độ cao so với mặt chân đế $\\Rightarrow$ Cân bằng phiếm định."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong va chạm mềm, đại lượng nào được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng"
+        },
+        {
+          "id": "B",
+          "text": "Cơ năng"
+        },
+        {
+          "id": "C",
+          "text": "Động lượng"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Va chạm mềm là hệ kín (hoặc coi như kín trong thời gian ngắn) nên bảo toàn động lượng. Động năng không bảo toàn (mất mát thành nhiệt)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đơn vị của độ cứng $k$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Newton trên mét (N/m)"
+        },
+        {
+          "id": "C",
+          "text": "Mét trên Newton (m/N)"
+        },
+        {
+          "id": "D",
+          "text": "Joule (J)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ $F=k\\Delta l \\Rightarrow k=F/\\Delta l$ (N/m)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đơn vị nào sau đây **không** phải là đơn vị của năng lượng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "B",
+          "text": "Calo (cal)"
+        },
+        {
+          "id": "C",
+          "text": "kWh"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Newton là đơn vị của lực."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một vệ tinh bay quanh Trái Đất theo quỹ đạo tròn. Lực hấp dẫn đóng vai trò:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cản"
+        },
+        {
+          "id": "B",
+          "text": "Lực phát động"
+        },
+        {
+          "id": "C",
+          "text": "Lực hướng tâm"
+        },
+        {
+          "id": "D",
+          "text": "Lực ma sát"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn vuông góc với vận tốc, giữ vệ tinh chuyển động tròn (hướng tâm)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Va chạm đàn hồi là va chạm trong đó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ bảo toàn động lượng, động năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn cả động lượng và động năng"
+        },
+        {
+          "id": "C",
+          "text": "Vật dính vào nhau sau va chạm"
+        },
+        {
+          "id": "D",
+          "text": "Động năng tăng lên sau va chạm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Va chạm đàn hồi bảo toàn cả động lượng và động năng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Gia tốc rơi tự do $g$ phụ thuộc vào yếu tố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khối lượng của vật rơi"
+        },
+        {
+          "id": "B",
+          "text": "Vĩ độ địa lý và độ cao"
+        },
+        {
+          "id": "C",
+          "text": "Kích thước vật rơi"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc đầu của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$g$ thay đổi theo vị trí địa lý (vĩ độ) và độ cao so với mặt đất."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vật ném ngang từ độ cao $h$ với vận tốc ban đầu $v_0$. Tầm xa của vật xác định bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$L = v_0 \\sqrt{\\frac{2h}{g}}$"
+        },
+        {
+          "id": "B",
+          "text": "$L = v_0 \\frac{2h}{g}$"
+        },
+        {
+          "id": "C",
+          "text": "$L = \\frac{v_0^2}{g}$"
+        },
+        {
+          "id": "D",
+          "text": "$L = v_0 t^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tầm xa = vận tốc ngang $\\times$ thời gian rơi = $v_0 \\times \\sqrt{2h/g}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn có trục quay cố định là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tổng các lực tác dụng lên vật bằng 0"
+        },
+        {
+          "id": "B",
+          "text": "Tổng moment lực làm vật quay theo chiều kim đồng hồ bằng tổng moment lực làm vật quay ngược chiều kim đồng hồ"
+        },
+        {
+          "id": "C",
+          "text": "Vật đứng yên hoặc chuyển động thẳng đều"
+        },
+        {
+          "id": "D",
+          "text": "Trọng tâm của vật phải nằm trên trục quay"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quy tắc moment: $\\Sigma M_{xuôi} = \\Sigma M_{ngược}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hiệu suất của một máy được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công toàn phần chia cho công có ích"
+        },
+        {
+          "id": "B",
+          "text": "Công có ích chia cho công toàn phần"
+        },
+        {
+          "id": "C",
+          "text": "Công có ích trừ công toàn phần"
+        },
+        {
+          "id": "D",
+          "text": "Công toàn phần nhân công có ích"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$H = \\frac{A_{coich}}{A_{toanphan}} \\times 100\\%$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "C",
+          "text": "Newton mét (N.m)"
+        },
+        {
+          "id": "D",
+          "text": "Kilogam mét (kg.m)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Va chạm mềm là va chạm mà sau khi va chạm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hai vật tách rời nhau và chuyển động với vận tốc khác nhau"
+        },
+        {
+          "id": "B",
+          "text": "Hai vật dính vào nhau và chuyển động cùng vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Động năng của hệ được bảo toàn"
+        },
+        {
+          "id": "D",
+          "text": "Tổng động lượng của hệ bằng 0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặc điểm của va chạm mềm (inelastic collision) là hai vật dính vào nhau sau va chạm."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hợp lực của hai lực đồng quy $F_1 = 3N$ và $F_2 = 4N$ vuông góc với nhau có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "7 N"
+        },
+        {
+          "id": "B",
+          "text": "1 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "12 N"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$F = \\sqrt{F_1^2 + F_2^2} = \\sqrt{3^2 + 4^2} = 5$ N."
+    }
+  ]
+}

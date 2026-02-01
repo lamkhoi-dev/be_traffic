@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 9: Xác suất",
+    "description": "Kiểm tra kiến thức về Biến cố, Định nghĩa cổ điển của xác suất, Các quy tắc tính xác suất (cộng, nhân, phần bù).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Gieo một con xúc xắc cân đối, đồng chất một lần. Số phần tử của không gian mẫu là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "12" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Không gian mẫu $\\Omega = \\{1, 2, 3, 4, 5, 6\\}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Gieo một con xúc xắc. Xác suất để xuất hiện mặt có số chấm là số chẵn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,5" },
+        { "id": "B", "text": "0,2" },
+        { "id": "C", "text": "0,3" },
+        { "id": "D", "text": "0,4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các mặt chẵn: {2, 4, 6}. $P = 3/6 = 0,5$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một hộp có 3 bi đỏ và 7 bi xanh. Lấy ngẫu nhiên 1 viên bi. Xác suất để lấy được bi đỏ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,3" },
+        { "id": "B", "text": "0,7" },
+        { "id": "C", "text": "0,4" },
+        { "id": "D", "text": "0,1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng 10 bi. Đỏ 3 bi. $P = 3/10 = 0,3$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Biến cố \"Không thể\" có xác suất bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "0,5" },
+        { "id": "D", "text": "-1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố không thể $\\varnothing$ có xác suất bằng 0."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Gieo hai con xúc xắc. Xác suất để tổng số chấm trên hai mặt bằng 7 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/6" },
+        { "id": "B", "text": "1/12" },
+        { "id": "C", "text": "1/9" },
+        { "id": "D", "text": "5/36" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$n(\\Omega) = 36$. Các cặp tổng 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Có 6 cặp. $P = 6/36 = 1/6$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cho A và B là hai biến cố xung khắc. Công thức cộng xác suất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$P(A \\cup B) = P(A) + P(B)$" },
+        { "id": "B", "text": "$P(A \\cup B) = P(A) . P(B)$" },
+        { "id": "C", "text": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$" },
+        { "id": "D", "text": "$P(A \\cap B) = P(A) + P(B)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu xung khắc thì $P(A \\cap B) = 0$, nên $P(A \\cup B) = P(A) + P(B)$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Xác suất bắn trúng bia của xạ thủ A là 0,7. Xác suất bắn trượt của xạ thủ đó là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,3" },
+        { "id": "B", "text": "0,7" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố đối: $P(\\bar{A}) = 1 - P(A) = 1 - 0,7 = 0,3$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Gieo 3 đồng xu cân đối. Xác suất để có ít nhất một đồng xu ngửa là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "7/8" },
+        { "id": "B", "text": "1/8" },
+        { "id": "C", "text": "3/8" },
+        { "id": "D", "text": "1/2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố đối: \"Không có đồng nào ngửa\" (3 sấp) = {SSS}. $P(\\text{đối}) = 1/8$. $P = 1 - 1/8 = 7/8$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Rút ngẫu nhiên 1 lá bài từ bộ bài 52 lá. Xác suất để rút được lá Át (Ace) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/13" },
+        { "id": "B", "text": "1/52" },
+        { "id": "C", "text": "1/4" },
+        { "id": "D", "text": "4/13" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Có 4 lá Át. $P = 4/52 = 1/13$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cho A và B là hai biến cố độc lập. $P(A) = 0,3; P(B) = 0,4$. Tính $P(A \\cap B)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,12" },
+        { "id": "B", "text": "0,7" },
+        { "id": "C", "text": "0,1" },
+        { "id": "D", "text": "0,5" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độc lập thì $P(A \\cap B) = P(A).P(B) = 0,3 \\times 0,4 = 0,12$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một tổ có 6 nam và 4 nữ. Chọn ngẫu nhiên 2 người. Xác suất để chọn được 1 nam và 1 nữ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "8/15" },
+        { "id": "B", "text": "1/2" },
+        { "id": "C", "text": "4/15" },
+        { "id": "D", "text": "2/3" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$n(\\Omega) = C_{10}^2 = 45$. Chọn 1 nam (6 cách), 1 nữ (4 cách) $\\Rightarrow 24$ cách. $P = 24/45 = 8/15$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Biến cố chắc chắn có xác suất bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "100" },
+        { "id": "D", "text": "Vô cùng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố chắc chắn là tập $\\Omega$, xác suất là 1."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một hộp chứa các thẻ đánh số từ 1 đến 20. Lấy ngẫu nhiên 1 thẻ. Xác suất để thẻ lấy được là số chia hết cho 3 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3/10" },
+        { "id": "B", "text": "1/3" },
+        { "id": "C", "text": "1/4" },
+        { "id": "D", "text": "7/20" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các số chia hết cho 3: 3, 6, 9, 12, 15, 18. Có 6 số. $P = 6/20 = 3/10$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hai người cùng bắn vào bia. Xác suất trúng của người 1 là 0,8; người 2 là 0,7. Xác suất để cả hai cùng bắn trúng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,56" },
+        { "id": "B", "text": "0,1" },
+        { "id": "C", "text": "0,94" },
+        { "id": "D", "text": "1,5" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hai biến cố độc lập. $P = 0,8 \\times 0,7 = 0,56$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Gieo 2 đồng xu. Biến cố \"Hai đồng xu đều ngửa\" là tập hợp:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\{NN\\}$" },
+        { "id": "B", "text": "$\\{NN, SS\\}$" },
+        { "id": "C", "text": "$\\{NS, SN\\}$" },
+        { "id": "D", "text": "$\\{N\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chỉ có trường hợp Ngửa - Ngửa."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho $P(A) = 0,5; P(B) = 0,4; P(A \\cup B) = 0,7$. Tính $P(A \\cap B)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,2" },
+        { "id": "B", "text": "0,1" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "0,9" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P(A \\cap B) = P(A) + P(B) - P(A \\cup B) = 0,5 + 0,4 - 0,7 = 0,2$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chọn ngẫu nhiên một số tự nhiên bé hơn 10. Xác suất để số đó là số nguyên tố là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,4" },
+        { "id": "B", "text": "0,5" },
+        { "id": "C", "text": "0,3" },
+        { "id": "D", "text": "0,6" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số tự nhiên bé hơn 10: 0, 1, ..., 9 (10 số). Số nguyên tố: 2, 3, 5, 7 (4 số). $P = 4/10 = 0,4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Gieo 3 con xúc xắc. Xác suất để tổng số chấm bằng 4 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3/216" },
+        { "id": "B", "text": "1/216" },
+        { "id": "C", "text": "1/72" },
+        { "id": "D", "text": "4/216" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Không gian mẫu $6^3 = 216$. Các bộ số có tổng bằng 4: (1,1,2), (1,2,1), (2,1,1). Có 3 bộ. $P = 3/216$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một lớp có 40 học sinh, trong đó có 15 nữ. Chọn ngẫu nhiên 1 học sinh. Xác suất để chọn được học sinh nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5/8" },
+        { "id": "B", "text": "3/8" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "2/3" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số nam: $40 - 15 = 25$. $P = 25/40 = 5/8$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nếu hai biến cố A và B xung khắc thì $P(A \\cap B)$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "$P(A).P(B)$" },
+        { "id": "D", "text": "$P(A)+P(B)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xung khắc nghĩa là không thể xảy ra đồng thời (giao bằng rỗng), nên xác suất giao bằng 0."
+    }
+  ]
+}

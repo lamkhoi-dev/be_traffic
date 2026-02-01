@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Closest meaning: Robots will 'exterminate' jobs that are repetitive.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "create"
+        },
+        {
+          "id": "B",
+          "text": "eliminate"
+        },
+        {
+          "id": "C",
+          "text": "improve"
+        },
+        {
+          "id": "D",
+          "text": "increase"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Exterminate' (tiêu diệt/loại bỏ) gần nghĩa với 'eliminate' (loại bỏ) trong ngữ cảnh việc làm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "______ his lack of experience, he got the job.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Although"
+        },
+        {
+          "id": "B",
+          "text": "Because of"
+        },
+        {
+          "id": "C",
+          "text": "In spite of"
+        },
+        {
+          "id": "D",
+          "text": "Though"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau chỗ trống là cụm danh từ 'his lack of experience', dùng 'In spite of' hoặc 'Despite'."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Communication: 'I propose that we should use public transport.' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I don't think so."
+        },
+        {
+          "id": "B",
+          "text": "That's a good idea."
+        },
+        {
+          "id": "C",
+          "text": "It's not true."
+        },
+        {
+          "id": "D",
+          "text": "You're wrong."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đồng ý với một lời đề xuất một cách lịch sự."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Many students choose ______ education instead of going to university.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "vocational"
+        },
+        {
+          "id": "B",
+          "text": "academic"
+        },
+        {
+          "id": "C",
+          "text": "higher"
+        },
+        {
+          "id": "D",
+          "text": "primary"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Vocational education' (giáo dục nghề nghiệp/học nghề)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Communication: 'I think we should ban hunting wild animals.' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "It's not true."
+        },
+        {
+          "id": "C",
+          "text": "You're wrong."
+        },
+        {
+          "id": "D",
+          "text": "I don't mind."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' nghĩa là tôi hoàn toàn đồng ý."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "The ______ of the internet has changed the way we communicate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "advent"
+        },
+        {
+          "id": "B",
+          "text": "event"
+        },
+        {
+          "id": "C",
+          "text": "intent"
+        },
+        {
+          "id": "D",
+          "text": "adventurous"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The advent of...' là cụm từ cố định, nghĩa là 'sự ra đời/xuất hiện của...'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Opposite meaning: AI machines can be more 'accurate' than humans.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "precise"
+        },
+        {
+          "id": "B",
+          "text": "exact"
+        },
+        {
+          "id": "C",
+          "text": "imprecise"
+        },
+        {
+          "id": "D",
+          "text": "correct"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Accurate' (chính xác) trái nghĩa với 'imprecise' (không chính xác)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Identify the mistake: 'My father used to smoking a pack of cigarettes a day, but he stopped two years ago.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "used to"
+        },
+        {
+          "id": "B",
+          "text": "smoking"
+        },
+        {
+          "id": "C",
+          "text": "a day"
+        },
+        {
+          "id": "D",
+          "text": "stopped"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cấu trúc 'used to + V-inf' chỉ thói quen trong quá khứ. Phải sửa 'smoking' thành 'smoke'."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cultural ______ helps people understand each other better.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "shock"
+        },
+        {
+          "id": "B",
+          "text": "exchange"
+        },
+        {
+          "id": "C",
+          "text": "barrier"
+        },
+        {
+          "id": "D",
+          "text": "conflict"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Cultural exchange' (trao đổi văn hóa)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "He ______ the guitar when his mom came home yesterday.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "played"
+        },
+        {
+          "id": "B",
+          "text": "is playing"
+        },
+        {
+          "id": "C",
+          "text": "was playing"
+        },
+        {
+          "id": "D",
+          "text": "has played"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hành động đang diễn ra tại một thời điểm trong quá khứ (khi mẹ về) dùng Quá khứ tiếp diễn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "The situation is getting ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "worse and worse"
+        },
+        {
+          "id": "B",
+          "text": "bad and bad"
+        },
+        {
+          "id": "C",
+          "text": "more and more bad"
+        },
+        {
+          "id": "D",
+          "text": "worst and worst"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "So sánh lặp của 'bad' là 'worse and worse'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "She managed to finish the project ______ she was ill.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "despite"
+        },
+        {
+          "id": "B",
+          "text": "even though"
+        },
+        {
+          "id": "C",
+          "text": "because"
+        },
+        {
+          "id": "D",
+          "text": "in spite of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau chỗ trống là mệnh đề 'she was ill', dùng 'even though'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Communication: 'What does this symbol represent?' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "It stands for peace."
+        },
+        {
+          "id": "B",
+          "text": "It is made of gold."
+        },
+        {
+          "id": "C",
+          "text": "I bought it yesterday."
+        },
+        {
+          "id": "D",
+          "text": "It is very expensive."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hỏi về ý nghĩa biểu tượng (represent). Trả lời dùng 'stand for' (tượng trưng cho)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "If you are not sure what to do, you can ask a career ______ for advice.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "adviser"
+        },
+        {
+          "id": "B",
+          "text": "advise"
+        },
+        {
+          "id": "C",
+          "text": "advisory"
+        },
+        {
+          "id": "D",
+          "text": "advising"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Career adviser' (cố vấn nghề nghiệp)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "She feels ______ because she can't speak the local language.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "isolated"
+        },
+        {
+          "id": "B",
+          "text": "connected"
+        },
+        {
+          "id": "C",
+          "text": "proud"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Isolated' (bị cô lập) là cảm giác khi không giao tiếp được."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Many teenagers are ______ to social media and spend hours on it every day.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "addicted"
+        },
+        {
+          "id": "B",
+          "text": "interested"
+        },
+        {
+          "id": "C",
+          "text": "hooked"
+        },
+        {
+          "id": "D",
+          "text": "bored"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'addicted to' (nghiện cái gì). 'Hooked' cũng đi với 'on'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "To activate the device, you need to use a ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "passcode"
+        },
+        {
+          "id": "B",
+          "text": "passport"
+        },
+        {
+          "id": "C",
+          "text": "passage"
+        },
+        {
+          "id": "D",
+          "text": "passenger"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Passcode' (mã khóa/mật khẩu) để kích hoạt thiết bị."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "You ______ be late for the interview, or you will lose the chance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "mustn't"
+        },
+        {
+          "id": "B",
+          "text": "needn't"
+        },
+        {
+          "id": "C",
+          "text": "don't have to"
+        },
+        {
+          "id": "D",
+          "text": "should"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Mustn't' chỉ sự cấm đoán (không được phép muộn)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The Red List provides information about the ______ status of species.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "conservation"
+        },
+        {
+          "id": "B",
+          "text": "protection"
+        },
+        {
+          "id": "C",
+          "text": "reservation"
+        },
+        {
+          "id": "D",
+          "text": "production"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Conservation status' (tình trạng bảo tồn - ví dụ: nguy cấp, an toàn...)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "By the time he was 25, he ______ several best-selling books.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "wrote"
+        },
+        {
+          "id": "B",
+          "text": "has written"
+        },
+        {
+          "id": "C",
+          "text": "had written"
+        },
+        {
+          "id": "D",
+          "text": "was writing"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc 'By the time + S + V(quá khứ), S + had + V3'. Diễn tả hành động hoàn thành trước một mốc thời gian trong quá khứ."
+    }
+  ]
+}

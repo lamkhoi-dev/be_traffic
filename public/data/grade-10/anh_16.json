@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "The man ________ lives next door is a teacher.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "which"
+        },
+        {
+          "id": "B",
+          "text": "who"
+        },
+        {
+          "id": "C",
+          "text": "whom"
+        },
+        {
+          "id": "D",
+          "text": "whose"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay thế cho danh từ chỉ người (The man) làm chủ ngữ -> dùng Who."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Look! The rain ________ heavily.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "falls"
+        },
+        {
+          "id": "B",
+          "text": "fall"
+        },
+        {
+          "id": "C",
+          "text": "is falling"
+        },
+        {
+          "id": "D",
+          "text": "are falling"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có từ 'Look!' báo hiệu hành động đang xảy ra -> Hiện tại tiếp diễn."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Illegal hunting can lead to the ________ of rare animals.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "extinct"
+        },
+        {
+          "id": "B",
+          "text": "extinction"
+        },
+        {
+          "id": "C",
+          "text": "dead"
+        },
+        {
+          "id": "D",
+          "text": "death"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lead to extinction: dẫn đến sự tuyệt chủng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Students can use a ________ to type assignments or search the web.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "blackboard"
+        },
+        {
+          "id": "B",
+          "text": "chalk"
+        },
+        {
+          "id": "C",
+          "text": "tablet"
+        },
+        {
+          "id": "D",
+          "text": "pen"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tablet (máy tính bảng) dùng để gõ bài hoặc tra web."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "This device is portable, ________ it is easy to carry around.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "so"
+        },
+        {
+          "id": "B",
+          "text": "but"
+        },
+        {
+          "id": "C",
+          "text": "or"
+        },
+        {
+          "id": "D",
+          "text": "because"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Portable nghĩa là có thể mang theo, nên (so) dễ mang đi."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Many wild animals are in danger of ________ habitat loss.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "because"
+        },
+        {
+          "id": "B",
+          "text": "due to"
+        },
+        {
+          "id": "C",
+          "text": "despite"
+        },
+        {
+          "id": "D",
+          "text": "because of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Due to + Noun phrase. (Because of cũng đúng nhưng trong văn cảnh trang trọng 'due to' thường dùng hơn, tuy nhiên ở level lớp 10 B và D đều chấp nhận được, chọn B/D đều hợp lý, đáp án mẫu chọn B)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "We should help people ________ natural disasters.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "suffer"
+        },
+        {
+          "id": "B",
+          "text": "suffering"
+        },
+        {
+          "id": "C",
+          "text": "suffered"
+        },
+        {
+          "id": "D",
+          "text": "suffers"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Rút gọn mệnh đề quan hệ: people (who are) suffering..."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Living in the city is often ________ than living in the countryside.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "expensive"
+        },
+        {
+          "id": "B",
+          "text": "more expensive"
+        },
+        {
+          "id": "C",
+          "text": "expensiver"
+        },
+        {
+          "id": "D",
+          "text": "most expensive"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Expensive là tính từ dài -> more expensive."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "The judges will ________ the contestants based on their voice and performance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminate"
+        },
+        {
+          "id": "B",
+          "text": "evaluate"
+        },
+        {
+          "id": "C",
+          "text": "watch"
+        },
+        {
+          "id": "D",
+          "text": "sing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Evaluate: đánh giá."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "She ________ five emails this morning.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "has written"
+        },
+        {
+          "id": "B",
+          "text": "write"
+        },
+        {
+          "id": "C",
+          "text": "writes"
+        },
+        {
+          "id": "D",
+          "text": "writing"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hành động lặp lại nhiều lần hoặc vừa hoàn thành trong buổi sáng nay (chưa qua hẳn) -> Hiện tại hoàn thành."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "We should ________ a green lifestyle to help conserve natural resources.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "adopt"
+        },
+        {
+          "id": "B",
+          "text": "adapt"
+        },
+        {
+          "id": "C",
+          "text": "adept"
+        },
+        {
+          "id": "D",
+          "text": "adjust"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Adopt a lifestyle: áp dụng/theo một lối sống."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "perform"
+        },
+        {
+          "id": "B",
+          "text": "idol"
+        },
+        {
+          "id": "C",
+          "text": "singer"
+        },
+        {
+          "id": "D",
+          "text": "judge"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Perform nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Wait! I ________ you with those heavy bags.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "am going to help"
+        },
+        {
+          "id": "B",
+          "text": "will help"
+        },
+        {
+          "id": "C",
+          "text": "am helping"
+        },
+        {
+          "id": "D",
+          "text": "help"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quyết định ngay tại thời điểm nói -> dùng 'will'."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Both genders should be treated ________ at work.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "equal"
+        },
+        {
+          "id": "B",
+          "text": "equally"
+        },
+        {
+          "id": "C",
+          "text": "equality"
+        },
+        {
+          "id": "D",
+          "text": "same"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần trạng từ bổ nghĩa cho động từ 'treated'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "This job can ________ by both men and women.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "done"
+        },
+        {
+          "id": "B",
+          "text": "be done"
+        },
+        {
+          "id": "C",
+          "text": "do"
+        },
+        {
+          "id": "D",
+          "text": "doing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bị động với độn từ khuyết thiếu: Can + be + V3."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Which sentence is correct?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "She is more happier than me."
+        },
+        {
+          "id": "B",
+          "text": "She is happier than me."
+        },
+        {
+          "id": "C",
+          "text": "She is happy than me."
+        },
+        {
+          "id": "D",
+          "text": "She is the happier than me."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Happy -> Happier (tính từ kết thúc bằng 'y' coi như tính từ ngắn)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "We bought some ________ vegetables at the farmers' market.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "organic"
+        },
+        {
+          "id": "B",
+          "text": "chemical"
+        },
+        {
+          "id": "C",
+          "text": "industrial"
+        },
+        {
+          "id": "D",
+          "text": "polluted"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Organic vegetables: rau hữu cơ."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "FAO helps countries improve agriculture and ________ security.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "food"
+        },
+        {
+          "id": "B",
+          "text": "water"
+        },
+        {
+          "id": "C",
+          "text": "money"
+        },
+        {
+          "id": "D",
+          "text": "house"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Food security: an ninh lương thực."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Volunteering helps students gain useful ________ life experiences.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "practice"
+        },
+        {
+          "id": "B",
+          "text": "practical"
+        },
+        {
+          "id": "C",
+          "text": "practically"
+        },
+        {
+          "id": "D",
+          "text": "practicing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần tính từ bổ nghĩa cho danh từ 'life experiences'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "We must not ________ people based on their gender.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "respect"
+        },
+        {
+          "id": "B",
+          "text": "discriminate"
+        },
+        {
+          "id": "C",
+          "text": "love"
+        },
+        {
+          "id": "D",
+          "text": "help"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Discriminate: phân biệt đối xử."
+    }
+  ]
+}

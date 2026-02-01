@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Căn cứ địa cách mạng chính của cả nước trong kháng chiến chống Pháp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "B",
+          "text": "Việt Bắc"
+        },
+        {
+          "id": "C",
+          "text": "Đồng bằng sông Cửu Long"
+        },
+        {
+          "id": "D",
+          "text": "Hà Nội"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việt Bắc là 'Thủ đô gió ngàn', đầu não kháng chiến."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Lực lượng giữ vai trò quan trọng nhất trong chiến lược \"Chiến tranh cục bộ\" (1965-1968) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân đội Sài Gòn"
+        },
+        {
+          "id": "B",
+          "text": "Quân Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Quân đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Cố vấn Mỹ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh cục bộ đặc trưng bởi sự tham chiến trực tiếp của quân viễn chinh Mỹ (lực lượng chủ yếu)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Thời cơ chiến lược để giải phóng Sài Gòn được xác định là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trước mùa mưa năm 1975"
+        },
+        {
+          "id": "B",
+          "text": "Trong năm 1976"
+        },
+        {
+          "id": "C",
+          "text": "Khi Mỹ rút hết quân"
+        },
+        {
+          "id": "D",
+          "text": "Khi quân đội Sài Gòn tan rã hoàn toàn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kịp thời, nhanh chóng trước khi mùa mưa đến."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phong trào \"Phá kho thóc, giải quyết nạn đói\" diễn ra trong thời kỳ nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cao trào kháng Nhật cứu nước (1945)"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào 1930-1931"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào 1936-1939"
+        },
+        {
+          "id": "D",
+          "text": "Sau Cách mạng tháng Tám"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu đáp ứng nguyện vọng cấp bách nhất của nông dân lúc bấy giờ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Thành tựu lớn nhất sau 15 năm thực hiện Đổi mới (1986-2000) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đất nước thoát khỏi khủng hoảng kinh tế - xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Trở thành nước công nghiệp hiện đại"
+        },
+        {
+          "id": "C",
+          "text": "Gia nhập WTO"
+        },
+        {
+          "id": "D",
+          "text": "Xuất khẩu gạo đứng đầu thế giới"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đến năm 1996 nước ta thoát khỏi khủng hoảng, năm 2000 kinh tế tăng trưởng khá."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trận đánh then chốt mở màn chiến dịch Tây Nguyên là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Plâyku"
+        },
+        {
+          "id": "B",
+          "text": "Kon Tum"
+        },
+        {
+          "id": "C",
+          "text": "Buôn Ma Thuột"
+        },
+        {
+          "id": "D",
+          "text": "An Khê"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đánh vào Buôn Ma Thuột (10/3/1975) làm rối loạn hệ thống phòng thủ của địch."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Sau Hiệp định Paris 1973, so sánh lực lượng ở miền Nam thay đổi như thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có lợi cho cách mạng"
+        },
+        {
+          "id": "B",
+          "text": "Có lợi cho chính quyền Sài Gòn"
+        },
+        {
+          "id": "C",
+          "text": "Cân bằng"
+        },
+        {
+          "id": "D",
+          "text": "Bất lợi cho cả hai bên"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quân Mỹ rút đi, quân ngụy mất chỗ dựa, trong khi lực lượng ta được giữ nguyên và phát triển."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tổng thống cuối cùng của chính quyền Sài Gòn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Văn Thiệu"
+        },
+        {
+          "id": "B",
+          "text": "Trần Văn Hương"
+        },
+        {
+          "id": "C",
+          "text": "Dương Văn Minh"
+        },
+        {
+          "id": "D",
+          "text": "Ngô Đình Diệm"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dương Văn Minh tuyên bố đầu hàng không điều kiện trưa 30/4."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào năm 1947 là đánh dấu sự kết thúc của chủ nghĩa thực dân ở châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "B",
+          "text": "Indonesia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ấn Độ tuyên bố độc lập năm 1947, đánh dấu sự suy thoái của chủ nghĩa thực dân ở châu Á."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng khoa học - kỹ thuật hiện đại có nguồn gốc từ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Yêu cầu của cuộc sống và sản xuất"
+        },
+        {
+          "id": "B",
+          "text": "Do chiến tranh thế giới"
+        },
+        {
+          "id": "C",
+          "text": "Do sự bùng nổ dân số"
+        },
+        {
+          "id": "D",
+          "text": "Do sự vơi cạn tài nguyên"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi cuộc cách mạng đều xuất phát từ nhu cầu thực tiễn của cuộc sống và sản xuất."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Phong trào phá \"Ấp chiến lược\" diễn ra với khẩu hiệu:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một tấc không đi, một ly không rời"
+        },
+        {
+          "id": "B",
+          "text": "Bám đất giữ làng"
+        },
+        {
+          "id": "C",
+          "text": "Không đội trời chung với địch"
+        },
+        {
+          "id": "D",
+          "text": "Quyết tử cho Tổ quốc quyết sinh"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thể hiện quyết tâm bám đất, không chịu vào ấp."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hiệp ước NATO được ký kết năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1947"
+        },
+        {
+          "id": "B",
+          "text": "1948"
+        },
+        {
+          "id": "C",
+          "text": "1949"
+        },
+        {
+          "id": "D",
+          "text": "1950"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hiệp ước NATO được ký kết ngày 4 tháng 4 năm 1949 tại Washington."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trọng tâm của công cuộc Đổi mới là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đổi mới chính trị"
+        },
+        {
+          "id": "B",
+          "text": "Đổi mới văn hóa"
+        },
+        {
+          "id": "C",
+          "text": "Đổi mới kinh tế"
+        },
+        {
+          "id": "D",
+          "text": "Đổi mới giáo dục"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đổi mới toàn diện nhưng trọng tâm là kinh tế."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Mặt trận Việt Minh được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "19/5/1890"
+        },
+        {
+          "id": "B",
+          "text": "19/5/1941"
+        },
+        {
+          "id": "C",
+          "text": "22/12/1944"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 19/5/1941, Mặt trận Việt Minh ra đời tại Pác Bó (Cao Bằng)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Ai là nhân vật lãnh đạo của Cuba trong cuộc cách mạng năm 1959?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Batista"
+        },
+        {
+          "id": "B",
+          "text": "Fidel Castro"
+        },
+        {
+          "id": "C",
+          "text": "Che Guevara"
+        },
+        {
+          "id": "D",
+          "text": "Raúl Castro"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Fidel Castro lãnh đạo cuộc cách mạng Cuba năm 1959, lật đổ chế độ Batista."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nguyên nhân khách quan làm nên thắng lợi của cuộc kháng chiến chống Mỹ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự lãnh đạo của Đảng"
+        },
+        {
+          "id": "B",
+          "text": "Tinh thần đoàn kết chiến đấu của ba nước Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Nhân dân ta yêu nước"
+        },
+        {
+          "id": "D",
+          "text": "Hậu phương miền Bắc vững chắc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự đoàn kết Đông Dương, sự giúp đỡ của Liên Xô, Trung Quốc... là nguyên nhân khách quan."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Nguyễn Ái Quốc triệu tập Hội nghị thành lập Đảng (đầu năm 1930) với tư cách là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại diện của Đông Dương Cộng sản đảng"
+        },
+        {
+          "id": "B",
+          "text": "Phái viên của Quốc tế Cộng sản"
+        },
+        {
+          "id": "C",
+          "text": "Đại diện của An Nam Cộng sản đảng"
+        },
+        {
+          "id": "D",
+          "text": "Lãnh tụ của Hội Việt Nam Cách mạng Thanh niên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người chủ trì hội nghị với tư cách phái viên của Quốc tế Cộng sản."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thắng lợi quân sự nào của ta đã buộc Mỹ phải ký Hiệp định Paris (1973)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến thắng Vạn Tường"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Tiến công chiến lược năm 1972"
+        },
+        {
+          "id": "C",
+          "text": "Trận \"Điện Biên Phủ trên không\" (12/1972)"
+        },
+        {
+          "id": "D",
+          "text": "Tổng tiến công Mậu Thân 1968"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đòn quyết định đập tan nỗ lực quân sự cao nhất của Mỹ, buộc Mỹ ký hiệp định."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hội nghị Potsdam được tổ chức vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1944"
+        },
+        {
+          "id": "B",
+          "text": "1945"
+        },
+        {
+          "id": "C",
+          "text": "1946"
+        },
+        {
+          "id": "D",
+          "text": "1947"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hội nghị Potsdam được tổ chức tháng 7-8 năm 1945 về những vấn đề sau Thế chiến II."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Việt Nam bắt đầu xuất khẩu gạo từ năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1989"
+        },
+        {
+          "id": "B",
+          "text": "1986"
+        },
+        {
+          "id": "C",
+          "text": "1995"
+        },
+        {
+          "id": "D",
+          "text": "1990"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năm 1989, Việt Nam từ nước thiếu ăn trở thành nước xuất khẩu gạo thứ 3 thế giới."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Bài 7: Giới hạn của dãy số",
+    "description": "Kiểm tra kiến thức về định nghĩa giới hạn hữu hạn, giới hạn vô cực, các định lý và quy tắc tìm giới hạn của dãy số (dạng đa thức, phân thức, chứa căn, lũy thừa).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây có giới hạn bằng 0?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$u_n = n$" },
+        { "id": "B", "text": "$u_n = \\frac{1}{\\sqrt{n}}$" },
+        { "id": "C", "text": "$u_n = 2^n$" },
+        { "id": "D", "text": "$u_n = (-1)^n$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Theo giới hạn cơ bản: $\\lim \\frac{1}{n^k} = 0$ với $k > 0$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim \\frac{2n + 1}{n - 3}$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "-1/3" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "+∞" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\lim \\frac{2 + 1/n}{1 - 3/n} = \\frac{2}{1} = 2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cho hai dãy số $(u_n), (v_n)$ có $\\lim u_n = 2$ và $\\lim v_n = 3$. Giá trị của $\\lim (u_n . v_n)$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "-1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định lý: $\\lim(u_n . v_n) = \\lim u_n . \\lim v_n = 2 . 3 = 6$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tìm giới hạn $L = \\lim (3n^2 - 2n + 5)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\infty$" },
+        { "id": "B", "text": "$+\\infty$" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặt $n^2$ làm nhân tử chung: $\\lim n^2(3 - \\frac{2}{n} + \\frac{5}{n^2}) = (+\\infty).3 = +\\infty$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Dãy số $(q^n)$ có giới hạn bằng 0 khi nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$q > 1$" },
+        { "id": "B", "text": "$q = 1$" },
+        { "id": "C", "text": "$|q| < 1$" },
+        { "id": "D", "text": "$q < -1$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là định lý cơ bản về giới hạn của cấp số nhân lùi vô hạn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{n^2 - 3n}{2n^2 + 1}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "-3" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bậc tử bằng bậc mẫu (bậc 2), giới hạn bằng tỉ số hệ số bậc cao nhất: 1/2."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tính tổng của cấp số nhân lùi vô hạn: $1; -\\frac{1}{2}; \\frac{1}{4}; -\\frac{1}{8}; ...$",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2/3" },
+        { "id": "B", "text": "3/2" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 1, q = -1/2$. Tổng $S = \\frac{u_1}{1-q} = \\frac{1}{1 - (-1/2)} = \\frac{1}{3/2} = \\frac{2}{3}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tìm $\\lim \\frac{\\sqrt{4n^2 + 1} - n}{n + 2}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\frac{\\sqrt{4 + 1/n^2} - 1}{1 + 2/n} \\to \\frac{\\sqrt{4}-1}{1} = \\frac{2-1}{1} = 1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{3^n - 4^n}{3^n + 4^n}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "-1" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "3/4" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho $4^n$ (cơ số lớn nhất): $\\frac{(3/4)^n - 1}{(3/4)^n + 1} \\to \\frac{0 - 1}{0 + 1} = -1$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim (\\sqrt{n^2 + 2n} - n)$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhân lượng liên hợp: $\\lim \\frac{n^2+2n-n^2}{\\sqrt{n^2+2n}+n} = \\lim \\frac{2n}{n\\sqrt{1+2/n}+n} = \\frac{2}{1+1} = 1$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tìm $\\lim \\frac{1 + 2 + ... + n}{n^2}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tử số là tổng CSC: $\\frac{n(n+1)}{2}$. Biểu thức thành $\\frac{n^2+n}{2n^2} \\to \\frac{1}{2}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây có giới hạn là $-\\infty$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$u_n = -n^2 + 4n$" },
+        { "id": "B", "text": "$u_n = 2n^3 - n$" },
+        { "id": "C", "text": "$u_n = \\frac{n^2-1}{n}$" },
+        { "id": "D", "text": "$u_n = (-2)^n$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_n = n^2(-1 + 4/n) \\to (+\\infty).(-1) = -\\infty$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho $\\lim u_n = L$. Chọn khẳng định đúng.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lim |u_n| = L$" },
+        { "id": "B", "text": "$\\lim \\sqrt{u_n} = \\sqrt{L}$ (nếu $u_n \\ge 0$)" },
+        { "id": "C", "text": "$\\lim u_n^2 = L$" },
+        { "id": "D", "text": "$\\lim (u_n + 1) = L$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nếu $\\lim u_n = L$ và $u_n \\ge 0$ thì $\\lim \\sqrt{u_n} = \\sqrt{L}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5/3" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Biết $\\lim \\frac{an + 4}{2n + 3} = 3$. Giá trị của $a$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giới hạn bằng $a/2$. Ta có $a/2 = 3 \\Rightarrow a = 6$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tính $\\lim (\\sqrt{n^2+1} - n)$ là dạng vô định nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{0}{0}$" },
+        { "id": "B", "text": "$\\frac{\\infty}{\\infty}$" },
+        { "id": "C", "text": "$\\infty - \\infty$" },
+        { "id": "D", "text": "$0.\\infty$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$n^2 \\to \\infty$, $n \\to \\infty$, hiệu là dạng vô định $\\infty - \\infty$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tổng $S = 2 + 1 + \\frac{1}{2} + \\frac{1}{4} + ...$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "5" },
+        { "id": "D", "text": "2,5" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấp số nhân lùi vô hạn với $u_1=2, q=1/2$. $S = \\frac{2}{1-0,5} = 4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim \\frac{(2n-1)(n+3)}{n^2 + 5}$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tử số có bậc cao nhất là $2n^2$. Mẫu là $n^2$. Tỉ số hệ số: $2/1 = 2$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tìm $\\lim (\\sqrt{2} . \\frac{1}{\\sqrt{n}})$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{2}$" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lim \\frac{1}{\\sqrt{n}} = 0$, nên tích bằng 0."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chọn mệnh đề sai.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lim n^k = +\\infty$ ($k$ nguyên dương)." },
+        { "id": "B", "text": "$\\lim c = c$ ($c$ là hằng số)." },
+        { "id": "C", "text": "$\\lim q^n = +\\infty$ với $q > 1$." },
+        { "id": "D", "text": "$\\lim \\frac{1}{n} = 1$." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sai, vì $\\lim \\frac{1}{n} = 0$."
+    }
+  ]
+}

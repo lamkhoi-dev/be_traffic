@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 8: Việt Nam 1965-1973",
+    "description": "Kiểm tra kiến thức về Chiến tranh cục bộ, Việt Nam hóa chiến tranh, Mậu Thân 1968, Điện Biên Phủ trên không và Hiệp định Paris.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Lực lượng giữ vai trò quan trọng nhất trong chiến lược \"Chiến tranh cục bộ\" (1965-1968) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân đội Sài Gòn" },
+        { "id": "B", "text": "Quân Mỹ" },
+        { "id": "C", "text": "Quân đồng minh" },
+        { "id": "D", "text": "Cố vấn Mỹ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh cục bộ đặc trưng bởi sự tham chiến trực tiếp của quân viễn chinh Mỹ (lực lượng chủ yếu)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Chiến thắng Vạn Tường (8/1965) được coi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "\"Ấp Bắc\" đối với quân Mỹ" },
+        { "id": "B", "text": "Trận Điện Biên Phủ trên không" },
+        { "id": "C", "text": "Đòn quyết định kết thúc chiến tranh" },
+        { "id": "D", "text": "Sự khởi đầu của phong trào Đồng khởi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chứng minh quân dân miền Nam hoàn toàn có thể đánh bại quân Mỹ (như Ấp Bắc đánh bại quân ngụy)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của cuộc Tổng tiến công và nổi dậy Xuân Mậu Thân 1968 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Buộc Mỹ phải tuyên bố \"phi Mỹ hóa\" chiến tranh xâm lược" },
+        { "id": "B", "text": "Tiêu diệt hoàn toàn quân Mỹ" },
+        { "id": "C", "text": "Giải phóng được nhiều vùng nông thôn" },
+        { "id": "D", "text": "Làm lung lay chính quyền Sài Gòn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Buộc Mỹ thừa nhận thất bại của Chiến tranh cục bộ, ngồi vào bàn đàm phán Paris, chấm dứt ném bom miền Bắc."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Âm mưu của chiến lược \"Việt Nam hóa chiến tranh\" là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dùng người Việt đánh người Việt" },
+        { "id": "B", "text": "Dùng người Mỹ đánh người Việt" },
+        { "id": "C", "text": "Lấy chiến tranh nuôi chiến tranh" },
+        { "id": "D", "text": "Mở rộng chiến tranh ra cả Đông Dương" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Rút quân Mỹ, tăng cường quân đội Sài Gòn để tiếp tục chiến tranh (Thay màu da xác chết)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Thắng lợi quân sự nào của ta đã buộc Mỹ phải ký Hiệp định Paris (1973)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến thắng Vạn Tường" },
+        { "id": "B", "text": "Cuộc Tiến công chiến lược năm 1972" },
+        { "id": "C", "text": "Trận \"Điện Biên Phủ trên không\" (12/1972)" },
+        { "id": "D", "text": "Tổng tiến công Mậu Thân 1968" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đòn quyết định đập tan nỗ lực quân sự cao nhất của Mỹ, buộc Mỹ ký hiệp định."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Nội dung nào **không** phải là điều khoản của Hiệp định Paris 1973?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hoa Kỳ tôn trọng độc lập, chủ quyền của Việt Nam" },
+        { "id": "B", "text": "Hoa Kỳ rút hết quân viễn chinh về nước" },
+        { "id": "C", "text": "Xóa bỏ hoàn toàn chính quyền Sài Gòn" },
+        { "id": "D", "text": "Trao trả tù binh và dân thường bị bắt" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hiệp định Paris chưa xóa bỏ chính quyền Sài Gòn (vấn đề chính trị nội bộ để nhân dân VN tự quyết)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Điểm giống nhau giữa \"Chiến tranh đặc biệt\" và \"Việt Nam hóa chiến tranh\" là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đều sử dụng quân đội Mỹ là chủ yếu" },
+        { "id": "B", "text": "Đều thực hiện âm mưu \"Dùng người Việt đánh người Việt\"" },
+        { "id": "C", "text": "Đều có quy mô trên toàn Đông Dương" },
+        { "id": "D", "text": "Đều do cố vấn Mỹ chỉ huy trực tiếp ngoài mặt trận" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cả hai đều dựa vào quân đội Sài Gòn làm lực lượng nòng cốt."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc hành quân Lam Sơn 719 của Mỹ - ngụy nhằm mục đích:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cắt đứt đường mòn Hồ Chí Minh" },
+        { "id": "B", "text": "Tiêu diệt cơ quan đầu não kháng chiến" },
+        { "id": "C", "text": "Giành lại thế chủ động trên chiến trường" },
+        { "id": "D", "text": "Mở rộng chiến tranh sang Campuchia" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đánh sang Lào để cắt đứt đường tiếp tế chiến lược."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khẩu hiệu \"Tìm Mỹ mà đánh, lùng ngụy mà diệt\" xuất hiện trong phong trào nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chống chiến tranh phá hoại" },
+        { "id": "B", "text": "Thi đua Ấp Bắc, giết giặc lập công" },
+        { "id": "C", "text": "Chống chiến lược \"Chiến tranh cục bộ\"" },
+        { "id": "D", "text": "Đồng khởi" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Xuất hiện sau chiến thắng Vạn Tường, thể hiện quyết tâm đánh Mỹ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Mỹ chính thức tiến hành cuộc chiến tranh phá hoại miền Bắc lần thứ nhất vào năm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1964" },
+        { "id": "B", "text": "1965" },
+        { "id": "C", "text": "1968" },
+        { "id": "D", "text": "1972" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau sự kiện Vịnh Bắc Bộ (8/1964), Mỹ chính thức ném bom từ 1965."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Thắng lợi quan trọng nhất của Hiệp định Paris đối với cách mạng Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mỹ phải công nhận các quyền dân tộc cơ bản" },
+        { "id": "B", "text": "Đánh cho \"Mỹ cút\", làm thay đổi so sánh lực lượng có lợi cho ta" },
+        { "id": "C", "text": "Mỹ phải bồi thường chiến tranh" },
+        { "id": "D", "text": "Chấm dứt hoàn toàn chiến tranh" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ rút quân tạo thời cơ để ta 'đánh cho ngụy nhào'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hội nghị cấp cao ba nước Đông Dương (1970) biểu thị quyết tâm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đoàn kết chống Mỹ" },
+        { "id": "B", "text": "Xây dựng kinh tế" },
+        { "id": "C", "text": "Gia nhập ASEAN" },
+        { "id": "D", "text": "Ký hiệp ước hòa bình" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đối phó với âm mưu 'Đông Dương hóa chiến tranh' của Mỹ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sự kiện nào buộc Mỹ phải tuyên bố ngừng ném bom miền Bắc hoàn toàn từ 1/1973?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thất bại trong cuộc tập kích 12 ngày đêm cuối năm 1972" },
+        { "id": "B", "text": "Thất bại trong cuộc Tổng tiến công 1972" },
+        { "id": "C", "text": "Sức ép của dư luận thế giới" },
+        { "id": "D", "text": "Thất bại ở Mậu Thân 1968" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thất bại của B52 trên bầu trời Hà Nội."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam ra đời năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1960" },
+        { "id": "B", "text": "1968" },
+        { "id": "C", "text": "1969" },
+        { "id": "D", "text": "1972" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ra đời ngày 6/6/1969."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong chiến lược \"Chiến tranh cục bộ\", Mỹ đề ra chiến lược quân sự mới là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tìm diệt" },
+        { "id": "B", "text": "Bình định" },
+        { "id": "C", "text": "Tìm diệt và bình định" },
+        { "id": "D", "text": "Phòng ngự từ xa" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tìm diệt (Search and Destroy) là chiến thuật chủ đạo."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Vì sao Mỹ buộc phải chấp nhận đàm phán ở Paris?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Do thiện chí hòa bình của Mỹ" },
+        { "id": "B", "text": "Do thất bại nặng nề trong cuộc Tổng tiến công Mậu Thân 1968" },
+        { "id": "C", "text": "Do Liên Xô can thiệp" },
+        { "id": "D", "text": "Do áp lực của Liên Hợp Quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cú sốc Mậu Thân làm lung lay ý chí xâm lược của Mỹ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ngày 27/1/1973 diễn ra sự kiện lịch sử gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mỹ rút hết quân về nước" },
+        { "id": "B", "text": "Ký kết Hiệp định Paris" },
+        { "id": "C", "text": "Toàn thắng chiến dịch Điện Biên Phủ trên không" },
+        { "id": "D", "text": "Ngừng bắn ở miền Nam" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày ký chính thức Hiệp định Paris."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mỹ đã sử dụng loại máy bay chiến lược nào để đánh phá Hà Nội năm 1972?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "F-4" },
+        { "id": "B", "text": "B-52" },
+        { "id": "C", "text": "F-111" },
+        { "id": "D", "text": "B-2" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháo đài bay B-52."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cuộc Tiến công chiến lược năm 1972 của ta hướng vào các địa bàn chủ yếu nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quảng Trị, Tây Nguyên, Đông Nam Bộ" },
+        { "id": "B", "text": "Sài Gòn, Huế, Đà Nẵng" },
+        { "id": "C", "text": "Đồng bằng sông Cửu Long" },
+        { "id": "D", "text": "Trung Bộ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ba hướng tấn công chiến lược năm 1972."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Thắng lợi của phong trào chống chiến lược \"Việt Nam hóa chiến tranh\" đã tạo ra bước ngoặt gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh cho Mỹ cút" },
+        { "id": "B", "text": "Đánh cho ngụy nhào" },
+        { "id": "C", "text": "Giải phóng miền Nam" },
+        { "id": "D", "text": "Thống nhất đất nước" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Buộc Mỹ rút quân (Mỹ cút), tạo đà cho bước tiếp theo (ngụy nhào)."
+    }
+  ]
+}

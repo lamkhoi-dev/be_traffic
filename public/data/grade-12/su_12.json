@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Việt Nam bắt đầu xuất khẩu gạo từ năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1989"
+        },
+        {
+          "id": "B",
+          "text": "1986"
+        },
+        {
+          "id": "C",
+          "text": "1995"
+        },
+        {
+          "id": "D",
+          "text": "1990"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Năm 1989, Việt Nam từ nước thiếu ăn trở thành nước xuất khẩu gạo thứ 3 thế giới."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nhân tố hàng đầu thúc đẩy sự phát triển kinh tế của Mỹ, Tây Âu, Nhật Bản sau chiến tranh là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Áp dụng thành tựu khoa học - kỹ thuật"
+        },
+        {
+          "id": "B",
+          "text": "Tài nguyên thiên nhiên phong phú"
+        },
+        {
+          "id": "C",
+          "text": "Nhân công giá rẻ"
+        },
+        {
+          "id": "D",
+          "text": "Lãnh thổ rộng lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khoa học kỹ thuật là nhân tố quyết định nhất (năng suất lao động)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nội dung nào **không** phải là điều khoản của Hiệp định Paris 1973?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hoa Kỳ tôn trọng độc lập, chủ quyền của Việt Nam"
+        },
+        {
+          "id": "B",
+          "text": "Hoa Kỳ rút hết quân viễn chinh về nước"
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ hoàn toàn chính quyền Sài Gòn"
+        },
+        {
+          "id": "D",
+          "text": "Trao trả tù binh và dân thường bị bắt"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hiệp định Paris chưa xóa bỏ chính quyền Sài Gòn (vấn đề chính trị nội bộ để nhân dân VN tự quyết)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế của sự thành lập nước CHND Trung Hoa là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm cho chủ nghĩa xã hội nối liền từ Âu sang Á"
+        },
+        {
+          "id": "B",
+          "text": "Đưa Trung Quốc trở thành cường quốc kinh tế số 1"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự thống trị của chế độ phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Kết thúc 100 năm nô dịch của thực dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời đã nối liền hệ thống XHCN từ châu Âu sang châu Á."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đội Việt Nam Tuyên truyền Giải phóng quân được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "22/12/1944"
+        },
+        {
+          "id": "B",
+          "text": "15/5/1945"
+        },
+        {
+          "id": "C",
+          "text": "19/8/1945"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiền thân của Quân đội nhân dân Việt Nam, thành lập 22/12/1944."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tuyến phòng thủ kiên cố nhất của địch bảo vệ Sài Gòn từ hướng Đông là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xuân Lộc"
+        },
+        {
+          "id": "B",
+          "text": "Phan Rang"
+        },
+        {
+          "id": "C",
+          "text": "Biên Hòa"
+        },
+        {
+          "id": "D",
+          "text": "Vũng Tàu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xuân Lộc là 'cánh cửa thép'. Ta đập tan tuyến này ngày 21/4."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Kế hoạch Mác-san (1947) của Mỹ nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giúp các nước Tây Âu phục hồi kinh tế và lôi kéo đồng minh"
+        },
+        {
+          "id": "B",
+          "text": "Giúp các nước châu Á phát triển"
+        },
+        {
+          "id": "C",
+          "text": "Chuẩn bị tấn công Liên Xô"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập khối NATO"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Viện trợ kinh tế để phục hồi Tây Âu, qua đó khống chế các nước này."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Mỹ chính thức tiến hành cuộc chiến tranh phá hoại miền Bắc lần thứ nhất vào năm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1964"
+        },
+        {
+          "id": "B",
+          "text": "1965"
+        },
+        {
+          "id": "C",
+          "text": "1968"
+        },
+        {
+          "id": "D",
+          "text": "1972"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau sự kiện Vịnh Bắc Bộ (8/1964), Mỹ chính thức ném bom từ 1965."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Lãnh tụ của cuộc cách mạng Cu-ba là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Che Guevara"
+        },
+        {
+          "id": "B",
+          "text": "Phi-đen Cát-xtơ-rô"
+        },
+        {
+          "id": "C",
+          "text": "Hô-xê Mác-ti"
+        },
+        {
+          "id": "D",
+          "text": "Ba-ti-xta"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phi-đen Cát-xtơ-rô là lãnh tụ vĩ đại của Cu-ba."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam ra đời năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1960"
+        },
+        {
+          "id": "B",
+          "text": "1968"
+        },
+        {
+          "id": "C",
+          "text": "1969"
+        },
+        {
+          "id": "D",
+          "text": "1972"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ra đời ngày 6/6/1969."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Âm mưu của chiến lược \"Việt Nam hóa chiến tranh\" là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dùng người Việt đánh người Việt"
+        },
+        {
+          "id": "B",
+          "text": "Dùng người Mỹ đánh người Việt"
+        },
+        {
+          "id": "C",
+          "text": "Lấy chiến tranh nuôi chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Mở rộng chiến tranh ra cả Đông Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Rút quân Mỹ, tăng cường quân đội Sài Gòn để tiếp tục chiến tranh (Thay màu da xác chết)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong Đông - Xuân 1953 - 1954, ta mở các chiến dịch tấn công nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiêu diệt sinh lực địch"
+        },
+        {
+          "id": "B",
+          "text": "Buộc địch phải phân tán lực lượng, phá vỡ khối cơ động mạnh của Na-va"
+        },
+        {
+          "id": "C",
+          "text": "Giải phóng Tây Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ Việt Bắc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đánh vào những nơi địch sơ hở nhưng quan trọng để buộc chúng phải điều quân đến giữ (phân tán lực lượng)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào năm 1947 là đánh dấu sự kết thúc của chủ nghĩa thực dân ở châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "B",
+          "text": "Indonesia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ấn Độ tuyên bố độc lập năm 1947, đánh dấu sự suy thoái của chủ nghĩa thực dân ở châu Á."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thắng lợi quan trọng nhất của Hiệp định Paris đối với cách mạng Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mỹ phải công nhận các quyền dân tộc cơ bản"
+        },
+        {
+          "id": "B",
+          "text": "Đánh cho \"Mỹ cút\", làm thay đổi so sánh lực lượng có lợi cho ta"
+        },
+        {
+          "id": "C",
+          "text": "Mỹ phải bồi thường chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Chấm dứt hoàn toàn chiến tranh"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ rút quân tạo thời cơ để ta 'đánh cho ngụy nhào'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Chủ trương đổi mới kinh tế của Đảng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xóa bỏ cơ chế tập trung quan liêu bao cấp, xây dựng nền kinh tế hàng hóa nhiều thành phần"
+        },
+        {
+          "id": "B",
+          "text": "Tư nhân hóa hoàn toàn nền kinh tế"
+        },
+        {
+          "id": "C",
+          "text": "Duy trì kinh tế kế hoạch hóa tập trung"
+        },
+        {
+          "id": "D",
+          "text": "Chỉ phát triển kinh tế nhà nước"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển sang kinh tế thị trường định hướng XHCN."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Kẻ thù chủ yếu của phong trào giải phóng dân tộc ở Mỹ Latinh sau Chiến tranh thế giới thứ hai là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thực dân cũ"
+        },
+        {
+          "id": "B",
+          "text": "Chế độ phong kiến"
+        },
+        {
+          "id": "C",
+          "text": "Chế độ độc tài thân Mỹ (Thực dân mới)"
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa phát xít"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mỹ thiết lập các chế độ độc tài thân Mỹ để biến Mỹ Latinh thành sân sau."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ngày 29/3/1975 là ngày giải phóng thành phố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Huế"
+        },
+        {
+          "id": "B",
+          "text": "Đà Nẵng"
+        },
+        {
+          "id": "C",
+          "text": "Quy Nhơn"
+        },
+        {
+          "id": "D",
+          "text": "Nha Trang"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đà Nẵng được giải phóng, kết thúc chiến dịch Huế - Đà Nẵng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thời cơ chiến lược để giải phóng Sài Gòn được xác định là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trước mùa mưa năm 1975"
+        },
+        {
+          "id": "B",
+          "text": "Trong năm 1976"
+        },
+        {
+          "id": "C",
+          "text": "Khi Mỹ rút hết quân"
+        },
+        {
+          "id": "D",
+          "text": "Khi quân đội Sài Gòn tan rã hoàn toàn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kịp thời, nhanh chóng trước khi mùa mưa đến."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gửi Yêu sách đến Hội nghị Véc-xai (1919)"
+        },
+        {
+          "id": "B",
+          "text": "Đọc sơ thảo Luận cương của Lê-nin (7/1920)"
+        },
+        {
+          "id": "C",
+          "text": "Bỏ phiếu tán thành Quốc tế thứ 3 (12/1920)"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên (1925)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sự kiện bỏ phiếu gia nhập Quốc tế 3 (12/1920) đánh dấu bước chuyển từ chủ nghĩa yêu nước sang chủ nghĩa cộng sản."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chiến thắng nào được coi là \"trận trinh sát chiến lược\", tạo tiền đề cho Tổng tiến công và nổi dậy Xuân 1975?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến thắng Buôn Ma Thuột"
+        },
+        {
+          "id": "B",
+          "text": "Chiến thắng Đường 14 - Phước Long"
+        },
+        {
+          "id": "C",
+          "text": "Chiến thắng Xuân Lộc"
+        },
+        {
+          "id": "D",
+          "text": "Chiến thắng Tây Nguyên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Phước Long (1/1975) cho thấy sự suy yếu của quân ngụy và khả năng Mỹ không can thiệp trở lại."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 6: Việt Nam 1945-1954",
+    "description": "Kiểm tra kiến thức về Giai đoạn bảo vệ chính quyền non trẻ, Kháng chiến toàn quốc bùng nổ, Chiến dịch Biên giới 1950 và Điện Biên Phủ 1954.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Khó khăn lớn nhất của nước ta sau Cách mạng tháng Tám 1945 là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nạn đói, nạn dốt" },
+        { "id": "B", "text": "Ngân sách trống rỗng" },
+        { "id": "C", "text": "Giặc ngoại xâm và nội phản" },
+        { "id": "D", "text": "Tàn dư chế độ cũ" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giặc ngoại xâm đe dọa trực tiếp đến sự tồn vong của chính quyền (Ngàn cân treo sợi tóc)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Để giải quyết nạn đói trước mắt, Chính phủ đã phát động phong trào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "\"Nhường cơm sẻ áo\", \"Hũ gạo cứu đói\"" },
+        { "id": "B", "text": "\"Tăng gia sản xuất\"" },
+        { "id": "C", "text": "\"Tuần lễ vàng\"" },
+        { "id": "D", "text": "\"Bình dân học vụ\"" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biện pháp cấp thời để cứu đói."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam và Trung Hoa Dân Quốc" },
+        { "id": "B", "text": "Việt Nam và Pháp" },
+        { "id": "C", "text": "Việt Nam và Mỹ" },
+        { "id": "D", "text": "Pháp và Trung Hoa Dân Quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ta ký với Pháp để đuổi quân Trung Hoa Dân Quốc về nước (Hòa để tiến)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Lời kêu gọi Toàn quốc kháng chiến của Chủ tịch Hồ Chí Minh ra đời vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "19/12/1946" },
+        { "id": "B", "text": "2/9/1945" },
+        { "id": "C", "text": "6/3/1946" },
+        { "id": "D", "text": "22/12/1944" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đêm 19/12/1946, kháng chiến toàn quốc bùng nổ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chiến thắng nào đã phá tan cuộc tấn công mùa đông của Pháp lên Việt Bắc năm 1947?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến thắng Biên giới" },
+        { "id": "B", "text": "Chiến thắng Việt Bắc thu - đông" },
+        { "id": "C", "text": "Chiến thắng Sông Lô" },
+        { "id": "D", "text": "Chiến thắng Đông Khê" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến dịch Việt Bắc thu - đông 1947 làm thất bại âm mưu 'đánh nhanh thắng nhanh' của Pháp."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chiến dịch nào đánh dấu bước trưởng thành của quân đội ta, chuyển từ thế phòng ngự sang thế tiến công?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Bắc 1947" },
+        { "id": "B", "text": "Biên giới thu - đông 1950" },
+        { "id": "C", "text": "Điện Biên Phủ 1954" },
+        { "id": "D", "text": "Hòa Bình 1952" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Biên giới 1950 là chiến dịch chủ động tiến công lớn đầu tiên, khai thông biên giới."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phương châm tác chiến của ta trong chiến dịch Điện Biên Phủ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh nhanh, thắng nhanh" },
+        { "id": "B", "text": "Đánh chắc, tiến chắc" },
+        { "id": "C", "text": "Đánh điểm, diệt viện" },
+        { "id": "D", "text": "Du kích chiến" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ban đầu là 'đánh nhanh thắng nhanh', sau đó thay đổi thành 'đánh chắc, tiến chắc' để đảm bảo thắng lợi."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hiệp định Giơ-ne-vơ (1954) đã công nhận:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Độc lập, chủ quyền, thống nhất và toàn vẹn lãnh thổ của 3 nước Đông Dương" },
+        { "id": "B", "text": "Chia đôi Việt Nam thành hai miền Nam - Bắc" },
+        { "id": "C", "text": "Mỹ thay thế Pháp ở Đông Dương" },
+        { "id": "D", "text": "Việt Nam gia nhập phe xã hội chủ nghĩa" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các nước tham dự cam kết tôn trọng các quyền dân tộc cơ bản của VN, Lào, Campuchia."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đại hội đại biểu toàn quốc lần thứ II của Đảng (2/1951) đã quyết định đổi tên Đảng thành:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đảng Cộng sản Đông Dương" },
+        { "id": "B", "text": "Đảng Lao động Việt Nam" },
+        { "id": "C", "text": "Đảng Cộng sản Việt Nam" },
+        { "id": "D", "text": "Hội nghiên cứu chủ nghĩa Mác" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đảng ra hoạt động công khai với tên gọi Đảng Lao động Việt Nam."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Kế hoạch Na-va của Pháp có mục đích chính là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kết thúc chiến tranh trong danh dự" },
+        { "id": "B", "text": "Giành thắng lợi quân sự quyết định để kết thúc chiến tranh trong vòng 18 tháng" },
+        { "id": "C", "text": "Mở rộng chiến tranh ra toàn Đông Dương" },
+        { "id": "D", "text": "Kêu gọi Mỹ can thiệp sâu hơn" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Na-va là nỗ lực cuối cùng và cao nhất của Pháp - Mỹ."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Chiến thắng Điện Biên Phủ 1954 có ý nghĩa lịch sử to lớn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giải phóng hoàn toàn miền Bắc" },
+        { "id": "B", "text": "Làm phá sản hoàn toàn kế hoạch Na-va, giáng đòn quyết định vào ý chí xâm lược của Pháp" },
+        { "id": "C", "text": "Buộc Mỹ phải rút quân khỏi Việt Nam" },
+        { "id": "D", "text": "Thống nhất đất nước" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Là chiến thắng 'lừng lẫy năm châu, chấn động địa cầu', buộc Pháp ký Hiệp định Giơ-ne-vơ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Chủ trương \"tạm hòa hoãn với Tưởng ở miền Bắc, tập trung đánh Pháp ở miền Nam\" được thực hiện trong giai đoạn nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trước 6/3/1946" },
+        { "id": "B", "text": "Sau 6/3/1946" },
+        { "id": "C", "text": "Trước Cách mạng tháng Tám" },
+        { "id": "D", "text": "Trong kháng chiến chống Pháp" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giai đoạn từ 2/9/1945 đến trước 6/3/1946."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Căn cứ địa cách mạng chính của cả nước trong kháng chiến chống Pháp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tây Nguyên" },
+        { "id": "B", "text": "Việt Bắc" },
+        { "id": "C", "text": "Đồng bằng sông Cửu Long" },
+        { "id": "D", "text": "Hà Nội" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việt Bắc là 'Thủ đô gió ngàn', đầu não kháng chiến."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cuộc bầu cử Quốc hội khóa I của nước Việt Nam Dân chủ Cộng hòa diễn ra vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6/1/1946" },
+        { "id": "B", "text": "2/9/1945" },
+        { "id": "C", "text": "19/12/1946" },
+        { "id": "D", "text": "9/11/1946" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự kiện quan trọng khẳng định tính pháp lý của chính quyền mới."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong Đông - Xuân 1953 - 1954, ta mở các chiến dịch tấn công nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiêu diệt sinh lực địch" },
+        { "id": "B", "text": "Buộc địch phải phân tán lực lượng, phá vỡ khối cơ động mạnh của Na-va" },
+        { "id": "C", "text": "Giải phóng Tây Nguyên" },
+        { "id": "D", "text": "Bảo vệ Việt Bắc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đánh vào những nơi địch sơ hở nhưng quan trọng để buộc chúng phải điều quân đến giữ (phân tán lực lượng)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đường lối kháng chiến chống Pháp của Đảng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Toàn dân, toàn diện, trường kỳ, tự lực cánh sinh và tranh thủ sự ủng hộ quốc tế" },
+        { "id": "B", "text": "Đánh nhanh thắng nhanh" },
+        { "id": "C", "text": "Phòng ngự chặt, phản công nhanh" },
+        { "id": "D", "text": "Dựa hoàn toàn vào viện trợ nước ngoài" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường lối kháng chiến đúng đắn được đúc kết trong tác phẩm 'Kháng chiến nhất định thắng lợi'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chiến thắng Biên giới thu - đông 1950 có ý nghĩa gì đối với cuộc kháng chiến?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ta giành được quyền chủ động trên chiến trường chính (Bắc Bộ)" },
+        { "id": "B", "text": "Buộc Pháp phải chuyển sang đánh lâu dài" },
+        { "id": "C", "text": "Kết thúc cuộc kháng chiến" },
+        { "id": "D", "text": "Giải phóng hoàn toàn biên giới Việt - Lào" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sau chiến dịch này, ta nắm quyền chủ động về chiến lược trên chiến trường chính."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tướng Pháp nào đã xây dựng Điện Biên Phủ thành \"pháo đài bất khả xâm phạm\"?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Na-va" },
+        { "id": "B", "text": "Đờ Cát-xtơ-ri" },
+        { "id": "C", "text": "Lơ-clec" },
+        { "id": "D", "text": "Bô-la-e" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện Biên Phủ là tâm điểm của kế hoạch Na-va."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự kết thúc của cuộc kháng chiến chống Pháp (1945-1954)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến thắng Điện Biên Phủ" },
+        { "id": "B", "text": "Hiệp định Giơ-ne-vơ được ký kết" },
+        { "id": "C", "text": "Quân Pháp rút khỏi Hà Nội" },
+        { "id": "D", "text": "Giải phóng Thủ đô" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiệp định Giơ-ne-vơ là văn bản pháp lý quốc tế chấm dứt chiến tranh."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "\"Ai có súng dùng súng. Ai có gươm dùng gươm...\" là đoạn trích trong văn kiện nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tuyên ngôn Độc lập" },
+        { "id": "B", "text": "Lời kêu gọi Toàn quốc kháng chiến" },
+        { "id": "C", "text": "Chỉ thị Toàn dân kháng chiến" },
+        { "id": "D", "text": "Kháng chiến nhất định thắng lợi" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời kêu gọi bất hủ của Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến."
+    }
+  ]
+}

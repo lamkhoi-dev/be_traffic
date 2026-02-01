@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "He was very nervous, ________ he performed brilliantly.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "so"
+        },
+        {
+          "id": "B",
+          "text": "for"
+        },
+        {
+          "id": "C",
+          "text": "yet"
+        },
+        {
+          "id": "D",
+          "text": "or"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Yet' ở đây tương đương 'but' (tuy nhiên), dùng trong câu ghép."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Using public transport is a good way to reduce ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "emissions"
+        },
+        {
+          "id": "B",
+          "text": "traffic"
+        },
+        {
+          "id": "C",
+          "text": "money"
+        },
+        {
+          "id": "D",
+          "text": "people"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Reduce emissions: giảm khí thải."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "protect"
+        },
+        {
+          "id": "B",
+          "text": "pollute"
+        },
+        {
+          "id": "C",
+          "text": "consume"
+        },
+        {
+          "id": "D",
+          "text": "litter"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Litter nhấn âm 1 (lit-ter). Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Using technology in class prepares students for the ________ world.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "modern"
+        },
+        {
+          "id": "B",
+          "text": "future"
+        },
+        {
+          "id": "C",
+          "text": "past"
+        },
+        {
+          "id": "D",
+          "text": "history"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Modern world: thế giới hiện đại."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "comput_er"
+        },
+        {
+          "id": "B",
+          "text": "print_er"
+        },
+        {
+          "id": "C",
+          "text": "smartphon_e"
+        },
+        {
+          "id": "D",
+          "text": "heat_er"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Smartphone: 'e' câm. Các từ còn lại đuôi -er phát âm /ə/."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Choose the correct sentence.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I was meeting him when I walked in the park."
+        },
+        {
+          "id": "B",
+          "text": "I met him when I was walking in the park."
+        },
+        {
+          "id": "C",
+          "text": "I meet him when I walked in the park."
+        },
+        {
+          "id": "D",
+          "text": "I met him when I walk in the park."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu B đúng cấu trúc hành động dài (was walking) bị hành động ngắn (met) cắt ngang."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Information should be ________ with everyone in the team.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "share"
+        },
+        {
+          "id": "B",
+          "text": "shared"
+        },
+        {
+          "id": "C",
+          "text": "sharing"
+        },
+        {
+          "id": "D",
+          "text": "shares"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Should be shared (cần được chia sẻ)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "I felt so ________ when I watched that sad movie.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "move"
+        },
+        {
+          "id": "B",
+          "text": "moving"
+        },
+        {
+          "id": "C",
+          "text": "moved"
+        },
+        {
+          "id": "D",
+          "text": "moves"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tính từ chỉ cảm xúc người -> đuôi -ed (moved: cảm động)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Women should be given equal ________ to men.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "rights"
+        },
+        {
+          "id": "B",
+          "text": "lefts"
+        },
+        {
+          "id": "C",
+          "text": "sides"
+        },
+        {
+          "id": "D",
+          "text": "hands"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Equal rights: quyền bình đẳng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "This TV show is in search of a new Vietnam ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Idol"
+        },
+        {
+          "id": "B",
+          "text": "Fan"
+        },
+        {
+          "id": "C",
+          "text": "Stage"
+        },
+        {
+          "id": "D",
+          "text": "Judge"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vietnam Idol (Thần tượng âm nhạc)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "My parents let me ________ out late on weekends.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "stay"
+        },
+        {
+          "id": "B",
+          "text": "to stay"
+        },
+        {
+          "id": "C",
+          "text": "staying"
+        },
+        {
+          "id": "D",
+          "text": "stayed"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc: Let + O + V (bare infinitive - nguyên thể không to)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "We usually ________ visiting our grandparents on weekends.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoy"
+        },
+        {
+          "id": "B",
+          "text": "are enjoying"
+        },
+        {
+          "id": "C",
+          "text": "enjoys"
+        },
+        {
+          "id": "D",
+          "text": "enjoyed"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Enjoy' là động từ chỉ trạng thái/cảm xúc (stative verb), thường không dùng ở tiếp diễn. 'Usually' -> Hiện tại đơn."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "equal"
+        },
+        {
+          "id": "B",
+          "text": "women"
+        },
+        {
+          "id": "C",
+          "text": "eliminate"
+        },
+        {
+          "id": "D",
+          "text": "gender"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Eliminate nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "What time ________ the train ________?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "does / leave"
+        },
+        {
+          "id": "B",
+          "text": "is / leaving"
+        },
+        {
+          "id": "C",
+          "text": "do / leave"
+        },
+        {
+          "id": "D",
+          "text": "was / left"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lịch trình tàu xe cố định dùng thì Hiện tại đơn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "________ is the person who earns the money for the family.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Breadwinner"
+        },
+        {
+          "id": "B",
+          "text": "Homemaker"
+        },
+        {
+          "id": "C",
+          "text": "Shopkeeper"
+        },
+        {
+          "id": "D",
+          "text": "Assistant"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa của Breadwinner (trụ cột tài chính)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Children should be responsible ________ their housework.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "to"
+        },
+        {
+          "id": "B",
+          "text": "with"
+        },
+        {
+          "id": "C",
+          "text": "for"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc: be responsible for (chịu trách nhiệm về...)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "He is a ________ pianist. He can play difficult pieces perfectly.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "talented"
+        },
+        {
+          "id": "B",
+          "text": "talent"
+        },
+        {
+          "id": "C",
+          "text": "talents"
+        },
+        {
+          "id": "D",
+          "text": "untalented"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Talented (tính từ): tài năng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Choose the incorrect sentence.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I have lived here for 5 years."
+        },
+        {
+          "id": "B",
+          "text": "She has gone to Paris recently."
+        },
+        {
+          "id": "C",
+          "text": "I have never saw him before."
+        },
+        {
+          "id": "D",
+          "text": "We haven't finished our work yet."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu C sai vì sau 'have' phải là V3 (seen), không phải V2 (saw)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ecolog_y"
+        },
+        {
+          "id": "B",
+          "text": "destina_tion"
+        },
+        {
+          "id": "C",
+          "text": "activit_y"
+        },
+        {
+          "id": "D",
+          "text": "rainy"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Destination: 'tion' có trọng âm và nguyên âm khác so với đuôi 'y' của các từ còn lại."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "If I ________ rich, I would travel around the world.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "am"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "be"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 2 (giả định không thật ở hiện tại). Động từ to be dùng 'were' cho mọi ngôi."
+    }
+  ]
+}

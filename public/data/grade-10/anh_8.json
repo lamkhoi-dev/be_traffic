@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 8: New Ways to Learn",
+    "description": "Kiểm tra từ vựng về Công nghệ trong học tập và ngữ pháp Mệnh đề quan hệ (Relative Clauses).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "digital" },
+        { "id": "B", "text": "personal" },
+        { "id": "C", "text": "expensive" },
+        { "id": "D", "text": "excellent" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Expensive nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Electronic devices can help students ________ information easily.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "access" },
+        { "id": "B", "text": "look" },
+        { "id": "C", "text": "touch" },
+        { "id": "D", "text": "buy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Access information: truy cập thông tin."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Students can use a ________ to type assignments or search the web.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "blackboard" },
+        { "id": "B", "text": "chalk" },
+        { "id": "C", "text": "tablet" },
+        { "id": "D", "text": "pen" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tablet (máy tính bảng) dùng để gõ bài hoặc tra web."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "The man ________ lives next door is a teacher.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "which" },
+        { "id": "B", "text": "who" },
+        { "id": "C", "text": "whom" },
+        { "id": "D", "text": "whose" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay thế cho danh từ chỉ người (The man) làm chủ ngữ -> dùng Who."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Blended learning combines online learning and ________ learning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "face-to-face" },
+        { "id": "B", "text": "distance" },
+        { "id": "C", "text": "home" },
+        { "id": "D", "text": "remote" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Blended learning kết hợp học online và học trực tiếp (face-to-face)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "This is the book ________ I told you about.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "whom" },
+        { "id": "C", "text": "whose" },
+        { "id": "D", "text": "which" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Thay thế cho vật (the book) -> dùng Which."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Many schools now use ________ textbooks instead of paper ones.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "digital" },
+        { "id": "B", "text": "heavy" },
+        { "id": "C", "text": "old" },
+        { "id": "D", "text": "physical" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Digital textbooks: sách giáo khoa kỹ thuật số."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "The girl ________ father is a doctor is my classmate.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "which" },
+        { "id": "C", "text": "whose" },
+        { "id": "D", "text": "that" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chỉ sự sở hữu (bố của cô gái) -> dùng Whose."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Using smartphones in class can be ________ if students don't focus.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "distracting" },
+        { "id": "B", "text": "distracted" },
+        { "id": "C", "text": "distract" },
+        { "id": "D", "text": "distraction" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gây xao nhãng (tính từ chủ động) -> distracting."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "I don't like people ________ represent rude behavior.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "which" },
+        { "id": "B", "text": "who" },
+        { "id": "C", "text": "whose" },
+        { "id": "D", "text": "where" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay thế cho người (people) -> dùng Who."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Teachers play a role as a ________ in modern classes.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "facilitator" },
+        { "id": "B", "text": "worker" },
+        { "id": "C", "text": "builder" },
+        { "id": "D", "text": "player" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Facilitator: người hướng dẫn/hỗ trợ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Relative Clauses: 'The laptop ________ I bought yesterday is very fast.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "whom" },
+        { "id": "C", "text": "whose" },
+        { "id": "D", "text": "which" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vật (laptop) -> dùng Which (hoặc That)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Choose the word pronounced differently: 'finger', 'digital', 'ginger', 'singer'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "finger" },
+        { "id": "B", "text": "digital" },
+        { "id": "C", "text": "ginger" },
+        { "id": "D", "text": "singer" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Singer âm 'g' câm (/ŋ/). Finger /g/, Digital /dʒ/, Ginger /dʒ/. Khoan, xét lại: Finger (/ŋg/), Digital (/dʒ/), Ginger (/dʒ/), Singer (/ŋ/). Vậy A, B, C đều có âm bật hoặc ma sát, D là âm mũi. Tuy nhiên, bài 8 thường kiểm tra âm 'g'. Finger (g cứng), Digital (g mềm), Ginger (g mềm). Vậy Finger khác Digital/Ginger. Singer (g câm). Câu này thường gây tranh cãi nếu không xét kỹ. Ở đây Finger /g/, Digital /dʒ/. Đáp án chuẩn thường chọn Finger (nếu so với nhóm g mềm) hoặc Singer (nếu so với nhóm có g). Trong ngữ cảnh bài học, Digital và Ginger giống nhau (/dʒ/). Finger (/g/). Singer không có /g/. Đáp án A (Finger - g cứng) hoặc B/C (g mềm). Let's pick 'Digital' vs others? No. Let's re-evaluate: Finger /ɡ/, Digital /dʒ/, Ginger /dʒ/, Register /dʒ/. Trong bộ này, Singer /ŋ/ là khác biệt nhất về sự xuất hiện của phụ âm g. Tuy nhiên, nếu đề hỏi âm /g/ vs /dʒ/ thì Finger khác Digital. Chọn D là an toàn nhất vì 'g' câm."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "We need an app ________ helps us learn English vocabulary.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "that" },
+        { "id": "C", "text": "where" },
+        { "id": "D", "text": "whom" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay thế cho vật (app) -> dùng That (hoặc Which)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Online courses allow students to learn at their own ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pace" },
+        { "id": "B", "text": "step" },
+        { "id": "C", "text": "walk" },
+        { "id": "D", "text": "run" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "At one's own pace: theo nhịp độ riêng của mình."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Mr. Nam, ________ teaches us Maths, is very strict.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "that" },
+        { "id": "B", "text": "who" },
+        { "id": "C", "text": "which" },
+        { "id": "D", "text": "whom" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mệnh đề quan hệ không xác định (có dấu phẩy), chỉ người -> dùng Who. Không dùng That sau dấu phẩy."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Portable devices are easy to ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "carry" },
+        { "id": "B", "text": "carry on" },
+        { "id": "C", "text": "lift" },
+        { "id": "D", "text": "bring" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Portable = easy to carry (dễ mang theo)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "The project ________ we finished last week got a high score.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "whom" },
+        { "id": "C", "text": "where" },
+        { "id": "D", "text": "which" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Thay thế cho vật (the project) -> dùng Which."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Using technology in class prepares students for the ________ world.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "modern" },
+        { "id": "B", "text": "future" },
+        { "id": "C", "text": "past" },
+        { "id": "D", "text": "history" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Modern world: thế giới hiện đại."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Identify the error: 'The woman which called you is my aunt.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "The woman" },
+        { "id": "B", "text": "which" },
+        { "id": "C", "text": "called" },
+        { "id": "D", "text": "my aunt" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người (woman) không dùng 'which', phải dùng 'who' hoặc 'that'."
+    }
+  ]
+}

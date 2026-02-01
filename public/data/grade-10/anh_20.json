@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "equal"
+        },
+        {
+          "id": "B",
+          "text": "women"
+        },
+        {
+          "id": "C",
+          "text": "eliminate"
+        },
+        {
+          "id": "D",
+          "text": "gender"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Eliminate nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "na_tion"
+        },
+        {
+          "id": "B",
+          "text": "organiza_tion"
+        },
+        {
+          "id": "C",
+          "text": "interna_tional"
+        },
+        {
+          "id": "D",
+          "text": "ques_tion"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Question: đuôi -tion phát âm là /tʃən/. Các từ còn lại phát âm là /ʃən/."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Online courses allow students to learn at their own ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "pace"
+        },
+        {
+          "id": "B",
+          "text": "step"
+        },
+        {
+          "id": "C",
+          "text": "walk"
+        },
+        {
+          "id": "D",
+          "text": "run"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "At one's own pace: theo nhịp độ riêng của mình."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "animal"
+        },
+        {
+          "id": "B",
+          "text": "practical"
+        },
+        {
+          "id": "C",
+          "text": "energy"
+        },
+        {
+          "id": "D",
+          "text": "pollution"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Pollution nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "A ________ is someone who shows tourists around.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tour guide"
+        },
+        {
+          "id": "B",
+          "text": "driver"
+        },
+        {
+          "id": "C",
+          "text": "tourist"
+        },
+        {
+          "id": "D",
+          "text": "pilot"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tour guide: hướng dẫn viên du lịch."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "We must not ________ people based on their gender.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "respect"
+        },
+        {
+          "id": "B",
+          "text": "discriminate"
+        },
+        {
+          "id": "C",
+          "text": "love"
+        },
+        {
+          "id": "D",
+          "text": "help"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Discriminate: phân biệt đối xử."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "She decided ________ part in the singing contest.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "take"
+        },
+        {
+          "id": "B",
+          "text": "taking"
+        },
+        {
+          "id": "C",
+          "text": "to take"
+        },
+        {
+          "id": "D",
+          "text": "taken"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Decide + to V."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "This job can ________ by both men and women.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "done"
+        },
+        {
+          "id": "B",
+          "text": "be done"
+        },
+        {
+          "id": "C",
+          "text": "do"
+        },
+        {
+          "id": "D",
+          "text": "doing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bị động với độn từ khuyết thiếu: Can + be + V3."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Volunteering helps students gain useful ________ life experiences.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "practice"
+        },
+        {
+          "id": "B",
+          "text": "practical"
+        },
+        {
+          "id": "C",
+          "text": "practically"
+        },
+        {
+          "id": "D",
+          "text": "practicing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần tính từ bổ nghĩa cho danh từ 'life experiences'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "We are looking for volunteers to help ________ the local orphanage.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Help at + địa điểm (orphanage/school...)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "If I ________ you, I would take that course on ecotourism.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "am"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "be"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc lời khuyên loại 2: If I were you."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "The girl ________ father is a doctor is my classmate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "which"
+        },
+        {
+          "id": "C",
+          "text": "whose"
+        },
+        {
+          "id": "D",
+          "text": "that"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chỉ sự sở hữu (bố của cô gái) -> dùng Whose."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "This issue is ________ than I thought.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "complicated"
+        },
+        {
+          "id": "B",
+          "text": "more complicated"
+        },
+        {
+          "id": "C",
+          "text": "most complicated"
+        },
+        {
+          "id": "D",
+          "text": "as complicated"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh hơn với tính từ dài (more ... than)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Parents should encourage their children to ________ the rubbish.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "take out"
+        },
+        {
+          "id": "B",
+          "text": "put out"
+        },
+        {
+          "id": "C",
+          "text": "make out"
+        },
+        {
+          "id": "D",
+          "text": "get out"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Take out the rubbish: đi đổ rác."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Find the synonym of 'contaminate'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "clean"
+        },
+        {
+          "id": "B",
+          "text": "pollute"
+        },
+        {
+          "id": "C",
+          "text": "protect"
+        },
+        {
+          "id": "D",
+          "text": "save"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Contaminate = Pollute (làm ô nhiễm)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Vietnam has become an active ________ of ASEAN since 1995.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "member"
+        },
+        {
+          "id": "B",
+          "text": "membership"
+        },
+        {
+          "id": "C",
+          "text": "person"
+        },
+        {
+          "id": "D",
+          "text": "guest"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Active member: thành viên tích cực."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "I have ________ used a 3D printer before.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ever"
+        },
+        {
+          "id": "B",
+          "text": "never"
+        },
+        {
+          "id": "C",
+          "text": "ago"
+        },
+        {
+          "id": "D",
+          "text": "since"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Have never used (chưa bao giờ dùng)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Women often earn less than men for doing the ________ job.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "same"
+        },
+        {
+          "id": "B",
+          "text": "similar"
+        },
+        {
+          "id": "C",
+          "text": "likely"
+        },
+        {
+          "id": "D",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "The same job: công việc giống hệt nhau."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The main goal of UNICEF is to ________ children's rights.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "harm"
+        },
+        {
+          "id": "B",
+          "text": "protect"
+        },
+        {
+          "id": "C",
+          "text": "destroy"
+        },
+        {
+          "id": "D",
+          "text": "ignore"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Protect rights: bảo vệ quyền lợi."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Choose the word pronounced differently: 'put', 'cut', 'but', 'shut'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "put"
+        },
+        {
+          "id": "B",
+          "text": "cut"
+        },
+        {
+          "id": "C",
+          "text": "but"
+        },
+        {
+          "id": "D",
+          "text": "shut"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Put phát âm /ʊ/ (u ngắn), các từ còn lại là /ʌ/."
+    }
+  ]
+}

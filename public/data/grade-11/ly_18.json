@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "physics",
+    "name": "Vật lý 11 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa thực hiện được 10 dao động toàn phần trong 20 giây. Chu kì dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 s."
+        },
+        {
+          "id": "B",
+          "text": "0,5 s."
+        },
+        {
+          "id": "C",
+          "text": "20 s."
+        },
+        {
+          "id": "D",
+          "text": "10 s."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{\\Delta t}{N} = \\frac{20}{10} = 2$ s."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hai điểm trên cùng một phương truyền sóng cách nhau một khoảng $d$ sẽ dao động ngược pha khi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$d = k\\lambda$."
+        },
+        {
+          "id": "B",
+          "text": "$d = (k + 0,5)\\lambda$."
+        },
+        {
+          "id": "C",
+          "text": "$d = (2k + 1)\\lambda$."
+        },
+        {
+          "id": "D",
+          "text": "$d = k\\lambda / 2$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngược pha: $d = (2k+1)\\frac{\\lambda}{2} = (k + 0,5)\\lambda$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Biên độ sóng tại một điểm thường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tăng dần khi càng xa nguồn."
+        },
+        {
+          "id": "B",
+          "text": "giảm dần khi càng xa nguồn (do năng lượng phân tán và ma sát)."
+        },
+        {
+          "id": "C",
+          "text": "không đổi trong mọi môi trường."
+        },
+        {
+          "id": "D",
+          "text": "bằng biên độ nguồn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trong thực tế, năng lượng sóng giảm dần khi lan truyền ra xa nên biên độ giảm."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng cơ phụ thuộc vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số sóng."
+        },
+        {
+          "id": "B",
+          "text": "bước sóng."
+        },
+        {
+          "id": "C",
+          "text": "biên độ sóng."
+        },
+        {
+          "id": "D",
+          "text": "bản chất của môi trường truyền sóng."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Vận tốc truyền sóng đặc trưng cho môi trường (mật độ, tính đàn hồi...), thường $v_R > v_L > v_K$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một người quan sát thấy 1 chiêc phao nhô lên cao 10 lần trong 18 giây. Chu kì của sóng biển là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1,8 s."
+        },
+        {
+          "id": "B",
+          "text": "2 s."
+        },
+        {
+          "id": "C",
+          "text": "18 s."
+        },
+        {
+          "id": "D",
+          "text": "0,9 s."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhô lên 10 lần tương ứng với 9 chu kì. $9T = 18s \\Rightarrow T = 2s$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Sóng cơ KHÔNG thể lan truyền trong môi trường nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không khí."
+        },
+        {
+          "id": "B",
+          "text": "Chân không."
+        },
+        {
+          "id": "C",
+          "text": "Nước."
+        },
+        {
+          "id": "D",
+          "text": "Thép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ cần môi trường vật chất đàn hồi để lan truyền, chân không không có vật chất."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sóng cơ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sự lan truyền vật chất trong không gian."
+        },
+        {
+          "id": "B",
+          "text": "sự lan truyền dao động cơ (pha dao động) trong môi trường vật chất."
+        },
+        {
+          "id": "C",
+          "text": "sự chuyển động của các phần tử môi trường."
+        },
+        {
+          "id": "D",
+          "text": "sự lan truyền của ánh sáng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng cơ lan truyền trạng thái dao động (năng lượng), các phần tử vật chất chỉ dao động tại chỗ chứ không truyền đi."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai ngọn sóng liên tiếp là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 bước sóng."
+        },
+        {
+          "id": "B",
+          "text": "2 bước sóng."
+        },
+        {
+          "id": "C",
+          "text": "0,5 bước sóng."
+        },
+        {
+          "id": "D",
+          "text": "0,25 bước sóng."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hai ngọn sóng liên tiếp là hai điểm cùng pha gần nhất ($\\lambda$)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Mối liên hệ giữa bước sóng $\\lambda$, vận tốc truyền sóng $v$, chu kì $T$ và tần số $f$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda = \\frac{v}{T} = v.f$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda = v.T = \\frac{v}{f}$"
+        },
+        {
+          "id": "C",
+          "text": "$v = \\lambda.T = \\frac{\\lambda}{f}$"
+        },
+        {
+          "id": "D",
+          "text": "$f = \\frac{1}{T} = \\frac{v}{\\lambda}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản của sóng: $\\lambda = vT = v/f$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong phương trình dao động điều hòa $x = A\\cos(\\omega t + \\varphi)$, đại lượng $A$ được gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "li độ dao động."
+        },
+        {
+          "id": "B",
+          "text": "biên độ dao động."
+        },
+        {
+          "id": "C",
+          "text": "pha dao động."
+        },
+        {
+          "id": "D",
+          "text": "tần số góc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A$ là biên độ, là li độ cực đại của vật và luôn có giá trị dương."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Sóng ngang là sóng trong đó các phần tử môi trường dao động theo phương",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trùng với phương truyền sóng."
+        },
+        {
+          "id": "B",
+          "text": "vuông góc với phương truyền sóng."
+        },
+        {
+          "id": "C",
+          "text": "nằm ngang."
+        },
+        {
+          "id": "D",
+          "text": "thẳng đứng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa sóng ngang [Image of transverse vs longitudinal wave]. Ví dụ: sóng trên mặt nước, sóng trên dây."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sóng dọc truyền được trong các môi trường nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ chất rắn."
+        },
+        {
+          "id": "B",
+          "text": "Chỉ chất lỏng và khí."
+        },
+        {
+          "id": "C",
+          "text": "Rắn, lỏng và khí."
+        },
+        {
+          "id": "D",
+          "text": "Chân không."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sóng dọc (như sóng âm) truyền được trong cả 3 môi trường Rắn, Lỏng, Khí. (Sóng cơ không truyền trong chân không)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Khi sóng truyền từ không khí vào nước thì",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số không đổi, bước sóng tăng."
+        },
+        {
+          "id": "B",
+          "text": "tần số không đổi, bước sóng giảm."
+        },
+        {
+          "id": "C",
+          "text": "tần số thay đổi, vận tốc thay đổi."
+        },
+        {
+          "id": "D",
+          "text": "cả tần số và bước sóng đều không đổi."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tần số sóng do nguồn quyết định (không đổi). Vào nước vận tốc tăng ($v_{L} > v_{K}$) nên bước sóng $\\lambda = v/f$ tăng."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Đồ thị biểu diễn sự phụ thuộc của li độ $x$ vào thời gian $t$ trong dao động điều hòa có dạng là đường",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "thẳng."
+        },
+        {
+          "id": "B",
+          "text": "parabol."
+        },
+        {
+          "id": "C",
+          "text": "hình sin."
+        },
+        {
+          "id": "D",
+          "text": "tròn."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do x là hàm cosin (hoặc sin) theo thời gian nên đồ thị có dạng hình sin."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Biên độ dao động của vật là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 m."
+        },
+        {
+          "id": "B",
+          "text": "4 cm."
+        },
+        {
+          "id": "C",
+          "text": "6 cm."
+        },
+        {
+          "id": "D",
+          "text": "4\\pi cm."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đối chiếu với phương trình chuẩn, $A = 6$ cm."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tốc độ truyền sóng $v$ và tốc độ dao động của các phần tử môi trường $u$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hai đại lượng giống nhau."
+        },
+        {
+          "id": "B",
+          "text": "hai đại lượng khác nhau ($v$ thường không đổi, $u$ biến thiên điều hòa)."
+        },
+        {
+          "id": "C",
+          "text": "$v$ luôn lớn hơn $u$."
+        },
+        {
+          "id": "D",
+          "text": "$u$ luôn lớn hơn $v$."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần phân biệt: $v = \\lambda/T$ (hằng số), còn $u = u'_{(t)}$ (biến thiên)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một người quan sát thấy 1 chiêc phao nhô lên cao 10 lần trong 18 giây. Chu kì của sóng biển là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1,8 s."
+        },
+        {
+          "id": "B",
+          "text": "2 s."
+        },
+        {
+          "id": "C",
+          "text": "18 s."
+        },
+        {
+          "id": "D",
+          "text": "0,9 s."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhô lên 10 lần tương ứng với 9 chu kì. $9T = 18s \\Rightarrow T = 2s$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Năng lượng sóng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "năng lượng dao động của các phần tử môi trường nơi có sóng truyền qua."
+        },
+        {
+          "id": "B",
+          "text": "năng lượng của nguồn sóng."
+        },
+        {
+          "id": "C",
+          "text": "tổng động năng của các hạt vật chất."
+        },
+        {
+          "id": "D",
+          "text": "năng lượng điện từ."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quá trình truyền sóng là quá trình truyền năng lượng."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Khi sóng truyền từ không khí vào nước thì",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tần số không đổi, bước sóng tăng."
+        },
+        {
+          "id": "B",
+          "text": "tần số không đổi, bước sóng giảm."
+        },
+        {
+          "id": "C",
+          "text": "tần số thay đổi, vận tốc thay đổi."
+        },
+        {
+          "id": "D",
+          "text": "cả tần số và bước sóng đều không đổi."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tần số sóng do nguồn quyết định (không đổi). Vào nước vận tốc tăng ($v_{L} > v_{K}$) nên bước sóng $\\lambda = v/f$ tăng."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cây trồng nào được thực dân phương Tây tập trung phát triển mạnh ở các đồn điền Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lúa mì"
+        },
+        {
+          "id": "B",
+          "text": "Cao su, cà phê, chè, lúa gạo"
+        },
+        {
+          "id": "C",
+          "text": "Nho và ô liu"
+        },
+        {
+          "id": "D",
+          "text": "Táo và lê"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là các cây công nghiệp nhiệt đới có giá trị xuất khẩu cao."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nghệ thuật \"Chiến tranh nhân dân\" được vận dụng đỉnh cao trong thời đại nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thời Lý - Trần"
+        },
+        {
+          "id": "B",
+          "text": "Thời Lê sơ"
+        },
+        {
+          "id": "C",
+          "text": "Thời đại Hồ Chí Minh (Chống Pháp và Mỹ)"
+        },
+        {
+          "id": "D",
+          "text": "Thời Nguyễn"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đường lối \"Toàn dân, toàn diện\" là sự phát triển cao nhất của tư tưởng chiến tranh nhân dân."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào được coi là cuộc cách mạng tư sản triệt để nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tư sản Anh"
+        },
+        {
+          "id": "B",
+          "text": "Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng tư sản Pháp cuối thế kỷ XVIII"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Hà Lan"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "CMTS Pháp đã lật đổ hoàn toàn chế độ phong kiến, giải quyết vấn đề ruộng đất và thiết lập nền cộng hòa."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nhiệm vụ dân chủ của cách mạng tư sản thể hiện qua việc:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thống nhất thị trường dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Xóa bỏ chế độ phong kiến, đem lại quyền tự do chính trị, kinh tế cho người dân"
+        },
+        {
+          "id": "C",
+          "text": "Đánh đuổi ngoại xâm"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập quân đội quốc gia"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhiệm vụ dân chủ là giải quyết các vấn đề về quyền con người, ruộng đất và xóa bỏ đặc quyền phong kiến."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Kế sách \"Vườn không nhà trống\" được quân dân nhà Trần thực hiện thành công trong cuộc kháng chiến chống:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Tống"
+        },
+        {
+          "id": "B",
+          "text": "Quân Mông - Nguyên"
+        },
+        {
+          "id": "C",
+          "text": "Quân Minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Thanh"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kế sách này khiến quân Mông - Nguyên lâm vào tình trạng thiếu lương thực và bị cô lập."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Lãnh tụ của phong trào độc lập In-đô-nê-xi-a và là Tổng thống đầu tiên của nước này là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "B",
+          "text": "Xu-các-nô"
+        },
+        {
+          "id": "C",
+          "text": "Li Quan Diệu"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ha-thia Mô-ha-mát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ahmed Sukarno là người đọc Tuyên ngôn độc lập khai sinh ra nước CH Indonesia."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tính chất chưa triệt để của Cách mạng tư sản Anh thể hiện ở chỗ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vẫn duy trì ngôi Vua và không giải quyết vấn đề ruộng đất cho nông dân"
+        },
+        {
+          "id": "B",
+          "text": "Tư sản không nắm quyền lực"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế không phát triển sau cách mạng"
+        },
+        {
+          "id": "D",
+          "text": "Chưa xóa bỏ được Giáo hội"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thiết lập quân chủ lập hiến và nông dân không có ruộng đất cho thấy sự thỏa hiệp của tư sản."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Quốc gia nào hiện nay vẫn kiên định con đường đi lên chủ nghĩa xã hội?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nga"
+        },
+        {
+          "id": "B",
+          "text": "Ba Lan"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Hung-ga-ri"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Việt Nam, Trung Quốc, Lào, Cu-ba, Triều Tiên là các nước hiện nay vẫn theo chế độ XHCN."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Điểm giống nhau giữa cuộc kháng chiến chống Pháp (1945-1954) và kháng chiến chống Mỹ (1954-1975) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đều nhận được sự giúp đỡ trực tiếp của quân đội Liên Xô"
+        },
+        {
+          "id": "B",
+          "text": "Đều là chiến tranh nhân dân, toàn dân, toàn diện"
+        },
+        {
+          "id": "C",
+          "text": "Đều kết thúc bằng một trận quyết chiến chiến lược tại thủ đô đối phương"
+        },
+        {
+          "id": "D",
+          "text": "Đều diễn ra trong thời gian 9 năm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đường lối chiến tranh nhân dân xuyên suốt cả hai cuộc kháng chiến."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời năm 1930 có ý nghĩa gì đối với phong trào cách mạng Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh dấu sự thắng thế hoàn toàn của khuynh hướng vô sản trong khu vực"
+        },
+        {
+          "id": "B",
+          "text": "Mở ra thời kỳ giai cấp công nhân nắm quyền lãnh đạo cách mạng Việt Nam và ảnh hưởng đến Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự cai trị của thực dân Pháp"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập được mặt trận thống nhất toàn khu vực"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chấm dứt sự khủng hoảng về đường lối ở VN và lãnh đạo phong trào ở cả Lào, Campuchia."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Đến năm 1937, về sản lượng công nghiệp, Liên Xô đứng vị trí nào trên thế giới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thứ nhất thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Thứ hai thế giới (sau Mỹ) và đứng đầu châu Âu"
+        },
+        {
+          "id": "C",
+          "text": "Thứ ba thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Thứ tư thế giới"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự phát triển thần kỳ giúp Liên Xô vươn lên đứng thứ 2 thế giới."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trước khi thực hiện Chính sách kinh tế mới (NEP), nước Nga Xô viết đã thực hiện chính sách gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chính sách Cộng sản thời chiến"
+        },
+        {
+          "id": "B",
+          "text": "Chính sách mở cửa"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách kinh tế thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Chính sách công nghiệp hóa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính sách Cộng sản thời chiến được áp dụng trong thời kỳ nội chiến (1918-1920)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tổ chức cách mạng nào ở In-đô-nê-xi-a được coi là ngọn cờ đầu của phong trào độc lập đầu thế kỷ XX?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đảng Cộng sản In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Hiệp hội Hồi giáo (Sarekat Islam)"
+        },
+        {
+          "id": "C",
+          "text": "Đảng Quốc đại"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam Quốc dân đảng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sarekat Islam (1911) là tổ chức quần chúng lớn nhất, đấu tranh đòi quyền lợi kinh tế và chính trị."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Năm 1945, ba quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a, Việt Nam, Lào"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam, Lào, Cam-pu-chia"
+        },
+        {
+          "id": "C",
+          "text": "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam, Thái Lan, Mi-an-ma"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lợi dụng Nhật đầu hàng Đồng minh, 3 nước này đã chớp thời cơ giành độc lập (Indo: 17/8, VN: 2/9, Lào: 12/10)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thắng lợi của cuộc cách mạng nào đã nối liền hệ thống xã hội chủ nghĩa từ Âu sang Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng Việt Nam (1945)"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng Trung Quốc (1949)"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng Cu-ba (1959)"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Lào (1975)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời (1949) có ý nghĩa nối liền hệ thống XHCN."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Ý nghĩa của sự tồn tại và phát triển của hệ thống xã hội chủ nghĩa đối với thế giới là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Là chỗ dựa cho hòa bình và phong trào cách mạng thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Gây ra chiến tranh lạnh"
+        },
+        {
+          "id": "C",
+          "text": "Kìm hãm sự phát triển của CNTB"
+        },
+        {
+          "id": "D",
+          "text": "Chia rẽ thế giới thành nhiều cực"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ thống XHCN đã ngăn chặn chiến tranh, bảo vệ hòa bình và ủng hộ các dân tộc bị áp bức."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Thực dân Hà Lan đã hoàn thành việc xâm lược và thiết lập ách cai trị tại quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "D",
+          "text": "Mi-an-ma"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hà Lan thống trị In-đô-nê-xi-a (trước đó có sự tranh chấp với Bồ Đào Nha, Anh)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản được xác lập trên phạm vi thế giới vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thế kỷ XVII"
+        },
+        {
+          "id": "B",
+          "text": "Cuối thế kỷ XVIII"
+        },
+        {
+          "id": "C",
+          "text": "Cuối thế kỷ XIX"
+        },
+        {
+          "id": "D",
+          "text": "Đầu thế kỷ XX"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Với sự thắng lợi của các cuộc CMTS và Cải cách Minh Trị (Nhật), Thống nhất Đức, Ý... vào cuối thế kỷ XIX."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Năm 1961, Liên Xô đạt được thành tựu gì trong lĩnh vực chinh phục vũ trụ?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phóng tàu vũ trụ đưa người bay vòng quanh Trái Đất (Ga-ga-rin)"
+        },
+        {
+          "id": "B",
+          "text": "Đưa người lên Mặt Trăng"
+        },
+        {
+          "id": "C",
+          "text": "Xây dựng trạm vũ trụ hòa bình"
+        },
+        {
+          "id": "D",
+          "text": "Phóng vệ tinh nhân tạo đầu tiên"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Yuri Gagarin là người đầu tiên bay vào vũ trụ (1961)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Các nước Đông Âu hoàn thành cách mạng dân chủ nhân dân và bước vào xây dựng CNXH trong khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1945 - 1949"
+        },
+        {
+          "id": "B",
+          "text": "1950 - 1970"
+        },
+        {
+          "id": "C",
+          "text": "1939 - 1945"
+        },
+        {
+          "id": "D",
+          "text": "1970 - 1980"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giai đoạn 1945-1949 là giai đoạn củng cố chính quyền và hoàn thành nhiệm vụ dân chủ nhân dân."
+    }
+  ]
+}

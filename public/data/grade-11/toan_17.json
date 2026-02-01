@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hàm số nào sau đây là hàm số chẵn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = \\sin x$"
+        },
+        {
+          "id": "B",
+          "text": "$y = \\cos x$"
+        },
+        {
+          "id": "C",
+          "text": "$y = \\tan x$"
+        },
+        {
+          "id": "D",
+          "text": "$y = \\cot x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vì $\\cos(-x) = \\cos x$ nên hàm cos là hàm chẵn. Các hàm còn lại là hàm lẻ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm $a$ để $\\lim_{x \\to 1} \\frac{x^2 - ax + a - 1}{x - 1} = 2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$a=1$"
+        },
+        {
+          "id": "B",
+          "text": "$a=0$"
+        },
+        {
+          "id": "C",
+          "text": "$a=-1$"
+        },
+        {
+          "id": "D",
+          "text": "$a=2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích tử: $(x-1)(x - (a-1))$. Rút gọn thành $x - a + 1$. Thay $x=1$: $1 - a + 1 = 2 \\Rightarrow 2 - a = 2 \\Rightarrow a = 0$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Phương trình $1 + 4 + 7 + ... + x = 117$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "22"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "28"
+        },
+        {
+          "id": "D",
+          "text": "31"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x = u_n = 1 + (n-1)3 = 3n-2$. $S_n = \\frac{n(1 + 3n-2)}{2} = \\frac{3n^2-n}{2} = 117 \\Rightarrow 3n^2-n-234=0 \\Rightarrow n=9$. $x = u_9 = 1 + 8(3) = 25$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Biến đổi tích thành tổng: $2\\cos 3x \\cos x = $?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos 4x + \\cos 2x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos 4x - \\cos 2x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin 4x + \\sin 2x$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos 2x + \\sin 4x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2\\cos a \\cos b = \\cos(a+b) + \\cos(a-b)$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây là một cấp số cộng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1; 3; 6; 10; 15"
+        },
+        {
+          "id": "B",
+          "text": "1; 3; 5; 7; 9"
+        },
+        {
+          "id": "C",
+          "text": "1; 2; 4; 8; 16"
+        },
+        {
+          "id": "D",
+          "text": "1; -1; 1; -1; 1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dãy B có hiệu hai số hạng liên tiếp không đổi (công sai $d=2$)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sin 2x}{x}$. (Gợi ý: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$)",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\frac{\\sin 2x}{x} = 2 \\cdot \\frac{\\sin 2x}{2x} \\to 2 \\cdot 1 = 2$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Mệnh đề nào sau đây là đúng về dấu của các giá trị lượng giác trong góc phần tư thứ II?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha < 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Góc phần tư thứ II: tung độ dương (sin > 0), hoành độ âm (cos < 0)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Phương trình $\\tan x = \\sqrt{3}$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{6} + k\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\frac{\\pi}{3} + k\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\tan x = \\tan(\\frac{\\pi}{3}) \\Leftrightarrow x = \\frac{\\pi}{3} + k\\pi$ (họ nghiệm của tan chu kì là $\\pi$)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x^2 - x}{x^3 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu, giới hạn tại vô cực bằng 0."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin x + \\sqrt{3}\\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{5\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = -\\frac{\\pi}{6} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia 2 vế cho 2: $\\frac{1}{2}\\sin x + \\frac{\\sqrt{3}}{2}\\cos x = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{3}) = 1 \\Rightarrow x + \\frac{\\pi}{3} = \\frac{\\pi}{2} + k2\\pi \\Rightarrow x = \\frac{\\pi}{6} + k2\\pi$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Số hạng thứ 20 của cấp số cộng 2, 7, 12, 17... là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "97"
+        },
+        {
+          "id": "B",
+          "text": "102"
+        },
+        {
+          "id": "C",
+          "text": "92"
+        },
+        {
+          "id": "D",
+          "text": "87"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_1 = 2, d = 5$. $u_{20} = 2 + 19(5) = 2 + 95 = 97$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phương trình $\\sqrt{3}\\tan x - 3 = 0$ tương đương với phương trình nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan x = \\sqrt{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\tan x = \\frac{1}{\\sqrt{3}}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cot x = \\sqrt{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\tan x = 3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\sqrt{3}\\tan x = 3 \\Leftrightarrow \\tan x = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{n^2 - 3n}{2n^2 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "-3"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bậc tử bằng bậc mẫu (bậc 2), giới hạn bằng tỉ số hệ số bậc cao nhất: 1/2."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tìm giới hạn $L = \\lim (3n^2 - 2n + 5)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\infty$"
+        },
+        {
+          "id": "B",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặt $n^2$ làm nhân tử chung: $\\lim n^2(3 - \\frac{2}{n} + \\frac{5}{n^2}) = (+\\infty).3 = +\\infty$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\tan x$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$D = \\mathbb{R}$"
+        },
+        {
+          "id": "B",
+          "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z} \\}$"
+        },
+        {
+          "id": "C",
+          "text": "$D = \\mathbb{R} \\setminus \\{ k\\pi, k \\in \\mathbb{Z} \\}$"
+        },
+        {
+          "id": "D",
+          "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z} \\}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hàm tan(x) xác định khi cos(x) khác 0, tức là $x \\ne \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\tan x$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$D = \\mathbb{R}$"
+        },
+        {
+          "id": "B",
+          "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z} \\}$"
+        },
+        {
+          "id": "C",
+          "text": "$D = \\mathbb{R} \\setminus \\{ k\\pi, k \\in \\mathbb{Z} \\}$"
+        },
+        {
+          "id": "D",
+          "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z} \\}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hàm tan(x) xác định khi cos(x) khác 0, tức là $x \\ne \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tìm $\\lim (\\sqrt{2} . \\frac{1}{\\sqrt{n}})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lim \\frac{1}{\\sqrt{n}} = 0$, nên tích bằng 0."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $A = \\cos(x - \\frac{\\pi}{2})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\cos(x - \\frac{\\pi}{2}) = \\cos(\\frac{\\pi}{2} - x) = \\sin x$ (Phụ chéo)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim (\\sqrt{n^2 + 2n} - n)$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhân lượng liên hợp: $\\lim \\frac{n^2+2n-n^2}{\\sqrt{n^2+2n}+n} = \\lim \\frac{2n}{n\\sqrt{1+2/n}+n} = \\frac{2}{1+1} = 1$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tìm số hạng thứ 10 của dãy số $u_n = \\frac{2^n}{n}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "102,4"
+        },
+        {
+          "id": "B",
+          "text": "51,2"
+        },
+        {
+          "id": "C",
+          "text": "1024"
+        },
+        {
+          "id": "D",
+          "text": "204,8"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_{10} = \\frac{2^{10}}{10} = \\frac{1024}{10} = 102,4$."
+    }
+  ]
+}

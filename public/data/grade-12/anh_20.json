@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "It is becoming ______ to find a job in this city.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hard and hard"
+        },
+        {
+          "id": "B",
+          "text": "harder and harder"
+        },
+        {
+          "id": "C",
+          "text": "more and more hard"
+        },
+        {
+          "id": "D",
+          "text": "the hardest"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh lặp (càng ngày càng): adj-er and adj-er."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Closest meaning: 'Hazardous' waste must be disposed of carefully.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Safe"
+        },
+        {
+          "id": "B",
+          "text": "Dangerous"
+        },
+        {
+          "id": "C",
+          "text": "Useful"
+        },
+        {
+          "id": "D",
+          "text": "Natural"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Hazardous' (nguy hại) đồng nghĩa với 'Dangerous' (nguy hiểm)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "They decided ______ a new house in the suburbs.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "buying"
+        },
+        {
+          "id": "B",
+          "text": "buy"
+        },
+        {
+          "id": "C",
+          "text": "to buy"
+        },
+        {
+          "id": "D",
+          "text": "bought"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau động từ 'decide' dùng 'to V'."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Closest meaning: He was 'sacked' because of his poor performance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "promoted"
+        },
+        {
+          "id": "B",
+          "text": "hired"
+        },
+        {
+          "id": "C",
+          "text": "dismissed"
+        },
+        {
+          "id": "D",
+          "text": "trained"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Sacked' (bị sa thải) đồng nghĩa với 'dismissed' hoặc 'fired'."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "She feels ______ because she can't speak the local language.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "isolated"
+        },
+        {
+          "id": "B",
+          "text": "connected"
+        },
+        {
+          "id": "C",
+          "text": "proud"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Isolated' (bị cô lập) là cảm giác khi không giao tiếp được."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Illegal ______ is one of the main causes of the decline in wildlife populations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "poaching"
+        },
+        {
+          "id": "B",
+          "text": "conserving"
+        },
+        {
+          "id": "C",
+          "text": "reserving"
+        },
+        {
+          "id": "D",
+          "text": "protecting"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Poaching' là nạn săn trộm."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "resume"
+        },
+        {
+          "id": "B",
+          "text": "pressure"
+        },
+        {
+          "id": "C",
+          "text": "suppose"
+        },
+        {
+          "id": "D",
+          "text": "sense"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'resume' (sơ yếu lý lịch) thường đọc là /rez.jʊˈmeɪ/ (âm cuối là /eɪ/). Các từ còn lại âm e cuối câm hoặc đọc khác."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Don't forget to log ______ of your account when you finish using the public computer.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "out"
+        },
+        {
+          "id": "D",
+          "text": "up"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Log out' (đăng xuất)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Transformation: 'Someone stole my phone.' -> 'I had...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I had my phone stolen."
+        },
+        {
+          "id": "B",
+          "text": "I had my phone steal."
+        },
+        {
+          "id": "C",
+          "text": "I had someone stolen my phone."
+        },
+        {
+          "id": "D",
+          "text": "I had someone steal my phone."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc bị động của thể sai khiến (dùng cho việc không mong muốn): 'have something done' (bị mất điện thoại)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "I got the mechanic ______ my car yesterday.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "fix"
+        },
+        {
+          "id": "B",
+          "text": "to fix"
+        },
+        {
+          "id": "C",
+          "text": "fixed"
+        },
+        {
+          "id": "D",
+          "text": "fixing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến với 'get': 'get someone TO do something'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "The ______ the weather is, the faster the polar ice melts.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "warm"
+        },
+        {
+          "id": "B",
+          "text": "warmer"
+        },
+        {
+          "id": "C",
+          "text": "warmest"
+        },
+        {
+          "id": "D",
+          "text": "more warm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The + so sánh hơn (warmer), the + so sánh hơn (faster)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "He ______ working even though he is 65.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "goes on"
+        },
+        {
+          "id": "B",
+          "text": "goes off"
+        },
+        {
+          "id": "C",
+          "text": "goes out"
+        },
+        {
+          "id": "D",
+          "text": "goes in"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Go on' (tiếp tục)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "The interviewer told the candidate ______ down.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sit"
+        },
+        {
+          "id": "B",
+          "text": "sitting"
+        },
+        {
+          "id": "C",
+          "text": "to sit"
+        },
+        {
+          "id": "D",
+          "text": "sat"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu tường thuật mệnh lệnh: 'tell sb to do sth'."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hacker"
+        },
+        {
+          "id": "B",
+          "text": "automated"
+        },
+        {
+          "id": "C",
+          "text": "application"
+        },
+        {
+          "id": "D",
+          "text": "navigate"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'automated' phát âm là /ɔː/ (âm o dài). Các từ còn lại chữ 'a' phát âm là /æ/ (e bẹt)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Soot comes from the ______ of coal and other fuels.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "combustion"
+        },
+        {
+          "id": "B",
+          "text": "combination"
+        },
+        {
+          "id": "C",
+          "text": "communication"
+        },
+        {
+          "id": "D",
+          "text": "composition"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Combustion' là sự đốt cháy. Soot (muội than) sinh ra từ việc đốt than."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "My boss has high ______ of his employees.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "expect"
+        },
+        {
+          "id": "B",
+          "text": "expectations"
+        },
+        {
+          "id": "C",
+          "text": "expectant"
+        },
+        {
+          "id": "D",
+          "text": "expectancy"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'High expectations' (kỳ vọng cao)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "She decided to apply ______ the position of marketing manager.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "to"
+        },
+        {
+          "id": "C",
+          "text": "with"
+        },
+        {
+          "id": "D",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'apply for a job/position' (nộp đơn xin việc)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "By the time you come back, the movie ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will start"
+        },
+        {
+          "id": "B",
+          "text": "will have started"
+        },
+        {
+          "id": "C",
+          "text": "has started"
+        },
+        {
+          "id": "D",
+          "text": "started"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tương tự câu 5, 'By the time + hiện tại đơn', mệnh đề chính dùng Tương lai hoàn thành."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "intelligent"
+        },
+        {
+          "id": "B",
+          "text": "incredible"
+        },
+        {
+          "id": "C",
+          "text": "automatic"
+        },
+        {
+          "id": "D",
+          "text": "communicate"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'automatic' nhấn âm 3. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Libraries play a key role in ______ lifelong learning.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitating"
+        },
+        {
+          "id": "B",
+          "text": "making"
+        },
+        {
+          "id": "C",
+          "text": "doing"
+        },
+        {
+          "id": "D",
+          "text": "preventing"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Facilitate' (tạo điều kiện thuận lợi/thúc đẩy)."
+    }
+  ]
+}

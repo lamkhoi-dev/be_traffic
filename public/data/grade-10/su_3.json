@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 3: Sử học với các lĩnh vực khoa học khác",
+    "description": "Kiểm tra kiến thức về mối quan hệ liên ngành giữa Sử học với các ngành khoa học xã hội, nhân văn và khoa học tự nhiên.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sử học là ngành khoa học có tính chất",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "độc lập, không liên quan đến ngành nào." },
+        { "id": "B", "text": "liên ngành, đa lĩnh vực." },
+        { "id": "C", "text": "chỉ liên quan đến văn học." },
+        { "id": "D", "text": "chỉ liên quan đến địa lý." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học nghiên cứu toàn bộ đời sống quá khứ nên có tính liên ngành cao."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mối quan hệ giữa Sử học và các ngành khoa học xã hội nhân văn là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "đối kháng, bài trừ lẫn nhau." },
+        { "id": "B", "text": "quan hệ tương tác, hỗ trợ hai chiều." },
+        { "id": "C", "text": "Sử học phụ thuộc hoàn toàn vào các ngành khác." },
+        { "id": "D", "text": "Các ngành khác phụ thuộc hoàn toàn vào Sử học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp bối cảnh cho các ngành khác, ngược lại các ngành khác cung cấp tư liệu, phương pháp cho Sử học."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Để xác định niên đại của các hóa thạch cổ, Sử học cần sự hỗ trợ của ngành nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Văn học." },
+        { "id": "B", "text": "Vật lý học, Hóa học." },
+        { "id": "C", "text": "Tâm lý học." },
+        { "id": "D", "text": "Kinh tế học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Các phương pháp như đồng vị phóng xạ Carbon C-14 (Vật lý/Hóa học) giúp xác định tuổi hiện vật."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Ngành Địa lý học hỗ trợ Sử học trong việc",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "xác định không gian, vị trí diễn ra sự kiện." },
+        { "id": "B", "text": "phân tích tâm lý nhân vật lịch sử." },
+        { "id": "C", "text": "tính toán số liệu thống kê." },
+        { "id": "D", "text": "dịch thuật các văn bản cổ." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Địa lý cung cấp kiến thức về môi trường, không gian nơi lịch sử diễn ra."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tác phẩm 'Truyện Kiều' của Nguyễn Du là đối tượng nghiên cứu của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "chỉ riêng ngành Văn học." },
+        { "id": "B", "text": "chỉ riêng ngành Sử học." },
+        { "id": "C", "text": "cả Văn học và Sử học." },
+        { "id": "D", "text": "ngành Toán học." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Văn học nghiên cứu giá trị nghệ thuật, Sử học nghiên cứu bối cảnh xã hội và tư tưởng phản ánh qua tác phẩm."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sử học cung cấp thông tin gì cho ngành Kinh tế học?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bối cảnh lịch sử của các thuyết kinh tế." },
+        { "id": "B", "text": "Quá trình phát triển của các hình thái kinh tế." },
+        { "id": "C", "text": "Kinh nghiệm quản lý kinh tế trong quá khứ." },
+        { "id": "D", "text": "Tất cả các ý trên." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Lịch sử kinh tế là một bộ phận quan trọng, cung cấp dữ liệu quá khứ cho Kinh tế học."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ngành Khảo cổ học có vai trò đặc biệt quan trọng trong việc nghiên cứu giai đoạn nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lịch sử hiện đại." },
+        { "id": "B", "text": "Thời kỳ Tiền sử và Cổ đại." },
+        { "id": "C", "text": "Thời kỳ Cận đại." },
+        { "id": "D", "text": "Thế kỷ XXI." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chưa có hoặc rất ít chữ viết, hiện vật khảo cổ là nguồn sử liệu chính."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Công nghệ số và Tin học giúp ích gì cho Sử học?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lưu trữ, số hóa tư liệu lịch sử." },
+        { "id": "B", "text": "Tái hiện 3D các di tích." },
+        { "id": "C", "text": "Phân tích dữ liệu lớn (Big Data) về lịch sử." },
+        { "id": "D", "text": "Tất cả các ý trên." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công nghệ hiện đại hỗ trợ đắc lực trong bảo tồn, lưu trữ và nghiên cứu."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khi nghiên cứu về các cuộc chiến tranh, Sử học cần kiến thức của ngành nào để hiểu về vũ khí, chiến thuật?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khoa học Quân sự." },
+        { "id": "B", "text": "Văn học." },
+        { "id": "C", "text": "Âm nhạc." },
+        { "id": "D", "text": "Sinh học." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khoa học quân sự cung cấp chuyên môn về kỹ thuật tác chiến."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Sự phát triển của Thống kê học giúp Sử học",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "định lượng hóa các sự kiện lịch sử (như dân số, sản lượng)." },
+        { "id": "B", "text": "viết văn hay hơn." },
+        { "id": "C", "text": "sáng tác thơ ca." },
+        { "id": "D", "text": "vẽ bản đồ đẹp hơn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương pháp định lượng giúp sử học chính xác và khách quan hơn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Để hiểu về nguồn gốc loài người, Sử học cần kết hợp với ngành",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thiên văn học." },
+        { "id": "B", "text": "Nhân học và Sinh học." },
+        { "id": "C", "text": "Kinh tế học." },
+        { "id": "D", "text": "Luật học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhân học và sinh học nghiên cứu quá trình tiến hóa sinh học của loài người."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Di sản văn hóa phi vật thể (như Dân ca) là đối tượng nghiên cứu của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Văn hóa học, Âm nhạc học và Sử học." },
+        { "id": "B", "text": "chỉ riêng Sử học." },
+        { "id": "C", "text": "Toán học." },
+        { "id": "D", "text": "Vật lý." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần tiếp cận liên ngành để hiểu đầy đủ giá trị của di sản."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Việc sử dụng phương pháp của các ngành khoa học khác giúp nghiên cứu lịch sử trở nên",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rắc rối và khó hiểu." },
+        { "id": "B", "text": "toàn diện, sâu sắc và chính xác hơn." },
+        { "id": "C", "text": "xa rời thực tế." },
+        { "id": "D", "text": "mất đi tính đặc thù." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách tiếp cận liên ngành mang lại cái nhìn đa chiều."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Để khôi phục lại diện mạo của các thành cổ đã bị vùi lấp, nhà sử học cần",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trí tưởng tượng phong phú." },
+        { "id": "B", "text": "sự hỗ trợ của Kiến trúc và Khảo cổ học." },
+        { "id": "C", "text": "các nhà văn viết tiểu thuyết." },
+        { "id": "D", "text": "các nhà kinh tế." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kiến trúc và khảo cổ giúp tái dựng chính xác cấu trúc vật chất."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sử học có vai trò như thế nào đối với các ngành khoa học tự nhiên?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không có vai trò gì." },
+        { "id": "B", "text": "Cung cấp lịch sử hình thành và phát triển của ngành khoa học đó." },
+        { "id": "C", "text": "Thay thế các ngành đó." },
+        { "id": "D", "text": "Quyết định kết quả nghiên cứu của các ngành đó." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mọi ngành khoa học đều có lịch sử phát triển của riêng mình (Lịch sử Toán học, Lịch sử Vật lý...)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Để nghiên cứu về các văn bia cổ, nhà sử học cần kiến thức của ngành",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hán - Nôm (Ngôn ngữ học)." },
+        { "id": "B", "text": "Thể dục thể thao." },
+        { "id": "C", "text": "Sinh học." },
+        { "id": "D", "text": "Thiên văn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần biết ngôn ngữ cổ để giải mã nội dung văn bia."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Mối quan hệ giữa Sử học và các ngành khác là mối quan hệ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "một chiều." },
+        { "id": "B", "text": "biện chứng, tương hỗ." },
+        { "id": "C", "text": "tách biệt." },
+        { "id": "D", "text": "đối lập." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tác động qua lại lẫn nhau."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tâm lý học xã hội giúp nhà sử học giải thích",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "niên đại sự kiện." },
+        { "id": "B", "text": "động cơ, thái độ, hành vi của đám đông trong lịch sử." },
+        { "id": "C", "text": "cấu trúc địa chất." },
+        { "id": "D", "text": "quy luật kinh tế." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu được tâm lý đám đông giúp giải thích nguyên nhân sâu xa của các phong trào, cách mạng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sự ra đời của ngành 'Sử liệu học' là kết quả của sự kết hợp giữa Sử học và",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "phương pháp lưu trữ, giám định văn bản." },
+        { "id": "B", "text": "Nông nghiệp." },
+        { "id": "C", "text": "Y học." },
+        { "id": "D", "text": "Hóa học." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử liệu học chuyên về thu thập, phân loại và đánh giá nguồn tin."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong thời đại 4.0, nhà sử học cần trang bị thêm kĩ năng gì ngoài kiến thức chuyên môn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kỹ năng chiến đấu." },
+        { "id": "B", "text": "Kỹ năng công nghệ thông tin và ngoại ngữ." },
+        { "id": "C", "text": "Kỹ năng trồng trọt." },
+        { "id": "D", "text": "Kỹ năng nấu ăn." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Để khai thác nguồn dữ liệu số và hội nhập quốc tế."
+    }
+  ]
+}

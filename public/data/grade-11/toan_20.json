@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Biết $\\lim \\frac{an + 4}{2n + 3} = 3$. Giá trị của $a$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giới hạn bằng $a/2$. Ta có $a/2 = 3 \\Rightarrow a = 6$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim_{x \\to 1} (2x^2 - 3x + 1)$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "-1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay trực tiếp $x=1$: $2(1)^2 - 3(1) + 1 = 0$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đơn giản biểu thức $C = \\cos(270^\\circ - x)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\cos(270^\\circ - x) = \\cos(180^\\circ + 90^\\circ - x) = -\\cos(90^\\circ - x) = -\\sin x$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tính $\\lim (\\sqrt{n^2+1} - n)$ là dạng vô định nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{0}{0}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\infty}{\\infty}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\infty - \\infty$"
+        },
+        {
+          "id": "D",
+          "text": "$0.\\infty$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$n^2 \\to \\infty$, $n \\to \\infty$, hiệu là dạng vô định $\\infty - \\infty$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x^2 - x}{x^3 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu, giới hạn tại vô cực bằng 0."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Để phương trình $\\cos x = m$ có nghiệm thì giá trị của m phải là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 1$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le -1$"
+        },
+        {
+          "id": "C",
+          "text": "$-1 \\le m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m > 1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tập giá trị của cos là $[-1; 1]$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $\\sin 3x = \\sin x$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = k\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = k\\pi; x = \\frac{\\pi}{4} + k\\frac{\\pi}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$x = k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\frac{\\pi}{2} + k\\pi$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$3x = x + k2\\pi \\Rightarrow x = k\\pi$. Hoặc $3x = \\pi - x + k2\\pi \\Rightarrow 4x = \\pi + k2\\pi \\Rightarrow x = \\frac{\\pi}{4} + k\\frac{\\pi}{2}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin(-\\alpha) = \\sin \\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos(-\\alpha) = -\\cos \\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$\\tan(-\\alpha) = \\tan \\alpha$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos(-\\alpha) = \\cos \\alpha$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Cung đối nhau: 'Cos đối' (chỉ có cos giữ nguyên dấu)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tổng $S = 2 + 1 + \\frac{1}{2} + \\frac{1}{4} + ...$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "2,5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấp số nhân lùi vô hạn với $u_1=2, q=1/2$. $S = \\frac{2}{1-0,5} = 4$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ba góc của một tam giác vuông lập thành cấp số cộng. Số đo ba góc đó là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$30^\\circ, 60^\\circ, 90^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$20^\\circ, 70^\\circ, 90^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$45^\\circ, 45^\\circ, 90^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$15^\\circ, 75^\\circ, 90^\\circ$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi 3 góc là $a-d, a, a+d$. Tổng $3a = 180 \\Rightarrow a = 60^\\circ$. Góc lớn nhất $a+d=90 \\Rightarrow d=30$. Vậy 30, 60, 90."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Biến đổi tích thành tổng: $2\\cos 3x \\cos x = $?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos 4x + \\cos 2x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos 4x - \\cos 2x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin 4x + \\sin 2x$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos 2x + \\sin 4x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2\\cos a \\cos b = \\cos(a+b) + \\cos(a-b)$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Phương trình $\\sqrt{3}\\tan x - 3 = 0$ tương đương với phương trình nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan x = \\sqrt{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\tan x = \\frac{1}{\\sqrt{3}}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cot x = \\sqrt{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\tan x = 3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\sqrt{3}\\tan x = 3 \\Leftrightarrow \\tan x = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Công thức nhân đôi nào sau đây là SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin 2a = 2\\sin a \\cos a$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos 2a = \\cos^2 a - \\sin^2 a$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cos 2a = 1 - 2\\sin^2 a$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos 2a = 2\\sin^2 a - 1$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công thức đúng là $\\cos 2a = 2\\cos^2 a - 1$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tìm $a$ để $\\lim_{x \\to 1} \\frac{x^2 - ax + a - 1}{x - 1} = 2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$a=1$"
+        },
+        {
+          "id": "B",
+          "text": "$a=0$"
+        },
+        {
+          "id": "C",
+          "text": "$a=-1$"
+        },
+        {
+          "id": "D",
+          "text": "$a=2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích tử: $(x-1)(x - (a-1))$. Rút gọn thành $x - a + 1$. Thay $x=1$: $1 - a + 1 = 2 \\Rightarrow 2 - a = 2 \\Rightarrow a = 0$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim \\frac{2n + 1}{n - 3}$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "-1/3"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "+∞"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\lim \\frac{2 + 1/n}{1 - 3/n} = \\frac{2}{1} = 2$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Dãy số $(q^n)$ có giới hạn bằng 0 khi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$q > 1$"
+        },
+        {
+          "id": "B",
+          "text": "$q = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$|q| < 1$"
+        },
+        {
+          "id": "D",
+          "text": "$q < -1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là định lý cơ bản về giới hạn của cấp số nhân lùi vô hạn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tính giá trị biểu thức $P = \\tan 45^\\circ + \\cot 135^\\circ$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "-1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\tan 45^\\circ = 1$; $\\cot 135^\\circ = -1$. Vậy $P = 1 + (-1) = 0$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho dãy số $(u_n)$ với $u_n = (-1)^n$. Dãy số này",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng."
+        },
+        {
+          "id": "B",
+          "text": "Giảm."
+        },
+        {
+          "id": "C",
+          "text": "Không tăng không giảm."
+        },
+        {
+          "id": "D",
+          "text": "Bị chặn dưới nhưng không bị chặn trên."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dãy đan dấu -1, 1, -1, 1... nên không đơn điệu."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Góc lượng giác có số đo $-120^\\circ$ cùng biểu diễn với góc nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$240^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$120^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$-240^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$60^\\circ$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$-120^\\circ + 360^\\circ = 240^\\circ$."
+    }
+  ]
+}

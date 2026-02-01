@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 4: Việt Nam 1919-1930",
+    "description": "Kiểm tra kiến thức về cuộc khai thác thuộc địa lần thứ hai, các phong trào yêu nước và sự thành lập Đảng Cộng sản Việt Nam.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Thực dân Pháp tiến hành cuộc khai thác thuộc địa lần thứ hai ở Việt Nam (1919-1929) trong hoàn cảnh nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kinh tế Pháp đang phát triển mạnh mẽ" },
+        { "id": "B", "text": "Nước Pháp bị tàn phá nặng nề sau CTTG I" },
+        { "id": "C", "text": "Pháp đang chuẩn bị cho CTTG II" },
+        { "id": "D", "text": "Tình hình chính trị Pháp ổn định" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau CTTG I, Pháp là nước thắng trận nhưng bị tàn phá nặng nề, cần khai thác thuộc địa để bù đắp thiệt hại."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong cuộc khai thác thuộc địa lần thứ hai, Pháp đầu tư vốn nhiều nhất vào ngành nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nghiệp nhẹ" },
+        { "id": "B", "text": "Giao thông vận tải" },
+        { "id": "C", "text": "Nông nghiệp và khai thác mỏ" },
+        { "id": "D", "text": "Thương nghiệp" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nông nghiệp (trồng cao su) và khai thác mỏ (than) mang lại lợi nhuận nhanh và lớn nhất."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Giai cấp nào ở Việt Nam ra đời sau Chiến tranh thế giới thứ nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nhân" },
+        { "id": "B", "text": "Nông dân" },
+        { "id": "C", "text": "Tư sản và Tiểu tư sản" },
+        { "id": "D", "text": "Địa chủ phong kiến" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giai cấp công nhân ra đời từ cuộc khai thác lần 1. Tư sản và Tiểu tư sản ra đời sau CTTG I (khai thác lần 2)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu bước ngoặt trong cuộc đời hoạt động cách mạng của Nguyễn Ái Quốc?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gửi Yêu sách đến Hội nghị Véc-xai (1919)" },
+        { "id": "B", "text": "Đọc sơ thảo Luận cương của Lê-nin (7/1920)" },
+        { "id": "C", "text": "Bỏ phiếu tán thành Quốc tế thứ 3 (12/1920)" },
+        { "id": "D", "text": "Thành lập Hội Việt Nam Cách mạng Thanh niên (1925)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sự kiện bỏ phiếu gia nhập Quốc tế 3 (12/1920) đánh dấu bước chuyển từ chủ nghĩa yêu nước sang chủ nghĩa cộng sản."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tổ chức cách mạng nào là tiền thân của Đảng Cộng sản Việt Nam?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tâm tâm xã" },
+        { "id": "B", "text": "Việt Nam Quốc dân đảng" },
+        { "id": "C", "text": "Hội Việt Nam Cách mạng Thanh niên" },
+        { "id": "D", "text": "Đảng Lập hiến" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hội VNCMTN (6/1925) do Nguyễn Ái Quốc sáng lập là tổ chức tiền thân chuẩn bị cho sự ra đời của Đảng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cuộc khởi nghĩa Yên Bái (2/1930) do tổ chức nào lãnh đạo?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đảng Cộng sản Việt Nam" },
+        { "id": "B", "text": "Việt Nam Quốc dân đảng" },
+        { "id": "C", "text": "Hội Việt Nam Cách mạng Thanh niên" },
+        { "id": "D", "text": "Tân Việt Cách mạng đảng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khởi nghĩa Yên Bái là hoạt động tiêu biểu và cuối cùng của Việt Nam Quốc dân đảng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cương lĩnh chính trị đầu tiên của Đảng Cộng sản Việt Nam do ai soạn thảo?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trần Phú" },
+        { "id": "B", "text": "Nguyễn Ái Quốc" },
+        { "id": "C", "text": "Lê Hồng Phong" },
+        { "id": "D", "text": "Hà Huy Tập" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyễn Ái Quốc soạn thảo Cương lĩnh chính trị đầu tiên (2/1930). Trần Phú soạn Luận cương chính trị (10/1930)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu phong trào công nhân Việt Nam bước đầu chuyển từ tự phát sang tự giác?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thành lập Công hội (1920)" },
+        { "id": "B", "text": "Cuộc bãi công của thợ máy xưởng Ba Son (8/1925)" },
+        { "id": "C", "text": "Đảng Cộng sản Việt Nam ra đời (1930)" },
+        { "id": "D", "text": "Phong trào vô sản hóa (1928)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bãi công Ba Son (1925) đánh dấu bước chuyển quan trọng sang tự giác."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời là sản phẩm của sự kết hợp giữa các yếu tố nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chủ nghĩa Mác - Lênin và phong trào công nhân" },
+        { "id": "B", "text": "Chủ nghĩa Mác - Lênin và phong trào yêu nước" },
+        { "id": "C", "text": "Phong trào công nhân và phong trào yêu nước" },
+        { "id": "D", "text": "Chủ nghĩa Mác - Lênin, phong trào công nhân và phong trào yêu nước" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đây là quy luật ra đời đặc thù của Đảng Cộng sản Việt Nam."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tờ báo nào là cơ quan ngôn luận của Hội Việt Nam Cách mạng Thanh niên?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Báo Thanh niên" },
+        { "id": "B", "text": "Báo Búa liềm" },
+        { "id": "C", "text": "Báo An Nam trẻ" },
+        { "id": "D", "text": "Báo Người cùng khổ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Báo Thanh niên, do Nguyễn Ái Quốc sáng lập, số đầu tiên ra ngày 21/6/1925."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Phong trào \"Vô sản hóa\" (1928) có tác dụng gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tăng số lượng hội viên của Hội" },
+        { "id": "B", "text": "Rèn luyện cán bộ và truyền bá chủ nghĩa Mác - Lênin vào phong trào công nhân" },
+        { "id": "C", "text": "Chuẩn bị khởi nghĩa vũ trang" },
+        { "id": "D", "text": "Thành lập chính quyền Xô viết" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đưa cán bộ vào hầm mỏ, nhà máy để cùng lao động, cùng sống với công nhân để tuyên truyền, vận động."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đông Dương Cộng sản đảng được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6/1929" },
+        { "id": "B", "text": "8/1929" },
+        { "id": "C", "text": "9/1929" },
+        { "id": "D", "text": "2/1930" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành lập tháng 6/1929 tại Bắc Kỳ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nguyễn Ái Quốc triệu tập Hội nghị thành lập Đảng (đầu năm 1930) với tư cách là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đại diện của Đông Dương Cộng sản đảng" },
+        { "id": "B", "text": "Phái viên của Quốc tế Cộng sản" },
+        { "id": "C", "text": "Đại diện của An Nam Cộng sản đảng" },
+        { "id": "D", "text": "Lãnh tụ của Hội Việt Nam Cách mạng Thanh niên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người chủ trì hội nghị với tư cách phái viên của Quốc tế Cộng sản."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tác phẩm \"Đường Kách mệnh\" được xuất bản năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1925" },
+        { "id": "B", "text": "1927" },
+        { "id": "C", "text": "1930" },
+        { "id": "D", "text": "1941" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tập hợp các bài giảng của Nguyễn Ái Quốc, xuất bản năm 1927."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Giai cấp nào có tinh thần cách mạng triệt để nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân" },
+        { "id": "B", "text": "Công nhân" },
+        { "id": "C", "text": "Tiểu tư sản" },
+        { "id": "D", "text": "Tư sản dân tộc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giai cấp công nhân đại diện cho phương thức sản xuất tiên tiến, bị áp bức nặng nề nhất nên cách mạng nhất."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cuộc đấu tranh đòi thả Phan Bội Châu (1925) do giai cấp nào khởi xướng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công nhân" },
+        { "id": "B", "text": "Tư sản và Tiểu tư sản" },
+        { "id": "C", "text": "Địa chủ" },
+        { "id": "D", "text": "Nông dân" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là phong trào dân chủ công khai của tầng lớp tư sản và tiểu tư sản trí thức."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Điểm mới của Cương lĩnh chính trị đầu tiên so với Luận cương chính trị (10/1930) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh giá đúng khả năng cách mạng của tiểu tư sản, tư sản dân tộc" },
+        { "id": "B", "text": "Xác định công nhân và nông dân là lực lượng chính" },
+        { "id": "C", "text": "Đề cao nhiệm vụ đấu tranh giai cấp" },
+        { "id": "D", "text": "Chủ trương làm tư sản dân quyền cách mạng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cương lĩnh đầu tiên tập hợp được đông đảo lực lượng (đại đoàn kết), còn Luận cương 10/1930 nặng về đấu tranh giai cấp."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Hội nghị thành lập Đảng được tổ chức tại đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quảng Châu (Trung Quốc)" },
+        { "id": "B", "text": "Hương Cảng (Trung Quốc)" },
+        { "id": "C", "text": "Ma Cao (Trung Quốc)" },
+        { "id": "D", "text": "Việt Bắc (Việt Nam)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cửu Long (Hương Cảng, Trung Quốc)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tổ chức Tân Việt Cách mạng đảng hoạt động chủ yếu ở đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bắc Kỳ" },
+        { "id": "B", "text": "Nam Kỳ" },
+        { "id": "C", "text": "Trung Kỳ" },
+        { "id": "D", "text": "Hải ngoại" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tân Việt là tổ chức của trí thức tiểu tư sản ở Trung Kỳ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự kiện nào chấm dứt sự khủng hoảng về đường lối cứu nước ở Việt Nam?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nguyễn Ái Quốc ra đi tìm đường cứu nước (1911)" },
+        { "id": "B", "text": "Nguyễn Ái Quốc tìm thấy con đường cứu nước (1920)" },
+        { "id": "C", "text": "Đảng Cộng sản Việt Nam thành lập (1930)" },
+        { "id": "D", "text": "Cách mạng tháng Tám thành công (1945)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đảng ra đời với đường lối đúng đắn đã chấm dứt thời kỳ khủng hoảng về đường lối và giai cấp lãnh đạo."
+    }
+  ]
+}

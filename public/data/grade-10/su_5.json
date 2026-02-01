@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 5: Văn minh Ấn Độ cổ - trung đại",
+    "description": "Kiểm tra kiến thức về cơ sở hình thành, các thành tựu tiêu biểu của văn minh Ấn Độ (tôn giáo, chữ viết, văn học, khoa học, nghệ thuật).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Nền văn minh Ấn Độ hình thành trên lưu vực hai con sông lớn nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sông Ti-grơ và Ơ-phrát." },
+        { "id": "B", "text": "Sông Ấn và sông Hằng." },
+        { "id": "C", "text": "Sông Hoàng Hà và Trường Giang." },
+        { "id": "D", "text": "Sông Nin." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sông Ấn (Indus) và sông Hằng (Ganges) là cái nôi của văn minh Ấn Độ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Chữ viết cổ nhất của người Ấn Độ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chữ Hán." },
+        { "id": "B", "text": "Chữ Phạn (Sanskrit) và chữ Bra-hmi." },
+        { "id": "C", "text": "Chữ Latinh." },
+        { "id": "D", "text": "Chữ Nôm." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chữ Phạn là văn tự cổ điển, dùng để viết các bộ kinh Veda."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Hai bộ sử thi vĩ đại nhất của văn học Ấn Độ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Iliad và Odyssey." },
+        { "id": "B", "text": "Mahabharata và Ramayana." },
+        { "id": "C", "text": "Nghìn lẻ một đêm." },
+        { "id": "D", "text": "Tam quốc diễn nghĩa." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là hai kiệt tác văn học đồ sộ của Ấn Độ cổ đại."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tôn giáo nào ra đời tại Ấn Độ và trở thành một trong những tôn giáo lớn nhất thế giới?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kitô giáo." },
+        { "id": "B", "text": "Hồi giáo." },
+        { "id": "C", "text": "Phật giáo." },
+        { "id": "D", "text": "Nho giáo." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Phật giáo do Thích Ca Mâu Ni sáng lập tại Ấn Độ vào khoảng thế kỷ VI TCN."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đạo Hin-đu (Hindu giáo) thờ các vị thần chính nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chúa Giê-su." },
+        { "id": "B", "text": "Ngọc Hoàng." },
+        { "id": "C", "text": "Brahma, Vishnu, Shiva." },
+        { "id": "D", "text": "Thần Mặt Trời Ra." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bộ ba thần linh (Tam vị nhất thể): Brahma (Sáng tạo), Vishnu (Bảo tồn), Shiva (Hủy diệt)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Thành tựu toán học nổi bật nhất của người Ấn Độ cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Định lý Py-ta-go." },
+        { "id": "B", "text": "Sáng tạo ra số 0 và hệ đếm thập phân." },
+        { "id": "C", "text": "Tính diện tích hình thang." },
+        { "id": "D", "text": "Phát minh ra bàn tính." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người Ấn Độ phát minh ra 10 chữ số (nay gọi là số Ả Rập) và đặc biệt là số 0."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc nào được coi là biểu tượng của tình yêu và là niềm tự hào của Ấn Độ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chùa Hang A-jan-ta." },
+        { "id": "B", "text": "Lăng Ta-giơ Ma-han (Taj Mahal)." },
+        { "id": "C", "text": "Đại bảo tháp San-chi." },
+        { "id": "D", "text": "Cố cung." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lăng Taj Mahal được vua Shah Jahan xây dựng để tưởng nhớ hoàng hậu của mình."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Chế độ đẳng cấp (Vác-na) ở Ấn Độ cổ đại phân chia xã hội dựa trên",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tài sản." },
+        { "id": "B", "text": "nguồn gốc xuất thân và tôn giáo." },
+        { "id": "C", "text": "trình độ học vấn." },
+        { "id": "D", "text": "chiến công quân sự." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Xã hội chia thành 4 đẳng cấp chính: Brahman, Kshatriya, Vaishya, Shudra."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Văn minh Ấn Độ ảnh hưởng sâu sắc nhất đến khu vực nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đông Nam Á." },
+        { "id": "B", "text": "Tây Âu." },
+        { "id": "C", "text": "Bắc Mỹ." },
+        { "id": "D", "text": "Châu Úc." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông Nam Á chịu ảnh hưởng mạnh mẽ về tôn giáo, chữ viết, kiến trúc, văn học từ Ấn Độ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc phật giáo tiêu biểu dạng hình bát úp ở Ấn Độ gọi là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chùa tháp." },
+        { "id": "B", "text": "Tháp Stu-pa (Đại bảo tháp)." },
+        { "id": "C", "text": "Đền thờ." },
+        { "id": "D", "text": "Lăng mộ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Stupa là kiến trúc Phật giáo đặc trưng dùng để thờ xá lị Phật."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Người Ấn Độ cổ đại biết làm lịch dựa trên sự chuyển động của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mặt Trăng." },
+        { "id": "B", "text": "Mặt Trời." },
+        { "id": "C", "text": "Sao Hỏa." },
+        { "id": "D", "text": "Thủy triều." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ sử dụng Âm lịch (dựa theo Mặt Trăng) nhưng có điều chỉnh."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cư dân bản địa đầu tiên xây dựng nền văn minh sông Ấn là người",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "A-ri-a (Aryans)." },
+        { "id": "B", "text": "Đra-vi-đa (Dravidians)." },
+        { "id": "C", "text": "Mông Cổ." },
+        { "id": "D", "text": "Hán." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người Đra-vi-đa là chủ nhân của văn minh Harappa và Mohenjo-Daro."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong Y học, người Ấn Độ cổ đại nổi tiếng với",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phẫu thuật thẩm mỹ và sử dụng thảo mộc." },
+        { "id": "B", "text": "Châm cứu." },
+        { "id": "C", "text": "Vắc-xin đậu mùa." },
+        { "id": "D", "text": "Kháng sinh." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ biết phẫu thuật tạo hình và sử dụng cây thuốc."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vương triều nào được coi là thời kỳ hoàng kim của văn minh Ấn Độ cổ - trung đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vương triều Hác-sa." },
+        { "id": "B", "text": "Vương triều Gúp-ta (Gupta)." },
+        { "id": "C", "text": "Vương triều Mô-gôn." },
+        { "id": "D", "text": "Vương triều Hồi giáo Đê-li." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời Gúp-ta (thế kỷ IV-VI) văn hóa, nghệ thuật, khoa học phát triển rực rỡ nhất."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nội dung chính của thuyết 'Luân hồi' trong tư tưởng Ấn Độ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chết là hết." },
+        { "id": "B", "text": "Linh hồn con người trải qua nhiều kiếp sống khác nhau." },
+        { "id": "C", "text": "Con người sinh ra do Chúa tạo nên." },
+        { "id": "D", "text": "Số phận con người do các vì sao quyết định." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Luân hồi (Samsara) là vòng tròn sinh tử liên tục."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Kiến trúc Hồi giáo du nhập vào Ấn Độ nổi bật với đặc điểm gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mái cong vút." },
+        { "id": "B", "text": "Mái vòm tròn, tháp nhọn, trang trí hoa văn dây leo." },
+        { "id": "C", "text": "Sử dụng vật liệu gỗ là chính." },
+        { "id": "D", "text": "Nhiều tượng thần thánh." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kiến trúc Mô-gôn (Hồi giáo) đặc trưng bởi mái vòm củ hành và họa tiết hình học."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Văn hóa Chăm-pa ở Việt Nam chịu ảnh hưởng chủ yếu của nền văn minh nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trung Hoa." },
+        { "id": "B", "text": "Ấn Độ." },
+        { "id": "C", "text": "Lưỡng Hà." },
+        { "id": "D", "text": "Ai Cập." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Di tích Mỹ Sơn và văn hóa Chăm mang đậm dấu ấn Hin-đu giáo của Ấn Độ."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Kinh Vê-đa (Veda) là bộ kinh cầu nguyện của tôn giáo nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phật giáo." },
+        { "id": "B", "text": "Bà La Môn giáo (sau là Hin-đu giáo)." },
+        { "id": "C", "text": "Hồi giáo." },
+        { "id": "D", "text": "Kỳ na giáo." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Veda là tri thức thánh, nền tảng của Bà La Môn giáo."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Thích Ca Mâu Ni (Siddhartha Gautama) xuất thân từ đẳng cấp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bà La Môn (Tăng lữ)." },
+        { "id": "B", "text": "Sa-tri-a (Vua chúa, võ tướng)." },
+        { "id": "C", "text": "Vai-si-a (Thương nhân)." },
+        { "id": "D", "text": "Su-đra (Nô lệ)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đức Phật là hoàng tử con vua Tịnh Phạn, thuộc dòng dõi chiến binh/quý tộc (Kshatriya)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cột sắt Đê-li (Delhi) không gỉ qua hàng nghìn năm chứng tỏ trình độ phát triển của ngành nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Luyện kim." },
+        { "id": "B", "text": "Xây dựng." },
+        { "id": "C", "text": "Gốm sứ." },
+        { "id": "D", "text": "Dệt vải." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kỹ thuật luyện kim của Ấn Độ cổ đại đạt trình độ rất cao."
+    }
+  ]
+}

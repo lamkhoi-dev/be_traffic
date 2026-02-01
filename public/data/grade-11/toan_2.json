@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Bài 2: Công thức lượng giác",
+    "description": "Kiểm tra kiến thức về Công thức cộng, Công thức nhân đôi, Công thức biến đổi tích thành tổng và tổng thành tích.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Công thức cộng nào sau đây là đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sin(a+b) = \\sin a \\cos b + \\cos a \\sin b$" },
+        { "id": "B", "text": "$\\sin(a+b) = \\sin a \\cos b - \\cos a \\sin b$" },
+        { "id": "C", "text": "$\\sin(a+b) = \\sin a \\sin b + \\cos a \\cos b$" },
+        { "id": "D", "text": "$\\sin(a+b) = \\cos a \\cos b - \\sin a \\sin b$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức chuẩn: Sin thì sin cos cos sin, dấu cùng."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Công thức nhân đôi nào sau đây là SAI?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sin 2a = 2\\sin a \\cos a$" },
+        { "id": "B", "text": "$\\cos 2a = \\cos^2 a - \\sin^2 a$" },
+        { "id": "C", "text": "$\\cos 2a = 1 - 2\\sin^2 a$" },
+        { "id": "D", "text": "$\\cos 2a = 2\\sin^2 a - 1$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công thức đúng là $\\cos 2a = 2\\cos^2 a - 1$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tính giá trị của $\\cos 75^\\circ$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{\\sqrt{6} + \\sqrt{2}}{4}$" },
+        { "id": "B", "text": "$\\frac{\\sqrt{6} - \\sqrt{2}}{4}$" },
+        { "id": "C", "text": "$\\frac{\\sqrt{2} - \\sqrt{6}}{4}$" },
+        { "id": "D", "text": "$\\frac{1}{4}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\cos(45^\\circ + 30^\\circ) = \\cos 45^\\circ \\cos 30^\\circ - \\sin 45^\\circ \\sin 30^\\circ = \\frac{\\sqrt{2}}{2}\\frac{\\sqrt{3}}{2} - \\frac{\\sqrt{2}}{2}\\frac{1}{2} = \\frac{\\sqrt{6}-\\sqrt{2}}{4}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $M = \\cos a \\cos b - \\sin a \\sin b$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\cos(a-b)$" },
+        { "id": "B", "text": "$\\cos(a+b)$" },
+        { "id": "C", "text": "$\\sin(a-b)$" },
+        { "id": "D", "text": "$\\sin(a+b)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là công thức cộng đối với cos (Cos thì cos cos sin sin, dấu trừ)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Biến đổi tổng thành tích: $\\cos a + \\cos b = $?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2\\cos\\frac{a+b}{2}\\cos\\frac{a-b}{2}$" },
+        { "id": "B", "text": "$2\\sin\\frac{a+b}{2}\\sin\\frac{a-b}{2}$" },
+        { "id": "C", "text": "$-2\\sin\\frac{a+b}{2}\\sin\\frac{a-b}{2}$" },
+        { "id": "D", "text": "$2\\cos\\frac{a+b}{2}\\sin\\frac{a-b}{2}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cos cộng cos bằng hai cos cos."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cho $\\cos a = \\frac{1}{3}$. Tính $\\cos 2a$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\frac{7}{9}$" },
+        { "id": "B", "text": "$\\frac{7}{9}$" },
+        { "id": "C", "text": "$\\frac{2}{3}$" },
+        { "id": "D", "text": "$-\\frac{2}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos 2a = 2\\cos^2 a - 1 = 2(\\frac{1}{9}) - 1 = \\frac{2}{9} - 1 = -\\frac{7}{9}$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $A = \\sin \\frac{\\pi}{12} \\cos \\frac{\\pi}{12}$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2}$" },
+        { "id": "B", "text": "$\\frac{1}{4}$" },
+        { "id": "C", "text": "$\\frac{\\sqrt{3}}{2}$" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A = \\frac{1}{2} \\sin(2 \\cdot \\frac{\\pi}{12}) = \\frac{1}{2} \\sin \\frac{\\pi}{6} = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Công thức hạ bậc nào sau đây là đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sin^2 a = \\frac{1 + \\cos 2a}{2}$" },
+        { "id": "B", "text": "$\\cos^2 a = \\frac{1 - \\cos 2a}{2}$" },
+        { "id": "C", "text": "$\\sin^2 a = \\frac{1 - \\cos 2a}{2}$" },
+        { "id": "D", "text": "$\\cos^2 a = 1 - \\cos 2a$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\sin^2 a = (1 - \\cos 2a)/2$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $P = \\frac{\\sin 2x}{1 + \\cos 2x}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\tan x$" },
+        { "id": "B", "text": "$\\cot x$" },
+        { "id": "C", "text": "$\\sin x$" },
+        { "id": "D", "text": "$\\cos x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\frac{2\\sin x \\cos x}{2\\cos^2 x} = \\frac{\\sin x}{\\cos x} = \\tan x$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Biết $\\tan a = 2$. Tính $\\tan 2a$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\frac{4}{3}$" },
+        { "id": "B", "text": "$\\frac{4}{3}$" },
+        { "id": "C", "text": "$\\frac{4}{5}$" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\tan 2a = \\frac{2\\tan a}{1 - \\tan^2 a} = \\frac{2(2)}{1 - 4} = \\frac{4}{-3}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Biến đổi tích thành tổng: $2\\cos 3x \\cos x = $?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\cos 4x + \\cos 2x$" },
+        { "id": "B", "text": "$\\cos 4x - \\cos 2x$" },
+        { "id": "C", "text": "$\\sin 4x + \\sin 2x$" },
+        { "id": "D", "text": "$\\cos 2x + \\sin 4x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2\\cos a \\cos b = \\cos(a+b) + \\cos(a-b)$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tính giá trị biểu thức $K = \\cos \\frac{\\pi}{5} \\cos \\frac{2\\pi}{5}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2}$" },
+        { "id": "B", "text": "$\\frac{1}{4}$" },
+        { "id": "C", "text": "$\\frac{1}{8}$" },
+        { "id": "D", "text": "$\\frac{1}{16}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhân cả tử và mẫu với $2\\sin(\\pi/5)$, dùng công thức nhân đôi liên tiếp."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Biểu thức $\\sin x + \\cos x$ có thể viết gọn thành",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{2}\\sin(x + \\frac{\\pi}{4})$" },
+        { "id": "B", "text": "$\\sqrt{2}\\cos(x + \\frac{\\pi}{4})$" },
+        { "id": "C", "text": "$\\sqrt{2}\\sin(x - \\frac{\\pi}{4})$" },
+        { "id": "D", "text": "$2\\sin(x + \\frac{\\pi}{4})$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $\\sin x + \\cos x = \\sqrt{2}\\sin(x + 45^\\circ)$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cho $\\sin a = \\frac{3}{5}$. Tính $\\cos 2a$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{7}{25}$" },
+        { "id": "B", "text": "$\\frac{24}{25}$" },
+        { "id": "C", "text": "$\\frac{4}{5}$" },
+        { "id": "D", "text": "$-\\frac{7}{25}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos 2a = 1 - 2\\sin^2 a = 1 - 2(\\frac{9}{25}) = 1 - \\frac{18}{25} = \\frac{7}{25}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Rút gọn $H = \\frac{\\cos x - \\cos 3x}{\\sin 3x - \\sin x}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\tan x$" },
+        { "id": "B", "text": "$\\tan 2x$" },
+        { "id": "C", "text": "$\\cot 2x$" },
+        { "id": "D", "text": "$\\cot x$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dùng biến đổi tổng thành tích. Tử: $-2\\sin 2x \\sin(-x) = 2\\sin 2x \\sin x$. Mẫu: $2\\cos 2x \\sin x$. Kết quả $\\tan 2x$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Giá trị lớn nhất của biểu thức $y = 3\\sin x + 4\\cos x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "7" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$y_{max} = \\sqrt{a^2 + b^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Nếu $\\sin x + \\cos x = \\frac{1}{2}$ thì $\\sin 2x$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\frac{3}{4}$" },
+        { "id": "B", "text": "$\\frac{3}{4}$" },
+        { "id": "C", "text": "$\\frac{3}{8}$" },
+        { "id": "D", "text": "$-\\frac{3}{8}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bình phương 2 vế: $(\\sin x + \\cos x)^2 = 1 + \\sin 2x = 1/4 \\Rightarrow \\sin 2x = -3/4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Công thức nào biểu diễn $\\tan(a+b)$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{\\tan a + \\tan b}{1 + \\tan a \\tan b}$" },
+        { "id": "B", "text": "$\\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$" },
+        { "id": "C", "text": "$\\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$" },
+        { "id": "D", "text": "$\\frac{\\tan a - \\tan b}{1 - \\tan a \\tan b}$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tan tổng thì lấy tổng tan, chia 1 trừ với tích tan."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Biểu thức $\\sin^4 x - \\cos^4 x$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\cos 2x$" },
+        { "id": "B", "text": "$\\cos 2x$" },
+        { "id": "C", "text": "$1$" },
+        { "id": "D", "text": "$-1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(\\sin^2 x - \\cos^2 x)(\\sin^2 x + \\cos^2 x) = -(\\cos^2 x - \\sin^2 x) \\cdot 1 = -\\cos 2x$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tìm khẳng định sai trong các khẳng định sau.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\cos 3x = 4\\cos^3 x - 3\\cos x$" },
+        { "id": "B", "text": "$\\sin 3x = 3\\sin x - 4\\sin^3 x$" },
+        { "id": "C", "text": "$\\sin 2x = 2\\sin x \\cos x$" },
+        { "id": "D", "text": "$\\cos 2x = 2\\cos x - 1$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công thức đúng là $\\cos 2x = 2\\cos^2 x - 1$ (thiếu bình phương)."
+    }
+  ]
+}

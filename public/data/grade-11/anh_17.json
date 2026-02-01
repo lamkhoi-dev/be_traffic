@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "english",
+    "name": "Tiếng Anh 11 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"ASEAN aims to **promote** peace and stability in the region.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boost"
+        },
+        {
+          "id": "B",
+          "text": "prevent"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "damage"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Promote' (thúc đẩy) đồng nghĩa với 'boost' (tăng cường, đẩy mạnh)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "**g**oal"
+        },
+        {
+          "id": "B",
+          "text": "**g**ap"
+        },
+        {
+          "id": "C",
+          "text": "**g**overnment"
+        },
+        {
+          "id": "D",
+          "text": "**g**ender"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'gender' phát âm là /dʒ/. Các từ còn lại phát âm là /g/."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "My parents want me to ______ in their footsteps and become a doctor.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "follow"
+        },
+        {
+          "id": "B",
+          "text": "go"
+        },
+        {
+          "id": "C",
+          "text": "chase"
+        },
+        {
+          "id": "D",
+          "text": "walk"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành ngữ 'follow in someone's footsteps' (nối nghiệp/theo bước ai)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "My friends suggested ______ up for the ASEAN scholarship.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sign"
+        },
+        {
+          "id": "B",
+          "text": "signing"
+        },
+        {
+          "id": "C",
+          "text": "to sign"
+        },
+        {
+          "id": "D",
+          "text": "signed"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau động từ 'suggest' (gợi ý) dùng V-ing."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "**g**oal"
+        },
+        {
+          "id": "B",
+          "text": "**g**ap"
+        },
+        {
+          "id": "C",
+          "text": "**g**overnment"
+        },
+        {
+          "id": "D",
+          "text": "**g**ender"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'gender' phát âm là /dʒ/. Các từ còn lại phát âm là /g/."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"My parents are quite **open-minded** about my clothes.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "conservative"
+        },
+        {
+          "id": "B",
+          "text": "modern"
+        },
+        {
+          "id": "C",
+          "text": "flexible"
+        },
+        {
+          "id": "D",
+          "text": "easy-going"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Open-minded' (cởi mở/thoáng) trái nghĩa với 'conservative' (bảo thủ)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The ASEAN motto is \"One Vision, One Identity, One ______\".",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Community"
+        },
+        {
+          "id": "B",
+          "text": "Society"
+        },
+        {
+          "id": "C",
+          "text": "Entity"
+        },
+        {
+          "id": "D",
+          "text": "Unity"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu của ASEAN: Một tầm nhìn, Một bản sắc, Một cộng đồng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "**g**oal"
+        },
+        {
+          "id": "B",
+          "text": "**g**ap"
+        },
+        {
+          "id": "C",
+          "text": "**g**overnment"
+        },
+        {
+          "id": "D",
+          "text": "**g**ender"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'gender' phát âm là /dʒ/. Các từ còn lại phát âm là /g/."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "All members agreed ______ a new solution to the economic problem.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "finding"
+        },
+        {
+          "id": "B",
+          "text": "to find"
+        },
+        {
+          "id": "C",
+          "text": "find"
+        },
+        {
+          "id": "D",
+          "text": "found"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cấu trúc 'agree to do something' (đồng ý làm gì)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "One of the core principles of ASEAN is non-interference in the internal ______ of member states.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "affairs"
+        },
+        {
+          "id": "B",
+          "text": "events"
+        },
+        {
+          "id": "C",
+          "text": "aspects"
+        },
+        {
+          "id": "D",
+          "text": "locales"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ 'internal affairs' nghĩa là công việc nội bộ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "The ASEAN motto is \"One Vision, One Identity, One ______\".",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Community"
+        },
+        {
+          "id": "B",
+          "text": "Society"
+        },
+        {
+          "id": "C",
+          "text": "Entity"
+        },
+        {
+          "id": "D",
+          "text": "Unity"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu của ASEAN: Một tầm nhìn, Một bản sắc, Một cộng đồng."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "ASEAN stands for the Association of ______ Asian Nations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "South"
+        },
+        {
+          "id": "B",
+          "text": "East"
+        },
+        {
+          "id": "C",
+          "text": "Southeast"
+        },
+        {
+          "id": "D",
+          "text": "Northeast"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "ASEAN = Association of Southeast Asian Nations (Hiệp hội các quốc gia Đông Nam Á)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Conflicts often arise when parents try to ______ their opinions on their children.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "force"
+        },
+        {
+          "id": "B",
+          "text": "impose"
+        },
+        {
+          "id": "C",
+          "text": "make"
+        },
+        {
+          "id": "D",
+          "text": "put"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'impose ... on ...' (áp đặt cái gì lên ai)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "The ______ arises when there is a lack of understanding between parents and children.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "generation gap"
+        },
+        {
+          "id": "B",
+          "text": "bridge"
+        },
+        {
+          "id": "C",
+          "text": "space"
+        },
+        {
+          "id": "D",
+          "text": "distance"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ chủ đề bài học: 'Generation gap'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "**g**oal"
+        },
+        {
+          "id": "B",
+          "text": "**g**ap"
+        },
+        {
+          "id": "C",
+          "text": "**g**overnment"
+        },
+        {
+          "id": "D",
+          "text": "**g**ender"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'gender' phát âm là /dʒ/. Các từ còn lại phát âm là /g/."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"ASEAN aims to **promote** peace and stability in the region.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boost"
+        },
+        {
+          "id": "B",
+          "text": "prevent"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "damage"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Promote' (thúc đẩy) đồng nghĩa với 'boost' (tăng cường, đẩy mạnh)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "The ASEAN motto is \"One Vision, One Identity, One ______\".",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Community"
+        },
+        {
+          "id": "B",
+          "text": "Society"
+        },
+        {
+          "id": "C",
+          "text": "Entity"
+        },
+        {
+          "id": "D",
+          "text": "Unity"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu của ASEAN: Một tầm nhìn, Một bản sắc, Một cộng đồng."
+    }
+  ]
+}

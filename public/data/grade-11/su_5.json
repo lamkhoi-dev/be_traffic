@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 5: Thực dân phương Tây ở Đông Nam Á",
+    "description": "Kiểm tra kiến thức về quá trình xâm lược, các nước thực dân và chính sách cai trị tại Đông Nam Á.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Quốc gia nào ở Đông Nam Á là nước duy nhất giữ được nền độc lập trước sự xâm lược của thực dân phương Tây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam" },
+        { "id": "B", "text": "In-đô-nê-xi-a" },
+        { "id": "C", "text": "Xiêm (Thái Lan)" },
+        { "id": "D", "text": "Phi-líp-pin" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhờ chính sách ngoại giao khéo léo 'cây tre' và cải cách đất nước, Xiêm giữ được độc lập (dù chịu nhiều thiệt thòi)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thực dân Hà Lan đã hoàn thành việc xâm lược và thiết lập ách cai trị tại quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ma-lai-xi-a" },
+        { "id": "B", "text": "In-đô-nê-xi-a" },
+        { "id": "C", "text": "Phi-líp-pin" },
+        { "id": "D", "text": "Mi-an-ma" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hà Lan thống trị In-đô-nê-xi-a (trước đó có sự tranh chấp với Bồ Đào Nha, Anh)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Ba nước Việt Nam, Lào, Cam-pu-chia là thuộc địa của đế quốc nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh" },
+        { "id": "B", "text": "Pháp" },
+        { "id": "C", "text": "Mỹ" },
+        { "id": "D", "text": "Tây Ban Nha" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháp xâm lược và lập ra Liên bang Đông Dương thuộc Pháp."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đến cuối thế kỷ XIX, Phi-líp-pin chuyển từ thuộc địa của Tây Ban Nha sang thuộc địa của nước nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh" },
+        { "id": "B", "text": "Pháp" },
+        { "id": "C", "text": "Mỹ" },
+        { "id": "D", "text": "Nhật Bản" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau chiến tranh Mỹ - Tây Ban Nha (1898), Mỹ chiếm Phi-líp-pin."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mi-an-ma (Birma) và Ma-lai-xi-a trở thành thuộc địa của đế quốc nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh" },
+        { "id": "B", "text": "Pháp" },
+        { "id": "C", "text": "Hà Lan" },
+        { "id": "D", "text": "Bồ Đào Nha" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thực dân Anh chiếm đóng Mi-an-ma (sáp nhập vào Ấn Độ thuộc Anh) và Mã Lai."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Nguyên nhân sâu xa khiến các nước phương Tây đẩy mạnh xâm lược Đông Nam Á là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giúp đỡ các nước này phát triển kinh tế" },
+        { "id": "B", "text": "Nhu cầu về thị trường, nguyên liệu, nhân công phục vụ cho sự phát triển của CNTB" },
+        { "id": "C", "text": "Truyền bá tôn giáo" },
+        { "id": "D", "text": "Khai hóa văn minh" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự phát triển mạnh mẽ của kinh tế tư bản chủ nghĩa đòi hỏi nguồn tài nguyên và thị trường lớn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chính sách \"Chia để trị\" của thực dân phương Tây nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tạo điều kiện cho các dân tộc tự quản lý" },
+        { "id": "B", "text": "Phá vỡ khối đoàn kết dân tộc, làm suy yếu sức kháng cự của nhân dân" },
+        { "id": "C", "text": "Phát triển văn hóa đa dạng" },
+        { "id": "D", "text": "Dễ dàng quản lý hành chính" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chia rẽ tôn giáo, sắc tộc, vùng miền để dễ bề cai trị (Divide and Rule)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Về kinh tế, chính sách nổi bật của các nước thực dân tại Đông Nam Á là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát triển công nghiệp nặng" },
+        { "id": "B", "text": "Biến thuộc địa thành nơi cung cấp nguyên liệu và tiêu thụ hàng hóa" },
+        { "id": "C", "text": "Xóa bỏ chế độ phong kiến lạc hậu" },
+        { "id": "D", "text": "Đầu tư phát triển giáo dục và y tế" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kinh tế thuộc địa bị cột chặt vào chính quốc, què quặt và lệ thuộc."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Dưới tác động của chính sách khai thác thuộc địa, xã hội Đông Nam Á xuất hiện những giai cấp, tầng lớp mới nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Địa chủ và nông dân" },
+        { "id": "B", "text": "Công nhân, tư sản dân tộc, tiểu tư sản trí thức" },
+        { "id": "C", "text": "Lãnh chúa và nông nô" },
+        { "id": "D", "text": "Quý tộc và tăng lữ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự du nhập phương thức sản xuất TBCN (dù hạn chế) đã tạo ra các giai cấp mới."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ở Việt Nam, thực dân Pháp đã chia đất nước thành mấy kỳ với chế độ cai trị khác nhau?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2 kỳ (Bắc Kỳ, Nam Kỳ)" },
+        { "id": "B", "text": "3 kỳ (Bắc Kỳ, Trung Kỳ, Nam Kỳ)" },
+        { "id": "C", "text": "4 kỳ" },
+        { "id": "D", "text": "Thống nhất một chế độ cai trị" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nam Kỳ (thuộc địa), Trung Kỳ (nửa bảo hộ), Bắc Kỳ (bảo hộ) nhằm chia rẽ dân tộc."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Chính sách văn hóa - giáo dục của thực dân phương Tây chủ yếu nhằm mục đích:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nâng cao dân trí" },
+        { "id": "B", "text": "Nô dịch tinh thần, đào tạo lớp người làm tay sai" },
+        { "id": "C", "text": "Bảo tồn văn hóa bản địa" },
+        { "id": "D", "text": "Phổ cập giáo dục đại học" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thực hiện chính sách ngu dân, khuyến khích văn hóa đồi trụy để dễ cai trị."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Vị trí địa chính trị quan trọng của Đông Nam Á là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nằm giữa Ấn Độ Dương và Thái Bình Dương, cầu nối lục địa Á - Âu và lục địa Úc" },
+        { "id": "B", "text": "Nằm hoàn toàn trong nội địa châu Á" },
+        { "id": "C", "text": "Nằm ở phía Bắc Trung Quốc" },
+        { "id": "D", "text": "Nằm giữa Đại Tây Dương và Thái Bình Dương" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vị trí ngã tư đường hàng hải quốc tế quan trọng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Chế độ cai trị của thực dân phương Tây ở Đông Nam Á nhìn chung là chế độ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dân chủ nghị viện" },
+        { "id": "B", "text": "Quân chủ lập hiến" },
+        { "id": "C", "text": "Chuyên chế, độc đoán" },
+        { "id": "D", "text": "Tự trị hoàn toàn" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quyền lực tập trung vào tay Toàn quyền hoặc Thống sứ người nước ngoài."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tại sao Thái Lan (Xiêm) giữ được độc lập?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có quân đội mạnh nhất khu vực" },
+        { "id": "B", "text": "Được Mỹ bảo hộ" },
+        { "id": "C", "text": "Thực hiện cải cách mở cửa và chính sách ngoại giao mềm dẻo (vùng đệm)" },
+        { "id": "D", "text": "Địa hình hiểm trở khó xâm lược" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Xiêm lợi dụng mâu thuẫn giữa Anh và Pháp để làm vùng đệm, cắt đất để giữ chủ quyền."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cây trồng nào được thực dân phương Tây tập trung phát triển mạnh ở các đồn điền Đông Nam Á?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lúa mì" },
+        { "id": "B", "text": "Cao su, cà phê, chè, lúa gạo" },
+        { "id": "C", "text": "Nho và ô liu" },
+        { "id": "D", "text": "Táo và lê" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là các cây công nghiệp nhiệt đới có giá trị xuất khẩu cao."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đông Ti-mo (Timor-Leste) từng là thuộc địa của nước nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tây Ban Nha" },
+        { "id": "B", "text": "Bồ Đào Nha" },
+        { "id": "C", "text": "Anh" },
+        { "id": "D", "text": "Pháp" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bồ Đào Nha chiếm đảo Ti-mo từ rất sớm."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Hệ quả tiêu cực lớn nhất về xã hội do chính sách cai trị của thực dân để lại là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dân số tăng nhanh" },
+        { "id": "B", "text": "Mâu thuẫn sắc tộc, tôn giáo sâu sắc" },
+        { "id": "C", "text": "Sự du nhập của lối sống phương Tây" },
+        { "id": "D", "text": "Đô thị hóa quá nhanh" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chính sách chia để trị đã gieo rắc hận thù và mâu thuẫn dai dẳng (ví dụ ở Myanmar, Indonesia)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nước nào ở Đông Nam Á bị thực dân Anh biến thành vùng đất chuyên sản xuất thiếc và cao su?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam" },
+        { "id": "B", "text": "Ma-lai-xi-a" },
+        { "id": "C", "text": "Lào" },
+        { "id": "D", "text": "Phi-líp-pin" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mã Lai thuộc Anh nổi tiếng với trữ lượng thiếc và đồn điền cao su."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Phong trào Cần Vương ở Việt Nam cuối thế kỷ XIX thất bại chứng tỏ điều gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhân dân không ủng hộ vua quan" },
+        { "id": "B", "text": "Hệ tư tưởng phong kiến đã lỗi thời trước nhiệm vụ lịch sử" },
+        { "id": "C", "text": "Thực dân Pháp quá mạnh không thể đánh bại" },
+        { "id": "D", "text": "Thiếu người lãnh đạo tài giỏi" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngọn cờ phong kiến không còn khả năng tập hợp lực lượng và đưa cách mạng đến thắng lợi."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Việc thực dân Pháp nổ súng tấn công Đà Nẵng (1858) mở đầu cho quá trình xâm lược nước nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lào" },
+        { "id": "B", "text": "Cam-pu-chia" },
+        { "id": "C", "text": "Việt Nam" },
+        { "id": "D", "text": "Thái Lan" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên quân Pháp - Tây Ban Nha tấn công Đà Nẵng mở đầu cuộc xâm lược Việt Nam."
+    }
+  ]
+}

@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "seed": "node src/seed.js"
+    "seed": "node src/seed.js",
+    "generate-tests": "node src/generate-mixed-tests.js",
+    "import-all-grades": "node src/import-all-grades.js",
+    "import-data": "node src/import-data.js"
   },
   "keywords": [],
   "author": "",

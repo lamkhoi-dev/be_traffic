@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 7: International Organisations",
+    "description": "Kiểm tra kiến thức về các tổ chức quốc tế và ngữ pháp so sánh hơn/nhất của tính từ.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "na_tion" },
+        { "id": "B", "text": "organiza_tion" },
+        { "id": "C", "text": "interna_tional" },
+        { "id": "D", "text": "ques_tion" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Question: đuôi -tion phát âm là /tʃən/. Các từ còn lại phát âm là /ʃən/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "develop" },
+        { "id": "B", "text": "poverty" },
+        { "id": "C", "text": "area" },
+        { "id": "D", "text": "nation" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Develop nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Vietnam has become an active ________ of ASEAN since 1995.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "member" },
+        { "id": "B", "text": "membership" },
+        { "id": "C", "text": "person" },
+        { "id": "D", "text": "guest" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Active member: thành viên tích cực."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "The United Nations works to maintain international ________ and security.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "peace" },
+        { "id": "B", "text": "peaceful" },
+        { "id": "C", "text": "war" },
+        { "id": "D", "text": "conflict" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Peace and security: hòa bình và an ninh."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "This is the ________ building in the city.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tall" },
+        { "id": "B", "text": "taller" },
+        { "id": "C", "text": "tallest" },
+        { "id": "D", "text": "more tall" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "So sánh nhất (the + adj_est) với tính từ ngắn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "UNICEF aims to support ________ children and mothers.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "disadvantage" },
+        { "id": "B", "text": "disadvantaged" },
+        { "id": "C", "text": "advantage" },
+        { "id": "D", "text": "rich" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Disadvantaged children: trẻ em chịu thiệt thòi."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "This issue is ________ than I thought.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "complicated" },
+        { "id": "B", "text": "more complicated" },
+        { "id": "C", "text": "most complicated" },
+        { "id": "D", "text": "as complicated" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh hơn với tính từ dài (more ... than)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Vietnam is one of the ________ growing economies in the region.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "fast" },
+        { "id": "B", "text": "faster" },
+        { "id": "C", "text": "fastest" },
+        { "id": "D", "text": "most fast" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "One of the fastest: một trong những... nhanh nhất."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "WHO stands for World ________ Organization.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Human" },
+        { "id": "B", "text": "Heart" },
+        { "id": "C", "text": "Health" },
+        { "id": "D", "text": "Housing" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "WHO = World Health Organization (Tổ chức Y tế Thế giới)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "He is ________ student in the class.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "good" },
+        { "id": "B", "text": "better" },
+        { "id": "C", "text": "the best" },
+        { "id": "D", "text": "best" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "So sánh nhất của 'good' là 'the best'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Joining international organizations brings many ________ to Vietnam.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "benefits" },
+        { "id": "B", "text": "harm" },
+        { "id": "C", "text": "difficulties" },
+        { "id": "D", "text": "risk" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bring benefits: mang lại lợi ích."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Which sentence is correct?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "She is more happier than me." },
+        { "id": "B", "text": "She is happier than me." },
+        { "id": "C", "text": "She is happy than me." },
+        { "id": "D", "text": "She is the happier than me." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Happy -> Happier (tính từ kết thúc bằng 'y' coi như tính từ ngắn)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "The WTO focuses on international ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trade" },
+        { "id": "B", "text": "health" },
+        { "id": "C", "text": "education" },
+        { "id": "D", "text": "food" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "WTO = World Trade Organization (Tổ chức Thương mại Thế giới)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Living in the city is often ________ than living in the countryside.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "expensive" },
+        { "id": "B", "text": "more expensive" },
+        { "id": "C", "text": "expensiver" },
+        { "id": "D", "text": "most expensive" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Expensive là tính từ dài -> more expensive."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Vietnam aims to ________ its relations with other countries.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "promote" },
+        { "id": "B", "text": "reduce" },
+        { "id": "C", "text": "stop" },
+        { "id": "D", "text": "break" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Promote relations: thúc đẩy quan hệ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "For me, Maths is ________ than Physics.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "easy" },
+        { "id": "B", "text": "more easy" },
+        { "id": "C", "text": "easier" },
+        { "id": "D", "text": "easiest" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Easy -> Easier (so sánh hơn)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "We want to create a ________ world for everyone.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "better" },
+        { "id": "B", "text": "gooder" },
+        { "id": "C", "text": "best" },
+        { "id": "D", "text": "well" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "A better world: một thế giới tốt đẹp hơn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "FAO helps countries improve agriculture and ________ security.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "food" },
+        { "id": "B", "text": "water" },
+        { "id": "C", "text": "money" },
+        { "id": "D", "text": "house" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Food security: an ninh lương thực."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "That was the ________ movie I have ever seen.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "boring" },
+        { "id": "B", "text": "most boring" },
+        { "id": "C", "text": "more boring" },
+        { "id": "D", "text": "boringest" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh nhất với tính từ dài (the most boring)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "The main goal of UNICEF is to ________ children's rights.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "harm" },
+        { "id": "B", "text": "protect" },
+        { "id": "C", "text": "destroy" },
+        { "id": "D", "text": "ignore" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Protect rights: bảo vệ quyền lợi."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 7: Phương pháp tọa độ trong mặt phẳng",
+    "description": "Kiểm tra kiến thức về Phương trình đường thẳng, Khoảng cách và Phương trình đường tròn.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Vectơ pháp tuyến của đường thẳng $2x - 3y + 1 = 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{n} = (2; -3)$" },
+        { "id": "B", "text": "$\\vec{n} = (2; 3)$" },
+        { "id": "C", "text": "$\\vec{n} = (3; 2)$" },
+        { "id": "D", "text": "$\\vec{n} = (-3; 2)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số của x và y trong pt tổng quát: $(2; -3)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Phương trình tham số của đường thẳng đi qua $M(1; -2)$ và có VTCP $\\vec{u} = (3; 1)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\begin{cases} x = 1 + 3t \\\\ y = -2 + t \\end{cases}$" },
+        { "id": "B", "text": "$\\begin{cases} x = 3 + t \\\\ y = 1 - 2t \\end{cases}$" },
+        { "id": "C", "text": "$\\begin{cases} x = 1 + t \\\\ y = -2 + 3t \\end{cases}$" },
+        { "id": "D", "text": "$\\begin{cases} x = 3 + 1t \\\\ y = 1 - 2t \\end{cases}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dạng chuẩn: $x = x_0 + at, y = y_0 + bt$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Khoảng cách từ điểm $M(1; 1)$ đến đường thẳng $\\Delta: 3x - 4y - 9 = 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "10/5" },
+        { "id": "C", "text": "2/5" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = \\frac{|3(1) - 4(1) - 9|}{\\sqrt{3^2 + 4^2}} = \\frac{|-10|}{5} = 2$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phương trình đường tròn tâm $I(2; -3)$, bán kính $R=4$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(x-2)^2 + (y+3)^2 = 16$" },
+        { "id": "B", "text": "$(x+2)^2 + (y-3)^2 = 16$" },
+        { "id": "C", "text": "$(x-2)^2 + (y+3)^2 = 4$" },
+        { "id": "D", "text": "$(x-2)^2 + (y-3)^2 = 16$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(x-a)^2 + (y-b)^2 = R^2$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 0)$ và $B(0; 2)$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{x}{1} + \\frac{y}{2} = 1$" },
+        { "id": "B", "text": "$2x + y = 1$" },
+        { "id": "C", "text": "$x + 2y = 2$" },
+        { "id": "D", "text": "$y = 2x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đoạn chắn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Góc giữa hai đường thẳng $d_1: x = 2$ và $d_2: y = -1$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$90^\\circ$" },
+        { "id": "B", "text": "$0^\\circ$" },
+        { "id": "C", "text": "$45^\\circ$" },
+        { "id": "D", "text": "$60^\\circ$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d_1$ thẳng đứng, $d_2$ nằm ngang $\\Rightarrow$ Vuông góc."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tâm và bán kính của đường tròn $(C): x^2 + y^2 - 4x + 6y - 12 = 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I(2; -3), R=5$" },
+        { "id": "B", "text": "$I(-2; 3), R=5$" },
+        { "id": "C", "text": "$I(2; -3), R=25$" },
+        { "id": "D", "text": "$I(-2; 3), R=25$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I(2; -3)$. $R = \\sqrt{2^2 + (-3)^2 - (-12)} = \\sqrt{4+9+12} = \\sqrt{25} = 5$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hai đường thẳng $d_1: 2x - y + 1 = 0$ và $d_2: 4x - 2y + 5 = 0$ có vị trí tương đối là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Song song" },
+        { "id": "B", "text": "Trùng nhau" },
+        { "id": "C", "text": "Cắt nhau" },
+        { "id": "D", "text": "Vuông góc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tỉ lệ VTPT: $2/4 = (-1)/(-2) = 1/2$. Tỉ lệ hệ số tự do: $1/5 \\ne 1/2$. Vậy song song."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Vectơ chỉ phương của đường thẳng đi qua $A(1; 2)$ và $B(3; 5)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(2; 3)$" },
+        { "id": "B", "text": "$(3; 2)$" },
+        { "id": "C", "text": "$(4; 7)$" },
+        { "id": "D", "text": "$(-2; -3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AB} = (2; 3)$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đường tròn tâm O(0;0) bán kính R=1 có phương trình:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x^2 + y^2 = 1$" },
+        { "id": "B", "text": "$x^2 + y^2 = 0$" },
+        { "id": "C", "text": "$x + y = 1$" },
+        { "id": "D", "text": "$x^2 - y^2 = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đường tròn đơn vị."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho đường tròn $(C): x^2 + y^2 = 4$. Phương trình tiếp tuyến của (C) tại điểm $M(0; 2)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = 2$" },
+        { "id": "B", "text": "$x = 2$" },
+        { "id": "C", "text": "$y = -2$" },
+        { "id": "D", "text": "$x + y = 2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điểm M nằm trên trục tung, tiếp tuyến vuông góc với trục tung tại y=2 là đường thẳng $y=2$. Hoặc dùng công thức $xx_0 + yy_0 = R^2 \\Rightarrow x.0 + y.2 = 4 \\Rightarrow y=2$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Khoảng cách từ gốc tọa độ đến đường thẳng $3x + 4y - 10 = 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = |-10| / \\sqrt{3^2+4^2} = 10/5 = 2$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Vectơ nào sau đây vuông góc với vectơ chỉ phương $\\vec{u} = (a; b)$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{n} = (-b; a)$" },
+        { "id": "B", "text": "$\\vec{n} = (a; -b)$" },
+        { "id": "C", "text": "$\\vec{n} = (b; a)$" },
+        { "id": "D", "text": "$\\vec{n} = (a; b)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tích vô hướng bằng 0: $a(-b) + ba = 0$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phương trình nào sau đây KHÔNG phải là phương trình đường tròn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x^2 + y^2 - 2x - 2y + 10 = 0$" },
+        { "id": "B", "text": "$x^2 + y^2 - 2 = 0$" },
+        { "id": "C", "text": "$x^2 + y^2 - 2x = 0$" },
+        { "id": "D", "text": "$x^2 + y^2 = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kiểm tra điều kiện $a^2 + b^2 - c > 0$. Với A: $a=1, b=1, c=10$. $1+1-10 = -8 < 0$. (Tập rỗng)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Đường thẳng đi qua $M(2; -3)$ và vuông góc với đường thẳng $x - 2y + 5 = 0$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2x + y - 1 = 0$" },
+        { "id": "B", "text": "$2x + y + 1 = 0$" },
+        { "id": "C", "text": "$x - 2y - 8 = 0$" },
+        { "id": "D", "text": "$2x - y - 7 = 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường thẳng cần tìm có VTPT $(2; 1)$ (do vuông góc với $(1; -2)$). PT: $2(x-2) + 1(y+3) = 0 \\Leftrightarrow 2x - 4 + y + 3 = 0 \\Leftrightarrow 2x + y - 1 = 0$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Phương trình chính tắc của Elip có độ dài trục lớn 10 và trục bé 6 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$" },
+        { "id": "B", "text": "$\\frac{x^2}{100} + \\frac{y^2}{36} = 1$" },
+        { "id": "C", "text": "$\\frac{x^2}{9} + \\frac{y^2}{25} = 1$" },
+        { "id": "D", "text": "$25x^2 + 9y^2 = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2a = 10 \\Rightarrow a=5 \\Rightarrow a^2=25$. $2b = 6 \\Rightarrow b=3 \\Rightarrow b^2=9$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Cho hai điểm $A(1; 1)$ và $B(5; 5)$. Phương trình đường tròn đường kính AB là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(x-3)^2 + (y-3)^2 = 8$" },
+        { "id": "B", "text": "$(x-3)^2 + (y-3)^2 = 32$" },
+        { "id": "C", "text": "$(x+3)^2 + (y+3)^2 = 8$" },
+        { "id": "D", "text": "$\\frac{x^2}{8} + \\frac{y^2}{8} = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tâm $I(3; 3)$. $R = AB/2 = \\sqrt{4^2+4^2}/2 = \\sqrt{32}/2 = \\sqrt{8}$. $R^2 = 8$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Góc giữa hai đường thẳng $\\Delta_1: x + y - 1 = 0$ và $\\Delta_2: x - y + 1 = 0$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$90^\\circ$" },
+        { "id": "B", "text": "$45^\\circ$" },
+        { "id": "C", "text": "$60^\\circ$" },
+        { "id": "D", "text": "$30^\\circ$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "VTPT $\\vec{n_1}=(1; 1)$, $\\vec{n_2}=(1; -1)$. Tích vô hướng $1(1) + 1(-1) = 0 \\Rightarrow$ Vuông góc."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Điểm nào sau đây nằm trong đường tròn $(C): x^2 + y^2 = 9$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(1; 2)$" },
+        { "id": "B", "text": "$(3; 0)$" },
+        { "id": "C", "text": "$(0; 4)$" },
+        { "id": "D", "text": "$(2; 3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ vào $x^2+y^2$. A: $1+4=5 < 9$ (Trong). B: $9=9$ (Trên). C: $16>9$ (Ngoài). D: $4+9=13>9$ (Ngoài)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Vectơ nào là VTCP của trục Ox?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{i} = (1; 0)$" },
+        { "id": "B", "text": "$\\vec{j} = (0; 1)$" },
+        { "id": "C", "text": "$\\vec{n} = (1; 1)$" },
+        { "id": "D", "text": "$\\vec{0}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vectơ đơn vị của trục hoành."
+    }
+  ]
+}

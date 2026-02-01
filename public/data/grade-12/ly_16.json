@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Theo thuyết lượng tử ánh sáng, năng lượng của một photon tỉ lệ thuận với:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tần số của ánh sáng"
+        },
+        {
+          "id": "B",
+          "text": "Bước sóng của ánh sáng"
+        },
+        {
+          "id": "C",
+          "text": "Tốc độ ánh sáng"
+        },
+        {
+          "id": "D",
+          "text": "Cường độ chùm sáng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\varepsilon = hf$. Năng lượng tỉ lệ thuận với tần số."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Roto của máy phát điện xoay chiều một pha là nam châm có $p$ cặp cực, quay với tốc độ $n$ vòng/giây. Tần số của dòng điện phát ra là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$f = pn$"
+        },
+        {
+          "id": "B",
+          "text": "$f = 60pn$"
+        },
+        {
+          "id": "C",
+          "text": "$f = \\frac{n}{p}$"
+        },
+        {
+          "id": "D",
+          "text": "$f = \\frac{pn}{60}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu n tính bằng vòng/giây thì $f = pn$. Nếu n tính bằng vòng/phút thì $f = pn/60$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trong phản ứng hạt nhân, định luật nào sau đây **không** được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bảo toàn khối lượng nghỉ"
+        },
+        {
+          "id": "B",
+          "text": "Bảo toàn số khối A"
+        },
+        {
+          "id": "C",
+          "text": "Bảo toàn điện tích Z"
+        },
+        {
+          "id": "D",
+          "text": "Bảo toàn năng lượng toàn phần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khối lượng nghỉ không bảo toàn (có độ hụt khối tỏa năng lượng). Các đại lượng khác bảo toàn."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hạt nhân càng bền vững khi có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số khối A từ 50 đến 80"
+        },
+        {
+          "id": "B",
+          "text": "Số khối A rất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Số khối A rất nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Số proton bằng số neutron"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các hạt nhân trung bình (A khoảng 50-80, như Sắt Fe) có năng lượng liên kết riêng lớn nhất nên bền nhất."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Gia tốc của một chất điểm dao động điều hòa biến thiên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng tần số và ngược pha với li độ"
+        },
+        {
+          "id": "B",
+          "text": "Khác tần số và ngược pha với li độ"
+        },
+        {
+          "id": "C",
+          "text": "Cùng tần số và cùng pha với li độ"
+        },
+        {
+          "id": "D",
+          "text": "Khác tần số và cùng pha với li độ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc biến thiên điều hòa cùng tần số nhưng ngược pha với li độ ($a = -\\omega^2 x$)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đặt điện áp $u = U_0\\cos(\\omega t)$ vào hai đầu cuộn cảm thuần thì cường độ dòng điện là $i = I_0\\cos(\\omega t + \\varphi_i)$. Giá trị của $\\varphi_i$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\pi/2$"
+        },
+        {
+          "id": "B",
+          "text": "$\\pi/2$"
+        },
+        {
+          "id": "C",
+          "text": "$0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong cuộn cảm thuần, dòng điện trễ pha $\\pi/2$ so với điện áp. Do pha ban đầu của $u$ là 0, nên pha của $i$ là $-\\pi/2$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hai khe Y-âng cách nhau $a=1$mm, màn cách khe $D=2$m. Chiếu ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Bề rộng quang phổ bậc 1 trên màn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,76 mm"
+        },
+        {
+          "id": "B",
+          "text": "0,38 mm"
+        },
+        {
+          "id": "C",
+          "text": "1,52 mm"
+        },
+        {
+          "id": "D",
+          "text": "1,14 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Δx_1 = x_{đ1} - x_{t1} = \\frac{D}{a}(\\lambda_đ - \\lambda_t) = \\frac{2}{1}(0,76 - 0,38) = 2(0,38) = 0,76$mm."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Ánh sáng đơn sắc là ánh sáng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không bị tán sắc khi đi qua lăng kính"
+        },
+        {
+          "id": "B",
+          "text": "Có màu trắng"
+        },
+        {
+          "id": "C",
+          "text": "Bị đổi màu khi đi qua lăng kính"
+        },
+        {
+          "id": "D",
+          "text": "Luôn truyền với tốc độ $3.10^8$ m/s"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa: Ánh sáng đơn sắc có tần số xác định và không bị tán sắc."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Bộ phận có tác dụng phân tích chùm sáng phức tạp thành các thành phần đơn sắc trong máy quang phổ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hệ tán sắc (Lăng kính)"
+        },
+        {
+          "id": "B",
+          "text": "Ống chuẩn trực"
+        },
+        {
+          "id": "C",
+          "text": "Buồng tối"
+        },
+        {
+          "id": "D",
+          "text": "Thấu kính hội tụ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ tán sắc (thường là lăng kính) làm nhiệm vụ này."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tia $\\alpha$ là dòng các hạt:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hạt nhân Heli $_2^4 He$"
+        },
+        {
+          "id": "B",
+          "text": "Electron"
+        },
+        {
+          "id": "C",
+          "text": "Positron"
+        },
+        {
+          "id": "D",
+          "text": "Photon"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bản chất tia alpha là dòng hạt nhân $_2^4 He$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong quang phổ vạch của hiđrô, khi electron chuyển từ quỹ đạo L về K thì phát ra vạch:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Laiman $\\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "Banme $\\alpha$ (đỏ)"
+        },
+        {
+          "id": "C",
+          "text": "Laiman $\\beta$"
+        },
+        {
+          "id": "D",
+          "text": "Pasen $\\alpha$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ $n=2$ (L) về $n=1$ (K) là vạch đầu tiên của dãy Laiman (vùng tử ngoại)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Siêu âm là âm có tần số:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhỏ hơn 16 Hz"
+        },
+        {
+          "id": "B",
+          "text": "Lớn hơn 20.000 Hz"
+        },
+        {
+          "id": "C",
+          "text": "Từ 16 Hz đến 20.000 Hz"
+        },
+        {
+          "id": "D",
+          "text": "Bằng 0 Hz"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hạ âm < 16 Hz. Siêu âm > 20.000 Hz."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mạch điện xoay chiều ba pha có tải mắc hình tam giác. Điện áp dây là 380V. Điện áp pha trên mỗi tải là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "380 V"
+        },
+        {
+          "id": "B",
+          "text": "220 V"
+        },
+        {
+          "id": "C",
+          "text": "660 V"
+        },
+        {
+          "id": "D",
+          "text": "190 V"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mắc hình tam giác thì $U_d = U_p$. Vậy $U_p = 380$ V."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tần số góc của mạch dao động LC là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\omega = \\frac{1}{\\sqrt{LC}}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\omega = \\sqrt{LC}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\omega = 2\\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\omega = \\frac{1}{LC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi/T = 1/\\sqrt{LC}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là nguồn gốc năng lượng của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt trời và các ngôi sao"
+        },
+        {
+          "id": "B",
+          "text": "Nhà máy điện hạt nhân hiện nay"
+        },
+        {
+          "id": "C",
+          "text": "Bom nguyên tử"
+        },
+        {
+          "id": "D",
+          "text": "Sự phân rã Uranium"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phản ứng nhiệt hạch xảy ra ở tâm Mặt trời (tổng hợp Hidro thành Heli)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Công thức liên hệ giữa vận tốc truyền sóng $v$, bước sóng $\\lambda$, và chu kì $T$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda = v.T$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda = v/T$"
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda = T/v$"
+        },
+        {
+          "id": "D",
+          "text": "$v = \\lambda.T$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quãng đường = Vận tốc x Thời gian $\\Rightarrow \\lambda = v.T$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chu kì bán rã $T$ là khoảng thời gian để:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một nửa số hạt nhân ban đầu bị phân rã"
+        },
+        {
+          "id": "B",
+          "text": "Toàn bộ số hạt nhân bị phân rã"
+        },
+        {
+          "id": "C",
+          "text": "Khối lượng chất phóng xạ giảm đi 4 lần"
+        },
+        {
+          "id": "D",
+          "text": "Số hạt nhân giảm đi $e$ lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì bán rã."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thí nghiệm giao thoa Y-âng với ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Tại vị trí vân trung tâm có màu:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trắng"
+        },
+        {
+          "id": "B",
+          "text": "Đỏ"
+        },
+        {
+          "id": "C",
+          "text": "Tím"
+        },
+        {
+          "id": "D",
+          "text": "Cầu vồng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại vân trung tâm, mọi ánh sáng đơn sắc đều cho vân sáng bậc 0 nên chồng chập lại thành ánh sáng trắng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng, vân tối thứ 3 cách vân trung tâm một khoảng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2,5i$"
+        },
+        {
+          "id": "B",
+          "text": "$3i$"
+        },
+        {
+          "id": "C",
+          "text": "$3,5i$"
+        },
+        {
+          "id": "D",
+          "text": "$1,5i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vân tối thứ $k$ có tọa độ $x = (k - 0,5)i$. Vân tối thứ 3 ứng với $x = 2,5i$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Năng lượng tỏa ra của phản ứng hạt nhân được tính bằng công thức ($m_{tr}$: tổng khối lượng trước, $m_{sau}$: tổng khối lượng sau):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$W = (m_{tr} - m_{sau})c^2$"
+        },
+        {
+          "id": "B",
+          "text": "$W = (m_{sau} - m_{tr})c^2$"
+        },
+        {
+          "id": "C",
+          "text": "$W = (m_{tr} + m_{sau})c^2$"
+        },
+        {
+          "id": "D",
+          "text": "$W = m_{tr}c^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu $m_{tr} > m_{sau}$ thì tỏa năng lượng."
+    }
+  ]
+}

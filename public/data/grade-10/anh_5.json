@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 5: Inventions",
+    "description": "Kiểm tra từ vựng về Phát minh, Công nghệ và ngữ pháp Hiện tại hoàn thành, Danh động từ (Gerund) & Động từ nguyên mẫu.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 5
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "comput_er" },
+        { "id": "B", "text": "print_er" },
+        { "id": "C", "text": "smartphon_e" },
+        { "id": "D", "text": "heat_er" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Smartphone: 'e' câm. Các từ còn lại đuôi -er phát âm /ə/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "invent" },
+        { "id": "B", "text": "device" },
+        { "id": "C", "text": "laptop" },
+        { "id": "D", "text": "machine" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Laptop nhấn âm 1. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "The internet is a wonderful ________ of modern life.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "invent" },
+        { "id": "B", "text": "invention" },
+        { "id": "C", "text": "inventor" },
+        { "id": "D", "text": "inventive" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Invention: phát minh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Smartphones are used ________ communicating with others.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "to" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "of" },
+        { "id": "D", "text": "in" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Used for + V-ing (được dùng để làm gì)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "I have ________ used a 3D printer before.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ever" },
+        { "id": "B", "text": "never" },
+        { "id": "C", "text": "ago" },
+        { "id": "D", "text": "since" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Have never used (chưa bao giờ dùng)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "This device is portable, ________ it is easy to carry around.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "so" },
+        { "id": "B", "text": "but" },
+        { "id": "C", "text": "or" },
+        { "id": "D", "text": "because" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Portable nghĩa là có thể mang theo, nên (so) dễ mang đi."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Allowing children ________ video games too much is not good.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "play" },
+        { "id": "B", "text": "playing" },
+        { "id": "C", "text": "to play" },
+        { "id": "D", "text": "played" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Allow sb to V (cho phép ai làm gì)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "They have lived here ________ 2010.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "since" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "ago" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Since + mốc thời gian (2010)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "My laptop has run out ________ battery.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "of" },
+        { "id": "B", "text": "off" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "in" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Run out of: hết/cạn kiệt."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Artificial intelligence (AI) is being applied ________ various fields.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "on" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "for" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Apply in: áp dụng trong."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "This software allows users ________ quickly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "type" },
+        { "id": "B", "text": "typing" },
+        { "id": "C", "text": "to type" },
+        { "id": "D", "text": "typed" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Allow sb to V."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "________ is a computer that you can carry with you.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Desktop" },
+        { "id": "B", "text": "Laptop" },
+        { "id": "C", "text": "Screen" },
+        { "id": "D", "text": "Mouse" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Laptop = máy tính xách tay."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "I haven't seen him ________ a long time.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "since" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "during" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "For + khoảng thời gian (a long time)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Using earbuds for too long can harm your ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "hearing" },
+        { "id": "B", "text": "looking" },
+        { "id": "C", "text": "smelling" },
+        { "id": "D", "text": "tasting" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hearing: thính giác."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Find the word closest in meaning to 'economical'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "expensive" },
+        { "id": "B", "text": "wasteful" },
+        { "id": "C", "text": "cheap" },
+        { "id": "D", "text": "money-saving" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Economical: tiết kiệm (money-saving)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "E-books allow us to store hundreds of books on a single ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "device" },
+        { "id": "B", "text": "paper" },
+        { "id": "C", "text": "shelf" },
+        { "id": "D", "text": "library" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Device: thiết bị."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "She ________ five emails this morning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "has written" },
+        { "id": "B", "text": "write" },
+        { "id": "C", "text": "writes" },
+        { "id": "D", "text": "writing" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hành động lặp lại nhiều lần hoặc vừa hoàn thành trong buổi sáng nay (chưa qua hẳn) -> Hiện tại hoàn thành."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Computers are used for ________ information.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "store" },
+        { "id": "B", "text": "storing" },
+        { "id": "C", "text": "to store" },
+        { "id": "D", "text": "stored" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Used for + V-ing."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Thomas Edison is a famous ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "inventor" },
+        { "id": "B", "text": "invention" },
+        { "id": "C", "text": "invent" },
+        { "id": "D", "text": "inventing" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Inventor: nhà phát minh."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Choose the incorrect sentence.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I have lived here for 5 years." },
+        { "id": "B", "text": "She has gone to Paris recently." },
+        { "id": "C", "text": "I have never saw him before." },
+        { "id": "D", "text": "We haven't finished our work yet." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu C sai vì sau 'have' phải là V3 (seen), không phải V2 (saw)."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 3: Cân bằng và Moment lực",
+    "description": "Kiểm tra kiến thức về Tổng hợp lực, Điều kiện cân bằng của vật rắn, Moment lực và Ngẫu lực.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Moment lực đối với một trục quay là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tác dụng làm vật chuyển động tịnh tiến" },
+        { "id": "B", "text": "Tác dụng làm vật quay quanh trục" },
+        { "id": "C", "text": "Tác dụng làm biến dạng vật" },
+        { "id": "D", "text": "Mức quán tính của vật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Moment lực $M = F.d$ đặc trưng cho tác dụng làm quay của lực."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cánh tay đòn của lực là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khoảng cách từ trục quay đến điểm đặt của lực" },
+        { "id": "B", "text": "Khoảng cách từ trục quay đến giá của lực" },
+        { "id": "C", "text": "Chiều dài của vectơ lực" },
+        { "id": "D", "text": "Khoảng cách giữa hai điểm đặt của ngẫu lực" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa: Cánh tay đòn là khoảng cách vuông góc từ trục quay đến giá (đường thẳng chứa vectơ) của lực."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn có trục quay cố định là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tổng các lực tác dụng lên vật bằng 0" },
+        { "id": "B", "text": "Tổng moment lực làm vật quay theo chiều kim đồng hồ bằng tổng moment lực làm vật quay ngược chiều kim đồng hồ" },
+        { "id": "C", "text": "Vật đứng yên hoặc chuyển động thẳng đều" },
+        { "id": "D", "text": "Trọng tâm của vật phải nằm trên trục quay" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quy tắc moment: $\\Sigma M_{xuôi} = \\Sigma M_{ngược}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Ngẫu lực là hệ gồm hai lực:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Song song, cùng chiều, có độ lớn bằng nhau" },
+        { "id": "B", "text": "Song song, ngược chiều, có độ lớn bằng nhau và cùng tác dụng vào một vật" },
+        { "id": "C", "text": "Cùng phương, ngược chiều, độ lớn bằng nhau" },
+        { "id": "D", "text": "Vuông góc với nhau và cùng độ lớn" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa ngẫu lực: Hai lực song song, ngược chiều, cùng độ lớn, tác dụng vào cùng một vật, làm vật quay thuần túy."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một thanh chắn đường dài 7,8m, có trọng lượng 210N và trọng tâm cách đầu bên trái 1,2m. Thanh có thể quay quanh một trục nằm ngang ở cách đầu bên trái 1,5m. Để thanh cân bằng nằm ngang, cần tác dụng vào đầu bên phải một lực bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10 N" },
+        { "id": "B", "text": "20 N" },
+        { "id": "C", "text": "100 N" },
+        { "id": "D", "text": "50 N" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trục quay O cách đầu trái A là 1,5m. Trọng tâm G cách A là 1,2m $\\Rightarrow OG = 1,5 - 1,2 = 0,3m$. Đầu phải B cách O là $7,8 - 1,5 = 6,3m$. Cân bằng moment: $P.OG = F.OB \\Rightarrow 210 \\times 0,3 = F \\times 6,3 \\Rightarrow F = 10$ N."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trọng tâm của một vật là điểm đặt của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực đàn hồi" },
+        { "id": "B", "text": "Trọng lực tác dụng lên vật" },
+        { "id": "C", "text": "Lực ma sát" },
+        { "id": "D", "text": "Lực đẩy Ác-si-mét" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trọng tâm là điểm đặt của hợp lực các trọng lực nhỏ tác dụng lên mọi phần của vật."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Dạng cân bằng của một quả cầu đặt trên mặt bàn nằm ngang là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cân bằng bền" },
+        { "id": "B", "text": "Cân bằng không bền" },
+        { "id": "C", "text": "Cân bằng phiếm định" },
+        { "id": "D", "text": "Không cân bằng" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi dời chỗ, trọng tâm quả cầu không thay đổi độ cao so với mặt chân đế $\\Rightarrow$ Cân bằng phiếm định."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Newton (N)" },
+        { "id": "B", "text": "Joule (J)" },
+        { "id": "C", "text": "Newton mét (N.m)" },
+        { "id": "D", "text": "Kilogam mét (kg.m)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Để tăng độ ổn định (vững vàng) của một vật, ta cần:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nâng cao trọng tâm và giảm diện tích mặt chân đế" },
+        { "id": "B", "text": "Hạ thấp trọng tâm và tăng diện tích mặt chân đế" },
+        { "id": "C", "text": "Hạ thấp trọng tâm và giảm diện tích mặt chân đế" },
+        { "id": "D", "text": "Tăng khối lượng của vật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc: Trọng tâm càng thấp và mặt chân đế càng rộng thì vật càng đứng vững."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật chịu tác dụng của ba lực đồng quy $\\vec{F_1}, \\vec{F_2}, \\vec{F_3}$ và đang đứng yên. Khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{F_1} + \\vec{F_2} = \\vec{F_3}$" },
+        { "id": "B", "text": "$\\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$" },
+        { "id": "C", "text": "$F_1 + F_2 = F_3$" },
+        { "id": "D", "text": "Ba lực phải vuông góc nhau" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hợp lực bằng 0: $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0} \\Rightarrow \\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$."
+    }
+  ]
+}

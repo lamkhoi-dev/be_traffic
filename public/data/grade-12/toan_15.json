@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 3 + 4i$ và $z_2 = 2 - i$. Số phức $z = z_1 - z_2$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 + 5i$"
+        },
+        {
+          "id": "B",
+          "text": "$1 + 3i$"
+        },
+        {
+          "id": "C",
+          "text": "$5 + 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$1 - 5i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = (3-2) + (4 - (-1))i = 1 + 5i$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một khối nón có bán kính đáy $r = 3$ và chiều cao $h = 4$. Độ dài đường sinh $l$ của khối nón là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{7}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$l = \\sqrt{r^2 + h^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Có bao nhiêu cách chọn 2 học sinh từ 6 học sinh để làm lớp trưởng và lớp phó?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "30"
+        },
+        {
+          "id": "B",
+          "text": "15"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chỉnh hợp $A_6^2 = 30$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cho $\\int_{1}^{e} \\frac{\\ln x}{x} \\text{d}x$. Đặt $u = \\ln x$, khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I = \\int_{0}^{1} u \\text{d}u$"
+        },
+        {
+          "id": "B",
+          "text": "$I = \\int_{1}^{e} u \\text{d}u$"
+        },
+        {
+          "id": "C",
+          "text": "$I = \\int_{0}^{1} \\frac{1}{u} \\text{d}u$"
+        },
+        {
+          "id": "D",
+          "text": "$I = \\int_{1}^{e} \\frac{1}{u} \\text{d}u$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\text{d}u = \\frac{1}{x}\\text{d}x$. Đổi cận: $x=1 \\to u=0; x=e \\to u=1$. Vậy $I = \\int_{0}^{1} u \\text{d}u$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Họ nguyên hàm của hàm số $f(x) = 3x^2 + \\sin x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x^3 + \\cos x + C$"
+        },
+        {
+          "id": "B",
+          "text": "$x^3 - \\cos x + C$"
+        },
+        {
+          "id": "C",
+          "text": "$3x^3 + \\cos x + C$"
+        },
+        {
+          "id": "D",
+          "text": "$x^3 + \\sin x + C$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên hàm của $3x^2$ là $x^3$. Nguyên hàm của $\\sin x$ là $-\\cos x$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, vectơ nào dưới đây là vectơ pháp tuyến của mặt phẳng $(Oxy)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{k} = (0; 0; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{i} = (1; 0; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{j} = (0; 1; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (1; 1; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$, nên VTPT là $(0; 0; 1)$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt cầu $(S): (x-1)^2 + (y+2)^2 + z^2 = 9$ có tâm $I$ và bán kính $R$ lần lượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(1; -2; 0), R=3$"
+        },
+        {
+          "id": "B",
+          "text": "$I(-1; 2; 0), R=3$"
+        },
+        {
+          "id": "C",
+          "text": "$I(1; -2; 0), R=9$"
+        },
+        {
+          "id": "D",
+          "text": "$I(1; 2; 0), R=3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình mặt cầu tâm $I(a; b; c)$ bán kính $R$ là $(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2$. Suy ra $I(1; -2; 0)$ và $R = \\sqrt{9} = 3$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^3 - x$ và trục hoành bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm: $x^3 - x = 0 \\Leftrightarrow x=0, x=\\pm 1$. Vì hàm lẻ và đối xứng qua gốc tọa độ nên diện tích là $2 \\int_{0}^{1} |x^3-x| \\text{d}x = 2 \\int_{0}^{1} (x - x^3) \\text{d}x = 2(\\frac{1}{2} - \\frac{1}{4}) = 2(\\frac{1}{4}) = \\frac{1}{2}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính đạo hàm của hàm số $y = \\log_2(2x + 1)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{2}{(2x+1)\\ln 2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{(2x+1)\\ln 2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{2}{2x+1}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{1}{2x+1}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức $(\\log_a u)' = \\frac{u'}{u \\ln a}$. Với $u = 2x+1 \\Rightarrow u' = 2$. Vậy $y' = \\frac{2}{(2x+1)\\ln 2}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Số nghiệm nguyên của bất phương trình $\\log_2(2x - 1) < 3$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $2x - 1 > 0 \\Leftrightarrow x > 0.5$. BPT $\\Leftrightarrow 2x - 1 < 2^3 = 8 \\Leftrightarrow 2x < 9 \\Leftrightarrow x < 4.5$. Kết hợp ĐK: $0.5 < x < 4.5$. Vì $x$ nguyên nên $x \\in \\{1, 2, 3, 4\\}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 1 + i$ và $z_2 = 2 - 3i$. Tính tổng $z_1 + z_2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$3 - 2i$"
+        },
+        {
+          "id": "B",
+          "text": "$3 + 2i$"
+        },
+        {
+          "id": "C",
+          "text": "$1 - 4i$"
+        },
+        {
+          "id": "D",
+          "text": "$1 + 2i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z_1 + z_2 = (1 + 2) + (1 - 3)i = 3 - 2i$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Giải bất phương trình $\\log_{\\frac{1}{2}}(x-1) > 1$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 < x < \\frac{3}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$x > \\frac{3}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$x < \\frac{3}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$x > 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $x > 1$. Vì cơ số $0 < \\frac{1}{2} < 1$ nên đổi chiều BPT: $x - 1 < (\\frac{1}{2})^1 = 0.5 \\Rightarrow x < 1.5$. Kết hợp ĐK: $1 < x < 1.5$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, đường thẳng $d: \\frac{x-1}{2} = \\frac{y}{-1} = \\frac{z+2}{1}$ đi qua điểm nào dưới đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$M(1; 0; -2)$"
+        },
+        {
+          "id": "B",
+          "text": "$N(-1; 0; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$P(2; -1; 1)$"
+        },
+        {
+          "id": "D",
+          "text": "$Q(1; 0; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cho tử số bằng 0 ta được $x=1, y=0, z=-2$. Vậy điểm $M(1; 0; -2)$ thuộc đường thẳng."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $2^{2x-1} = 8$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{3}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 4$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$2^{2x-1} = 2^3 \\Leftrightarrow 2x - 1 = 3 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tiệm cận ngang của đồ thị hàm số $y = \\frac{2x + 1}{x - 1}$ là đường thẳng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = 2$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = -1$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận ngang $y = \\frac{a}{c} = \\frac{2}{1} = 2$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho $a, b > 0$ và $a, b \\ne 1$. Biểu thức $P = \\log_{\\sqrt{a}} b^3 \\cdot \\log_b a^4$ có giá trị bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "18"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\log_{a^{1/2}} b^3 \\cdot 4\\log_b a = (2 \\cdot 3 \\log_a b) \\cdot (4 \\log_b a) = 6 \\log_a b \\cdot 4 \\frac{1}{\\log_a b} = 24$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tập nghiệm của bất phương trình $3^{x^2 - 13} < 27$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(-4; 4)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-\\infty; 4)$"
+        },
+        {
+          "id": "C",
+          "text": "$(4; +\\infty)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-\\infty; -4) \\cup (4; +\\infty)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$3^{x^2 - 13} < 3^3 \\Leftrightarrow x^2 - 13 < 3 \\Leftrightarrow x^2 < 16 \\Leftrightarrow -4 < x < 4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đường cong trong hình vẽ bên là đồ thị của hàm số nào dưới đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = x^4 - 2x^2 - 1$"
+        },
+        {
+          "id": "B",
+          "text": "$y = -x^4 + 2x^2 - 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = x^3 - 3x^2 - 1$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -x^3 + 3x^2 - 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đồ thị đối xứng qua trục tung và hướng lên trên nên là hàm trùng phương với hệ số $a > 0$. Loại B, C, D. (Giả sử hình vẽ tương ứng dáng đồ thị chữ W)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = \\frac{x^2 + 3}{x - 1}$ trên đoạn $[2; 4]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "$19/3$"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{2x(x-1) - (x^2+3)}{(x-1)^2} = \\frac{x^2 - 2x - 3}{(x-1)^2}$. $y'=0 \\Rightarrow x=3$ (nhận). $y(2)=7, y(3)=6, y(4)=19/3$. Min là 6."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong không gian, cắt mặt cầu $(S)$ bằng một mặt phẳng cách tâm một khoảng bằng 3, ta được thiết diện là một đường tròn có bán kính bằng 4. Bán kính của mặt cầu $(S)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{7}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng công thức $R^2 = r^2 + d^2 = 4^2 + 3^2 = 16 + 9 = 25 \\Rightarrow R = 5$."
+    }
+  ]
+}

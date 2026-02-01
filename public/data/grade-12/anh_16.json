@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "organic"
+        },
+        {
+          "id": "B",
+          "text": "fossil"
+        },
+        {
+          "id": "C",
+          "text": "soot"
+        },
+        {
+          "id": "D",
+          "text": "global"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'soot' phát âm là /ʊ/ hoặc /u:/. Các đáp án còn lại chữ 'o' phát âm là /ɔ/ hoặc /əʊ/ (organic /ɔː/, fossil /ɒ/, global /əʊ/)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Sentence transformation: 'It's a long time since we last met.' means:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "We haven't met for a long time."
+        },
+        {
+          "id": "B",
+          "text": "We have met for a long time."
+        },
+        {
+          "id": "C",
+          "text": "We didn't meet for a long time."
+        },
+        {
+          "id": "D",
+          "text": "We last met a long time."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc: 'Đã lâu rồi kể từ lần cuối chúng ta gặp nhau' tương đương với 'Chúng ta đã không gặp nhau một thời gian dài' (Hiện tại hoàn thành phủ định + for)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Many species of plants and animals are in ______ of extinction.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "danger"
+        },
+        {
+          "id": "B",
+          "text": "endangered"
+        },
+        {
+          "id": "C",
+          "text": "dangerous"
+        },
+        {
+          "id": "D",
+          "text": "dangerously"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ 'in danger of' (có nguy cơ bị...)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Closest meaning: She 'voluntarily' joined the project.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "willingly"
+        },
+        {
+          "id": "B",
+          "text": "reluctantly"
+        },
+        {
+          "id": "C",
+          "text": "forcedly"
+        },
+        {
+          "id": "D",
+          "text": "hardly"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voluntarily' (tự nguyện) đồng nghĩa với 'willingly' (sẵn lòng)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The ______ the city gets, the more crowded the streets become.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "large"
+        },
+        {
+          "id": "B",
+          "text": "larger"
+        },
+        {
+          "id": "C",
+          "text": "largest"
+        },
+        {
+          "id": "D",
+          "text": "more large"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: 'The + comparative (so sánh hơn), the + comparative'. (Thành phố càng lớn thì đường càng đông)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "urbanise"
+        },
+        {
+          "id": "B",
+          "text": "illustrate"
+        },
+        {
+          "id": "C",
+          "text": "suffering"
+        },
+        {
+          "id": "D",
+          "text": "recommend"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D nhấn âm 3 (re-com-MEND). Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Communication: 'I got a scholarship!' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Congratulations!"
+        },
+        {
+          "id": "B",
+          "text": "Good luck."
+        },
+        {
+          "id": "C",
+          "text": "I'm sorry to hear that."
+        },
+        {
+          "id": "D",
+          "text": "Thank you."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chúc mừng khi nghe tin vui."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "The chemical ______ from cars causes air pollution.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "emission"
+        },
+        {
+          "id": "B",
+          "text": "depletion"
+        },
+        {
+          "id": "C",
+          "text": "preservation"
+        },
+        {
+          "id": "D",
+          "text": "conclusion"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Chemical emission' (sự thải ra hóa chất/khí thải)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Choose the word with the correct spelling.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Enviroment"
+        },
+        {
+          "id": "B",
+          "text": "Environment"
+        },
+        {
+          "id": "C",
+          "text": "Environtment"
+        },
+        {
+          "id": "D",
+          "text": "Invihronment"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ đúng chính tả là 'Environment' (Môi trường)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Transformation: 'He started working here 5 years ago.' -> 'He has...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "He has worked here since 5 years."
+        },
+        {
+          "id": "B",
+          "text": "He has been working here for 5 years."
+        },
+        {
+          "id": "C",
+          "text": "He has worked here when 5 years."
+        },
+        {
+          "id": "D",
+          "text": "He working here for 5 years."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chuyển từ Quá khứ đơn sang Hiện tại hoàn thành tiếp diễn (nhấn mạnh tính liên tục)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "______ is a long period without rain.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Flood"
+        },
+        {
+          "id": "B",
+          "text": "Drought"
+        },
+        {
+          "id": "C",
+          "text": "Storm"
+        },
+        {
+          "id": "D",
+          "text": "Famine"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Drought' là hạn hán."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "interview"
+        },
+        {
+          "id": "B",
+          "text": "vacancy"
+        },
+        {
+          "id": "C",
+          "text": "company"
+        },
+        {
+          "id": "D",
+          "text": "position"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'position' nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "She feels ______ because she can't speak the local language.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "isolated"
+        },
+        {
+          "id": "B",
+          "text": "connected"
+        },
+        {
+          "id": "C",
+          "text": "proud"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Isolated' (bị cô lập) là cảm giác khi không giao tiếp được."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Transformation: 'If you practise harder, you will get better results.' -> 'The harder...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The harder you practise, the better results you will get."
+        },
+        {
+          "id": "B",
+          "text": "The harder you practise, the best results you will get."
+        },
+        {
+          "id": "C",
+          "text": "The harder you practise, the gooder results you will get."
+        },
+        {
+          "id": "D",
+          "text": "The harder you practise, better results will come."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển đổi câu điều kiện sang so sánh kép đúng ngữ pháp."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cyberbullying is a form of bullying that happens ______ the internet.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "on"
+        },
+        {
+          "id": "D",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dùng giới từ 'on' cho các phương tiện truyền thông: on the internet, on TV, on the radio."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Libraries play a key role in ______ lifelong learning.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitating"
+        },
+        {
+          "id": "B",
+          "text": "making"
+        },
+        {
+          "id": "C",
+          "text": "doing"
+        },
+        {
+          "id": "D",
+          "text": "preventing"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Facilitate' (tạo điều kiện thuận lợi/thúc đẩy)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "My boss has high ______ of his employees.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "expect"
+        },
+        {
+          "id": "B",
+          "text": "expectations"
+        },
+        {
+          "id": "C",
+          "text": "expectant"
+        },
+        {
+          "id": "D",
+          "text": "expectancy"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'High expectations' (kỳ vọng cao)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "adult"
+        },
+        {
+          "id": "B",
+          "text": "result"
+        },
+        {
+          "id": "C",
+          "text": "difficult"
+        },
+        {
+          "id": "D",
+          "text": "culture"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'difficult' âm 'u' đọc là /ə/. Các từ còn lại đọc là /ʌ/."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Identify mistake: 'I had the hairdresser cut my hair yesterday, so now it looks short.' -> 'I had my hair cut...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The sentence is correct."
+        },
+        {
+          "id": "B",
+          "text": "The sentence is wrong."
+        },
+        {
+          "id": "C",
+          "text": "It implies I cut it myself."
+        },
+        {
+          "id": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc 'I had the hairdresser cut my hair' (have someone do sth) là đúng ngữ pháp. (Lưu ý: đây là dạng câu hỏi tìm lỗi, nhưng đáp án A nói câu đúng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "identity"
+        },
+        {
+          "id": "B",
+          "text": "solidarity"
+        },
+        {
+          "id": "C",
+          "text": "majority"
+        },
+        {
+          "id": "D",
+          "text": "assimilate"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'solidarity' nhấn âm 3. Các từ còn lại nhấn âm 2 (identity, majority, assimilate)."
+    }
+  ]
+}

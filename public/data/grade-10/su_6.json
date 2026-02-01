@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 6: Văn minh Trung Hoa cổ - trung đại",
+    "description": "Kiểm tra kiến thức về các thành tựu rực rỡ của văn minh Trung Hoa (Nho giáo, 4 phát minh lớn, văn học, kiến trúc, sử học).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Nền văn minh Trung Hoa hình thành trên lưu vực hai con sông lớn nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sông Ấn và sông Hằng." },
+        { "id": "B", "text": "Hoàng Hà và Trường Giang." },
+        { "id": "C", "text": "Sông Nin và sông A-ma-zon." },
+        { "id": "D", "text": "Sông Mê Kông." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hoàng Hà và Trường Giang bồi đắp nên những đồng bằng màu mỡ cho Trung Hoa."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hệ tư tưởng nào giữ vai trò chủ đạo trong đời sống chính trị, xã hội Trung Hoa thời phong kiến?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phật giáo." },
+        { "id": "B", "text": "Đạo giáo." },
+        { "id": "C", "text": "Nho giáo (Khổng giáo)." },
+        { "id": "D", "text": "Mặc gia." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nho giáo là công cụ thống trị tinh thần và tổ chức xã hội của phong kiến Trung Hoa."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Người sáng lập ra Nho gia là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lão Tử." },
+        { "id": "B", "text": "Mạnh Tử." },
+        { "id": "C", "text": "Khổng Tử." },
+        { "id": "D", "text": "Hàn Phi Tử." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khổng Tử (551-479 TCN) là người sáng lập Nho giáo."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Chữ viết của người Trung Hoa là loại chữ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chữ tượng hình, tượng ý (Chữ Hán)." },
+        { "id": "B", "text": "Chữ cái Latinh." },
+        { "id": "C", "text": "Chữ hình nêm." },
+        { "id": "D", "text": "Chữ Phạn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ Hán phát triển từ chữ Giáp cốt (trên mai rùa, xương thú)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Bốn phát minh lớn (Tứ đại phát minh) của Trung Hoa là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giấy, Kỹ thuật in, La bàn, Thuốc súng." },
+        { "id": "B", "text": "Giấy, Bê tông, Kính viễn vọng, La bàn." },
+        { "id": "C", "text": "Thuốc súng, Máy hơi nước, Giấy, Tơ lụa." },
+        { "id": "D", "text": "La bàn, Bản đồ, Số 0, Giấy." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 phát minh đóng góp to lớn cho văn minh nhân loại."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc quân sự vĩ đại nhất của Trung Hoa cổ đại là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tử Cấm Thành." },
+        { "id": "B", "text": "Vạn Lý Trường Thành." },
+        { "id": "C", "text": "Di Hòa Viên." },
+        { "id": "D", "text": "Lăng mộ Tần Thủy Hoàng." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vạn Lý Trường Thành xây dựng để ngăn chặn sự xâm lược của các tộc người phương Bắc."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Bộ sử nổi tiếng nhất của Trung Hoa cổ đại do Tư Mã Thiên soạn thảo là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hán thư." },
+        { "id": "B", "text": "Sử ký." },
+        { "id": "C", "text": "Tam quốc chí." },
+        { "id": "D", "text": "Xuân Thu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Sử ký' Tư Mã Thiên là khuôn mẫu cho sử học phong kiến phương Đông."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Thơ Đường đạt đến đỉnh cao với các tác giả tiêu biểu nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ngô Thừa Ân, Thi Nại Am." },
+        { "id": "B", "text": "Lý Bạch, Đỗ Phủ, Bạch Cư Dị." },
+        { "id": "C", "text": "Tào Tuyết Cần, La Quán Trung." },
+        { "id": "D", "text": "Lỗ Tấn, Mạc Ngôn." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lý Bạch (Tiên thơ) và Đỗ Phủ (Thánh thơ) là đại diện tiêu biểu nhất."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Học thuyết 'Pháp gia' chủ trương dùng gì để cai trị đất nước?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dùng đức trị (đạo đức)." },
+        { "id": "B", "text": "Dùng luật pháp nghiêm minh và hình phạt nặng." },
+        { "id": "C", "text": "Dùng tình yêu thương (kiêm ái)." },
+        { "id": "D", "text": "Để tự nhiên (vô vi)." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháp gia do Hàn Phi Tử khởi xướng, được Tần Thủy Hoàng áp dụng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tiểu thuyết 'Tam quốc diễn nghĩa' là tác phẩm của ai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "La Quán Trung." },
+        { "id": "B", "text": "Thi Nại Am." },
+        { "id": "C", "text": "Ngô Thừa Ân." },
+        { "id": "D", "text": "Tào Tuyết Cần." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Một trong Tứ đại danh tác của văn học Minh - Thanh."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Con đường thương mại nổi tiếng nối liền Trung Hoa với phương Tây gọi là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Con đường Gốm sứ." },
+        { "id": "B", "text": "Con đường Tơ lụa." },
+        { "id": "C", "text": "Con đường Gia vị." },
+        { "id": "D", "text": "Con đường Trà." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Con đường Tơ lụa (Silk Road) là huyết mạch giao lưu kinh tế - văn hóa."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong Y học, Trung Hoa nổi tiếng với phương pháp chữa bệnh nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Châm cứu và bấm huyệt." },
+        { "id": "B", "text": "Phẫu thuật tim." },
+        { "id": "C", "text": "Ghép tạng." },
+        { "id": "D", "text": "Dùng tia X." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông y Trung Quốc đặc sắc với châm cứu, bắt mạch, thảo dược."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Giấy được phát minh vào thời kỳ nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thời Tây Hán." },
+        { "id": "B", "text": "Thời Đông Hán (Sái Luân cải tiến)." },
+        { "id": "C", "text": "Thời Đường." },
+        { "id": "D", "text": "Thời Tống." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mặc dù xuất hiện từ trước, nhưng Sái Luân thời Đông Hán đã hoàn thiện kỹ thuật làm giấy."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tử Cấm Thành (Cố cung) nằm ở thành phố nào của Trung Quốc?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thượng Hải." },
+        { "id": "B", "text": "Tây An." },
+        { "id": "C", "text": "Bắc Kinh." },
+        { "id": "D", "text": "Nam Kinh." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là hoàng cung của các triều đại Minh và Thanh."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Chế độ tuyển chọn quan lại thông qua thi cử (Khoa cử) bắt đầu định hình từ thời nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thời Tần." },
+        { "id": "B", "text": "Thời Hán." },
+        { "id": "C", "text": "Thời Tùy - Đường." },
+        { "id": "D", "text": "Thời Minh." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khoa cử bắt đầu từ thời Tùy và hoàn thiện rực rỡ vào thời Đường."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tư tưởng cốt lõi của Nho giáo về quan hệ xã hội là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tam cương, Ngũ thường." },
+        { "id": "B", "text": "Vô vi nhi trị." },
+        { "id": "C", "text": "Kiêm ái (Yêu thương tất cả)." },
+        { "id": "D", "text": "Luật pháp hà khắc." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tam cương (Vua-Tôi, Cha-Con, Chồng-Vợ) và Ngũ thường (Nhân, Nghĩa, Lễ, Trí, Tín)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Nhà nước phong kiến Trung Quốc được tổ chức theo thể chế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dân chủ chủ nô." },
+        { "id": "B", "text": "Quân chủ chuyên chế trung ương tập quyền." },
+        { "id": "C", "text": "Quân chủ lập hiến." },
+        { "id": "D", "text": "Cộng hòa." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quyền lực tập trung tối đa vào tay Hoàng đế."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phát minh thuốc súng ban đầu được sử dụng cho mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Làm pháo hoa và luyện đan (thuốc trường sinh)." },
+        { "id": "B", "text": "Làm súng đại bác." },
+        { "id": "C", "text": "Phá núi." },
+        { "id": "D", "text": "Làm tên lửa." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các đạo sĩ luyện đan tình cờ tìm ra thuốc súng, sau này mới ứng dụng quân sự."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Ảnh hưởng của văn minh Trung Hoa đối với Việt Nam thể hiện rõ nhất ở lĩnh vực nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tôn giáo, chữ viết, tổ chức nhà nước." },
+        { "id": "B", "text": "Trang phục phương Tây." },
+        { "id": "C", "text": "Ngôn ngữ Latinh." },
+        { "id": "D", "text": "Kiến trúc Gothic." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việt Nam chịu ảnh hưởng sâu sắc của Nho giáo, chữ Hán và mô hình nhà nước phong kiến."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đạo giáo (Lão giáo) do ai sáng lập?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khổng Tử." },
+        { "id": "B", "text": "Lão Tử." },
+        { "id": "C", "text": "Trang Tử." },
+        { "id": "D", "text": "Mặc Tử." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lão Tử là người khởi xướng tư tưởng Đạo gia (với tác phẩm Đạo đức kinh)."
+    }
+  ]
+}

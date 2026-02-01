@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Độ cứng $k$ của lò xo phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực tác dụng lên lò xo"
+        },
+        {
+          "id": "B",
+          "text": "Độ biến dạng của lò xo"
+        },
+        {
+          "id": "C",
+          "text": "Bản chất vật liệu và kích thước của lò xo"
+        },
+        {
+          "id": "D",
+          "text": "Khối lượng vật treo vào lò xo"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số k đặc trưng cho bản chất và kích thước của lò xo, không phụ thuộc ngoại lực."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Định luật Húc (Hooke) về biến dạng cơ của lò xo được biểu diễn bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{dh} = k|\\Delta l|$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{dh} = m a$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{dh} = \\mu N$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{dh} = k \\Delta l^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong giới hạn đàn hồi, lực đàn hồi tỉ lệ thuận với độ biến dạng."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Dạng cân bằng của một quả cầu đặt trên mặt bàn nằm ngang là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cân bằng bền"
+        },
+        {
+          "id": "B",
+          "text": "Cân bằng không bền"
+        },
+        {
+          "id": "C",
+          "text": "Cân bằng phiếm định"
+        },
+        {
+          "id": "D",
+          "text": "Không cân bằng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi dời chỗ, trọng tâm quả cầu không thay đổi độ cao so với mặt chân đế $\\Rightarrow$ Cân bằng phiếm định."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong hệ tọa độ (p, T), đường đẳng tích là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đường thẳng đi qua gốc tọa độ"
+        },
+        {
+          "id": "B",
+          "text": "Đường hypebol"
+        },
+        {
+          "id": "C",
+          "text": "Đường thẳng song song trục p"
+        },
+        {
+          "id": "D",
+          "text": "Đường thẳng song song trục T"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định luật Sác-lơ: $p \\sim T$. Đồ thị p theo T là đường thẳng qua gốc tọa độ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một vệ tinh bay quanh Trái Đất theo quỹ đạo tròn. Lực hấp dẫn đóng vai trò:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực cản"
+        },
+        {
+          "id": "B",
+          "text": "Lực phát động"
+        },
+        {
+          "id": "C",
+          "text": "Lực hướng tâm"
+        },
+        {
+          "id": "D",
+          "text": "Lực ma sát"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn vuông góc với vận tốc, giữ vệ tinh chuyển động tròn (hướng tâm)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "C",
+          "text": "Newton mét (N.m)"
+        },
+        {
+          "id": "D",
+          "text": "Kilogam mét (kg.m)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trọng tâm của một vật là điểm đặt của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực đàn hồi"
+        },
+        {
+          "id": "B",
+          "text": "Trọng lực tác dụng lên vật"
+        },
+        {
+          "id": "C",
+          "text": "Lực ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Lực đẩy Ác-si-mét"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trọng tâm là điểm đặt của hợp lực các trọng lực nhỏ tác dụng lên mọi phần của vật."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Lực đàn hồi của lò xo luôn có chiều:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng chiều với chiều biến dạng"
+        },
+        {
+          "id": "B",
+          "text": "Ngược chiều với chiều biến dạng"
+        },
+        {
+          "id": "C",
+          "text": "Thẳng đứng hướng xuống"
+        },
+        {
+          "id": "D",
+          "text": "Thẳng đứng hướng lên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lực đàn hồi có xu hướng đưa vật về hình dạng ban đầu nên ngược chiều biến dạng."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một người kéo một hòm gỗ trượt trên sàn nhà. Lực tác dụng lên hòm gỗ gồm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trọng lực, phản lực, lực kéo"
+        },
+        {
+          "id": "B",
+          "text": "Trọng lực, phản lực, lực kéo, lực ma sát"
+        },
+        {
+          "id": "C",
+          "text": "Trọng lực, lực kéo, lực ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Lực kéo, lực ma sát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đầy đủ các lực: P (trọng lực), N (phản lực), Fk (kéo), Fms (ma sát)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng bằng nhau. Vật 1 chuyển động nhanh gấp đôi vật 2. Động năng của vật 1 so với vật 2 sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gấp 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Gấp 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Bằng nhau"
+        },
+        {
+          "id": "D",
+          "text": "Gấp $\\sqrt{2}$ lần"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d \\sim v^2$. Nếu $v$ tăng 2 lần thì $W_d$ tăng $2^2 = 4$ lần."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một lò xo có chiều dài tự nhiên 20cm. Khi treo vật nặng, lò xo dài 24cm. Độ biến dạng của lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4 cm (dãn)"
+        },
+        {
+          "id": "B",
+          "text": "4 cm (nén)"
+        },
+        {
+          "id": "C",
+          "text": "20 cm"
+        },
+        {
+          "id": "D",
+          "text": "24 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta l = l - l_0 = 24 - 20 = 4$ cm. $l > l_0$ nên là dãn."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hiệu suất của một động cơ luôn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lớn hơn 1"
+        },
+        {
+          "id": "B",
+          "text": "Nhỏ hơn 1"
+        },
+        {
+          "id": "C",
+          "text": "Bằng 1"
+        },
+        {
+          "id": "D",
+          "text": "Bằng 0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Do luôn có hao phí nên công có ích < công toàn phần $\\Rightarrow H < 1$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Vật khối lượng m đặt trên mặt phẳng nghiêng góc $\\alpha$ so với phương ngang. Thành phần trọng lực gây ra gia tốc trượt cho vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P_x = mg \\cos\\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$P_x = mg \\sin\\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$P_x = mg$"
+        },
+        {
+          "id": "D",
+          "text": "$P_x = mg \\tan\\alpha$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích lực trên mặt phẳng nghiêng: $P_x = P\\sin\\alpha = mg\\sin\\alpha$ (song song mặt phẳng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Đơn vị của độ cứng $k$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Newton trên mét (N/m)"
+        },
+        {
+          "id": "C",
+          "text": "Mét trên Newton (m/N)"
+        },
+        {
+          "id": "D",
+          "text": "Joule (J)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ $F=k\\Delta l \\Rightarrow k=F/\\Delta l$ (N/m)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Biến dạng đàn hồi là biến dạng mà sau khi thôi tác dụng lực:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật không lấy lại được hình dạng và kích thước ban đầu"
+        },
+        {
+          "id": "B",
+          "text": "Vật lấy lại được hình dạng và kích thước ban đầu"
+        },
+        {
+          "id": "C",
+          "text": "Vật bị gãy hoặc vỡ"
+        },
+        {
+          "id": "D",
+          "text": "Vật tiếp tục biến dạng thêm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa biến dạng đàn hồi."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một quả bóng bay đập vào tường và nảy ra. Trong thời gian va chạm, lực của tường tác dụng lên bóng đã làm thay đổi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ tốc độ của bóng"
+        },
+        {
+          "id": "B",
+          "text": "Chỉ khối lượng của bóng"
+        },
+        {
+          "id": "C",
+          "text": "Động lượng của bóng"
+        },
+        {
+          "id": "D",
+          "text": "Thế năng của bóng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực tác dụng gây ra xung lượng, làm thay đổi động lượng (cả hướng và độ lớn vận tốc)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng $m_1 = 1$kg và $m_2 = 3$kg chuyển động ngược chiều nhau với vận tốc $v_1 = 3$m/s và $v_2 = 1$m/s. Tổng động lượng của hệ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6 kg.m/s"
+        },
+        {
+          "id": "B",
+          "text": "0 kg.m/s"
+        },
+        {
+          "id": "C",
+          "text": "2 kg.m/s"
+        },
+        {
+          "id": "D",
+          "text": "4 kg.m/s"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chọn chiều dương theo chiều vật 1. $p_1 = 1 \\times 3 = 3$. $p_2 = 3 \\times (-1) = -3$. $p_{he} = 3 + (-3) = 0$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một vật trượt trên mặt phẳng ngang có hệ số ma sát trượt $\\mu$. Công thức tính lực ma sát trượt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{mst} = \\mu mg$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{mst} = \\mu N$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{mst} = N / \\mu$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{mst} = \\mu m$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $F_{mst} = \\mu N$ (với N là áp lực lên mặt tiếp xúc)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Súng giật lùi khi bắn là ứng dụng của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Định luật bảo toàn cơ năng"
+        },
+        {
+          "id": "B",
+          "text": "Định luật bảo toàn động lượng"
+        },
+        {
+          "id": "C",
+          "text": "Định luật vạn vật hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Định luật Húc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tổng động lượng ban đầu bằng 0. Khi đạn bay về trước, súng phải giật lùi về sau để tổng động lượng vẫn bằng 0 (Chuyển động bằng phản lực)."
+    }
+  ]
+}

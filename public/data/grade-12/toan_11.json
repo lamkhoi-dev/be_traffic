@@ -1,0 +1,533 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2$ và đường thẳng $y = 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{5}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hoành độ giao điểm: $x^2 = 2x \\Leftrightarrow x=0, x=2$. $S = \\int_{0}^{2} |x^2 - 2x| \\text{d}x = \\int_{0}^{2} (2x - x^2) \\text{d}x = \\frac{4}{3}$."
+    },
+    {
+      "id": "B",
+      "text": "$\\frac{a}{2}$",
+      "order": 2
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Với $k, n$ là các số nguyên dương và $k \\le n$, công thức nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$C_n^k = \\frac{n!}{k!(n-k)!}$"
+        },
+        {
+          "id": "B",
+          "text": "$C_n^k = \\frac{n!}{(n-k)!}$"
+        },
+        {
+          "id": "C",
+          "text": "$C_n^k = \\frac{n!}{k!}$"
+        },
+        {
+          "id": "D",
+          "text": "$A_n^k = \\frac{n!}{k!(n-k)!}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổ hợp chập k của n phần tử."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt cầu tâm $I(1; -2; 0)$ và đi qua điểm $A(3; 0; 1)$ có phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(x-1)^2 + (y+2)^2 + z^2 = 9$"
+        },
+        {
+          "id": "B",
+          "text": "$(x-1)^2 + (y+2)^2 + z^2 = 3$"
+        },
+        {
+          "id": "C",
+          "text": "$(x+1)^2 + (y-2)^2 + z^2 = 9$"
+        },
+        {
+          "id": "D",
+          "text": "$(x-3)^2 + y^2 + (z-1)^2 = 9$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$R^2 = IA^2 = (3-1)^2 + (0-(-2))^2 + (1-0)^2 = 4 + 4 + 1 = 9$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tập hợp điểm biểu diễn số phức $z$ thỏa mãn $|z - 3 + 4i| = 2$ là một đường tròn có tâm $I$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(3; -4)$"
+        },
+        {
+          "id": "B",
+          "text": "$I(-3; 4)$"
+        },
+        {
+          "id": "C",
+          "text": "$I(3; 4)$"
+        },
+        {
+          "id": "D",
+          "text": "$I(-3; -4)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$|z - (3 - 4i)| = 2$. Tâm $I(3; -4)$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^4 + 3x^2 + 1$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{13}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "-3"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = -4x^3 + 6x$. $y'=0 \\Leftrightarrow x=0, x=\\pm\\sqrt{1.5}$. Trên $[0;2]$ lấy $x=0, x=\\sqrt{1.5}$. Tính $y(0)=1, y(\\sqrt{1.5}) = 3.25 = 13/4, y(2) = -3$. Max là $13/4$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $f(x) = x^3 - 3x + 1$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-1"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f'(x) = 3x^2 - 3$. $f'(x)=0 \\Leftrightarrow x=1$ (thuộc đoạn) hoặc $x=-1$ (loại). $f(0)=1, f(1)=-1, f(2)=3$. Min là -1."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và $\\int_{0}^{2} f(x) \\text{d}x = 4$. Tính $I = \\int_{0}^{2} [2f(x) - x] \\text{d}x$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = 2\\int_{0}^{2} f(x) \\text{d}x - \\int_{0}^{2} x \\text{d}x = 2(4) - \\frac{x^2}{2}\\Big|_0^2 = 8 - 2 = 6$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Một khối nón có bán kính đáy $r = 3$ và chiều cao $h = 4$. Độ dài đường sinh $l$ của khối nón là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{7}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$l = \\sqrt{r^2 + h^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt phẳng đi qua $A(1; 0; 0)$, $B(0; 2; 0)$, $C(0; 0; 3)$ có phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{x}{1} + \\frac{y}{2} + \\frac{z}{3} = 0$"
+        },
+        {
+          "id": "C",
+          "text": "$x + 2y + 3z = 1$"
+        },
+        {
+          "id": "D",
+          "text": "$6x + 3y + 2z = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đoạn chắn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho số phức $z$ thỏa mãn $(1+2i)z = 4 - 3i$. Số phức liên hợp $\\bar{z}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\frac{2}{5} + \\frac{11}{5}i$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{2}{5} - \\frac{11}{5}i$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{2}{5} - \\frac{11}{5}i$"
+        },
+        {
+          "id": "D",
+          "text": "$2 - 3i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = \\frac{4-3i}{1+2i} = \\frac{(4-3i)(1-2i)}{5} = \\frac{4 - 8i - 3i + 6i^2}{5} = \\frac{-2 - 11i}{5} = -\\frac{2}{5} - \\frac{11}{5}i$. Vậy $\\bar{z} = -\\frac{2}{5} + \\frac{11}{5}i$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Tính đạo hàm của hàm số $y = \\log_2(2x + 1)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{2}{(2x+1)\\ln 2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{(2x+1)\\ln 2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{2}{2x+1}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{1}{2x+1}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức $(\\log_a u)' = \\frac{u'}{u \\ln a}$. Với $u = 2x+1 \\Rightarrow u' = 2$. Vậy $y' = \\frac{2}{(2x+1)\\ln 2}$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho $\\int_{1}^{2} f(x) \\text{d}x = 2$ và $\\int_{2}^{4} f(x) \\text{d}x = 3$. Tính $I = \\int_{1}^{4} f(x) \\text{d}x$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "-1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\int_{1}^{2} f(x) \\text{d}x + \\int_{2}^{4} f(x) \\text{d}x = 2 + 3 = 5$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tính thể tích $V$ của khối cầu ngoại tiếp hình hộp chữ nhật có ba kích thước lần lượt là $a, 2a, 2a$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{9\\pi a^3}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{9\\pi a^3}{8}$"
+        },
+        {
+          "id": "C",
+          "text": "$36\\pi a^3$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{27\\pi a^3}{2}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường chéo $d = \\sqrt{a^2 + (2a)^2 + (2a)^2} = \\sqrt{9a^2} = 3a$. Bán kính $R = \\frac{d}{2} = 1.5a$. $V = \\frac{4}{3}\\pi (1.5a)^3 = \\frac{4}{3}\\pi \\frac{27a^3}{8} = \\frac{9\\pi a^3}{2}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Họ nguyên hàm của hàm số $f(x) = e^x + 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$e^x + x^2 + C$"
+        },
+        {
+          "id": "B",
+          "text": "$e^x + 2 + C$"
+        },
+        {
+          "id": "C",
+          "text": "$e^x + x + C$"
+        },
+        {
+          "id": "D",
+          "text": "$e^x + 2x^2 + C$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên hàm của $e^x$ là $e^x$. Nguyên hàm của $2x$ là $x^2$. Vậy $F(x) = e^x + x^2 + C$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tính tích phân $I = \\int_{0}^{1} e^{2x} \\text{d}x$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{e^2 - 1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$e^2 - 1$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{e^2}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$2(e^2 - 1)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\frac{1}{2}e^{2x} \\Big|_0^1 = \\frac{1}{2}(e^2 - e^0) = \\frac{e^2 - 1}{2}$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 3 + 4i$ và $z_2 = 2 - i$. Số phức $z = z_1 - z_2$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 + 5i$"
+        },
+        {
+          "id": "B",
+          "text": "$1 + 3i$"
+        },
+        {
+          "id": "C",
+          "text": "$5 + 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$1 - 5i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = (3-2) + (4 - (-1))i = 1 + 5i$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^3 - 3x + 2$. Hàm số nghịch biến trên khoảng nào dưới đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(-1; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$(1; +\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; -1)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 3x^2 - 3$. $y' < 0 \\Leftrightarrow x^2 < 1 \\Leftrightarrow -1 < x < 1$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong không gian, cắt mặt cầu $(S)$ bằng một mặt phẳng cách tâm một khoảng bằng 3, ta được thiết diện là một đường tròn có bán kính bằng 4. Bán kính của mặt cầu $(S)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "7"
+        },
+        {
+          "id": "C",
+          "text": "25"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{7}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng công thức $R^2 = r^2 + d^2 = 4^2 + 3^2 = 16 + 9 = 25 \\Rightarrow R = 5$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x + \\frac{9}{x}$ trên khoảng $(0; +\\infty)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Áp dụng BĐT Cauchy: $x + \\frac{9}{x} \\ge 2\\sqrt{x \\cdot \\frac{9}{x}} = 2\\sqrt{9} = 6$. Dấu bằng khi $x=3$."
+    }
+  ]
+}

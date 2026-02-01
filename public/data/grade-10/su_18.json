@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Con đường thương mại nổi tiếng nối liền Trung Hoa với phương Tây gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Con đường Gốm sứ."
+        },
+        {
+          "id": "B",
+          "text": "Con đường Tơ lụa."
+        },
+        {
+          "id": "C",
+          "text": "Con đường Gia vị."
+        },
+        {
+          "id": "D",
+          "text": "Con đường Trà."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Con đường Tơ lụa (Silk Road) là huyết mạch giao lưu kinh tế - văn hóa."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Văn minh Ấn Độ ảnh hưởng sâu sắc nhất đến khu vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đông Nam Á."
+        },
+        {
+          "id": "B",
+          "text": "Tây Âu."
+        },
+        {
+          "id": "C",
+          "text": "Bắc Mỹ."
+        },
+        {
+          "id": "D",
+          "text": "Châu Úc."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông Nam Á chịu ảnh hưởng mạnh mẽ về tôn giáo, chữ viết, kiến trúc, văn học từ Ấn Độ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tiểu thuyết 'Tam quốc diễn nghĩa' là tác phẩm của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "La Quán Trung."
+        },
+        {
+          "id": "B",
+          "text": "Thi Nại Am."
+        },
+        {
+          "id": "C",
+          "text": "Ngô Thừa Ân."
+        },
+        {
+          "id": "D",
+          "text": "Tào Tuyết Cần."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Một trong Tứ đại danh tác của văn học Minh - Thanh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hệ thống đường xá của La Mã nổi tiếng với câu nói nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mọi con đường đều dẫn đến thành Rome."
+        },
+        {
+          "id": "B",
+          "text": "Đường xa vạn dặm."
+        },
+        {
+          "id": "C",
+          "text": "Đường đi khó, không khó vì ngăn sông cách núi."
+        },
+        {
+          "id": "D",
+          "text": "Đường La Mã là đường vàng."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "La Mã có hệ thống giao thông đường bộ tuyệt vời tỏa đi khắp đế chế."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tượng Nhân sư (Sphinx) có hình dáng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đầu người, mình sư tử."
+        },
+        {
+          "id": "B",
+          "text": "Đầu sư tử, mình người."
+        },
+        {
+          "id": "C",
+          "text": "Toàn thân sư tử."
+        },
+        {
+          "id": "D",
+          "text": "Đầu chim ưng, mình người."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biểu tượng cho trí tuệ (đầu người) và sức mạnh (mình sư tử) của vua."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sự ra đời của ngành 'Sử liệu học' là kết quả của sự kết hợp giữa Sử học và",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "phương pháp lưu trữ, giám định văn bản."
+        },
+        {
+          "id": "B",
+          "text": "Nông nghiệp."
+        },
+        {
+          "id": "C",
+          "text": "Y học."
+        },
+        {
+          "id": "D",
+          "text": "Hóa học."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử liệu học chuyên về thu thập, phân loại và đánh giá nguồn tin."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chế độ tuyển chọn quan lại thông qua thi cử (Khoa cử) bắt đầu định hình từ thời nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thời Tần."
+        },
+        {
+          "id": "B",
+          "text": "Thời Hán."
+        },
+        {
+          "id": "C",
+          "text": "Thời Tùy - Đường."
+        },
+        {
+          "id": "D",
+          "text": "Thời Minh."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khoa cử bắt đầu từ thời Tùy và hoàn thiện rực rỡ vào thời Đường."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Thần Mặt Trời - vị thần tối cao của Ai Cập cổ đại tên là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Zeus."
+        },
+        {
+          "id": "B",
+          "text": "Ra (hoặc Amun-Ra)."
+        },
+        {
+          "id": "C",
+          "text": "Osiris."
+        },
+        {
+          "id": "D",
+          "text": "Poseidon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần Ra là thần Mặt Trời."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Triết học Hy Lạp cổ đại chia thành hai trường phái chính là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Duy vật và Duy tâm."
+        },
+        {
+          "id": "B",
+          "text": "Phật giáo và Đạo giáo."
+        },
+        {
+          "id": "C",
+          "text": "Nho gia và Pháp gia."
+        },
+        {
+          "id": "D",
+          "text": "Thiên văn và Địa lý."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự đấu tranh giữa chủ nghĩa duy vật và duy tâm rất gay gắt ở Hy Lạp."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tục ướp xác của người Ai Cập thể hiện niềm tin vào",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cuộc sống vĩnh hằng ở thế giới bên kia."
+        },
+        {
+          "id": "B",
+          "text": "sự luân hồi chuyển kiếp."
+        },
+        {
+          "id": "C",
+          "text": "việc con người sẽ sống lại ngay lập tức."
+        },
+        {
+          "id": "D",
+          "text": "sự trừng phạt của thần linh."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ tin linh hồn (Ka) cần thể xác nguyên vẹn để trú ngụ ở thế giới bên kia."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Blockchain (Chuỗi khối) là công nghệ nền tảng của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiền điện tử (như Bitcoin) và bảo mật dữ liệu."
+        },
+        {
+          "id": "B",
+          "text": "Trò chơi điện tử."
+        },
+        {
+          "id": "C",
+          "text": "Mạng xã hội."
+        },
+        {
+          "id": "D",
+          "text": "Xe tự lái."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đảm bảo tính minh bạch và không thể sửa đổi của dữ liệu."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đặc điểm kinh tế nổi bật của các quốc gia cổ đại phương Tây là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nông nghiệp lúa nước."
+        },
+        {
+          "id": "B",
+          "text": "Thủ công nghiệp và thương nghiệp hàng hải."
+        },
+        {
+          "id": "C",
+          "text": "Chăn nuôi du mục."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác khoáng sản."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Do đất đai khô cằn nhưng nhiều vũng vịnh, họ phát triển mạnh về buôn bán đường biển và chế tác thủ công."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đối tượng nghiên cứu của Sử học mang tính",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "toàn diện và đa dạng."
+        },
+        {
+          "id": "B",
+          "text": "hẹp hòi và cục bộ."
+        },
+        {
+          "id": "C",
+          "text": "tức thời và ngắn hạn."
+        },
+        {
+          "id": "D",
+          "text": "trừu tượng và phi thực tế."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử học nghiên cứu mọi mặt của đời sống xã hội loài người trong quá khứ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "So với hiện thực lịch sử, nhận thức lịch sử có đặc điểm gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Luôn đồng nhất với hiện thực."
+        },
+        {
+          "id": "B",
+          "text": "Thường lạc hậu hơn hiện thực."
+        },
+        {
+          "id": "C",
+          "text": "Có thể thay đổi và ngày càng tiệm cận sự thật."
+        },
+        {
+          "id": "D",
+          "text": "Là duy nhất và bất biến."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi có thêm tư liệu mới hoặc góc nhìn mới, nhận thức lịch sử có thể thay đổi để đúng hơn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Mối quan hệ giữa Sử học và các ngành khoa học xã hội nhân văn là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "đối kháng, bài trừ lẫn nhau."
+        },
+        {
+          "id": "B",
+          "text": "quan hệ tương tác, hỗ trợ hai chiều."
+        },
+        {
+          "id": "C",
+          "text": "Sử học phụ thuộc hoàn toàn vào các ngành khác."
+        },
+        {
+          "id": "D",
+          "text": "Các ngành khác phụ thuộc hoàn toàn vào Sử học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp bối cảnh cho các ngành khác, ngược lại các ngành khác cung cấp tư liệu, phương pháp cho Sử học."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Vật liệu mới nào có độ bền gấp trăm lần thép nhưng siêu nhẹ, đặc trưng cho công nghệ hiện đại?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhựa."
+        },
+        {
+          "id": "B",
+          "text": "Gra-phen (Graphene) và vật liệu Nano."
+        },
+        {
+          "id": "C",
+          "text": "Gỗ ép."
+        },
+        {
+          "id": "D",
+          "text": "Đồng đen."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công nghệ vật liệu mới là một trụ cột quan trọng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chiếc ô tô đầu tiên chạy bằng động cơ đốt trong được chế tạo bởi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các Ben (Karl Benz)."
+        },
+        {
+          "id": "B",
+          "text": "Hen-ry Pho (Ford)."
+        },
+        {
+          "id": "C",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "D",
+          "text": "Giêm Oát."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Karl Benz (người Đức) chế tạo chiếc xe hơi 3 bánh đầu tiên năm 1886."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nền văn minh Ai Cập cổ đại hình thành trên lưu vực con sông nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Ấn."
+        },
+        {
+          "id": "B",
+          "text": "Sông Hằng."
+        },
+        {
+          "id": "C",
+          "text": "Sông Nin (Nile)."
+        },
+        {
+          "id": "D",
+          "text": "Sông Ơ-phrát."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ai Cập là 'tặng phẩm của sông Nin'."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Di sản văn hóa là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tài sản của riêng các nhà sử học."
+        },
+        {
+          "id": "B",
+          "text": "Những sản phẩm vật chất và tinh thần có giá trị lịch sử, văn hóa."
+        },
+        {
+          "id": "C",
+          "text": "Những công trình xây dựng hiện đại."
+        },
+        {
+          "id": "D",
+          "text": "Tài nguyên thiên nhiên chưa được khai thác."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa về di sản văn hóa (bao gồm vật thể và phi vật thể)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nội dung cơ bản của Cách mạng công nghiệp lần thứ nhất là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện khí hóa."
+        },
+        {
+          "id": "B",
+          "text": "Cơ khí hóa (chuyển từ lao động thủ công sang máy móc)."
+        },
+        {
+          "id": "C",
+          "text": "Tự động hóa."
+        },
+        {
+          "id": "D",
+          "text": "Tin học hóa."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử dụng máy móc thay thế sức người."
+    }
+  ]
+}

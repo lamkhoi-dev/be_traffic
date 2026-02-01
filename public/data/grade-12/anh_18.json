@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Closest meaning: The city faces a 'massive' problem with waste disposal.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "minor"
+        },
+        {
+          "id": "B",
+          "text": "enormous"
+        },
+        {
+          "id": "C",
+          "text": "small"
+        },
+        {
+          "id": "D",
+          "text": "simple"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Massive' (to lớn, khổng lồ) đồng nghĩa với 'enormous'."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "The situation is getting ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "worse and worse"
+        },
+        {
+          "id": "B",
+          "text": "bad and bad"
+        },
+        {
+          "id": "C",
+          "text": "more and more bad"
+        },
+        {
+          "id": "D",
+          "text": "worst and worst"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "So sánh lặp của 'bad' là 'worse and worse'."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We need to ______ our cultural heritage for future generations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "preserve"
+        },
+        {
+          "id": "B",
+          "text": "reserve"
+        },
+        {
+          "id": "C",
+          "text": "destroy"
+        },
+        {
+          "id": "D",
+          "text": "ignore"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Preserve cultural heritage' (bảo tồn di sản văn hóa)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Some people take a ______ year before going to university.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "gap"
+        },
+        {
+          "id": "B",
+          "text": "space"
+        },
+        {
+          "id": "C",
+          "text": "break"
+        },
+        {
+          "id": "D",
+          "text": "blank"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Gap year' (năm nghỉ ngắt quãng để trải nghiệm)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The chemical ______ from cars causes air pollution.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "emission"
+        },
+        {
+          "id": "B",
+          "text": "depletion"
+        },
+        {
+          "id": "C",
+          "text": "preservation"
+        },
+        {
+          "id": "D",
+          "text": "conclusion"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Chemical emission' (sự thải ra hóa chất/khí thải)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Transformation: 'Although it was raining heavily, they went out.' -> 'Despite...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Despite the heavy rain, they went out."
+        },
+        {
+          "id": "B",
+          "text": "Despite it was raining heavily, they went out."
+        },
+        {
+          "id": "C",
+          "text": "Despite the rain was heavy, they went out."
+        },
+        {
+          "id": "D",
+          "text": "Despite of the heavy rain, they went out."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển mệnh đề 'it was raining heavily' thành cụm danh từ 'the heavy rain'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Identify mistake: 'If I studied last night, I would have passed the test.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "studied"
+        },
+        {
+          "id": "B",
+          "text": "last night"
+        },
+        {
+          "id": "C",
+          "text": "would have"
+        },
+        {
+          "id": "D",
+          "text": "passed"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện loại 3 (trái ngược quá khứ). Vế IF phải dùng Quá khứ hoàn thành. Sửa 'studied' thành 'had studied'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Opposite meaning: It is important to prevent culture 'assimilation'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "integration"
+        },
+        {
+          "id": "B",
+          "text": "mixture"
+        },
+        {
+          "id": "C",
+          "text": "separation"
+        },
+        {
+          "id": "D",
+          "text": "adoption"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Assimilation' (sự đồng hóa/hòa tan) có thể coi là trái nghĩa với 'separation' (sự tách biệt/giữ riêng biệt) trong ngữ cảnh này."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Strict laws have been introduced to stop the illegal ______ of ivory.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trade"
+        },
+        {
+          "id": "B",
+          "text": "buy"
+        },
+        {
+          "id": "C",
+          "text": "produce"
+        },
+        {
+          "id": "D",
+          "text": "make"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Illegal trade' (buôn bán bất hợp pháp)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "While I ______ along the street, I saw a terrible accident.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "walked"
+        },
+        {
+          "id": "B",
+          "text": "was walking"
+        },
+        {
+          "id": "C",
+          "text": "have walked"
+        },
+        {
+          "id": "D",
+          "text": "am walking"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động đang xảy ra (was walking) thì có hành động khác xen vào (saw). Dùng thì Quá khứ tiếp diễn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Print newspapers are becoming less popular as more people ______ on online news.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "believe"
+        },
+        {
+          "id": "B",
+          "text": "rely"
+        },
+        {
+          "id": "C",
+          "text": "trust"
+        },
+        {
+          "id": "D",
+          "text": "depend"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Rely on' (dựa vào/tin vào). 'Depend on' cũng đúng ngữ pháp nhưng 'rely on' hợp ngữ cảnh tin tức hơn. Tuy nhiên 'depend on' cũng chấp nhận được, nhưng trong bài Mass Media thường học 'rely on'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "By the year 2050, many species ______ if we don't act now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will disappear"
+        },
+        {
+          "id": "B",
+          "text": "will have disappeared"
+        },
+        {
+          "id": "C",
+          "text": "have disappeared"
+        },
+        {
+          "id": "D",
+          "text": "disappear"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dấu hiệu 'By + mốc thời gian tương lai' dùng thì Tương lai hoàn thành."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cultural ______ helps people understand each other better.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "shock"
+        },
+        {
+          "id": "B",
+          "text": "exchange"
+        },
+        {
+          "id": "C",
+          "text": "barrier"
+        },
+        {
+          "id": "D",
+          "text": "conflict"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Cultural exchange' (trao đổi văn hóa)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Closest meaning: Many animals are 'vulnerable' to habitat loss.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "safe"
+        },
+        {
+          "id": "B",
+          "text": "strong"
+        },
+        {
+          "id": "C",
+          "text": "susceptible"
+        },
+        {
+          "id": "D",
+          "text": "immune"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Vulnerable' (dễ bị tổn thương) đồng nghĩa với 'susceptible' (dễ bị ảnh hưởng)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Opposite meaning: Lifelong learning is 'compulsory' for keeping up with changes.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "mandatory"
+        },
+        {
+          "id": "B",
+          "text": "optional"
+        },
+        {
+          "id": "C",
+          "text": "necessary"
+        },
+        {
+          "id": "D",
+          "text": "required"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Compulsory' (bắt buộc) trái nghĩa với 'optional' (tùy chọn)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Wearing traditional ______ is a way to show pride in one's culture.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "customs"
+        },
+        {
+          "id": "B",
+          "text": "costumes"
+        },
+        {
+          "id": "C",
+          "text": "habits"
+        },
+        {
+          "id": "D",
+          "text": "behaviors"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Costumes' (trang phục). 'Customs' là phong tục."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "They decided ______ a new house in the suburbs.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "buying"
+        },
+        {
+          "id": "B",
+          "text": "buy"
+        },
+        {
+          "id": "C",
+          "text": "to buy"
+        },
+        {
+          "id": "D",
+          "text": "bought"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau động từ 'decide' dùng 'to V'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "The process of ______ has brought about many changes in the city's infrastructure.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "urban"
+        },
+        {
+          "id": "B",
+          "text": "urbanise"
+        },
+        {
+          "id": "C",
+          "text": "urbanisation"
+        },
+        {
+          "id": "D",
+          "text": "urbanity"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau giới từ 'of' cần một danh từ chỉ quá trình: 'urbanisation' (sự đô thị hóa)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "It is vital that the government ______ action to control urbanization.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "takes"
+        },
+        {
+          "id": "B",
+          "text": "taking"
+        },
+        {
+          "id": "C",
+          "text": "take"
+        },
+        {
+          "id": "D",
+          "text": "took"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giả định cách với tính từ 'vital' (thiết yếu). Động từ nguyên mẫu 'take'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Rhinos are driven to the ______ of extinction.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "edge"
+        },
+        {
+          "id": "B",
+          "text": "side"
+        },
+        {
+          "id": "C",
+          "text": "verge"
+        },
+        {
+          "id": "D",
+          "text": "point"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thành ngữ 'on the verge of extinction' hoặc 'driven to the verge of extinction' (bên bờ vực tuyệt chủng)."
+    }
+  ]
+}

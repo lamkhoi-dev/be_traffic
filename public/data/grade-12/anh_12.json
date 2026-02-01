@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Opposite meaning: It is a 'challenging' job, but very rewarding.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "difficult"
+        },
+        {
+          "id": "B",
+          "text": "easy"
+        },
+        {
+          "id": "C",
+          "text": "demanding"
+        },
+        {
+          "id": "D",
+          "text": "hard"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Challenging' (đầy thách thức/khó khăn) trái nghĩa với 'easy'."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cyberbullying is a form of bullying that happens ______ the internet.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "on"
+        },
+        {
+          "id": "D",
+          "text": "by"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dùng giới từ 'on' cho các phương tiện truyền thông: on the internet, on TV, on the radio."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Transformation: 'As I read more, I learn more.' -> 'The more...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The more I read, the more I learn."
+        },
+        {
+          "id": "B",
+          "text": "The more I read, the most I learn."
+        },
+        {
+          "id": "C",
+          "text": "The more read I, the more learn I."
+        },
+        {
+          "id": "D",
+          "text": "The most I read, the most I learn."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc so sánh kép chuẩn."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Transformation: '\"I will finish the report tomorrow,\" Tom said.' -> Tom said that...",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "he would finish the report the next day."
+        },
+        {
+          "id": "B",
+          "text": "he will finish the report tomorrow."
+        },
+        {
+          "id": "C",
+          "text": "he finished the report the next day."
+        },
+        {
+          "id": "D",
+          "text": "he would finish the report tomorrow."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lùi thì (will -> would) và đổi trạng từ (tomorrow -> the next day)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The ______ the city gets, the more crowded the streets become.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "large"
+        },
+        {
+          "id": "B",
+          "text": "larger"
+        },
+        {
+          "id": "C",
+          "text": "largest"
+        },
+        {
+          "id": "D",
+          "text": "more large"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: 'The + comparative (so sánh hơn), the + comparative'. (Thành phố càng lớn thì đường càng đông)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "______ I study, the more confused I get.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "More"
+        },
+        {
+          "id": "B",
+          "text": "The more"
+        },
+        {
+          "id": "C",
+          "text": "Most"
+        },
+        {
+          "id": "D",
+          "text": "The most"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The more... the more..."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Closest meaning: Don't 'give up' even if it gets difficult.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "continue"
+        },
+        {
+          "id": "B",
+          "text": "stop"
+        },
+        {
+          "id": "C",
+          "text": "try"
+        },
+        {
+          "id": "D",
+          "text": "start"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Give up' (từ bỏ) đồng nghĩa với 'stop' (dừng lại/bỏ cuộc)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Don't forget to log ______ of your account when you finish using the public computer.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "in"
+        },
+        {
+          "id": "B",
+          "text": "on"
+        },
+        {
+          "id": "C",
+          "text": "out"
+        },
+        {
+          "id": "D",
+          "text": "up"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Log out' (đăng xuất)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word(s) OPPOSITE in meaning to the underlined word: His 'achievements' in science are remarkable.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "successes"
+        },
+        {
+          "id": "B",
+          "text": "failures"
+        },
+        {
+          "id": "C",
+          "text": "feats"
+        },
+        {
+          "id": "D",
+          "text": "accomplishments"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Achievements' (thành tựu) trái nghĩa với 'failures' (thất bại). Các từ còn lại đều mang nghĩa tích cực."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Many people move to big cities in search of better ______ opportunities.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "employ"
+        },
+        {
+          "id": "B",
+          "text": "employment"
+        },
+        {
+          "id": "C",
+          "text": "employee"
+        },
+        {
+          "id": "D",
+          "text": "employer"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm danh từ 'employment opportunities' (cơ hội việc làm)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Opposite meaning: The job offers a 'stable' income.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "steady"
+        },
+        {
+          "id": "B",
+          "text": "secure"
+        },
+        {
+          "id": "C",
+          "text": "temporary"
+        },
+        {
+          "id": "D",
+          "text": "fixed"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Stable' (ổn định) trái nghĩa với 'temporary' (tạm thời/không ổn định)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "E-learning provides a ______ way for adults to continue education.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "flexible"
+        },
+        {
+          "id": "B",
+          "text": "rigid"
+        },
+        {
+          "id": "C",
+          "text": "hard"
+        },
+        {
+          "id": "D",
+          "text": "tough"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Flexible' (linh hoạt) là đặc điểm của học trực tuyến."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "He has been sleeping ______ 10 o'clock.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "since"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mốc thời gian (10 o'clock) dùng 'since'."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Voice ______ technology is used in many smartphones.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "recognition"
+        },
+        {
+          "id": "B",
+          "text": "realization"
+        },
+        {
+          "id": "C",
+          "text": "recommendation"
+        },
+        {
+          "id": "D",
+          "text": "revolution"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voice recognition' (nhận diện giọng nói)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "By the time you come back, the movie ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will start"
+        },
+        {
+          "id": "B",
+          "text": "will have started"
+        },
+        {
+          "id": "C",
+          "text": "has started"
+        },
+        {
+          "id": "D",
+          "text": "started"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tương tự câu 5, 'By the time + hiện tại đơn', mệnh đề chính dùng Tương lai hoàn thành."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Festivals help to strengthen the ______ of the community.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "solidarity"
+        },
+        {
+          "id": "B",
+          "text": "solitary"
+        },
+        {
+          "id": "C",
+          "text": "identity"
+        },
+        {
+          "id": "D",
+          "text": "personality"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Solidarity' (tinh thần đoàn kết)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Communication: Tom: 'Thank you for your help.' - Mary: '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "With all my heart"
+        },
+        {
+          "id": "B",
+          "text": "Never mind"
+        },
+        {
+          "id": "C",
+          "text": "You're welcome"
+        },
+        {
+          "id": "D",
+          "text": "It's my duty"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp lại lời cảm ơn trang trọng và phổ biến nhất là 'You're welcome'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "The ______ of the internet has changed the way we communicate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "advent"
+        },
+        {
+          "id": "B",
+          "text": "event"
+        },
+        {
+          "id": "C",
+          "text": "intent"
+        },
+        {
+          "id": "D",
+          "text": "adventurous"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The advent of...' là cụm từ cố định, nghĩa là 'sự ra đời/xuất hiện của...'."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Elephants are hunted for their ______ tusks.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ivory"
+        },
+        {
+          "id": "B",
+          "text": "gold"
+        },
+        {
+          "id": "C",
+          "text": "silver"
+        },
+        {
+          "id": "D",
+          "text": "wood"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Ivory' là ngà voi."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "organic"
+        },
+        {
+          "id": "B",
+          "text": "fossil"
+        },
+        {
+          "id": "C",
+          "text": "soot"
+        },
+        {
+          "id": "D",
+          "text": "global"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'soot' phát âm là /ʊ/ hoặc /u:/. Các đáp án còn lại chữ 'o' phát âm là /ɔ/ hoặc /əʊ/ (organic /ɔː/, fossil /ɒ/, global /əʊ/)."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập số 02",
+    "description": "Đề luyện tập trắc nghiệm Toán 12 bao gồm các chủ đề trọng tâm: Hàm số, Logarit, Tích phân và Hình học không gian.",
+    "duration": 40,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có đạo hàm $f'(x) = x(x-1)^2(x+2)$. Số điểm cực trị của hàm số là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đạo hàm bằng 0 tại $x=0, x=1, x=-2$. Tuy nhiên, qua $x=1$ đạo hàm không đổi dấu (nghiệm bội chẵn). Chỉ đổi dấu tại $x=0$ và $x=-2$. Vậy có 2 cực trị."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm giá trị nhỏ nhất của hàm số $y = \\frac{x^2 + 3}{x - 1}$ trên đoạn $[2; 4]$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "7" },
+        { "id": "C", "text": "19/3" },
+        { "id": "D", "text": "Min là -2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{2x(x-1) - (x^2+3)}{(x-1)^2} = \\frac{x^2 - 2x - 3}{(x-1)^2}$. $y'=0 \\Leftrightarrow x=-1$ (loại) hoặc $x=3$. Tính $y(2)=7, y(3)=6, y(4)=19/3 \\approx 6.33$. Min là 6."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số nào dưới đây có dạng như đường cong trong hình bên (dáng chữ N ngược)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = -x^3 + 3x + 1$" },
+        { "id": "B", "text": "$y = x^3 - 3x + 1$" },
+        { "id": "C", "text": "$y = -x^4 + 2x^2 + 1$" },
+        { "id": "D", "text": "$y = x^4 - 2x^2 + 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dáng đồ thị là hàm bậc 3. Nhánh cuối đi xuống nên hệ số $a < 0$. Chọn đáp án A ($a = -1$). Đáp án B có $a > 0$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tập nghiệm của bất phương trình $3^{x^2 - 13} < 27$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(-4; 4)$" },
+        { "id": "B", "text": "$(-\\infty; 4)$" },
+        { "id": "C", "text": "$(4; +\\infty)$" },
+        { "id": "D", "text": "$(-\\infty; -4) \\cup (4; +\\infty)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$3^{x^2 - 13} < 3^3 \\Leftrightarrow x^2 - 13 < 3 \\Leftrightarrow x^2 < 16 \\Leftrightarrow -4 < x < 4$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tính đạo hàm của hàm số $y = \\log_2(2x + 1)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{2}{(2x+1)\\ln 2}$" },
+        { "id": "B", "text": "$\\frac{1}{(2x+1)\\ln 2}$" },
+        { "id": "C", "text": "$\\frac{2}{2x+1}$" },
+        { "id": "D", "text": "$\\frac{1}{2x+1}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức $(\\log_a u)' = \\frac{u'}{u \\ln a}$. Với $u = 2x+1 \\Rightarrow u' = 2$. Vậy $y' = \\frac{2}{(2x+1)\\ln 2}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Nếu $\\int_{1}^{2} f(x) \\text{d}x = 3$ và $\\int_{1}^{2} [3f(x) - g(x)] \\text{d}x = 10$ thì $\\int_{1}^{2} g(x) \\text{d}x$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "-1" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "19" },
+        { "id": "D", "text": "-4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ta có $3\\int f(x) - \\int g(x) = 10 \\Rightarrow 3(3) - \\int g(x) = 10 \\Rightarrow 9 - \\int g(x) = 10 \\Rightarrow \\int g(x) = -1$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cho số phức $z = 2 - 3i$. Điểm biểu diễn số phức liên hợp $\\bar{z}$ trên mặt phẳng tọa độ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$M(2; 3)$" },
+        { "id": "B", "text": "$M(2; -3)$" },
+        { "id": "C", "text": "$M(-2; -3)$" },
+        { "id": "D", "text": "$M(-2; 3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = 2 - 3i \\Rightarrow \\bar{z} = 2 + 3i$. Điểm biểu diễn là $(2; 3)$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho mặt phẳng $(P): x - 2y + 2z - 1 = 0$. Khoảng cách từ điểm $M(1; -2; -3)$ đến $(P)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "$\\frac{2}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = \\frac{|1 - 2(-2) + 2(-3) - 1|}{\\sqrt{1^2 + (-2)^2 + 2^2}} = \\frac{|1 + 4 - 6 - 1|}{3} = \\frac{|-2|}{3} = \\frac{2}{3}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thể tích khối lăng trụ có diện tích đáy $B$ và chiều cao $h$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$V = Bh$" },
+        { "id": "B", "text": "$V = \\frac{1}{3}Bh$" },
+        { "id": "C", "text": "$V = 3Bh$" },
+        { "id": "D", "text": "$V = \\frac{1}{2}Bh$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức thể tích lăng trụ là $V = B.h$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một khối nón có bán kính đáy $r = 3$ và chiều cao $h = 4$. Độ dài đường sinh $l$ của khối nón là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "7" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "$\\sqrt{7}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$l = \\sqrt{r^2 + h^2} = \\sqrt{3^2 + 4^2} = 5$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Biết $F(x) = x^2$ là một nguyên hàm của hàm số $f(x)$ trên $\\mathbb{R}$. Giá trị của $\\int_{1}^{3} [2 + f(x)] \\text{d}x$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "12" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "14" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\int_{1}^{3} 2 \\text{d}x + \\int_{1}^{3} f(x) \\text{d}x = 2x\\Big|_1^3 + F(x)\\Big|_1^3 = 2(3-1) + (3^2 - 1^2) = 4 + 8 = 12$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, đường thẳng đi qua hai điểm $A(1; 2; -1)$ và $B(2; -1; 1)$ có vectơ chỉ phương là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{u} = (1; -3; 2)$" },
+        { "id": "B", "text": "$\\vec{u} = (1; 3; 2)$" },
+        { "id": "C", "text": "$\\vec{u} = (3; 1; 0)$" },
+        { "id": "D", "text": "$\\vec{u} = (-1; 3; -2)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AB} = (2-1; -1-2; 1-(-1)) = (1; -3; 2)$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tìm số phức $z$ thỏa mãn $z(2 - i) + 13i = 1$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$z = 3 - 2i$" },
+        { "id": "B", "text": "$z = -3 + 2i$" },
+        { "id": "C", "text": "$z = 3 + 2i$" },
+        { "id": "D", "text": "$z = -3 - 2i$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$z(2-i) = 1 - 13i \\Rightarrow z = \\frac{1 - 13i}{2 - i}$. Nhân liên hợp hoặc dùng máy tính: $z = -3 - 2i$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cho cấp số nhân $(u_n)$ với $u_1 = 3$ và công bội $q = 2$. Giá trị của $u_5$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "48" },
+        { "id": "B", "text": "96" },
+        { "id": "C", "text": "24" },
+        { "id": "D", "text": "15" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_5 = u_1 \\cdot q^{5-1} = 3 \\cdot 2^4 = 3 \\cdot 16 = 48$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Phương trình đường tiệm cận ngang của đồ thị hàm số $y = \\frac{3x + 2}{x - 1}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = 3$" },
+        { "id": "B", "text": "$x = 1$" },
+        { "id": "C", "text": "$y = 1$" },
+        { "id": "D", "text": "$x = 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận ngang là $y = \\frac{a}{c} = \\frac{3}{1} = 3$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho hình chóp $S.ABCD$ có đáy là hình vuông cạnh $a$, $SA \\perp (ABCD)$ và $SA = a\\sqrt{2}$. Góc giữa đường thẳng $SC$ và mặt phẳng $(ABCD)$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$45^\\circ$" },
+        { "id": "B", "text": "$60^\\circ$" },
+        { "id": "C", "text": "$30^\\circ$" },
+        { "id": "D", "text": "$90^\\circ$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hình chiếu của $S$ là $A$. Góc là $\\widehat{SCA}$. $AC = a\\sqrt{2}$. $\\tan(\\widehat{SCA}) = \\frac{SA}{AC} = \\frac{a\\sqrt{2}}{a\\sqrt{2}} = 1 \\Rightarrow$ góc $45^\\circ$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt cầu tâm $I(1; 2; 3)$ và tiếp xúc với mặt phẳng $(Oxy)$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(x-1)^2 + (y-2)^2 + (z-3)^2 = 9$" },
+        { "id": "B", "text": "$(x-1)^2 + (y-2)^2 + (z-3)^2 = 4$" },
+        { "id": "C", "text": "$(x-1)^2 + (y-2)^2 + (z-3)^2 = 1$" },
+        { "id": "D", "text": "$(x-1)^2 + (y-2)^2 + (z-3)^2 = 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$. Khoảng cách từ $I$ đến $(Oxy)$ là $|z_I| = 3$. Vậy $R = 3 \\Rightarrow R^2 = 9$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^4 - 2mx^2 + m$. Tìm $m$ để hàm số có 3 điểm cực trị.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m > 0$" },
+        { "id": "B", "text": "$m < 0$" },
+        { "id": "C", "text": "$m \\ge 0$" },
+        { "id": "D", "text": "$m = 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hàm trùng phương có 3 cực trị khi $a \\cdot b < 0 \\Leftrightarrow 1 \\cdot (-2m) < 0 \\Leftrightarrow -2m < 0 \\Leftrightarrow m > 0$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi các đường $y = e^x$, $y = 0$, $x = 0$ và $x = 1$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$e - 1$" },
+        { "id": "B", "text": "$e$" },
+        { "id": "C", "text": "$e + 1$" },
+        { "id": "D", "text": "$1 - e$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S = \\int_{0}^{1} |e^x| \\text{d}x = \\int_{0}^{1} e^x \\text{d}x = e^x \\Big|_0^1 = e - 1$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Gieo một con súc sắc cân đối và đồng chất hai lần. Xác suất để tổng số chấm trong hai lần gieo bằng 7 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{6}$" },
+        { "id": "B", "text": "$\\frac{1}{12}$" },
+        { "id": "C", "text": "$\\frac{1}{9}$" },
+        { "id": "D", "text": "$\\frac{5}{36}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Không gian mẫu $n(\\Omega) = 36$. Các cặp tổng bằng 7: $(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)$. Có 6 cặp. $P = \\frac{6}{36} = \\frac{1}{6}$."
+    }
+  ]
+}

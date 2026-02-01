@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Các vị thần Hy Lạp thường được mô tả như thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình dáng quái vật đáng sợ."
+        },
+        {
+          "id": "B",
+          "text": "Hình dáng và tính cách giống con người (nhưng bất tử)."
+        },
+        {
+          "id": "C",
+          "text": "Vô hình, không có hình dạng."
+        },
+        {
+          "id": "D",
+          "text": "Là các loài động vật."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần thoại Hy Lạp mang tính nhân bản sâu sắc (thần cũng có cảm xúc yêu ghét như người)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Thần Mặt Trời - vị thần tối cao của Ai Cập cổ đại tên là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Zeus."
+        },
+        {
+          "id": "B",
+          "text": "Ra (hoặc Amun-Ra)."
+        },
+        {
+          "id": "C",
+          "text": "Osiris."
+        },
+        {
+          "id": "D",
+          "text": "Poseidon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần Ra là thần Mặt Trời."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nguyên tắc cơ bản quan trọng hàng đầu của Sử học là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "khách quan."
+        },
+        {
+          "id": "B",
+          "text": "chủ quan."
+        },
+        {
+          "id": "C",
+          "text": "định kiến."
+        },
+        {
+          "id": "D",
+          "text": "cảm tính."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhà sử học phải tôn trọng sự thật khách quan."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đại hội thể thao Ô-lim-pic (Olympic) bắt nguồn từ quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "La Mã."
+        },
+        {
+          "id": "B",
+          "text": "Hy Lạp."
+        },
+        {
+          "id": "C",
+          "text": "Ai Cập."
+        },
+        {
+          "id": "D",
+          "text": "Trung Quốc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Olympic ra đời tại đền thờ thần Zeus ở Olympia, Hy Lạp."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tiểu thuyết 'Tam quốc diễn nghĩa' là tác phẩm của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "La Quán Trung."
+        },
+        {
+          "id": "B",
+          "text": "Thi Nại Am."
+        },
+        {
+          "id": "C",
+          "text": "Ngô Thừa Ân."
+        },
+        {
+          "id": "D",
+          "text": "Tào Tuyết Cần."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Một trong Tứ đại danh tác của văn học Minh - Thanh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sự kiện: 'Năm 938, Ngô Quyền đánh bại quân Nam Hán'. Đây là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện thực lịch sử."
+        },
+        {
+          "id": "B",
+          "text": "Nhận thức lịch sử."
+        },
+        {
+          "id": "C",
+          "text": "Giả thuyết lịch sử."
+        },
+        {
+          "id": "D",
+          "text": "Truyền thuyết."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là một sự kiện có thật đã diễn ra."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Thích Ca Mâu Ni (Siddhartha Gautama) xuất thân từ đẳng cấp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bà La Môn (Tăng lữ)."
+        },
+        {
+          "id": "B",
+          "text": "Sa-tri-a (Vua chúa, võ tướng)."
+        },
+        {
+          "id": "C",
+          "text": "Vai-si-a (Thương nhân)."
+        },
+        {
+          "id": "D",
+          "text": "Su-đra (Nô lệ)."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đức Phật là hoàng tử con vua Tịnh Phạn, thuộc dòng dõi chiến binh/quý tộc (Kshatriya)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Câu nói 'Dù sao Trái Đất vẫn quay' là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Brunô."
+        },
+        {
+          "id": "B",
+          "text": "Ga-li-lê."
+        },
+        {
+          "id": "C",
+          "text": "Cô-péc-ních."
+        },
+        {
+          "id": "D",
+          "text": "Kepler."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ga-li-lê đã thốt lên câu này trước tòa án dị giáo."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Yếu tố nào sau đây là 'Hiện thực lịch sử'?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sách Đại Việt sử ký toàn thư."
+        },
+        {
+          "id": "B",
+          "text": "Chiến thắng Điện Biên Phủ năm 1954."
+        },
+        {
+          "id": "C",
+          "text": "Bộ phim về vua Lý Công Uẩn."
+        },
+        {
+          "id": "D",
+          "text": "Bài văn tế nghĩa sĩ Cần Giuộc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Điện Biên Phủ là sự kiện đã thực sự xảy ra (hiện thực). Các phương án còn lại là sự ghi chép, tái hiện (nhận thức)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tiêu chuẩn nào KHÔNG phải là dấu hiệu nhận biết văn minh?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có nhà nước."
+        },
+        {
+          "id": "B",
+          "text": "Có chữ viết."
+        },
+        {
+          "id": "C",
+          "text": "Có đô thị."
+        },
+        {
+          "id": "D",
+          "text": "Sống trong hang động, hái lượm."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sống trong hang động là thời kỳ nguyên thủy (dã man), chưa có văn minh."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Di sản văn hóa là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tài sản của riêng các nhà sử học."
+        },
+        {
+          "id": "B",
+          "text": "Những sản phẩm vật chất và tinh thần có giá trị lịch sử, văn hóa."
+        },
+        {
+          "id": "C",
+          "text": "Những công trình xây dựng hiện đại."
+        },
+        {
+          "id": "D",
+          "text": "Tài nguyên thiên nhiên chưa được khai thác."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa về di sản văn hóa (bao gồm vật thể và phi vật thể)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nhà thiên văn học nào đã đưa ra 'Thuyết Nhật tâm' (Mặt Trời là trung tâm), chống lại quan điểm của Giáo hội?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Niu-tơn."
+        },
+        {
+          "id": "B",
+          "text": "Cô-péc-ních (Copernicus)."
+        },
+        {
+          "id": "C",
+          "text": "Đác-uyn."
+        },
+        {
+          "id": "D",
+          "text": "Anh-xtanh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Copernicus khẳng định Trái Đất quay quanh Mặt Trời, mở đầu cách mạng thiên văn học."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Yếu tố cốt lõi để thu hút khách du lịch văn hóa là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "giá rẻ."
+        },
+        {
+          "id": "B",
+          "text": "sự độc đáo và giá trị lịch sử của di sản."
+        },
+        {
+          "id": "C",
+          "text": "khách sạn sang trọng."
+        },
+        {
+          "id": "D",
+          "text": "đồ ăn ngon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nguyên bản và giá trị lịch sử là sức hút chính."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Văn hóa Phục hưng đã mở đường cho",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự sụp đổ hoàn toàn của châu Âu."
+        },
+        {
+          "id": "B",
+          "text": "Các cuộc cách mạng tư sản và sự phát triển của khoa học."
+        },
+        {
+          "id": "C",
+          "text": "Chế độ phong kiến củng cố vững chắc hơn."
+        },
+        {
+          "id": "D",
+          "text": "Sự thống trị của Hồi giáo."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là cuộc cách mạng tư tưởng dọn đường cho biến đổi chính trị - xã hội sau này."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Công trình kiến trúc quân sự vĩ đại nhất của Trung Hoa cổ đại là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tử Cấm Thành."
+        },
+        {
+          "id": "B",
+          "text": "Vạn Lý Trường Thành."
+        },
+        {
+          "id": "C",
+          "text": "Di Hòa Viên."
+        },
+        {
+          "id": "D",
+          "text": "Lăng mộ Tần Thủy Hoàng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vạn Lý Trường Thành xây dựng để ngăn chặn sự xâm lược của các tộc người phương Bắc."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nội dung chính của thuyết 'Luân hồi' trong tư tưởng Ấn Độ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chết là hết."
+        },
+        {
+          "id": "B",
+          "text": "Linh hồn con người trải qua nhiều kiếp sống khác nhau."
+        },
+        {
+          "id": "C",
+          "text": "Con người sinh ra do Chúa tạo nên."
+        },
+        {
+          "id": "D",
+          "text": "Số phận con người do các vì sao quyết định."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Luân hồi (Samsara) là vòng tròn sinh tử liên tục."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất về mặt xã hội của CMCN 4.0 là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiếu lương thực."
+        },
+        {
+          "id": "B",
+          "text": "Nguy cơ thất nghiệp cho lao động trình độ thấp và vấn đề bảo mật."
+        },
+        {
+          "id": "C",
+          "text": "Dư thừa năng lượng."
+        },
+        {
+          "id": "D",
+          "text": "Không có điện thoại để dùng."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy móc, AI thay thế con người trong nhiều công việc lặp lại."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tư tưởng chủ đạo của văn hóa Phục hưng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thần học (đề cao Thần thánh)."
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa nhân văn (đề cao con người)."
+        },
+        {
+          "id": "C",
+          "text": "Chủ nghĩa khắc kỷ."
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa xã hội."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chủ nghĩa nhân văn đề cao giá trị, vẻ đẹp và quyền tự do của con người."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Vì sao nhận thức lịch sử thường không thể tái hiện đầy đủ hiện thực lịch sử?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vì hiện thực lịch sử quá đơn giản."
+        },
+        {
+          "id": "B",
+          "text": "Vì phụ thuộc vào nhu cầu và năng lực của người tìm hiểu."
+        },
+        {
+          "id": "C",
+          "text": "Vì lịch sử không bao giờ thay đổi."
+        },
+        {
+          "id": "D",
+          "text": "Vì con người không quan tâm đến quá khứ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức bị chi phối bởi nguồn sử liệu, góc nhìn, phương pháp của người nghiên cứu."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lịch sử được hiểu là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "những gì sẽ diễn ra trong tương lai."
+        },
+        {
+          "id": "B",
+          "text": "tất cả những gì đã diễn ra trong quá khứ."
+        },
+        {
+          "id": "C",
+          "text": "những truyền thuyết, cổ tích dân gian."
+        },
+        {
+          "id": "D",
+          "text": "sự tưởng tượng của con người về quá khứ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lịch sử là tất cả những gì đã diễn ra trong quá khứ."
+    }
+  ]
+}

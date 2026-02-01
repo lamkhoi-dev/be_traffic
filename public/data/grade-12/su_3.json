@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 3: Mỹ, Tây Âu, Nhật Bản & QHQT",
+    "description": "Kiểm tra kiến thức về 3 trung tâm kinh tế - tài chính lớn, Chiến tranh lạnh và Xu thế toàn cầu hóa.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh thế giới thứ hai, quốc gia nào trở thành trung tâm kinh tế - tài chính lớn nhất thế giới?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhật Bản" },
+        { "id": "B", "text": "Mỹ" },
+        { "id": "C", "text": "Anh" },
+        { "id": "D", "text": "Liên Xô" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mỹ chiếm hơn 50% sản lượng công nghiệp thế giới thời điểm đó."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Kế hoạch Mác-san (1947) của Mỹ nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giúp các nước Tây Âu phục hồi kinh tế và lôi kéo đồng minh" },
+        { "id": "B", "text": "Giúp các nước châu Á phát triển" },
+        { "id": "C", "text": "Chuẩn bị tấn công Liên Xô" },
+        { "id": "D", "text": "Thành lập khối NATO" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Viện trợ kinh tế để phục hồi Tây Âu, qua đó khống chế các nước này."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự khởi đầu của Chiến tranh lạnh?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thông điệp của Tổng thống Tru-man (1947)" },
+        { "id": "B", "text": "Sự ra đời của NATO" },
+        { "id": "C", "text": "Kế hoạch Mác-san" },
+        { "id": "D", "text": "Sự ra đời của khối Vác-sa-va" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thông điệp Tru-man tại Quốc hội Mỹ (3/1947) khẳng định sự tồn tại đe dọa của CNCS, khởi đầu Chiến tranh lạnh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nguyên nhân khách quan quan trọng giúp kinh tế Nhật Bản phát triển thần kỳ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Con người Nhật Bản cần cù" },
+        { "id": "B", "text": "Vai trò điều tiết của nhà nước" },
+        { "id": "C", "text": "Tận dụng tốt các điều kiện bên ngoài (viện trợ, chiến tranh Triều Tiên, VN)" },
+        { "id": "D", "text": "Chi phí quốc phòng thấp" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tận dụng nguồn vốn, kỹ thuật nước ngoài và các cuộc chiến tranh để bán hàng là nguyên nhân khách quan."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Liên minh châu Âu (EU) ra đời nhằm mục đích:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hợp tác liên minh về kinh tế, tiền tệ và chính trị" },
+        { "id": "B", "text": "Chống lại Liên Xô" },
+        { "id": "C", "text": "Cạnh tranh quân sự với Mỹ" },
+        { "id": "D", "text": "Thống nhất châu Âu thành một quốc gia" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ cộng đồng kinh tế tiến tới liên minh toàn diện về kinh tế, chính trị, đối ngoại."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đặc điểm nổi bật của quan hệ quốc tế từ sau Chiến tranh thế giới thứ hai đến đầu những năm 90 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hòa bình, hợp tác" },
+        { "id": "B", "text": "Đối đầu gay gắt giữa hai phe TBCN và XHCN (Chiến tranh lạnh)" },
+        { "id": "C", "text": "Xung đột sắc tộc, tôn giáo" },
+        { "id": "D", "text": "Chạy đua vũ trang hạt nhân" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh lạnh chi phối toàn bộ quan hệ quốc tế giai đoạn này."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tổ chức liên kết kinh tế - chính trị lớn nhất hành tinh hiện nay là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ASEAN" },
+        { "id": "B", "text": "EU" },
+        { "id": "C", "text": "WTO" },
+        { "id": "D", "text": "NAFTA" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên minh châu Âu (EU)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng khoa học - kỹ thuật hiện đại có nguồn gốc từ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Yêu cầu của cuộc sống và sản xuất" },
+        { "id": "B", "text": "Do chiến tranh thế giới" },
+        { "id": "C", "text": "Do sự bùng nổ dân số" },
+        { "id": "D", "text": "Do sự vơi cạn tài nguyên" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi cuộc cách mạng đều xuất phát từ nhu cầu thực tiễn của cuộc sống và sản xuất."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Xu thế toàn cầu hóa là hệ quả của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cuộc cách mạng khoa học - công nghệ" },
+        { "id": "B", "text": "Sự phát triển của các công ty xuyên quốc gia" },
+        { "id": "C", "text": "Sự kết thúc Chiến tranh lạnh" },
+        { "id": "D", "text": "Sự ra đời của Liên Hợp Quốc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "CM KH-CN tạo điều kiện vật chất và phương tiện cho toàn cầu hóa (internet, giao thông...)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Chính sách đối ngoại xuyên suốt của Mỹ sau CTTG II là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến lược \"Cam kết và mở rộng\"" },
+        { "id": "B", "text": "Triển khai \"Chiến lược toàn cầu\" nhằm làm bá chủ thế giới" },
+        { "id": "C", "text": "Chính sách láng giềng thân thiện" },
+        { "id": "D", "text": "Hợp tác với tất cả các nước" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mục tiêu bao trùm là làm bá chủ thế giới."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hiệp ước Vác-sa-va là tổ chức liên minh về:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kinh tế của các nước XHCN" },
+        { "id": "B", "text": "Chính trị và quân sự của các nước XHCN" },
+        { "id": "C", "text": "Văn hóa của Đông Âu" },
+        { "id": "D", "text": "Khoa học kỹ thuật" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đối trọng với NATO (quân sự) của phương Tây."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu Chiến tranh lạnh chấm dứt?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cuộc gặp gỡ tại Đảo Man-ta (12/1989)" },
+        { "id": "B", "text": "Liên Xô tan rã (1991)" },
+        { "id": "C", "text": "Định ước Hen-xin-ki (1975)" },
+        { "id": "D", "text": "Bức tường Béc-lin sụp đổ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tháng 12/1989, Gooc-ba-chốp và Bu-sơ (cha) tuyên bố chấm dứt Chiến tranh lạnh tại Man-ta."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đồng tiền chung châu Âu (EURO) chính thức được sử dụng năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1999" },
+        { "id": "B", "text": "2000" },
+        { "id": "C", "text": "2002" },
+        { "id": "D", "text": "1995" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Năm 1999 phát hành, năm 2002 chính thức sử dụng tiền mặt."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh lạnh, thế giới phát triển theo xu thế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đơn cực" },
+        { "id": "B", "text": "Đa cực, nhiều trung tâm" },
+        { "id": "C", "text": "Hai cực" },
+        { "id": "D", "text": "Chiến tranh hạt nhân" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trật tự đa cực đang hình thành (Mỹ, EU, Nhật, Nga, Trung Quốc...)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Biểu hiện nào dưới đây **không** phản ánh xu thế toàn cầu hóa?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự phát triển của quan hệ thương mại quốc tế" },
+        { "id": "B", "text": "Sự sáp nhập các công ty thành tập đoàn lớn" },
+        { "id": "C", "text": "Sự ra đời của các tổ chức liên kết kinh tế" },
+        { "id": "D", "text": "Sự xung đột sắc tộc và tôn giáo" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Xung đột sắc tộc là vấn đề mâu thuẫn, không phải biểu hiện của liên kết toàn cầu hóa."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nhân tố hàng đầu thúc đẩy sự phát triển kinh tế của Mỹ, Tây Âu, Nhật Bản sau chiến tranh là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Áp dụng thành tựu khoa học - kỹ thuật" },
+        { "id": "B", "text": "Tài nguyên thiên nhiên phong phú" },
+        { "id": "C", "text": "Nhân công giá rẻ" },
+        { "id": "D", "text": "Lãnh thổ rộng lớn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khoa học kỹ thuật là nhân tố quyết định nhất (năng suất lao động)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sau CTTG II, Nhật Bản thực hiện chính sách đối ngoại như thế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Liên minh chặt chẽ với Mỹ" },
+        { "id": "B", "text": "Độc lập, tự chủ hoàn toàn" },
+        { "id": "C", "text": "Hợp tác với Liên Xô" },
+        { "id": "D", "text": "Hướng về châu Á" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ký Hiệp ước an ninh Mỹ - Nhật, núp dưới bóng ô bảo trợ hạt nhân của Mỹ."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thành tựu quan trọng nhất của cuộc cách mạng khoa học kỹ thuật là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát minh ra máy tính điện tử" },
+        { "id": "B", "text": "Tìm ra các nguồn năng lượng mới" },
+        { "id": "C", "text": "Chinh phục vũ trụ" },
+        { "id": "D", "text": "Cách mạng xanh" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy tính điện tử là phát minh then chốt thay đổi mọi mặt."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nét nổi bật của quan hệ quốc tế sau sự kiện 11/9/2001 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hòa bình ổn định hoàn toàn" },
+        { "id": "B", "text": "Chủ nghĩa khủng bố xuất hiện và đe dọa an ninh thế giới" },
+        { "id": "C", "text": "Sự thỏa hiệp giữa các nước lớn" },
+        { "id": "D", "text": "Chiến tranh lạnh quay trở lại" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện 11/9 đặt thế giới trước thách thức của chủ nghĩa khủng bố."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Khối quân sự NATO do Mỹ cầm đầu thành lập năm 1949 nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chống lại Liên Xô và các nước XHCN Đông Âu" },
+        { "id": "B", "text": "Giìn giữ hòa bình châu Âu" },
+        { "id": "C", "text": "Phát triển kinh tế" },
+        { "id": "D", "text": "Chống khủng bố" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "NATO là liên minh quân sự lớn nhất của phương Tây chống lại phe XHCN."
+    }
+  ]
+}

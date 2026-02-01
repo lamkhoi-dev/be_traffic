@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Chữ viết cổ nhất của người Ấn Độ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chữ Hán."
+        },
+        {
+          "id": "B",
+          "text": "Chữ Phạn (Sanskrit) và chữ Bra-hmi."
+        },
+        {
+          "id": "C",
+          "text": "Chữ Latinh."
+        },
+        {
+          "id": "D",
+          "text": "Chữ Nôm."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chữ Phạn là văn tự cổ điển, dùng để viết các bộ kinh Veda."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nguồn sử liệu nào sau đây được coi là tin cậy nhất để khôi phục sự kiện?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử liệu truyền miệng."
+        },
+        {
+          "id": "B",
+          "text": "Sử liệu gốc."
+        },
+        {
+          "id": "C",
+          "text": "Phim ảnh hư cấu."
+        },
+        {
+          "id": "D",
+          "text": "Tiểu thuyết lịch sử."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử liệu gốc ra đời vào thời điểm xảy ra sự kiện, phản ánh trực tiếp sự kiện."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Hệ quả xã hội quan trọng nhất của các cuộc cách mạng công nghiệp thời cận đại là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình thành hai giai cấp cơ bản: Tư sản và Vô sản."
+        },
+        {
+          "id": "B",
+          "text": "Nông dân trở nên giàu có."
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ hoàn toàn chế độ phong kiến."
+        },
+        {
+          "id": "D",
+          "text": "Con người không cần làm việc nữa."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Xã hội phân hóa thành giai cấp làm chủ tư liệu sản xuất (Tư sản) và giai cấp làm thuê (Vô sản)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Để khôi phục lại diện mạo của các thành cổ đã bị vùi lấp, nhà sử học cần",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trí tưởng tượng phong phú."
+        },
+        {
+          "id": "B",
+          "text": "sự hỗ trợ của Kiến trúc và Khảo cổ học."
+        },
+        {
+          "id": "C",
+          "text": "các nhà văn viết tiểu thuyết."
+        },
+        {
+          "id": "D",
+          "text": "các nhà kinh tế."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kiến trúc và khảo cổ giúp tái dựng chính xác cấu trúc vật chất."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chiếc ô tô đầu tiên chạy bằng động cơ đốt trong được chế tạo bởi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các Ben (Karl Benz)."
+        },
+        {
+          "id": "B",
+          "text": "Hen-ry Pho (Ford)."
+        },
+        {
+          "id": "C",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "D",
+          "text": "Giêm Oát."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Karl Benz (người Đức) chế tạo chiếc xe hơi 3 bánh đầu tiên năm 1886."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mối quan hệ giữa Sử học và các ngành khoa học xã hội nhân văn là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "đối kháng, bài trừ lẫn nhau."
+        },
+        {
+          "id": "B",
+          "text": "quan hệ tương tác, hỗ trợ hai chiều."
+        },
+        {
+          "id": "C",
+          "text": "Sử học phụ thuộc hoàn toàn vào các ngành khác."
+        },
+        {
+          "id": "D",
+          "text": "Các ngành khác phụ thuộc hoàn toàn vào Sử học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp bối cảnh cho các ngành khác, ngược lại các ngành khác cung cấp tư liệu, phương pháp cho Sử học."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Khi nghiên cứu về các cuộc chiến tranh, Sử học cần kiến thức của ngành nào để hiểu về vũ khí, chiến thuật?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khoa học Quân sự."
+        },
+        {
+          "id": "B",
+          "text": "Văn học."
+        },
+        {
+          "id": "C",
+          "text": "Âm nhạc."
+        },
+        {
+          "id": "D",
+          "text": "Sinh học."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khoa học quân sự cung cấp chuyên môn về kỹ thuật tác chiến."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Câu nói 'Dù sao Trái Đất vẫn quay' là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Brunô."
+        },
+        {
+          "id": "B",
+          "text": "Ga-li-lê."
+        },
+        {
+          "id": "C",
+          "text": "Cô-péc-ních."
+        },
+        {
+          "id": "D",
+          "text": "Kepler."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ga-li-lê đã thốt lên câu này trước tòa án dị giáo."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tại sao văn minh Hy Lạp - La Mã được coi là cơ sở của văn minh phương Tây hiện đại?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vì họ giàu có nhất."
+        },
+        {
+          "id": "B",
+          "text": "Vì những đóng góp nền tảng về luật pháp, triết học, chính trị, chữ viết."
+        },
+        {
+          "id": "C",
+          "text": "Vì họ có quân đội mạnh nhất."
+        },
+        {
+          "id": "D",
+          "text": "Vì họ phát hiện ra Châu Mỹ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Những giá trị này định hình nên xã hội phương Tây ngày nay."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Yếu tố nào sau đây là 'Hiện thực lịch sử'?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sách Đại Việt sử ký toàn thư."
+        },
+        {
+          "id": "B",
+          "text": "Chiến thắng Điện Biên Phủ năm 1954."
+        },
+        {
+          "id": "C",
+          "text": "Bộ phim về vua Lý Công Uẩn."
+        },
+        {
+          "id": "D",
+          "text": "Bài văn tế nghĩa sĩ Cần Giuộc."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Điện Biên Phủ là sự kiện đã thực sự xảy ra (hiện thực). Các phương án còn lại là sự ghi chép, tái hiện (nhận thức)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Các vị thần Hy Lạp thường được mô tả như thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hình dáng quái vật đáng sợ."
+        },
+        {
+          "id": "B",
+          "text": "Hình dáng và tính cách giống con người (nhưng bất tử)."
+        },
+        {
+          "id": "C",
+          "text": "Vô hình, không có hình dạng."
+        },
+        {
+          "id": "D",
+          "text": "Là các loài động vật."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần thoại Hy Lạp mang tính nhân bản sâu sắc (thần cũng có cảm xúc yêu ghét như người)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Vật liệu xây dựng đặc biệt mà người La Mã phát minh ra, giúp các công trình bền vững ngàn năm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gạch nung."
+        },
+        {
+          "id": "B",
+          "text": "Bê tông tự nhiên."
+        },
+        {
+          "id": "C",
+          "text": "Thép không gỉ."
+        },
+        {
+          "id": "D",
+          "text": "Kính cường lực."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bê tông La Mã (trộn tro núi lửa) cực kỳ bền chắc."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ ba bắt đầu vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đầu thế kỷ XX."
+        },
+        {
+          "id": "B",
+          "text": "Những năm 40 của thế kỷ XX (Gắn với máy tính điện tử)."
+        },
+        {
+          "id": "C",
+          "text": "Năm 2000."
+        },
+        {
+          "id": "D",
+          "text": "Năm 2011."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khởi đầu từ Mỹ với sự ra đời của máy tính điện tử ENIAC (1946)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nhà thiên văn học nào đã đưa ra 'Thuyết Nhật tâm' (Mặt Trời là trung tâm), chống lại quan điểm của Giáo hội?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Niu-tơn."
+        },
+        {
+          "id": "B",
+          "text": "Cô-péc-ních (Copernicus)."
+        },
+        {
+          "id": "C",
+          "text": "Đác-uyn."
+        },
+        {
+          "id": "D",
+          "text": "Anh-xtanh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Copernicus khẳng định Trái Đất quay quanh Mặt Trời, mở đầu cách mạng thiên văn học."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nhận thức lịch sử là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Là chính bản thân các sự kiện đã diễn ra."
+        },
+        {
+          "id": "B",
+          "text": "Là những hiểu biết, tri thức của con người về quá khứ."
+        },
+        {
+          "id": "C",
+          "text": "Là sự tái hiện nguyên vẹn 100% quá khứ."
+        },
+        {
+          "id": "D",
+          "text": "Là những sự kiện lịch sử chưa từng được ghi chép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức lịch sử mang tính chủ quan, phụ thuộc vào người nghiên cứu."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Sự kiện: 'Năm 938, Ngô Quyền đánh bại quân Nam Hán'. Đây là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện thực lịch sử."
+        },
+        {
+          "id": "B",
+          "text": "Nhận thức lịch sử."
+        },
+        {
+          "id": "C",
+          "text": "Giả thuyết lịch sử."
+        },
+        {
+          "id": "D",
+          "text": "Truyền thuyết."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là một sự kiện có thật đã diễn ra."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Học thuyết 'Pháp gia' chủ trương dùng gì để cai trị đất nước?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dùng đức trị (đạo đức)."
+        },
+        {
+          "id": "B",
+          "text": "Dùng luật pháp nghiêm minh và hình phạt nặng."
+        },
+        {
+          "id": "C",
+          "text": "Dùng tình yêu thương (kiêm ái)."
+        },
+        {
+          "id": "D",
+          "text": "Để tự nhiên (vô vi)."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháp gia do Hàn Phi Tử khởi xướng, được Tần Thủy Hoàng áp dụng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Để quảng bá du lịch Việt Nam, chúng ta cần khai thác yếu tố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bề dày lịch sử và văn hóa truyền thống."
+        },
+        {
+          "id": "B",
+          "text": "Công nghệ nhập khẩu."
+        },
+        {
+          "id": "C",
+          "text": "Các tòa nhà chọc trời."
+        },
+        {
+          "id": "D",
+          "text": "Các sản phẩm ngoại nhập."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lịch sử văn hóa là thế mạnh độc đáo của du lịch Việt Nam."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Đối tượng nghiên cứu của Sử học mang tính",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "toàn diện và đa dạng."
+        },
+        {
+          "id": "B",
+          "text": "hẹp hòi và cục bộ."
+        },
+        {
+          "id": "C",
+          "text": "tức thời và ngắn hạn."
+        },
+        {
+          "id": "D",
+          "text": "trừu tượng và phi thực tế."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử học nghiên cứu mọi mặt của đời sống xã hội loài người trong quá khứ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Người Ai Cập đã tính được số Pi (π) bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3,16."
+        },
+        {
+          "id": "B",
+          "text": "3,14."
+        },
+        {
+          "id": "C",
+          "text": "3,00."
+        },
+        {
+          "id": "D",
+          "text": "3,5."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính xác là khoảng 3.1605 (gần đúng)."
+    }
+  ]
+}

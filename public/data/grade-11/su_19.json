@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Chính sách văn hóa - giáo dục của thực dân phương Tây chủ yếu nhằm mục đích:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nâng cao dân trí"
+        },
+        {
+          "id": "B",
+          "text": "Nô dịch tinh thần, đào tạo lớp người làm tay sai"
+        },
+        {
+          "id": "C",
+          "text": "Bảo tồn văn hóa bản địa"
+        },
+        {
+          "id": "D",
+          "text": "Phổ cập giáo dục đại học"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thực hiện chính sách ngu dân, khuyến khích văn hóa đồi trụy để dễ cai trị."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "D",
+          "text": "Xin-ga-po"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Vai trò của Nhà nước trong chủ nghĩa tư bản hiện đại là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không can thiệp vào kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Điều tiết và quản lý nền kinh tế vĩ mô"
+        },
+        {
+          "id": "C",
+          "text": "Sở hữu toàn bộ tư liệu sản xuất"
+        },
+        {
+          "id": "D",
+          "text": "Xóa bỏ hoàn toàn kinh tế tư nhân"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhà nước tư sản hiện đại can thiệp để giảm thiểu khủng hoảng và điều hòa xã hội."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Các nước Đông Âu hoàn thành cách mạng dân chủ nhân dân và bước vào xây dựng CNXH trong khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1945 - 1949"
+        },
+        {
+          "id": "B",
+          "text": "1950 - 1970"
+        },
+        {
+          "id": "C",
+          "text": "1939 - 1945"
+        },
+        {
+          "id": "D",
+          "text": "1970 - 1980"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giai đoạn 1945-1949 là giai đoạn củng cố chính quyền và hoàn thành nhiệm vụ dân chủ nhân dân."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nhiệm vụ dân tộc của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xóa bỏ tình trạng phong kiến cát cứ, thống nhất thị trường, giải phóng dân tộc"
+        },
+        {
+          "id": "B",
+          "text": "Xóa bỏ chế độ bóc lột của tư bản"
+        },
+        {
+          "id": "C",
+          "text": "Thiết lập nền chuyên chính vô sản"
+        },
+        {
+          "id": "D",
+          "text": "Thực hiện quyền bình đẳng nam nữ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhiệm vụ dân tộc là thống nhất đất nước hoặc giải phóng dân tộc khỏi ách đô hộ (như ở Mỹ)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khởi nghĩa Lam Sơn (1418-1427) do ai lãnh đạo?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lê Hoàn"
+        },
+        {
+          "id": "B",
+          "text": "Lê Lợi"
+        },
+        {
+          "id": "C",
+          "text": "Nguyễn Trãi"
+        },
+        {
+          "id": "D",
+          "text": "Nguyễn Huệ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lê Lợi dựng cờ khởi nghĩa tại Lam Sơn (Thanh Hóa) chống quân Minh."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tính chất chưa triệt để của Cách mạng tư sản Anh thể hiện ở chỗ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vẫn duy trì ngôi Vua và không giải quyết vấn đề ruộng đất cho nông dân"
+        },
+        {
+          "id": "B",
+          "text": "Tư sản không nắm quyền lực"
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế không phát triển sau cách mạng"
+        },
+        {
+          "id": "D",
+          "text": "Chưa xóa bỏ được Giáo hội"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thiết lập quân chủ lập hiến và nông dân không có ruộng đất cho thấy sự thỏa hiệp của tư sản."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Lý Bí (Lý Nam Đế) sau khi khởi nghĩa thắng lợi đã đặt tên nước là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại Cồ Việt"
+        },
+        {
+          "id": "B",
+          "text": "Đại Việt"
+        },
+        {
+          "id": "C",
+          "text": "Vạn Xuân"
+        },
+        {
+          "id": "D",
+          "text": "Đại Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nước Vạn Xuân (mong muốn đất nước mãi mãi tươi đẹp như mùa xuân)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Điểm giống nhau cơ bản trong phong trào giải phóng dân tộc ở Đông Nam Á sau Chiến tranh thế giới thứ nhất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đều do Đảng Cộng sản lãnh đạo"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển mạnh mẽ của phong trào dân tộc tư sản và sự lớn mạnh của giai cấp công nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đều giành được thắng lợi"
+        },
+        {
+          "id": "D",
+          "text": "Đều đấu tranh vũ trang"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là giai đoạn thức tỉnh của chủ nghĩa dân tộc và sự lớn mạnh của phong trào công nhân."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khối liên minh quân sự SEATO (1954) do Mỹ thành lập nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển kinh tế Đông Nam Á"
+        },
+        {
+          "id": "B",
+          "text": "Ngăn chặn sự ảnh hưởng của chủ nghĩa xã hội và phong trào giải phóng dân tộc"
+        },
+        {
+          "id": "C",
+          "text": "Giúp đỡ các nước Đông Dương"
+        },
+        {
+          "id": "D",
+          "text": "Đoàn kết các nước châu Á"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "SEATO là khối quân sự nhằm chống lại CNCS ở khu vực."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Nước nào ở Đông Nam Á bị thực dân Anh biến thành vùng đất chuyên sản xuất thiếc và cao su?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Lào"
+        },
+        {
+          "id": "D",
+          "text": "Phi-líp-pin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mã Lai thuộc Anh nổi tiếng với trữ lượng thiếc và đồn điền cao su."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Về kinh tế, chính sách nổi bật của các nước thực dân tại Đông Nam Á là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển công nghiệp nặng"
+        },
+        {
+          "id": "B",
+          "text": "Biến thuộc địa thành nơi cung cấp nguyên liệu và tiêu thụ hàng hóa"
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ chế độ phong kiến lạc hậu"
+        },
+        {
+          "id": "D",
+          "text": "Đầu tư phát triển giáo dục và y tế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kinh tế thuộc địa bị cột chặt vào chính quốc, què quặt và lệ thuộc."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của lịch sử Đông Nam Á nửa sau thế kỷ XX là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các nước lần lượt giành độc lập và bắt tay vào xây dựng đất nước"
+        },
+        {
+          "id": "B",
+          "text": "Vẫn chịu sự cai trị của thực dân phương Tây"
+        },
+        {
+          "id": "C",
+          "text": "Khủng hoảng kinh tế triền miên"
+        },
+        {
+          "id": "D",
+          "text": "Xung đột tôn giáo gay gắt không thể giải quyết"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là giai đoạn 'biến đổi to lớn nhất' của khu vực: từ thân phận thuộc địa trở thành các quốc gia độc lập."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vị trí địa chính trị quan trọng của Đông Nam Á là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nằm giữa Ấn Độ Dương và Thái Bình Dương, cầu nối lục địa Á - Âu và lục địa Úc"
+        },
+        {
+          "id": "B",
+          "text": "Nằm hoàn toàn trong nội địa châu Á"
+        },
+        {
+          "id": "C",
+          "text": "Nằm ở phía Bắc Trung Quốc"
+        },
+        {
+          "id": "D",
+          "text": "Nằm giữa Đại Tây Dương và Thái Bình Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vị trí ngã tư đường hàng hải quốc tế quan trọng."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Quốc gia nào giành độc lập bằng con đường hòa bình, thương lượng với thực dân Anh vào năm 1957?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên bang Mã Lai (Malaysia) giành độc lập qua đàm phán Hiến pháp với Anh."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Các tổ chức độc quyền hình thành dựa trên cơ sở:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự phân tán sản xuất nhỏ lẻ"
+        },
+        {
+          "id": "B",
+          "text": "Tích tụ và tập trung sản xuất, tư bản"
+        },
+        {
+          "id": "C",
+          "text": "Sự hợp tác tự nguyện của nông dân"
+        },
+        {
+          "id": "D",
+          "text": "Sự can thiệp của quân đội"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cạnh tranh gay gắt dẫn đến các công ty lớn nuốt cá bé -> Tích tụ tập trung -> Độc quyền."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong Cách mạng tư sản Anh, lực lượng nào đại diện cho quan hệ sản xuất mới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quý tộc cũ"
+        },
+        {
+          "id": "B",
+          "text": "Nông dân"
+        },
+        {
+          "id": "C",
+          "text": "Quý tộc mới và tư sản"
+        },
+        {
+          "id": "D",
+          "text": "Thợ thủ công"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quý tộc mới và tư sản đại diện cho phương thức sản xuất TBCN."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản chuyển từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đầu thế kỷ XVIII"
+        },
+        {
+          "id": "B",
+          "text": "Giữa thế kỷ XIX"
+        },
+        {
+          "id": "C",
+          "text": "Cuối thế kỷ XIX - đầu thế kỷ XX"
+        },
+        {
+          "id": "D",
+          "text": "Sau Chiến tranh thế giới thứ hai"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do tác động của tiến bộ khoa học kỹ thuật và tập trung sản xuất."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Brunây tuyên bố độc lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1945"
+        },
+        {
+          "id": "B",
+          "text": "1957"
+        },
+        {
+          "id": "C",
+          "text": "1984"
+        },
+        {
+          "id": "D",
+          "text": "2002"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Brunây là một trong những nước giành độc lập muộn trong khu vực (từ Anh)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế to lớn của sự ra đời Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Làm cho chủ nghĩa tư bản sụp đổ hoàn toàn"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt chiến tranh thế giới thứ nhất"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất toàn bộ châu Âu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Liên Xô trở thành chỗ dựa tinh thần và vật chất cho phong trào cách mạng thế giới."
+    }
+  ]
+}

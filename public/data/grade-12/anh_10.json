@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 10: Lifelong Learning",
+    "description": "Chủ đề Học tập suốt đời. Ngữ pháp: Câu điều kiện loại 3 (Conditional Sentence Type 3) và Câu điều kiện hỗn hợp (Mixed Conditionals).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "adult" },
+        { "id": "B", "text": "result" },
+        { "id": "C", "text": "difficult" },
+        { "id": "D", "text": "culture" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'difficult' âm 'u' đọc là /ə/. Các từ còn lại đọc là /ʌ/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "compulsory" },
+        { "id": "B", "text": "voluntary" },
+        { "id": "C", "text": "initiative" },
+        { "id": "D", "text": "curriculum" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'voluntary' nhấn âm 1. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lifelong learning helps us keep our minds ______ and active.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sharp" },
+        { "id": "B", "text": "dull" },
+        { "id": "C", "text": "bored" },
+        { "id": "D", "text": "slow" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Sharp' (sắc bén, minh mẫn)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Self-study requires a lot of ______ and discipline.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "motivation" },
+        { "id": "B", "text": "motivate" },
+        { "id": "C", "text": "motivated" },
+        { "id": "D", "text": "motivational" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần danh từ 'motivation' (động lực) đi với 'discipline' (kỷ luật)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "If I had known you were in town, I ______ you.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "would visit" },
+        { "id": "B", "text": "will visit" },
+        { "id": "C", "text": "would have visited" },
+        { "id": "D", "text": "had visited" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 3 (diễn tả sự việc không có thật trong quá khứ): If + Past Perfect, S + would have + V3/ed."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "If he hadn't missed the bus, he ______ late for the meeting now.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "wouldn't be" },
+        { "id": "B", "text": "wouldn't have been" },
+        { "id": "C", "text": "won't be" },
+        { "id": "D", "text": "isn't" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu điều kiện hỗn hợp (Mixed 3-2): Nguyên nhân quá khứ (missed bus) dẫn đến kết quả hiện tại (late now). Vế kết quả dùng 'would + V'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "E-learning provides a ______ way for adults to continue education.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "flexible" },
+        { "id": "B", "text": "rigid" },
+        { "id": "C", "text": "hard" },
+        { "id": "D", "text": "tough" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Flexible' (linh hoạt) là đặc điểm của học trực tuyến."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "He ______ the exam if he had studied harder.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "would pass" },
+        { "id": "B", "text": "would have passed" },
+        { "id": "C", "text": "will pass" },
+        { "id": "D", "text": "passed" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 3 (kết quả trái ngược quá khứ)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: She 'voluntarily' joined the project.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "willingly" },
+        { "id": "B", "text": "reluctantly" },
+        { "id": "C", "text": "forcedly" },
+        { "id": "D", "text": "hardly" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voluntarily' (tự nguyện) đồng nghĩa với 'willingly' (sẵn lòng)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: Lifelong learning is 'compulsory' for keeping up with changes.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "mandatory" },
+        { "id": "B", "text": "optional" },
+        { "id": "C", "text": "necessary" },
+        { "id": "D", "text": "required" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Compulsory' (bắt buộc) trái nghĩa với 'optional' (tùy chọn)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "If you ______ breakfast, you wouldn't feel hungry now.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "had eaten" },
+        { "id": "B", "text": "ate" },
+        { "id": "C", "text": "eat" },
+        { "id": "D", "text": "have eaten" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mixed Conditional (3-2). Nếu quá khứ đã ăn (had eaten) thì hiện tại không đói (wouldn't feel)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Libraries play a key role in ______ lifelong learning.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "facilitating" },
+        { "id": "B", "text": "making" },
+        { "id": "C", "text": "doing" },
+        { "id": "D", "text": "preventing" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Facilitate' (tạo điều kiện thuận lợi/thúc đẩy)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "It is never too late to ______ up a new hobby.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "take" },
+        { "id": "B", "text": "make" },
+        { "id": "C", "text": "get" },
+        { "id": "D", "text": "look" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Take up a hobby' (bắt đầu một sở thích mới)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "______ learners take responsibility for their own education.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Self-directed" },
+        { "id": "B", "text": "Selfish" },
+        { "id": "C", "text": "Self-confident" },
+        { "id": "D", "text": "Self-made" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Self-directed learners' (người học tự định hướng/tự chủ)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I got a scholarship!' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Congratulations!" },
+        { "id": "B", "text": "Good luck." },
+        { "id": "C", "text": "I'm sorry to hear that." },
+        { "id": "D", "text": "Thank you." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chúc mừng khi nghe tin vui."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'If I studied last night, I would have passed the test.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "studied" },
+        { "id": "B", "text": "last night" },
+        { "id": "C", "text": "would have" },
+        { "id": "D", "text": "passed" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện loại 3 (trái ngược quá khứ). Vế IF phải dùng Quá khứ hoàn thành. Sửa 'studied' thành 'had studied'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Online courses allow you to learn at your own ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pace" },
+        { "id": "B", "text": "step" },
+        { "id": "C", "text": "walk" },
+        { "id": "D", "text": "run" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'At your own pace' (theo tốc độ của riêng bạn)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We ______ lost if we had brought a map.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "wouldn't get" },
+        { "id": "B", "text": "wouldn't have got" },
+        { "id": "C", "text": "won't get" },
+        { "id": "D", "text": "didn't get" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 3 (quá khứ). Kết quả trong quá khứ 'wouldn't have got lost'."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'He didn't prepare well, so he failed.' -> 'If...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "If he had prepared well, he wouldn't have failed." },
+        { "id": "B", "text": "If he prepared well, he wouldn't fail." },
+        { "id": "C", "text": "If he had prepared well, he would fail." },
+        { "id": "D", "text": "If he has prepared well, he won't fail." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Viết lại câu tình huống quá khứ bằng câu điều kiện loại 3."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "A ______ person always wants to learn new things.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "curious" },
+        { "id": "B", "text": "lazy" },
+        { "id": "C", "text": "bored" },
+        { "id": "D", "text": "passive" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Curious' (tò mò/ham học hỏi)."
+    }
+  ]
+}

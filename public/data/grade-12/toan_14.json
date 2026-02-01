@@ -1,0 +1,533 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Thể tích của khối nón có chiều cao $h = 6$ và bán kính đáy $r = 4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$32\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$96\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$16\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$48\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (4^2)(6) = \\frac{1}{3}\\pi (16)(6) = 32\\pi$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^4 - 2x^2 - 1$. Kết luận nào sau đây sai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hàm số có 3 điểm cực trị."
+        },
+        {
+          "id": "B",
+          "text": "Đồ thị hàm số nhận trục tung làm trục đối xứng."
+        },
+        {
+          "id": "C",
+          "text": "Hàm số nghịch biến trên khoảng $(0; 1)$."
+        },
+        {
+          "id": "D",
+          "text": "Giá trị cực đại của hàm số bằng -2."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Tại $x=0$, $y=-1$ (Cực đại). Tại $x=\\pm 1$, $y=-2$ (Cực tiểu). Vậy giá trị cực đại là -1, đáp án D nói -2 là sai."
+    },
+    {
+      "id": "D",
+      "text": "$\\frac{a\\sqrt{3}}{3}$",
+      "order": 3
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Thể tích $V$ của khối lập phương cạnh $3a$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$27a^3$"
+        },
+        {
+          "id": "B",
+          "text": "$9a^3$"
+        },
+        {
+          "id": "C",
+          "text": "$3a^3$"
+        },
+        {
+          "id": "D",
+          "text": "$a^3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = (3a)^3 = 27a^3$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Giải bất phương trình $\\log_{\\frac{1}{2}}(x-1) > 1$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 < x < \\frac{3}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$x > \\frac{3}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$x < \\frac{3}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$x > 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $x > 1$. Vì cơ số $0 < \\frac{1}{2} < 1$ nên đổi chiều BPT: $x - 1 < (\\frac{1}{2})^1 = 0.5 \\Rightarrow x < 1.5$. Kết hợp ĐK: $1 < x < 1.5$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Giá trị lớn nhất của hàm số $y = x e^{-x}$ trên khoảng $(0; +\\infty)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{e}$"
+        },
+        {
+          "id": "B",
+          "text": "$e$"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = e^{-x} - xe^{-x} = e^{-x}(1-x)$. $y'=0 \\Leftrightarrow x=1$. Lập BBT, tại $x=1$ hàm đạt cực đại. $y(1) = 1 \\cdot e^{-1} = \\frac{1}{e}$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z + 2 - i| = 3$ là đường tròn có tâm $I$ và bán kính $R$:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(-2; 1), R = 3$"
+        },
+        {
+          "id": "B",
+          "text": "$I(2; -1), R = 3$"
+        },
+        {
+          "id": "C",
+          "text": "$I(-2; 1), R = 9$"
+        },
+        {
+          "id": "D",
+          "text": "$I(2; -1), R = 9$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình có dạng $|z - (-2 + i)| = 3$. Tâm $I(-2; 1)$, bán kính $R=3$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đạo hàm của hàm số $y = 3^x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y' = 3^x \\ln 3$"
+        },
+        {
+          "id": "B",
+          "text": "$y' = \\frac{3^x}{\\ln 3}$"
+        },
+        {
+          "id": "C",
+          "text": "$y' = x 3^{x-1}$"
+        },
+        {
+          "id": "D",
+          "text": "$y' = 3^x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $(a^x)' = a^x \\ln a$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Với $k, n$ là các số nguyên dương và $k \\le n$, công thức nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$C_n^k = \\frac{n!}{k!(n-k)!}$"
+        },
+        {
+          "id": "B",
+          "text": "$C_n^k = \\frac{n!}{(n-k)!}$"
+        },
+        {
+          "id": "C",
+          "text": "$C_n^k = \\frac{n!}{k!}$"
+        },
+        {
+          "id": "D",
+          "text": "$A_n^k = \\frac{n!}{k!(n-k)!}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổ hợp chập k của n phần tử."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Phương trình đường tiệm cận ngang của đồ thị hàm số $y = \\frac{3x + 2}{x - 1}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = 3$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = 1$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận ngang là $y = \\frac{a}{c} = \\frac{3}{1} = 3$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, vectơ nào dưới đây là vectơ pháp tuyến của mặt phẳng $(Oxy)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{k} = (0; 0; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{i} = (1; 0; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{j} = (0; 1; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (1; 1; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$, nên VTPT là $(0; 0; 1)$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thể tích của khối trụ có bán kính đáy $r = 2$ và chiều cao $h = 5$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$20\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$10\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$40\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$100\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\pi r^2 h = \\pi (2^2) (5) = 20\\pi$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tìm $m$ để hàm số $y = \\frac{x - m}{x + 1}$ đồng biến trên từng khoảng xác định.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m > -1$"
+        },
+        {
+          "id": "B",
+          "text": "$m < -1$"
+        },
+        {
+          "id": "C",
+          "text": "$m \\ge -1$"
+        },
+        {
+          "id": "D",
+          "text": "$m \\ne -1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{1 - (-m)}{(x+1)^2} = \\frac{1+m}{(x+1)^2}$. Đồng biến $\\Leftrightarrow y' > 0 \\Leftrightarrow 1+m > 0 \\Leftrightarrow m > -1$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cho $a, b > 0$ và $a, b \\ne 1$. Biểu thức $P = \\log_{\\sqrt{a}} b^3 \\cdot \\log_b a^4$ có giá trị bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "18"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\log_{a^{1/2}} b^3 \\cdot 4\\log_b a = (2 \\cdot 3 \\log_a b) \\cdot (4 \\log_b a) = 6 \\log_a b \\cdot 4 \\frac{1}{\\log_a b} = 24$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P)$ đi qua $M(1; -1; 2)$ và vuông góc với trục $Oz$ có phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$z - 2 = 0$"
+        },
+        {
+          "id": "B",
+          "text": "$x + y + z - 2 = 0$"
+        },
+        {
+          "id": "C",
+          "text": "$z + 2 = 0$"
+        },
+        {
+          "id": "D",
+          "text": "$x - 1 = 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vuông góc $Oz$ thì VTPT $\\vec{k}=(0;0;1)$. Phương trình: $0(x-1) + 0(y+1) + 1(z-2) = 0 \\Rightarrow z - 2 = 0$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Họ nguyên hàm của hàm số $f(x) = \\cos 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2}\\sin 2x + C$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\frac{1}{2}\\sin 2x + C$"
+        },
+        {
+          "id": "C",
+          "text": "$2\\sin 2x + C$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin 2x + C$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\int \\cos(ax+b) \\text{d}x = \\frac{1}{a}\\sin(ax+b) + C$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2 - 4x + 3$ và trục hoành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{8}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{1}{3}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm: $x^2 - 4x + 3 = 0 \\Leftrightarrow x=1, x=3$. $S = \\int_{1}^{3} |x^2 - 4x + 3| \\text{d}x = \\frac{4}{3}$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^3 - 3x^2 + 2$. Điểm cực đại của đồ thị hàm số là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(0; 2)$"
+        },
+        {
+          "id": "B",
+          "text": "$(2; -2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(2; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 3x^2 - 6x$. $y' = 0 \\Leftrightarrow x=0$ hoặc $x=2$. Tại $x=0, y=2$ (Cực đại). Tại $x=2, y=-2$ (Cực tiểu). Điểm cực đại là $(0; 2)$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tính thể tích $V$ của khối cầu ngoại tiếp hình hộp chữ nhật có ba kích thước lần lượt là $a, 2a, 2a$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{9\\pi a^3}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{9\\pi a^3}{8}$"
+        },
+        {
+          "id": "C",
+          "text": "$36\\pi a^3$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{27\\pi a^3}{2}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường chéo $d = \\sqrt{a^2 + (2a)^2 + (2a)^2} = \\sqrt{9a^2} = 3a$. Bán kính $R = \\frac{d}{2} = 1.5a$. $V = \\frac{4}{3}\\pi (1.5a)^3 = \\frac{4}{3}\\pi \\frac{27a^3}{8} = \\frac{9\\pi a^3}{2}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt phẳng đi qua điểm $M(1; 1; -1)$ và vuông góc với đường thẳng $\\Delta: \\frac{x}{2} = \\frac{y-1}{1} = \\frac{z+2}{-1}$ có phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2x + y - z - 4 = 0$"
+        },
+        {
+          "id": "B",
+          "text": "$2x + y - z + 4 = 0$"
+        },
+        {
+          "id": "C",
+          "text": "$x + y - z - 4 = 0$"
+        },
+        {
+          "id": "D",
+          "text": "$2x + y + z - 2 = 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "VTPT của mặt phẳng chính là VTCP của đường thẳng: $\\vec{n} = (2; 1; -1)$. PT: $2(x-1) + 1(y-1) - 1(z+1) = 0 \\Leftrightarrow 2x - 2 + y - 1 - z - 1 = 0 \\Leftrightarrow 2x + y - z - 4 = 0$."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Communication: 'I think we should ban hunting wild animals.' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "It's not true."
+        },
+        {
+          "id": "C",
+          "text": "You're wrong."
+        },
+        {
+          "id": "D",
+          "text": "I don't mind."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' nghĩa là tôi hoàn toàn đồng ý."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Identify mistake: 'I had the hairdresser cut my hair yesterday, so now it looks short.' -> 'I had my hair cut...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The sentence is correct."
+        },
+        {
+          "id": "B",
+          "text": "The sentence is wrong."
+        },
+        {
+          "id": "C",
+          "text": "It implies I cut it myself."
+        },
+        {
+          "id": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc 'I had the hairdresser cut my hair' (have someone do sth) là đúng ngữ pháp. (Lưu ý: đây là dạng câu hỏi tìm lỗi, nhưng đáp án A nói câu đúng)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Communication: 'I propose that we should use public transport.' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I don't think so."
+        },
+        {
+          "id": "B",
+          "text": "That's a good idea."
+        },
+        {
+          "id": "C",
+          "text": "It's not true."
+        },
+        {
+          "id": "D",
+          "text": "You're wrong."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đồng ý với một lời đề xuất một cách lịch sự."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "You should ______ your computer repaired by a professional.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "make"
+        },
+        {
+          "id": "B",
+          "text": "have"
+        },
+        {
+          "id": "C",
+          "text": "ask"
+        },
+        {
+          "id": "D",
+          "text": "do"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến: 'have something done' (nhờ/thuê ai làm gì)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "career"
+        },
+        {
+          "id": "B",
+          "text": "apply"
+        },
+        {
+          "id": "C",
+          "text": "carry"
+        },
+        {
+          "id": "D",
+          "text": "academic"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'career' phần 'a' đọc là /ə/. 'Carry' và 'academic' là /æ/. 'Apply' là /ə/ nhưng trọng âm khác. Tuy nhiên câu này kiểm tra âm 'a'. 'Career' /kəˈrɪər/, 'Academic' /ˌæk.əˈdem.ɪk/."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Many students choose ______ education instead of going to university.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "vocational"
+        },
+        {
+          "id": "B",
+          "text": "academic"
+        },
+        {
+          "id": "C",
+          "text": "higher"
+        },
+        {
+          "id": "D",
+          "text": "primary"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Vocational education' (giáo dục nghề nghiệp/học nghề)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "She managed to finish the project ______ she was ill.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "despite"
+        },
+        {
+          "id": "B",
+          "text": "even though"
+        },
+        {
+          "id": "C",
+          "text": "because"
+        },
+        {
+          "id": "D",
+          "text": "in spite of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau chỗ trống là mệnh đề 'she was ill', dùng 'even though'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "He ______ working even though he is 65.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "goes on"
+        },
+        {
+          "id": "B",
+          "text": "goes off"
+        },
+        {
+          "id": "C",
+          "text": "goes out"
+        },
+        {
+          "id": "D",
+          "text": "goes in"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Go on' (tiếp tục)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Many people use ______ farming methods to avoid chemicals.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "inorganic"
+        },
+        {
+          "id": "B",
+          "text": "organic"
+        },
+        {
+          "id": "C",
+          "text": "industrial"
+        },
+        {
+          "id": "D",
+          "text": "mechanized"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Organic farming' là canh tác hữu cơ (không dùng hóa chất)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Identify mistake: 'Despite he was tired, he continued working.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Despite"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "continued"
+        },
+        {
+          "id": "D",
+          "text": "working"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Despite' không đi với mệnh đề. Phải sửa thành 'Although' hoặc 'Despite being tired'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "The system was ______ by a cyber attack.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "destroyed"
+        },
+        {
+          "id": "B",
+          "text": "built"
+        },
+        {
+          "id": "C",
+          "text": "improved"
+        },
+        {
+          "id": "D",
+          "text": "promoted"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngữ cảnh 'cyber attack' (tấn công mạng) thì hệ thống bị 'destroyed' (phá hủy/làm hỏng)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "If you ______ breakfast, you wouldn't feel hungry now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "had eaten"
+        },
+        {
+          "id": "B",
+          "text": "ate"
+        },
+        {
+          "id": "C",
+          "text": "eat"
+        },
+        {
+          "id": "D",
+          "text": "have eaten"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mixed Conditional (3-2). Nếu quá khứ đã ăn (had eaten) thì hiện tại không đói (wouldn't feel)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "resume"
+        },
+        {
+          "id": "B",
+          "text": "pressure"
+        },
+        {
+          "id": "C",
+          "text": "suppose"
+        },
+        {
+          "id": "D",
+          "text": "sense"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'resume' (sơ yếu lý lịch) thường đọc là /rez.jʊˈmeɪ/ (âm cuối là /eɪ/). Các từ còn lại âm e cuối câm hoặc đọc khác."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hacker"
+        },
+        {
+          "id": "B",
+          "text": "automated"
+        },
+        {
+          "id": "C",
+          "text": "application"
+        },
+        {
+          "id": "D",
+          "text": "navigate"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'automated' phát âm là /ɔː/ (âm o dài). Các từ còn lại chữ 'a' phát âm là /æ/ (e bẹt)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Self-study requires a lot of ______ and discipline.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "motivation"
+        },
+        {
+          "id": "B",
+          "text": "motivate"
+        },
+        {
+          "id": "C",
+          "text": "motivated"
+        },
+        {
+          "id": "D",
+          "text": "motivational"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần danh từ 'motivation' (động lực) đi với 'discipline' (kỷ luật)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "He ______ the exam if he had studied harder.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "would pass"
+        },
+        {
+          "id": "B",
+          "text": "would have passed"
+        },
+        {
+          "id": "C",
+          "text": "will pass"
+        },
+        {
+          "id": "D",
+          "text": "passed"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 3 (kết quả trái ngược quá khứ)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "It is recommended that he ______ this course to improve his skills.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "took"
+        },
+        {
+          "id": "B",
+          "text": "takes"
+        },
+        {
+          "id": "C",
+          "text": "take"
+        },
+        {
+          "id": "D",
+          "text": "taking"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc giả định cách: 'It is recommended that S + (should) + V-inf'. Động từ để nguyên mẫu 'take'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Opposite meaning: The conservation efforts have helped 'restore' the population of tigers.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "destroy"
+        },
+        {
+          "id": "B",
+          "text": "renew"
+        },
+        {
+          "id": "C",
+          "text": "rebuild"
+        },
+        {
+          "id": "D",
+          "text": "recover"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Restore' (khôi phục) trái nghĩa với 'destroy' (phá hủy)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Identify mistake: 'It is important that everyone is aware of the city's regulations.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "is important"
+        },
+        {
+          "id": "B",
+          "text": "that"
+        },
+        {
+          "id": "C",
+          "text": "is"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giả định cách: 'It is important that S + (should) + V-inf'. Chữ 'is' (thứ 2) phải sửa thành 'be'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Elephants are hunted for their ______ tusks.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ivory"
+        },
+        {
+          "id": "B",
+          "text": "gold"
+        },
+        {
+          "id": "C",
+          "text": "silver"
+        },
+        {
+          "id": "D",
+          "text": "wood"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Ivory' là ngà voi."
+    }
+  ]
+}

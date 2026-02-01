@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sóng điện từ nào sau đây có tính đâm xuyên mạnh nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tia Gamma"
+        },
+        {
+          "id": "B",
+          "text": "Tia X"
+        },
+        {
+          "id": "C",
+          "text": "Tia Tử ngoại"
+        },
+        {
+          "id": "D",
+          "text": "Sóng vô tuyến"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia Gamma có bước sóng ngắn nhất, năng lượng lớn nhất, đâm xuyên mạnh nhất."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Chu kì dao động riêng của mạch dao động LC lí tưởng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$T = 2\\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "B",
+          "text": "$T = \\pi \\sqrt{LC}$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{2\\pi \\sqrt{LC}}$"
+        },
+        {
+          "id": "D",
+          "text": "$T = \\sqrt{LC}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức Thomson: $T = 2\\pi \\sqrt{LC}$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tia $\\alpha$ là dòng các hạt:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hạt nhân Heli $_2^4 He$"
+        },
+        {
+          "id": "B",
+          "text": "Electron"
+        },
+        {
+          "id": "C",
+          "text": "Positron"
+        },
+        {
+          "id": "D",
+          "text": "Photon"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bản chất tia alpha là dòng hạt nhân $_2^4 He$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nguyên tắc tạo ra dòng điện xoay chiều dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng cảm ứng điện từ"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng tự cảm"
+        },
+        {
+          "id": "C",
+          "text": "Hiện tượng quang điện"
+        },
+        {
+          "id": "D",
+          "text": "Hiện tượng nhiệt điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy phát điện xoay chiều hoạt động dựa trên hiện tượng cảm ứng điện từ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đơn vị đo mức cường độ âm là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Oát trên mét vuông (W/m²)"
+        },
+        {
+          "id": "B",
+          "text": "Ben (B) hoặc Đề-xi-ben (dB)"
+        },
+        {
+          "id": "C",
+          "text": "Héc (Hz)"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mức cường độ âm $L$ đo bằng Ben hoặc Deciben."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sóng âm có tần số 450Hz lan truyền với vận tốc 360m/s trong không khí. Giữa hai điểm cách nhau 1m trên phương truyền sóng, độ lệch pha là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2,5\\pi$ rad"
+        },
+        {
+          "id": "B",
+          "text": "$1,5\\pi$ rad"
+        },
+        {
+          "id": "C",
+          "text": "$5\\pi$ rad"
+        },
+        {
+          "id": "D",
+          "text": "$\\pi$ rad"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 360/450 = 0,8$m. $\\Delta\\varphi = 2\\pi d/\\lambda = 2\\pi(1)/0,8 = 2,5\\pi$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ứng dụng nổi bật của tia hồng ngoại là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sấy khô, sưởi ấm"
+        },
+        {
+          "id": "B",
+          "text": "Chụp điện, chiếu điện"
+        },
+        {
+          "id": "C",
+          "text": "Khử trùng dụng cụ y tế"
+        },
+        {
+          "id": "D",
+          "text": "Tìm khuyết tật bên trong vật đúc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác dụng nổi bật nhất của tia hồng ngoại là tác dụng nhiệt."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Để giảm hao phí điện năng, người ta dùng dây dẫn có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện trở suất nhỏ"
+        },
+        {
+          "id": "B",
+          "text": "Điện trở suất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Tiết diện nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Chiều dài lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện trở $R = \\rho l / S$. Muốn $R$ nhỏ (để giảm hao phí) thì $\\rho$ (điện trở suất) phải nhỏ."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch RLC nối tiếp đang có cộng hưởng điện. Nếu chỉ tăng tần số dòng điện thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cường độ dòng điện giảm"
+        },
+        {
+          "id": "B",
+          "text": "Tổng trở mạch giảm"
+        },
+        {
+          "id": "C",
+          "text": "Công suất tiêu thụ tăng"
+        },
+        {
+          "id": "D",
+          "text": "Điện áp trên điện trở tăng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đang cộng hưởng ($Z_{min}=R, I_{max}$). Tăng $f$ làm mất cộng hưởng $\\Rightarrow Z$ tăng $\\Rightarrow I$ giảm."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với biên độ $A=4$ cm. Tại li độ $x=2$ cm, tỉ số giữa thế năng và động năng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/3"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "1/4"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_t / W_d = x^2 / (A^2 - x^2) = 2^2 / (4^2 - 2^2) = 4 / 12 = 1/3$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch xoay chiều chỉ có điện trở thuần R, điện áp hai đầu mạch và cường độ dòng điện:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng pha"
+        },
+        {
+          "id": "B",
+          "text": "Ngược pha"
+        },
+        {
+          "id": "C",
+          "text": "Vuông pha"
+        },
+        {
+          "id": "D",
+          "text": "Lệch pha $\\pi/3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mạch chỉ có R thì u và i cùng pha."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Âm sắc là đặc trưng sinh lý giúp ta phân biệt được âm phát ra từ hai nguồn khác nhau có cùng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ"
+        },
+        {
+          "id": "B",
+          "text": "Tần số"
+        },
+        {
+          "id": "C",
+          "text": "Độ to"
+        },
+        {
+          "id": "D",
+          "text": "Độ cao"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Âm sắc giúp phân biệt 2 nhạc cụ (ví dụ sáo và đàn guitar) cùng chơi một nốt nhạc (cùng độ cao/tần số)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Công thức tính độ lệch pha $\\varphi$ giữa $u$ và $i$ trong mạch RLC nối tiếp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan\\varphi = \\frac{Z_L - Z_C}{R}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\tan\\varphi = \\frac{Z_L + Z_C}{R}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\tan\\varphi = \\frac{R}{Z_L - Z_C}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\tan\\varphi = \\frac{Z_C - Z_L}{R}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\tan\\varphi = \\frac{Z_L - Z_C}{R}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Máy biến áp không thể làm thay đổi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tần số dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Cường độ dòng điện"
+        },
+        {
+          "id": "C",
+          "text": "Điện áp"
+        },
+        {
+          "id": "D",
+          "text": "Pha của dòng điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy biến áp giữ nguyên tần số."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Biên độ dao động tổng hợp của hai dao động cùng phương, cùng tần số không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ của dao động thứ nhất"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ của dao động thứ hai"
+        },
+        {
+          "id": "C",
+          "text": "Tần số chung của hai dao động"
+        },
+        {
+          "id": "D",
+          "text": "Độ lệch pha giữa hai dao động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công thức $A^2 = A_1^2 + A_2^2 + 2A_1A_2\\cos(\\Delta \\varphi)$. Không chứa $\\omega$ (tần số)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khi nguyên tử chuyển từ trạng thái dừng có năng lượng $E_n$ sang trạng thái dừng có năng lượng $E_m$ ($E_n > E_m$) thì nó:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "B",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n - E_m$"
+        },
+        {
+          "id": "C",
+          "text": "Phát ra photon có năng lượng $\\varepsilon = E_n + E_m$"
+        },
+        {
+          "id": "D",
+          "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n + E_m$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ cao xuống thấp thì phát xạ photon."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Công thoát electron của một kim loại là $A$. Giới hạn quang điện $\\lambda_0$ được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda_0 = \\frac{hc}{A}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda_0 = \\frac{A}{hc}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda_0 = \\frac{h}{A}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\lambda_0 = \\frac{c}{A}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A = \\frac{hc}{\\lambda_0} \\Rightarrow \\lambda_0 = \\frac{hc}{A}$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thuyết lượng tử ánh sáng **không** giải thích được hiện tượng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giao thoa ánh sáng"
+        },
+        {
+          "id": "B",
+          "text": "Quang điện"
+        },
+        {
+          "id": "C",
+          "text": "Quang phát quang"
+        },
+        {
+          "id": "D",
+          "text": "Tạo dòng điện trong pin mặt trời"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thuyết lượng tử chứng minh tính chất HẠT. Giao thoa chứng minh tính chất SÓNG."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một dòng điện xoay chiều có cường độ hiệu dụng 2A chạy qua điện trở $R=50\\Omega$. Nhiệt lượng tỏa ra trong 1 phút là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "12000 J"
+        },
+        {
+          "id": "B",
+          "text": "6000 J"
+        },
+        {
+          "id": "C",
+          "text": "200 J"
+        },
+        {
+          "id": "D",
+          "text": "100 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Q = I^2Rt = 2^2 \\cdot 50 \\cdot 60 = 4 \\cdot 50 \\cdot 60 = 12000$J."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Giới hạn quang điện của kẽm là $0,35\\mu m$. Hiện tượng quang điện sẽ **không** xảy ra nếu chiếu vào kẽm bức xạ có bước sóng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,1 $\\mu m$"
+        },
+        {
+          "id": "B",
+          "text": "0,2 $\\mu m$"
+        },
+        {
+          "id": "C",
+          "text": "0,3 $\\mu m$"
+        },
+        {
+          "id": "D",
+          "text": "0,4 $\\mu m$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Điều kiện xảy ra quang điện: $\\lambda \\le \\lambda_0$. Ở đây $0,4 > 0,35$ nên không xảy ra."
+    }
+  ]
+}

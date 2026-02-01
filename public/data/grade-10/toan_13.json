@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tìm m để hàm số $y = \\sqrt{x - m + 1}$ xác định trên $[2; +\\infty)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 3$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le 3$"
+        },
+        {
+          "id": "C",
+          "text": "$m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m = 2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ĐK: $x \\ge m - 1$. Tập xác định $D = [m-1; +\\infty)$. Để $[2; +\\infty) \\subset D$ thì $m-1 \\le 2 \\Leftrightarrow m \\le 3$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm số hạng không chứa $x$ trong khai triển $(x + \\frac{1}{x})^4$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} (x^{-1})^k = C_4^k x^{4-2k}$. Không chứa x thì $4-2k=0 \\Rightarrow k=2$. Hệ số $C_4^2 = 6$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 2)^4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} 2^k$. Để có $x^2$ thì $4-k=2 \\Rightarrow k=2$. Hệ số: $C_4^2 . 2^2 = 6 . 4 = 24$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Bất phương trình nào sau đây là bất phương trình bậc nhất hai ẩn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2x + 3y > 5$"
+        },
+        {
+          "id": "B",
+          "text": "$x^2 + y > 0$"
+        },
+        {
+          "id": "C",
+          "text": "$xy + 2 < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$2x + 3y + z < 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "BPT bậc nhất hai ẩn có dạng $ax + by + c < 0$ (hoặc >, <=, >=). Đáp án A đúng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tam giác ABC có $b=2, c=3, \\widehat{A}=120^\\circ$. Độ dài cạnh a là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{19}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{7}$"
+        },
+        {
+          "id": "C",
+          "text": "$19$"
+        },
+        {
+          "id": "D",
+          "text": "$7$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$a^2 = 4 + 9 - 2.2.3.\\cos 120 = 13 - 12(-0.5) = 13 + 6 = 19$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tìm tập xác định của hàm số $y = \\frac{1}{x^2 - 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\mathbb{R} \\setminus \\{\\pm 1\\}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\mathbb{R}$"
+        },
+        {
+          "id": "C",
+          "text": "$(-1; 1)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\mathbb{R} \\setminus \\{1\\}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mẫu số khác 0: $x^2 - 1 \\ne 0 \\Leftrightarrow x \\ne \\pm 1$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Định lý Sin trong tam giác ABC được viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = R$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$"
+        },
+        {
+          "id": "C",
+          "text": "$a \\sin A = b \\sin B = c \\sin C$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{a}{\\cos A} = \\frac{b}{\\cos B} = 2R$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tỉ số cạnh trên sin góc đối diện bằng đường kính đường tròn ngoại tiếp (2R)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Góc giữa hai vectơ $\\vec{i} = (1; 0)$ và $\\vec{u} = (1; 1)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$30^\\circ$"
+        },
+        {
+          "id": "B",
+          "text": "$45^\\circ$"
+        },
+        {
+          "id": "C",
+          "text": "$60^\\circ$"
+        },
+        {
+          "id": "D",
+          "text": "$90^\\circ$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\cos \\alpha = \\frac{1.1 + 0.1}{1.\\sqrt{1^2+1^2}} = \\frac{1}{\\sqrt{2}} \\Rightarrow \\alpha = 45^\\circ$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $P = \\frac{A_5^2}{C_5^2}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A_5^2 = 20$, $C_5^2 = 10$. $P = 20/10 = 2$. (Hoặc $A_n^k = k! C_n^k \\Rightarrow A/C = k! = 2! = 2$)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Gieo 3 đồng xu cân đối. Xác suất để có ít nhất một đồng xu ngửa là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "7/8"
+        },
+        {
+          "id": "B",
+          "text": "1/8"
+        },
+        {
+          "id": "C",
+          "text": "3/8"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố đối: \"Không có đồng nào ngửa\" (3 sấp) = {SSS}. $P(\\text{đối}) = 1/8$. $P = 1 - 1/8 = 7/8$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hàm số $y = x^2$ đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(0; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-\\infty; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\mathbb{R}$"
+        },
+        {
+          "id": "D",
+          "text": "$(-1; 1)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với $a=1>0$, hàm đồng biến khi $x > -b/2a = 0$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hai đường thẳng $d_1: 2x - y + 1 = 0$ và $d_2: 4x - 2y + 5 = 0$ có vị trí tương đối là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Song song"
+        },
+        {
+          "id": "B",
+          "text": "Trùng nhau"
+        },
+        {
+          "id": "C",
+          "text": "Cắt nhau"
+        },
+        {
+          "id": "D",
+          "text": "Vuông góc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tỉ lệ VTPT: $2/4 = (-1)/(-2) = 1/2$. Tỉ lệ hệ số tự do: $1/5 \\ne 1/2$. Vậy song song."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của $F = y - x$ trên miền nghiệm $\\begin{cases} y - 2x \\le 2 \\\\ 2y - x \\ge 4 \\\\ x + y \\le 5 \\end{cases}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tìm tọa độ các đỉnh của miền nghiệm, thay vào F để tìm min."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Có bao nhiêu cách xếp 5 người vào một băng ghế dài có 5 chỗ ngồi?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hoán vị của 5 phần tử: $P_5 = 5! = 120$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Phương trình chính tắc của Elip có độ dài trục lớn 10 và trục bé 6 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{x^2}{25} + \\frac{y^2}{9} = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{x^2}{100} + \\frac{y^2}{36} = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{x^2}{9} + \\frac{y^2}{25} = 1$"
+        },
+        {
+          "id": "D",
+          "text": "$25x^2 + 9y^2 = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2a = 10 \\Rightarrow a=5 \\Rightarrow a^2=25$. $2b = 6 \\Rightarrow b=3 \\Rightarrow b^2=9$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Công thức Heron tính diện tích tam giác theo nửa chu vi $p$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$S = \\sqrt{p(p-a)(p-b)(p-c)}$"
+        },
+        {
+          "id": "B",
+          "text": "$S = p(p-a)(p-b)(p-c)$"
+        },
+        {
+          "id": "C",
+          "text": "$S = \\sqrt{(p-a)(p-b)(p-c)}$"
+        },
+        {
+          "id": "D",
+          "text": "$S = \\sqrt{p(a+b+c)}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức Heron."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Rút ngẫu nhiên 1 lá bài từ bộ bài 52 lá. Xác suất để rút được lá Át (Ace) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/13"
+        },
+        {
+          "id": "B",
+          "text": "1/52"
+        },
+        {
+          "id": "C",
+          "text": "1/4"
+        },
+        {
+          "id": "D",
+          "text": "4/13"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Có 4 lá Át. $P = 4/52 = 1/13$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Miền nghiệm của BPT $x - 2y < 4$ KHÔNG chứa điểm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(0; 0)$"
+        },
+        {
+          "id": "B",
+          "text": "$(1; 1)$"
+        },
+        {
+          "id": "C",
+          "text": "$(4; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(5; 0)$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Thay $(5; 0): 5 - 0 = 5 < 4$ (Sai). Vậy không chứa $(5; 0)$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC. Công thức tính bán kính đường tròn nội tiếp $r$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$r = \\frac{S}{p}$"
+        },
+        {
+          "id": "B",
+          "text": "$r = \\frac{abc}{4S}$"
+        },
+        {
+          "id": "C",
+          "text": "$r = p.S$"
+        },
+        {
+          "id": "D",
+          "text": "$r = 4R$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S = pr \\Rightarrow r = S/p$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Điểm nào sau đây nằm trong đường tròn $(C): x^2 + y^2 = 9$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; 2)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0; 4)$"
+        },
+        {
+          "id": "D",
+          "text": "$(2; 3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ vào $x^2+y^2$. A: $1+4=5 < 9$ (Trong). B: $9=9$ (Trên). C: $16>9$ (Ngoài). D: $4+9=13>9$ (Ngoài)."
+    }
+  ]
+}

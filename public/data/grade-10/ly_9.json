@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 9: Ôn tập Học kỳ 2",
+    "description": "Tổng hợp kiến thức Năng lượng, Động lượng, Chuyển động tròn và Biến dạng.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "hard",
+    "grade": 10,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đơn vị nào sau đây **không** phải là đơn vị của năng lượng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Joule (J)" },
+        { "id": "B", "text": "Calo (cal)" },
+        { "id": "C", "text": "kWh" },
+        { "id": "D", "text": "Newton (N)" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Newton là đơn vị của lực."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một ô tô khối lượng 1 tấn đang chuyển động với tốc độ 72 km/h. Động năng của ô tô là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "200 kJ" },
+        { "id": "B", "text": "20 kJ" },
+        { "id": "C", "text": "2000 J" },
+        { "id": "D", "text": "2592 kJ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đổi $v = 72$ km/h = 20 m/s. $m = 1000$ kg. $W_d = 0,5 \\times 1000 \\times 20^2 = 200.000$ J = 200 kJ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Khi động năng của một vật tăng gấp 4 lần thì động lượng của vật sẽ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tăng 2 lần" },
+        { "id": "B", "text": "Tăng 4 lần" },
+        { "id": "C", "text": "Tăng 16 lần" },
+        { "id": "D", "text": "Không đổi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_d = p^2/2m \\Rightarrow p = \\sqrt{2mW_d}$. Nếu $W_d$ tăng 4, thì $p$ tăng $\\sqrt{4} = 2$ lần."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Một lò xo bị nén 5cm, biết độ cứng k=100 N/m. Thế năng đàn hồi của lò xo là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,125 J" },
+        { "id": "B", "text": "0,25 J" },
+        { "id": "C", "text": "250 J" },
+        { "id": "D", "text": "12,5 J" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_{dh} = 0,5 k (\\Delta l)^2 = 0,5 \\times 100 \\times (0,05)^2 = 50 \\times 0,0025 = 0,125$ J."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Hiệu suất của một động cơ luôn:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lớn hơn 1" },
+        { "id": "B", "text": "Nhỏ hơn 1" },
+        { "id": "C", "text": "Bằng 1" },
+        { "id": "D", "text": "Bằng 0" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Do luôn có hao phí nên công có ích < công toàn phần $\\Rightarrow H < 1$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong va chạm mềm, đại lượng nào được bảo toàn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Động năng" },
+        { "id": "B", "text": "Cơ năng" },
+        { "id": "C", "text": "Động lượng" },
+        { "id": "D", "text": "Vận tốc" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Va chạm mềm là hệ kín (hoặc coi như kín trong thời gian ngắn) nên bảo toàn động lượng. Động năng không bảo toàn (mất mát thành nhiệt)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Một vệ tinh bay quanh Trái Đất theo quỹ đạo tròn. Lực hấp dẫn đóng vai trò:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực cản" },
+        { "id": "B", "text": "Lực phát động" },
+        { "id": "C", "text": "Lực hướng tâm" },
+        { "id": "D", "text": "Lực ma sát" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn vuông góc với vận tốc, giữ vệ tinh chuyển động tròn (hướng tâm)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hệ số ma sát trượt phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Diện tích mặt tiếp xúc" },
+        { "id": "B", "text": "Tốc độ của vật" },
+        { "id": "C", "text": "Vật liệu và tình trạng hai mặt tiếp xúc" },
+        { "id": "D", "text": "Áp lực lên mặt tiếp xúc" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số ma sát $\\mu$ là đặc tính của cặp vật liệu tiếp xúc."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Công của trọng lực không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vị trí điểm đầu" },
+        { "id": "B", "text": "Vị trí điểm cuối" },
+        { "id": "C", "text": "Hình dạng đường đi" },
+        { "id": "D", "text": "Khối lượng vật" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trọng lực là lực thế, công không phụ thuộc hình dạng đường đi, chỉ phụ thuộc điểm đầu và cuối."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật được ném thẳng đứng lên cao. Trong quá trình đi lên:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Động năng tăng, thế năng giảm" },
+        { "id": "B", "text": "Động năng giảm, thế năng tăng" },
+        { "id": "C", "text": "Cơ năng tăng" },
+        { "id": "D", "text": "Cơ năng giảm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đi lên thì độ cao tăng (thế năng tăng), vận tốc giảm (động năng giảm)."
+    }
+  ]
+}

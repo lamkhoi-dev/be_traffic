@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 2: Các nước Á, Phi, Mỹ Latinh",
+    "description": "Kiểm tra kiến thức về Trung Quốc, ASEAN, Ấn Độ, Phong trào giải phóng dân tộc ở Châu Phi và Mỹ Latinh.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Nước Cộng hòa Nhân dân Trung Hoa được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10/1945" },
+        { "id": "B", "text": "10/1949" },
+        { "id": "C", "text": "1/1950" },
+        { "id": "D", "text": "12/1978" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 1/10/1949, Mao Trạch Đông tuyên bố thành lập nước CHND Trung Hoa."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đường lối cải cách - mở cửa của Trung Quốc được đề ra từ năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1949" },
+        { "id": "B", "text": "1959" },
+        { "id": "C", "text": "1978" },
+        { "id": "D", "text": "1986" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 12/1978, TƯ Đảng Cộng sản TQ đề ra đường lối cải cách mở cửa."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Năm quốc gia sáng lập Hiệp hội các quốc gia Đông Nam Á (ASEAN) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam, Lào, Campuchia, Thái Lan, Singapo" },
+        { "id": "B", "text": "Inđônêxia, Malaixia, Philíppin, Thái Lan, Singapo" },
+        { "id": "C", "text": "Inđônêxia, Malaixia, Brunây, Thái Lan, Mianma" },
+        { "id": "D", "text": "Thái Lan, Singapo, Việt Nam, Philíppin, Malaixia" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "5 nước sáng lập năm 1967 tại Băng Cốc."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Biến đổi quan trọng nhất của khu vực Đông Nam Á sau Chiến tranh thế giới thứ hai là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trở thành khu vực kinh tế năng động" },
+        { "id": "B", "text": "Các nước đều giành được độc lập" },
+        { "id": "C", "text": "Thành lập tổ chức ASEAN" },
+        { "id": "D", "text": "Gia nhập Liên Hợp Quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ thân phận thuộc địa, các nước đã giành được độc lập chủ quyền. Đây là biến đổi to lớn nhất."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự chấm dứt chế độ phân biệt chủng tộc (A-pác-thai) ở Nam Phi?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nen-xơn Man-đê-la được trả tự do (1990)" },
+        { "id": "B", "text": "Nen-xơn Man-đê-la trở thành Tổng thống da màu đầu tiên (1993)" },
+        { "id": "C", "text": "Hiến pháp mới được thông qua (1993)" },
+        { "id": "D", "text": "Đại hội dân tộc Phi (ANC) được thành lập" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việc N. Man-đê-la trở thành Tổng thống (1994 - Lưu ý SGK ghi 1993/1994 tùy phiên bản cũ mới, chính xác bầu cử là 1994) đánh dấu sự sụp đổ hoàn toàn. Trong trắc nghiệm thường chọn mốc Man-đê-la làm Tổng thống."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Quốc gia nào được mệnh danh là \"Lá cờ đầu\" trong phong trào giải phóng dân tộc ở Mỹ Latinh?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bra-zin" },
+        { "id": "B", "text": "Ác-hen-ti-na" },
+        { "id": "C", "text": "Cu-ba" },
+        { "id": "D", "text": "Mê-hi-cô" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cách mạng Cu-ba (1959) mở đầu cho phong trào đấu tranh vũ trang ở khu vực."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "\"Năm Châu Phi\" là tên gọi của năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1954" },
+        { "id": "B", "text": "1960" },
+        { "id": "C", "text": "1975" },
+        { "id": "D", "text": "1994" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1960 có 17 quốc gia châu Phi tuyên bố độc lập."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Thực dân Anh đã thực hiện phương án nào để trao trả độc lập cho Ấn Độ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phương án Mounbat-tơn" },
+        { "id": "B", "text": "Trao trả độc lập hoàn toàn" },
+        { "id": "C", "text": "Thành lập khối Liên hiệp Anh" },
+        { "id": "D", "text": "Chia cắt Ấn Độ thành nhiều quốc gia nhỏ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương án Mounbat-tơn chia Ấn Độ thành 2 quốc gia: Ấn Độ (Hindu giáo) và Pakistan (Hồi giáo)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Việt Nam gia nhập ASEAN vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1992" },
+        { "id": "B", "text": "1995" },
+        { "id": "C", "text": "1997" },
+        { "id": "D", "text": "1999" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việt Nam gia nhập ngày 28/7/1995."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế của sự thành lập nước CHND Trung Hoa là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Làm cho chủ nghĩa xã hội nối liền từ Âu sang Á" },
+        { "id": "B", "text": "Đưa Trung Quốc trở thành cường quốc kinh tế số 1" },
+        { "id": "C", "text": "Chấm dứt sự thống trị của chế độ phong kiến" },
+        { "id": "D", "text": "Kết thúc 100 năm nô dịch của thực dân" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời đã nối liền hệ thống XHCN từ châu Âu sang châu Á."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Bốn \"con rồng\" kinh tế của châu Á bao gồm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hàn Quốc, Hồng Kông, Đài Loan, Singapo" },
+        { "id": "B", "text": "Hàn Quốc, Nhật Bản, Trung Quốc, Singapo" },
+        { "id": "C", "text": "Thái Lan, Việt Nam, Inđônêxia, Malaixia" },
+        { "id": "D", "text": "Nhật Bản, Hàn Quốc, Đài Loan, Hồng Kông" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhật Bản là nước phát triển sớm, không nằm trong nhóm 4 con rồng (NICs)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Kẻ thù chủ yếu của phong trào giải phóng dân tộc ở Mỹ Latinh sau Chiến tranh thế giới thứ hai là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chủ nghĩa thực dân cũ" },
+        { "id": "B", "text": "Chế độ phong kiến" },
+        { "id": "C", "text": "Chế độ độc tài thân Mỹ (Thực dân mới)" },
+        { "id": "D", "text": "Chủ nghĩa phát xít" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mỹ thiết lập các chế độ độc tài thân Mỹ để biến Mỹ Latinh thành sân sau."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng Xanh trong nông nghiệp được thực hiện thành công nhất ở quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trung Quốc" },
+        { "id": "B", "text": "Ấn Độ" },
+        { "id": "C", "text": "Thái Lan" },
+        { "id": "D", "text": "Việt Nam" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ấn Độ nổi tiếng với cuộc Cách mạng Xanh (tự túc lương thực) và Cách mạng Chất xám."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hiệp ước Bali (2/1976) đã xác định nguyên tắc hoạt động cơ bản nào của ASEAN?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sử dụng đồng tiền chung" },
+        { "id": "B", "text": "Không can thiệp vào công việc nội bộ của nhau" },
+        { "id": "C", "text": "Xây dựng liên minh quân sự chung" },
+        { "id": "D", "text": "Mở cửa biên giới tự do" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc cốt lõi: Tôn trọng chủ quyền, không can thiệp nội bộ, giải quyết tranh chấp hòa bình..."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự trở về của Hồng Kông và Ma Cao với chủ quyền Trung Quốc?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cuối những năm 90 của thế kỷ XX" },
+        { "id": "B", "text": "Đầu những năm 2000" },
+        { "id": "C", "text": "Năm 1978" },
+        { "id": "D", "text": "Năm 1949" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hồng Kông (1997), Ma Cao (1999) trở về TQ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Châu Phi được mệnh danh là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lục địa già" },
+        { "id": "B", "text": "Lục địa mới trỗi dậy" },
+        { "id": "C", "text": "Lục địa ngủ kỹ" },
+        { "id": "D", "text": "Lục địa bùng cháy" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thực ra thuật ngữ SGK hay dùng là 'Lục địa mới trỗi dậy' (sau khi giành độc lập) hoặc trước đó là 'Lục địa ngủ kỹ/đen'. Câu hỏi này tùy ngữ cảnh, nhưng đáp án B mang tính tích cực sau CTTG 2."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất vào năm 1945?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam" },
+        { "id": "B", "text": "Inđônêxia" },
+        { "id": "C", "text": "Lào" },
+        { "id": "D", "text": "Malaixia" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Inđônêxia (17/8/1945), Việt Nam (2/9/1945), Lào (12/10/1945)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mục tiêu của ASEAN khi thành lập là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hợp tác phát triển kinh tế và văn hóa" },
+        { "id": "B", "text": "Liên minh quân sự chống cộng sản" },
+        { "id": "C", "text": "Thành lập một nhà nước chung Đông Nam Á" },
+        { "id": "D", "text": "Cạnh tranh với Mỹ và Trung Quốc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu chính là hợp tác kinh tế, văn hóa để cùng phát triển."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Lãnh tụ của cuộc cách mạng Cu-ba là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Che Guevara" },
+        { "id": "B", "text": "Phi-đen Cát-xtơ-rô" },
+        { "id": "C", "text": "Hô-xê Mác-ti" },
+        { "id": "D", "text": "Ba-ti-xta" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phi-đen Cát-xtơ-rô là lãnh tụ vĩ đại của Cu-ba."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của kinh tế các nước Đông Nam Á thời kỳ đầu sau khi giành độc lập là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát triển công nghiệp nặng" },
+        { "id": "B", "text": "Thực hiện công nghiệp hóa thay thế nhập khẩu" },
+        { "id": "C", "text": "Thực hiện công nghiệp hóa hướng về xuất khẩu" },
+        { "id": "D", "text": "Phụ thuộc hoàn toàn vào nước ngoài" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến lược kinh tế hướng nội (CNH thay thế nhập khẩu)."
+    }
+  ]
+}

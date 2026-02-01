@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Năng lượng tái tạo (gió, mặt trời) được ưu tiên phát triển trong thời kỳ hiện đại nhằm",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiết kiệm tiền."
+        },
+        {
+          "id": "B",
+          "text": "Bảo vệ môi trường và phát triển bền vững."
+        },
+        {
+          "id": "C",
+          "text": "Vì hết than đá."
+        },
+        {
+          "id": "D",
+          "text": "Vì sở thích."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hướng tới tăng trưởng xanh, giảm phát thải carbon."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong Y học, người Ấn Độ cổ đại nổi tiếng với",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phẫu thuật thẩm mỹ và sử dụng thảo mộc."
+        },
+        {
+          "id": "B",
+          "text": "Châm cứu."
+        },
+        {
+          "id": "C",
+          "text": "Vắc-xin đậu mùa."
+        },
+        {
+          "id": "D",
+          "text": "Kháng sinh."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ biết phẫu thuật tạo hình và sử dụng cây thuốc."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lịch sử giúp chúng ta giải thích được",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "nguồn gốc của các sự kiện hiện tại."
+        },
+        {
+          "id": "B",
+          "text": "cấu trúc của nguyên tử."
+        },
+        {
+          "id": "C",
+          "text": "quy luật vận động của các hành tinh."
+        },
+        {
+          "id": "D",
+          "text": "cách chữa bệnh ung thư."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi vấn đề hiện tại đều có gốc rễ từ quá khứ."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nền văn minh Hy Lạp - La Mã cổ đại hình thành ở khu vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lưu vực các dòng sông lớn ở Châu Á."
+        },
+        {
+          "id": "B",
+          "text": "Ven biển Địa Trung Hải."
+        },
+        {
+          "id": "C",
+          "text": "Vùng núi cao Hymalaya."
+        },
+        {
+          "id": "D",
+          "text": "Bắc Âu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Địa Trung Hải tạo điều kiện thuận lợi cho giao thương hàng hải."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Vở kịch 'Rô-mê-ô và Giu-li-ét' ca ngợi điều gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lòng trung thành với vua."
+        },
+        {
+          "id": "B",
+          "text": "Tình yêu tự do và khát vọng hạnh phúc của con người."
+        },
+        {
+          "id": "C",
+          "text": "Sự giàu có."
+        },
+        {
+          "id": "D",
+          "text": "Chiến tranh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ca ngợi tình yêu vượt qua định kiến dòng họ phong kiến."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "CMCN lần thứ hai gắn liền với sự trỗi dậy của các cường quốc nào (ngoài Anh)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mỹ và Đức."
+        },
+        {
+          "id": "B",
+          "text": "Tây Ban Nha và Bồ Đào Nha."
+        },
+        {
+          "id": "C",
+          "text": "Trung Quốc và Ấn Độ."
+        },
+        {
+          "id": "D",
+          "text": "Hy Lạp và La Mã."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ và Đức đi đầu trong các phát minh về điện và hóa chất."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tư tưởng chủ đạo của văn hóa Phục hưng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chủ nghĩa thần học (đề cao Thần thánh)."
+        },
+        {
+          "id": "B",
+          "text": "Chủ nghĩa nhân văn (đề cao con người)."
+        },
+        {
+          "id": "C",
+          "text": "Chủ nghĩa khắc kỷ."
+        },
+        {
+          "id": "D",
+          "text": "Chủ nghĩa xã hội."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chủ nghĩa nhân văn đề cao giá trị, vẻ đẹp và quyền tự do của con người."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sự phát triển của Thống kê học giúp Sử học",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "định lượng hóa các sự kiện lịch sử (như dân số, sản lượng)."
+        },
+        {
+          "id": "B",
+          "text": "viết văn hay hơn."
+        },
+        {
+          "id": "C",
+          "text": "sáng tác thơ ca."
+        },
+        {
+          "id": "D",
+          "text": "vẽ bản đồ đẹp hơn."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương pháp định lượng giúp sử học chính xác và khách quan hơn."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Người Ấn Độ cổ đại biết làm lịch dựa trên sự chuyển động của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt Trăng."
+        },
+        {
+          "id": "B",
+          "text": "Mặt Trời."
+        },
+        {
+          "id": "C",
+          "text": "Sao Hỏa."
+        },
+        {
+          "id": "D",
+          "text": "Thủy triều."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ sử dụng Âm lịch (dựa theo Mặt Trăng) nhưng có điều chỉnh."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Thiên Chúa giáo (Kitô giáo) ra đời vào khoảng thời gian nào, tại đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thế kỷ I TCN, tại La Mã."
+        },
+        {
+          "id": "B",
+          "text": "Thế kỷ I, tại Pa-le-xtin (thuộc La Mã)."
+        },
+        {
+          "id": "C",
+          "text": "Thế kỷ V, tại Hy Lạp."
+        },
+        {
+          "id": "D",
+          "text": "Thế kỷ X, tại Pháp."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chúa Giê-su sáng lập đạo Thiên Chúa tại vùngn Judea (Palestine)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Phát minh máy bay (năm 1903) là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh em nhà Mon-gôn-fi-ê."
+        },
+        {
+          "id": "B",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "C",
+          "text": "E-đi-xơn."
+        },
+        {
+          "id": "D",
+          "text": "Nô-ben."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh em nhà Wright thực hiện chuyến bay lịch sử đầu tiên."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "'Điện toán đám mây' (Cloud Computing) cho phép",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lưu trữ và truy cập dữ liệu qua Internet thay vì ổ cứng cục bộ."
+        },
+        {
+          "id": "B",
+          "text": "Tạo ra mây nhân tạo."
+        },
+        {
+          "id": "C",
+          "text": "Bay lên trời bằng máy tính."
+        },
+        {
+          "id": "D",
+          "text": "Chạy máy tính bằng hơi nước."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nền tảng của các dịch vụ trực tuyến hiện nay."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Công tác bảo tồn di sản cần tuân thủ nguyên tắc nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm mới hoàn toàn di tích."
+        },
+        {
+          "id": "B",
+          "text": "Giữ gìn tối đa tính nguyên gốc."
+        },
+        {
+          "id": "C",
+          "text": "Phá bỏ để xây dựng lại đẹp hơn."
+        },
+        {
+          "id": "D",
+          "text": "Thay đổi theo sở thích của khách du lịch."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc hàng đầu là bảo vệ tính chân xác (nguyên gốc) của di sản."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong Y học, Trung Hoa nổi tiếng với phương pháp chữa bệnh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Châm cứu và bấm huyệt."
+        },
+        {
+          "id": "B",
+          "text": "Phẫu thuật tim."
+        },
+        {
+          "id": "C",
+          "text": "Ghép tạng."
+        },
+        {
+          "id": "D",
+          "text": "Dùng tia X."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông y Trung Quốc đặc sắc với châm cứu, bắt mạch, thảo dược."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Để quảng bá du lịch Việt Nam, chúng ta cần khai thác yếu tố nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bề dày lịch sử và văn hóa truyền thống."
+        },
+        {
+          "id": "B",
+          "text": "Công nghệ nhập khẩu."
+        },
+        {
+          "id": "C",
+          "text": "Các tòa nhà chọc trời."
+        },
+        {
+          "id": "D",
+          "text": "Các sản phẩm ngoại nhập."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lịch sử văn hóa là thế mạnh độc đáo của du lịch Việt Nam."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Thương mại điện tử (E-commerce) giúp con người",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mua sắm mọi lúc mọi nơi qua Internet."
+        },
+        {
+          "id": "B",
+          "text": "Phải đến tận cửa hàng để mua."
+        },
+        {
+          "id": "C",
+          "text": "Chỉ mua được hàng hóa trong nước."
+        },
+        {
+          "id": "D",
+          "text": "Không cần dùng tiền."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay đổi hoàn toàn thói quen tiêu dùng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Việc nghiên cứu lịch sử giúp con người",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trở nên giàu có ngay lập tức."
+        },
+        {
+          "id": "B",
+          "text": "hiểu rõ cội nguồn, bản sắc dân tộc."
+        },
+        {
+          "id": "C",
+          "text": "thay đổi được quá khứ."
+        },
+        {
+          "id": "D",
+          "text": "sống mãi mãi."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu biết về quá khứ giúp nhận thức rõ nguồn gốc và bản sắc."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thần Mặt Trời - vị thần tối cao của Ai Cập cổ đại tên là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Zeus."
+        },
+        {
+          "id": "B",
+          "text": "Ra (hoặc Amun-Ra)."
+        },
+        {
+          "id": "C",
+          "text": "Osiris."
+        },
+        {
+          "id": "D",
+          "text": "Poseidon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần Ra là thần Mặt Trời."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Đấu trường Cô-li-dê (Colosseum) là công trình kiến trúc tiêu biểu của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hy Lạp."
+        },
+        {
+          "id": "B",
+          "text": "La Mã."
+        },
+        {
+          "id": "C",
+          "text": "Ấn Độ."
+        },
+        {
+          "id": "D",
+          "text": "Lưỡng Hà."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nơi diễn ra các trận đấu của võ sĩ giác đấu tại Rome."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Blockchain (Chuỗi khối) là công nghệ nền tảng của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiền điện tử (như Bitcoin) và bảo mật dữ liệu."
+        },
+        {
+          "id": "B",
+          "text": "Trò chơi điện tử."
+        },
+        {
+          "id": "C",
+          "text": "Mạng xã hội."
+        },
+        {
+          "id": "D",
+          "text": "Xe tự lái."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đảm bảo tính minh bạch và không thể sửa đổi của dữ liệu."
+    }
+  ]
+}

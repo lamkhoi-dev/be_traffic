@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 2: Sự xác lập và phát triển của CNTB",
+    "description": "Kiểm tra kiến thức về các giai đoạn phát triển của CNTB, CNTB độc quyền và CNTB hiện đại.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản được xác lập trên phạm vi thế giới vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thế kỷ XVII" },
+        { "id": "B", "text": "Cuối thế kỷ XVIII" },
+        { "id": "C", "text": "Cuối thế kỷ XIX" },
+        { "id": "D", "text": "Đầu thế kỷ XX" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Với sự thắng lợi của các cuộc CMTS và Cải cách Minh Trị (Nhật), Thống nhất Đức, Ý... vào cuối thế kỷ XIX."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự mở rộng của chủ nghĩa tư bản sang châu Á?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng Tân Hợi (Trung Quốc)" },
+        { "id": "B", "text": "Cuộc Duy tân Minh Trị (Nhật Bản)" },
+        { "id": "C", "text": "Phong trào Xô viết Nghệ Tĩnh (Việt Nam)" },
+        { "id": "D", "text": "Cách mạng ở Ấn Độ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Duy tân Minh Trị (1868) đưa Nhật Bản thoát khỏi phong kiến, trở thành nước TBCN."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản chuyển từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đầu thế kỷ XVIII" },
+        { "id": "B", "text": "Giữa thế kỷ XIX" },
+        { "id": "C", "text": "Cuối thế kỷ XIX - đầu thế kỷ XX" },
+        { "id": "D", "text": "Sau Chiến tranh thế giới thứ hai" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do tác động của tiến bộ khoa học kỹ thuật và tập trung sản xuất."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đặc điểm cơ bản nhất của chủ nghĩa tư bản độc quyền là sự xuất hiện của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các tổ chức độc quyền" },
+        { "id": "B", "text": "Thị trường tự do" },
+        { "id": "C", "text": "Giai cấp công nhân" },
+        { "id": "D", "text": "Các công trường thủ công" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các Cartel, Syndicate, Trust, Concern chi phối nền kinh tế."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "V.I. Lê-nin gọi chủ nghĩa đế quốc là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giai đoạn đầu của chủ nghĩa tư bản" },
+        { "id": "B", "text": "Giai đoạn tột cùng của chủ nghĩa tư bản" },
+        { "id": "C", "text": "Chủ nghĩa tư bản lãng mạn" },
+        { "id": "D", "text": "Chủ nghĩa tư bản nhà nước" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tác phẩm 'CNĐQ là giai đoạn tột cùng của CNTB'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khái niệm \"Chủ nghĩa tư bản hiện đại\" dùng để chỉ giai đoạn phát triển của CNTB từ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sau Cách mạng tháng Mười Nga (1917)" },
+        { "id": "B", "text": "Sau Chiến tranh thế giới thứ hai (1945) đến nay" },
+        { "id": "C", "text": "Đầu thế kỷ XXI" },
+        { "id": "D", "text": "Sau khủng hoảng kinh tế 1929-1933" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CNTB hiện đại là thuật ngữ chỉ CNTB từ sau 1945 với những đặc điểm mới."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Một trong những tiềm năng của chủ nghĩa tư bản hiện đại là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có khả năng giải quyết triệt để mọi bất công xã hội" },
+        { "id": "B", "text": "Trình độ sản xuất phát triển cao, công nghệ tiên tiến" },
+        { "id": "C", "text": "Không còn khủng hoảng kinh tế" },
+        { "id": "D", "text": "Xóa bỏ hoàn toàn hố ngăn cách giàu nghèo" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CNTB hiện đại có ưu thế vượt trội về khoa học công nghệ, năng suất lao động."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tư bản tài chính là sự hợp nhất giữa:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tư bản công nghiệp và tư bản thương nghiệp" },
+        { "id": "B", "text": "Tư bản ngân hàng và tư bản công nghiệp độc quyền" },
+        { "id": "C", "text": "Địa chủ và tư bản" },
+        { "id": "D", "text": "Nhà nước và tư nhân" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự thâm nhập của độc quyền ngân hàng vào độc quyền công nghiệp tạo ra tư bản tài chính."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất mà chủ nghĩa tư bản hiện đại đang đối mặt là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thiếu hụt nguồn lao động" },
+        { "id": "B", "text": "Sự chênh lệch giàu nghèo và khủng hoảng kinh tế, tài chính" },
+        { "id": "C", "text": "Sự sụp đổ của thị trường chứng khoán" },
+        { "id": "D", "text": "Thiếu tài nguyên thiên nhiên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bất bình đẳng xã hội gia tăng và các cuộc khủng hoảng chu kỳ là vấn đề nan giải."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đặc điểm nào **không** phải của chủ nghĩa tư bản hiện đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xuất hiện các công ty xuyên quốc gia (TNCs)" },
+        { "id": "B", "text": "Nhà nước điều tiết nền kinh tế mạnh mẽ" },
+        { "id": "C", "text": "Sản xuất dựa trên công cụ thủ công lạc hậu" },
+        { "id": "D", "text": "Lực lượng lao động có trình độ chuyên môn cao" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "CNTB hiện đại dựa trên nền tảng công nghệ cao, tự động hóa, không phải thủ công."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Việc xuất khẩu tư bản (đầu tư ra nước ngoài) nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giúp đỡ các nước nghèo phát triển" },
+        { "id": "B", "text": "Tìm kiếm lợi nhuận cao ở nơi có nhân công rẻ, tài nguyên dồi dào" },
+        { "id": "C", "text": "Giải quyết vấn đề thừa tiền trong nước" },
+        { "id": "D", "text": "Giao lưu văn hóa" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mục đích tối thượng của tư bản là lợi nhuận siêu ngạch."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng công nghiệp lần thứ nhất bắt đầu ở quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pháp" },
+        { "id": "B", "text": "Mỹ" },
+        { "id": "C", "text": "Anh" },
+        { "id": "D", "text": "Đức" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Anh là quê hương của CMCN lần 1 (động cơ hơi nước, dệt)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Vai trò của Nhà nước trong chủ nghĩa tư bản hiện đại là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không can thiệp vào kinh tế" },
+        { "id": "B", "text": "Điều tiết và quản lý nền kinh tế vĩ mô" },
+        { "id": "C", "text": "Sở hữu toàn bộ tư liệu sản xuất" },
+        { "id": "D", "text": "Xóa bỏ hoàn toàn kinh tế tư nhân" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhà nước tư sản hiện đại can thiệp để giảm thiểu khủng hoảng và điều hòa xã hội."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Các tổ chức độc quyền hình thành dựa trên cơ sở:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự phân tán sản xuất nhỏ lẻ" },
+        { "id": "B", "text": "Tích tụ và tập trung sản xuất, tư bản" },
+        { "id": "C", "text": "Sự hợp tác tự nguyện của nông dân" },
+        { "id": "D", "text": "Sự can thiệp của quân đội" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cạnh tranh gay gắt dẫn đến các công ty lớn nuốt cá bé -> Tích tụ tập trung -> Độc quyền."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Chủ nghĩa đế quốc là hệ quả trực tiếp của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quá trình xâm lược thuộc địa" },
+        { "id": "B", "text": "Sự phát triển của chủ nghĩa tư bản độc quyền" },
+        { "id": "C", "text": "Sự ra đời của máy hơi nước" },
+        { "id": "D", "text": "Cách mạng tư sản Pháp" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CNTB độc quyền phát triển mạnh dẫn đến nhu cầu thị trường, nguyên liệu -> đẩy mạnh xâm lược -> CNĐQ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Sự ra đời của Đảng Quốc đại ở Ấn Độ (1885) phản ánh sự trưởng thành của giai cấp nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân" },
+        { "id": "B", "text": "Công nhân" },
+        { "id": "C", "text": "Tư sản dân tộc" },
+        { "id": "D", "text": "Địa chủ phong kiến" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đảng Quốc đại là chính đảng của giai cấp tư sản Ấn Độ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tổ chức nào sau đây là biểu hiện của sự liên kết kinh tế quốc tế trong CNTB hiện đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Liên minh châu Âu (EU)" },
+        { "id": "B", "text": "Hội Quốc liên" },
+        { "id": "C", "text": "Phe Trục" },
+        { "id": "D", "text": "Hội đồng tương trợ kinh tế (SEV)" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "EU, NAFTA, IMF... là các tổ chức thể hiện tính toàn cầu hóa của CNTB hiện đại."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mâu thuẫn cơ bản nhất trong xã hội tư bản chủ nghĩa là mâu thuẫn giữa:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân và Địa chủ" },
+        { "id": "B", "text": "Tư sản và Vô sản (Công nhân)" },
+        { "id": "C", "text": "Các tập đoàn độc quyền với nhau" },
+        { "id": "D", "text": "Chính quốc và thuộc địa" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mâu thuẫn giữa lao động và tư bản là mâu thuẫn gốc rễ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ 4 (4.0) tạo ra cơ hội gì cho chủ nghĩa tư bản?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tăng năng suất lao động đột biến, phát triển kinh tế tri thức" },
+        { "id": "B", "text": "Quay lại sản xuất thủ công" },
+        { "id": "C", "text": "Giảm bớt sự phụ thuộc vào máy móc" },
+        { "id": "D", "text": "Đóng cửa biên giới quốc gia" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "CN 4.0 (AI, Big Data...) giúp tối ưu hóa sản xuất và quản lý."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phong trào \"Chiếm lấy phố Wall\" (2011) phản ánh điều gì về chủ nghĩa tư bản hiện đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự thịnh vượng chung của mọi người dân" },
+        { "id": "B", "text": "Sự bất bình đẳng sâu sắc và mâu thuẫn xã hội gia tăng" },
+        { "id": "C", "text": "Sự ủng hộ tuyệt đối của người dân với giới tài chính" },
+        { "id": "D", "text": "Sự kết thúc của chủ nghĩa tư bản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khẩu hiệu \"Chúng tôi là 99%\" phản đối việc 1% giới siêu giàu nắm giữ phần lớn tài sản."
+    }
+  ]
+}

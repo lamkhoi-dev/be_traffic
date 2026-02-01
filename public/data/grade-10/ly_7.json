@@ -1,0 +1,165 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật Lý 10 - Bài 7: Biến dạng của vật rắn",
+    "description": "Kiểm tra kiến thức về Biến dạng đàn hồi, Định luật Húc và Đặc tính của lò xo.",
+    "duration": 45,
+    "questionCount": 10,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Biến dạng đàn hồi là biến dạng mà sau khi thôi tác dụng lực:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vật không lấy lại được hình dạng và kích thước ban đầu" },
+        { "id": "B", "text": "Vật lấy lại được hình dạng và kích thước ban đầu" },
+        { "id": "C", "text": "Vật bị gãy hoặc vỡ" },
+        { "id": "D", "text": "Vật tiếp tục biến dạng thêm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa biến dạng đàn hồi."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Định luật Húc (Hooke) về biến dạng cơ của lò xo được biểu diễn bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$F_{dh} = k|\\Delta l|$" },
+        { "id": "B", "text": "$F_{dh} = m a$" },
+        { "id": "C", "text": "$F_{dh} = \\mu N$" },
+        { "id": "D", "text": "$F_{dh} = k \\Delta l^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong giới hạn đàn hồi, lực đàn hồi tỉ lệ thuận với độ biến dạng."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Độ cứng $k$ của lò xo phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lực tác dụng lên lò xo" },
+        { "id": "B", "text": "Độ biến dạng của lò xo" },
+        { "id": "C", "text": "Bản chất vật liệu và kích thước của lò xo" },
+        { "id": "D", "text": "Khối lượng vật treo vào lò xo" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ số k đặc trưng cho bản chất và kích thước của lò xo, không phụ thuộc ngoại lực."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đơn vị của độ cứng $k$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Newton (N)" },
+        { "id": "B", "text": "Newton trên mét (N/m)" },
+        { "id": "C", "text": "Mét trên Newton (m/N)" },
+        { "id": "D", "text": "Joule (J)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ $F=k\\Delta l \\Rightarrow k=F/\\Delta l$ (N/m)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một lò xo có chiều dài tự nhiên 20cm. Khi treo vật nặng, lò xo dài 24cm. Độ biến dạng của lò xo là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "4 cm (dãn)" },
+        { "id": "B", "text": "4 cm (nén)" },
+        { "id": "C", "text": "20 cm" },
+        { "id": "D", "text": "24 cm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta l = l - l_0 = 24 - 20 = 4$ cm. $l > l_0$ nên là dãn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Giới hạn đàn hồi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giá trị lực lớn nhất mà lò xo không bị hỏng" },
+        { "id": "B", "text": "Giá trị lực lớn nhất mà khi vượt qua nó, vật không thể trở về hình dạng cũ" },
+        { "id": "C", "text": "Chiều dài lớn nhất của lò xo" },
+        { "id": "D", "text": "Độ cứng lớn nhất của lò xo" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vượt quá giới hạn đàn hồi, vật bị biến dạng dẻo (không hồi phục)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hai lò xo giống hệt nhau có độ cứng $k$. Nếu ghép song song hai lò xo này thì độ cứng tương đương của hệ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$k$" },
+        { "id": "B", "text": "$2k$" },
+        { "id": "C", "text": "$k/2$" },
+        { "id": "D", "text": "$4k$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ghép song song thì cứng hơn: $k_{ss} = k_1 + k_2 = 2k$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Treo một vật có trọng lượng 2N vào một lò xo thì lò xo dãn ra 1cm. Độ cứng của lò xo là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2 N/m" },
+        { "id": "B", "text": "200 N/m" },
+        { "id": "C", "text": "20 N/m" },
+        { "id": "D", "text": "0,02 N/m" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$k = F/\\Delta l = 2 / 0,01 = 200$ N/m."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Lực đàn hồi của lò xo luôn có chiều:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cùng chiều với chiều biến dạng" },
+        { "id": "B", "text": "Ngược chiều với chiều biến dạng" },
+        { "id": "C", "text": "Thẳng đứng hướng xuống" },
+        { "id": "D", "text": "Thẳng đứng hướng lên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lực đàn hồi có xu hướng đưa vật về hình dạng ban đầu nên ngược chiều biến dạng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Dụng cụ nào sau đây hoạt động dựa trên định luật Húc?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhiệt kế" },
+        { "id": "B", "text": "Lực kế lò xo" },
+        { "id": "C", "text": "Vôn kế" },
+        { "id": "D", "text": "Đồng hồ bấm giờ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lực kế lò xo đo lực dựa trên độ dãn của lò xo."
+    }
+  ]
+}

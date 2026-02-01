@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 1: Hiện thực lịch sử và Nhận thức lịch sử",
+    "description": "Kiểm tra kiến thức về khái niệm Lịch sử, phân biệt hiện thực lịch sử và nhận thức lịch sử, chức năng và nhiệm vụ của Sử học.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Lịch sử được hiểu là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "những gì sẽ diễn ra trong tương lai." },
+        { "id": "B", "text": "tất cả những gì đã diễn ra trong quá khứ." },
+        { "id": "C", "text": "những truyền thuyết, cổ tích dân gian." },
+        { "id": "D", "text": "sự tưởng tượng của con người về quá khứ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lịch sử là tất cả những gì đã diễn ra trong quá khứ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hiện thực lịch sử là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Là toàn bộ những gì đã diễn ra trong quá khứ, tồn tại khách quan." },
+        { "id": "B", "text": "Là những hiểu biết của con người về quá khứ." },
+        { "id": "C", "text": "Là những ghi chép của các nhà sử học." },
+        { "id": "D", "text": "Là các công trình nghiên cứu lịch sử." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hiện thực lịch sử tồn tại khách quan, không phụ thuộc vào ý muốn của con người."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nhận thức lịch sử là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Là chính bản thân các sự kiện đã diễn ra." },
+        { "id": "B", "text": "Là những hiểu biết, tri thức của con người về quá khứ." },
+        { "id": "C", "text": "Là sự tái hiện nguyên vẹn 100% quá khứ." },
+        { "id": "D", "text": "Là những sự kiện lịch sử chưa từng được ghi chép." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức lịch sử mang tính chủ quan, phụ thuộc vào người nghiên cứu."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Yếu tố nào sau đây là 'Hiện thực lịch sử'?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sách Đại Việt sử ký toàn thư." },
+        { "id": "B", "text": "Chiến thắng Điện Biên Phủ năm 1954." },
+        { "id": "C", "text": "Bộ phim về vua Lý Công Uẩn." },
+        { "id": "D", "text": "Bài văn tế nghĩa sĩ Cần Giuộc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Điện Biên Phủ là sự kiện đã thực sự xảy ra (hiện thực). Các phương án còn lại là sự ghi chép, tái hiện (nhận thức)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sử học là khoa học nghiên cứu về",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "quá khứ của loài người." },
+        { "id": "B", "text": "các thiên thể trong vũ trụ." },
+        { "id": "C", "text": "cấu tạo địa chất của Trái Đất." },
+        { "id": "D", "text": "sự biến đổi của khí hậu." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đối tượng của Sử học là quá khứ của loài người."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một trong những chức năng cơ bản của Sử học là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "khôi phục lại sự kiện hiện tại." },
+        { "id": "B", "text": "dự báo chính xác tương lai." },
+        { "id": "C", "text": "khôi phục các sự kiện lịch sử đã diễn ra." },
+        { "id": "D", "text": "tạo ra các quy luật tự nhiên." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chức năng khoa học của Sử học là khôi phục hiện thực lịch sử."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nhiệm vụ giáo dục của Sử học thể hiện ở việc",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "cung cấp tri thức khoa học về quá khứ." },
+        { "id": "B", "text": "giáo dục tinh thần yêu nước, niềm tự hào dân tộc." },
+        { "id": "C", "text": "ghi chép lại mọi hành động của con người." },
+        { "id": "D", "text": "dự báo thời tiết." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giáo dục phẩm chất, đạo đức, tinh thần dân tộc là nhiệm vụ giáo dục."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nguyên tắc cơ bản quan trọng hàng đầu của Sử học là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "khách quan." },
+        { "id": "B", "text": "chủ quan." },
+        { "id": "C", "text": "định kiến." },
+        { "id": "D", "text": "cảm tính." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhà sử học phải tôn trọng sự thật khách quan."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Vì sao nhận thức lịch sử thường không thể tái hiện đầy đủ hiện thực lịch sử?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vì hiện thực lịch sử quá đơn giản." },
+        { "id": "B", "text": "Vì phụ thuộc vào nhu cầu và năng lực của người tìm hiểu." },
+        { "id": "C", "text": "Vì lịch sử không bao giờ thay đổi." },
+        { "id": "D", "text": "Vì con người không quan tâm đến quá khứ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức bị chi phối bởi nguồn sử liệu, góc nhìn, phương pháp của người nghiên cứu."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đối tượng nghiên cứu của Sử học mang tính",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "toàn diện và đa dạng." },
+        { "id": "B", "text": "hẹp hòi và cục bộ." },
+        { "id": "C", "text": "tức thời và ngắn hạn." },
+        { "id": "D", "text": "trừu tượng và phi thực tế." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử học nghiên cứu mọi mặt của đời sống xã hội loài người trong quá khứ."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Câu nói 'Lịch sử là thầy dạy của cuộc sống' (Cicero) nhấn mạnh điều gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lịch sử rất khó học." },
+        { "id": "B", "text": "Vai trò, ý nghĩa to lớn của tri thức lịch sử." },
+        { "id": "C", "text": "Lịch sử chỉ dành cho giáo viên." },
+        { "id": "D", "text": "Lịch sử không liên quan đến hiện tại." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lịch sử cung cấp bài học kinh nghiệm quý báu cho hiện tại và tương lai."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phương pháp lịch sử là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "xem xét sự kiện theo trình tự thời gian." },
+        { "id": "B", "text": "nghiên cứu sự kiện theo logic bản chất." },
+        { "id": "C", "text": "phỏng vấn nhân chứng sống." },
+        { "id": "D", "text": "khảo cổ học." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương pháp lịch sử tái hiện tiến trình phát triển theo thời gian."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nguồn sử liệu nào sau đây được coi là tin cậy nhất để khôi phục sự kiện?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sử liệu truyền miệng." },
+        { "id": "B", "text": "Sử liệu gốc." },
+        { "id": "C", "text": "Phim ảnh hư cấu." },
+        { "id": "D", "text": "Tiểu thuyết lịch sử." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử liệu gốc ra đời vào thời điểm xảy ra sự kiện, phản ánh trực tiếp sự kiện."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "So với hiện thực lịch sử, nhận thức lịch sử có đặc điểm gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Luôn đồng nhất với hiện thực." },
+        { "id": "B", "text": "Thường lạc hậu hơn hiện thực." },
+        { "id": "C", "text": "Có thể thay đổi và ngày càng tiệm cận sự thật." },
+        { "id": "D", "text": "Là duy nhất và bất biến." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi có thêm tư liệu mới hoặc góc nhìn mới, nhận thức lịch sử có thể thay đổi để đúng hơn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Khái niệm 'Trung thực' trong Sử học yêu cầu nhà nghiên cứu phải",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tôn trọng sự thật, không xuyên tạc." },
+        { "id": "B", "text": "viết theo ý muốn của cấp trên." },
+        { "id": "C", "text": "chỉ ghi chép những điều tốt đẹp." },
+        { "id": "D", "text": "sáng tạo thêm các chi tiết hấp dẫn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trung thực là tôn trọng sự thật lịch sử."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Việc nghiên cứu lịch sử giúp con người",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trở nên giàu có ngay lập tức." },
+        { "id": "B", "text": "hiểu rõ cội nguồn, bản sắc dân tộc." },
+        { "id": "C", "text": "thay đổi được quá khứ." },
+        { "id": "D", "text": "sống mãi mãi." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu biết về quá khứ giúp nhận thức rõ nguồn gốc và bản sắc."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ý nào KHÔNG phải là chức năng của Sử học?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khoa học." },
+        { "id": "B", "text": "Xã hội." },
+        { "id": "C", "text": "Giáo dục." },
+        { "id": "D", "text": "Kinh doanh." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Kinh doanh không phải là chức năng cơ bản của khoa học lịch sử."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Sự kiện: 'Năm 938, Ngô Quyền đánh bại quân Nam Hán'. Đây là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hiện thực lịch sử." },
+        { "id": "B", "text": "Nhận thức lịch sử." },
+        { "id": "C", "text": "Giả thuyết lịch sử." },
+        { "id": "D", "text": "Truyền thuyết." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là một sự kiện có thật đã diễn ra."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sách giáo khoa Lịch sử là một dạng của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hiện thực lịch sử." },
+        { "id": "B", "text": "Tri thức lịch sử (Nhận thức)." },
+        { "id": "C", "text": "Sử liệu gốc." },
+        { "id": "D", "text": "Di tích lịch sử." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "SGK là sản phẩm nghiên cứu, biên soạn (nhận thức) của các tác giả."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nguyên tắc 'nhân văn' trong Sử học đòi hỏi",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "bênh vực kẻ mạnh." },
+        { "id": "B", "text": "hướng tới các giá trị tốt đẹp của con người." },
+        { "id": "C", "text": "chỉ nghiên cứu về văn học." },
+        { "id": "D", "text": "bỏ qua các sai lầm trong quá khứ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nhân văn hướng tới sự tiến bộ và hạnh phúc của con người."
+    }
+  ]
+}

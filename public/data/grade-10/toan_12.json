@@ -1,0 +1,547 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hình bình hành ABCD. Đẳng thức nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{AB} + \\vec{AD} = \\vec{AC}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{AB} + \\vec{AC} = \\vec{AD}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{BA} + \\vec{BC} = \\vec{CA}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{AB} = \\vec{CD}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quy tắc hình bình hành: Tổng hai vectơ cạnh bên bằng vectơ đường chéo xuất phát từ cùng một đỉnh."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Giao điểm của Parabol $y = x^2 - 3x + 2$ với trục hoành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; 0)$ và $(2; 0)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0; 1)$ và $(0; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-1; 0)$ và $(-2; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cho $y=0 \\Rightarrow x^2 - 3x + 2 = 0 \\Rightarrow x=1, x=2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Giá trị ngoại lệ (outlier) là giá trị:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lớn hơn $Q_3 + 1,5\\Delta_Q$ hoặc nhỏ hơn $Q_1 - 1,5\\Delta_Q$"
+        },
+        {
+          "id": "B",
+          "text": "Lớn hơn trung bình cộng rất nhiều"
+        },
+        {
+          "id": "C",
+          "text": "Nhỏ hơn trung vị"
+        },
+        {
+          "id": "D",
+          "text": "Nằm trong khoảng $(Q_1; Q_3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức xác định giá trị bất thường."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hệ số của $x^3$ trong khai triển $(2x - 1)^5$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "80"
+        },
+        {
+          "id": "B",
+          "text": "-80"
+        },
+        {
+          "id": "C",
+          "text": "40"
+        },
+        {
+          "id": "D",
+          "text": "-40"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$C_5^2 (2x)^3 (-1)^2 = 10 . 8x^3 . 1 = 80x^3$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\sqrt{x - 2}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$D = [2; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$D = (2; +\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$D = \\mathbb{R} \\setminus \\{2\\}$"
+        },
+        {
+          "id": "D",
+          "text": "$D = (-\\infty; 2]$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $x - 2 \\ge 0 \\Leftrightarrow x \\ge 2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Điểm nào sau đây nằm trong đường tròn $(C): x^2 + y^2 = 9$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; 2)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$(0; 4)$"
+        },
+        {
+          "id": "D",
+          "text": "$(2; 3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ vào $x^2+y^2$. A: $1+4=5 < 9$ (Trong). B: $9=9$ (Trên). C: $16>9$ (Ngoài). D: $4+9=13>9$ (Ngoài)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Vectơ pháp tuyến của đường thẳng $2x - 3y + 1 = 0$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{n} = (2; -3)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{n} = (2; 3)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{n} = (3; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (-3; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số của x và y trong pt tổng quát: $(2; -3)$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Bất phương trình $x^2 + y^2 < 4$ có phải là BPT bậc nhất hai ẩn không?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có"
+        },
+        {
+          "id": "B",
+          "text": "Không"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vì có bậc 2 ($x^2, y^2$). Đây là miền trong hình tròn."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Công thức tính số tổ hợp chập $k$ của $n$ phần tử ($C_n^k$) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{n!}{(n-k)!}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{n!}{k!(n-k)!}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{n!}{k!}$"
+        },
+        {
+          "id": "D",
+          "text": "$n(n-1)...(n-k+1)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tổ hợp."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong lớp học, xác suất bạn An thuộc bài là 0,8 và bạn Bình thuộc bài là 0,9. Xác suất để cả hai bạn cùng thuộc bài là (giả sử độc lập):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,72"
+        },
+        {
+          "id": "B",
+          "text": "0,1"
+        },
+        {
+          "id": "C",
+          "text": "0,98"
+        },
+        {
+          "id": "D",
+          "text": "0,85"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = 0,8 \\times 0,9 = 0,72$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hàm số $y = -x^2 + 2x + 3$ đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-\\infty; 1)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-1; 3)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hệ số $a = -1 < 0$, bề lõm quay xuống. Đỉnh $x=1$. Đồng biến trên $(-\\infty; 1)$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đẳng thức nào sau đây đúng với mọi góc $\\alpha$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan \\alpha = \\frac{\\cos \\alpha}{\\sin \\alpha}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin(180^\\circ - \\alpha) = -\\sin \\alpha$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos(180^\\circ - \\alpha) = \\cos \\alpha$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức cơ bản."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC có $AC = 4, AB = 5, \\widehat{A} = 60^\\circ$. Độ dài cạnh BC là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{21}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{61}$"
+        },
+        {
+          "id": "C",
+          "text": "$3$"
+        },
+        {
+          "id": "D",
+          "text": "$21$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$BC^2 = 4^2 + 5^2 - 2.4.5.\\cos 60 = 16 + 25 - 40(0.5) = 41 - 20 = 21 \\Rightarrow BC = \\sqrt{21}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số có 4 chữ số khác nhau lập từ {0, 1, 2, 3, 4, 5}?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "300"
+        },
+        {
+          "id": "B",
+          "text": "360"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "720"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ số đầu khác 0 (5 cách). 3 chữ số sau lấy từ 5 số còn lại ($A_5^3$). $5 \\times 60 = 300$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Gieo 2 con xúc xắc. Xác suất để tổng số chấm lớn hơn 10 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/12"
+        },
+        {
+          "id": "B",
+          "text": "1/6"
+        },
+        {
+          "id": "C",
+          "text": "1/18"
+        },
+        {
+          "id": "D",
+          "text": "1/36"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng > 10 là 11, 12. Các cặp: (5,6), (6,5), (6,6). Có 3 cặp. $P = 3/36 = 1/12$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hai xạ thủ cùng bắn súng. Xạ thủ A có độ lệch chuẩn điểm bắn là 1,2. Xạ thủ B có độ lệch chuẩn là 0,5. Ai bắn ổn định hơn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Xạ thủ A"
+        },
+        {
+          "id": "B",
+          "text": "Xạ thủ B"
+        },
+        {
+          "id": "C",
+          "text": "Ngang nhau"
+        },
+        {
+          "id": "D",
+          "text": "Không so sánh được"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Độ lệch chuẩn càng nhỏ thì độ phân tán càng ít $\\Rightarrow$ càng ổn định."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên có 3 chữ số khác nhau và chia hết cho 5 được lập từ các chữ số 0, 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "36"
+        },
+        {
+          "id": "B",
+          "text": "40"
+        },
+        {
+          "id": "C",
+          "text": "32"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "TH1: Tận cùng là 0. Chọn 2 số từ {1,2,3,4,5}: $A_5^2 = 20$. TH2: Tận cùng là 5. Chữ số đầu (khác 0, khác 5): 4 cách. Chữ số giữa: 4 cách. Tổng: $4 \\times 4 = 16$. Tổng cộng: $20 + 16 = 36$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Vectơ chỉ phương của đường thẳng đi qua $A(1; 2)$ và $B(3; 5)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(2; 3)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(4; 7)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-2; -3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AB} = (2; 3)$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hệ bất phương trình $\\begin{cases} x > 0 \\\\ x + \\sqrt{3}y + 1 \\le 0 \\end{cases}$ có tập nghiệm được biểu diễn bởi miền nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Miền tam giác"
+        },
+        {
+          "id": "B",
+          "text": "Miền đa giác giới hạn"
+        },
+        {
+          "id": "C",
+          "text": "Miền không bị chặn"
+        },
+        {
+          "id": "D",
+          "text": "Tập rỗng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Miền nghiệm bị giới hạn bởi 2 đường thẳng và mở rộng ra vô cùng nên là miền không bị chặn."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cho tập hợp $A = \\{x \\in \\mathbb{N} | x < 5\\}$. Tập hợp A được viết dưới dạng liệt kê là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$A = \\{1; 2; 3; 4; 5\\}$"
+        },
+        {
+          "id": "B",
+          "text": "$A = \\{0; 1; 2; 3; 4\\}$"
+        },
+        {
+          "id": "C",
+          "text": "$A = \\{1; 2; 3; 4\\}$"
+        },
+        {
+          "id": "D",
+          "text": "$A = \\{0; 1; 2; 3; 4; 5\\}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số tự nhiên nhỏ hơn 5 bao gồm 0, 1, 2, 3, 4."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 2: Urbanisation",
+    "description": "Chủ đề Đô thị hóa. Ngữ pháp: Giả định cách (Subjunctive Mood), So sánh kép (Double Comparatives) và Cụm động từ.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "urban" },
+        { "id": "B", "text": "crude" },
+        { "id": "C", "text": "bulb" },
+        { "id": "D", "text": "rubbish" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B phát âm là /u:/ (crude). Các đáp án A, C, D phát âm là /ʌ/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "urbanise" },
+        { "id": "B", "text": "illustrate" },
+        { "id": "C", "text": "suffering" },
+        { "id": "D", "text": "recommend" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D nhấn âm 3 (re-com-MEND). Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "The process of ______ has brought about many changes in the city's infrastructure.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "urban" },
+        { "id": "B", "text": "urbanise" },
+        { "id": "C", "text": "urbanisation" },
+        { "id": "D", "text": "urbanity" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau giới từ 'of' cần một danh từ chỉ quá trình: 'urbanisation' (sự đô thị hóa)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Many people move to big cities in search of better ______ opportunities.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "employ" },
+        { "id": "B", "text": "employment" },
+        { "id": "C", "text": "employee" },
+        { "id": "D", "text": "employer" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm danh từ 'employment opportunities' (cơ hội việc làm)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "It is recommended that he ______ this course to improve his skills.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "took" },
+        { "id": "B", "text": "takes" },
+        { "id": "C", "text": "take" },
+        { "id": "D", "text": "taking" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc giả định cách: 'It is recommended that S + (should) + V-inf'. Động từ để nguyên mẫu 'take'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "The doctor suggested that the patient ______ smoking immediately.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "stop" },
+        { "id": "B", "text": "stops" },
+        { "id": "C", "text": "stopped" },
+        { "id": "D", "text": "to stop" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc giả định với động từ 'suggest': S + suggest + that + S + (should) + V-inf."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "The ______ the city gets, the more crowded the streets become.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "large" },
+        { "id": "B", "text": "larger" },
+        { "id": "C", "text": "largest" },
+        { "id": "D", "text": "more large" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: 'The + comparative (so sánh hơn), the + comparative'. (Thành phố càng lớn thì đường càng đông)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Overpopulation in urban areas creates huge pressure on ______ services.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "social" },
+        { "id": "B", "text": "society" },
+        { "id": "C", "text": "sociable" },
+        { "id": "D", "text": "socialize" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ 'social services' (các dịch vụ xã hội)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: The city faces a 'massive' problem with waste disposal.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "minor" },
+        { "id": "B", "text": "enormous" },
+        { "id": "C", "text": "small" },
+        { "id": "D", "text": "simple" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Massive' (to lớn, khổng lồ) đồng nghĩa với 'enormous'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: The cost of living in the city has 'decreased' significantly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "fallen" },
+        { "id": "B", "text": "reduced" },
+        { "id": "C", "text": "risen" },
+        { "id": "D", "text": "dropped" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Decreased' (giảm) trái nghĩa với 'risen' (tăng)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "______ I study, the more confused I get.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "More" },
+        { "id": "B", "text": "The more" },
+        { "id": "C", "text": "Most" },
+        { "id": "D", "text": "The most" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The more... the more..."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "The authorities are trying to ______ the problem of traffic congestion.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "solve" },
+        { "id": "B", "text": "create" },
+        { "id": "C", "text": "increase" },
+        { "id": "D", "text": "cause" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dựa vào nghĩa: 'solve the problem' (giải quyết vấn đề)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Migrants often face discrimination and ______ housing conditions.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "poor" },
+        { "id": "B", "text": "rich" },
+        { "id": "C", "text": "luxury" },
+        { "id": "D", "text": "wealthy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngữ cảnh tiêu cực (phân biệt đối xử) nên đi với 'poor housing conditions' (điều kiện nhà ở kém)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "We need to find a ______ solution to the housing shortage.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "short-term" },
+        { "id": "B", "text": "long-term" },
+        { "id": "C", "text": "temporary" },
+        { "id": "D", "text": "brief" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vấn đề thiếu nhà ở cần một giải pháp 'long-term' (dài hạn, bền vững)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I propose that we should use public transport.' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I don't think so." },
+        { "id": "B", "text": "That's a good idea." },
+        { "id": "C", "text": "It's not true." },
+        { "id": "D", "text": "You're wrong." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đồng ý với một lời đề xuất một cách lịch sự."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'It is important that everyone is aware of the city's regulations.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is important" },
+        { "id": "B", "text": "that" },
+        { "id": "C", "text": "is" },
+        { "id": "D", "text": "of" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giả định cách: 'It is important that S + (should) + V-inf'. Chữ 'is' (thứ 2) phải sửa thành 'be'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "The fast ______ of the city has led to environmental pollution.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "grow" },
+        { "id": "B", "text": "growth" },
+        { "id": "C", "text": "grew" },
+        { "id": "D", "text": "grown" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'The' và tính từ 'fast' cần danh từ 'growth' (sự phát triển)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "People in rural areas are ______ down on by some city dwellers.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "looked" },
+        { "id": "B", "text": "looking" },
+        { "id": "C", "text": "looks" },
+        { "id": "D", "text": "look" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc bị động của cụm động từ 'look down on' (coi thường). To be looked down on."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'If you practise harder, you will get better results.' -> 'The harder...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "The harder you practise, the better results you will get." },
+        { "id": "B", "text": "The harder you practise, the best results you will get." },
+        { "id": "C", "text": "The harder you practise, the gooder results you will get." },
+        { "id": "D", "text": "The harder you practise, better results will come." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển đổi câu điều kiện sang so sánh kép đúng ngữ pháp."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "It is vital that the government ______ action to control urbanization.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "takes" },
+        { "id": "B", "text": "taking" },
+        { "id": "C", "text": "take" },
+        { "id": "D", "text": "took" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giả định cách với tính từ 'vital' (thiết yếu). Động từ nguyên mẫu 'take'."
+    }
+  ]
+}

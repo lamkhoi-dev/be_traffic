@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "english",
+    "name": "Tiếng Anh 11 - Unit 2: The Generation Gap",
+    "description": "Bài tập trắc nghiệm Unit 2 (20 câu): Từ vựng về gia đình, xung đột thế hệ và Ngữ pháp Động từ khuyết thiếu (Modal Verbs).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "**h**onest" },
+        { "id": "B", "text": "**h**our" },
+        { "id": "C", "text": "**h**onour" },
+        { "id": "D", "text": "**h**oney" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'honey' phát âm là /h/. Các từ còn lại (honest, hour, honour) âm 'h' bị câm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "wa**tch**" },
+        { "id": "B", "text": "**ch**emistry" },
+        { "id": "C", "text": "cat**ch**" },
+        { "id": "D", "text": "**ch**ildren" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'chemistry' phát âm là /k/. Các từ còn lại phát âm là /tʃ/."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "manner" },
+        { "id": "B", "text": "value" },
+        { "id": "C", "text": "conflict" },
+        { "id": "D", "text": "admire" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'admire' nhấn âm 2. Các từ còn lại nhấn âm 1 (Lưu ý: 'conflict' là danh từ nhấn âm 1, động từ nhấn âm 2. Trong bài này thường dùng danh từ)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "conservative" },
+        { "id": "B", "text": "generation" },
+        { "id": "C", "text": "disagreement" },
+        { "id": "D", "text": "understanding" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A nhấn âm 2 (con-SER-va-tive). Các từ còn lại nhấn âm 3."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "A ______ family consists of three or more generations living together under one roof.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "nuclear" },
+        { "id": "B", "text": "extended" },
+        { "id": "C", "text": "single-parent" },
+        { "id": "D", "text": "blended" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Extended family' (Đại gia đình/Gia đình đa thế hệ)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Conflicts often arise when parents try to ______ their opinions on their children.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "force" },
+        { "id": "B", "text": "impose" },
+        { "id": "C", "text": "make" },
+        { "id": "D", "text": "put" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'impose ... on ...' (áp đặt cái gì lên ai)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "My parents want me to ______ in their footsteps and become a doctor.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "follow" },
+        { "id": "B", "text": "go" },
+        { "id": "C", "text": "chase" },
+        { "id": "D", "text": "walk" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thành ngữ 'follow in someone's footsteps' (nối nghiệp/theo bước ai)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Teenagers often have conflicts with their parents over ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "hairstyles" },
+        { "id": "B", "text": "viewpoints" },
+        { "id": "C", "text": "table manners" },
+        { "id": "D", "text": "All are correct" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Xung đột có thể xảy ra về kiểu tóc, quan điểm, hay cách ứng xử trên bàn ăn. Cả 3 đều đúng trong ngữ cảnh bài học."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "You ______ use your mobile phone in the examination room. It is strictly forbidden.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "mustn't" },
+        { "id": "B", "text": "don't have to" },
+        { "id": "C", "text": "shouldn't" },
+        { "id": "D", "text": "ought not to" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Diễn tả sự cấm đoán (strictly forbidden) dùng 'mustn't'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "It is Sunday tomorrow, so I ______ get up early.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "mustn't" },
+        { "id": "B", "text": "have to" },
+        { "id": "C", "text": "don't have to" },
+        { "id": "D", "text": "should" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Diễn tả sự không cần thiết (không bắt buộc) dùng 'don't have to'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "According to the school rules, students ______ wear uniforms on Mondays.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "must" },
+        { "id": "B", "text": "have to" },
+        { "id": "C", "text": "should" },
+        { "id": "D", "text": "can" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Have to' dùng cho sự bắt buộc đến từ bên ngoài (nội quy nhà trường)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "I think you ______ talk to your parents to solve the problem.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ought" },
+        { "id": "B", "text": "should" },
+        { "id": "C", "text": "must" },
+        { "id": "D", "text": "have to" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đưa ra lời khuyên dùng 'should' hoặc 'ought to'. Đáp án A thiếu 'to'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"Generational **conflicts** can lead to stress in the family.\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "agreements" },
+        { "id": "B", "text": "harmony" },
+        { "id": "C", "text": "disagreements" },
+        { "id": "D", "text": "peace" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Conflict' (xung đột) gần nghĩa nhất với 'disagreement' (sự bất đồng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"My parents are quite **open-minded** about my clothes.\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "conservative" },
+        { "id": "B", "text": "modern" },
+        { "id": "C", "text": "flexible" },
+        { "id": "D", "text": "easy-going" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Open-minded' (cởi mở/thoáng) trái nghĩa với 'conservative' (bảo thủ)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"You ought not stay up late because it is bad for your health.\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ought not" },
+        { "id": "B", "text": "stay up" },
+        { "id": "C", "text": "bad" },
+        { "id": "D", "text": "for" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc đúng là 'ought not TO V'. Thiếu 'to'."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Communication: \"I'm really worried about my exam results.\" - \"______\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "You shouldn't worry too much. You did your best." },
+        { "id": "B", "text": "That's a good idea." },
+        { "id": "C", "text": "I don't think so." },
+        { "id": "D", "text": "It doesn't matter." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lời khuyên/động viên phù hợp."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sentence Transformation: \"It is necessary for us to protect the environment.\" -> \"We ______.\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "We should protect the environment." },
+        { "id": "B", "text": "We must protect the environment." },
+        { "id": "C", "text": "We can protect the environment." },
+        { "id": "D", "text": "We may protect the environment." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Necessary' (cần thiết/bắt buộc) tương đương với 'must' hoặc 'have to'. 'Should' chỉ là lời khuyên."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Parents should learn to ______ their children's privacy.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "respect" },
+        { "id": "B", "text": "inspect" },
+        { "id": "C", "text": "suspect" },
+        { "id": "D", "text": "expect" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Respect privacy' (tôn trọng sự riêng tư)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The ______ arises when there is a lack of understanding between parents and children.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "generation gap" },
+        { "id": "B", "text": "bridge" },
+        { "id": "C", "text": "space" },
+        { "id": "D", "text": "distance" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ chủ đề bài học: 'Generation gap'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"We don't have to drive fast. We have plenty of time.\"",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "don't have to" },
+        { "id": "B", "text": "drive" },
+        { "id": "C", "text": "fast" },
+        { "id": "D", "text": "No mistake" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Câu này KHÔNG có lỗi. 'Don't have to' (không cần phải) đúng ngữ cảnh 'have plenty of time' (còn nhiều thời gian)."
+    }
+  ]
+}

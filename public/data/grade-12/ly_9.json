@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 9: Tổng ôn tập Học kì 1",
+    "description": "Đề tổng hợp kiến thức trọng tâm 3 chương đầu: Dao động cơ, Sóng cơ và Dòng điện xoay chiều.",
+    "duration": 50,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 12,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với tần số góc $\\omega$. Tại thời điểm $t$, vật có li độ $x$ và vận tốc $v$. Hệ thức liên hệ nào sau đây là đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$A^2 = x^2 + \\frac{v^2}{\\omega^2}$" },
+        { "id": "B", "text": "$A^2 = x^2 + v^2\\omega^2$" },
+        { "id": "C", "text": "$A^2 = v^2 + \\frac{x^2}{\\omega^2}$" },
+        { "id": "D", "text": "$A = x + \\frac{v}{\\omega}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức độc lập với thời gian: $x^2 + (v/\\omega)^2 = A^2$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Con lắc lò xo có độ cứng $k$, vật nhỏ khối lượng $m$. Tần số góc của dao động là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{\\frac{m}{k}}$" },
+        { "id": "B", "text": "$\\sqrt{\\frac{k}{m}}$" },
+        { "id": "C", "text": "$\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}$" },
+        { "id": "D", "text": "$2\\pi\\sqrt{\\frac{m}{k}}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số góc $\\omega = \\sqrt{k/m}$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trên một sợi dây đàn hồi dài 1,2m, hai đầu cố định, đang có sóng dừng. Biết sóng truyền trên dây có tần số 100Hz và tốc độ 80m/s. Số nút sóng trên dây là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 80/100 = 0,8$m. Điều kiện sóng dừng 2 đầu cố định: $l = k\\lambda/2 \\Rightarrow 1,2 = k(0,4) \\Rightarrow k=3$ bụng. Số nút = $k+1 = 4$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đặt điện áp $u = U_0\\cos(100\\pi t)$ vào hai đầu đoạn mạch RLC nối tiếp. Biết $R=100\\Omega$, $Z_L=100\\Omega$, $Z_C=200\\Omega$. Độ lệch pha giữa u và i là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\pi/4$" },
+        { "id": "B", "text": "$-\\pi/4$" },
+        { "id": "C", "text": "$\\pi/2$" },
+        { "id": "D", "text": "$-\\pi/2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\tan\\varphi = (Z_L - Z_C)/R = (100 - 200)/100 = -1 \\Rightarrow \\varphi = -\\pi/4$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Trong máy phát điện xoay chiều ba pha, khi suất điện động ở cuộn 1 đạt cực đại thì suất điện động ở cuộn 2 và 3 có giá trị:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bằng một nửa cực đại và trái dấu nhau" },
+        { "id": "B", "text": "Bằng một nửa cực đại và cùng dấu" },
+        { "id": "C", "text": "Bằng 0" },
+        { "id": "D", "text": "Bằng trừ một nửa cực đại" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$e_1 = E_0$. Khi đó $e_2 = E_0\\cos(-2\\pi/3) = -E_0/2$ và $e_3 = E_0\\cos(2\\pi/3) = -E_0/2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một vật thực hiện đồng thời hai dao động điều hòa cùng phương: $x_1 = 4\\cos(10\\pi t)$ và $x_2 = 4\\sin(10\\pi t)$. Biên độ dao động tổng hợp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "8 cm" },
+        { "id": "B", "text": "$4\\sqrt{2}$ cm" },
+        { "id": "C", "text": "4 cm" },
+        { "id": "D", "text": "0 cm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x_2 = 4\\cos(10\\pi t - \\pi/2)$. Hai dao động vuông pha. $A = \\sqrt{4^2 + 4^2} = 4\\sqrt{2}$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Máy biến áp lí tưởng có $N_1 = 2000$, $N_2 = 100$. Nếu đặt vào sơ cấp điện áp $U_1 = 220$V thì điện áp thứ cấp để hở là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "11 V" },
+        { "id": "B", "text": "4400 V" },
+        { "id": "C", "text": "110 V" },
+        { "id": "D", "text": "22 V" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_2 = U_1 (N_2/N_1) = 220 (100/2000) = 11$V."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sóng âm có tần số 450Hz lan truyền với vận tốc 360m/s trong không khí. Giữa hai điểm cách nhau 1m trên phương truyền sóng, độ lệch pha là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2,5\\pi$ rad" },
+        { "id": "B", "text": "$1,5\\pi$ rad" },
+        { "id": "C", "text": "$5\\pi$ rad" },
+        { "id": "D", "text": "$\\pi$ rad" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 360/450 = 0,8$m. $\\Delta\\varphi = 2\\pi d/\\lambda = 2\\pi(1)/0,8 = 2,5\\pi$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Công suất của một đoạn mạch xoay chiều được tính bằng công thức nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$P = U^2/Z$" },
+        { "id": "B", "text": "$P = I^2Z$" },
+        { "id": "C", "text": "$P = UI$" },
+        { "id": "D", "text": "$P = RI^2$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công suất tiêu thụ chỉ tỏa nhiệt trên R: $P = I^2R$ (hoặc $UI\\cos\\varphi$). Các công thức khác sai hoặc thiếu hệ số công suất."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khi nói về sự phản xạ sóng, phát biểu nào đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sóng phản xạ luôn ngược pha với sóng tới tại điểm phản xạ" },
+        { "id": "B", "text": "Sóng phản xạ luôn cùng pha với sóng tới tại điểm phản xạ" },
+        { "id": "C", "text": "Nếu vật cản cố định, sóng phản xạ ngược pha với sóng tới tại điểm phản xạ" },
+        { "id": "D", "text": "Nếu vật cản tự do, sóng phản xạ ngược pha với sóng tới tại điểm phản xạ" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Vật cản cố định: phản xạ ngược pha. Vật cản tự do: phản xạ cùng pha."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch RLC nối tiếp đang có cộng hưởng điện. Nếu chỉ tăng tần số dòng điện thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cường độ dòng điện giảm" },
+        { "id": "B", "text": "Tổng trở mạch giảm" },
+        { "id": "C", "text": "Công suất tiêu thụ tăng" },
+        { "id": "D", "text": "Điện áp trên điện trở tăng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đang cộng hưởng ($Z_{min}=R, I_{max}$). Tăng $f$ làm mất cộng hưởng $\\Rightarrow Z$ tăng $\\Rightarrow I$ giảm."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Con lắc đơn dao động điều hòa với chu kì 2s tại nơi có $g=\\pi^2$ m/s$^2$. Chiều dài con lắc là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1 m" },
+        { "id": "B", "text": "2 m" },
+        { "id": "C", "text": "0,5 m" },
+        { "id": "D", "text": "4 m" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$T = 2\\pi\\sqrt{l/g} \\Rightarrow 2 = 2\\sqrt{10}\\sqrt{l/10} \\Rightarrow 2 = 2\\sqrt{l} \\Rightarrow l=1$m."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một dòng điện xoay chiều có cường độ hiệu dụng 2A chạy qua điện trở $R=50\\Omega$. Nhiệt lượng tỏa ra trong 1 phút là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "12000 J" },
+        { "id": "B", "text": "6000 J" },
+        { "id": "C", "text": "200 J" },
+        { "id": "D", "text": "100 J" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Q = I^2Rt = 2^2 \\cdot 50 \\cdot 60 = 4 \\cdot 50 \\cdot 60 = 12000$J."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong giao thoa sóng nước, hai nguồn kết hợp A, B dao động cùng pha. Điểm M nằm trên đường trung trực của AB sẽ dao động với biên độ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cực đại" },
+        { "id": "B", "text": "Cực tiểu" },
+        { "id": "C", "text": "Bằng biên độ nguồn" },
+        { "id": "D", "text": "Bằng 0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường trung trực của hai nguồn cùng pha là vân cực đại trung tâm ($k=0$)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Đặt điện áp $u = U\\sqrt{2}\\cos\\omega t$ vào hai đầu đoạn mạch gồm cuộn cảm thuần và tụ điện mắc nối tiếp. Biết $Z_L = 2Z_C$. Tại thời điểm t, điện áp tức thời hai đầu cuộn cảm là $u_L$ và hai đầu tụ điện là $u_C$. Hệ thức đúng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$u_L = -2u_C$" },
+        { "id": "B", "text": "$u_L = 2u_C$" },
+        { "id": "C", "text": "$u_L = -0,5u_C$" },
+        { "id": "D", "text": "$u_L = 0,5u_C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_L$ và $u_C$ luôn ngược pha nhau. Về độ lớn $U_{0L} = I_0 Z_L = I_0(2Z_C) = 2U_{0C}$. Do ngược pha nên $u_L = -2u_C$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một vật dao động tắt dần có các đại lượng giảm liên tục theo thời gian là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Biên độ và gia tốc" },
+        { "id": "B", "text": "Li độ và tốc độ" },
+        { "id": "C", "text": "Biên độ và cơ năng" },
+        { "id": "D", "text": "Cơ năng và chu kì" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đặc điểm cơ bản của dao động tắt dần."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Điều kiện để có sóng dừng trên dây một đầu cố định, một đầu tự do là chiều dài dây bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Số lẻ lần một phần tư bước sóng" },
+        { "id": "B", "text": "Số nguyên lần nửa bước sóng" },
+        { "id": "C", "text": "Số nguyên lần bước sóng" },
+        { "id": "D", "text": "Số chẵn lần một phần tư bước sóng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$l = (2k+1)\\lambda/4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đoạn mạch xoay chiều RLC nối tiếp có $R=40\\Omega, Z_L=80\\Omega, Z_C=50\\Omega$. Tổng trở của mạch là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "50 $\\Omega$" },
+        { "id": "B", "text": "70 $\\Omega$" },
+        { "id": "C", "text": "10 $\\Omega$" },
+        { "id": "D", "text": "170 $\\Omega$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Z = \\sqrt{R^2 + (Z_L - Z_C)^2} = \\sqrt{40^2 + (80-50)^2} = \\sqrt{40^2 + 30^2} = 50\\Omega$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong dao động điều hòa, khi vật đi từ vị trí cân bằng ra biên thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Động năng tăng, thế năng giảm" },
+        { "id": "B", "text": "Động năng giảm, thế năng tăng" },
+        { "id": "C", "text": "Động năng và thế năng đều tăng" },
+        { "id": "D", "text": "Cơ năng giảm dần" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ VTCB ra biên: tốc độ giảm (động năng giảm), li độ tăng (thế năng tăng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nguyên tắc hoạt động của máy biến áp dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tự cảm" },
+        { "id": "B", "text": "Cảm ứng điện từ" },
+        { "id": "C", "text": "Cộng hưởng điện" },
+        { "id": "D", "text": "Tác dụng từ của dòng điện" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ thông biến thiên qua cuộn sơ cấp móc vòng qua cuộn thứ cấp gây ra cảm ứng điện từ."
+    }
+  ]
+}

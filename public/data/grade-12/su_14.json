@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc khởi nghĩa Yên Bái (2/1930) do tổ chức nào lãnh đạo?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đảng Cộng sản Việt Nam"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam Quốc dân đảng"
+        },
+        {
+          "id": "C",
+          "text": "Hội Việt Nam Cách mạng Thanh niên"
+        },
+        {
+          "id": "D",
+          "text": "Tân Việt Cách mạng đảng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khởi nghĩa Yên Bái là hoạt động tiêu biểu và cuối cùng của Việt Nam Quốc dân đảng."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Ủy ban Dân tộc giải phóng Việt Nam do ai làm Chủ tịch?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trường Chinh"
+        },
+        {
+          "id": "B",
+          "text": "Phạm Văn Đồng"
+        },
+        {
+          "id": "C",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "D",
+          "text": "Võ Nguyên Giáp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Được bầu tại Quốc dân Đại hội Tân Trào."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lãnh tụ của cuộc cách mạng Cu-ba là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Che Guevara"
+        },
+        {
+          "id": "B",
+          "text": "Phi-đen Cát-xtơ-rô"
+        },
+        {
+          "id": "C",
+          "text": "Hô-xê Mác-ti"
+        },
+        {
+          "id": "D",
+          "text": "Ba-ti-xta"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phi-đen Cát-xtơ-rô là lãnh tụ vĩ đại của Cu-ba."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nhiệm vụ trọng tâm của cả nước sau năm 1975 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Khắc phục hậu quả chiến tranh"
+        },
+        {
+          "id": "B",
+          "text": "Hoàn thành thống nhất đất nước về mặt nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Phát triển kinh tế thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Hội nhập quốc tế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thống nhất lãnh thổ rồi thì phải thống nhất về bộ máy nhà nước."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nước Cộng hòa Nhân dân Trung Hoa được thành lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10/1945"
+        },
+        {
+          "id": "B",
+          "text": "10/1949"
+        },
+        {
+          "id": "C",
+          "text": "1/1950"
+        },
+        {
+          "id": "D",
+          "text": "12/1978"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 1/10/1949, Mao Trạch Đông tuyên bố thành lập nước CHND Trung Hoa."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khẩu hiệu \"Tất cả vì Tổ quốc xã hội chủ nghĩa, vì hạnh phúc của nhân dân\" được nêu ra tại:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại hội IV (1976)"
+        },
+        {
+          "id": "B",
+          "text": "Đại hội V (1982)"
+        },
+        {
+          "id": "C",
+          "text": "Đại hội VI (1986)"
+        },
+        {
+          "id": "D",
+          "text": "Quốc hội khóa VI"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đại hội IV tổng kết kháng chiến chống Mỹ và đưa cả nước tiến lên CNXH."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cuộc khởi nghĩa giành chính quyền ở Hà Nội thắng lợi vào ngày nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "19/8/1945"
+        },
+        {
+          "id": "B",
+          "text": "23/8/1945"
+        },
+        {
+          "id": "C",
+          "text": "25/8/1945"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngày 19/8/1945 giành chính quyền ở Hà Nội."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cao trào kháng Nhật cứu nước diễn ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bắc Kỳ và Bắc Trung Kỳ"
+        },
+        {
+          "id": "B",
+          "text": "Nam Kỳ"
+        },
+        {
+          "id": "C",
+          "text": "Tây Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Các đô thị lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nơi chính quyền địch bị tê liệt và phong trào quần chúng lên cao, cộng với nạn đói diễn ra gay gắt."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong phong trào dân chủ 1936-1939, Đảng đã tạm gác khẩu hiệu nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Độc lập dân tộc và Cách mạng ruộng đất"
+        },
+        {
+          "id": "B",
+          "text": "Tự do, dân chủ"
+        },
+        {
+          "id": "C",
+          "text": "Cơm áo, hòa bình"
+        },
+        {
+          "id": "D",
+          "text": "Chống chế độ phản động thuộc địa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tạm gác nhiệm vụ chiến lược để tập trung nhiệm vụ trước mắt là dân sinh, dân chủ."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Thời cơ \"ngàn năm có một\" của Cách mạng tháng Tám xuất hiện khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nhật đảo chính Pháp"
+        },
+        {
+          "id": "B",
+          "text": "Nhật đầu hàng Đồng minh (8/1945)"
+        },
+        {
+          "id": "C",
+          "text": "Đức đầu hàng Đồng minh"
+        },
+        {
+          "id": "D",
+          "text": "Quân Đồng minh vào giải giáp quân Nhật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời cơ tồn tại từ khi Nhật đầu hàng đến trước khi quân Đồng minh vào."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Xu thế toàn cầu hóa là hệ quả của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuộc cách mạng khoa học - công nghệ"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển của các công ty xuyên quốc gia"
+        },
+        {
+          "id": "C",
+          "text": "Sự kết thúc Chiến tranh lạnh"
+        },
+        {
+          "id": "D",
+          "text": "Sự ra đời của Liên Hợp Quốc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "CM KH-CN tạo điều kiện vật chất và phương tiện cho toàn cầu hóa (internet, giao thông...)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Âm mưu của chiến lược \"Việt Nam hóa chiến tranh\" là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dùng người Việt đánh người Việt"
+        },
+        {
+          "id": "B",
+          "text": "Dùng người Mỹ đánh người Việt"
+        },
+        {
+          "id": "C",
+          "text": "Lấy chiến tranh nuôi chiến tranh"
+        },
+        {
+          "id": "D",
+          "text": "Mở rộng chiến tranh ra cả Đông Dương"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Rút quân Mỹ, tăng cường quân đội Sài Gòn để tiếp tục chiến tranh (Thay màu da xác chết)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Ba chương trình kinh tế lớn được đề ra tại Đại hội VI là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lương thực - thực phẩm, hàng tiêu dùng, hàng xuất khẩu"
+        },
+        {
+          "id": "B",
+          "text": "Công nghiệp nặng, nông nghiệp, giao thông"
+        },
+        {
+          "id": "C",
+          "text": "Dầu khí, thủy sản, du lịch"
+        },
+        {
+          "id": "D",
+          "text": "Giáo dục, y tế, quốc phòng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tập trung vào 3 mục tiêu thiết yếu nhất để ổn định đời sống."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Chiến thắng nào mở đầu cho cao trào \"Thi đua giết giặc lập công\" trong chống \"Chiến tranh đặc biệt\"?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bình Giã (1964)"
+        },
+        {
+          "id": "B",
+          "text": "Ấp Bắc (1/1963)"
+        },
+        {
+          "id": "C",
+          "text": "Ba Gia (1965)"
+        },
+        {
+          "id": "D",
+          "text": "Đồng Xoài (1965)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Ấp Bắc chứng minh quân dân miền Nam hoàn toàn có khả năng đánh bại chiến thuật trực thăng vận, thiết xa vận."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự chấm dứt chế độ phân biệt chủng tộc (A-pác-thai) ở Nam Phi?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nen-xơn Man-đê-la được trả tự do (1990)"
+        },
+        {
+          "id": "B",
+          "text": "Nen-xơn Man-đê-la trở thành Tổng thống da màu đầu tiên (1993)"
+        },
+        {
+          "id": "C",
+          "text": "Hiến pháp mới được thông qua (1993)"
+        },
+        {
+          "id": "D",
+          "text": "Đại hội dân tộc Phi (ANC) được thành lập"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việc N. Man-đê-la trở thành Tổng thống (1994 - Lưu ý SGK ghi 1993/1994 tùy phiên bản cũ mới, chính xác bầu cử là 1994) đánh dấu sự sụp đổ hoàn toàn. Trong trắc nghiệm thường chọn mốc Man-đê-la làm Tổng thống."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nguyên nhân khách quan quan trọng giúp kinh tế Nhật Bản phát triển thần kỳ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Con người Nhật Bản cần cù"
+        },
+        {
+          "id": "B",
+          "text": "Vai trò điều tiết của nhà nước"
+        },
+        {
+          "id": "C",
+          "text": "Tận dụng tốt các điều kiện bên ngoài (viện trợ, chiến tranh Triều Tiên, VN)"
+        },
+        {
+          "id": "D",
+          "text": "Chi phí quốc phòng thấp"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tận dụng nguồn vốn, kỹ thuật nước ngoài và các cuộc chiến tranh để bán hàng là nguyên nhân khách quan."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chiến dịch Tây Nguyên thắng lợi đã chuyển cuộc kháng chiến sang giai đoạn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cầm cự"
+        },
+        {
+          "id": "B",
+          "text": "Phản công"
+        },
+        {
+          "id": "C",
+          "text": "Tổng tiến công chiến lược trên toàn miền Nam"
+        },
+        {
+          "id": "D",
+          "text": "Đàm phán"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chuyển từ tiến công chiến lược sang tổng tiến công trên toàn chiến trường."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cuộc tập dượt lần thứ nhất cho Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phong trào cách mạng 1930-1931"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào dân chủ 1936-1939"
+        },
+        {
+          "id": "C",
+          "text": "Cao trào kháng Nhật cứu nước 1945"
+        },
+        {
+          "id": "D",
+          "text": "Khởi nghĩa Bắc Sơn 1940"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "1930-1931 là cuộc tập dượt đầu tiên; 1936-1939 là cuộc tập dượt thứ hai."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Mặt trận Việt Minh được thành lập vào ngày:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "19/5/1890"
+        },
+        {
+          "id": "B",
+          "text": "19/5/1941"
+        },
+        {
+          "id": "C",
+          "text": "22/12/1944"
+        },
+        {
+          "id": "D",
+          "text": "2/9/1945"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 19/5/1941, Mặt trận Việt Minh ra đời tại Pác Bó (Cao Bằng)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế của sự thành lập nước CHND Trung Hoa là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm cho chủ nghĩa xã hội nối liền từ Âu sang Á"
+        },
+        {
+          "id": "B",
+          "text": "Đưa Trung Quốc trở thành cường quốc kinh tế số 1"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự thống trị của chế độ phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Kết thúc 100 năm nô dịch của thực dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nước CHND Trung Hoa ra đời đã nối liền hệ thống XHCN từ châu Âu sang châu Á."
+    }
+  ]
+}

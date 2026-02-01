@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 19",
+    "description": "Đề luyện tập tổng hợp số 19, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 19
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Global warming has a negative ________ on our climate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "impact"
+        },
+        {
+          "id": "B",
+          "text": "affect"
+        },
+        {
+          "id": "C",
+          "text": "result"
+        },
+        {
+          "id": "D",
+          "text": "cause"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Have an impact on: có tác động lên."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "She decided ________ part in the singing contest.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "take"
+        },
+        {
+          "id": "B",
+          "text": "taking"
+        },
+        {
+          "id": "C",
+          "text": "to take"
+        },
+        {
+          "id": "D",
+          "text": "taken"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Decide + to V."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "He is a ________ pianist. He can play difficult pieces perfectly.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "talented"
+        },
+        {
+          "id": "B",
+          "text": "talent"
+        },
+        {
+          "id": "C",
+          "text": "talents"
+        },
+        {
+          "id": "D",
+          "text": "untalented"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Talented (tính từ): tài năng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "We ________ old clothes to the poor children last week.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "donated"
+        },
+        {
+          "id": "B",
+          "text": "donate"
+        },
+        {
+          "id": "C",
+          "text": "were donating"
+        },
+        {
+          "id": "D",
+          "text": "have donated"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Last week -> Quá khứ đơn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "d_o_nate"
+        },
+        {
+          "id": "B",
+          "text": "rem_o_te"
+        },
+        {
+          "id": "C",
+          "text": "h_o_peless"
+        },
+        {
+          "id": "D",
+          "text": "p_o_sitive"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Positive: 'o' phát âm là /ɒ/. Các từ còn lại phát âm là /əʊ/ (donate, remote, hopeless)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "More trees ________ in the schoolyard next week.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "plant"
+        },
+        {
+          "id": "B",
+          "text": "will plant"
+        },
+        {
+          "id": "C",
+          "text": "will be planted"
+        },
+        {
+          "id": "D",
+          "text": "are planted"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cây được trồng (bị động) và thời gian 'next week' -> Tương lai đơn bị động."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "perform"
+        },
+        {
+          "id": "B",
+          "text": "idol"
+        },
+        {
+          "id": "C",
+          "text": "singer"
+        },
+        {
+          "id": "D",
+          "text": "judge"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Perform nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Many schools now use ________ textbooks instead of paper ones.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "digital"
+        },
+        {
+          "id": "B",
+          "text": "heavy"
+        },
+        {
+          "id": "C",
+          "text": "old"
+        },
+        {
+          "id": "D",
+          "text": "physical"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Digital textbooks: sách giáo khoa kỹ thuật số."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "The judges will ________ the contestants based on their voice and performance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "eliminate"
+        },
+        {
+          "id": "B",
+          "text": "evaluate"
+        },
+        {
+          "id": "C",
+          "text": "watch"
+        },
+        {
+          "id": "D",
+          "text": "sing"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Evaluate: đánh giá."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Parents should encourage their children to ________ the rubbish.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "take out"
+        },
+        {
+          "id": "B",
+          "text": "put out"
+        },
+        {
+          "id": "C",
+          "text": "make out"
+        },
+        {
+          "id": "D",
+          "text": "get out"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Take out the rubbish: đi đổ rác."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "We should stop cutting down trees to preserve ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "biodiversity"
+        },
+        {
+          "id": "B",
+          "text": "diversity"
+        },
+        {
+          "id": "C",
+          "text": "university"
+        },
+        {
+          "id": "D",
+          "text": "biology"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Preserve biodiversity: bảo tồn đa dạng sinh học."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Find the synonym of 'fortunate'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "rich"
+        },
+        {
+          "id": "B",
+          "text": "lucky"
+        },
+        {
+          "id": "C",
+          "text": "happy"
+        },
+        {
+          "id": "D",
+          "text": "poor"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Fortunate = Lucky (may mắn)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "WHO stands for World ________ Organization.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Human"
+        },
+        {
+          "id": "B",
+          "text": "Heart"
+        },
+        {
+          "id": "C",
+          "text": "Health"
+        },
+        {
+          "id": "D",
+          "text": "Housing"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "WHO = World Health Organization (Tổ chức Y tế Thế giới)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Using public transport is a good way to reduce ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "emissions"
+        },
+        {
+          "id": "B",
+          "text": "traffic"
+        },
+        {
+          "id": "C",
+          "text": "money"
+        },
+        {
+          "id": "D",
+          "text": "people"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Reduce emissions: giảm khí thải."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "I think electric cars ________ more popular in the future.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "become"
+        },
+        {
+          "id": "B",
+          "text": "are becoming"
+        },
+        {
+          "id": "C",
+          "text": "will become"
+        },
+        {
+          "id": "D",
+          "text": "are going to become"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dự đoán mang tính cá nhân (I think) -> dùng 'will'."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "A surgeon is a doctor who performs ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "operations"
+        },
+        {
+          "id": "B",
+          "text": "medicines"
+        },
+        {
+          "id": "C",
+          "text": "checks"
+        },
+        {
+          "id": "D",
+          "text": "hospital"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Perform operations: thực hiện phẫu thuật."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "The local community helps people with ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "disabilities"
+        },
+        {
+          "id": "B",
+          "text": "abilities"
+        },
+        {
+          "id": "C",
+          "text": "disable"
+        },
+        {
+          "id": "D",
+          "text": "unable"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "People with disabilities: người khuyết tật."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "If it ________ tomorrow, we will cancel the trip.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "rains"
+        },
+        {
+          "id": "B",
+          "text": "rained"
+        },
+        {
+          "id": "C",
+          "text": "will rain"
+        },
+        {
+          "id": "D",
+          "text": "raining"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu điều kiện loại 1 (có thể xảy ra). Mệnh đề If chia hiện tại đơn."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "The girl ________ father is a doctor is my classmate.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "which"
+        },
+        {
+          "id": "C",
+          "text": "whose"
+        },
+        {
+          "id": "D",
+          "text": "that"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chỉ sự sở hữu (bố của cô gái) -> dùng Whose."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "If I saw a bear, I ________ run away.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will"
+        },
+        {
+          "id": "B",
+          "text": "would"
+        },
+        {
+          "id": "C",
+          "text": "can"
+        },
+        {
+          "id": "D",
+          "text": "shall"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 2 (saw -> would run)."
+    }
+  ]
+}

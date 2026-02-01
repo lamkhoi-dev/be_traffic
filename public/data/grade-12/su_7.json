@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Bài 7: Việt Nam 1954-1965",
+    "description": "Kiểm tra kiến thức về tình hình hai miền sau Hiệp định Giơ-ne-vơ, Phong trào Đồng khởi và Chiến tranh đặc biệt.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Đặc điểm nổi bật của tình hình Việt Nam sau Hiệp định Giơ-ne-vơ (1954) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cả nước được giải phóng" },
+        { "id": "B", "text": "Đất nước bị chia cắt làm hai miền với hai chế độ chính trị khác nhau" },
+        { "id": "C", "text": "Mỹ trực tiếp đưa quân vào miền Nam" },
+        { "id": "D", "text": "Miền Bắc đi lên chủ nghĩa xã hội, miền Nam tiếp tục kháng chiến chống Pháp" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Miền Bắc giải phóng, miền Nam bị Mỹ - Diệm cai trị."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nghị quyết 15 của Ban Chấp hành Trung ương Đảng (1/1959) đã quyết định:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sử dụng bạo lực cách mạng để giải phóng miền Nam" },
+        { "id": "B", "text": "Tiếp tục đấu tranh chính trị là chủ yếu" },
+        { "id": "C", "text": "Nhờ sự giúp đỡ của quân tình nguyện quốc tế" },
+        { "id": "D", "text": "Đàm phán hòa bình với Mỹ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển từ đấu tranh chính trị giữ gìn lực lượng sang dùng bạo lực cách mạng (khởi nghĩa vũ trang)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Phong trào \"Đồng khởi\" (1959-1960) nổ ra mạnh mẽ nhất ở đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tây Nguyên" },
+        { "id": "B", "text": "Bến Tre" },
+        { "id": "C", "text": "Quảng Ngãi" },
+        { "id": "D", "text": "Bình Định" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bến Tre là lá cờ đầu của phong trào Đồng khởi (17/1/1960)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Mặt trận Dân tộc giải phóng miền Nam Việt Nam ra đời vào ngày:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20/12/1960" },
+        { "id": "B", "text": "19/5/1960" },
+        { "id": "C", "text": "2/9/1960" },
+        { "id": "D", "text": "30/4/1960" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sau thắng lợi của phong trào Đồng khởi, Mặt trận ra đời để đoàn kết toàn dân chống Mỹ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Âm mưu cơ bản của chiến lược \"Chiến tranh đặc biệt\" (1961-1965) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dùng người Việt đánh người Việt" },
+        { "id": "B", "text": "Dùng người Mỹ đánh người Việt" },
+        { "id": "C", "text": "Biến miền Nam thành căn cứ quân sự khổng lồ" },
+        { "id": "D", "text": "Đưa quân chư hầu vào tham chiến" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ dùng quân đội Sài Gòn, dưới sự chỉ huy của cố vấn Mỹ và vũ khí Mỹ."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Xương sống của chiến lược \"Chiến tranh đặc biệt\" là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cố vấn Mỹ" },
+        { "id": "B", "text": "Ấp chiến lược" },
+        { "id": "C", "text": "Quân đội Sài Gòn" },
+        { "id": "D", "text": "Vũ khí hiện đại" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dồn dân lập ấp chiến lược để tách dân ra khỏi cách mạng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chiến thắng nào mở đầu cho cao trào \"Thi đua giết giặc lập công\" trong chống \"Chiến tranh đặc biệt\"?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bình Giã (1964)" },
+        { "id": "B", "text": "Ấp Bắc (1/1963)" },
+        { "id": "C", "text": "Ba Gia (1965)" },
+        { "id": "D", "text": "Đồng Xoài (1965)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Ấp Bắc chứng minh quân dân miền Nam hoàn toàn có khả năng đánh bại chiến thuật trực thăng vận, thiết xa vận."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đại hội đại biểu toàn quốc lần thứ III của Đảng (9/1960) xác định vai trò của cách mạng miền Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quyết định nhất đối với sự phát triển của cách mạng cả nước" },
+        { "id": "B", "text": "Quyết định trực tiếp đối với sự nghiệp giải phóng miền Nam" },
+        { "id": "C", "text": "Hậu phương vững chắc cho miền Bắc" },
+        { "id": "D", "text": "Vai trò hỗ trợ cho cách mạng miền Bắc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Miền Bắc có vai trò quyết định nhất, miền Nam có vai trò quyết định TRỰC TIẾP."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Những chiến thắng nào đánh dấu sự phá sản hoàn toàn của chiến lược \"Chiến tranh đặc biệt\"?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tua Hai, Đồng Khởi" },
+        { "id": "B", "text": "Ấp Bắc, Vạn Tường" },
+        { "id": "C", "text": "An Lão, Ba Gia, Đồng Xoài" },
+        { "id": "D", "text": "Núi Thành, Vạn Tường" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Các chiến thắng này trong Đông - Xuân 1964-1965 đã làm phá sản hoàn toàn chiến lược."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Thủ đoạn tàn bạo nhất của Mỹ - Diệm trong việc thi hành Đạo luật 10/59 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lê máy chém đi khắp miền Nam" },
+        { "id": "B", "text": "Dồn dân lập ấp" },
+        { "id": "C", "text": "Rải chất độc hóa học" },
+        { "id": "D", "text": "Ném bom miền Bắc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công khai chém giết người vô tội, đặt cộng sản ra ngoài vòng pháp luật."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của phong trào Đồng khởi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Làm lung lay tận gốc chính quyền tay sai Ngô Đình Diệm" },
+        { "id": "B", "text": "Chuyển cách mạng miền Nam từ thế giữ gìn lực lượng sang thế tiến công" },
+        { "id": "C", "text": "Thành lập được Mặt trận Dân tộc giải phóng" },
+        { "id": "D", "text": "Phá vỡ từng mảng lớn bộ máy cai trị của địch" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là bước ngoặt của cách mạng miền Nam."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nhiệm vụ chung của cách mạng cả nước giai đoạn 1954-1975 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xây dựng chủ nghĩa xã hội" },
+        { "id": "B", "text": "Kháng chiến chống Mỹ cứu nước, thống nhất Tổ quốc" },
+        { "id": "C", "text": "Hoàn thành cách mạng dân tộc dân chủ nhân dân" },
+        { "id": "D", "text": "Đấu tranh ngoại giao" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là nhiệm vụ bao trùm."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc hòa thượng Thích Quảng Đức tự thiêu (1963) nhằm phản đối:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việc Mỹ đưa quân vào miền Nam" },
+        { "id": "B", "text": "Sự đàn áp Phật giáo của chính quyền Ngô Đình Diệm" },
+        { "id": "C", "text": "Chính sách dồn dân lập ấp" },
+        { "id": "D", "text": "Việc chia cắt đất nước" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện gây chấn động thế giới, phản đối chính sách kỳ thị tôn giáo."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong chiến lược \"Chiến tranh đặc biệt\", Mỹ sử dụng lực lượng quân đội nào là chủ yếu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân đội Mỹ" },
+        { "id": "B", "text": "Quân đội Sài Gòn" },
+        { "id": "C", "text": "Quân đồng minh" },
+        { "id": "D", "text": "Lính đánh thuê" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quân đội Sài Gòn là lực lượng chủ lực."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bình Giã là chiến thắng mở đầu cho khả năng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh bại chiến thuật trực thăng vận" },
+        { "id": "B", "text": "Đánh bại chiến lược Chiến tranh cục bộ" },
+        { "id": "C", "text": "Đánh bại chiến lược Chiến tranh đặc biệt" },
+        { "id": "D", "text": "Giải phóng toàn miền Nam" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chiến thắng Bình Giã (12/1964) cho thấy quân giải phóng có thể đánh bại quân chủ lực ngụy trong các chiến dịch lớn, báo hiệu sự sụp đổ của Chiến tranh đặc biệt."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hệ thống \"Ấp chiến lược\" được Mỹ coi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quốc sách" },
+        { "id": "B", "text": "Chiến thuật mới" },
+        { "id": "C", "text": "Kế hoạch nhỏ" },
+        { "id": "D", "text": "Biện pháp tạm thời" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "\"Xương sống\" và là \"quốc sách\" của Chiến tranh đặc biệt."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Phong trào phá \"Ấp chiến lược\" diễn ra với khẩu hiệu:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một tấc không đi, một ly không rời" },
+        { "id": "B", "text": "Bám đất giữ làng" },
+        { "id": "C", "text": "Không đội trời chung với địch" },
+        { "id": "D", "text": "Quyết tử cho Tổ quốc quyết sinh" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thể hiện quyết tâm bám đất, không chịu vào ấp."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Vai trò của miền Bắc trong giai đoạn 1954-1975 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tiền tuyến lớn" },
+        { "id": "B", "text": "Hậu phương lớn" },
+        { "id": "C", "text": "Căn cứ địa duy nhất" },
+        { "id": "D", "text": "Nơi tiếp nhận viện trợ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Miền Bắc là hậu phương lớn XHCN chi viện cho tiền tuyến lớn miền Nam."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Đường mòn Hồ Chí Minh trên bộ và trên biển bắt đầu được khai mở từ năm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1960" },
+        { "id": "B", "text": "1959" },
+        { "id": "C", "text": "1954" },
+        { "id": "D", "text": "1965" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1959, đoàn 559 và 759 được thành lập để mở đường chi viện."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chính quyền Ngô Đình Diệm bị lật đổ vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "11/1960" },
+        { "id": "B", "text": "1/1963" },
+        { "id": "C", "text": "11/1963" },
+        { "id": "D", "text": "12/1964" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc đảo chính ngày 1/11/1963 do Mỹ giật dây đã giết chết anh em Diệm - Nhu."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 7: Artificial Intelligence",
+    "description": "Chủ đề AI và Công nghệ. Ngữ pháp: Thể sai khiến (Causative Form) và Ôn tập câu bị động.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "hacker" },
+        { "id": "B", "text": "automated" },
+        { "id": "C", "text": "application" },
+        { "id": "D", "text": "navigate" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'automated' phát âm là /ɔː/ (âm o dài). Các từ còn lại chữ 'a' phát âm là /æ/ (e bẹt)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "intelligent" },
+        { "id": "B", "text": "incredible" },
+        { "id": "C", "text": "automatic" },
+        { "id": "D", "text": "communicate" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'automatic' nhấn âm 3. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "AI robots are capable ______ performing complex tasks.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "of" },
+        { "id": "B", "text": "in" },
+        { "id": "C", "text": "for" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'capable of V-ing' (có khả năng làm gì)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "You should ______ your computer repaired by a professional.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "make" },
+        { "id": "B", "text": "have" },
+        { "id": "C", "text": "ask" },
+        { "id": "D", "text": "do" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến: 'have something done' (nhờ/thuê ai làm gì)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "I got the mechanic ______ my car yesterday.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "fix" },
+        { "id": "B", "text": "to fix" },
+        { "id": "C", "text": "fixed" },
+        { "id": "D", "text": "fixing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến với 'get': 'get someone TO do something'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Advanced robots can ______ humans in dangerous jobs.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "place" },
+        { "id": "B", "text": "replace" },
+        { "id": "C", "text": "displace" },
+        { "id": "D", "text": "emplaced" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Replace' (thay thế)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Artificial intelligence allows computers to ______ from experience.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "study" },
+        { "id": "B", "text": "know" },
+        { "id": "C", "text": "learn" },
+        { "id": "D", "text": "teach" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Learn from experience' (học từ kinh nghiệm - Machine Learning)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Voice ______ technology is used in many smartphones.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "recognition" },
+        { "id": "B", "text": "realization" },
+        { "id": "C", "text": "recommendation" },
+        { "id": "D", "text": "revolution" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voice recognition' (nhận diện giọng nói)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: Robots will 'exterminate' jobs that are repetitive.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "create" },
+        { "id": "B", "text": "eliminate" },
+        { "id": "C", "text": "improve" },
+        { "id": "D", "text": "increase" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Exterminate' (tiêu diệt/loại bỏ) gần nghĩa với 'eliminate' (loại bỏ) trong ngữ cảnh việc làm."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: AI machines can be more 'accurate' than humans.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "precise" },
+        { "id": "B", "text": "exact" },
+        { "id": "C", "text": "imprecise" },
+        { "id": "D", "text": "correct" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Accurate' (chính xác) trái nghĩa với 'imprecise' (không chính xác)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "We had our house ______ last week.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "paint" },
+        { "id": "B", "text": "painted" },
+        { "id": "C", "text": "painting" },
+        { "id": "D", "text": "to paint" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Have something done' (nhà được sơn). Dùng V3/ed 'painted'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "The system was ______ by a cyber attack.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "destroyed" },
+        { "id": "B", "text": "built" },
+        { "id": "C", "text": "improved" },
+        { "id": "D", "text": "promoted" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngữ cảnh 'cyber attack' (tấn công mạng) thì hệ thống bị 'destroyed' (phá hủy/làm hỏng)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Many people fear that AI will ______ out of control.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "get" },
+        { "id": "B", "text": "make" },
+        { "id": "C", "text": "take" },
+        { "id": "D", "text": "have" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm 'get out of control' (mất kiểm soát)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "AI algorithms can analyze huge amounts of ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "data" },
+        { "id": "B", "text": "date" },
+        { "id": "C", "text": "dating" },
+        { "id": "D", "text": "datum" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Data' (dữ liệu) là danh từ không đếm được hoặc số nhiều (của datum), dùng phổ biến trong tin học."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I believe AI will change the world.' - '______ It has both pros and cons.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "You're absolutely right." },
+        { "id": "B", "text": "I suppose so." },
+        { "id": "C", "text": "I don't think so." },
+        { "id": "D", "text": "No way." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'I suppose so' (Tôi cho là vậy/Chắc là thế) thể hiện sự đồng ý nhưng có phần dè dặt, phù hợp với vế sau 'nó có cả ưu và nhược điểm'."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'I had the hairdresser cut my hair yesterday, so now it looks short.' -> 'I had my hair cut...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "The sentence is correct." },
+        { "id": "B", "text": "The sentence is wrong." },
+        { "id": "C", "text": "It implies I cut it myself." },
+        { "id": "D", "text": "None of the above." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc 'I had the hairdresser cut my hair' (have someone do sth) là đúng ngữ pháp. (Lưu ý: đây là dạng câu hỏi tìm lỗi, nhưng đáp án A nói câu đúng)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Driverless cars are an example of ______ technology.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "automatic" },
+        { "id": "B", "text": "automated" },
+        { "id": "C", "text": "automating" },
+        { "id": "D", "text": "automation" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Automated technology' (công nghệ tự động hóa)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We need to ______ the software to the latest version.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "upgrade" },
+        { "id": "B", "text": "grade" },
+        { "id": "C", "text": "upside" },
+        { "id": "D", "text": "upward" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Upgrade' (nâng cấp) phần mềm."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'Someone stole my phone.' -> 'I had...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I had my phone stolen." },
+        { "id": "B", "text": "I had my phone steal." },
+        { "id": "C", "text": "I had someone stolen my phone." },
+        { "id": "D", "text": "I had someone steal my phone." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc bị động của thể sai khiến (dùng cho việc không mong muốn): 'have something done' (bị mất điện thoại)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "To activate the device, you need to use a ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "passcode" },
+        { "id": "B", "text": "passport" },
+        { "id": "C", "text": "passage" },
+        { "id": "D", "text": "passenger" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Passcode' (mã khóa/mật khẩu) để kích hoạt thiết bị."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Chương 2: Sóng cơ và Sóng âm",
+    "description": "Kiểm tra kiến thức về Sự truyền sóng, Giao thoa sóng, Sóng dừng và Đặc trưng vật lý/sinh lý của âm.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 2
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sóng cơ **không** truyền được trong môi trường nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chất rắn" },
+        { "id": "B", "text": "Chất lỏng" },
+        { "id": "C", "text": "Chất khí" },
+        { "id": "D", "text": "Chân không" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sóng cơ cần môi trường vật chất đàn hồi để lan truyền, do đó không truyền được trong chân không."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Bước sóng là khoảng cách giữa hai điểm gần nhau nhất trên cùng một phương truyền sóng mà dao động tại hai điểm đó:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ngược pha nhau" },
+        { "id": "B", "text": "Cùng pha nhau" },
+        { "id": "C", "text": "Vuông pha nhau" },
+        { "id": "D", "text": "Lệch pha nhau $\\pi/4$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa bước sóng: khoảng cách ngắn nhất giữa hai điểm dao động cùng pha trên phương truyền sóng."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Công thức liên hệ giữa vận tốc truyền sóng $v$, bước sóng $\\lambda$, và chu kì $T$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lambda = v.T$" },
+        { "id": "B", "text": "$\\lambda = v/T$" },
+        { "id": "C", "text": "$\\lambda = T/v$" },
+        { "id": "D", "text": "$v = \\lambda.T$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quãng đường = Vận tốc x Thời gian $\\Rightarrow \\lambda = v.T$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong hiện tượng giao thoa sóng nước với hai nguồn cùng pha, những điểm dao động với biên độ cực đại có hiệu đường đi từ hai nguồn truyền tới bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một số nguyên lần bước sóng" },
+        { "id": "B", "text": "Một số bán nguyên lần bước sóng" },
+        { "id": "C", "text": "Một số lẻ lần nửa bước sóng" },
+        { "id": "D", "text": "Một số nguyên lần nửa bước sóng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện cực đại giao thoa (hai nguồn cùng pha): $d_2 - d_1 = k\\lambda$ (k là số nguyên)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa hai nút sóng liên tiếp trong sóng dừng bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một bước sóng" },
+        { "id": "B", "text": "Một nửa bước sóng" },
+        { "id": "C", "text": "Một phần tư bước sóng" },
+        { "id": "D", "text": "Hai lần bước sóng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khoảng cách giữa 2 nút hoặc 2 bụng liên tiếp là $\\lambda/2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sóng ngang là sóng có phương dao động:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trùng với phương truyền sóng" },
+        { "id": "B", "text": "Vuông góc với phương truyền sóng" },
+        { "id": "C", "text": "Nằm ngang" },
+        { "id": "D", "text": "Thẳng đứng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sóng ngang: phương dao động vuông góc phương truyền sóng. Sóng dọc: phương dao động trùng phương truyền sóng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Một sợi dây đàn hồi dài $l$, hai đầu cố định. Điều kiện để có sóng dừng trên dây là chiều dài $l$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một số nguyên lần bước sóng" },
+        { "id": "B", "text": "Một số nguyên lần nửa bước sóng" },
+        { "id": "C", "text": "Một số lẻ lần nửa bước sóng" },
+        { "id": "D", "text": "Một số lẻ lần một phần tư bước sóng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hai đầu cố định: $l = k \\frac{\\lambda}{2}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Độ cao của âm là đặc trưng sinh lý gắn liền với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số âm" },
+        { "id": "B", "text": "Biên độ âm" },
+        { "id": "C", "text": "Cường độ âm" },
+        { "id": "D", "text": "Đồ thị dao động âm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ cao phụ thuộc vào tần số. Độ to phụ thuộc vào mức cường độ âm. Âm sắc phụ thuộc đồ thị dao động."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Đơn vị đo mức cường độ âm là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Oát trên mét vuông (W/m²)" },
+        { "id": "B", "text": "Ben (B) hoặc Đề-xi-ben (dB)" },
+        { "id": "C", "text": "Héc (Hz)" },
+        { "id": "D", "text": "Newton (N)" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mức cường độ âm $L$ đo bằng Ben hoặc Deciben."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tại một điểm, đại lượng đo bằng lượng năng lượng mà sóng âm truyền qua một đơn vị diện tích đặt vuông góc với phương truyền sóng trong một đơn vị thời gian là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cường độ âm" },
+        { "id": "B", "text": "Mức cường độ âm" },
+        { "id": "C", "text": "Công suất âm" },
+        { "id": "D", "text": "Năng lượng âm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đó là định nghĩa của Cường độ âm ($I$), đơn vị W/m²."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một sóng cơ truyền trong môi trường với tần số $f = 10$ Hz, vận tốc truyền sóng $v = 2$ m/s. Bước sóng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20 m" },
+        { "id": "B", "text": "0,2 m" },
+        { "id": "C", "text": "5 m" },
+        { "id": "D", "text": "0,5 m" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lambda = v/f = 2 / 10 = 0,2$ m."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong giao thoa sóng nước, khoảng cách giữa hai cực đại giao thoa liên tiếp nằm trên đường nối hai nguồn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lambda$" },
+        { "id": "B", "text": "$\\lambda/2$" },
+        { "id": "C", "text": "$\\lambda/4$" },
+        { "id": "D", "text": "$2\\lambda$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trên đường nối hai nguồn, khoảng cách giữa 2 cực đại hoặc 2 cực tiểu liên tiếp là $\\lambda/2$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Âm sắc là đặc trưng sinh lý giúp ta phân biệt được âm phát ra từ hai nguồn khác nhau có cùng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Biên độ" },
+        { "id": "B", "text": "Tần số" },
+        { "id": "C", "text": "Độ to" },
+        { "id": "D", "text": "Độ cao" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Âm sắc giúp phân biệt 2 nhạc cụ (ví dụ sáo và đàn guitar) cùng chơi một nốt nhạc (cùng độ cao/tần số)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vận tốc truyền âm trong các môi trường sắp xếp theo thứ tự tăng dần là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khí < Lỏng < Rắn" },
+        { "id": "B", "text": "Rắn < Lỏng < Khí" },
+        { "id": "C", "text": "Rắn < Khí < Lỏng" },
+        { "id": "D", "text": "Lỏng < Khí < Rắn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$v_{rắn} > v_{lỏng} > v_{khí}$. Vậy tăng dần là Khí - Lỏng - Rắn."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Khi sóng âm truyền từ không khí vào nước thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số không đổi, bước sóng tăng" },
+        { "id": "B", "text": "Tần số không đổi, bước sóng giảm" },
+        { "id": "C", "text": "Tần số tăng, bước sóng tăng" },
+        { "id": "D", "text": "Tần số giảm, bước sóng giảm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tần số không đổi khi truyền qua các môi trường. $v_{nước} > v_{kk} \\Rightarrow \\lambda_{nước} > \\lambda_{kk}$ (do $\\lambda = v/f$). Bước sóng tăng."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tai con người có thể nghe được âm có tần số trong khoảng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Từ 16 Hz đến 20.000 Hz" },
+        { "id": "B", "text": "Dưới 16 Hz" },
+        { "id": "C", "text": "Trên 20.000 Hz" },
+        { "id": "D", "text": "Từ 16 kHz đến 20 MHz" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Âm nghe được (Audio frequency): 16 Hz - 20 kHz."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Siêu âm là âm có tần số:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhỏ hơn 16 Hz" },
+        { "id": "B", "text": "Lớn hơn 20.000 Hz" },
+        { "id": "C", "text": "Từ 16 Hz đến 20.000 Hz" },
+        { "id": "D", "text": "Bằng 0 Hz" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hạ âm < 16 Hz. Siêu âm > 20.000 Hz."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trên một sợi dây đàn hồi dài 1m, hai đầu cố định, đang có sóng dừng với 5 nút sóng (kể cả 2 đầu). Bước sóng của sóng truyền trên dây là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,5 m" },
+        { "id": "B", "text": "0,25 m" },
+        { "id": "C", "text": "2 m" },
+        { "id": "D", "text": "0,4 m" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "5 nút sóng $\\Rightarrow k = 4$ bó sóng. $l = k \\frac{\\lambda}{2} \\Rightarrow 1 = 4 \\frac{\\lambda}{2} = 2\\lambda \\Rightarrow \\lambda = 0,5$ m."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Để có giao thoa sóng, hai nguồn sóng phải:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Dao động cùng biên độ" },
+        { "id": "B", "text": "Kết hợp (cùng tần số và hiệu số pha không đổi)" },
+        { "id": "C", "text": "Chuyển động ngược chiều nhau" },
+        { "id": "D", "text": "Có cùng cường độ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện giao thoa là hai nguồn kết hợp: cùng phương, cùng tần số, hiệu số pha không đổi theo thời gian."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Khi cường độ âm tăng lên 100 lần thì mức cường độ âm tăng thêm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "20 dB" },
+        { "id": "B", "text": "100 dB" },
+        { "id": "C", "text": "10 dB" },
+        { "id": "D", "text": "2 dB" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\u0394L = 10 \\log(I_2/I_1) = 10 \\log(100) = 10 \\times 2 = 20$ dB."
+    }
+  ]
+}

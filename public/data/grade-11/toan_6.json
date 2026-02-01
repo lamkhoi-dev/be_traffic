@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Bài 3: Hàm số lượng giác và Phương trình lượng giác",
+    "description": "Kiểm tra kiến thức về Tập xác định, Tập giá trị, Chu kì, Tính chẵn lẻ, Đồ thị hàm số lượng giác và Cách giải các phương trình lượng giác cơ bản.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\tan x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$D = \\mathbb{R}$" },
+        { "id": "B", "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k\\pi, k \\in \\mathbb{Z} \\}$" },
+        { "id": "C", "text": "$D = \\mathbb{R} \\setminus \\{ k\\pi, k \\in \\mathbb{Z} \\}$" },
+        { "id": "D", "text": "$D = \\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k2\\pi, k \\in \\mathbb{Z} \\}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hàm tan(x) xác định khi cos(x) khác 0, tức là $x \\ne \\frac{\\pi}{2} + k\\pi$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Hàm số nào sau đây là hàm số chẵn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = \\sin x$" },
+        { "id": "B", "text": "$y = \\cos x$" },
+        { "id": "C", "text": "$y = \\tan x$" },
+        { "id": "D", "text": "$y = \\cot x$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vì $\\cos(-x) = \\cos x$ nên hàm cos là hàm chẵn. Các hàm còn lại là hàm lẻ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Chu kì tuần hoàn của hàm số $y = \\sin 2x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2\\pi$" },
+        { "id": "B", "text": "$\\pi$" },
+        { "id": "C", "text": "$\\frac{\\pi}{2}$" },
+        { "id": "D", "text": "$4\\pi$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chu kì $T = \\frac{2\\pi}{|a|} = \\frac{2\\pi}{2} = \\pi$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tập giá trị của hàm số $y = 3\\cos x + 1$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$[-1; 1]$" },
+        { "id": "B", "text": "$[-3; 3]$" },
+        { "id": "C", "text": "$[-2; 4]$" },
+        { "id": "D", "text": "$[1; 4]$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ta có $-1 \\le \\cos x \\le 1 \\Leftrightarrow -3 \\le 3\\cos x \\le 3 \\Leftrightarrow -2 \\le 3\\cos x + 1 \\le 4$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $\\sin x = 1$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = k\\pi$" },
+        { "id": "B", "text": "$x = \\frac{\\pi}{2} + k\\pi$" },
+        { "id": "C", "text": "$x = \\frac{\\pi}{2} + k2\\pi$" },
+        { "id": "D", "text": "$x = -\\frac{\\pi}{2} + k2\\pi$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Phương trình lượng giác đặc biệt: $\\sin x = 1 \\Leftrightarrow x = \\frac{\\pi}{2} + k2\\pi$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = \\sin x$ nhận điểm nào làm tâm đối xứng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gốc tọa độ O" },
+        { "id": "B", "text": "Trục tung Oy" },
+        { "id": "C", "text": "Điểm $(\\frac{\\pi}{2}; 0)$" },
+        { "id": "D", "text": "Đường thẳng $y=1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hàm số lẻ có đồ thị đối xứng qua gốc tọa độ O."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giải phương trình $\\cos x = \\frac{1}{2}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = \\pm \\frac{\\pi}{3} + k2\\pi$" },
+        { "id": "B", "text": "$x = \\pm \\frac{\\pi}{6} + k2\\pi$" },
+        { "id": "C", "text": "$x = \\frac{\\pi}{3} + k2\\pi$" },
+        { "id": "D", "text": "$x = \\pm \\frac{2\\pi}{3} + k2\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos x = \\cos(\\frac{\\pi}{3}) \\Leftrightarrow x = \\pm \\frac{\\pi}{3} + k2\\pi$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Phương trình $\\tan x = \\sqrt{3}$ có nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = \\frac{\\pi}{6} + k\\pi$" },
+        { "id": "B", "text": "$x = \\frac{\\pi}{3} + k\\pi$" },
+        { "id": "C", "text": "$x = \\frac{\\pi}{3} + k2\\pi$" },
+        { "id": "D", "text": "$x = \\frac{\\pi}{6} + k2\\pi$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\tan x = \\tan(\\frac{\\pi}{3}) \\Leftrightarrow x = \\frac{\\pi}{3} + k\\pi$ (họ nghiệm của tan chu kì là $\\pi$)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Hàm số $y = \\cos x$ nghịch biến trên khoảng nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(0; \\pi)$" },
+        { "id": "B", "text": "$(-\\frac{\\pi}{2}; \\frac{\\pi}{2})$" },
+        { "id": "C", "text": "$(-\\pi; 0)$" },
+        { "id": "D", "text": "$(\\pi; 2\\pi)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong khoảng $(0; \\pi)$ (góc phần tư I và II), giá trị cos giảm từ 1 xuống -1."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Điều kiện để phương trình $m \\sin x + \\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m^2 + 1 \\ge 4$" },
+        { "id": "B", "text": "$m^2 + 1 \\le 4$" },
+        { "id": "C", "text": "$m \\ge 2$" },
+        { "id": "D", "text": "$m \\le -2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình $a\\sin x + b\\cos x = c$ có nghiệm khi $a^2 + b^2 \\ge c^2$. Tức là $m^2 + 1^2 \\ge 2^2 \\Leftrightarrow m^2 + 1 \\ge 4$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tìm số nghiệm của phương trình $\\sin 2x = \\frac{1}{2}$ trong khoảng $(0; \\pi)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$2x = \\frac{\\pi}{6} + k2\\pi$ hoặc $2x = \\frac{5\\pi}{6} + k2\\pi$. $\\Rightarrow x = \\frac{\\pi}{12} + k\\pi$ hoặc $x = \\frac{5\\pi}{12} + k\\pi$. Trong $(0; \\pi)$ có 2 nghiệm: $\\frac{\\pi}{12}$ và $\\frac{5\\pi}{12}$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phương trình $2\\cos^2 x - 3\\cos x + 1 = 0$ có các họ nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = k2\\pi; x = \\pm \\frac{\\pi}{3} + k2\\pi$" },
+        { "id": "B", "text": "$x = \\pi + k2\\pi; x = \\pm \\frac{\\pi}{6} + k2\\pi$" },
+        { "id": "C", "text": "$x = k2\\pi; x = \\pm \\frac{\\pi}{6} + k2\\pi$" },
+        { "id": "D", "text": "$x = \\frac{\\pi}{2} + k\\pi; x = \\pm \\frac{\\pi}{3} + k2\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $t = \\cos x$, ta có $2t^2 - 3t + 1 = 0 \\Leftrightarrow t=1$ hoặc $t=1/2$. $\\cos x = 1 \\Rightarrow x=k2\\pi$. $\\cos x = 1/2 \\Rightarrow x=\\pm \\pi/3 + k2\\pi$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = 4\\sin x - 3$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "-1" },
+        { "id": "B", "text": "-7" },
+        { "id": "C", "text": "-3" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$-1 \\le \\sin x \\le 1 \\Rightarrow -4 \\le 4\\sin x \\le 4 \\Rightarrow -7 \\le 4\\sin x - 3 \\le 1$. Min là -7."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phương trình $\\sqrt{3}\\tan x - 3 = 0$ tương đương với phương trình nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\tan x = \\sqrt{3}$" },
+        { "id": "B", "text": "$\\tan x = \\frac{1}{\\sqrt{3}}$" },
+        { "id": "C", "text": "$\\cot x = \\sqrt{3}$" },
+        { "id": "D", "text": "$\\tan x = 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\sqrt{3}\\tan x = 3 \\Leftrightarrow \\tan x = \\frac{3}{\\sqrt{3}} = \\sqrt{3}$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $\\sin 3x = \\sin x$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = k\\pi$" },
+        { "id": "B", "text": "$x = k\\pi; x = \\frac{\\pi}{4} + k\\frac{\\pi}{2}$" },
+        { "id": "C", "text": "$x = k2\\pi$" },
+        { "id": "D", "text": "$x = \\frac{\\pi}{2} + k\\pi$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$3x = x + k2\\pi \\Rightarrow x = k\\pi$. Hoặc $3x = \\pi - x + k2\\pi \\Rightarrow 4x = \\pi + k2\\pi \\Rightarrow x = \\frac{\\pi}{4} + k\\frac{\\pi}{2}$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Để phương trình $\\cos x = m$ có nghiệm thì giá trị của m phải là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m \\ge 1$" },
+        { "id": "B", "text": "$m \\le -1$" },
+        { "id": "C", "text": "$-1 \\le m \\le 1$" },
+        { "id": "D", "text": "$m > 1$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tập giá trị của cos là $[-1; 1]$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Hàm số nào có đồ thị như hình sin nhưng đi qua điểm (0; 1)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = \\sin x$" },
+        { "id": "B", "text": "$y = \\cos x$" },
+        { "id": "C", "text": "$y = \\sin(x + \\pi)$" },
+        { "id": "D", "text": "$y = \\cos(x - \\pi)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại $x=0$, $\\cos 0 = 1$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin^2 x - 3\\sin x + 2 = 0$ có nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = \\frac{\\pi}{2} + k2\\pi$" },
+        { "id": "B", "text": "$x = k\\pi$" },
+        { "id": "C", "text": "$x = \\frac{\\pi}{6} + k2\\pi$" },
+        { "id": "D", "text": "Vô nghiệm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm $t=1$ (nhận) và $t=2$ (loại). $\\sin x = 1 \\Rightarrow x = \\pi/2 + k2\\pi$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tìm tập xác định của hàm số $y = \\frac{1}{\\sin x}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\mathbb{R} \\setminus \\{ k\\pi \\}$" },
+        { "id": "B", "text": "$\\mathbb{R} \\setminus \\{ \\frac{\\pi}{2} + k\\pi \\}$" },
+        { "id": "C", "text": "$\\mathbb{R} \\setminus \\{ k2\\pi \\}$" },
+        { "id": "D", "text": "$\\mathbb{R}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $\\sin x \\ne 0 \\Rightarrow x \\ne k\\pi$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin x + \\sqrt{3}\\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = \\frac{\\pi}{6} + k2\\pi$" },
+        { "id": "B", "text": "$x = \\frac{\\pi}{3} + k2\\pi$" },
+        { "id": "C", "text": "$x = \\frac{5\\pi}{6} + k2\\pi$" },
+        { "id": "D", "text": "$x = -\\frac{\\pi}{6} + k2\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia 2 vế cho 2: $\\frac{1}{2}\\sin x + \\frac{\\sqrt{3}}{2}\\cos x = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{3}) = 1 \\Rightarrow x + \\frac{\\pi}{3} = \\frac{\\pi}{2} + k2\\pi \\Rightarrow x = \\frac{\\pi}{6} + k2\\pi$."
+    }
+  ]
+}

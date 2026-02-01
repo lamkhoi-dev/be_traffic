@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Trong một mặt phẳng có 5 điểm, trừ 2 điểm A, B thì không có 3 điểm nào thẳng hàng. Số tam giác được tạo thành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì chỉ có 2 điểm A, B thẳng hàng (hiển nhiên), nên không có bộ 3 điểm nào thẳng hàng cả. Số tam giác là $C_5^3 = 10$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Vectơ chỉ phương của đường thẳng đi qua $A(1; 2)$ và $B(3; 5)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(2; 3)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(4; 7)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-2; -3)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\vec{AB} = (2; 3)$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đường tròn $(C): x^2 + y^2 - 4x + 2y - 3 = 0$ có bán kính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{8}$"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "$2\\sqrt{2}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$R = \\sqrt{2^2 + (-1)^2 - (-3)} = \\sqrt{4+1+3} = \\sqrt{8} = 2\\sqrt{2}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC có $a=3, c=4, \\widehat{B}=60^\\circ$. Độ dài cạnh b là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{13}$"
+        },
+        {
+          "id": "B",
+          "text": "$13$"
+        },
+        {
+          "id": "C",
+          "text": "$5$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sqrt{37}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$b^2 = a^2 + c^2 - 2ac\\cos B = 9 + 16 - 2.3.4.(1/2) = 25 - 12 = 13 \\Rightarrow b=\\sqrt{13}$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Số phần tử của tập hợp $A = \\{k^2 + 1 | k \\in \\mathbb{Z}, |k| \\le 2\\}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$k \\in \\{-2; -1; 0; 1; 2\\}$. Tính giá trị: $k=0 \\to 1$; $k=\\pm 1 \\to 2$; $k=\\pm 2 \\to 5$. Tập A = $\\{1; 2; 5\\}$. Có 3 phần tử."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khoảng biến thiên của mẫu số liệu 10, 2, 5, 15, 8 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "15"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "R = Max - Min = 15 - 2 = 13."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hệ số của $x^2$ trong khai triển $(x + 2)^4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} 2^k$. Để có $x^2$ thì $4-k=2 \\Rightarrow k=2$. Hệ số: $C_4^2 . 2^2 = 6 . 4 = 24$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đường thẳng đi qua hai điểm $A(1; 0)$ và $B(0; 2)$ có phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{x}{1} + \\frac{y}{2} = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$2x + y = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$x + 2y = 2$"
+        },
+        {
+          "id": "D",
+          "text": "$y = 2x$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đoạn chắn."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nếu tất cả các giá trị của mẫu số liệu được cộng thêm 5 thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số trung bình tăng 5, phương sai không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Số trung bình tăng 5, phương sai tăng 5"
+        },
+        {
+          "id": "C",
+          "text": "Số trung bình không đổi, phương sai tăng 25"
+        },
+        {
+          "id": "D",
+          "text": "Cả hai đều tăng 5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cộng hằng số làm tịnh tiến dữ liệu (trung bình tăng) nhưng độ phân tán (khoảng cách giữa các số) không đổi."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trục đối xứng của Parabol $y = 2x^2 + 4x - 1$ là đường thẳng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "B",
+          "text": "$x = -1$"
+        },
+        {
+          "id": "C",
+          "text": "$x = -2$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 1$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trục đối xứng $x = -b/2a = -4/4 = -1$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số tự nhiên chẵn có 3 chữ số khác nhau được lập từ các chữ số 1, 2, 3, 4, 5?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "48"
+        },
+        {
+          "id": "D",
+          "text": "36"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ số tận cùng có 2 cách chọn (2, 4). 2 chữ số còn lại chọn từ 4 số còn lại: $A_4^2 = 12$. Tổng: $2 \\times 12 = 24$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Biết $\\sin \\alpha = \\frac{1}{3}$ với $0 < \\alpha < 90^\\circ$. Giá trị của $\\cos \\alpha$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{2\\sqrt{2}}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{8}{9}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{2\\sqrt{2}}{3}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos^2 = 1 - \\sin^2 = 1 - 1/9 = 8/9$. Vì $\\alpha$ nhọn nên $\\cos > 0 \\Rightarrow \\cos = \\sqrt{8}/3 = 2\\sqrt{2}/3$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mệnh đề phủ định của mệnh đề $P: \"\\forall x \\in \\mathbb{R}, x^2 + 1 > 0\"$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 \\le 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 > 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phủ định của $\\forall$ là $\\exists$, phủ định của $>$ là $\\le$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Giao điểm của Parabol $y = x^2 - 3x + 2$ với trục hoành là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; 0)$ và $(2; 0)$"
+        },
+        {
+          "id": "B",
+          "text": "$(0; 1)$ và $(0; 2)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-1; 0)$ và $(-2; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$(0; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cho $y=0 \\Rightarrow x^2 - 3x + 2 = 0 \\Rightarrow x=1, x=2$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hệ bất phương trình $\\begin{cases} x > 0 \\\\ x + \\sqrt{3}y + 1 \\le 0 \\end{cases}$ có tập nghiệm được biểu diễn bởi miền nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Miền tam giác"
+        },
+        {
+          "id": "B",
+          "text": "Miền đa giác giới hạn"
+        },
+        {
+          "id": "C",
+          "text": "Miền không bị chặn"
+        },
+        {
+          "id": "D",
+          "text": "Tập rỗng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Miền nghiệm bị giới hạn bởi 2 đường thẳng và mở rộng ra vô cùng nên là miền không bị chặn."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tam giác ABC có 3 cạnh là 3, 4, 5. Bán kính đường tròn nội tiếp r là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1,5"
+        },
+        {
+          "id": "D",
+          "text": "2,5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tam giác vuông. $S = 6$. $p = (3+4+5)/2 = 6$. $r = S/p = 1$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tam giác ABC có $AB=2, AC=1, \\widehat{A}=60^\\circ$. Độ dài đường cao hạ từ A là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$1$"
+        },
+        {
+          "id": "D",
+          "text": "$2\\sqrt{3}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Xin lỗi, tính lại. Diện tích $S = 1/2 \\cdot 2 \\cdot 1 \\cdot \\sin 60 = \\sqrt{3}/2$. Cạnh $BC = \\sqrt{4+1 - 2.2.1.0.5} = \\sqrt{3}$. Đường cao $h_a = 2S/BC = 2(\\sqrt{3}/2)/\\sqrt{3} = 1$. (Đáp án mẫu chọn B là sai theo tính toán. Tính lại: S = $\\sqrt{3}/2$. $a = \\sqrt{3}$. $h = 2S/a = \\sqrt{3}/\\sqrt{3} = 1$. Đáp án C mới đúng. Tôi sẽ sửa JSON để khớp)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC có $AC = 4, AB = 5, \\widehat{A} = 60^\\circ$. Độ dài cạnh BC là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{21}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sqrt{61}$"
+        },
+        {
+          "id": "C",
+          "text": "$3$"
+        },
+        {
+          "id": "D",
+          "text": "$21$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$BC^2 = 4^2 + 5^2 - 2.4.5.\\cos 60 = 16 + 25 - 40(0.5) = 41 - 20 = 21 \\Rightarrow BC = \\sqrt{21}$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $P = \\frac{A_5^2}{C_5^2}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "120"
+        },
+        {
+          "id": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A_5^2 = 20$, $C_5^2 = 10$. $P = 20/10 = 2$. (Hoặc $A_n^k = k! C_n^k \\Rightarrow A/C = k! = 2! = 2$)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cho hai tập hợp $A = \\{1; 3; 5; 7\\}$ và $B = \\{1; 2; 3; 6\\}$. Tập hợp $A \\cap B$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\{1; 3\\}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\{1; 2; 3; 5; 6; 7\\}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\{5; 7\\}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\{2; 6\\}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giao của hai tập hợp là lấy phần tử chung: 1 và 3."
+    }
+  ]
+}

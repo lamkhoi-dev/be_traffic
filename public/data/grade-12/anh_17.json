@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "The system was ______ by a cyber attack.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "destroyed"
+        },
+        {
+          "id": "B",
+          "text": "built"
+        },
+        {
+          "id": "C",
+          "text": "improved"
+        },
+        {
+          "id": "D",
+          "text": "promoted"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ngữ cảnh 'cyber attack' (tấn công mạng) thì hệ thống bị 'destroyed' (phá hủy/làm hỏng)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "You should ______ your computer repaired by a professional.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "make"
+        },
+        {
+          "id": "B",
+          "text": "have"
+        },
+        {
+          "id": "C",
+          "text": "ask"
+        },
+        {
+          "id": "D",
+          "text": "do"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thể sai khiến: 'have something done' (nhờ/thuê ai làm gì)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Communication: 'Can I switch off the air conditioner?' - '______'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes, please do."
+        },
+        {
+          "id": "B",
+          "text": "No, I don't."
+        },
+        {
+          "id": "C",
+          "text": "You're welcome."
+        },
+        {
+          "id": "D",
+          "text": "It's expensive."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu trả lời lịch sự đồng ý cho phép tắt máy lạnh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Identify the Sentence Type: 'The wind blew strongly, and the trees swayed.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Simple Sentence"
+        },
+        {
+          "id": "B",
+          "text": "Compound Sentence"
+        },
+        {
+          "id": "C",
+          "text": "Complex Sentence"
+        },
+        {
+          "id": "D",
+          "text": "Compound-Complex Sentence"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu ghép (Compound) vì có 2 mệnh đề độc lập nối với nhau bằng liên từ 'and'."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Many people move to big cities in search of better ______ opportunities.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "employ"
+        },
+        {
+          "id": "B",
+          "text": "employment"
+        },
+        {
+          "id": "C",
+          "text": "employee"
+        },
+        {
+          "id": "D",
+          "text": "employer"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm danh từ 'employment opportunities' (cơ hội việc làm)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Many young people use social media to ______ their identity.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "express"
+        },
+        {
+          "id": "B",
+          "text": "make"
+        },
+        {
+          "id": "C",
+          "text": "do"
+        },
+        {
+          "id": "D",
+          "text": "have"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Express identity' (thể hiện bản sắc/cá tính)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "We need to find a ______ solution to the housing shortage.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "short-term"
+        },
+        {
+          "id": "B",
+          "text": "long-term"
+        },
+        {
+          "id": "C",
+          "text": "temporary"
+        },
+        {
+          "id": "D",
+          "text": "brief"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vấn đề thiếu nhà ở cần một giải pháp 'long-term' (dài hạn, bền vững)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "AI algorithms can analyze huge amounts of ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "data"
+        },
+        {
+          "id": "B",
+          "text": "date"
+        },
+        {
+          "id": "C",
+          "text": "dating"
+        },
+        {
+          "id": "D",
+          "text": "datum"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Data' (dữ liệu) là danh từ không đếm được hoặc số nhiều (của datum), dùng phổ biến trong tin học."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "She said that she ______ for a new job then.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "is looking"
+        },
+        {
+          "id": "B",
+          "text": "was looking"
+        },
+        {
+          "id": "C",
+          "text": "looked"
+        },
+        {
+          "id": "D",
+          "text": "has looked"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tường thuật lùi thì: Hiện tại tiếp diễn -> Quá khứ tiếp diễn. 'Then' thay cho 'now'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cultural ______ helps people understand each other better.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "shock"
+        },
+        {
+          "id": "B",
+          "text": "exchange"
+        },
+        {
+          "id": "C",
+          "text": "barrier"
+        },
+        {
+          "id": "D",
+          "text": "conflict"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Cultural exchange' (trao đổi văn hóa)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Identify mistake: 'He said me that he was busy.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "me"
+        },
+        {
+          "id": "C",
+          "text": "that"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dùng 'said to me' hoặc 'told me'. Không dùng 'said me'. Chọn A sửa thành 'told'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "He turned ______ the job offer because the salary was too low.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "down"
+        },
+        {
+          "id": "B",
+          "text": "up"
+        },
+        {
+          "id": "C",
+          "text": "on"
+        },
+        {
+          "id": "D",
+          "text": "off"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Turn down' (từ chối)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Closest meaning: She 'voluntarily' joined the project.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "willingly"
+        },
+        {
+          "id": "B",
+          "text": "reluctantly"
+        },
+        {
+          "id": "C",
+          "text": "forcedly"
+        },
+        {
+          "id": "D",
+          "text": "hardly"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Voluntarily' (tự nguyện) đồng nghĩa với 'willingly' (sẵn lòng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Doing a ______ job can help you decide if you like the career.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "part-time"
+        },
+        {
+          "id": "B",
+          "text": "full-time"
+        },
+        {
+          "id": "C",
+          "text": "permanent"
+        },
+        {
+          "id": "D",
+          "text": "well-paid"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Part-time job' (việc làm thêm) giúp trải nghiệm thử."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "You should ______ more information about the course before enrolling.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "look for"
+        },
+        {
+          "id": "B",
+          "text": "look after"
+        },
+        {
+          "id": "C",
+          "text": "look up"
+        },
+        {
+          "id": "D",
+          "text": "look into"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Look for' (tìm kiếm)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "To activate the device, you need to use a ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "passcode"
+        },
+        {
+          "id": "B",
+          "text": "passport"
+        },
+        {
+          "id": "C",
+          "text": "passage"
+        },
+        {
+          "id": "D",
+          "text": "passenger"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Passcode' (mã khóa/mật khẩu) để kích hoạt thiết bị."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "When I arrived at the party, everyone ______ home.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "went"
+        },
+        {
+          "id": "B",
+          "text": "have gone"
+        },
+        {
+          "id": "C",
+          "text": "had gone"
+        },
+        {
+          "id": "D",
+          "text": "was going"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hành động 'về nhà' đã xảy ra và hoàn tất TRƯỚC khi 'tôi đến' (trong quá khứ). Dùng thì Quá khứ hoàn thành."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "They decided ______ a new house in the suburbs.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "buying"
+        },
+        {
+          "id": "B",
+          "text": "buy"
+        },
+        {
+          "id": "C",
+          "text": "to buy"
+        },
+        {
+          "id": "D",
+          "text": "bought"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau động từ 'decide' dùng 'to V'."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'If you practise harder, you will get better results.' -> 'The harder...'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The harder you practise, the better results you will get."
+        },
+        {
+          "id": "B",
+          "text": "The harder you practise, the best results you will get."
+        },
+        {
+          "id": "C",
+          "text": "The harder you practise, the gooder results you will get."
+        },
+        {
+          "id": "D",
+          "text": "The harder you practise, better results will come."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chuyển đổi câu điều kiện sang so sánh kép đúng ngữ pháp."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "______ I study, the more confused I get.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "More"
+        },
+        {
+          "id": "B",
+          "text": "The more"
+        },
+        {
+          "id": "C",
+          "text": "Most"
+        },
+        {
+          "id": "D",
+          "text": "The most"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The more... the more..."
+    }
+  ]
+}

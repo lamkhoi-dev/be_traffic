@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tại sao các nền văn minh phương Đông (như Ai Cập) thường ra đời sớm?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Do điều kiện tự nhiên thuận lợi (lưu vực sông lớn)."
+        },
+        {
+          "id": "B",
+          "text": "Do họ thông minh hơn."
+        },
+        {
+          "id": "C",
+          "text": "Do có nhiều vàng bạc."
+        },
+        {
+          "id": "D",
+          "text": "Do không có chiến tranh."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đất đai màu mỡ ven sông thuận lợi cho nông nghiệp phát triển sớm, dẫn đến sự ra đời nhà nước sớm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nguyên tắc 'nhân văn' trong Sử học đòi hỏi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bênh vực kẻ mạnh."
+        },
+        {
+          "id": "B",
+          "text": "hướng tới các giá trị tốt đẹp của con người."
+        },
+        {
+          "id": "C",
+          "text": "chỉ nghiên cứu về văn học."
+        },
+        {
+          "id": "D",
+          "text": "bỏ qua các sai lầm trong quá khứ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nhân văn hướng tới sự tiến bộ và hạnh phúc của con người."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nền văn minh Trung Hoa hình thành trên lưu vực hai con sông lớn nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Ấn và sông Hằng."
+        },
+        {
+          "id": "B",
+          "text": "Hoàng Hà và Trường Giang."
+        },
+        {
+          "id": "C",
+          "text": "Sông Nin và sông A-ma-zon."
+        },
+        {
+          "id": "D",
+          "text": "Sông Mê Kông."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hoàng Hà và Trường Giang bồi đắp nên những đồng bằng màu mỡ cho Trung Hoa."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sử học là khoa học nghiên cứu về",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "quá khứ của loài người."
+        },
+        {
+          "id": "B",
+          "text": "các thiên thể trong vũ trụ."
+        },
+        {
+          "id": "C",
+          "text": "cấu tạo địa chất của Trái Đất."
+        },
+        {
+          "id": "D",
+          "text": "sự biến đổi của khí hậu."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đối tượng của Sử học là quá khứ của loài người."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sự ra đời của ngành 'Sử liệu học' là kết quả của sự kết hợp giữa Sử học và",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "phương pháp lưu trữ, giám định văn bản."
+        },
+        {
+          "id": "B",
+          "text": "Nông nghiệp."
+        },
+        {
+          "id": "C",
+          "text": "Y học."
+        },
+        {
+          "id": "D",
+          "text": "Hóa học."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sử liệu học chuyên về thu thập, phân loại và đánh giá nguồn tin."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Trong thời đại 4.0, nhà sử học cần trang bị thêm kĩ năng gì ngoài kiến thức chuyên môn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kỹ năng chiến đấu."
+        },
+        {
+          "id": "B",
+          "text": "Kỹ năng công nghệ thông tin và ngoại ngữ."
+        },
+        {
+          "id": "C",
+          "text": "Kỹ năng trồng trọt."
+        },
+        {
+          "id": "D",
+          "text": "Kỹ năng nấu ăn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Để khai thác nguồn dữ liệu số và hội nhập quốc tế."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chiếc ô tô đầu tiên chạy bằng động cơ đốt trong được chế tạo bởi",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các Ben (Karl Benz)."
+        },
+        {
+          "id": "B",
+          "text": "Hen-ry Pho (Ford)."
+        },
+        {
+          "id": "C",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "D",
+          "text": "Giêm Oát."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Karl Benz (người Đức) chế tạo chiếc xe hơi 3 bánh đầu tiên năm 1886."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Để hiểu về nguồn gốc loài người, Sử học cần kết hợp với ngành",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiên văn học."
+        },
+        {
+          "id": "B",
+          "text": "Nhân học và Sinh học."
+        },
+        {
+          "id": "C",
+          "text": "Kinh tế học."
+        },
+        {
+          "id": "D",
+          "text": "Luật học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhân học và sinh học nghiên cứu quá trình tiến hóa sinh học của loài người."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Để thích ứng với CMCN 4.0, học sinh cần trang bị gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ cần học thuộc lòng sách giáo khoa."
+        },
+        {
+          "id": "B",
+          "text": "Kỹ năng số, ngoại ngữ, tư duy sáng tạo và khả năng tự học."
+        },
+        {
+          "id": "C",
+          "text": "Học võ thuật."
+        },
+        {
+          "id": "D",
+          "text": "Không cần học gì vì máy làm hết."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kỹ năng mềm và tư duy số là chìa khóa trong kỷ nguyên số."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Sự phát triển của Thống kê học giúp Sử học",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "định lượng hóa các sự kiện lịch sử (như dân số, sản lượng)."
+        },
+        {
+          "id": "B",
+          "text": "viết văn hay hơn."
+        },
+        {
+          "id": "C",
+          "text": "sáng tác thơ ca."
+        },
+        {
+          "id": "D",
+          "text": "vẽ bản đồ đẹp hơn."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương pháp định lượng giúp sử học chính xác và khách quan hơn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ngành Khảo cổ học có vai trò đặc biệt quan trọng trong việc nghiên cứu giai đoạn nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch sử hiện đại."
+        },
+        {
+          "id": "B",
+          "text": "Thời kỳ Tiền sử và Cổ đại."
+        },
+        {
+          "id": "C",
+          "text": "Thời kỳ Cận đại."
+        },
+        {
+          "id": "D",
+          "text": "Thế kỷ XXI."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chưa có hoặc rất ít chữ viết, hiện vật khảo cổ là nguồn sử liệu chính."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phát minh máy bay (năm 1903) là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh em nhà Mon-gôn-fi-ê."
+        },
+        {
+          "id": "B",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "C",
+          "text": "E-đi-xơn."
+        },
+        {
+          "id": "D",
+          "text": "Nô-ben."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh em nhà Wright thực hiện chuyến bay lịch sử đầu tiên."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mạng xã hội (Facebook, Zalo...) là sản phẩm của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng công nghiệp hiện đại (Kết nối toàn cầu)."
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng công nghiệp hơi nước."
+        },
+        {
+          "id": "C",
+          "text": "Thời kỳ Phục hưng."
+        },
+        {
+          "id": "D",
+          "text": "Thời kỳ đồ đá."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kết nối con người qua không gian mạng."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Hoạt động nào sau đây góp phần bảo tồn giá trị di sản?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Viết vẽ bậy lên di tích."
+        },
+        {
+          "id": "B",
+          "text": "Trùng tu, tôn tạo di tích đúng quy cách."
+        },
+        {
+          "id": "C",
+          "text": "Xây dựng khách sạn che khuất tầm nhìn di tích."
+        },
+        {
+          "id": "D",
+          "text": "Buôn bán cổ vật trái phép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trùng tu tôn tạo giúp di sản tồn tại lâu dài."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Vở kịch 'Rô-mê-ô và Giu-li-ét' ca ngợi điều gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lòng trung thành với vua."
+        },
+        {
+          "id": "B",
+          "text": "Tình yêu tự do và khát vọng hạnh phúc của con người."
+        },
+        {
+          "id": "C",
+          "text": "Sự giàu có."
+        },
+        {
+          "id": "D",
+          "text": "Chiến tranh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ca ngợi tình yêu vượt qua định kiến dòng họ phong kiến."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nhận thức lịch sử là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Là chính bản thân các sự kiện đã diễn ra."
+        },
+        {
+          "id": "B",
+          "text": "Là những hiểu biết, tri thức của con người về quá khứ."
+        },
+        {
+          "id": "C",
+          "text": "Là sự tái hiện nguyên vẹn 100% quá khứ."
+        },
+        {
+          "id": "D",
+          "text": "Là những sự kiện lịch sử chưa từng được ghi chép."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhận thức lịch sử mang tính chủ quan, phụ thuộc vào người nghiên cứu."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Thơ Đường đạt đến đỉnh cao với các tác giả tiêu biểu nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ngô Thừa Ân, Thi Nại Am."
+        },
+        {
+          "id": "B",
+          "text": "Lý Bạch, Đỗ Phủ, Bạch Cư Dị."
+        },
+        {
+          "id": "C",
+          "text": "Tào Tuyết Cần, La Quán Trung."
+        },
+        {
+          "id": "D",
+          "text": "Lỗ Tấn, Mạc Ngôn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lý Bạch (Tiên thơ) và Đỗ Phủ (Thánh thơ) là đại diện tiêu biểu nhất."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Tác động tiêu cực của Cách mạng công nghiệp là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Năng suất lao động tăng cao."
+        },
+        {
+          "id": "B",
+          "text": "Ô nhiễm môi trường và bóc lột lao động trẻ em."
+        },
+        {
+          "id": "C",
+          "text": "Giá thành sản phẩm rẻ."
+        },
+        {
+          "id": "D",
+          "text": "Giao thông thuận tiện."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khí thải từ than đá, điều kiện làm việc tồi tệ trong các nhà máy."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Quần thể di tích Cố đô Huế là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Di sản thiên nhiên thế giới."
+        },
+        {
+          "id": "B",
+          "text": "Di sản văn hóa thế giới."
+        },
+        {
+          "id": "C",
+          "text": "Di sản hỗn hợp."
+        },
+        {
+          "id": "D",
+          "text": "Di sản tư liệu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cố đô Huế được UNESCO công nhận là Di sản văn hóa thế giới."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Phong trào Văn hóa Phục hưng khởi đầu tại quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh."
+        },
+        {
+          "id": "B",
+          "text": "Pháp."
+        },
+        {
+          "id": "C",
+          "text": "I-ta-li-a (Ý)."
+        },
+        {
+          "id": "D",
+          "text": "Đức."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Các thành thị Ý giàu có là nơi khởi nguồn của Phục hưng."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "protect"
+        },
+        {
+          "id": "B",
+          "text": "pollute"
+        },
+        {
+          "id": "C",
+          "text": "consume"
+        },
+        {
+          "id": "D",
+          "text": "litter"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Litter nhấn âm 1 (lit-ter). Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "This device is portable, ________ it is easy to carry around.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "so"
+        },
+        {
+          "id": "B",
+          "text": "but"
+        },
+        {
+          "id": "C",
+          "text": "or"
+        },
+        {
+          "id": "D",
+          "text": "because"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Portable nghĩa là có thể mang theo, nên (so) dễ mang đi."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "develop"
+        },
+        {
+          "id": "B",
+          "text": "poverty"
+        },
+        {
+          "id": "C",
+          "text": "area"
+        },
+        {
+          "id": "D",
+          "text": "nation"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Develop nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "We should avoid damaging the ________ ecosystem.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "fragile"
+        },
+        {
+          "id": "B",
+          "text": "strong"
+        },
+        {
+          "id": "C",
+          "text": "hard"
+        },
+        {
+          "id": "D",
+          "text": "heavy"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Fragile ecosystem: hệ sinh thái mong manh/dễ vỡ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The event ________ by the Green Club tomorrow morning.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "organizes"
+        },
+        {
+          "id": "B",
+          "text": "is organized"
+        },
+        {
+          "id": "C",
+          "text": "will be organized"
+        },
+        {
+          "id": "D",
+          "text": "will organize"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bị động thì tương lai đơn (tomorrow)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "If you ________ now, you will be late for the bus.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "didn't leave"
+        },
+        {
+          "id": "B",
+          "text": "don't leave"
+        },
+        {
+          "id": "C",
+          "text": "won't leave"
+        },
+        {
+          "id": "D",
+          "text": "not leave"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 1. Mệnh đề If phủ định hiện tại đơn."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "The man ________ lives next door is a teacher.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "which"
+        },
+        {
+          "id": "B",
+          "text": "who"
+        },
+        {
+          "id": "C",
+          "text": "whom"
+        },
+        {
+          "id": "D",
+          "text": "whose"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thay thế cho danh từ chỉ người (The man) làm chủ ngữ -> dùng Who."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "If I ________ you, I would take that course on ecotourism.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "am"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "be"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc lời khuyên loại 2: If I were you."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "We should stop cutting down trees to preserve ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "biodiversity"
+        },
+        {
+          "id": "B",
+          "text": "diversity"
+        },
+        {
+          "id": "C",
+          "text": "university"
+        },
+        {
+          "id": "D",
+          "text": "biology"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Preserve biodiversity: bảo tồn đa dạng sinh học."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "At 8 PM last night, I ________ TV.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "watched"
+        },
+        {
+          "id": "B",
+          "text": "was watching"
+        },
+        {
+          "id": "C",
+          "text": "watch"
+        },
+        {
+          "id": "D",
+          "text": "have watched"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thời điểm cụ thể trong quá khứ (8 PM last night) -> Quá khứ tiếp diễn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "comput_er"
+        },
+        {
+          "id": "B",
+          "text": "print_er"
+        },
+        {
+          "id": "C",
+          "text": "smartphon_e"
+        },
+        {
+          "id": "D",
+          "text": "heat_er"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Smartphone: 'e' câm. Các từ còn lại đuôi -er phát âm /ə/."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sustainable"
+        },
+        {
+          "id": "B",
+          "text": "environment"
+        },
+        {
+          "id": "C",
+          "text": "ecotourism"
+        },
+        {
+          "id": "D",
+          "text": "beneficial"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ecotourism nhấn âm 1 (hoặc âm 4 phụ), các từ còn lại nhấn âm 2 hoặc 3 rõ ràng. Sustainable (2), Environment (2), Beneficial (3). Ecotourism (1)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Choose the incorrect sentence.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I have lived here for 5 years."
+        },
+        {
+          "id": "B",
+          "text": "She has gone to Paris recently."
+        },
+        {
+          "id": "C",
+          "text": "I have never saw him before."
+        },
+        {
+          "id": "D",
+          "text": "We haven't finished our work yet."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu C sai vì sau 'have' phải là V3 (seen), không phải V2 (saw)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Computers are used for ________ information.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "store"
+        },
+        {
+          "id": "B",
+          "text": "storing"
+        },
+        {
+          "id": "C",
+          "text": "to store"
+        },
+        {
+          "id": "D",
+          "text": "stored"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Used for + V-ing."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Using earbuds for too long can harm your ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hearing"
+        },
+        {
+          "id": "B",
+          "text": "looking"
+        },
+        {
+          "id": "C",
+          "text": "smelling"
+        },
+        {
+          "id": "D",
+          "text": "tasting"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hearing: thính giác."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "That was the ________ movie I have ever seen.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boring"
+        },
+        {
+          "id": "B",
+          "text": "most boring"
+        },
+        {
+          "id": "C",
+          "text": "more boring"
+        },
+        {
+          "id": "D",
+          "text": "boringest"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh nhất với tính từ dài (the most boring)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "It was an ________ experience to work with those dedicated teachers.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "excite"
+        },
+        {
+          "id": "B",
+          "text": "exciting"
+        },
+        {
+          "id": "C",
+          "text": "excited"
+        },
+        {
+          "id": "D",
+          "text": "excitement"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính từ chỉ tính chất sự việc (experience) -> đuôi -ing."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "He is a ________ pianist. He can play difficult pieces perfectly.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "talented"
+        },
+        {
+          "id": "B",
+          "text": "talent"
+        },
+        {
+          "id": "C",
+          "text": "talents"
+        },
+        {
+          "id": "D",
+          "text": "untalented"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Talented (tính từ): tài năng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "invent"
+        },
+        {
+          "id": "B",
+          "text": "device"
+        },
+        {
+          "id": "C",
+          "text": "laptop"
+        },
+        {
+          "id": "D",
+          "text": "machine"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Laptop nhấn âm 1. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Education is key to ________ women.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "empower"
+        },
+        {
+          "id": "B",
+          "text": "empowering"
+        },
+        {
+          "id": "C",
+          "text": "empowered"
+        },
+        {
+          "id": "D",
+          "text": "power"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Key to + V-ing/Noun (chìa khóa để làm gì)."
+    }
+  ]
+}

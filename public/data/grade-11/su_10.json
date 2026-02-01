@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 6: Hành trình độc lập ĐNA",
+    "description": "Kiểm tra kiến thức về phong trào giải phóng dân tộc, sự ra đời của các tổ chức cách mạng và thời điểm giành độc lập.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Khuynh hướng chính trị nào xuất hiện trong phong trào giải phóng dân tộc ở Đông Nam Á vào đầu thế kỷ XX?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phong kiến và Vô sản" },
+        { "id": "B", "text": "Dân chủ tư sản và Vô sản" },
+        { "id": "C", "text": "Phong kiến và Dân chủ tư sản" },
+        { "id": "D", "text": "Vô sản và Phát xít" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của giai cấp tư sản và vô sản dẫn đến sự xuất hiện của hai khuynh hướng cứu nước mới."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Năm 1945, ba quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "In-đô-nê-xi-a, Việt Nam, Lào" },
+        { "id": "B", "text": "Việt Nam, Lào, Cam-pu-chia" },
+        { "id": "C", "text": "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin" },
+        { "id": "D", "text": "Việt Nam, Thái Lan, Mi-an-ma" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lợi dụng Nhật đầu hàng Đồng minh, 3 nước này đã chớp thời cơ giành độc lập (Indo: 17/8, VN: 2/9, Lào: 12/10)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tổ chức cách mạng nào ở In-đô-nê-xi-a được coi là ngọn cờ đầu của phong trào độc lập đầu thế kỷ XX?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đảng Cộng sản In-đô-nê-xi-a" },
+        { "id": "B", "text": "Hiệp hội Hồi giáo (Sarekat Islam)" },
+        { "id": "C", "text": "Đảng Quốc đại" },
+        { "id": "D", "text": "Việt Nam Quốc dân đảng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sarekat Islam (1911) là tổ chức quần chúng lớn nhất, đấu tranh đòi quyền lợi kinh tế và chính trị."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Sự kiện nào tạo điều kiện khách quan thuận lợi cho phong trào giải phóng dân tộc ở Đông Nam Á bùng nổ vào năm 1945?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến tranh thế giới thứ nhất kết thúc" },
+        { "id": "B", "text": "Phát xít Nhật đầu hàng Đồng minh không điều kiện" },
+        { "id": "C", "text": "Thực dân Pháp bị Đức đánh bại" },
+        { "id": "D", "text": "Liên Xô tuyên bố tham chiến" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việc Nhật đầu hàng tạo ra \"khoảng trống quyền lực\", là thời cơ ngàn năm có một."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Lãnh tụ của phong trào độc lập In-đô-nê-xi-a và là Tổng thống đầu tiên của nước này là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hồ Chí Minh" },
+        { "id": "B", "text": "Xu-các-nô" },
+        { "id": "C", "text": "Li Quan Diệu" },
+        { "id": "D", "text": "Ma-ha-thia Mô-ha-mát" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ahmed Sukarno là người đọc Tuyên ngôn độc lập khai sinh ra nước CH Indonesia."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh thế giới thứ hai, nhân dân Đông Nam Á phải tiếp tục đấu tranh chống lại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát xít Nhật" },
+        { "id": "B", "text": "Sự quay trở lại xâm lược của các nước thực dân phương Tây" },
+        { "id": "C", "text": "Chế độ phong kiến tay sai" },
+        { "id": "D", "text": "Sự xâm lược của Trung Quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh, Pháp, Hà Lan... quay lại tái chiếm thuộc địa cũ."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chiến thắng Điện Biên Phủ (1954) của Việt Nam có ý nghĩa gì đối với khu vực?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kết thúc hoàn toàn sự thống trị của chủ nghĩa thực dân trên thế giới" },
+        { "id": "B", "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc ở Đông Nam Á và thế giới" },
+        { "id": "C", "text": "Làm sụp đổ hệ thống thuộc địa của Mỹ" },
+        { "id": "D", "text": "Dẫn đến sự thành lập ASEAN" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Là thắng lợi lừng lẫy năm châu, chấn động địa cầu, báo hiệu sự sụp đổ của CN thực dân cũ."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phi-líp-pin" },
+        { "id": "B", "text": "Ma-lai-xi-a" },
+        { "id": "C", "text": "Mi-an-ma" },
+        { "id": "D", "text": "Xin-ga-po" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Phong trào Thakin (1930) là phong trào yêu nước tiêu biểu ở:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lào" },
+        { "id": "B", "text": "Mi-an-ma" },
+        { "id": "C", "text": "Thái Lan" },
+        { "id": "D", "text": "Cam-pu-chia" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phong trào của trí thức trẻ Myanmar, tự gọi mình là 'Thakin' (người chủ đất nước)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời năm 1930 có ý nghĩa gì đối với phong trào cách mạng Đông Nam Á?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đánh dấu sự thắng thế hoàn toàn của khuynh hướng vô sản trong khu vực" },
+        { "id": "B", "text": "Mở ra thời kỳ giai cấp công nhân nắm quyền lãnh đạo cách mạng Việt Nam và ảnh hưởng đến Đông Dương" },
+        { "id": "C", "text": "Chấm dứt sự cai trị của thực dân Pháp" },
+        { "id": "D", "text": "Thành lập được mặt trận thống nhất toàn khu vực" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chấm dứt sự khủng hoảng về đường lối ở VN và lãnh đạo phong trào ở cả Lào, Campuchia."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Quốc gia nào giành độc lập bằng con đường hòa bình, thương lượng với thực dân Anh vào năm 1957?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "In-đô-nê-xi-a" },
+        { "id": "B", "text": "Mi-an-ma" },
+        { "id": "C", "text": "Ma-lai-xi-a" },
+        { "id": "D", "text": "Việt Nam" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên bang Mã Lai (Malaysia) giành độc lập qua đàm phán Hiến pháp với Anh."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Brunây tuyên bố độc lập vào thời gian nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1945" },
+        { "id": "B", "text": "1957" },
+        { "id": "C", "text": "1984" },
+        { "id": "D", "text": "2002" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Brunây là một trong những nước giành độc lập muộn trong khu vực (từ Anh)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đông Ti-mo tách ra khỏi quốc gia nào để trở thành một nhà nước độc lập (2002)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bồ Đào Nha" },
+        { "id": "B", "text": "In-đô-nê-xi-a" },
+        { "id": "C", "text": "Ma-lai-xi-a" },
+        { "id": "D", "text": "Hà Lan" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau khi Bồ Đào Nha rút đi (1975), Indonesia sáp nhập Đông Ti-mo. Đến 2002 mới chính thức độc lập."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Điểm giống nhau cơ bản trong phong trào giải phóng dân tộc ở Đông Nam Á sau Chiến tranh thế giới thứ nhất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đều do Đảng Cộng sản lãnh đạo" },
+        { "id": "B", "text": "Sự phát triển mạnh mẽ của phong trào dân tộc tư sản và sự lớn mạnh của giai cấp công nhân" },
+        { "id": "C", "text": "Đều giành được thắng lợi" },
+        { "id": "D", "text": "Đều đấu tranh vũ trang" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là giai đoạn thức tỉnh của chủ nghĩa dân tộc và sự lớn mạnh của phong trào công nhân."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thực dân Pháp buộc phải ký Hiệp định Giơ-ne-vơ (1954) công nhận độc lập của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Việt Nam" },
+        { "id": "B", "text": "Việt Nam, Lào, Cam-pu-chia" },
+        { "id": "C", "text": "Đông Dương và Thái Lan" },
+        { "id": "D", "text": "Toàn bộ Đông Nam Á" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kết thúc cuộc kháng chiến chống Pháp của 3 nước Đông Dương."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khối liên minh quân sự SEATO (1954) do Mỹ thành lập nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát triển kinh tế Đông Nam Á" },
+        { "id": "B", "text": "Ngăn chặn sự ảnh hưởng của chủ nghĩa xã hội và phong trào giải phóng dân tộc" },
+        { "id": "C", "text": "Giúp đỡ các nước Đông Dương" },
+        { "id": "D", "text": "Đoàn kết các nước châu Á" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "SEATO là khối quân sự nhằm chống lại CNCS ở khu vực."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu Lào tuyên bố độc lập vào năm 1945?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhật đảo chính Pháp" },
+        { "id": "B", "text": "Chính phủ Lào I-xa-la thành lập và Tuyên ngôn độc lập (12/10)" },
+        { "id": "C", "text": "Quân Trung Hoa Dân Quốc tiến vào Lào" },
+        { "id": "D", "text": "Vua Xa-vang Vát-tha-na thoái vị" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngày 12/10/1945, nhân dân Lào khởi nghĩa thắng lợi và tuyên bố độc lập."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào ở Đông Nam Á được đánh giá là toàn diện và triệt để nhất trong năm 1945?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng In-đô-nê-xi-a" },
+        { "id": "B", "text": "Cách mạng tháng Tám ở Việt Nam" },
+        { "id": "C", "text": "Cách mạng Lào" },
+        { "id": "D", "text": "Cách mạng Phi-líp-pin" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Tám không chỉ giành độc lập mà còn xóa bỏ chế độ phong kiến, lập ra chế độ cộng hòa dân chủ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Năm 1967, Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập tại:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hà Nội" },
+        { "id": "B", "text": "Gia-các-ta" },
+        { "id": "C", "text": "Băng Cốc" },
+        { "id": "D", "text": "Ma-ni-la" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tuyên bố Băng Cốc (Thái Lan) khai sinh ra ASEAN."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của lịch sử Đông Nam Á nửa sau thế kỷ XX là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Các nước lần lượt giành độc lập và bắt tay vào xây dựng đất nước" },
+        { "id": "B", "text": "Vẫn chịu sự cai trị của thực dân phương Tây" },
+        { "id": "C", "text": "Khủng hoảng kinh tế triền miên" },
+        { "id": "D", "text": "Xung đột tôn giáo gay gắt không thể giải quyết" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là giai đoạn 'biến đổi to lớn nhất' của khu vực: từ thân phận thuộc địa trở thành các quốc gia độc lập."
+    }
+  ]
+}

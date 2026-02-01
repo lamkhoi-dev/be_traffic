@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Biến dạng đàn hồi là biến dạng mà sau khi thôi tác dụng lực:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật không lấy lại được hình dạng và kích thước ban đầu"
+        },
+        {
+          "id": "B",
+          "text": "Vật lấy lại được hình dạng và kích thước ban đầu"
+        },
+        {
+          "id": "C",
+          "text": "Vật bị gãy hoặc vỡ"
+        },
+        {
+          "id": "D",
+          "text": "Vật tiếp tục biến dạng thêm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Định nghĩa biến dạng đàn hồi."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Moment lực đối với một trục quay là đại lượng đặc trưng cho:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tác dụng làm vật chuyển động tịnh tiến"
+        },
+        {
+          "id": "B",
+          "text": "Tác dụng làm vật quay quanh trục"
+        },
+        {
+          "id": "C",
+          "text": "Tác dụng làm biến dạng vật"
+        },
+        {
+          "id": "D",
+          "text": "Mức quán tính của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Moment lực $M = F.d$ đặc trưng cho tác dụng làm quay của lực."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Điều kiện cân bằng của một vật rắn chịu tác dụng của ba lực không song song là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ba lực đó phải đồng phẳng và đồng quy"
+        },
+        {
+          "id": "B",
+          "text": "Hợp lực của hai lực bất kỳ phải cân bằng với lực thứ ba"
+        },
+        {
+          "id": "C",
+          "text": "Ba lực đó phải vuông góc với nhau từng đôi một"
+        },
+        {
+          "id": "D",
+          "text": "Cả A và B đều đúng"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc hợp lực đồng quy: Ba lực phải đồng phẳng, đồng quy và hợp lực của 2 lực cân bằng lực thứ 3 (Tổng vectơ bằng 0)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chu kì $T$ của chuyển động tròn đều là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số vòng quay được trong 1 giây"
+        },
+        {
+          "id": "B",
+          "text": "Thời gian để vật đi được 1 mét"
+        },
+        {
+          "id": "C",
+          "text": "Thời gian để vật đi hết một vòng quỹ đạo"
+        },
+        {
+          "id": "D",
+          "text": "Góc mà bán kính nối vật quét được trong 1 giây"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì T."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hai vật có khối lượng bằng nhau. Vật 1 chuyển động nhanh gấp đôi vật 2. Động năng của vật 1 so với vật 2 sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gấp 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Gấp 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Bằng nhau"
+        },
+        {
+          "id": "D",
+          "text": "Gấp $\\sqrt{2}$ lần"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$W_d \\sim v^2$. Nếu $v$ tăng 2 lần thì $W_d$ tăng $2^2 = 4$ lần."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Vectơ động lượng $\\vec{p}$ luôn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng hướng với vectơ vận tốc"
+        },
+        {
+          "id": "B",
+          "text": "Ngược hướng với vectơ vận tốc"
+        },
+        {
+          "id": "C",
+          "text": "Vuông góc với vectơ vận tốc"
+        },
+        {
+          "id": "D",
+          "text": "Cùng hướng với vectơ gia tốc"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ công thức $\\vec{p} = m\\vec{v}$ (với $m>0$), suy ra $\\vec{p}$ cùng hướng $\\vec{v}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong va chạm mềm, đại lượng nào được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng"
+        },
+        {
+          "id": "B",
+          "text": "Cơ năng"
+        },
+        {
+          "id": "C",
+          "text": "Động lượng"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Va chạm mềm là hệ kín (hoặc coi như kín trong thời gian ngắn) nên bảo toàn động lượng. Động năng không bảo toàn (mất mát thành nhiệt)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một lò xo bị nén 5cm, biết độ cứng k=100 N/m. Thế năng đàn hồi của lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,125 J"
+        },
+        {
+          "id": "B",
+          "text": "0,25 J"
+        },
+        {
+          "id": "C",
+          "text": "250 J"
+        },
+        {
+          "id": "D",
+          "text": "12,5 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_{dh} = 0,5 k (\\Delta l)^2 = 0,5 \\times 100 \\times (0,05)^2 = 50 \\times 0,0025 = 0,125$ J."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một viên đạn pháo đang bay ngang thì nổ thành hai mảnh. Mảnh 1 bay thẳng đứng xuống dưới. Hỏi mảnh 2 bay theo hướng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bay ngược chiều đạn cũ"
+        },
+        {
+          "id": "B",
+          "text": "Bay chếch lên trên"
+        },
+        {
+          "id": "C",
+          "text": "Bay ngang tiếp tục"
+        },
+        {
+          "id": "D",
+          "text": "Bay thẳng đứng lên trên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vẽ giản đồ vectơ bảo toàn động lượng: $\\vec{p}_{trước} = \\vec{p}_1 + \\vec{p}_2$. Quy tắc hình bình hành cho thấy $\\vec{p}_2$ phải hướng chếch lên."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Súng giật lùi khi bắn là ứng dụng của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Định luật bảo toàn cơ năng"
+        },
+        {
+          "id": "B",
+          "text": "Định luật bảo toàn động lượng"
+        },
+        {
+          "id": "C",
+          "text": "Định luật vạn vật hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Định luật Húc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tổng động lượng ban đầu bằng 0. Khi đạn bay về trước, súng phải giật lùi về sau để tổng động lượng vẫn bằng 0 (Chuyển động bằng phản lực)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Vật khối lượng m đặt trên mặt phẳng nghiêng góc $\\alpha$ so với phương ngang. Thành phần trọng lực gây ra gia tốc trượt cho vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P_x = mg \\cos\\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$P_x = mg \\sin\\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$P_x = mg$"
+        },
+        {
+          "id": "D",
+          "text": "$P_x = mg \\tan\\alpha$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích lực trên mặt phẳng nghiêng: $P_x = P\\sin\\alpha = mg\\sin\\alpha$ (song song mặt phẳng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Khi một vật trượt xuống dốc có ma sát, cơ năng của vật:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Được bảo toàn"
+        },
+        {
+          "id": "B",
+          "text": "Tăng lên"
+        },
+        {
+          "id": "C",
+          "text": "Giảm dần do chuyển hóa thành nhiệt"
+        },
+        {
+          "id": "D",
+          "text": "Biến thiên điều hòa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát là lực không thế, sinh công âm làm giảm cơ năng (chuyển hóa thành nhiệt năng)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Một vật chuyển động tròn đều với tốc độ không đổi. Nhận định nào sau đây SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vectơ vận tốc không đổi"
+        },
+        {
+          "id": "B",
+          "text": "Tốc độ dài không đổi"
+        },
+        {
+          "id": "C",
+          "text": "Tốc độ góc không đổi"
+        },
+        {
+          "id": "D",
+          "text": "Độ lớn gia tốc không đổi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong chuyển động tròn đều, vectơ vận tốc luôn thay đổi phương (tiếp tuyến với quỹ đạo), chỉ có độ lớn (tốc độ) là không đổi."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Để tăng độ ổn định (vững vàng) của một vật, ta cần:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nâng cao trọng tâm và giảm diện tích mặt chân đế"
+        },
+        {
+          "id": "B",
+          "text": "Hạ thấp trọng tâm và tăng diện tích mặt chân đế"
+        },
+        {
+          "id": "C",
+          "text": "Hạ thấp trọng tâm và giảm diện tích mặt chân đế"
+        },
+        {
+          "id": "D",
+          "text": "Tăng khối lượng của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc: Trọng tâm càng thấp và mặt chân đế càng rộng thì vật càng đứng vững."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Đơn vị của moment lực là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Joule (J)"
+        },
+        {
+          "id": "C",
+          "text": "Newton mét (N.m)"
+        },
+        {
+          "id": "D",
+          "text": "Kilogam mét (kg.m)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$M = F.d$ (Lực nhân cánh tay đòn) $\\Rightarrow$ Đơn vị N.m."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một viên đạn được bắn lên cao. Tại điểm cao nhất:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng cực đại, thế năng cực tiểu"
+        },
+        {
+          "id": "B",
+          "text": "Động năng bằng 0 (nếu bắn thẳng đứng), thế năng cực đại"
+        },
+        {
+          "id": "C",
+          "text": "Cơ năng bằng 0"
+        },
+        {
+          "id": "D",
+          "text": "Động năng bằng thế năng"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tại điểm cao nhất, độ cao h cực đại nên thế năng cực đại. Vận tốc nhỏ nhất (hoặc bằng 0 nếu bắn thẳng đứng)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một động cơ có công suất 100W hoạt động trong 1 phút. Công mà động cơ thực hiện là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "100 J"
+        },
+        {
+          "id": "B",
+          "text": "6000 J"
+        },
+        {
+          "id": "C",
+          "text": "60 J"
+        },
+        {
+          "id": "D",
+          "text": "1000 J"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A = P.t = 100 \\times 60 = 6000$ J."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Khi động năng của một vật tăng gấp 4 lần thì động lượng của vật sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Tăng 4 lần"
+        },
+        {
+          "id": "C",
+          "text": "Tăng 16 lần"
+        },
+        {
+          "id": "D",
+          "text": "Không đổi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_d = p^2/2m \\Rightarrow p = \\sqrt{2mW_d}$. Nếu $W_d$ tăng 4, thì $p$ tăng $\\sqrt{4} = 2$ lần."
+    }
+  ]
+}

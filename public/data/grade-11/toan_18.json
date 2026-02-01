@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Giải phương trình $\\cos x = \\frac{1}{2}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\pm \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\pm \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = \\pm \\frac{2\\pi}{3} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos x = \\cos(\\frac{\\pi}{3}) \\Leftrightarrow x = \\pm \\frac{\\pi}{3} + k2\\pi$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Dãy số nào sau đây bị chặn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = \\sin(n\\frac{\\pi}{3})$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = n$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = n^2 - 1$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = 2^n$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hàm sin luôn có giá trị trong $[-1; 1]$ nên dãy số này bị chặn."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{3^n - 4^n}{3^n + 4^n}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "-1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "3/4"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho $4^n$ (cơ số lớn nhất): $\\frac{(3/4)^n - 1}{(3/4)^n + 1} \\to \\frac{0 - 1}{0 + 1} = -1$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tính giá trị biểu thức $P = \\tan 45^\\circ + \\cot 135^\\circ$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "-1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\tan 45^\\circ = 1$; $\\cot 135^\\circ = -1$. Vậy $P = 1 + (-1) = 0$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin^2 x - 3\\sin x + 2 = 0$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{2} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = k\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "Vô nghiệm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm $t=1$ (nhận) và $t=2$ (loại). $\\sin x = 1 \\Rightarrow x = \\pi/2 + k2\\pi$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hệ thức cơ bản nào sau đây là SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin^2 \\alpha + \\cos^2 \\alpha = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$1 + \\tan^2 \\alpha = \\frac{1}{\\cos^2 \\alpha}$ (với $\\cos \\alpha \\ne 0$)"
+        },
+        {
+          "id": "C",
+          "text": "$\\tan \\alpha \\cdot \\cot \\alpha = -1$"
+        },
+        {
+          "id": "D",
+          "text": "$1 + \\cot^2 \\alpha = \\frac{1}{\\sin^2 \\alpha}$ (với $\\sin \\alpha \\ne 0$)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hệ thức đúng là $\\tan \\alpha \\cdot \\cot \\alpha = 1$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tìm $n$ biết tổng $n$ số tự nhiên lẻ đầu tiên bằng 225.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "25"
+        },
+        {
+          "id": "C",
+          "text": "14"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dãy lẻ: 1, 3, 5... có $u_1=1, d=2$. $S_n = \\frac{n[2 + (n-1)2]}{2} = n^2$. $n^2 = 225 \\Rightarrow n=15$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim \\frac{(2n-1)(n+3)}{n^2 + 5}$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tử số có bậc cao nhất là $2n^2$. Mẫu là $n^2$. Tỉ số hệ số: $2/1 = 2$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{5^n - 1}{3^n + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Chia cho $3^n$: $\\frac{(5/3)^n - 1/3^n}{1 + 1/3^n}$. Tử $\\to +\\infty$, mẫu $\\to 1$. Kết quả $+\\infty$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tìm $\\lim \\frac{\\sqrt{4n^2 + 1} - n}{n + 2}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\frac{\\sqrt{4 + 1/n^2} - 1}{1 + 2/n} \\to \\frac{\\sqrt{4}-1}{1} = \\frac{2-1}{1} = 1$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tìm $\\lim \\frac{\\sqrt{4n^2 + 1} - n}{n + 2}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia cả tử và mẫu cho n: $\\frac{\\sqrt{4 + 1/n^2} - 1}{1 + 2/n} \\to \\frac{\\sqrt{4}-1}{1} = \\frac{2-1}{1} = 1$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cho dãy số $(u_n)$ có công thức tổng quát $u_n = 2n - 1$. Số hạng thứ 5 của dãy là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "11"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_5 = 2(5) - 1 = 9$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mệnh đề nào sau đây là đúng về dấu của các giá trị lượng giác trong góc phần tư thứ II?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha > 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin \\alpha > 0, \\cos \\alpha < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\sin \\alpha < 0, \\cos \\alpha < 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Góc phần tư thứ II: tung độ dương (sin > 0), hoành độ âm (cos < 0)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Biểu thức $\\sin^4 x - \\cos^4 x$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\cos 2x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos 2x$"
+        },
+        {
+          "id": "C",
+          "text": "$1$"
+        },
+        {
+          "id": "D",
+          "text": "$-1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(\\sin^2 x - \\cos^2 x)(\\sin^2 x + \\cos^2 x) = -(\\cos^2 x - \\sin^2 x) \\cdot 1 = -\\cos 2x$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x^2 - x}{x^3 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu, giới hạn tại vô cực bằng 0."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tìm giới hạn $L = \\lim (3n^2 - 2n + 5)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\infty$"
+        },
+        {
+          "id": "B",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đặt $n^2$ làm nhân tử chung: $\\lim n^2(3 - \\frac{2}{n} + \\frac{5}{n^2}) = (+\\infty).3 = +\\infty$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sqrt{x+1} - 1}{x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhân liên hợp: $\\frac{x+1-1}{x(\\sqrt{x+1}+1)} = \\frac{1}{\\sqrt{x+1}+1}$. Thay $x=0$, được 1/2."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Công thức nhân đôi nào sau đây là SAI?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin 2a = 2\\sin a \\cos a$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos 2a = \\cos^2 a - \\sin^2 a$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cos 2a = 1 - 2\\sin^2 a$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos 2a = 2\\sin^2 a - 1$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công thức đúng là $\\cos 2a = 2\\cos^2 a - 1$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Công thức nào biểu diễn $\\tan(a+b)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\tan a + \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\tan a - \\tan b}{1 - \\tan a \\tan b}$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tan tổng thì lấy tổng tan, chia 1 trừ với tích tan."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Công thức hạ bậc nào sau đây là đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin^2 a = \\frac{1 + \\cos 2a}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos^2 a = \\frac{1 - \\cos 2a}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin^2 a = \\frac{1 - \\cos 2a}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cos^2 a = 1 - \\cos 2a$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\sin^2 a = (1 - \\cos 2a)/2$."
+    }
+  ]
+}

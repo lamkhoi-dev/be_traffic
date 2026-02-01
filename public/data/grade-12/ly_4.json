@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 4: Máy điện và Truyền tải điện năng",
+    "description": "Kiểm tra kiến thức chuyên sâu về Máy phát điện, Động cơ không đồng bộ, Máy biến áp và Bài toán truyền tải.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 12,
+    "chapter": 4
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Roto của máy phát điện xoay chiều một pha là nam châm có $p$ cặp cực, quay với tốc độ $n$ vòng/giây. Tần số của dòng điện phát ra là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$f = pn$" },
+        { "id": "B", "text": "$f = 60pn$" },
+        { "id": "C", "text": "$f = \\frac{n}{p}$" },
+        { "id": "D", "text": "$f = \\frac{pn}{60}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu n tính bằng vòng/giây thì $f = pn$. Nếu n tính bằng vòng/phút thì $f = pn/60$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một máy biến áp lí tưởng có cuộn sơ cấp 1000 vòng, cuộn thứ cấp 50 vòng. Điện áp hiệu dụng ở cuộn sơ cấp là 220V. Điện áp hiệu dụng ở cuộn thứ cấp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "11 V" },
+        { "id": "B", "text": "110 V" },
+        { "id": "C", "text": "440 V" },
+        { "id": "D", "text": "4400 V" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_2 = U_1 \\cdot \\frac{N_2}{N_1} = 220 \\cdot \\frac{50}{1000} = 220 \\cdot \\frac{1}{20} = 11$ V."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Công suất hao phí trên đường dây tải điện tỉ lệ nghịch với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bình phương điện áp nơi truyền đi" },
+        { "id": "B", "text": "Điện áp nơi truyền đi" },
+        { "id": "C", "text": "Điện trở đường dây" },
+        { "id": "D", "text": "Công suất truyền đi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P_{hp} = \\frac{P^2 R}{U^2 \\cos^2\\varphi}$. Tỉ lệ nghịch với $U^2$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong động cơ không đồng bộ ba pha, tốc độ quay của roto ($n$) so với tốc độ quay của từ trường ($n_0$) luôn thỏa mãn:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$n < n_0$" },
+        { "id": "B", "text": "$n = n_0$" },
+        { "id": "C", "text": "$n > n_0$" },
+        { "id": "D", "text": "$n = 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi là 'không đồng bộ' vì roto luôn quay chậm hơn từ trường quay ($n < n_0$)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Các cuộn dây của phần cảm máy phát điện xoay chiều một pha được mắc:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nối tiếp nhau" },
+        { "id": "B", "text": "Song song nhau" },
+        { "id": "C", "text": "Mắc hình sao" },
+        { "id": "D", "text": "Mắc hình tam giác" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các cuộn dây trong phần ứng (hoặc phần cảm tùy cấu tạo) thường mắc nối tiếp để tăng suất điện động."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khi truyền tải điện năng đi xa, nếu tăng điện áp nơi phát lên 10 lần thì công suất hao phí trên đường dây sẽ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giảm 100 lần" },
+        { "id": "B", "text": "Giảm 10 lần" },
+        { "id": "C", "text": "Tăng 100 lần" },
+        { "id": "D", "text": "Tăng 10 lần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P_{hp} \\sim 1/U^2$. $U$ tăng 10 thì $P_{hp}$ giảm $10^2 = 100$ lần."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Một máy biến áp có hiệu suất 80%. Cuộn sơ cấp có công suất tiêu thụ là 100W. Công suất ở cuộn thứ cấp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "80 W" },
+        { "id": "B", "text": "100 W" },
+        { "id": "C", "text": "125 W" },
+        { "id": "D", "text": "20 W" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$H = P_2 / P_1 \\Rightarrow P_2 = H \\cdot P_1 = 0,8 \\cdot 100 = 80$ W."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong máy phát điện xoay chiều ba pha, ba suất điện động trong ba cuộn dây lệch pha nhau một góc:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2\\pi/3$" },
+        { "id": "B", "text": "$\\pi/3$" },
+        { "id": "C", "text": "$\\pi/2$" },
+        { "id": "D", "text": "$\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lệch nhau $120^\\circ$ hay $2\\pi/3$ rad."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Vật liệu dùng làm lõi của máy biến áp thường là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lá thép kĩ thuật điện ghép cách điện" },
+        { "id": "B", "text": "Nhôm nguyên khối" },
+        { "id": "C", "text": "Đồng nguyên khối" },
+        { "id": "D", "text": "Thép nguyên khối" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dùng các lá thép ghép cách điện để giảm dòng Foucault (dòng điện xoáy) gây nóng máy."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Để giảm hao phí điện năng, người ta dùng dây dẫn có:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Điện trở suất nhỏ" },
+        { "id": "B", "text": "Điện trở suất lớn" },
+        { "id": "C", "text": "Tiết diện nhỏ" },
+        { "id": "D", "text": "Chiều dài lớn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện trở $R = \\rho l / S$. Muốn $R$ nhỏ (để giảm hao phí) thì $\\rho$ (điện trở suất) phải nhỏ."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Mạch điện xoay chiều ba pha có tải mắc hình tam giác. Điện áp dây là 380V. Điện áp pha trên mỗi tải là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "380 V" },
+        { "id": "B", "text": "220 V" },
+        { "id": "C", "text": "660 V" },
+        { "id": "D", "text": "190 V" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mắc hình tam giác thì $U_d = U_p$. Vậy $U_p = 380$ V."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Bộ phận chính của động cơ không đồng bộ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Stato và Roto" },
+        { "id": "B", "text": "Cuộn sơ cấp và cuộn thứ cấp" },
+        { "id": "C", "text": "Phần cảm và phần ứng" },
+        { "id": "D", "text": "Nam châm và chổi quét" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Động cơ gồm Stato (phần tĩnh tạo từ trường) và Roto (phần quay)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Khi truyền tải điện năng, nếu dùng dây dẫn có tiết diện tăng gấp đôi thì công suất hao phí:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giảm 2 lần" },
+        { "id": "B", "text": "Tăng 2 lần" },
+        { "id": "C", "text": "Giảm 4 lần" },
+        { "id": "D", "text": "Không đổi" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$R = \\rho l / S$. $S$ tăng 2 thì $R$ giảm 2. $P_{hp} = I^2 R$, nên $P_{hp}$ giảm 2."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Dòng điện Foucault có hại trong thiết bị nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Máy biến áp" },
+        { "id": "B", "text": "Bếp từ" },
+        { "id": "C", "text": "Phanh điện từ" },
+        { "id": "D", "text": "Lò tôi kim loại" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong máy biến áp, dòng Foucault gây tỏa nhiệt làm nóng máy và giảm hiệu suất (có hại). Các thiết bị khác ứng dụng tính năng tỏa nhiệt của nó (có lợi)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Máy biến áp không thể làm thay đổi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số dòng điện" },
+        { "id": "B", "text": "Cường độ dòng điện" },
+        { "id": "C", "text": "Điện áp" },
+        { "id": "D", "text": "Pha của dòng điện" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy biến áp giữ nguyên tần số."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Một máy phát điện có công suất $P$, điện áp $U$, hệ số công suất $\\cos\\varphi = 1$. Dòng điện chạy trên dây tải điện là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I = P/U$" },
+        { "id": "B", "text": "$I = U/P$" },
+        { "id": "C", "text": "$I = P.U$" },
+        { "id": "D", "text": "$I = P^2/U$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = UI\\cos\\varphi$. Vì $\\cos\\varphi=1$ nên $P = UI \\Rightarrow I = P/U$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong sơ đồ truyền tải điện năng, máy biến áp đặt tại nơi phát điện là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Máy tăng áp" },
+        { "id": "B", "text": "Máy hạ áp" },
+        { "id": "C", "text": "Máy ổn áp" },
+        { "id": "D", "text": "Máy chỉnh lưu" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại nơi phát cần tăng điện áp lên rất cao để giảm hao phí khi truyền đi xa."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Phần ứng của máy phát điện xoay chiều là nơi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tạo ra dòng điện" },
+        { "id": "B", "text": "Tạo ra từ trường" },
+        { "id": "C", "text": "Giữ cho trục quay ổn định" },
+        { "id": "D", "text": "Làm mát máy" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phần cảm tạo từ trường, phần ứng tạo ra suất điện động (dòng điện)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Máy biến áp làm việc dựa trên nguyên tắc:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cảm ứng điện từ" },
+        { "id": "B", "text": "Tự cảm" },
+        { "id": "C", "text": "Cộng hưởng điện" },
+        { "id": "D", "text": "Lực điện từ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ trường biến thiên trong lõi sắt sinh ra suất điện động cảm ứng ở cuộn thứ cấp."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Nếu tăng số vòng dây cuộn sơ cấp của máy biến áp lên 2 lần (giữ nguyên các đại lượng khác) thì điện áp ở cuộn thứ cấp sẽ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giảm 2 lần" },
+        { "id": "B", "text": "Tăng 2 lần" },
+        { "id": "C", "text": "Không đổi" },
+        { "id": "D", "text": "Tăng 4 lần" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_2 = U_1 \\cdot \\frac{N_2}{N_1}$. Nếu $N_1$ tăng 2 lần (nằm dưới mẫu) thì $U_2$ giảm 2 lần."
+    }
+  ]
+}

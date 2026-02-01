@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào ở Đông Nam Á được đánh giá là toàn diện và triệt để nhất trong năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng In-đô-nê-xi-a"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Tám ở Việt Nam"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng Lào"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Phi-líp-pin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Tám không chỉ giành độc lập mà còn xóa bỏ chế độ phong kiến, lập ra chế độ cộng hòa dân chủ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Chủ nghĩa đế quốc là hệ quả trực tiếp của:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quá trình xâm lược thuộc địa"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển của chủ nghĩa tư bản độc quyền"
+        },
+        {
+          "id": "C",
+          "text": "Sự ra đời của máy hơi nước"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng tư sản Pháp"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CNTB độc quyền phát triển mạnh dẫn đến nhu cầu thị trường, nguyên liệu -> đẩy mạnh xâm lược -> CNĐQ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời năm 1930 có ý nghĩa gì đối với phong trào cách mạng Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh dấu sự thắng thế hoàn toàn của khuynh hướng vô sản trong khu vực"
+        },
+        {
+          "id": "B",
+          "text": "Mở ra thời kỳ giai cấp công nhân nắm quyền lãnh đạo cách mạng Việt Nam và ảnh hưởng đến Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự cai trị của thực dân Pháp"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập được mặt trận thống nhất toàn khu vực"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chấm dứt sự khủng hoảng về đường lối ở VN và lãnh đạo phong trào ở cả Lào, Campuchia."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Lãnh tụ của phong trào độc lập In-đô-nê-xi-a và là Tổng thống đầu tiên của nước này là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "B",
+          "text": "Xu-các-nô"
+        },
+        {
+          "id": "C",
+          "text": "Li Quan Diệu"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ha-thia Mô-ha-mát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ahmed Sukarno là người đọc Tuyên ngôn độc lập khai sinh ra nước CH Indonesia."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Chiến thắng Điện Biên Phủ (1954) của Việt Nam có ý nghĩa gì đối với khu vực?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kết thúc hoàn toàn sự thống trị của chủ nghĩa thực dân trên thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc ở Đông Nam Á và thế giới"
+        },
+        {
+          "id": "C",
+          "text": "Làm sụp đổ hệ thống thuộc địa của Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Dẫn đến sự thành lập ASEAN"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Là thắng lợi lừng lẫy năm châu, chấn động địa cầu, báo hiệu sự sụp đổ của CN thực dân cũ."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Sự kiện nào tạo điều kiện khách quan thuận lợi cho phong trào giải phóng dân tộc ở Đông Nam Á bùng nổ vào năm 1945?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến tranh thế giới thứ nhất kết thúc"
+        },
+        {
+          "id": "B",
+          "text": "Phát xít Nhật đầu hàng Đồng minh không điều kiện"
+        },
+        {
+          "id": "C",
+          "text": "Thực dân Pháp bị Đức đánh bại"
+        },
+        {
+          "id": "D",
+          "text": "Liên Xô tuyên bố tham chiến"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Việc Nhật đầu hàng tạo ra \"khoảng trống quyền lực\", là thời cơ ngàn năm có một."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ở Pháp, trước cách mạng, mâu thuẫn cơ bản nhất là mâu thuẫn giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đẳng cấp thứ ba với Đẳng cấp thứ nhất và thứ hai"
+        },
+        {
+          "id": "B",
+          "text": "Nông dân với tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Tư sản với công nhân"
+        },
+        {
+          "id": "D",
+          "text": "Vua với Tăng lữ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đẳng cấp thứ 3 (chiếm đa số, chịu mọi thứ thuế) mâu thuẫn gay gắt với 2 đẳng cấp đặc quyền."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào ngày 4/7/1946 (được Mỹ trao trả độc lập)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phi-líp-pin"
+        },
+        {
+          "id": "B",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "D",
+          "text": "Xin-ga-po"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mỹ trao trả độc lập cho Philippines nhưng vẫn giữ lại các quyền lợi kinh tế, quân sự."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Ba nước Việt Nam, Lào, Cam-pu-chia là thuộc địa của đế quốc nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh"
+        },
+        {
+          "id": "B",
+          "text": "Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Tây Ban Nha"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Pháp xâm lược và lập ra Liên bang Đông Dương thuộc Pháp."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Mục tiêu chung của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lật đổ chế độ phong kiến, thực dân, mở đường cho CNTB phát triển"
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng chế độ xã hội chủ nghĩa"
+        },
+        {
+          "id": "C",
+          "text": "Đưa giai cấp công nhân lên nắm quyền"
+        },
+        {
+          "id": "D",
+          "text": "Bảo vệ quyền lợi cho giai cấp nông dân"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu xuyên suốt là xóa bỏ rào cản phong kiến/thực dân để phát triển kinh tế tư bản."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ở Việt Nam, thực dân Pháp đã chia đất nước thành mấy kỳ với chế độ cai trị khác nhau?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 kỳ (Bắc Kỳ, Nam Kỳ)"
+        },
+        {
+          "id": "B",
+          "text": "3 kỳ (Bắc Kỳ, Trung Kỳ, Nam Kỳ)"
+        },
+        {
+          "id": "C",
+          "text": "4 kỳ"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất một chế độ cai trị"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nam Kỳ (thuộc địa), Trung Kỳ (nửa bảo hộ), Bắc Kỳ (bảo hộ) nhằm chia rẽ dân tộc."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nguyên nhân chính dẫn đến thất bại của nhà Hồ trong cuộc kháng chiến chống quân Minh (1407) là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân Minh quá mạnh"
+        },
+        {
+          "id": "B",
+          "text": "Đường lối kháng chiến sai lầm, không đoàn kết được toàn dân"
+        },
+        {
+          "id": "C",
+          "text": "Thiếu vũ khí hiện đại"
+        },
+        {
+          "id": "D",
+          "text": "Không có tướng tài"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hồ Quý Ly quá chú trọng xây thành đắp lũy (phòng ngự thụ động) mà không dựa vào dân ('Chính sự cốt ở lòng dân')."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tại sao Thái Lan (Xiêm) giữ được độc lập?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có quân đội mạnh nhất khu vực"
+        },
+        {
+          "id": "B",
+          "text": "Được Mỹ bảo hộ"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện cải cách mở cửa và chính sách ngoại giao mềm dẻo (vùng đệm)"
+        },
+        {
+          "id": "D",
+          "text": "Địa hình hiểm trở khó xâm lược"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Xiêm lợi dụng mâu thuẫn giữa Anh và Pháp để làm vùng đệm, cắt đất để giữ chủ quyền."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền có ý nghĩa lịch sử gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mở đầu thời kỳ Bắc thuộc"
+        },
+        {
+          "id": "B",
+          "text": "Chấm dứt hoàn toàn hơn 1000 năm Bắc thuộc, mở ra kỷ nguyên độc lập tự chủ lâu dài"
+        },
+        {
+          "id": "C",
+          "text": "Thống nhất 12 sứ quân"
+        },
+        {
+          "id": "D",
+          "text": "Đánh bại quân Mông - Nguyên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là mốc son chói lọi kết thúc thời kỳ Bắc thuộc."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Thách thức lớn nhất mà chủ nghĩa tư bản hiện đại đang đối mặt là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiếu hụt nguồn lao động"
+        },
+        {
+          "id": "B",
+          "text": "Sự chênh lệch giàu nghèo và khủng hoảng kinh tế, tài chính"
+        },
+        {
+          "id": "C",
+          "text": "Sự sụp đổ của thị trường chứng khoán"
+        },
+        {
+          "id": "D",
+          "text": "Thiếu tài nguyên thiên nhiên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bất bình đẳng xã hội gia tăng và các cuộc khủng hoảng chu kỳ là vấn đề nan giải."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Thành tựu khoa học kỹ thuật nổi bật nhất của Liên Xô năm 1957 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chế tạo thành công bom nguyên tử"
+        },
+        {
+          "id": "B",
+          "text": "Phóng thành công vệ tinh nhân tạo đầu tiên"
+        },
+        {
+          "id": "C",
+          "text": "Đưa con người lên Mặt Trăng"
+        },
+        {
+          "id": "D",
+          "text": "Xây dựng nhà máy điện hạt nhân đầu tiên"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1957, Liên Xô phóng vệ tinh Sputnik 1, mở đầu kỷ nguyên chinh phục vũ trụ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trước khi thực hiện Chính sách kinh tế mới (NEP), nước Nga Xô viết đã thực hiện chính sách gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chính sách Cộng sản thời chiến"
+        },
+        {
+          "id": "B",
+          "text": "Chính sách mở cửa"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách kinh tế thị trường"
+        },
+        {
+          "id": "D",
+          "text": "Chính sách công nghiệp hóa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chính sách Cộng sản thời chiến được áp dụng trong thời kỳ nội chiến (1918-1920)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Điểm giống nhau cơ bản trong phong trào giải phóng dân tộc ở Đông Nam Á sau Chiến tranh thế giới thứ nhất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đều do Đảng Cộng sản lãnh đạo"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển mạnh mẽ của phong trào dân tộc tư sản và sự lớn mạnh của giai cấp công nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đều giành được thắng lợi"
+        },
+        {
+          "id": "D",
+          "text": "Đều đấu tranh vũ trang"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là giai đoạn thức tỉnh của chủ nghĩa dân tộc và sự lớn mạnh của phong trào công nhân."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trong cuộc kháng chiến chống Mỹ, mặt trận nào đóng vai trò quyết định nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mặt trận ngoại giao"
+        },
+        {
+          "id": "B",
+          "text": "Mặt trận chính trị"
+        },
+        {
+          "id": "C",
+          "text": "Mặt trận quân sự"
+        },
+        {
+          "id": "D",
+          "text": "Mặt trận văn hóa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thắng lợi quân sự trên chiến trường tạo thế lực để giành thắng lợi trên bàn đàm phán."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Bốn nước cộng hòa đầu tiên gia nhập Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nga, U-crai-na, Bê-la-rút, Ngoại Cáp-ca-dơ"
+        },
+        {
+          "id": "B",
+          "text": "Nga, U-crai-na, Ca-dắc-xtan, U-dơ-bê-ki-xtan"
+        },
+        {
+          "id": "C",
+          "text": "Nga, Bê-la-rút, Lát-vi-a, Ét-tô-ni-a"
+        },
+        {
+          "id": "D",
+          "text": "Nga, U-crai-na, Môn-đô-va, Ác-mê-ni-a"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 nước cộng hòa đầu tiên hợp nhất thành Liên Xô."
+    }
+  ]
+}

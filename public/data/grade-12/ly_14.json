@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sóng điện từ và sóng âm khi truyền từ không khí vào nước thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng điện từ bước sóng giảm, sóng âm bước sóng tăng"
+        },
+        {
+          "id": "B",
+          "text": "Sóng điện từ bước sóng tăng, sóng âm bước sóng giảm"
+        },
+        {
+          "id": "C",
+          "text": "Cả hai bước sóng đều tăng"
+        },
+        {
+          "id": "D",
+          "text": "Cả hai bước sóng đều giảm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng điện từ: $v_{khí} > v_{nước} \\Rightarrow \\lambda$ giảm. Sóng âm: $v_{khí} < v_{nước} \\Rightarrow \\lambda$ tăng."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa với phương trình $x = 6\\cos(4\\pi t)$ (cm). Tần số dao động của vật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4 Hz"
+        },
+        {
+          "id": "B",
+          "text": "2 Hz"
+        },
+        {
+          "id": "C",
+          "text": "0,5 Hz"
+        },
+        {
+          "id": "D",
+          "text": "2\\pi Hz"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tần số góc $\\omega = 4\\pi$. Tần số $f = \\frac{\\omega}{2\\pi} = \\frac{4\\pi}{2\\pi} = 2$ Hz."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Điện từ trường xuất hiện xung quanh:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một điện tích dao động"
+        },
+        {
+          "id": "B",
+          "text": "Một dòng điện một chiều không đổi"
+        },
+        {
+          "id": "C",
+          "text": "Một điện tích đứng yên"
+        },
+        {
+          "id": "D",
+          "text": "Một tụ điện đã tích điện cố định"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện trường biến thiên sinh ra từ trường, từ trường biến thiên sinh ra điện trường. Điện tích dao động tạo ra điện trường biến thiên."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tia nào sau đây có khả năng đâm xuyên mạnh nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tia $\\gamma$"
+        },
+        {
+          "id": "B",
+          "text": "Tia $\\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "Tia $\\beta^+$"
+        },
+        {
+          "id": "D",
+          "text": "Tia $\\beta^-$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia gamma (sóng điện từ cao tần) đâm xuyên mạnh nhất, đi qua được bê tông, chì dày."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Trong mạch RLC nối tiếp, công suất tiêu thụ của mạch được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P = UI\\cos\\varphi$"
+        },
+        {
+          "id": "B",
+          "text": "$P = UI\\sin\\varphi$"
+        },
+        {
+          "id": "C",
+          "text": "$P = U^2/R$"
+        },
+        {
+          "id": "D",
+          "text": "$P = I^2Z$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $P = UI\\cos\\varphi = I^2R$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hình chiếu của một chuyển động tròn đều lên một đường kính là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một dao động điều hòa"
+        },
+        {
+          "id": "B",
+          "text": "Một dao động tắt dần"
+        },
+        {
+          "id": "C",
+          "text": "Một chuyển động thẳng đều"
+        },
+        {
+          "id": "D",
+          "text": "Một chuyển động biến đổi đều"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là mối liên hệ cơ bản giữa chuyển động tròn đều và dao động điều hòa."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Một vật thực hiện đồng thời hai dao động điều hòa cùng phương: $x_1 = 4\\cos(10\\pi t)$ và $x_2 = 4\\sin(10\\pi t)$. Biên độ dao động tổng hợp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "8 cm"
+        },
+        {
+          "id": "B",
+          "text": "$4\\sqrt{2}$ cm"
+        },
+        {
+          "id": "C",
+          "text": "4 cm"
+        },
+        {
+          "id": "D",
+          "text": "0 cm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$x_2 = 4\\cos(10\\pi t - \\pi/2)$. Hai dao động vuông pha. $A = \\sqrt{4^2 + 4^2} = 4\\sqrt{2}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong sơ đồ truyền tải điện năng, máy biến áp đặt tại nơi phát điện là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Máy tăng áp"
+        },
+        {
+          "id": "B",
+          "text": "Máy hạ áp"
+        },
+        {
+          "id": "C",
+          "text": "Máy ổn áp"
+        },
+        {
+          "id": "D",
+          "text": "Máy chỉnh lưu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại nơi phát cần tăng điện áp lên rất cao để giảm hao phí khi truyền đi xa."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Giới hạn quang điện của một kim loại là $\\lambda_0$. Điều kiện để xảy ra hiện tượng quang điện khi chiếu bức xạ $\\lambda$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\lambda \\le \\lambda_0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\lambda > \\lambda_0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\lambda \\ge \\lambda_0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\lambda = 2\\lambda_0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $\\lambda \\le \\lambda_0$ (Bước sóng kích thích phải nhỏ hơn hoặc bằng giới hạn quang điện)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Âm sắc là đặc trưng sinh lý giúp ta phân biệt được âm phát ra từ hai nguồn khác nhau có cùng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ"
+        },
+        {
+          "id": "B",
+          "text": "Tần số"
+        },
+        {
+          "id": "C",
+          "text": "Độ to"
+        },
+        {
+          "id": "D",
+          "text": "Độ cao"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Âm sắc giúp phân biệt 2 nhạc cụ (ví dụ sáo và đàn guitar) cùng chơi một nốt nhạc (cùng độ cao/tần số)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong máy phát điện xoay chiều ba pha, khi suất điện động ở cuộn 1 đạt cực đại thì suất điện động ở cuộn 2 và 3 có giá trị:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bằng một nửa cực đại và trái dấu nhau"
+        },
+        {
+          "id": "B",
+          "text": "Bằng một nửa cực đại và cùng dấu"
+        },
+        {
+          "id": "C",
+          "text": "Bằng 0"
+        },
+        {
+          "id": "D",
+          "text": "Bằng trừ một nửa cực đại"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$e_1 = E_0$. Khi đó $e_2 = E_0\\cos(-2\\pi/3) = -E_0/2$ và $e_3 = E_0\\cos(2\\pi/3) = -E_0/2$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong mạch dao động LC, điện tích trên tụ biến thiên điều hòa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cùng tần số với cường độ dòng điện"
+        },
+        {
+          "id": "B",
+          "text": "Lệch pha $\\pi$ so với cường độ dòng điện"
+        },
+        {
+          "id": "C",
+          "text": "Cùng pha với cường độ dòng điện"
+        },
+        {
+          "id": "D",
+          "text": "Sớm pha $\\pi/2$ so với dòng điện"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$q$ và $i$ cùng tần số. $i$ sớm pha $\\pi/2$ so với $q$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Đơn vị đo mức cường độ âm là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Oát trên mét vuông (W/m²)"
+        },
+        {
+          "id": "B",
+          "text": "Ben (B) hoặc Đề-xi-ben (dB)"
+        },
+        {
+          "id": "C",
+          "text": "Héc (Hz)"
+        },
+        {
+          "id": "D",
+          "text": "Newton (N)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mức cường độ âm $L$ đo bằng Ben hoặc Deciben."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thân thể con người ở nhiệt độ $37^\\circ C$ phát ra bức xạ nào mạnh nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tia hồng ngoại"
+        },
+        {
+          "id": "B",
+          "text": "Tia tử ngoại"
+        },
+        {
+          "id": "C",
+          "text": "Ánh sáng nhìn thấy"
+        },
+        {
+          "id": "D",
+          "text": "Tia X"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi vật có nhiệt độ trên 0K đều phát tia hồng ngoại. Ở 37 độ C, cơ thể người phát tia hồng ngoại."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tại cùng một nơi, nếu chiều dài con lắc đơn tăng 4 lần thì chu kì dao động điều hòa của nó sẽ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng 2 lần"
+        },
+        {
+          "id": "B",
+          "text": "Giảm 2 lần"
+        },
+        {
+          "id": "C",
+          "text": "Tăng 4 lần"
+        },
+        {
+          "id": "D",
+          "text": "Không đổi"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$T \\sim \\sqrt{l}$. Nếu $l$ tăng 4 lần thì $\\sqrt{l}$ tăng $\\sqrt{4} = 2$ lần. Vậy $T$ tăng 2 lần."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Biên độ dao động tổng hợp của hai dao động cùng phương, cùng tần số không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ của dao động thứ nhất"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ của dao động thứ hai"
+        },
+        {
+          "id": "C",
+          "text": "Tần số chung của hai dao động"
+        },
+        {
+          "id": "D",
+          "text": "Độ lệch pha giữa hai dao động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công thức $A^2 = A_1^2 + A_2^2 + 2A_1A_2\\cos(\\Delta \\varphi)$. Không chứa $\\omega$ (tần số)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Công thức tính chu kì dao động của con lắc lò xo là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$T = 2\\pi \\sqrt{\\frac{k}{m}}$"
+        },
+        {
+          "id": "B",
+          "text": "$T = 2\\pi \\sqrt{\\frac{m}{k}}$"
+        },
+        {
+          "id": "C",
+          "text": "$T = \\frac{1}{2\\pi} \\sqrt{\\frac{k}{m}}$"
+        },
+        {
+          "id": "D",
+          "text": "$T = \\frac{1}{2\\pi} \\sqrt{\\frac{m}{k}}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chu kì con lắc lò xo tỉ lệ thuận với căn bậc hai của khối lượng và tỉ lệ nghịch với căn bậc hai độ cứng: $T = 2\\pi \\sqrt{\\frac{m}{k}}$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một máy biến áp có hiệu suất 80%. Cuộn sơ cấp có công suất tiêu thụ là 100W. Công suất ở cuộn thứ cấp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "80 W"
+        },
+        {
+          "id": "B",
+          "text": "100 W"
+        },
+        {
+          "id": "C",
+          "text": "125 W"
+        },
+        {
+          "id": "D",
+          "text": "20 W"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$H = P_2 / P_1 \\Rightarrow P_2 = H \\cdot P_1 = 0,8 \\cdot 100 = 80$ W."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Để giảm hao phí điện năng, người ta dùng dây dẫn có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện trở suất nhỏ"
+        },
+        {
+          "id": "B",
+          "text": "Điện trở suất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Tiết diện nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Chiều dài lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện trở $R = \\rho l / S$. Muốn $R$ nhỏ (để giảm hao phí) thì $\\rho$ (điện trở suất) phải nhỏ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lực hạt nhân là lực:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực tương tác mạnh giữa các nucleon"
+        },
+        {
+          "id": "B",
+          "text": "Lực tĩnh điện"
+        },
+        {
+          "id": "C",
+          "text": "Lực hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Lực từ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lực hạt nhân (tương tác mạnh) giữ các nucleon liên kết với nhau, thắng lực đẩy tĩnh điện."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 8: Khởi nghĩa & Chiến tranh giải phóng",
+    "description": "Kiểm tra kiến thức về các cuộc khởi nghĩa giành độc lập (Hai Bà Trưng, Lý Bí...) và chiến tranh giải phóng (Lam Sơn, Tây Sơn...).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Khác với chiến tranh bảo vệ Tổ quốc, chiến tranh giải phóng dân tộc nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bảo vệ chính quyền đang tồn tại" },
+        { "id": "B", "text": "Đánh đuổi quân xâm lược, giành lại nền độc lập và chủ quyền đã mất" },
+        { "id": "C", "text": "Mở rộng lãnh thổ" },
+        { "id": "D", "text": "Tranh giành quyền lực nội bộ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh giải phóng diễn ra khi đất nước đã bị nước ngoài đô hộ."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cuộc khởi nghĩa nào mở đầu cho thời kỳ đấu tranh chống Bắc thuộc của nhân dân ta?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khởi nghĩa Bà Triệu" },
+        { "id": "B", "text": "Khởi nghĩa Hai Bà Trưng (năm 40)" },
+        { "id": "C", "text": "Khởi nghĩa Lý Bí" },
+        { "id": "D", "text": "Khởi nghĩa Mai Thúc Loan" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hai Bà Trưng phất cờ khởi nghĩa năm 40, đánh đuổi quân Đông Hán."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Lý Bí (Lý Nam Đế) sau khi khởi nghĩa thắng lợi đã đặt tên nước là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đại Cồ Việt" },
+        { "id": "B", "text": "Đại Việt" },
+        { "id": "C", "text": "Vạn Xuân" },
+        { "id": "D", "text": "Đại Nam" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nước Vạn Xuân (mong muốn đất nước mãi mãi tươi đẹp như mùa xuân)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền có ý nghĩa lịch sử gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mở đầu thời kỳ Bắc thuộc" },
+        { "id": "B", "text": "Chấm dứt hoàn toàn hơn 1000 năm Bắc thuộc, mở ra kỷ nguyên độc lập tự chủ lâu dài" },
+        { "id": "C", "text": "Thống nhất 12 sứ quân" },
+        { "id": "D", "text": "Đánh bại quân Mông - Nguyên" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là mốc son chói lọi kết thúc thời kỳ Bắc thuộc."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Khởi nghĩa Lam Sơn (1418-1427) do ai lãnh đạo?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lê Hoàn" },
+        { "id": "B", "text": "Lê Lợi" },
+        { "id": "C", "text": "Nguyễn Trãi" },
+        { "id": "D", "text": "Nguyễn Huệ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lê Lợi dựng cờ khởi nghĩa tại Lam Sơn (Thanh Hóa) chống quân Minh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chiến thắng nào đã kết thúc thắng lợi cuộc khởi nghĩa Lam Sơn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tốt Động - Chúc Động" },
+        { "id": "B", "text": "Chi Lăng - Xương Giang" },
+        { "id": "C", "text": "Ngọc Hồi - Đống Đa" },
+        { "id": "D", "text": "Bạch Đằng" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Chi Lăng - Xương Giang (1427) chém đầu Liễu Thăng, buộc Vương Thông phải đầu hàng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "\"Bình Ngô đại cáo\" của Nguyễn Trãi được coi là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Bản Tuyên ngôn độc lập thứ hai của dân tộc" },
+        { "id": "B", "text": "Một bài thơ thần" },
+        { "id": "C", "text": "Một tác phẩm văn học lãng mạn" },
+        { "id": "D", "text": "Một bộ luật hình sự" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác phẩm tổng kết thắng lợi cuộc kháng chiến chống Minh và tuyên bố nền độc lập."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Phong trào Tây Sơn (cuối thế kỷ XVIII) ban đầu là một cuộc khởi nghĩa nông dân, sau đó phát triển thành:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cuộc chiến tranh bảo vệ tổ quốc thuần túy" },
+        { "id": "B", "text": "Phong trào giải phóng dân tộc, thống nhất đất nước và bảo vệ tổ quốc" },
+        { "id": "C", "text": "Cuộc nội chiến giữa các tập đoàn phong kiến" },
+        { "id": "D", "text": "Cuộc cách mạng tư sản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tây Sơn đã lật đổ các tập đoàn phong kiến (Nguyễn, Trịnh, Lê), thống nhất đất nước và đánh tan quân Xiêm, Thanh."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Người anh hùng áo vải cờ đào lãnh đạo phong trào Tây Sơn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nguyễn Nhạc" },
+        { "id": "B", "text": "Nguyễn Lữ" },
+        { "id": "C", "text": "Nguyễn Huệ (Quang Trung)" },
+        { "id": "D", "text": "Nguyễn Ánh" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nguyễn Huệ là linh hồn và lãnh tụ kiệt xuất của phong trào Tây Sơn."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng tháng Tám năm 1945 là cuộc cách mạng giải phóng dân tộc điển hình vì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lật đổ chế độ phong kiến tồn tại hàng ngàn năm" },
+        { "id": "B", "text": "Đánh đổ ách thống trị của thực dân Pháp và phát xít Nhật, giành lại độc lập hoàn toàn" },
+        { "id": "C", "text": "Thiết lập chế độ xã hội chủ nghĩa" },
+        { "id": "D", "text": "Do giai cấp tư sản lãnh đạo" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhiệm vụ hàng đầu là giải phóng dân tộc khỏi ách ngoại xâm (Pháp - Nhật)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Chiến dịch nào kết thúc cuộc kháng chiến chống Mỹ, cứu nước, giải phóng hoàn toàn miền Nam?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến dịch Điện Biên Phủ" },
+        { "id": "B", "text": "Chiến dịch Hồ Chí Minh" },
+        { "id": "C", "text": "Chiến dịch Tây Nguyên" },
+        { "id": "D", "text": "Chiến dịch Việt Bắc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến dịch Hồ Chí Minh lịch sử (30/4/1975)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Khởi nghĩa Yên Thế (1884-1913) do ai lãnh đạo?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phan Đình Phùng" },
+        { "id": "B", "text": "Hoàng Hoa Thám (Đề Thám)" },
+        { "id": "C", "text": "Nguyễn Trung Trực" },
+        { "id": "D", "text": "Trương Định" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc khởi nghĩa nông dân kéo dài nhất trong phong trào chống Pháp cuối thế kỷ XIX."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Điểm độc đáo trong nghệ thuật quân sự của cuộc khởi nghĩa Lam Sơn là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vây thành diệt viện" },
+        { "id": "B", "text": "Tiên phát chế nhân" },
+        { "id": "C", "text": "Vườn không nhà trống" },
+        { "id": "D", "text": "Đánh nhanh thắng nhanh" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lê Lợi và Nguyễn Trãi chủ trương vây hãm các thành (như Đông Quan) và tập trung tiêu diệt quân viện trợ (Chi Lăng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Phùng Hưng được nhân dân suy tôn danh hiệu gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mai Hắc Đế" },
+        { "id": "B", "text": "Bố Cái Đại Vương" },
+        { "id": "C", "text": "Dạ Trạch Vương" },
+        { "id": "D", "text": "Bình Định Vương" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bố Cái Đại Vương (Vua cha/Vua lớn)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu chấm dứt hoàn toàn chế độ phong kiến ở Việt Nam?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vua Bảo Đại thoái vị (30/8/1945)" },
+        { "id": "B", "text": "Thành lập nước Việt Nam Dân chủ Cộng hòa" },
+        { "id": "C", "text": "Chiến thắng Điện Biên Phủ" },
+        { "id": "D", "text": "Thống nhất đất nước năm 1976" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vua Bảo Đại trao ấn kiếm cho chính quyền cách mạng, chấm dứt triều đại phong kiến cuối cùng."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khúc Thừa Dụ đã làm gì để đặt nền móng cho nền độc lập dân tộc vào năm 905?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lên ngôi Hoàng đế" },
+        { "id": "B", "text": "Xưng là Tiết độ sứ, xây dựng chính quyền tự chủ" },
+        { "id": "C", "text": "Đánh bại quân Nam Hán" },
+        { "id": "D", "text": "Dời đô về Hoa Lư" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ông khéo léo giành lấy chức Tiết độ sứ (quan cai trị của nhà Đường) nhưng thực chất là giành quyền tự chủ cho người Việt."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong cuộc kháng chiến chống Mỹ, mặt trận nào đóng vai trò quyết định nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mặt trận ngoại giao" },
+        { "id": "B", "text": "Mặt trận chính trị" },
+        { "id": "C", "text": "Mặt trận quân sự" },
+        { "id": "D", "text": "Mặt trận văn hóa" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thắng lợi quân sự trên chiến trường tạo thế lực để giành thắng lợi trên bàn đàm phán."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Điểm giống nhau giữa cuộc kháng chiến chống Pháp (1945-1954) và kháng chiến chống Mỹ (1954-1975) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đều nhận được sự giúp đỡ trực tiếp của quân đội Liên Xô" },
+        { "id": "B", "text": "Đều là chiến tranh nhân dân, toàn dân, toàn diện" },
+        { "id": "C", "text": "Đều kết thúc bằng một trận quyết chiến chiến lược tại thủ đô đối phương" },
+        { "id": "D", "text": "Đều diễn ra trong thời gian 9 năm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đường lối chiến tranh nhân dân xuyên suốt cả hai cuộc kháng chiến."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nguyễn Huệ lên ngôi Hoàng đế tại đâu trước khi tiến quân ra Bắc đánh quân Thanh?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thăng Long" },
+        { "id": "B", "text": "Phú Xuân (Huế)" },
+        { "id": "C", "text": "Núi Bân (Huế)" },
+        { "id": "D", "text": "Quy Nhơn" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tại Núi Bân, Nguyễn Huệ lên ngôi, lấy niên hiệu Quang Trung (1788)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của các cuộc chiến tranh giải phóng trong lịch sử Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giành lại độc lập, chủ quyền, thống nhất đất nước" },
+        { "id": "B", "text": "Mở rộng lãnh thổ" },
+        { "id": "C", "text": "Trả thù kẻ xâm lược" },
+        { "id": "D", "text": "Khẳng định sức mạnh quân sự" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khôi phục nền độc lập và thống nhất non sông là mục tiêu tối thượng."
+    }
+  ]
+}

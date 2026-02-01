@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Điều kiện để phương trình $m \\sin x + \\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m^2 + 1 \\ge 4$"
+        },
+        {
+          "id": "B",
+          "text": "$m^2 + 1 \\le 4$"
+        },
+        {
+          "id": "C",
+          "text": "$m \\ge 2$"
+        },
+        {
+          "id": "D",
+          "text": "$m \\le -2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình $a\\sin x + b\\cos x = c$ có nghiệm khi $a^2 + b^2 \\ge c^2$. Tức là $m^2 + 1^2 \\ge 2^2 \\Leftrightarrow m^2 + 1 \\ge 4$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Biết $S_n = 2n^2 + 3n$. Tìm số hạng $u_5$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "65"
+        },
+        {
+          "id": "B",
+          "text": "44"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$u_5 = S_5 - S_4$. $S_5 = 2(25)+15 = 65$. $S_4 = 2(16)+12 = 44$. $u_5 = 65 - 44 = 21$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tìm $x$ để 3 số $10-3x; 2x^2+3; 7-4x$ theo thứ tự lập thành cấp số cộng.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1$ hoặc $x = \\frac{11}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$x = -1$ hoặc $x = \\frac{11}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 1$ hoặc $x = -\\frac{11}{4}$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 0$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$(10-3x) + (7-4x) = 2(2x^2+3) \\Rightarrow 17 - 7x = 4x^2 + 6 \\Rightarrow 4x^2 + 7x - 11 = 0$. Nghiệm $x=1$ hoặc $x=-11/4$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Số hạng tổng quát của dãy số: $\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{4}{5}, ...$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_n = \\frac{n-1}{n}$"
+        },
+        {
+          "id": "B",
+          "text": "$u_n = \\frac{n}{n+1}$"
+        },
+        {
+          "id": "C",
+          "text": "$u_n = \\frac{n+1}{n+2}$"
+        },
+        {
+          "id": "D",
+          "text": "$u_n = \\frac{n}{n+2}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tử số là $n$, mẫu số là $n+1$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tổng $S = 2 + 1 + \\frac{1}{2} + \\frac{1}{4} + ...$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "2,5"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấp số nhân lùi vô hạn với $u_1=2, q=1/2$. $S = \\frac{2}{1-0,5} = 4$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $A = \\cos(x - \\frac{\\pi}{2})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\cos x$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sin x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\sin x$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\cos x$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$\\cos(x - \\frac{\\pi}{2}) = \\cos(\\frac{\\pi}{2} - x) = \\sin x$ (Phụ chéo)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $A = \\sin \\frac{\\pi}{12} \\cos \\frac{\\pi}{12}$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\sqrt{3}}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$A = \\frac{1}{2} \\sin(2 \\cdot \\frac{\\pi}{12}) = \\frac{1}{2} \\sin \\frac{\\pi}{6} = \\frac{1}{2} \\cdot \\frac{1}{2} = \\frac{1}{4}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cho CSC $(u_n)$ thỏa mãn $\\begin{cases} u_2 - u_3 + u_5 = 10 \\\\ u_4 + u_6 = 26 \\end{cases}$. Tìm $u_1, d$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$u_1=1, d=3$"
+        },
+        {
+          "id": "B",
+          "text": "$u_1=3, d=1$"
+        },
+        {
+          "id": "C",
+          "text": "$u_1=2, d=4$"
+        },
+        {
+          "id": "D",
+          "text": "$u_1=-1, d=3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giải hệ: $(u_1+d) - (u_1+2d) + (u_1+4d) = 10 \\Rightarrow u_1 + 3d = 10$. Và $(u_1+3d) + (u_1+5d) = 26 \\Rightarrow 2u_1 + 8d = 26$. Giải hệ tìm được $u_1=1, d=3$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Giá trị của biểu thức $S = \\sin^2 10^\\circ + \\sin^2 20^\\circ + ... + \\sin^2 80^\\circ$ là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ghép cặp $(\\sin^2 10^\\circ + \\sin^2 80^\\circ) = (\\sin^2 10^\\circ + \\cos^2 10^\\circ) = 1$. Có 4 cặp như vậy: (10,80), (20,70), (30,60), (40,50). Tổng = 4."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Để phương trình $\\cos x = m$ có nghiệm thì giá trị của m phải là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m \\ge 1$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le -1$"
+        },
+        {
+          "id": "C",
+          "text": "$-1 \\le m \\le 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m > 1$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tập giá trị của cos là $[-1; 1]$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tìm $\\lim (\\sqrt{2} . \\frac{1}{\\sqrt{n}})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "$+\\infty$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\lim \\frac{1}{\\sqrt{n}} = 0$, nên tích bằng 0."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Phương trình $\\sin x + \\sqrt{3}\\cos x = 2$ có nghiệm là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = \\frac{\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$x = \\frac{\\pi}{3} + k2\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{5\\pi}{6} + k2\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$x = -\\frac{\\pi}{6} + k2\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chia 2 vế cho 2: $\\frac{1}{2}\\sin x + \\frac{\\sqrt{3}}{2}\\cos x = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{3}) = 1 \\Rightarrow x + \\frac{\\pi}{3} = \\frac{\\pi}{2} + k2\\pi \\Rightarrow x = \\frac{\\pi}{6} + k2\\pi$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tính $\\lim \\frac{n^2 - 3n}{2n^2 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "-3"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bậc tử bằng bậc mẫu (bậc 2), giới hạn bằng tỉ số hệ số bậc cao nhất: 1/2."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Cho CSC có $u_1=1, u_n=29, S_n=150$. Tìm $n$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "15"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$S_n = \\frac{n(1+29)}{2} = 150 \\Rightarrow 15n = 150 \\Rightarrow n = 10$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Rút gọn $H = \\frac{\\cos x - \\cos 3x}{\\sin 3x - \\sin x}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\tan x$"
+        },
+        {
+          "id": "B",
+          "text": "$\\tan 2x$"
+        },
+        {
+          "id": "C",
+          "text": "$\\cot 2x$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cot x$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dùng biến đổi tổng thành tích. Tử: $-2\\sin 2x \\sin(-x) = 2\\sin 2x \\sin x$. Mẫu: $2\\cos 2x \\sin x$. Kết quả $\\tan 2x$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tính $\\lim (\\sqrt{n^2+1} - n)$ là dạng vô định nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{0}{0}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\infty}{\\infty}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\infty - \\infty$"
+        },
+        {
+          "id": "D",
+          "text": "$0.\\infty$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$n^2 \\to \\infty$, $n \\to \\infty$, hiệu là dạng vô định $\\infty - \\infty$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Nếu $\\sin x + \\cos x = \\frac{1}{2}$ thì $\\sin 2x$ bằng",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\frac{3}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{3}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{3}{8}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{3}{8}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bình phương 2 vế: $(\\sin x + \\cos x)^2 = 1 + \\sin 2x = 1/4 \\Rightarrow \\sin 2x = -3/4$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho dãy số $(u_n)$ xác định bởi $u_n = 3n + 1$. Khẳng định nào đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Là cấp số cộng với $d=3$."
+        },
+        {
+          "id": "B",
+          "text": "Là cấp số cộng với $d=1$."
+        },
+        {
+          "id": "C",
+          "text": "Là cấp số nhân."
+        },
+        {
+          "id": "D",
+          "text": "Không phải cấp số cộng."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$u_{n+1} - u_n = [3(n+1)+1] - (3n+1) = 3$. Hiệu không đổi nên là CSC với $d=3$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho $\\cos a = \\frac{1}{3}$. Tính $\\cos 2a$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-\\frac{7}{9}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{7}{9}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$-\\frac{2}{3}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos 2a = 2\\cos^2 a - 1 = 2(\\frac{1}{9}) - 1 = \\frac{2}{9} - 1 = -\\frac{7}{9}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x^2 - x}{x^3 + 1}$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "$+\\infty$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu, giới hạn tại vô cực bằng 0."
+    }
+  ]
+}

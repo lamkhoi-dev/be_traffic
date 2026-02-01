@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập số 08",
+    "description": "Đề luyện tập bao gồm các câu hỏi trọng tâm về Hàm số, Mũ - Logarit, Số phức và Hình học không gian Oxyz.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = \\frac{2x + 1}{x - 1}$. Tiệm cận đứng của đồ thị hàm số là đường thẳng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 1$" },
+        { "id": "B", "text": "$x = -1$" },
+        { "id": "C", "text": "$y = 2$" },
+        { "id": "D", "text": "$y = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận đứng là nghiệm của mẫu số: $x - 1 = 0 \\Rightarrow x = 1$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Rút gọn biểu thức $P = \\log_2(4a)$ với $a > 0$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2 + \\log_2 a$" },
+        { "id": "B", "text": "$4 + \\log_2 a$" },
+        { "id": "C", "text": "$2 \\log_2 a$" },
+        { "id": "D", "text": "$\\log_2 a$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\log_2 4 + \\log_2 a = 2 + \\log_2 a$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tính tích phân $I = \\int_{0}^{\\pi/2} \\sin x \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "-1" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = -\\cos x \\Big|_0^{\\pi/2} = -(\\cos \\frac{\\pi}{2} - \\cos 0) = -(0 - 1) = 1$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, tâm $I$ của mặt cầu $(S): (x-1)^2 + (y+2)^2 + (z-3)^2 = 16$ có tọa độ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I(1; -2; 3)$" },
+        { "id": "B", "text": "$I(-1; 2; -3)$" },
+        { "id": "C", "text": "$I(1; 2; 3)$" },
+        { "id": "D", "text": "$I(-1; -2; -3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình chuẩn $(x-a)^2 + (y-b)^2 + (z-c)^2 = R^2 \\Rightarrow I(1; -2; 3)$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Môđun của số phức $z = 3 + 4i$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "25" },
+        { "id": "C", "text": "7" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$|z| = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Thể tích $V$ của khối lập phương cạnh $3a$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$27a^3$" },
+        { "id": "B", "text": "$9a^3$" },
+        { "id": "C", "text": "$3a^3$" },
+        { "id": "D", "text": "$a^3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = (3a)^3 = 27a^3$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $3^{2x - 1} = 27$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 2$" },
+        { "id": "B", "text": "$x = 1$" },
+        { "id": "C", "text": "$x = 3$" },
+        { "id": "D", "text": "$x = 4$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$3^{2x-1} = 3^3 \\Leftrightarrow 2x - 1 = 3 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = x^4 - 2x^2$ cắt trục hoành tại bao nhiêu điểm?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x^4 - 2x^2 = 0 \\Leftrightarrow x^2(x^2 - 2) = 0$. Nghiệm $x=0, x=\\sqrt{2}, x=-\\sqrt{2}$. Tổng 3 điểm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đường thẳng $y = x$ và parabol $y = x^2$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{6}$" },
+        { "id": "B", "text": "$\\frac{1}{2}$" },
+        { "id": "C", "text": "$\\frac{1}{3}$" },
+        { "id": "D", "text": "$\\frac{5}{6}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giao điểm: $x^2 = x \\Leftrightarrow x=0, x=1$. $S = \\int_{0}^{1} |x - x^2| \\text{d}x = \\int_{0}^{1} (x - x^2) \\text{d}x = (\\frac{x^2}{2} - \\frac{x^3}{3})\\Big|_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, vectơ nào dưới đây là vectơ pháp tuyến của mặt phẳng $(Oxy)$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\vec{k} = (0; 0; 1)$" },
+        { "id": "B", "text": "$\\vec{i} = (1; 0; 0)$" },
+        { "id": "C", "text": "$\\vec{j} = (0; 1; 0)$" },
+        { "id": "D", "text": "$\\vec{n} = (1; 1; 0)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$, nên VTPT là $(0; 0; 1)$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 1 + i$ và $z_2 = 3 - 2i$. Tính $z_1 + z_2$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$4 - i$" },
+        { "id": "B", "text": "$4 + i$" },
+        { "id": "C", "text": "$2 - 3i$" },
+        { "id": "D", "text": "$2 + 3i$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(1+3) + (1-2)i = 4 - i$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thể tích của khối trụ có bán kính đáy $r = 2$ và chiều cao $h = 5$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$20\\pi$" },
+        { "id": "B", "text": "$10\\pi$" },
+        { "id": "C", "text": "$40\\pi$" },
+        { "id": "D", "text": "$100\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\pi r^2 h = \\pi (2^2) (5) = 20\\pi$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Khoảng cách từ điểm $M(1; -1; 2)$ đến mặt phẳng $(P): 2x - 2y + z - 5 = 0$ bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{3}$" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "$\\frac{5}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$d = \\frac{|2(1) - 2(-1) + 2 - 5|}{\\sqrt{2^2 + (-2)^2 + 1^2}} = \\frac{|2 + 2 + 2 - 5|}{3} = \\frac{1}{3}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Đạo hàm của hàm số $y = 2^x$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2^x \\ln 2$" },
+        { "id": "B", "text": "$\\frac{2^x}{\\ln 2}$" },
+        { "id": "C", "text": "$x 2^{x-1}$" },
+        { "id": "D", "text": "$2^x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức $(a^x)' = a^x \\ln a$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Gieo một con súc sắc cân đối. Xác suất để xuất hiện mặt có số chấm là số chẵn bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2}$" },
+        { "id": "B", "text": "$\\frac{1}{3}$" },
+        { "id": "C", "text": "$\\frac{1}{6}$" },
+        { "id": "D", "text": "$\\frac{2}{3}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các mặt chẵn: {2, 4, 6}. Có 3 kết quả thuận lợi. Tổng 6 kết quả. $P = 3/6 = 1/2$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tìm nguyên hàm $F(x) = \\int (2x + 1) \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x^2 + x + C$" },
+        { "id": "B", "text": "$x^2 + C$" },
+        { "id": "C", "text": "$2x^2 + x + C$" },
+        { "id": "D", "text": "$2 + C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\int 2x \\text{d}x = x^2$, $\\int 1 \\text{d}x = x$. Vậy $F(x) = x^2 + x + C$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 4$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 3x^2 - 3$. $y'=0 \\Leftrightarrow x=1$ (thuộc đoạn). $y(0)=4, y(1)=2, y(2)=6$. Min là 2."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho $\\vec{a} = (1; 2; -1)$ và $\\vec{b} = (-2; 1; 3)$. Tọa độ vectơ $\\vec{u} = 2\\vec{a} + \\vec{b}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(0; 5; 1)$" },
+        { "id": "B", "text": "$(0; 3; 1)$" },
+        { "id": "C", "text": "$(4; 5; -5)$" },
+        { "id": "D", "text": "$(-1; 3; 2)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2\\vec{a} = (2; 4; -2)$. $2\\vec{a} + \\vec{b} = (2-2; 4+1; -2+3) = (0; 5; 1)$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = \\frac{1}{3}x^3 - mx^2 + (m^2 - m + 1)x + 1$. Có bao nhiêu giá trị nguyên của tham số $m$ để hàm số có cực trị?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vô số" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = x^2 - 2mx + m^2 - m + 1$. Để có cực trị (2 điểm) thì $\\Delta' > 0$. $\\Delta' = m^2 - (m^2 - m + 1) = m - 1 > 0 \\Leftrightarrow m > 1$. Có vô số giá trị nguyên."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z - 2i| = |z + 2|$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đường thẳng $y = -x$" },
+        { "id": "B", "text": "Đường thẳng $y = x$" },
+        { "id": "C", "text": "Đường tròn" },
+        { "id": "D", "text": "Trục hoành" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi $z = x+yi$. $|x + (y-2)i| = |(x+2) + yi| \\Leftrightarrow x^2 + (y-2)^2 = (x+2)^2 + y^2 \\Leftrightarrow -4y + 4 = 4x + 4 \\Leftrightarrow -4y = 4x \\Leftrightarrow y = -x$."
+    }
+  ]
+}

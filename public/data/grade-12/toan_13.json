@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho khối chóp $S.ABC$ có $SA, SB, SC$ đôi một vuông góc và $SA=1, SB=2, SC=3$. Thể tích khối chóp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\frac{1}{6} SA \\cdot SB \\cdot SC = \\frac{1}{6} \\cdot 1 \\cdot 2 \\cdot 3 = 1$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm tập xác định $D$ của hàm số $y = \\log_5(4 - x^2)$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$D = (-2; 2)$"
+        },
+        {
+          "id": "B",
+          "text": "$D = (-\\infty; -2) \\cup (2; +\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$D = [-2; 2]$"
+        },
+        {
+          "id": "D",
+          "text": "$D = \\mathbb{R} \\setminus \\{\\pm 2\\}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện: $4 - x^2 > 0 \\Leftrightarrow x^2 < 4 \\Leftrightarrow -2 < x < 2$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Với $a, b$ là các số thực dương tùy ý và $a \\ne 1$, $\\log_{a^2}(ab)$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2} + \\frac{1}{2}\\log_a b$"
+        },
+        {
+          "id": "B",
+          "text": "$2 + 2\\log_a b$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{1}{4}\\log_a b$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{1}{2}\\log_a b$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\log_{a^2}(ab) = \\frac{1}{2} \\log_a(ab) = \\frac{1}{2}(\\log_a a + \\log_a b) = \\frac{1}{2}(1 + \\log_a b)$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Giá trị lớn nhất của hàm số $y = -x^4 + 3x^2 + 1$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{13}{4}$"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "-3"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = -4x^3 + 6x$. $y'=0 \\Leftrightarrow x=0, x=\\pm\\sqrt{1.5}$. Trên $[0;2]$ lấy $x=0, x=\\sqrt{1.5}$. Tính $y(0)=1, y(\\sqrt{1.5}) = 3.25 = 13/4, y(2) = -3$. Max là $13/4$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cho $\\int_{0}^{6} f(x) \\text{d}x = 12$. Tính $I = \\int_{0}^{2} f(3x) \\text{d}x$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "36"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $t = 3x \\Rightarrow \\text{d}t = 3\\text{d}x \\Rightarrow \\text{d}x = \\frac{\\text{d}t}{3}$. Đổi cận: $x=0 \\to t=0; x=2 \\to t=6$. $I = \\int_{0}^{6} f(t) \\frac{\\text{d}t}{3} = \\frac{1}{3} \\cdot 12 = 4$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 1 + i$ và $z_2 = 3 - 2i$. Tính $z_1 + z_2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$4 - i$"
+        },
+        {
+          "id": "B",
+          "text": "$4 + i$"
+        },
+        {
+          "id": "C",
+          "text": "$2 - 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$2 + 3i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(1+3) + (1-2)i = 4 - i$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tìm phần ảo của số phức $z$ biết $\\bar{z} = (\\sqrt{2} + i)^2(1 - i\\sqrt{2})$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$-\\sqrt{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$2$"
+        },
+        {
+          "id": "D",
+          "text": "$-2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bấm máy: $VP = 5 + i\\sqrt{2}$. Vậy $\\bar{z} = 5 + i\\sqrt{2} \\Rightarrow z = 5 - i\\sqrt{2}$. Phần ảo là $-\\sqrt{2}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Đường tiệm cận đứng của đồ thị hàm số $y = \\frac{2x - 1}{x + 1}$ là đường thẳng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = -1$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = 2$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiệm cận đứng là nghiệm của mẫu số không trùng với nghiệm tử số: $x + 1 = 0 \\Rightarrow x = -1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho phương trình $9^x - 4 \\cdot 3^x + 3 = 0$. Tổng các nghiệm của phương trình là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đặt $t = 3^x (t>0) \\Rightarrow t^2 - 4t + 3 = 0 \\Leftrightarrow t=1$ hoặc $t=3$. $3^x=1 \\Rightarrow x=0$. $3^x=3 \\Rightarrow x=1$. Tổng nghiệm $0+1=1$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z - (3 - 4i)| = 2$ là đường tròn có tâm $I$ tọa độ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(3; -4)$"
+        },
+        {
+          "id": "B",
+          "text": "$I(-3; 4)$"
+        },
+        {
+          "id": "C",
+          "text": "$I(3; 4)$"
+        },
+        {
+          "id": "D",
+          "text": "$I(-3; -4)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình đường tròn $|z - (a+bi)| = R$ có tâm $I(a; b)$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho số phức $z$ thỏa mãn $|z - 1| = 2$. Biết tập hợp các điểm biểu diễn số phức $w = (1 + i\\sqrt{3})z + 2$ là một đường tròn. Tính bán kính $R$ của đường tròn đó.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "16"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$w - 2 = (1+i\\sqrt{3})z \\Rightarrow |w-2| = |1+i\\sqrt{3}| \\cdot |z|$. Ta cần đưa về $|z-1|$. Cách nhanh: Bán kính mới $R' = |1+i\\sqrt{3}| \\cdot R_{old} = 2 \\cdot 2 = 4$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong không gian, cho hình chữ nhật $ABCD$ có $AB=1, AD=2$. Quay hình chữ nhật đó quanh cạnh $AB$ ta được một khối trụ. Diện tích toàn phần của khối trụ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$12\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$8\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$10\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$4\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quay quanh $AB$ thì chiều cao $h = AB = 1$, bán kính đáy $R = AD = 2$. $S_{tp} = 2\\pi R h + 2\\pi R^2 = 2\\pi(2)(1) + 2\\pi(4) = 4\\pi + 8\\pi = 12\\pi$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, vectơ nào dưới đây là vectơ pháp tuyến của mặt phẳng $(Oxy)$?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{k} = (0; 0; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{i} = (1; 0; 0)$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{j} = (0; 1; 0)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{n} = (1; 1; 0)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mặt phẳng $(Oxy)$ có phương trình $z = 0$, nên VTPT là $(0; 0; 1)$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nếu $\\int_{1}^{2} f(x) \\text{d}x = 3$ và $\\int_{1}^{2} [3f(x) - g(x)] \\text{d}x = 10$ thì $\\int_{1}^{2} g(x) \\text{d}x$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "-1"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "19"
+        },
+        {
+          "id": "D",
+          "text": "-4"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ta có $3\\int f(x) - \\int g(x) = 10 \\Rightarrow 3(3) - \\int g(x) = 10 \\Rightarrow 9 - \\int g(x) = 10 \\Rightarrow \\int g(x) = -1$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 4$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 3x^2 - 3$. $y'=0 \\Leftrightarrow x=1$ (thuộc đoạn). $y(0)=4, y(1)=2, y(2)=6$. Min là 2."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Số phức liên hợp của số phức $z = (1+i)^2 + (2-i)$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$2 - i$"
+        },
+        {
+          "id": "B",
+          "text": "$2 + i$"
+        },
+        {
+          "id": "C",
+          "text": "$2 + 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$2 - 3i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = 2i + 2 - i = 2 + i$. Suy ra $\\bar{z} = 2 - i$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Số đường tiệm cận (đứng và ngang) của đồ thị hàm số $y = \\frac{x - 2}{x^2 - 4}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y = \\frac{x-2}{(x-2)(x+2)} = \\frac{1}{x+2}$. Có 1 TCĐ $x=-2$ và 1 TCN $y=0$. Tổng là 2."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 3 + 4i$ và $z_2 = 2 - i$. Số phức $z = z_1 - z_2$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 + 5i$"
+        },
+        {
+          "id": "B",
+          "text": "$1 + 3i$"
+        },
+        {
+          "id": "C",
+          "text": "$5 + 3i$"
+        },
+        {
+          "id": "D",
+          "text": "$1 - 5i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = (3-2) + (4 - (-1))i = 1 + 5i$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho số phức $z = a + bi (a, b \\in \\mathbb{R})$ thỏa mãn $2z + \\bar{z} = 3 + 2i$. Tính $S = a + b$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "-1"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2(a+bi) + (a-bi) = 3+2i \\Leftrightarrow 3a + bi = 3+2i \\Rightarrow 3a=3 \\Rightarrow a=1; b=2$. $S = 1+2=3$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tìm giá trị cực đại $y_{CĐ}$ của hàm số $y = x^3 - 3x + 2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = 4$"
+        },
+        {
+          "id": "B",
+          "text": "$y = 0$"
+        },
+        {
+          "id": "C",
+          "text": "$y = 2$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ta có $y' = 3x^2 - 3$. Cho $y' = 0 \\Leftrightarrow x = \\pm 1$. Tại $x = -1$ thì $y = 4$ (Cực đại). Tại $x = 1$ thì $y = 0$ (Cực tiểu)."
+    }
+  ]
+}

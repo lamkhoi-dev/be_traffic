@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "math",
+    "name": "Toán 11 - Bài 8: Giới hạn của hàm số",
+    "description": "Kiểm tra kiến thức về giới hạn hữu hạn của hàm số tại một điểm, tại vô cực, giới hạn một bên và các dạng vô định thường gặp.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim_{x \\to 1} (2x^2 - 3x + 1)$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "-1" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay trực tiếp $x=1$: $2(1)^2 - 3(1) + 1 = 0$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Tìm $L = \\lim_{x \\to 2} \\frac{x^2 - 4}{x - 2}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dạng 0/0. Phân tích: $\\frac{(x-2)(x+2)}{x-2} = x+2$. Khi $x \\to 2$, giới hạn bằng 4."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{2x + 1}{x - 3}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "-1/3" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bậc tử bằng bậc mẫu. Giới hạn bằng tỉ số hệ số cao nhất: 2/1 = 2."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Giới hạn $\\lim_{x \\to -\\infty} (x^3 + 2x)$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$+\\infty$" },
+        { "id": "B", "text": "$-\\infty$" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ngắt bỏ số hạng bậc thấp, $\\lim x^3$ khi $x \\to -\\infty$ là $-\\infty$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to 1^+} \\frac{2x + 1}{x - 1}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$+\\infty$" },
+        { "id": "B", "text": "$-\\infty$" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tử số $\\to 3 > 0$. Mẫu số $\\to 0$ và $x > 1$ nên mẫu dương. Kết quả $+\\infty$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sqrt{x+1} - 1}{x}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nhân liên hợp: $\\frac{x+1-1}{x(\\sqrt{x+1}+1)} = \\frac{1}{\\sqrt{x+1}+1}$. Thay $x=0$, được 1/2."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Cho $\\lim_{x \\to 2} f(x) = 3$. Giá trị của $\\lim_{x \\to 2} [2f(x) - 1]$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2(3) - 1 = 5$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Giới hạn nào sau đây bằng 0?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lim_{x \\to +\\infty} \\frac{1}{x}$" },
+        { "id": "B", "text": "$\\lim_{x \\to +\\infty} x^2$" },
+        { "id": "C", "text": "$\\lim_{x \\to 0} \\frac{1}{x^2}$" },
+        { "id": "D", "text": "$\\lim_{x \\to 2} (x+1)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khi $x$ tiến tới vô cực, $1/x$ tiến tới 0."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Kết quả của $\\lim_{x \\to -\\infty} \\frac{\\sqrt{x^2+1}}{x}$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "-1" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi $x < 0$, $\\sqrt{x^2} = -x$. Chia tử và mẫu cho x, ta được $-\\sqrt{1+1/x^2} / 1 \\to -1$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tìm $a$ để $\\lim_{x \\to 1} \\frac{x^2 - ax + a - 1}{x - 1} = 2$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a=1$" },
+        { "id": "B", "text": "$a=0$" },
+        { "id": "C", "text": "$a=-1$" },
+        { "id": "D", "text": "$a=2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phân tích tử: $(x-1)(x - (a-1))$. Rút gọn thành $x - a + 1$. Thay $x=1$: $1 - a + 1 = 2 \\Rightarrow 2 - a = 2 \\Rightarrow a = 0$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to 3^-} \\frac{1}{x-3}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$+\\infty$" },
+        { "id": "B", "text": "$-\\infty$" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mẫu tiến tới 0 và $x < 3$ nên mẫu âm. Tử dương. Kết quả $-\\infty$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Giới hạn $\\lim_{x \\to +\\infty} (\\sqrt{x^2+2x} - x)$ bằng",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "$+\\infty$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhân liên hợp: $\\frac{2x}{\\sqrt{x^2+2x}+x} \\to \\frac{2}{1+1} = 1$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Hàm số $f(x) = \\frac{1}{x}$ có giới hạn tại $x=0$ không?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có, bằng 0." },
+        { "id": "B", "text": "Có, bằng $+\\infty$." },
+        { "id": "C", "text": "Không tồn tại." },
+        { "id": "D", "text": "Có, bằng $-\\infty$." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giới hạn bên trái là $-\\infty$, bên phải là $+\\infty$. Không bằng nhau nên không tồn tại giới hạn."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tìm $\\lim_{x \\to 0} \\frac{\\sin 2x}{x}$. (Gợi ý: $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$)",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "1/2" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\frac{\\sin 2x}{x} = 2 \\cdot \\frac{\\sin 2x}{2x} \\to 2 \\cdot 1 = 2$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Giá trị của $\\lim_{x \\to 2} \\frac{x^3 - 8}{x^2 - 4}$ là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "3/2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\frac{(x-2)(x^2+2x+4)}{(x-2)(x+2)} = \\frac{x^2+2x+4}{x+2}$. Thay $x=2$: $\\frac{12}{4} = 3$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to +\\infty} \\frac{3x^2 - x}{x^3 + 1}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "$+\\infty$" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bậc tử nhỏ hơn bậc mẫu, giới hạn tại vô cực bằng 0."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Biết $\\lim_{x \\to 1} \\frac{\\sqrt{ax+1} - 2}{x-1} = b$. Tìm mối liên hệ giữa a và b.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a = 4b$" },
+        { "id": "B", "text": "$a = b$" },
+        { "id": "C", "text": "$a = 2b$" },
+        { "id": "D", "text": "$b = 4a$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Để giới hạn hữu hạn thì tử số tại $x=1$ phải bằng 0: $\\sqrt{a+1}-2=0 \\Rightarrow a=3$. Khi đó $\\lim \\frac{\\sqrt{3x+1}-2}{x-1} = \\lim \\frac{3(x-1)}{(x-1)(\\sqrt{3x+1}+2)} = \\frac{3}{4} = b$. Vậy $a=3, b=3/4 \\Rightarrow a = 4b$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Giới hạn nào sau đây là dạng vô định?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{0}{1}$" },
+        { "id": "B", "text": "$\\frac{2}{0}$" },
+        { "id": "C", "text": "$\\frac{0}{0}$" },
+        { "id": "D", "text": "$+\\infty + 2$" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "0/0 là dạng vô định điển hình."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tính $\\lim_{x \\to -1} (x^2 + 2x + 1)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "-1" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$(-1)^2 + 2(-1) + 1 = 1 - 2 + 1 = 0$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong các mệnh đề sau, mệnh đề nào SAI?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lim_{x \\to +\\infty} x^k = +\\infty$ ($k$ nguyên dương)." },
+        { "id": "B", "text": "$\\lim_{x \\to -\\infty} x^k = -\\infty$ ($k$ lẻ)." },
+        { "id": "C", "text": "$\\lim_{x \\to +\\infty} \\frac{1}{x} = 0$." },
+        { "id": "D", "text": "$\\lim_{x \\to -\\infty} x^2 = -\\infty$." }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Sai, vì $\\lim_{x \\to -\\infty} x^2 = +\\infty$."
+    }
+  ]
+}

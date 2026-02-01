@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Văn minh là trạng thái tiến bộ về",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "vật chất và tinh thần của xã hội loài người."
+        },
+        {
+          "id": "B",
+          "text": "chỉ riêng về kinh tế."
+        },
+        {
+          "id": "C",
+          "text": "chỉ riêng về kỹ thuật."
+        },
+        {
+          "id": "D",
+          "text": "sức mạnh quân sự."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Văn minh là sự kết hợp tiến bộ cả về vật chất (đô thị, nhà nước...) và tinh thần."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Kiến trúc Hồi giáo du nhập vào Ấn Độ nổi bật với đặc điểm gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mái cong vút."
+        },
+        {
+          "id": "B",
+          "text": "Mái vòm tròn, tháp nhọn, trang trí hoa văn dây leo."
+        },
+        {
+          "id": "C",
+          "text": "Sử dụng vật liệu gỗ là chính."
+        },
+        {
+          "id": "D",
+          "text": "Nhiều tượng thần thánh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kiến trúc Mô-gôn (Hồi giáo) đặc trưng bởi mái vòm củ hành và họa tiết hình học."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Yếu tố cốt lõi để thu hút khách du lịch văn hóa là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "giá rẻ."
+        },
+        {
+          "id": "B",
+          "text": "sự độc đáo và giá trị lịch sử của di sản."
+        },
+        {
+          "id": "C",
+          "text": "khách sạn sang trọng."
+        },
+        {
+          "id": "D",
+          "text": "đồ ăn ngon."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tính nguyên bản và giá trị lịch sử là sức hút chính."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phát minh nào giúp thông tin liên lạc được truyền đi xa tức thì trong CMCN lần 2?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thư tín."
+        },
+        {
+          "id": "B",
+          "text": "Điện thoại và Điện tín."
+        },
+        {
+          "id": "C",
+          "text": "Internet."
+        },
+        {
+          "id": "D",
+          "text": "Chim bồ câu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Alexander Graham Bell phát minh điện thoại, Morse phát minh điện tín."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Việc nghiên cứu lịch sử giúp con người",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "trở nên giàu có ngay lập tức."
+        },
+        {
+          "id": "B",
+          "text": "hiểu rõ cội nguồn, bản sắc dân tộc."
+        },
+        {
+          "id": "C",
+          "text": "thay đổi được quá khứ."
+        },
+        {
+          "id": "D",
+          "text": "sống mãi mãi."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiểu biết về quá khứ giúp nhận thức rõ nguồn gốc và bản sắc."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chế độ tuyển chọn quan lại thông qua thi cử (Khoa cử) bắt đầu định hình từ thời nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thời Tần."
+        },
+        {
+          "id": "B",
+          "text": "Thời Hán."
+        },
+        {
+          "id": "C",
+          "text": "Thời Tùy - Đường."
+        },
+        {
+          "id": "D",
+          "text": "Thời Minh."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khoa cử bắt đầu từ thời Tùy và hoàn thiện rực rỡ vào thời Đường."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Giấy được phát minh vào thời kỳ nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thời Tây Hán."
+        },
+        {
+          "id": "B",
+          "text": "Thời Đông Hán (Sái Luân cải tiến)."
+        },
+        {
+          "id": "C",
+          "text": "Thời Đường."
+        },
+        {
+          "id": "D",
+          "text": "Thời Tống."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mặc dù xuất hiện từ trước, nhưng Sái Luân thời Đông Hán đã hoàn thiện kỹ thuật làm giấy."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Lịch sử giúp chúng ta giải thích được",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "nguồn gốc của các sự kiện hiện tại."
+        },
+        {
+          "id": "B",
+          "text": "cấu trúc của nguyên tử."
+        },
+        {
+          "id": "C",
+          "text": "quy luật vận động của các hành tinh."
+        },
+        {
+          "id": "D",
+          "text": "cách chữa bệnh ung thư."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi vấn đề hiện tại đều có gốc rễ từ quá khứ."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Phát minh thuốc súng ban đầu được sử dụng cho mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Làm pháo hoa và luyện đan (thuốc trường sinh)."
+        },
+        {
+          "id": "B",
+          "text": "Làm súng đại bác."
+        },
+        {
+          "id": "C",
+          "text": "Phá núi."
+        },
+        {
+          "id": "D",
+          "text": "Làm tên lửa."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Các đạo sĩ luyện đan tình cờ tìm ra thuốc súng, sau này mới ứng dụng quân sự."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Công nghệ nào sau đây KHÔNG phải là đặc trưng của CMCN 4.0?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trí tuệ nhân tạo (AI)."
+        },
+        {
+          "id": "B",
+          "text": "Máy hơi nước."
+        },
+        {
+          "id": "C",
+          "text": "Internet vạn vật (IoT)."
+        },
+        {
+          "id": "D",
+          "text": "Dữ liệu lớn (Big Data)."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy hơi nước là của CMCN lần 1."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Chế độ đẳng cấp (Vác-na) ở Ấn Độ cổ đại phân chia xã hội dựa trên",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "tài sản."
+        },
+        {
+          "id": "B",
+          "text": "nguồn gốc xuất thân và tôn giáo."
+        },
+        {
+          "id": "C",
+          "text": "trình độ học vấn."
+        },
+        {
+          "id": "D",
+          "text": "chiến công quân sự."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Xã hội chia thành 4 đẳng cấp chính: Brahman, Kshatriya, Vaishya, Shudra."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Chữ viết của người Ai Cập cổ đại là loại chữ",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chữ cái Latinh."
+        },
+        {
+          "id": "B",
+          "text": "Chữ tượng hình."
+        },
+        {
+          "id": "C",
+          "text": "Chữ Hán."
+        },
+        {
+          "id": "D",
+          "text": "Chữ Phạn."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người Ai Cập dùng hình vẽ để biểu thị sự vật, ý niệm (Tượng hình)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nguồn sử liệu nào sau đây được coi là tin cậy nhất để khôi phục sự kiện?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sử liệu truyền miệng."
+        },
+        {
+          "id": "B",
+          "text": "Sử liệu gốc."
+        },
+        {
+          "id": "C",
+          "text": "Phim ảnh hư cấu."
+        },
+        {
+          "id": "D",
+          "text": "Tiểu thuyết lịch sử."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử liệu gốc ra đời vào thời điểm xảy ra sự kiện, phản ánh trực tiếp sự kiện."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Thiên Chúa giáo (Kitô giáo) ra đời vào khoảng thời gian nào, tại đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thế kỷ I TCN, tại La Mã."
+        },
+        {
+          "id": "B",
+          "text": "Thế kỷ I, tại Pa-le-xtin (thuộc La Mã)."
+        },
+        {
+          "id": "C",
+          "text": "Thế kỷ V, tại Hy Lạp."
+        },
+        {
+          "id": "D",
+          "text": "Thế kỷ X, tại Pháp."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chúa Giê-su sáng lập đạo Thiên Chúa tại vùngn Judea (Palestine)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tôn giáo nào ra đời tại Ấn Độ và trở thành một trong những tôn giáo lớn nhất thế giới?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kitô giáo."
+        },
+        {
+          "id": "B",
+          "text": "Hồi giáo."
+        },
+        {
+          "id": "C",
+          "text": "Phật giáo."
+        },
+        {
+          "id": "D",
+          "text": "Nho giáo."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Phật giáo do Thích Ca Mâu Ni sáng lập tại Ấn Độ vào khoảng thế kỷ VI TCN."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nền văn minh Ấn Độ hình thành trên lưu vực hai con sông lớn nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Ti-grơ và Ơ-phrát."
+        },
+        {
+          "id": "B",
+          "text": "Sông Ấn và sông Hằng."
+        },
+        {
+          "id": "C",
+          "text": "Sông Hoàng Hà và Trường Giang."
+        },
+        {
+          "id": "D",
+          "text": "Sông Nin."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sông Ấn (Indus) và sông Hằng (Ganges) là cái nôi của văn minh Ấn Độ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ngành du lịch có vai trò gì đối với Sử học?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tạo nguồn thu để tái đầu tư bảo tồn di tích."
+        },
+        {
+          "id": "B",
+          "text": "Làm thay đổi sự thật lịch sử."
+        },
+        {
+          "id": "C",
+          "text": "Không có vai trò gì."
+        },
+        {
+          "id": "D",
+          "text": "Giúp các nhà sử học chuyển nghề."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Du lịch mang lại nguồn lực tài chính để trùng tu, tôn tạo di tích."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Nhà nước thành bang A-ten (Athens) nổi tiếng với thể chế chính trị nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Quân chủ chuyên chế."
+        },
+        {
+          "id": "B",
+          "text": "Dân chủ chủ nô."
+        },
+        {
+          "id": "C",
+          "text": "Quân chủ lập hiến."
+        },
+        {
+          "id": "D",
+          "text": "Cộng hòa xã hội chủ nghĩa."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "A-ten là đỉnh cao của nền dân chủ cổ đại, nơi công dân bầu cử (tuy nhiên chỉ dành cho chủ nô nam giới)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "CMCN lần thứ nhất bắt đầu từ ngành công nghiệp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Luyện kim."
+        },
+        {
+          "id": "B",
+          "text": "Công nghiệp dệt (nhẹ)."
+        },
+        {
+          "id": "C",
+          "text": "Hóa chất."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác than."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhu cầu mặc tăng cao thúc đẩy cải tiến máy dệt (thoi bay, máy kéo sợi...)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lê-ô-na đơ Vanh-xi (Leonardo da Vinci) là tác giả của bức tranh nổi tiếng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bữa ăn tối cuối cùng và Nàng Mô-na Li-sa."
+        },
+        {
+          "id": "B",
+          "text": "Sáng tạo Adam."
+        },
+        {
+          "id": "C",
+          "text": "Trường học A-ten."
+        },
+        {
+          "id": "D",
+          "text": "Đức mẹ sầu bi."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Da Vinci là thiên tài toàn năng, tác giả của nụ cười bí ẩn Mona Lisa."
+    }
+  ]
+}

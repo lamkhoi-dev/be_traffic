@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 13",
+    "description": "Đề luyện tập tổng hợp số 13, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 13
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ ba bắt đầu vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đầu thế kỷ XX."
+        },
+        {
+          "id": "B",
+          "text": "Những năm 40 của thế kỷ XX (Gắn với máy tính điện tử)."
+        },
+        {
+          "id": "C",
+          "text": "Năm 2000."
+        },
+        {
+          "id": "D",
+          "text": "Năm 2011."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khởi đầu từ Mỹ với sự ra đời của máy tính điện tử ENIAC (1946)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Sử học có mối quan hệ như thế nào với công tác bảo tồn di sản văn hóa?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Không có mối quan hệ gì."
+        },
+        {
+          "id": "B",
+          "text": "Mối quan hệ mật thiết, tương hỗ."
+        },
+        {
+          "id": "C",
+          "text": "Sử học cản trở bảo tồn di sản."
+        },
+        {
+          "id": "D",
+          "text": "Bảo tồn di sản thay thế cho Sử học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sử học cung cấp cơ sở khoa học để xác định giá trị và phương pháp bảo tồn di sản."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Blockchain (Chuỗi khối) là công nghệ nền tảng của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiền điện tử (như Bitcoin) và bảo mật dữ liệu."
+        },
+        {
+          "id": "B",
+          "text": "Trò chơi điện tử."
+        },
+        {
+          "id": "C",
+          "text": "Mạng xã hội."
+        },
+        {
+          "id": "D",
+          "text": "Xe tự lái."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đảm bảo tính minh bạch và không thể sửa đổi của dữ liệu."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tác động tích cực của CMCN 4.0 đối với sản xuất là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cần nhiều lao động chân tay hơn."
+        },
+        {
+          "id": "B",
+          "text": "Tăng năng suất, chất lượng và tính cá nhân hóa sản phẩm."
+        },
+        {
+          "id": "C",
+          "text": "Làm chậm quá trình giao hàng."
+        },
+        {
+          "id": "D",
+          "text": "Giảm sự phụ thuộc vào công nghệ."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhà máy thông minh giúp sản xuất hiệu quả và linh hoạt hơn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Quần thể di tích Cố đô Huế là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Di sản thiên nhiên thế giới."
+        },
+        {
+          "id": "B",
+          "text": "Di sản văn hóa thế giới."
+        },
+        {
+          "id": "C",
+          "text": "Di sản hỗn hợp."
+        },
+        {
+          "id": "D",
+          "text": "Di sản tư liệu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cố đô Huế được UNESCO công nhận là Di sản văn hóa thế giới."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ảnh hưởng của văn minh Trung Hoa đối với Việt Nam thể hiện rõ nhất ở lĩnh vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tôn giáo, chữ viết, tổ chức nhà nước."
+        },
+        {
+          "id": "B",
+          "text": "Trang phục phương Tây."
+        },
+        {
+          "id": "C",
+          "text": "Ngôn ngữ Latinh."
+        },
+        {
+          "id": "D",
+          "text": "Kiến trúc Gothic."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việt Nam chịu ảnh hưởng sâu sắc của Nho giáo, chữ Hán và mô hình nhà nước phong kiến."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phát minh nào giúp thông tin liên lạc được truyền đi xa tức thì trong CMCN lần 2?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thư tín."
+        },
+        {
+          "id": "B",
+          "text": "Điện thoại và Điện tín."
+        },
+        {
+          "id": "C",
+          "text": "Internet."
+        },
+        {
+          "id": "D",
+          "text": "Chim bồ câu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Alexander Graham Bell phát minh điện thoại, Morse phát minh điện tín."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nhiệm vụ giáo dục của Sử học thể hiện ở việc",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "cung cấp tri thức khoa học về quá khứ."
+        },
+        {
+          "id": "B",
+          "text": "giáo dục tinh thần yêu nước, niềm tự hào dân tộc."
+        },
+        {
+          "id": "C",
+          "text": "ghi chép lại mọi hành động của con người."
+        },
+        {
+          "id": "D",
+          "text": "dự báo thời tiết."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giáo dục phẩm chất, đạo đức, tinh thần dân tộc là nhiệm vụ giáo dục."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Để xác định niên đại của các hóa thạch cổ, Sử học cần sự hỗ trợ của ngành nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Văn học."
+        },
+        {
+          "id": "B",
+          "text": "Vật lý học, Hóa học."
+        },
+        {
+          "id": "C",
+          "text": "Tâm lý học."
+        },
+        {
+          "id": "D",
+          "text": "Kinh tế học."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Các phương pháp như đồng vị phóng xạ Carbon C-14 (Vật lý/Hóa học) giúp xác định tuổi hiện vật."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Người đứng đầu nhà nước Ai Cập cổ đại được gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thiên tử."
+        },
+        {
+          "id": "B",
+          "text": "En-xi."
+        },
+        {
+          "id": "C",
+          "text": "Pharaong (Pharaoh)."
+        },
+        {
+          "id": "D",
+          "text": "Hoàng đế."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pharaoh là vua của Ai Cập, được coi là con của thần Ra."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Văn minh Ấn Độ ảnh hưởng sâu sắc nhất đến khu vực nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đông Nam Á."
+        },
+        {
+          "id": "B",
+          "text": "Tây Âu."
+        },
+        {
+          "id": "C",
+          "text": "Bắc Mỹ."
+        },
+        {
+          "id": "D",
+          "text": "Châu Úc."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đông Nam Á chịu ảnh hưởng mạnh mẽ về tôn giáo, chữ viết, kiến trúc, văn học từ Ấn Độ."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Công nghệ nào sau đây KHÔNG phải là đặc trưng của CMCN 4.0?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trí tuệ nhân tạo (AI)."
+        },
+        {
+          "id": "B",
+          "text": "Máy hơi nước."
+        },
+        {
+          "id": "C",
+          "text": "Internet vạn vật (IoT)."
+        },
+        {
+          "id": "D",
+          "text": "Dữ liệu lớn (Big Data)."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Máy hơi nước là của CMCN lần 1."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Internet (Mạng toàn cầu) bắt đầu phổ biến rộng rãi từ khi nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thập niên 1950."
+        },
+        {
+          "id": "B",
+          "text": "Thập niên 1990."
+        },
+        {
+          "id": "C",
+          "text": "Thập niên 1970."
+        },
+        {
+          "id": "D",
+          "text": "Năm 2010."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của World Wide Web (WWW) đầu thập niên 90 đã bùng nổ Internet."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Nguyên tắc cơ bản quan trọng hàng đầu của Sử học là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "khách quan."
+        },
+        {
+          "id": "B",
+          "text": "chủ quan."
+        },
+        {
+          "id": "C",
+          "text": "định kiến."
+        },
+        {
+          "id": "D",
+          "text": "cảm tính."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhà sử học phải tôn trọng sự thật khách quan."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Con đường thương mại nổi tiếng nối liền Trung Hoa với phương Tây gọi là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Con đường Gốm sứ."
+        },
+        {
+          "id": "B",
+          "text": "Con đường Tơ lụa."
+        },
+        {
+          "id": "C",
+          "text": "Con đường Gia vị."
+        },
+        {
+          "id": "D",
+          "text": "Con đường Trà."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Con đường Tơ lụa (Silk Road) là huyết mạch giao lưu kinh tế - văn hóa."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng công nghiệp lần thứ hai diễn ra vào khoảng thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuối thế kỷ XVIII - đầu thế kỷ XIX."
+        },
+        {
+          "id": "B",
+          "text": "Nửa sau thế kỷ XIX - đầu thế kỷ XX."
+        },
+        {
+          "id": "C",
+          "text": "Giữa thế kỷ XX."
+        },
+        {
+          "id": "D",
+          "text": "Đầu thế kỷ XXI."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "CMCN lần 2 gắn liền với điện và động cơ đốt trong."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Phát minh máy bay (năm 1903) là của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Anh em nhà Mon-gôn-fi-ê."
+        },
+        {
+          "id": "B",
+          "text": "Anh em nhà Rai (Wright)."
+        },
+        {
+          "id": "C",
+          "text": "E-đi-xơn."
+        },
+        {
+          "id": "D",
+          "text": "Nô-ben."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Anh em nhà Wright thực hiện chuyến bay lịch sử đầu tiên."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng công nghiệp đã chuyển nền sản xuất từ",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công trường thủ công sang Đại công nghiệp cơ khí."
+        },
+        {
+          "id": "B",
+          "text": "Nông nghiệp sang Du lịch."
+        },
+        {
+          "id": "C",
+          "text": "Thủ công sang Buôn bán."
+        },
+        {
+          "id": "D",
+          "text": "Sản xuất nhỏ sang sản xuất hộ gia đình."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bước chuyển biến căn bản về chất trong lực lượng sản xuất."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nhà thiên văn học nào đã đưa ra 'Thuyết Nhật tâm' (Mặt Trời là trung tâm), chống lại quan điểm của Giáo hội?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Niu-tơn."
+        },
+        {
+          "id": "B",
+          "text": "Cô-péc-ních (Copernicus)."
+        },
+        {
+          "id": "C",
+          "text": "Đác-uyn."
+        },
+        {
+          "id": "D",
+          "text": "Anh-xtanh."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Copernicus khẳng định Trái Đất quay quanh Mặt Trời, mở đầu cách mạng thiên văn học."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Người Ai Cập cổ đại rất giỏi về lĩnh vực khoa học nào nhờ việc đo đạc ruộng đất và xây dựng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Toán học (Hình học)."
+        },
+        {
+          "id": "B",
+          "text": "Triết học."
+        },
+        {
+          "id": "C",
+          "text": "Văn học."
+        },
+        {
+          "id": "D",
+          "text": "Lịch sử."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhu cầu đo lại ruộng sau lũ và xây Kim tự tháp thúc đẩy Hình học phát triển."
+    }
+  ]
+}

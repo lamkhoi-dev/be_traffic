@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 3: Hàm số bậc hai",
+    "description": "Kiểm tra về tập xác định, sự biến thiên, vẽ đồ thị Parabol và ứng dụng hàm số bậc hai.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tập xác định của hàm số $y = \\sqrt{x - 2}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$D = [2; +\\infty)$" },
+        { "id": "B", "text": "$D = (2; +\\infty)$" },
+        { "id": "C", "text": "$D = \\mathbb{R} \\setminus \\{2\\}$" },
+        { "id": "D", "text": "$D = (-\\infty; 2]$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $x - 2 \\ge 0 \\Leftrightarrow x \\ge 2$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đỉnh của Parabol $y = x^2 - 4x + 3$ có tọa độ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(2; -1)$" },
+        { "id": "B", "text": "$(-2; 15)$" },
+        { "id": "C", "text": "$(2; 1)$" },
+        { "id": "D", "text": "$(4; 3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x_I = -b/2a = 4/2 = 2$. $y_I = 2^2 - 4(2) + 3 = 4 - 8 + 3 = -1$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Trục đối xứng của Parabol $y = 2x^2 + 4x - 1$ là đường thẳng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 2$" },
+        { "id": "B", "text": "$x = -1$" },
+        { "id": "C", "text": "$x = -2$" },
+        { "id": "D", "text": "$x = 1$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trục đối xứng $x = -b/2a = -4/4 = -1$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hàm số $y = -x^2 + 2x + 3$ đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(1; +\\infty)$" },
+        { "id": "B", "text": "$(-\\infty; 1)$" },
+        { "id": "C", "text": "$(-\\infty; 2)$" },
+        { "id": "D", "text": "$(-1; 3)$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hệ số $a = -1 < 0$, bề lõm quay xuống. Đỉnh $x=1$. Đồng biến trên $(-\\infty; 1)$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Giao điểm của Parabol $y = x^2 - 3x + 2$ với trục hoành là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(1; 0)$ và $(2; 0)$" },
+        { "id": "B", "text": "$(0; 1)$ và $(0; 2)$" },
+        { "id": "C", "text": "$(-1; 0)$ và $(-2; 0)$" },
+        { "id": "D", "text": "$(0; 2)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cho $y=0 \\Rightarrow x^2 - 3x + 2 = 0 \\Rightarrow x=1, x=2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tìm m để hàm số $y = \\sqrt{x - m + 1}$ xác định trên $[2; +\\infty)$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m \\ge 3$" },
+        { "id": "B", "text": "$m \\le 3$" },
+        { "id": "C", "text": "$m \\le 1$" },
+        { "id": "D", "text": "$m = 2$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ĐK: $x \\ge m - 1$. Tập xác định $D = [m-1; +\\infty)$. Để $[2; +\\infty) \\subset D$ thì $m-1 \\le 2 \\Leftrightarrow m \\le 3$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Parabol $y = ax^2 + bx + c$ đi qua $A(0; -1), B(1; -1), C(-1; 1)$. Xác định a, b, c.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = x^2 - x - 1$" },
+        { "id": "B", "text": "$y = 2x^2 - 2x - 1$" },
+        { "id": "C", "text": "$y = x^2 - 2x - 1$" },
+        { "id": "D", "text": "$y = -x^2 - x - 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ giải hệ. $c=-1$. $a+b-1=-1 \\Rightarrow a+b=0$. $a-b-1=1 \\Rightarrow a-b=2$. Giải ra $a=1, b=-1$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^2 - 4x + 5$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "-1" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y = (x-2)^2 + 1 \\ge 1$. Min là 1 tại $x=2$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Hàm số nào sau đây là hàm số chẵn?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = x^2$" },
+        { "id": "B", "text": "$y = x^3$" },
+        { "id": "C", "text": "$y = 2x + 1$" },
+        { "id": "D", "text": "$y = x^2 + x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f(-x) = (-x)^2 = x^2 = f(x)$. Hàm chẵn nhận Oy làm trục đối xứng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = ax^2 + bx + c$ có bề lõm quay lên trên khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$a > 0$" },
+        { "id": "B", "text": "$a < 0$" },
+        { "id": "C", "text": "$a = 0$" },
+        { "id": "D", "text": "$b > 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số $a > 0$ thì bề lõm quay lên."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Tọa độ giao điểm của Parabol $y = x^2$ và đường thẳng $y = 2x + 3$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(-1; 1)$ và $(3; 9)$" },
+        { "id": "B", "text": "$(1; 1)$ và $(-3; 9)$" },
+        { "id": "C", "text": "$(0; 0)$" },
+        { "id": "D", "text": "$(2; 7)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "PT hoành độ: $x^2 - 2x - 3 = 0 \\Rightarrow x=-1, x=3$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Cho hàm số $f(x) = \\begin{cases} 2x + 1 & \\text{khi } x \\ge 0 \\\\ x^2 & \\text{khi } x < 0 \\end{cases}$. Giá trị $f(-2)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "-3" },
+        { "id": "C", "text": "-4" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$-2 < 0$ nên dùng công thức dưới: $(-2)^2 = 4$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tìm m để Parabol $y = x^2 - 2x + m - 1$ cắt trục hoành tại 2 điểm phân biệt.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m < 2$" },
+        { "id": "B", "text": "$m > 2$" },
+        { "id": "C", "text": "$m = 2$" },
+        { "id": "D", "text": "$m \\le 2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta' > 0 \\Leftrightarrow (-1)^2 - (m-1) > 0 \\Leftrightarrow 1 - m + 1 > 0 \\Leftrightarrow 2 - m > 0 \\Leftrightarrow m < 2$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một quả bóng được ném lên cao, độ cao $h$ (mét) theo thời gian $t$ (giây) được tính bởi công thức $h(t) = -5t^2 + 10t$. Độ cao cực đại của quả bóng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "5 mét" },
+        { "id": "B", "text": "10 mét" },
+        { "id": "C", "text": "2 mét" },
+        { "id": "D", "text": "20 mét" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đỉnh parabol $t = -10 / (2(-5)) = 1$. $h(1) = -5(1) + 10(1) = 5$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Bảng biến thiên có mũi tên đi xuống rồi đi lên là của hàm số dạng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = ax^2 + bx + c$ với $a > 0$" },
+        { "id": "B", "text": "$y = ax^2 + bx + c$ với $a < 0$" },
+        { "id": "C", "text": "$y = ax + b$ với $a > 0$" },
+        { "id": "D", "text": "$y = ax + b$ với $a < 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bề lõm quay lên ($a > 0$) thì đồ thị đi xuống (nghịch biến) rồi đi lên (đồng biến)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Đồ thị hàm số $y = |x|$ có dạng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chữ V" },
+        { "id": "B", "text": "Chữ U" },
+        { "id": "C", "text": "Đường thẳng" },
+        { "id": "D", "text": "Chữ W" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hàm giá trị tuyệt đối có dạng chữ V, đối xứng qua Oy."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tìm tập xác định của hàm số $y = \\frac{1}{x^2 - 1}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\mathbb{R} \\setminus \\{\\pm 1\\}$" },
+        { "id": "B", "text": "$\\mathbb{R}$" },
+        { "id": "C", "text": "$(-1; 1)$" },
+        { "id": "D", "text": "$\\mathbb{R} \\setminus \\{1\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mẫu số khác 0: $x^2 - 1 \\ne 0 \\Leftrightarrow x \\ne \\pm 1$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Hàm số $y = x^2$ đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(0; +\\infty)$" },
+        { "id": "B", "text": "$(-\\infty; 0)$" },
+        { "id": "C", "text": "$\\mathbb{R}$" },
+        { "id": "D", "text": "$(-1; 1)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Với $a=1>0$, hàm đồng biến khi $x > -b/2a = 0$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Parabol $(P): y = ax^2 + bx + c$ có đỉnh $I(1; 2)$ và đi qua $M(0; 3)$. Xác định hàm số.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = x^2 - 2x + 3$" },
+        { "id": "B", "text": "$y = -x^2 + 2x + 3$" },
+        { "id": "C", "text": "$y = x^2 + 2x + 3$" },
+        { "id": "D", "text": "$y = 2x^2 - 4x + 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đi qua $M(0;3) \\Rightarrow c=3$. Đỉnh $x=1 \\Rightarrow -b/2a = 1$. Thay $x=1, y=2$: $a+b+3=2$. Giải hệ ra $a=1, b=-2$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Đường thẳng nào sau đây song song với đường thẳng $y = 2x - 1$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = 2x + 5$" },
+        { "id": "B", "text": "$y = -2x + 1$" },
+        { "id": "C", "text": "$y = \\frac{1}{2}x$" },
+        { "id": "D", "text": "$y = 2x - 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Song song thì cùng hệ số góc $a=2$ và khác tung độ gốc $b \\ne -1$."
+    }
+  ]
+}

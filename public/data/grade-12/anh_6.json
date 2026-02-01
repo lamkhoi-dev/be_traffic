@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 6: Endangered Species",
+    "description": "Chủ đề Động vật quý hiếm. Ngữ pháp: Tương lai hoàn thành (Future Perfect) và So sánh kép (Double Comparatives - ôn tập).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rhino" },
+        { "id": "B", "text": "vehicle" },
+        { "id": "C", "text": "honor" },
+        { "id": "D", "text": "habitat" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'habitat' âm 'h' được phát âm /h/. Các từ còn lại âm 'h' là âm câm."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "endangered" },
+        { "id": "B", "text": "extinction" },
+        { "id": "C", "text": "survival" },
+        { "id": "D", "text": "vulnerable" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D nhấn âm 1 (VUL-ner-a-ble). Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Many species of plants and animals are in ______ of extinction.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "danger" },
+        { "id": "B", "text": "endangered" },
+        { "id": "C", "text": "dangerous" },
+        { "id": "D", "text": "dangerously" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm từ 'in danger of' (có nguy cơ bị...)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Illegal ______ is one of the main causes of the decline in wildlife populations.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "poaching" },
+        { "id": "B", "text": "conserving" },
+        { "id": "C", "text": "reserving" },
+        { "id": "D", "text": "protecting" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Poaching' là nạn săn trộm."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "By the year 2050, many species ______ if we don't act now.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will disappear" },
+        { "id": "B", "text": "will have disappeared" },
+        { "id": "C", "text": "have disappeared" },
+        { "id": "D", "text": "disappear" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dấu hiệu 'By + mốc thời gian tương lai' dùng thì Tương lai hoàn thành."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "The ______ the weather is, the faster the polar ice melts.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "warm" },
+        { "id": "B", "text": "warmer" },
+        { "id": "C", "text": "warmest" },
+        { "id": "D", "text": "more warm" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The + so sánh hơn (warmer), the + so sánh hơn (faster)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "We need to protect the natural ______ of these rare birds.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "habit" },
+        { "id": "B", "text": "habitat" },
+        { "id": "C", "text": "habitation" },
+        { "id": "D", "text": "inhabitant" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Habitat' (môi trường sống tự nhiên)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Elephants are hunted for their ______ tusks.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "ivory" },
+        { "id": "B", "text": "gold" },
+        { "id": "C", "text": "silver" },
+        { "id": "D", "text": "wood" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Ivory' là ngà voi."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: Many animals are 'vulnerable' to habitat loss.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "safe" },
+        { "id": "B", "text": "strong" },
+        { "id": "C", "text": "susceptible" },
+        { "id": "D", "text": "immune" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Vulnerable' (dễ bị tổn thương) đồng nghĩa với 'susceptible' (dễ bị ảnh hưởng)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: The conservation efforts have helped 'restore' the population of tigers.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "destroy" },
+        { "id": "B", "text": "renew" },
+        { "id": "C", "text": "rebuild" },
+        { "id": "D", "text": "recover" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Restore' (khôi phục) trái nghĩa với 'destroy' (phá hủy)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "By the time we arrive at the zoo, they ______ closing.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will be" },
+        { "id": "B", "text": "will have been" },
+        { "id": "C", "text": "are" },
+        { "id": "D", "text": "have been" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dùng tương lai hoàn thành để diễn tả việc sở thú 'đã đóng cửa xong' trước khi mình đến."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "______ biodiversity helps maintain a balanced ecosystem.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Preserve" },
+        { "id": "B", "text": "Preservation" },
+        { "id": "C", "text": "Preserving" },
+        { "id": "D", "text": "Preserved" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Danh động từ (Gerund) làm chủ ngữ: 'Preserving biodiversity' (Việc bảo tồn đa dạng sinh học)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Dinosaurs became ______ millions of years ago.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "extinct" },
+        { "id": "B", "text": "extinction" },
+        { "id": "C", "text": "extinguish" },
+        { "id": "D", "text": "extinctive" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cụm 'become extinct' (trở nên tuyệt chủng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "The Red List provides information about the ______ status of species.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "conservation" },
+        { "id": "B", "text": "protection" },
+        { "id": "C", "text": "reservation" },
+        { "id": "D", "text": "production" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Conservation status' (tình trạng bảo tồn - ví dụ: nguy cấp, an toàn...)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'I think we should ban hunting wild animals.' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "I couldn't agree more." },
+        { "id": "B", "text": "It's not true." },
+        { "id": "C", "text": "You're wrong." },
+        { "id": "D", "text": "I don't mind." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' nghĩa là tôi hoàn toàn đồng ý."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'The more we destroy the forests, the much affected the animals become.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "destroy" },
+        { "id": "B", "text": "the much" },
+        { "id": "C", "text": "affected" },
+        { "id": "D", "text": "become" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sai cấu trúc so sánh kép. Sửa 'the much' thành 'the more'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Rhinos are driven to the ______ of extinction.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "edge" },
+        { "id": "B", "text": "side" },
+        { "id": "C", "text": "verge" },
+        { "id": "D", "text": "point" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Thành ngữ 'on the verge of extinction' hoặc 'driven to the verge of extinction' (bên bờ vực tuyệt chủng)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Strict laws have been introduced to stop the illegal ______ of ivory.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trade" },
+        { "id": "B", "text": "buy" },
+        { "id": "C", "text": "produce" },
+        { "id": "D", "text": "make" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Illegal trade' (buôn bán bất hợp pháp)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: 'As I read more, I learn more.' -> 'The more...'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "The more I read, the more I learn." },
+        { "id": "B", "text": "The more I read, the most I learn." },
+        { "id": "C", "text": "The more read I, the more learn I." },
+        { "id": "D", "text": "The most I read, the most I learn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc so sánh kép chuẩn."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Unless we protect these animals, they will ______ forever.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "vanish" },
+        { "id": "B", "text": "appear" },
+        { "id": "C", "text": "exist" },
+        { "id": "D", "text": "survive" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Vanish' (biến mất) phù hợp với ngữ cảnh nếu không bảo vệ."
+    }
+  ]
+}

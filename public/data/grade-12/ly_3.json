@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 3: Đại cương Dòng điện xoay chiều",
+    "description": "Kiểm tra kiến thức về các đại lượng đặc trưng của dòng điện xoay chiều, cảm kháng, dung kháng và định luật Ohm cho đoạn mạch RLC nối tiếp.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 12,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cường độ dòng điện $i = 2\\sqrt{2}\\cos(100\\pi t)$ (A) có giá trị hiệu dụng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2 A" },
+        { "id": "B", "text": "$2\\sqrt{2}$ A" },
+        { "id": "C", "text": "$\\sqrt{2}$ A" },
+        { "id": "D", "text": "4 A" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\frac{I_0}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2$ A."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Công thức tính cảm kháng của cuộn cảm thuần $L$ đối với dòng điện xoay chiều có tần số $f$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$Z_L = 2\\pi f L$" },
+        { "id": "B", "text": "$Z_L = \\frac{1}{2\\pi f L}$" },
+        { "id": "C", "text": "$Z_L = \\pi f L$" },
+        { "id": "D", "text": "$Z_L = \\frac{1}{\\pi f L}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$Z_L = \\omega L = 2\\pi f L$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đặt điện áp xoay chiều vào hai đầu tụ điện. Dung kháng của tụ điện:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tỉ lệ thuận với tần số dòng điện" },
+        { "id": "B", "text": "Tỉ lệ nghịch với tần số dòng điện" },
+        { "id": "C", "text": "Không phụ thuộc vào tần số dòng điện" },
+        { "id": "D", "text": "Tỉ lệ thuận với điện dung của tụ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$Z_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$. Dung kháng tỉ lệ nghịch với tần số."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch xoay chiều chỉ có điện trở thuần R, điện áp hai đầu mạch và cường độ dòng điện:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cùng pha" },
+        { "id": "B", "text": "Ngược pha" },
+        { "id": "C", "text": "Vuông pha" },
+        { "id": "D", "text": "Lệch pha $\\pi/3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mạch chỉ có R thì u và i cùng pha."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tổng trở của đoạn mạch RLC nối tiếp được tính bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$Z = \\sqrt{R^2 + (Z_L + Z_C)^2}$" },
+        { "id": "B", "text": "$Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$" },
+        { "id": "C", "text": "$Z = R + Z_L + Z_C$" },
+        { "id": "D", "text": "$Z = \\sqrt{|R^2 - (Z_L - Z_C)^2|}$" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức tính tổng trở: $Z = \\sqrt{R^2 + (Z_L - Z_C)^2}$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hiện tượng cộng hưởng điện xảy ra trong mạch RLC nối tiếp khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$Z_L = Z_C$" },
+        { "id": "B", "text": "$Z_L > Z_C$" },
+        { "id": "C", "text": "$Z_L < Z_C$" },
+        { "id": "D", "text": "$R = Z_L - Z_C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cộng hưởng xảy ra khi Cảm kháng = Dung kháng ($Z_L = Z_C$)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Khi xảy ra hiện tượng cộng hưởng điện thì hệ số công suất của mạch bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "0,5" },
+        { "id": "D", "text": "-1" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi cộng hưởng, $Z_L = Z_C \\Rightarrow \\varphi = 0 \\Rightarrow \\cos\\varphi = 1$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Công thức tính độ lệch pha $\\varphi$ giữa $u$ và $i$ trong mạch RLC nối tiếp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\tan\\varphi = \\frac{Z_L - Z_C}{R}$" },
+        { "id": "B", "text": "$\\tan\\varphi = \\frac{Z_L + Z_C}{R}$" },
+        { "id": "C", "text": "$\\tan\\varphi = \\frac{R}{Z_L - Z_C}$" },
+        { "id": "D", "text": "$\\tan\\varphi = \\frac{Z_C - Z_L}{R}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\tan\\varphi = \\frac{Z_L - Z_C}{R}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch RLC nối tiếp, nếu $Z_L > Z_C$ thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Điện áp $u$ sớm pha hơn dòng điện $i$" },
+        { "id": "B", "text": "Điện áp $u$ trễ pha hơn dòng điện $i$" },
+        { "id": "C", "text": "Điện áp $u$ cùng pha với dòng điện $i$" },
+        { "id": "D", "text": "Mạch có tính dung kháng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu $Z_L > Z_C$ (tính cảm kháng) thì $\\varphi > 0$, tức là $u$ sớm pha hơn $i$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đặt điện áp $u = U_0\\cos(\\omega t)$ vào hai đầu cuộn cảm thuần thì cường độ dòng điện là $i = I_0\\cos(\\omega t + \\varphi_i)$. Giá trị của $\\varphi_i$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$-\\pi/2$" },
+        { "id": "B", "text": "$\\pi/2$" },
+        { "id": "C", "text": "$0$" },
+        { "id": "D", "text": "$\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong cuộn cảm thuần, dòng điện trễ pha $\\pi/2$ so với điện áp. Do pha ban đầu của $u$ là 0, nên pha của $i$ là $-\\pi/2$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Điện áp tức thời giữa hai đầu đoạn mạch xoay chiều là $u = 220\\sqrt{2}\\cos(100\\pi t)$ (V). Điện áp hiệu dụng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "220 V" },
+        { "id": "B", "text": "$220\\sqrt{2}$ V" },
+        { "id": "C", "text": "110 V" },
+        { "id": "D", "text": "380 V" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U = U_0 / \\sqrt{2} = 220\\sqrt{2} / \\sqrt{2} = 220$ V."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nguyên tắc tạo ra dòng điện xoay chiều dựa trên:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hiện tượng cảm ứng điện từ" },
+        { "id": "B", "text": "Hiện tượng tự cảm" },
+        { "id": "C", "text": "Hiện tượng quang điện" },
+        { "id": "D", "text": "Hiện tượng nhiệt điện" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy phát điện xoay chiều hoạt động dựa trên hiện tượng cảm ứng điện từ."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một tụ điện có điện dung $C = \\frac{10^{-4}}{\\pi}$ F được mắc vào nguồn xoay chiều có tần số 50 Hz. Dung kháng của tụ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "100 $\\Omega$" },
+        { "id": "B", "text": "200 $\\Omega$" },
+        { "id": "C", "text": "50 $\\Omega$" },
+        { "id": "D", "text": "10 $\\Omega$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\omega = 2\\pi f = 100\\pi$. $Z_C = \\frac{1}{\\omega C} = \\frac{1}{100\\pi \\cdot \\frac{10^{-4}}{\\pi}} = \\frac{1}{10^{-2}} = 100 \\Omega$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Để giảm hao phí trên đường dây tải điện, biện pháp hiệu quả nhất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tăng điện áp trước khi truyền tải" },
+        { "id": "B", "text": "Giảm điện trở của dây dẫn" },
+        { "id": "C", "text": "Tăng tiết diện dây dẫn" },
+        { "id": "D", "text": "Giảm công suất truyền tải" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công suất hao phí tỉ lệ nghịch với bình phương điện áp ($P_{hp} \\sim 1/U^2$). Tăng U là cách hiệu quả nhất."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Máy biến áp là thiết bị dùng để:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Biến đổi điện áp xoay chiều mà không làm thay đổi tần số" },
+        { "id": "B", "text": "Biến đổi dòng điện xoay chiều thành một chiều" },
+        { "id": "C", "text": "Làm tăng công suất của dòng điện" },
+        { "id": "D", "text": "Biến đổi tần số của dòng điện xoay chiều" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy biến áp biến đổi điện áp và cường độ dòng điện nhưng giữ nguyên tần số."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Trong mạch RLC nối tiếp, công suất tiêu thụ của mạch được tính bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$P = UI\\cos\\varphi$" },
+        { "id": "B", "text": "$P = UI\\sin\\varphi$" },
+        { "id": "C", "text": "$P = U^2/R$" },
+        { "id": "D", "text": "$P = I^2Z$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức tổng quát: $P = UI\\cos\\varphi = I^2R$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Hệ số công suất $\\cos\\varphi$ của đoạn mạch điện xoay chiều có giá trị trong khoảng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$0 \\le \\cos\\varphi \\le 1$" },
+        { "id": "B", "text": "$-1 \\le \\cos\\varphi \\le 1$" },
+        { "id": "C", "text": "$1 < \\cos\\varphi < 2$" },
+        { "id": "D", "text": "$\\cos\\varphi \\ge 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ số công suất luôn không âm và nhỏ hơn hoặc bằng 1."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cuộn sơ cấp của máy biến áp có $N_1$ vòng, cuộn thứ cấp có $N_2$ vòng. Nếu $N_1 > N_2$ thì đây là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Máy hạ áp" },
+        { "id": "B", "text": "Máy tăng áp" },
+        { "id": "C", "text": "Máy ổn áp" },
+        { "id": "D", "text": "Máy phát điện" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$U_1/U_2 = N_1/N_2$. Nếu $N_1 > N_2 \\Rightarrow U_1 > U_2$, đầu ra nhỏ hơn đầu vào $\\Rightarrow$ Máy hạ áp."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Động cơ không đồng bộ ba pha hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hiện tượng cảm ứng điện từ và từ trường quay" },
+        { "id": "B", "text": "Hiện tượng quang điện trong" },
+        { "id": "C", "text": "Tác dụng nhiệt của dòng điện" },
+        { "id": "D", "text": "Lực Lo-ren-xơ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nguyên tắc: Sử dụng từ trường quay tạo ra bởi dòng ba pha để làm quay roto."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong mạch điện xoay chiều ba pha hình sao, tải đối xứng. Mối liên hệ giữa dòng điện dây $I_d$ và dòng điện pha $I_p$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I_d = I_p$" },
+        { "id": "B", "text": "$I_d = \\sqrt{3}I_p$" },
+        { "id": "C", "text": "$I_d = 3I_p$" },
+        { "id": "D", "text": "$I_p = \\sqrt{3}I_d$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trong cách mắc hình sao: $I_d = I_p$ và $U_d = \\sqrt{3}U_p$."
+    }
+  ]
+}

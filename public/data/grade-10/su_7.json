@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Bài 7: Văn minh Hy Lạp - La Mã cổ đại",
+    "description": "Kiểm tra kiến thức về văn minh phương Tây cổ đại: Thể chế dân chủ, Luật pháp, Chữ viết Latinh, Thiên chúa giáo và các thành tựu khoa học kỹ thuật.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Nền văn minh Hy Lạp - La Mã cổ đại hình thành ở khu vực nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lưu vực các dòng sông lớn ở Châu Á." },
+        { "id": "B", "text": "Ven biển Địa Trung Hải." },
+        { "id": "C", "text": "Vùng núi cao Hymalaya." },
+        { "id": "D", "text": "Bắc Âu." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Địa Trung Hải tạo điều kiện thuận lợi cho giao thương hàng hải."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đặc điểm kinh tế nổi bật của các quốc gia cổ đại phương Tây là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông nghiệp lúa nước." },
+        { "id": "B", "text": "Thủ công nghiệp và thương nghiệp hàng hải." },
+        { "id": "C", "text": "Chăn nuôi du mục." },
+        { "id": "D", "text": "Khai thác khoáng sản." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Do đất đai khô cằn nhưng nhiều vũng vịnh, họ phát triển mạnh về buôn bán đường biển và chế tác thủ công."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nhà nước thành bang A-ten (Athens) nổi tiếng với thể chế chính trị nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân chủ chuyên chế." },
+        { "id": "B", "text": "Dân chủ chủ nô." },
+        { "id": "C", "text": "Quân chủ lập hiến." },
+        { "id": "D", "text": "Cộng hòa xã hội chủ nghĩa." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "A-ten là đỉnh cao của nền dân chủ cổ đại, nơi công dân bầu cử (tuy nhiên chỉ dành cho chủ nô nam giới)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Hệ thống chữ viết của người La Mã cổ đại là cơ sở của loại chữ nào ngày nay?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chữ Tượng hình." },
+        { "id": "B", "text": "Chữ Hán." },
+        { "id": "C", "text": "Chữ cái Latinh (A, B, C...)." },
+        { "id": "D", "text": "Chữ Phạn." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bảng chữ cái Latinh là phát minh vĩ đại, đơn giản và khoa học."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đại hội thể thao Ô-lim-pic (Olympic) bắt nguồn từ quốc gia nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "La Mã." },
+        { "id": "B", "text": "Hy Lạp." },
+        { "id": "C", "text": "Ai Cập." },
+        { "id": "D", "text": "Trung Quốc." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Olympic ra đời tại đền thờ thần Zeus ở Olympia, Hy Lạp."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Hai bộ sử thi nổi tiếng 'I-li-át' và 'Ô-đi-xê' là của tác giả nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hô-me-rơ (Homer)." },
+        { "id": "B", "text": "Xô-phốc." },
+        { "id": "C", "text": "Ét-sin." },
+        { "id": "D", "text": "Hê-rô-đốt." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hô-me-rơ là nhà thơ mù vĩ đại của Hy Lạp."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Đấu trường Cô-li-dê (Colosseum) là công trình kiến trúc tiêu biểu của",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hy Lạp." },
+        { "id": "B", "text": "La Mã." },
+        { "id": "C", "text": "Ấn Độ." },
+        { "id": "D", "text": "Lưỡng Hà." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nơi diễn ra các trận đấu của võ sĩ giác đấu tại Rome."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Một trong những đóng góp quan trọng nhất của La Mã cổ đại về mặt nhà nước là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hệ thống pháp luật (Luật La Mã)." },
+        { "id": "B", "text": "Chế độ phong kiến." },
+        { "id": "C", "text": "Phát minh ra thuốc súng." },
+        { "id": "D", "text": "Kỹ thuật in ấn." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Luật La Mã (Luật 12 bảng) là nền tảng của pháp luật phương Tây hiện đại."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Các nhà khoa học Ta-lét, Py-ta-go, Ơ-clít nổi tiếng trong lĩnh vực nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Y học." },
+        { "id": "B", "text": "Toán học." },
+        { "id": "C", "text": "Sử học." },
+        { "id": "D", "text": "Văn học." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Họ là những nhà toán học lỗi lạc của Hy Lạp cổ đại."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đền Pác-tê-nông (Parthenon) là kiệt tác kiến trúc thờ vị thần nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thần Dớt (Zeus)." },
+        { "id": "B", "text": "Nữ thần A-tê-na (Athena)." },
+        { "id": "C", "text": "Thần Biển Pô-xây-đông." },
+        { "id": "D", "text": "Thần Tình yêu A-phrô-đít." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đền Parthenon nằm trên đồi Acropolis (Hy Lạp) thờ nữ thần trí tuệ Athena."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Thiên Chúa giáo (Kitô giáo) ra đời vào khoảng thời gian nào, tại đâu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thế kỷ I TCN, tại La Mã." },
+        { "id": "B", "text": "Thế kỷ I, tại Pa-le-xtin (thuộc La Mã)." },
+        { "id": "C", "text": "Thế kỷ V, tại Hy Lạp." },
+        { "id": "D", "text": "Thế kỷ X, tại Pháp." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chúa Giê-su sáng lập đạo Thiên Chúa tại vùngn Judea (Palestine)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Lịch mà chúng ta đang sử dụng phổ biến ngày nay (Dương lịch) có nguồn gốc từ",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lịch Ai Cập." },
+        { "id": "B", "text": "Lịch Trung Quốc." },
+        { "id": "C", "text": "Lịch La Mã cổ đại (Lịch Ju-li-us)." },
+        { "id": "D", "text": "Lịch Maya." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Người La Mã đã hoàn thiện Dương lịch dựa trên tính toán của người Ai Cập."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Triết học Hy Lạp cổ đại chia thành hai trường phái chính là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Duy vật và Duy tâm." },
+        { "id": "B", "text": "Phật giáo và Đạo giáo." },
+        { "id": "C", "text": "Nho gia và Pháp gia." },
+        { "id": "D", "text": "Thiên văn và Địa lý." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự đấu tranh giữa chủ nghĩa duy vật và duy tâm rất gay gắt ở Hy Lạp."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Vật liệu xây dựng đặc biệt mà người La Mã phát minh ra, giúp các công trình bền vững ngàn năm là",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gạch nung." },
+        { "id": "B", "text": "Bê tông tự nhiên." },
+        { "id": "C", "text": "Thép không gỉ." },
+        { "id": "D", "text": "Kính cường lực." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bê tông La Mã (trộn tro núi lửa) cực kỳ bền chắc."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Câu nói nổi tiếng 'Hãy cho tôi một điểm tựa, tôi sẽ nâng bổng cả Trái Đất lên' là của ai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ác-si-mét (Archimedes)." },
+        { "id": "B", "text": "Ơ-clít." },
+        { "id": "C", "text": "Platon." },
+        { "id": "D", "text": "Socrates." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ác-si-mét nổi tiếng với nguyên lý đòn bẩy."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Các vị thần Hy Lạp thường được mô tả như thế nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hình dáng quái vật đáng sợ." },
+        { "id": "B", "text": "Hình dáng và tính cách giống con người (nhưng bất tử)." },
+        { "id": "C", "text": "Vô hình, không có hình dạng." },
+        { "id": "D", "text": "Là các loài động vật." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Thần thoại Hy Lạp mang tính nhân bản sâu sắc (thần cũng có cảm xúc yêu ghét như người)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Người thầy của A-lếch-xan-đơ Đại đế (Alexander the Great) là nhà triết học vĩ đại nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xô-crát (Socrates)." },
+        { "id": "B", "text": "A-ri-xtốt (Aristotle)." },
+        { "id": "C", "text": "Pla-tông." },
+        { "id": "D", "text": "Hê-ra-clít." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Aristotle là người thầy thông thái dạy dỗ Alexander."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Hệ thống đường xá của La Mã nổi tiếng với câu nói nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mọi con đường đều dẫn đến thành Rome." },
+        { "id": "B", "text": "Đường xa vạn dặm." },
+        { "id": "C", "text": "Đường đi khó, không khó vì ngăn sông cách núi." },
+        { "id": "D", "text": "Đường La Mã là đường vàng." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "La Mã có hệ thống giao thông đường bộ tuyệt vời tỏa đi khắp đế chế."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Nền y học phương Tây tôn vinh ai là 'Ông tổ ngành Y'?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hi-pô-crat (Hippocrates)." },
+        { "id": "B", "text": "Hoa Đà." },
+        { "id": "C", "text": "Biển Thước." },
+        { "id": "D", "text": "Pa-x tơ." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lời thề Hippocrates là lời thề đạo đức y khoa."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tại sao văn minh Hy Lạp - La Mã được coi là cơ sở của văn minh phương Tây hiện đại?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vì họ giàu có nhất." },
+        { "id": "B", "text": "Vì những đóng góp nền tảng về luật pháp, triết học, chính trị, chữ viết." },
+        { "id": "C", "text": "Vì họ có quân đội mạnh nhất." },
+        { "id": "D", "text": "Vì họ phát hiện ra Châu Mỹ." }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Những giá trị này định hình nên xã hội phương Tây ngày nay."
+    }
+  ]
+}

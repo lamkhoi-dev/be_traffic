@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Đề ôn tập tổng hợp số 18",
+    "description": "Đề luyện tập tổng hợp số 18, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 18
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tác phẩm \"Đường Kách mệnh\" được xuất bản năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1925"
+        },
+        {
+          "id": "B",
+          "text": "1927"
+        },
+        {
+          "id": "C",
+          "text": "1930"
+        },
+        {
+          "id": "D",
+          "text": "1941"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tập hợp các bài giảng của Nguyễn Ái Quốc, xuất bản năm 1927."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "\"Ai có súng dùng súng. Ai có gươm dùng gươm...\" là đoạn trích trong văn kiện nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tuyên ngôn Độc lập"
+        },
+        {
+          "id": "B",
+          "text": "Lời kêu gọi Toàn quốc kháng chiến"
+        },
+        {
+          "id": "C",
+          "text": "Chỉ thị Toàn dân kháng chiến"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến nhất định thắng lợi"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lời kêu gọi bất hủ của Chủ tịch Hồ Chí Minh phát động toàn quốc kháng chiến."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đỉnh cao của phong trào cách mạng 1930-1931 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các cuộc bãi công của công nhân Vinh - Bến Thủy"
+        },
+        {
+          "id": "B",
+          "text": "Sự ra đời của Xô viết Nghệ - Tĩnh"
+        },
+        {
+          "id": "C",
+          "text": "Cuộc biểu tình của nông dân Hưng Nguyên"
+        },
+        {
+          "id": "D",
+          "text": "Phong trào đấu tranh nhân ngày Quốc tế Lao động 1/5"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự ra đời của chính quyền Xô viết là đỉnh cao, là chính quyền của dân, do dân, vì dân."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào năm 1947 là đánh dấu sự kết thúc của chủ nghĩa thực dân ở châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "B",
+          "text": "Indonesia"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Thái Lan"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ấn Độ tuyên bố độc lập năm 1947, đánh dấu sự suy thoái của chủ nghĩa thực dân ở châu Á."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng Xanh trong nông nghiệp được thực hiện thành công nhất ở quốc gia nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Ấn Độ"
+        },
+        {
+          "id": "C",
+          "text": "Thái Lan"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ấn Độ nổi tiếng với cuộc Cách mạng Xanh (tự túc lương thực) và Cách mạng Chất xám."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Liên Hợp Quốc được thành lập năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1944"
+        },
+        {
+          "id": "B",
+          "text": "1945"
+        },
+        {
+          "id": "C",
+          "text": "1946"
+        },
+        {
+          "id": "D",
+          "text": "1947"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên Hợp Quốc được thành lập ngày 24 tháng 10 năm 1945 tại San Francisco."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Vai trò của miền Bắc trong giai đoạn 1954-1975 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tiền tuyến lớn"
+        },
+        {
+          "id": "B",
+          "text": "Hậu phương lớn"
+        },
+        {
+          "id": "C",
+          "text": "Căn cứ địa duy nhất"
+        },
+        {
+          "id": "D",
+          "text": "Nơi tiếp nhận viện trợ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Miền Bắc là hậu phương lớn XHCN chi viện cho tiền tuyến lớn miền Nam."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tổng thống cuối cùng của chính quyền Sài Gòn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nguyễn Văn Thiệu"
+        },
+        {
+          "id": "B",
+          "text": "Trần Văn Hương"
+        },
+        {
+          "id": "C",
+          "text": "Dương Văn Minh"
+        },
+        {
+          "id": "D",
+          "text": "Ngô Đình Diệm"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dương Văn Minh tuyên bố đầu hàng không điều kiện trưa 30/4."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Trong chiến lược \"Chiến tranh cục bộ\", Mỹ đề ra chiến lược quân sự mới là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tìm diệt"
+        },
+        {
+          "id": "B",
+          "text": "Bình định"
+        },
+        {
+          "id": "C",
+          "text": "Tìm diệt và bình định"
+        },
+        {
+          "id": "D",
+          "text": "Phòng ngự từ xa"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tìm diệt (Search and Destroy) là chiến thuật chủ đạo."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đường lối Đổi mới của Đảng được đề ra lần đầu tiên tại:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại hội V (1982)"
+        },
+        {
+          "id": "B",
+          "text": "Đại hội VI (12/1986)"
+        },
+        {
+          "id": "C",
+          "text": "Đại hội VII (1991)"
+        },
+        {
+          "id": "D",
+          "text": "Hội nghị Trung ương năm 1985"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đại hội VI là đại hội mở đầu công cuộc Đổi mới."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Ai là tổng thống đầu tiên của Federasyon Nga sau khi Liên Xô sụp đổ?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Gorbachev"
+        },
+        {
+          "id": "B",
+          "text": "Boris Yeltsin"
+        },
+        {
+          "id": "C",
+          "text": "Vladimir Putin"
+        },
+        {
+          "id": "D",
+          "text": "Dmitry Medvedev"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Boris Yeltsin là tổng thống đầu tiên của Cộng hòa Liên bang Nga từ 1991-1999."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Chính quyền Ngô Đình Diệm bị lật đổ vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "11/1960"
+        },
+        {
+          "id": "B",
+          "text": "1/1963"
+        },
+        {
+          "id": "C",
+          "text": "11/1963"
+        },
+        {
+          "id": "D",
+          "text": "12/1964"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc đảo chính ngày 1/11/1963 do Mỹ giật dây đã giết chết anh em Diệm - Nhu."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Nguyên nhân chủ quan quyết định thắng lợi của Cách mạng tháng Tám là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự lãnh đạo đúng đắn của Đảng và Bác Hồ"
+        },
+        {
+          "id": "B",
+          "text": "Quân Đồng minh đánh bại phát xít Nhật"
+        },
+        {
+          "id": "C",
+          "text": "Tinh thần đoàn kết của nhân dân thế giới"
+        },
+        {
+          "id": "D",
+          "text": "Sự ủng hộ của Liên Xô"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự lãnh đạo của Đảng là nhân tố quyết định hàng đầu."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Chính sách đối ngoại xuyên suốt của Mỹ sau CTTG II là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến lược \"Cam kết và mở rộng\""
+        },
+        {
+          "id": "B",
+          "text": "Triển khai \"Chiến lược toàn cầu\" nhằm làm bá chủ thế giới"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách láng giềng thân thiện"
+        },
+        {
+          "id": "D",
+          "text": "Hợp tác với tất cả các nước"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mục tiêu bao trùm là làm bá chủ thế giới."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Kế hoạch Na-va của Pháp có mục đích chính là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kết thúc chiến tranh trong danh dự"
+        },
+        {
+          "id": "B",
+          "text": "Giành thắng lợi quân sự quyết định để kết thúc chiến tranh trong vòng 18 tháng"
+        },
+        {
+          "id": "C",
+          "text": "Mở rộng chiến tranh ra toàn Đông Dương"
+        },
+        {
+          "id": "D",
+          "text": "Kêu gọi Mỹ can thiệp sâu hơn"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Na-va là nỗ lực cuối cùng và cao nhất của Pháp - Mỹ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cuộc hòa thượng Thích Quảng Đức tự thiêu (1963) nhằm phản đối:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việc Mỹ đưa quân vào miền Nam"
+        },
+        {
+          "id": "B",
+          "text": "Sự đàn áp Phật giáo của chính quyền Ngô Đình Diệm"
+        },
+        {
+          "id": "C",
+          "text": "Chính sách dồn dân lập ấp"
+        },
+        {
+          "id": "D",
+          "text": "Việc chia cắt đất nước"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện gây chấn động thế giới, phản đối chính sách kỳ thị tôn giáo."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Kỳ họp thứ nhất Quốc hội khóa VI (7/1976) đã quyết định tên nước ta là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam Dân chủ Cộng hòa"
+        },
+        {
+          "id": "B",
+          "text": "Cộng hòa Xã hội chủ nghĩa Việt Nam"
+        },
+        {
+          "id": "C",
+          "text": "Cộng hòa miền Nam Việt Nam"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam Dân quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tên nước CHXHCN Việt Nam được dùng từ đó đến nay."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thành tựu quan trọng nhất của cuộc cách mạng khoa học kỹ thuật là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát minh ra máy tính điện tử"
+        },
+        {
+          "id": "B",
+          "text": "Tìm ra các nguồn năng lượng mới"
+        },
+        {
+          "id": "C",
+          "text": "Chinh phục vũ trụ"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng xanh"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Máy tính điện tử là phát minh then chốt thay đổi mọi mặt."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sau Chiến tranh lạnh, thế giới phát triển theo xu thế nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đơn cực"
+        },
+        {
+          "id": "B",
+          "text": "Đa cực, nhiều trung tâm"
+        },
+        {
+          "id": "C",
+          "text": "Hai cực"
+        },
+        {
+          "id": "D",
+          "text": "Chiến tranh hạt nhân"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trật tự đa cực đang hình thành (Mỹ, EU, Nhật, Nga, Trung Quốc...)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Hiệp định Sơ bộ (6/3/1946) được ký kết giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Việt Nam và Trung Hoa Dân Quốc"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam và Pháp"
+        },
+        {
+          "id": "C",
+          "text": "Việt Nam và Mỹ"
+        },
+        {
+          "id": "D",
+          "text": "Pháp và Trung Hoa Dân Quốc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ta ký với Pháp để đuổi quân Trung Hoa Dân Quốc về nước (Hòa để tiến)."
+    }
+  ]
+}

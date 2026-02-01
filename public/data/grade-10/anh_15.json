@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Find the synonym of 'prevent'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "allow"
+        },
+        {
+          "id": "B",
+          "text": "stop"
+        },
+        {
+          "id": "C",
+          "text": "promote"
+        },
+        {
+          "id": "D",
+          "text": "encourage"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Prevent = Stop (ngăn chặn)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Allowing children ________ video games too much is not good.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "play"
+        },
+        {
+          "id": "B",
+          "text": "playing"
+        },
+        {
+          "id": "C",
+          "text": "to play"
+        },
+        {
+          "id": "D",
+          "text": "played"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Allow sb to V (cho phép ai làm gì)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Vietnam aims to ________ its relations with other countries.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "promote"
+        },
+        {
+          "id": "B",
+          "text": "reduce"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "break"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Promote relations: thúc đẩy quan hệ."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "They have lived here ________ 2010.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "since"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "ago"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Since + mốc thời gian (2010)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "________ is the increase in the earth's temperature.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Global warming"
+        },
+        {
+          "id": "B",
+          "text": "Greenhouse effect"
+        },
+        {
+          "id": "C",
+          "text": "Climate change"
+        },
+        {
+          "id": "D",
+          "text": "Pollution"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa của Global warming."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ms. Lan is not in the office. She ________ lunch with a client.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "is having"
+        },
+        {
+          "id": "D",
+          "text": "had"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Diễn tả hành động đang xảy ra lúc nói (not in office -> đang đi ăn)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Identify the error: 'The woman which called you is my aunt.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "The woman"
+        },
+        {
+          "id": "B",
+          "text": "which"
+        },
+        {
+          "id": "C",
+          "text": "called"
+        },
+        {
+          "id": "D",
+          "text": "my aunt"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Người (woman) không dùng 'which', phải dùng 'who' hoặc 'that'."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Everyone should cut ________ on plastic usage.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "off"
+        },
+        {
+          "id": "B",
+          "text": "up"
+        },
+        {
+          "id": "C",
+          "text": "down"
+        },
+        {
+          "id": "D",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cut down on: cắt giảm."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "When he ________, we were having dinner.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "arrive"
+        },
+        {
+          "id": "B",
+          "text": "arrived"
+        },
+        {
+          "id": "C",
+          "text": "was arriving"
+        },
+        {
+          "id": "D",
+          "text": "has arrived"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động chen ngang (đến) chia Quá khứ đơn."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "chores"
+        },
+        {
+          "id": "B",
+          "text": "children"
+        },
+        {
+          "id": "C",
+          "text": "kitchen"
+        },
+        {
+          "id": "D",
+          "text": "chorus"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Câu D phát âm là /k/ (chorus), các từ còn lại phát âm là /tʃ/."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Non-governmental organizations (NGOs) are non-profit ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "members"
+        },
+        {
+          "id": "B",
+          "text": "groups"
+        },
+        {
+          "id": "C",
+          "text": "organizations"
+        },
+        {
+          "id": "D",
+          "text": "individuals"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Dựa vào chính tên gọi (NGOs)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "For me, Maths is ________ than Physics.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "easy"
+        },
+        {
+          "id": "B",
+          "text": "more easy"
+        },
+        {
+          "id": "C",
+          "text": "easier"
+        },
+        {
+          "id": "D",
+          "text": "easiest"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Easy -> Easier (so sánh hơn)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Teaching English to children in remote areas is a ________ job.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "meaning"
+        },
+        {
+          "id": "B",
+          "text": "meant"
+        },
+        {
+          "id": "C",
+          "text": "meaningful"
+        },
+        {
+          "id": "D",
+          "text": "meaningless"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Meaningful: đầy ý nghĩa."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Teachers play a role as a ________ in modern classes.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitator"
+        },
+        {
+          "id": "B",
+          "text": "worker"
+        },
+        {
+          "id": "C",
+          "text": "builder"
+        },
+        {
+          "id": "D",
+          "text": "player"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Facilitator: người hướng dẫn/hỗ trợ."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "We can help the local people by buying their ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "handicrafts"
+        },
+        {
+          "id": "B",
+          "text": "garbage"
+        },
+        {
+          "id": "C",
+          "text": "forests"
+        },
+        {
+          "id": "D",
+          "text": "jobs"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Handicrafts: đồ thủ công mỹ nghệ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "We should stop cutting down trees to preserve ________.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "biodiversity"
+        },
+        {
+          "id": "B",
+          "text": "diversity"
+        },
+        {
+          "id": "C",
+          "text": "university"
+        },
+        {
+          "id": "D",
+          "text": "biology"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Preserve biodiversity: bảo tồn đa dạng sinh học."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Illegal hunting can lead to the ________ of rare animals.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "extinct"
+        },
+        {
+          "id": "B",
+          "text": "extinction"
+        },
+        {
+          "id": "C",
+          "text": "dead"
+        },
+        {
+          "id": "D",
+          "text": "death"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lead to extinction: dẫn đến sự tuyệt chủng."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We must not ________ people based on their gender.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "respect"
+        },
+        {
+          "id": "B",
+          "text": "discriminate"
+        },
+        {
+          "id": "C",
+          "text": "love"
+        },
+        {
+          "id": "D",
+          "text": "help"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Discriminate: phân biệt đối xử."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Computers are used for ________ information.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "store"
+        },
+        {
+          "id": "B",
+          "text": "storing"
+        },
+        {
+          "id": "C",
+          "text": "to store"
+        },
+        {
+          "id": "D",
+          "text": "stored"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Used for + V-ing."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Which sentence is correct?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "She is more happier than me."
+        },
+        {
+          "id": "B",
+          "text": "She is happier than me."
+        },
+        {
+          "id": "C",
+          "text": "She is happy than me."
+        },
+        {
+          "id": "D",
+          "text": "She is the happier than me."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Happy -> Happier (tính từ kết thúc bằng 'y' coi như tính từ ngắn)."
+    }
+  ]
+}

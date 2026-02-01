@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập số 03",
+    "description": "Đề thi thử bao gồm các bài toán về: Khảo sát hàm số, Nguyên hàm tích phân, Số phức và Phương pháp tọa độ trong không gian.",
+    "duration": 40,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = \\frac{x+1}{x-1}$. Mệnh đề nào dưới đây đúng?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hàm số nghịch biến trên khoảng $(-\\infty; 1)$" },
+        { "id": "B", "text": "Hàm số đồng biến trên khoảng $(-\\infty; 1)$" },
+        { "id": "C", "text": "Hàm số đồng biến trên $\\mathbb{R}$" },
+        { "id": "D", "text": "Hàm số nghịch biến trên $\\mathbb{R} \\setminus \\{1\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{-2}{(x-1)^2} < 0$ với mọi $x \\ne 1$. Vậy hàm số nghịch biến trên từng khoảng xác định $(-\\infty; 1)$ và $(1; +\\infty)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Số giao điểm của đồ thị hàm số $y = x^3 - 3x + 1$ và đường thẳng $y = 3$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình hoành độ giao điểm: $x^3 - 3x + 1 = 3 \\Leftrightarrow x^3 - 3x - 2 = 0$. Bấm máy tính phương trình bậc 3 có 2 nghiệm, trong đó có 1 nghiệm đơn và 1 nghiệm kép (tức là tiếp xúc). Tuy nhiên đề hỏi số giao điểm thì vẫn là 2 điểm? Khoan, kiểm tra lại: $x^3 - 3x - 2 = (x+1)^2(x-2) = 0$. Có nghiệm $x=-1$ và $x=2$. Vậy có 2 giao điểm."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Tìm tập xác định $D$ của hàm số $y = (x^2 - 1)^{-3}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$D = \\mathbb{R} \\setminus \\{\\pm 1\\}$" },
+        { "id": "B", "text": "$D = (-1; 1)$" },
+        { "id": "C", "text": "$D = (-\\infty; -1) \\cup (1; +\\infty)$" },
+        { "id": "D", "text": "$D = \\mathbb{R}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vì số mũ nguyên âm (-3) nên điều kiện là cơ số khác 0: $x^2 - 1 \\ne 0 \\Leftrightarrow x \\ne \\pm 1$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Đạo hàm của hàm số $y = 3^x$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y' = 3^x \\ln 3$" },
+        { "id": "B", "text": "$y' = \\frac{3^x}{\\ln 3}$" },
+        { "id": "C", "text": "$y' = x 3^{x-1}$" },
+        { "id": "D", "text": "$y' = 3^x$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $(a^x)' = a^x \\ln a$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Giải bất phương trình $\\log_{\\frac{1}{2}}(x-1) > 1$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$1 < x < \\frac{3}{2}$" },
+        { "id": "B", "text": "$x > \\frac{3}{2}$" },
+        { "id": "C", "text": "$x < \\frac{3}{2}$" },
+        { "id": "D", "text": "$x > 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $x > 1$. Vì cơ số $0 < \\frac{1}{2} < 1$ nên đổi chiều BPT: $x - 1 < (\\frac{1}{2})^1 = 0.5 \\Rightarrow x < 1.5$. Kết hợp ĐK: $1 < x < 1.5$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Họ nguyên hàm của hàm số $f(x) = e^{2x}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{2}e^{2x} + C$" },
+        { "id": "B", "text": "$2e^{2x} + C$" },
+        { "id": "C", "text": "$e^{2x} + C$" },
+        { "id": "D", "text": "$e^{x^2} + C$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\int e^{ax+b} \\text{d}x = \\frac{1}{a}e^{ax+b} + C$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tính tích phân $I = \\int_{0}^{\\pi/2} \\cos x \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "-1" },
+        { "id": "D", "text": "$\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\sin x \\Big|_0^{\\pi/2} = \\sin(\\frac{\\pi}{2}) - \\sin(0) = 1 - 0 = 1$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Thể tích khối tròn xoay do hình phẳng giới hạn bởi $y = \\sqrt{x}$, $y = 0$, $x = 1$, $x = 4$ quay quanh trục $Ox$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{15\\pi}{2}$" },
+        { "id": "B", "text": "$\\frac{15}{2}$" },
+        { "id": "C", "text": "$15\\pi$" },
+        { "id": "D", "text": "$7\\pi$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\pi \\int_{1}^{4} (\\sqrt{x})^2 \\text{d}x = \\pi \\int_{1}^{4} x \\text{d}x = \\pi \\frac{x^2}{2} \\Big|_1^4 = \\pi (\\frac{16}{2} - \\frac{1}{2}) = \\frac{15\\pi}{2}$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho số phức $z = 1 + 2i$. Số phức $w = z + 2\\bar{z}$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$3 - 2i$" },
+        { "id": "B", "text": "$3 + 2i$" },
+        { "id": "C", "text": "$5 + 6i$" },
+        { "id": "D", "text": "$3 - 6i$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z = 1 + 2i \\Rightarrow \\bar{z} = 1 - 2i$. $w = (1 + 2i) + 2(1 - 2i) = 1 + 2i + 2 - 4i = 3 - 2i$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tìm các số thực $x, y$ thỏa mãn: $(2x + 1) + (3y - 2)i = (x + 2) + (y + 4)i$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 1; y = 3$" },
+        { "id": "B", "text": "$x = -1; y = 3$" },
+        { "id": "C", "text": "$x = 1; y = -3$" },
+        { "id": "D", "text": "$x = 3; y = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thực bằng thực, ảo bằng ảo: $2x+1 = x+2 \\Rightarrow x=1$. $3y-2 = y+4 \\Rightarrow 2y=6 \\Rightarrow y=3$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, mặt phẳng $(P)$ đi qua $M(1; -1; 2)$ và vuông góc với trục $Oz$ có phương trình là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$z - 2 = 0$" },
+        { "id": "B", "text": "$x + y + z - 2 = 0$" },
+        { "id": "C", "text": "$z + 2 = 0$" },
+        { "id": "D", "text": "$x - 1 = 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vuông góc $Oz$ thì VTPT $\\vec{k}=(0;0;1)$. Phương trình: $0(x-1) + 0(y+1) + 1(z-2) = 0 \\Rightarrow z - 2 = 0$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho đường thẳng $d: \\frac{x-1}{2} = \\frac{y+2}{-1} = \\frac{z}{3}$. Vectơ nào dưới đây là VTCP của $d$?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(2; -1; 3)$" },
+        { "id": "B", "text": "$(1; -2; 0)$" },
+        { "id": "C", "text": "$(-2; 1; -3)$" },
+        { "id": "D", "text": "$(2; 1; 3)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "VTCP lấy từ mẫu số của phương trình chính tắc: $(2; -1; 3)$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho hình chóp tam giác đều $S.ABC$ có cạnh đáy bằng $a$, cạnh bên bằng $2a$. Thể tích khối chóp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{a^3\\sqrt{11}}{12}$" },
+        { "id": "B", "text": "$\\frac{a^3\\sqrt{11}}{4}$" },
+        { "id": "C", "text": "$\\frac{a^3\\sqrt{3}}{12}$" },
+        { "id": "D", "text": "$\\frac{a^3\\sqrt{11}}{6}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi $O$ là tâm đáy. $AO = \\frac{a\\sqrt{3}}{3}$. $SO = \\sqrt{SA^2 - AO^2} = \\sqrt{4a^2 - \\frac{a^2}{3}} = \\frac{a\\sqrt{11}}{\\sqrt{3}}$. $V = \\frac{1}{3} \\cdot \\frac{a^2\\sqrt{3}}{4} \\cdot \\frac{a\\sqrt{11}}{\\sqrt{3}} = \\frac{a^3\\sqrt{11}}{12}$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Gọi $z_1, z_2$ là hai nghiệm phức của phương trình $z^2 - 4z + 5 = 0$. Giá trị của $|z_1|^2 + |z_2|^2$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "20" },
+        { "id": "C", "text": "5" },
+        { "id": "D", "text": "6" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta' = 4 - 5 = -1 = i^2$. Nghiệm $z_{1,2} = 2 \\pm i$. $|z_1| = \\sqrt{2^2+1^2} = \\sqrt{5}$. $|z_2|=\\sqrt{5}$. Tổng bình phương = $5+5=10$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Diện tích mặt cầu ngoại tiếp hình lập phương cạnh $a$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$3\\pi a^2$" },
+        { "id": "B", "text": "$4\\pi a^2$" },
+        { "id": "C", "text": "$\\pi a^2$" },
+        { "id": "D", "text": "$12\\pi a^2$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường chéo lập phương $d = a\\sqrt{3} = 2R \\Rightarrow R = \\frac{a\\sqrt{3}}{2}$. $S = 4\\pi R^2 = 4\\pi \\frac{3a^2}{4} = 3\\pi a^2$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho hàm số $f(x)$ liên tục trên $\\mathbb{R}$ và $\\int_{0}^{2} f(x) \\text{d}x = 4$. Tính $I = \\int_{0}^{2} [2f(x) - x] \\text{d}x$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = 2\\int_{0}^{2} f(x) \\text{d}x - \\int_{0}^{2} x \\text{d}x = 2(4) - \\frac{x^2}{2}\\Big|_0^2 = 8 - 2 = 6$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, tìm tọa độ tâm $I$ và bán kính $R$ của mặt cầu $(S): x^2 + y^2 + z^2 - 2x + 4y - 6z + 10 = 0$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$I(1; -2; 3), R = 2$" },
+        { "id": "B", "text": "$I(1; -2; 3), R = \\sqrt{10}$" },
+        { "id": "C", "text": "$I(-1; 2; -3), R = 2$" },
+        { "id": "D", "text": "$I(1; -2; 3), R = 4$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tâm $I(1; -2; 3)$. $R = \\sqrt{1^2 + (-2)^2 + 3^2 - 10} = \\sqrt{14 - 10} = \\sqrt{4} = 2$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Giá trị lớn nhất của hàm số $y = x e^{-x}$ trên khoảng $(0; +\\infty)$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{1}{e}$" },
+        { "id": "B", "text": "$e$" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = e^{-x} - xe^{-x} = e^{-x}(1-x)$. $y'=0 \\Leftrightarrow x=1$. Lập BBT, tại $x=1$ hàm đạt cực đại. $y(1) = 1 \\cdot e^{-1} = \\frac{1}{e}$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một tổ có 6 nam và 4 nữ. Chọn ngẫu nhiên 3 người. Xác suất để 3 người được chọn có ít nhất 1 nữ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\frac{5}{6}$" },
+        { "id": "B", "text": "$\\frac{1}{6}$" },
+        { "id": "C", "text": "$\\frac{4}{5}$" },
+        { "id": "D", "text": "$\\frac{29}{30}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng số cách chọn $C_{10}^3 = 120$. Biến cố đối: Chọn 3 nam (không có nữ) là $C_6^3 = 20$. Số cách chọn có ít nhất 1 nữ: $120 - 20 = 100$. $P = \\frac{100}{120} = \\frac{5}{6}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong không gian $Oxyz$, cho hai điểm $A(2; -1; 1)$ và $B(4; 3; -1)$. Phương trình mặt phẳng trung trực của đoạn thẳng $AB$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x + 2y - z - 5 = 0$" },
+        { "id": "B", "text": "$x + 2y - z + 5 = 0$" },
+        { "id": "C", "text": "$2x + 4y - 2z - 10 = 0$" },
+        { "id": "D", "text": "$x + 2y + z - 5 = 0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trung điểm $I(3; 1; 0)$. Vectơ pháp tuyến $\\vec{n} = \\vec{AB} = (2; 4; -2) \\Rightarrow$ chọn $(1; 2; -1)$. PT: $1(x-3) + 2(y-1) - 1(z-0) = 0 \\Leftrightarrow x + 2y - z - 5 = 0$."
+    }
+  ]
+}

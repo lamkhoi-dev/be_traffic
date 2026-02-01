@@ -1,0 +1,547 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Đề ôn tập tổng hợp số 16",
+    "description": "Đề luyện tập tổng hợp số 16, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 16
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cho $\\vec{u} = 2\\vec{i} - 3\\vec{j}$. Tọa độ của $\\vec{u}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(2; -3)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-2; 3)$"
+        },
+        {
+          "id": "C",
+          "text": "$(2; 3)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-3; 2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biểu diễn theo vectơ đơn vị $\\vec{u} = x\\vec{i} + y\\vec{j} \\Rightarrow (x; y)$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Xác suất bắn trúng bia của xạ thủ A là 0,7. Xác suất bắn trượt của xạ thủ đó là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "0,3"
+        },
+        {
+          "id": "B",
+          "text": "0,7"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Biến cố đối: $P(\\bar{A}) = 1 - P(A) = 1 - 0,7 = 0,3$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Parabol $y = ax^2 + bx + c$ đi qua $A(0; -1), B(1; -1), C(-1; 1)$. Xác định a, b, c.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = x^2 - x - 1$"
+        },
+        {
+          "id": "B",
+          "text": "$y = 2x^2 - 2x - 1$"
+        },
+        {
+          "id": "C",
+          "text": "$y = x^2 - 2x - 1$"
+        },
+        {
+          "id": "D",
+          "text": "$y = -x^2 - x - 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thay tọa độ giải hệ. $c=-1$. $a+b-1=-1 \\Rightarrow a+b=0$. $a-b-1=1 \\Rightarrow a-b=2$. Giải ra $a=1, b=-1$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Bất phương trình $x^2 + y^2 < 4$ có phải là BPT bậc nhất hai ẩn không?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Có"
+        },
+        {
+          "id": "B",
+          "text": "Không"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Vì có bậc 2 ($x^2, y^2$). Đây là miền trong hình tròn."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một tổ có 6 nam và 4 nữ. Chọn ngẫu nhiên 2 người. Xác suất để chọn được 1 nam và 1 nữ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "8/15"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "4/15"
+        },
+        {
+          "id": "D",
+          "text": "2/3"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$n(\\Omega) = C_{10}^2 = 45$. Chọn 1 nam (6 cách), 1 nữ (4 cách) $\\Rightarrow 24$ cách. $P = 24/45 = 8/15$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Cho $A = (-\\infty; 2]$ và $B = (2; +\\infty)$. Tập hợp $A \\cap B$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\mathbb{R}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\varnothing$"
+        },
+        {
+          "id": "C",
+          "text": "$\\{2\\}$"
+        },
+        {
+          "id": "D",
+          "text": "$(2; 2)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Một tập lấy đến 2 (có số 2), tập kia lấy lớn hơn 2 (không có số 2). Giao nhau bằng rỗng."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong mặt phẳng tọa độ Oxy, cho $\\vec{a} = (2; -3)$ và $\\vec{b} = (-1; 4)$. Tọa độ của vectơ $\\vec{u} = 2\\vec{a} - \\vec{b}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(5; -10)$"
+        },
+        {
+          "id": "B",
+          "text": "$(3; 1)$"
+        },
+        {
+          "id": "C",
+          "text": "$(5; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(3; -2)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2\\vec{a} = (4; -6)$. $\\vec{u} = (4 - (-1); -6 - 4) = (5; -10)$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Mệnh đề phủ định của mệnh đề $P: \"\\forall x \\in \\mathbb{R}, x^2 + 1 > 0\"$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 \\le 0$"
+        },
+        {
+          "id": "B",
+          "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 \\le 0$"
+        },
+        {
+          "id": "C",
+          "text": "$\\exists x \\in \\mathbb{R}, x^2 + 1 < 0$"
+        },
+        {
+          "id": "D",
+          "text": "$\\forall x \\in \\mathbb{R}, x^2 + 1 > 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phủ định của $\\forall$ là $\\exists$, phủ định của $>$ là $\\le$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho hai điểm $A(1; 1)$ và $B(5; 5)$. Phương trình đường tròn đường kính AB là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(x-3)^2 + (y-3)^2 = 8$"
+        },
+        {
+          "id": "B",
+          "text": "$(x-3)^2 + (y-3)^2 = 32$"
+        },
+        {
+          "id": "C",
+          "text": "$(x+3)^2 + (y+3)^2 = 8$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{x^2}{8} + \\frac{y^2}{8} = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tâm $I(3; 3)$. $R = AB/2 = \\sqrt{4^2+4^2}/2 = \\sqrt{32}/2 = \\sqrt{8}$. $R^2 = 8$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Cho ba điểm phân biệt A, B, C. Đẳng thức nào sau đây đúng (Quy tắc 3 điểm)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{AB} + \\vec{AC} = \\vec{BC}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{AB} + \\vec{CA} = \\vec{CB}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\vec{AB} - \\vec{AC} = \\vec{CB}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{AB} + \\vec{BC} = \\vec{AC}$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Quy tắc 3 điểm (xen điểm): $\\vec{AB} + \\vec{BC} = \\vec{AC}$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một lớp có 40 học sinh, trong đó có 15 nữ. Chọn ngẫu nhiên 1 học sinh. Xác suất để chọn được học sinh nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "5/8"
+        },
+        {
+          "id": "B",
+          "text": "3/8"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "2/3"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số nam: $40 - 15 = 25$. $P = 25/40 = 5/8$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Gieo 2 con xúc xắc. Xác suất để tổng số chấm lớn hơn 10 là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1/12"
+        },
+        {
+          "id": "B",
+          "text": "1/6"
+        },
+        {
+          "id": "C",
+          "text": "1/18"
+        },
+        {
+          "id": "D",
+          "text": "1/36"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng > 10 là 11, 12. Các cặp: (5,6), (6,5), (6,6). Có 3 cặp. $P = 3/36 = 1/12$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cho $A = [m; m+2]$ và $B = [1; 3]$. Tìm m để $A \\cap B = \\varnothing$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$m < -1$ hoặc $m > 3$"
+        },
+        {
+          "id": "B",
+          "text": "$m \\le -1$ hoặc $m \\ge 3$"
+        },
+        {
+          "id": "C",
+          "text": "$m < -1$ hoặc $m > 1$"
+        },
+        {
+          "id": "D",
+          "text": "$m > 3$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Để giao bằng rỗng thì A nằm hẳn bên trái hoặc bên phải B. $m+2 < 1 \\Rightarrow m < -1$ hoặc $m > 3$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Khoảng tứ phân vị $\\Delta_Q$ được tính bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$Q_3 - Q_1$"
+        },
+        {
+          "id": "B",
+          "text": "$Q_3 + Q_1$"
+        },
+        {
+          "id": "C",
+          "text": "$Q_3 - Q_2$"
+        },
+        {
+          "id": "D",
+          "text": "$Q_2 - Q_1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Interquartile Range = $Q_3 - Q_1$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hàm số $y = -x^2 + 2x + 3$ đồng biến trên khoảng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(-\\infty; 1)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; 2)$"
+        },
+        {
+          "id": "D",
+          "text": "$(-1; 3)$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hệ số $a = -1 < 0$, bề lõm quay xuống. Đỉnh $x=1$. Đồng biến trên $(-\\infty; 1)$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Hệ bất phương trình $\\begin{cases} x > 0 \\\\ x + \\sqrt{3}y + 1 \\le 0 \\end{cases}$ có tập nghiệm được biểu diễn bởi miền nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Miền tam giác"
+        },
+        {
+          "id": "B",
+          "text": "Miền đa giác giới hạn"
+        },
+        {
+          "id": "C",
+          "text": "Miền không bị chặn"
+        },
+        {
+          "id": "D",
+          "text": "Tập rỗng"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Miền nghiệm bị giới hạn bởi 2 đường thẳng và mở rộng ra vô cùng nên là miền không bị chặn."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Đại lượng nào sau đây đo độ phân tán của số liệu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Số trung bình"
+        },
+        {
+          "id": "B",
+          "text": "Mốt"
+        },
+        {
+          "id": "C",
+          "text": "Phương sai"
+        },
+        {
+          "id": "D",
+          "text": "Trung vị"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Phương sai và độ lệch chuẩn dùng để đo độ phân tán."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Số tập con có 2 phần tử của tập hợp $A = \\{1; 2; 3; 4\\}$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$C_4^2 = 6$."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Tìm số hạng không chứa $x$ trong khai triển $(x + \\frac{1}{x})^4$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Số hạng tổng quát $C_4^k x^{4-k} (x^{-1})^k = C_4^k x^{4-2k}$. Không chứa x thì $4-2k=0 \\Rightarrow k=2$. Hệ số $C_4^2 = 6$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Bảng biến thiên có mũi tên đi xuống rồi đi lên là của hàm số dạng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$y = ax^2 + bx + c$ với $a > 0$"
+        },
+        {
+          "id": "B",
+          "text": "$y = ax^2 + bx + c$ với $a < 0$"
+        },
+        {
+          "id": "C",
+          "text": "$y = ax + b$ với $a > 0$"
+        },
+        {
+          "id": "D",
+          "text": "$y = ax + b$ với $a < 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bề lõm quay lên ($a > 0$) thì đồ thị đi xuống (nghịch biến) rồi đi lên (đồng biến)."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 7: Lượng tử ánh sáng",
+    "description": "Kiểm tra kiến thức về Hiện tượng quang điện, Thuyết lượng tử, Mẫu nguyên tử Bo, Tia laser và Quang phát quang.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hiện tượng quang điện ngoài là hiện tượng electron bị bật ra khỏi bề mặt kim loại khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiếu vào kim loại ánh sáng thích hợp" },
+        { "id": "B", "text": "Nung nóng kim loại" },
+        { "id": "C", "text": "Đặt kim loại vào từ trường mạnh" },
+        { "id": "D", "text": "Cho dòng điện chạy qua kim loại" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa hiện tượng quang điện ngoài."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Theo thuyết lượng tử ánh sáng, năng lượng của một photon tỉ lệ thuận với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số của ánh sáng" },
+        { "id": "B", "text": "Bước sóng của ánh sáng" },
+        { "id": "C", "text": "Tốc độ ánh sáng" },
+        { "id": "D", "text": "Cường độ chùm sáng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\varepsilon = hf$. Năng lượng tỉ lệ thuận với tần số."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Giới hạn quang điện của một kim loại là $\\lambda_0$. Điều kiện để xảy ra hiện tượng quang điện khi chiếu bức xạ $\\lambda$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lambda \\le \\lambda_0$" },
+        { "id": "B", "text": "$\\lambda > \\lambda_0$" },
+        { "id": "C", "text": "$\\lambda \\ge \\lambda_0$" },
+        { "id": "D", "text": "$\\lambda = 2\\lambda_0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điều kiện $\\lambda \\le \\lambda_0$ (Bước sóng kích thích phải nhỏ hơn hoặc bằng giới hạn quang điện)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Công thoát electron của một kim loại là $A$. Giới hạn quang điện $\\lambda_0$ được tính bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\lambda_0 = \\frac{hc}{A}$" },
+        { "id": "B", "text": "$\\lambda_0 = \\frac{A}{hc}$" },
+        { "id": "C", "text": "$\\lambda_0 = \\frac{h}{A}$" },
+        { "id": "D", "text": "$\\lambda_0 = \\frac{c}{A}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A = \\frac{hc}{\\lambda_0} \\Rightarrow \\lambda_0 = \\frac{hc}{A}$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Theo mẫu nguyên tử Bo, trạng thái dừng là trạng thái:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Có năng lượng xác định và electron chuyển động trên quỹ đạo dừng" },
+        { "id": "B", "text": "Electron đứng yên" },
+        { "id": "C", "text": "Hạt nhân đứng yên" },
+        { "id": "D", "text": "Nguyên tử không bức xạ và không hấp thụ năng lượng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tiên đề Bo về trạng thái dừng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Khi nguyên tử chuyển từ trạng thái dừng có năng lượng $E_n$ sang trạng thái dừng có năng lượng $E_m$ ($E_n > E_m$) thì nó:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phát ra photon có năng lượng $\\varepsilon = E_n - E_m$" },
+        { "id": "B", "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n - E_m$" },
+        { "id": "C", "text": "Phát ra photon có năng lượng $\\varepsilon = E_n + E_m$" },
+        { "id": "D", "text": "Hấp thụ photon có năng lượng $\\varepsilon = E_n + E_m$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ cao xuống thấp thì phát xạ photon."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Pin quang điện hoạt động dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quang điện trong" },
+        { "id": "B", "text": "Quang điện ngoài" },
+        { "id": "C", "text": "Quang phát quang" },
+        { "id": "D", "text": "Tán sắc ánh sáng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Pin mặt trời (quang điện) dựa trên hiện tượng quang điện trong (xảy ra ở chất bán dẫn)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Chùm sáng laze **không** có đặc điểm nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Công suất luôn rất lớn" },
+        { "id": "B", "text": "Tính đơn sắc cao" },
+        { "id": "C", "text": "Tính định hướng cao" },
+        { "id": "D", "text": "Tính kết hợp cao" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Laze có thể có công suất nhỏ (như bút laze), không phải lúc nào cũng lớn. 3 đặc điểm còn lại là đặc trưng của laze."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Hiện tượng quang dẫn là hiện tượng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Điện trở của chất bán dẫn giảm mạnh khi được chiếu sáng" },
+        { "id": "B", "text": "Điện trở của kim loại giảm mạnh khi được chiếu sáng" },
+        { "id": "C", "text": "Chất bán dẫn phát sáng khi có dòng điện chạy qua" },
+        { "id": "D", "text": "Kim loại phát xạ electron khi được chiếu sáng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ánh sáng giải phóng electron liên kết thành electron dẫn, làm tăng độ dẫn điện (giảm điện trở)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Trong quang phổ vạch của hiđrô, khi electron chuyển từ quỹ đạo L về K thì phát ra vạch:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Laiman $\\alpha$" },
+        { "id": "B", "text": "Banme $\\alpha$ (đỏ)" },
+        { "id": "C", "text": "Laiman $\\beta$" },
+        { "id": "D", "text": "Pasen $\\alpha$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Từ $n=2$ (L) về $n=1$ (K) là vạch đầu tiên của dãy Laiman (vùng tử ngoại)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Sự phát quang của chất nào sau đây là hiện tượng lân quang?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chất rắn" },
+        { "id": "B", "text": "Chất lỏng" },
+        { "id": "C", "text": "Chất khí" },
+        { "id": "D", "text": "Hơi kim loại" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Huỳnh quang thường xảy ra với lỏng/khí (tắt ngay). Lân quang xảy ra với chất rắn (kéo dài)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Một photon có năng lượng $3,3125.10^{-19}$ J. Tần số của bức xạ này là (lấy $h=6,625.10^{-34}$ Js):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$5.10^{14}$ Hz" },
+        { "id": "B", "text": "$2.10^{14}$ Hz" },
+        { "id": "C", "text": "$5.10^{15}$ Hz" },
+        { "id": "D", "text": "$4.10^{14}$ Hz" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$f = \\varepsilon / h = 3,3125.10^{-19} / 6,625.10^{-34} = 0,5.10^{15} = 5.10^{14}$ Hz."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Bán kính quỹ đạo dừng thứ $n$ của electron trong nguyên tử hiđrô được tính theo công thức ($r_0$ là bán kính Bo):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$r_n = n^2 r_0$" },
+        { "id": "B", "text": "$r_n = n r_0$" },
+        { "id": "C", "text": "$r_n = \\sqrt{n} r_0$" },
+        { "id": "D", "text": "$r_n = n^3 r_0$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức bán kính quỹ đạo dừng."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Ánh sáng lân quang có đặc điểm:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tồn tại một thời gian sau khi tắt ánh sáng kích thích" },
+        { "id": "B", "text": "Tắt ngay sau khi tắt ánh sáng kích thích" },
+        { "id": "C", "text": "Có bước sóng nhỏ hơn bước sóng ánh sáng kích thích" },
+        { "id": "D", "text": "Không tuân theo định luật Stokes" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lân quang là phát quang kéo dài."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong y học, tia laze được dùng để:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Phẫu thuật (dao mổ laze)" },
+        { "id": "B", "text": "Chụp X-quang" },
+        { "id": "C", "text": "Siêu âm" },
+        { "id": "D", "text": "Đo nhịp tim" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Laze có năng lượng tập trung cao, dùng làm dao mổ, chữa mắt..."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Theo định luật về giới hạn quang điện, hiện tượng quang điện chỉ xảy ra khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Photon ánh sáng kích thích có năng lượng lớn hơn hoặc bằng công thoát" },
+        { "id": "B", "text": "Cường độ ánh sáng kích thích đủ lớn" },
+        { "id": "C", "text": "Thời gian chiếu sáng đủ dài" },
+        { "id": "D", "text": "Bước sóng ánh sáng kích thích lớn hơn giới hạn quang điện" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\varepsilon \\ge A \\Leftrightarrow hf \\ge A \\Leftrightarrow \\lambda \\le \\lambda_0$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Quang trở là một linh kiện hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hiện tượng quang điện trong" },
+        { "id": "B", "text": "Hiện tượng nhiệt điện" },
+        { "id": "C", "text": "Hiện tượng siêu dẫn" },
+        { "id": "D", "text": "Hiện tượng quang điện ngoài" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang trở làm bằng chất bán dẫn, dựa trên quang điện trong."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Khi electron chuyển từ quỹ đạo M ($n=3$) về quỹ đạo L ($n=2$) thì phát ra:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vạch đỏ ($H_\\alpha$)" },
+        { "id": "B", "text": "Vạch lam ($H_\\beta$)" },
+        { "id": "C", "text": "Vạch chàm ($H_\\gamma$)" },
+        { "id": "D", "text": "Vạch tím ($H_\\delta$)" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là vạch đầu tiên của dãy Banme (vùng khả kiến), màu đỏ."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Thuyết lượng tử ánh sáng **không** giải thích được hiện tượng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Giao thoa ánh sáng" },
+        { "id": "B", "text": "Quang điện" },
+        { "id": "C", "text": "Quang phát quang" },
+        { "id": "D", "text": "Tạo dòng điện trong pin mặt trời" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thuyết lượng tử chứng minh tính chất HẠT. Giao thoa chứng minh tính chất SÓNG."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Một chất có giới hạn quang điện $\\lambda_0 = 0,3 \\mu m$. Công thoát của electron là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "4,14 eV" },
+        { "id": "B", "text": "3,15 eV" },
+        { "id": "C", "text": "6,625 eV" },
+        { "id": "D", "text": "2,2 eV" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$A = hc/\\lambda_0$. Tính ra J, sau đó chia cho $1,6.10^{-19}$ để ra eV. $A \\approx 6,625.10^{-19}$ J $\\approx 4,14$ eV."
+    }
+  ]
+}

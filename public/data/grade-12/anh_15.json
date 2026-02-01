@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "We need to ______ our cultural heritage for future generations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "preserve"
+        },
+        {
+          "id": "B",
+          "text": "reserve"
+        },
+        {
+          "id": "C",
+          "text": "destroy"
+        },
+        {
+          "id": "D",
+          "text": "ignore"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Preserve cultural heritage' (bảo tồn di sản văn hóa)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "compulsory"
+        },
+        {
+          "id": "B",
+          "text": "voluntary"
+        },
+        {
+          "id": "C",
+          "text": "initiative"
+        },
+        {
+          "id": "D",
+          "text": "curriculum"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B 'voluntary' nhấn âm 1. Các từ còn lại nhấn âm 2."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Identify mistake: 'Despite he was tired, he continued working.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Despite"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "continued"
+        },
+        {
+          "id": "D",
+          "text": "working"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Despite' không đi với mệnh đề. Phải sửa thành 'Although' hoặc 'Despite being tired'."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "______ biodiversity helps maintain a balanced ecosystem.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Preserve"
+        },
+        {
+          "id": "B",
+          "text": "Preservation"
+        },
+        {
+          "id": "C",
+          "text": "Preserving"
+        },
+        {
+          "id": "D",
+          "text": "Preserved"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Danh động từ (Gerund) làm chủ ngữ: 'Preserving biodiversity' (Việc bảo tồn đa dạng sinh học)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "The overuse of fertilizers leads to soil ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "deplete"
+        },
+        {
+          "id": "B",
+          "text": "depletion"
+        },
+        {
+          "id": "C",
+          "text": "depleted"
+        },
+        {
+          "id": "D",
+          "text": "depleting"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần danh từ 'depletion' (sự suy kiệt/bạc màu) sau danh từ 'soil'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "He has been sleeping ______ 10 o'clock.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "for"
+        },
+        {
+          "id": "B",
+          "text": "since"
+        },
+        {
+          "id": "C",
+          "text": "at"
+        },
+        {
+          "id": "D",
+          "text": "in"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mốc thời gian (10 o'clock) dùng 'since'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "You need to ______ the application form and send it by post.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "fill in"
+        },
+        {
+          "id": "B",
+          "text": "take up"
+        },
+        {
+          "id": "C",
+          "text": "go on"
+        },
+        {
+          "id": "D",
+          "text": "put off"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Fill in/Fill out' (điền vào mẫu đơn)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "My parents want me to ______ a career in medicine.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "pursue"
+        },
+        {
+          "id": "B",
+          "text": "chase"
+        },
+        {
+          "id": "C",
+          "text": "hunt"
+        },
+        {
+          "id": "D",
+          "text": "catch"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Pursue a career' (theo đuổi một sự nghiệp)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Please ______ to our channel for more interesting videos.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "subscribe"
+        },
+        {
+          "id": "B",
+          "text": "connect"
+        },
+        {
+          "id": "C",
+          "text": "follow"
+        },
+        {
+          "id": "D",
+          "text": "join"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Động từ 'subscribe' đi với giới từ 'to' (đăng ký kênh)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "______ I study, the more confused I get.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "More"
+        },
+        {
+          "id": "B",
+          "text": "The more"
+        },
+        {
+          "id": "C",
+          "text": "Most"
+        },
+        {
+          "id": "D",
+          "text": "The most"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "So sánh kép: The more... the more..."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Before being hired officially, you usually have to undergo a ______ period.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "probation"
+        },
+        {
+          "id": "B",
+          "text": "training"
+        },
+        {
+          "id": "C",
+          "text": "working"
+        },
+        {
+          "id": "D",
+          "text": "learning"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Probation period' là thời gian thử việc."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Identify mistake: 'He said me that he was busy.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "me"
+        },
+        {
+          "id": "C",
+          "text": "that"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dùng 'said to me' hoặc 'told me'. Không dùng 'said me'. Chọn A sửa thành 'told'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "urban"
+        },
+        {
+          "id": "B",
+          "text": "crude"
+        },
+        {
+          "id": "C",
+          "text": "bulb"
+        },
+        {
+          "id": "D",
+          "text": "rubbish"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đáp án B phát âm là /u:/ (crude). Các đáp án A, C, D phát âm là /ʌ/."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Flexible working hours can help employees achieve a better ______ balance.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "work-life"
+        },
+        {
+          "id": "B",
+          "text": "day-night"
+        },
+        {
+          "id": "C",
+          "text": "job-career"
+        },
+        {
+          "id": "D",
+          "text": "time-money"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Work-life balance' (cân bằng giữa công việc và cuộc sống)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "If he hadn't missed the bus, he ______ late for the meeting now.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "wouldn't be"
+        },
+        {
+          "id": "B",
+          "text": "wouldn't have been"
+        },
+        {
+          "id": "C",
+          "text": "won't be"
+        },
+        {
+          "id": "D",
+          "text": "isn't"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu điều kiện hỗn hợp (Mixed 3-2): Nguyên nhân quá khứ (missed bus) dẫn đến kết quả hiện tại (late now). Vế kết quả dùng 'would + V'."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Driverless cars are an example of ______ technology.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "automatic"
+        },
+        {
+          "id": "B",
+          "text": "automated"
+        },
+        {
+          "id": "C",
+          "text": "automating"
+        },
+        {
+          "id": "D",
+          "text": "automation"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Automated technology' (công nghệ tự động hóa)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Opposite meaning: It is important to prevent culture 'assimilation'.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "integration"
+        },
+        {
+          "id": "B",
+          "text": "mixture"
+        },
+        {
+          "id": "C",
+          "text": "separation"
+        },
+        {
+          "id": "D",
+          "text": "adoption"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Assimilation' (sự đồng hóa/hòa tan) có thể coi là trái nghĩa với 'separation' (sự tách biệt/giữ riêng biệt) trong ngữ cảnh này."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "resume"
+        },
+        {
+          "id": "B",
+          "text": "pressure"
+        },
+        {
+          "id": "C",
+          "text": "suppose"
+        },
+        {
+          "id": "D",
+          "text": "sense"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'resume' (sơ yếu lý lịch) thường đọc là /rez.jʊˈmeɪ/ (âm cuối là /eɪ/). Các từ còn lại âm e cuối câm hoặc đọc khác."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Closest meaning: Don't 'give up' even if it gets difficult.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "continue"
+        },
+        {
+          "id": "B",
+          "text": "stop"
+        },
+        {
+          "id": "C",
+          "text": "try"
+        },
+        {
+          "id": "D",
+          "text": "start"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Give up' (từ bỏ) đồng nghĩa với 'stop' (dừng lại/bỏ cuộc)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "We had our house ______ last week.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "paint"
+        },
+        {
+          "id": "B",
+          "text": "painted"
+        },
+        {
+          "id": "C",
+          "text": "painting"
+        },
+        {
+          "id": "D",
+          "text": "to paint"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Have something done' (nhà được sơn). Dùng V3/ed 'painted'."
+    }
+  ]
+}

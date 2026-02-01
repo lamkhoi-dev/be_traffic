@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "physics",
+    "name": "Vật lý 10 - Đề ôn tập tổng hợp số 20",
+    "description": "Đề luyện tập tổng hợp số 20, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 20
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Động lượng của một vật khối lượng $m$ đang chuyển động với vận tốc $\\vec{v}$ là đại lượng vectơ được xác định bởi công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{p} = m\\vec{a}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{p} = m\\vec{v}$"
+        },
+        {
+          "id": "C",
+          "text": "$p = mv$"
+        },
+        {
+          "id": "D",
+          "text": "$\\vec{p} = \\frac{1}{2}m\\vec{v}^2$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Động lượng là đại lượng vectơ cùng hướng với vận tốc: $\\vec{p} = m\\vec{v}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Đơn vị của độ cứng $k$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Newton (N)"
+        },
+        {
+          "id": "B",
+          "text": "Newton trên mét (N/m)"
+        },
+        {
+          "id": "C",
+          "text": "Mét trên Newton (m/N)"
+        },
+        {
+          "id": "D",
+          "text": "Joule (J)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ $F=k\\Delta l \\Rightarrow k=F/\\Delta l$ (N/m)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Đổi góc $60^\\circ$ sang radian:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{\\pi}{2}$ rad"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{\\pi}{3}$ rad"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{\\pi}{4}$ rad"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{\\pi}{6}$ rad"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$\\alpha_{rad} = \\alpha_{do} \\times \\frac{\\pi}{180} = 60 \\times \\frac{\\pi}{180} = \\frac{\\pi}{3}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Định lý động năng phát biểu rằng: Độ biến thiên động năng của một vật bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công của ngoại lực tác dụng lên vật"
+        },
+        {
+          "id": "B",
+          "text": "Công suất của ngoại lực"
+        },
+        {
+          "id": "C",
+          "text": "Thế năng của vật"
+        },
+        {
+          "id": "D",
+          "text": "Xung lượng của lực"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta W_d = A_{ngoailuc}$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Một người kéo một hòm gỗ trượt trên sàn nhà. Lực tác dụng lên hòm gỗ gồm:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trọng lực, phản lực, lực kéo"
+        },
+        {
+          "id": "B",
+          "text": "Trọng lực, phản lực, lực kéo, lực ma sát"
+        },
+        {
+          "id": "C",
+          "text": "Trọng lực, lực kéo, lực ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Lực kéo, lực ma sát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đầy đủ các lực: P (trọng lực), N (phản lực), Fk (kéo), Fms (ma sát)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Một chất điểm chuyển động tròn đều với bán kính $r = 0,5$m và tốc độ góc $\\omega = 4$ rad/s. Gia tốc hướng tâm của chất điểm là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "4 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "8 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "16 m/s²"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "$a_{ht} = \\omega^2 r = 4^2 \\times 0,5 = 16 \\times 0,5 = 8$ m/s²."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong va chạm mềm, đại lượng nào được bảo toàn?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng"
+        },
+        {
+          "id": "B",
+          "text": "Cơ năng"
+        },
+        {
+          "id": "C",
+          "text": "Động lượng"
+        },
+        {
+          "id": "D",
+          "text": "Vận tốc"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Va chạm mềm là hệ kín (hoặc coi như kín trong thời gian ngắn) nên bảo toàn động lượng. Động năng không bảo toàn (mất mát thành nhiệt)."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Một vật đang chuyển động với vận tốc 10m/s thì chịu tác dụng của lực hãm F ngược chiều chuyển động. Sau 2s vật dừng lại. Khối lượng vật là 2kg. Độ lớn lực F là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gia tốc $a = (v-v_0)/t = (0-10)/2 = -5 m/s^2$. Lực $F = ma = 2 \\times 5 = 10$ N (độ lớn)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Thí nghiệm đo hệ số ma sát trượt dùng mặt phẳng nghiêng. Khi vật bắt đầu trượt đều xuống thì hệ số ma sát $\\mu$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sin \\alpha$"
+        },
+        {
+          "id": "B",
+          "text": "$\\cos \\alpha$"
+        },
+        {
+          "id": "C",
+          "text": "$\\tan \\alpha$"
+        },
+        {
+          "id": "D",
+          "text": "$\\cot \\alpha$"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi trượt đều: $mg\\sin\\alpha = \\mu mg\\cos\\alpha \\Rightarrow \\mu = \\tan\\alpha$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Một vật khối lượng 2kg thả rơi tự do từ độ cao 10m xuống đất. Lấy $g = 10 m/s^2$. Thế năng của vật tại độ cao 5m là (chọn gốc thế năng tại mặt đất):",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "100 J"
+        },
+        {
+          "id": "B",
+          "text": "50 J"
+        },
+        {
+          "id": "C",
+          "text": "200 J"
+        },
+        {
+          "id": "D",
+          "text": "20 J"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$W_t = mgh = 2 \\times 10 \\times 5 = 100$ J."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Một thanh chắn đường dài 7,8m, có trọng lượng 210N và trọng tâm cách đầu bên trái 1,2m. Thanh có thể quay quanh một trục nằm ngang ở cách đầu bên trái 1,5m. Để thanh cân bằng nằm ngang, cần tác dụng vào đầu bên phải một lực bằng bao nhiêu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "10 N"
+        },
+        {
+          "id": "B",
+          "text": "20 N"
+        },
+        {
+          "id": "C",
+          "text": "100 N"
+        },
+        {
+          "id": "D",
+          "text": "50 N"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trục quay O cách đầu trái A là 1,5m. Trọng tâm G cách A là 1,2m $\\Rightarrow OG = 1,5 - 1,2 = 0,3m$. Đầu phải B cách O là $7,8 - 1,5 = 6,3m$. Cân bằng moment: $P.OG = F.OB \\Rightarrow 210 \\times 0,3 = F \\times 6,3 \\Rightarrow F = 10$ N."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hai lò xo giống hệt nhau có độ cứng $k$. Nếu ghép song song hai lò xo này thì độ cứng tương đương của hệ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$k$"
+        },
+        {
+          "id": "B",
+          "text": "$2k$"
+        },
+        {
+          "id": "C",
+          "text": "$k/2$"
+        },
+        {
+          "id": "D",
+          "text": "$4k$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ghép song song thì cứng hơn: $k_{ss} = k_1 + k_2 = 2k$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Để tăng độ ổn định (vững vàng) của một vật, ta cần:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nâng cao trọng tâm và giảm diện tích mặt chân đế"
+        },
+        {
+          "id": "B",
+          "text": "Hạ thấp trọng tâm và tăng diện tích mặt chân đế"
+        },
+        {
+          "id": "C",
+          "text": "Hạ thấp trọng tâm và giảm diện tích mặt chân đế"
+        },
+        {
+          "id": "D",
+          "text": "Tăng khối lượng của vật"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nguyên tắc: Trọng tâm càng thấp và mặt chân đế càng rộng thì vật càng đứng vững."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Một vật được ném thẳng đứng lên cao. Trong quá trình đi lên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Động năng tăng, thế năng giảm"
+        },
+        {
+          "id": "B",
+          "text": "Động năng giảm, thế năng tăng"
+        },
+        {
+          "id": "C",
+          "text": "Cơ năng tăng"
+        },
+        {
+          "id": "D",
+          "text": "Cơ năng giảm"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đi lên thì độ cao tăng (thế năng tăng), vận tốc giảm (động năng giảm)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Tính chất bảo toàn cơ năng KHÔNG áp dụng được cho trường hợp:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vật rơi tự do"
+        },
+        {
+          "id": "B",
+          "text": "Con lắc đơn dao động (bỏ qua ma sát)"
+        },
+        {
+          "id": "C",
+          "text": "Vật trượt trên mặt phẳng nghiêng có ma sát"
+        },
+        {
+          "id": "D",
+          "text": "Vật ném ngang (bỏ qua sức cản không khí)"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Có ma sát thì cơ năng không bảo toàn (chuyển thành nhiệt)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khi một vật trượt xuống dốc có ma sát, cơ năng của vật:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Được bảo toàn"
+        },
+        {
+          "id": "B",
+          "text": "Tăng lên"
+        },
+        {
+          "id": "C",
+          "text": "Giảm dần do chuyển hóa thành nhiệt"
+        },
+        {
+          "id": "D",
+          "text": "Biến thiên điều hòa"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực ma sát là lực không thế, sinh công âm làm giảm cơ năng (chuyển hóa thành nhiệt năng)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Lực nào sau đây đóng vai trò là lực hướng tâm khi vệ tinh quay quanh Trái Đất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lực đàn hồi"
+        },
+        {
+          "id": "B",
+          "text": "Lực ma sát"
+        },
+        {
+          "id": "C",
+          "text": "Lực hấp dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Lực điện"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Lực hấp dẫn giữa Trái Đất và vệ tinh giữ cho vệ tinh chuyển động tròn."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Một lò xo có độ cứng $k = 100$ N/m. Khi lò xo bị giãn một đoạn 5 cm thì lực đàn hồi của lò xo có độ lớn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "500 N"
+        },
+        {
+          "id": "B",
+          "text": "5 N"
+        },
+        {
+          "id": "C",
+          "text": "20 N"
+        },
+        {
+          "id": "D",
+          "text": "0,05 N"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đổi 5 cm = 0,05 m. Áp dụng định luật Húc: $F_{dh} = k|\\Delta l| = 100 \\times 0,05 = 5$ N."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Một vật chịu tác dụng của ba lực đồng quy $\\vec{F_1}, \\vec{F_2}, \\vec{F_3}$ và đang đứng yên. Khẳng định nào sau đây đúng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\vec{F_1} + \\vec{F_2} = \\vec{F_3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_1 + F_2 = F_3$"
+        },
+        {
+          "id": "D",
+          "text": "Ba lực phải vuông góc nhau"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hợp lực bằng 0: $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0} \\Rightarrow \\vec{F_1} + \\vec{F_2} = -\\vec{F_3}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lực hướng tâm tác dụng vào vật chuyển động tròn đều có độ lớn được tính bằng công thức:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$F_{ht} = m \\omega r$"
+        },
+        {
+          "id": "B",
+          "text": "$F_{ht} = m \\frac{v^2}{r}$"
+        },
+        {
+          "id": "C",
+          "text": "$F_{ht} = m v^2 r$"
+        },
+        {
+          "id": "D",
+          "text": "$F_{ht} = \\frac{v^2}{r}$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Công thức lực hướng tâm: $F_{ht} = ma_{ht} = m \\frac{v^2}{r} = m\\omega^2 r$."
+    }
+  ]
+}

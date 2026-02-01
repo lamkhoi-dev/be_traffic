@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 1: Life Stories",
+    "description": "Bài kiểm tra trắc nghiệm Unit 1: Ngữ âm, Từ vựng về chủ đề Tiểu sử & Cuộc đời, và Ngữ pháp (Thì Quá khứ đơn, Quá khứ tiếp diễn).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "achievement" },
+        { "id": "B", "text": "charity" },
+        { "id": "C", "text": "chorus" },
+        { "id": "D", "text": "cherish" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C phát âm là /k/ (chorus), các đáp án còn lại phát âm là /tʃ/."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "biography" },
+        { "id": "B", "text": "contribution" },
+        { "id": "C", "text": "education" },
+        { "id": "D", "text": "university" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A nhấn âm 2 (bi-OG-ra-phy). Các đáp án B, C, D đều nhấn âm 3."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Complete the sentence: My brother ______ limits to how much time I spend on social media.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "puts" },
+        { "id": "B", "text": "sets" },
+        { "id": "C", "text": "gives" },
+        { "id": "D", "text": "makes" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'set limits': đặt ra giới hạn."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Steve Jobs is a ______ figure in the technology industry.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "influenced" },
+        { "id": "B", "text": "influence" },
+        { "id": "C", "text": "influential" },
+        { "id": "D", "text": "influentially" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cần một tính từ đứng trước danh từ 'figure'. 'Influential' (có tầm ảnh hưởng) là đáp án đúng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "While I ______ along the street, I saw a terrible accident.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "walked" },
+        { "id": "B", "text": "was walking" },
+        { "id": "C", "text": "have walked" },
+        { "id": "D", "text": "am walking" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hành động đang xảy ra (was walking) thì có hành động khác xen vào (saw). Dùng thì Quá khứ tiếp diễn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "By the time he was 25, he ______ several best-selling books.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "wrote" },
+        { "id": "B", "text": "has written" },
+        { "id": "C", "text": "had written" },
+        { "id": "D", "text": "was writing" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc 'By the time + S + V(quá khứ), S + had + V3'. Diễn tả hành động hoàn thành trước một mốc thời gian trong quá khứ."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "She has dedicated her life ______ helping the poor.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "on" },
+        { "id": "C", "text": "to" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cấu trúc 'dedicate sth to V-ing/sth': cống hiến cái gì cho việc gì."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word(s) CLOSEST in meaning to the underlined word: She is a 'generous' woman who has donated a lot of money to charity.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "mean" },
+        { "id": "B", "text": "selfish" },
+        { "id": "C", "text": "kind" },
+        { "id": "D", "text": "rich" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Generous' (hào phóng) đồng nghĩa với 'kind' (tốt bụng). 'Mean' và 'selfish' là trái nghĩa."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word(s) OPPOSITE in meaning to the underlined word: His 'achievements' in science are remarkable.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "successes" },
+        { "id": "B", "text": "failures" },
+        { "id": "C", "text": "feats" },
+        { "id": "D", "text": "accomplishments" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Achievements' (thành tựu) trái nghĩa với 'failures' (thất bại). Các từ còn lại đều mang nghĩa tích cực."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "He ______ the guitar when his mom came home yesterday.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "played" },
+        { "id": "B", "text": "is playing" },
+        { "id": "C", "text": "was playing" },
+        { "id": "D", "text": "has played" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hành động đang diễn ra tại một thời điểm trong quá khứ (khi mẹ về) dùng Quá khứ tiếp diễn."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "We ______ friends since we were at primary school.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "have been" },
+        { "id": "B", "text": "were" },
+        { "id": "C", "text": "are" },
+        { "id": "D", "text": "had been" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dấu hiệu 'since' đi với mốc thời gian trong quá khứ thường dùng thì Hiện tại hoàn thành (have been)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Identify the mistake: 'My father used to smoking a pack of cigarettes a day, but he stopped two years ago.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "used to" },
+        { "id": "B", "text": "smoking" },
+        { "id": "C", "text": "a day" },
+        { "id": "D", "text": "stopped" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cấu trúc 'used to + V-inf' chỉ thói quen trong quá khứ. Phải sửa 'smoking' thành 'smoke'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Sentence transformation: 'It's a long time since we last met.' means:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "We haven't met for a long time." },
+        { "id": "B", "text": "We have met for a long time." },
+        { "id": "C", "text": "We didn't meet for a long time." },
+        { "id": "D", "text": "We last met a long time." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu gốc: 'Đã lâu rồi kể từ lần cuối chúng ta gặp nhau' tương đương với 'Chúng ta đã không gặp nhau một thời gian dài' (Hiện tại hoàn thành phủ định + for)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "They decided ______ a new house in the suburbs.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "buying" },
+        { "id": "B", "text": "buy" },
+        { "id": "C", "text": "to buy" },
+        { "id": "D", "text": "bought" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau động từ 'decide' dùng 'to V'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "The boy ______ eyes are blue is my cousin.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "who" },
+        { "id": "B", "text": "whom" },
+        { "id": "C", "text": "whose" },
+        { "id": "D", "text": "which" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đại từ quan hệ chỉ sở hữu 'whose' (đôi mắt CỦA cậu bé)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "During the war, he witnessed the ______ of many innocent people.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "death" },
+        { "id": "B", "text": "dead" },
+        { "id": "C", "text": "die" },
+        { "id": "D", "text": "died" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sau mạo từ 'the' cần một danh từ. 'Death' (cái chết) là danh từ. 'Dead' là tính từ."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Communication: Tom: 'Thank you for your help.' - Mary: '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "With all my heart" },
+        { "id": "B", "text": "Never mind" },
+        { "id": "C", "text": "You're welcome" },
+        { "id": "D", "text": "It's my duty" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp lại lời cảm ơn trang trọng và phổ biến nhất là 'You're welcome'."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "She worked very hard; ______, she got promoted quickly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "however" },
+        { "id": "B", "text": "therefore" },
+        { "id": "C", "text": "but" },
+        { "id": "D", "text": "so" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hai mệnh đề chỉ nguyên nhân - kết quả, nối với nhau bằng dấu chấm phẩy và dấu phẩy, dùng trạng từ liên kết 'therefore' (do đó)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "When I arrived at the party, everyone ______ home.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "went" },
+        { "id": "B", "text": "have gone" },
+        { "id": "C", "text": "had gone" },
+        { "id": "D", "text": "was going" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hành động 'về nhà' đã xảy ra và hoàn tất TRƯỚC khi 'tôi đến' (trong quá khứ). Dùng thì Quá khứ hoàn thành."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Choose the word with the correct spelling.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Enviroment" },
+        { "id": "B", "text": "Environment" },
+        { "id": "C", "text": "Environtment" },
+        { "id": "D", "text": "Invihronment" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Từ đúng chính tả là 'Environment' (Môi trường)."
+    }
+  ]
+}

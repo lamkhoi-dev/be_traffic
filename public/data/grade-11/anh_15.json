@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "english",
+    "name": "Tiếng Anh 11 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "dominate"
+        },
+        {
+          "id": "B",
+          "text": "principle"
+        },
+        {
+          "id": "C",
+          "text": "volunteer"
+        },
+        {
+          "id": "D",
+          "text": "scholarship"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'volunteer' nhấn âm 3 (/ˌvɒlənˈtɪər/). Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ch**a**rter"
+        },
+        {
+          "id": "B",
+          "text": "p**a**rtner"
+        },
+        {
+          "id": "C",
+          "text": "**a**ssociation"
+        },
+        {
+          "id": "D",
+          "text": "f**a**ther"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'association' âm 'a' đầu tiên phát âm là /ə/ (âm schwa). Các từ còn lại (charter, partner, father) phát âm là /ɑː/."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Communication: \"I think we should take part in the ASEAN Youth Festival.\" - \"______ It's a great opportunity.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "I don't agree."
+        },
+        {
+          "id": "C",
+          "text": "It's wrong."
+        },
+        {
+          "id": "D",
+          "text": "You must be kidding."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' (Tôi hoàn toàn đồng ý). Vế sau 'It's a great opportunity' ủng hộ ý kiến đó."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"The region has maintained **stability** for many decades.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "security"
+        },
+        {
+          "id": "B",
+          "text": "insecurity"
+        },
+        {
+          "id": "C",
+          "text": "safety"
+        },
+        {
+          "id": "D",
+          "text": "peace"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Stability' (sự ổn định) trái nghĩa với 'insecurity' (sự mất an ninh, bất ổn)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Communication: \"I think we should take part in the ASEAN Youth Festival.\" - \"______ It's a great opportunity.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "I don't agree."
+        },
+        {
+          "id": "C",
+          "text": "It's wrong."
+        },
+        {
+          "id": "D",
+          "text": "You must be kidding."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' (Tôi hoàn toàn đồng ý). Vế sau 'It's a great opportunity' ủng hộ ý kiến đó."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "The ASEAN motto is \"One Vision, One Identity, One ______\".",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Community"
+        },
+        {
+          "id": "B",
+          "text": "Society"
+        },
+        {
+          "id": "C",
+          "text": "Entity"
+        },
+        {
+          "id": "D",
+          "text": "Unity"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khẩu hiệu của ASEAN: Một tầm nhìn, Một bản sắc, Một cộng đồng."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The ASEAN ______ serves as a firm foundation for achieving the ASEAN Community.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Motto"
+        },
+        {
+          "id": "B",
+          "text": "Charter"
+        },
+        {
+          "id": "C",
+          "text": "Principle"
+        },
+        {
+          "id": "D",
+          "text": "Block"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ASEAN Charter (Hiến chương ASEAN) là văn bản pháp lý nền tảng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"ASEAN aims to **promote** peace and stability in the region.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boost"
+        },
+        {
+          "id": "B",
+          "text": "prevent"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "damage"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Promote' (thúc đẩy) đồng nghĩa với 'boost' (tăng cường, đẩy mạnh)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Conflicts often arise when parents try to ______ their opinions on their children.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "force"
+        },
+        {
+          "id": "B",
+          "text": "impose"
+        },
+        {
+          "id": "C",
+          "text": "make"
+        },
+        {
+          "id": "D",
+          "text": "put"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cụm từ 'impose ... on ...' (áp đặt cái gì lên ai)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "My friends suggested ______ up for the ASEAN scholarship.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sign"
+        },
+        {
+          "id": "B",
+          "text": "signing"
+        },
+        {
+          "id": "C",
+          "text": "to sign"
+        },
+        {
+          "id": "D",
+          "text": "signed"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau động từ 'suggest' (gợi ý) dùng V-ing."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "All members agreed ______ a new solution to the economic problem.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "finding"
+        },
+        {
+          "id": "B",
+          "text": "to find"
+        },
+        {
+          "id": "C",
+          "text": "find"
+        },
+        {
+          "id": "D",
+          "text": "found"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cấu trúc 'agree to do something' (đồng ý làm gì)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "______ young people to take part in social activities is very important.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage"
+        },
+        {
+          "id": "B",
+          "text": "Encouraging"
+        },
+        {
+          "id": "C",
+          "text": "Encouraged"
+        },
+        {
+          "id": "D",
+          "text": "To encouraging"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Danh động từ (Gerund - V-ing) đứng đầu câu làm chủ ngữ."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "The ASEAN ______ serves as a firm foundation for achieving the ASEAN Community.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Motto"
+        },
+        {
+          "id": "B",
+          "text": "Charter"
+        },
+        {
+          "id": "C",
+          "text": "Principle"
+        },
+        {
+          "id": "D",
+          "text": "Block"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ASEAN Charter (Hiến chương ASEAN) là văn bản pháp lý nền tảng."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Teenagers often have conflicts with their parents over ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "hairstyles"
+        },
+        {
+          "id": "B",
+          "text": "viewpoints"
+        },
+        {
+          "id": "C",
+          "text": "table manners"
+        },
+        {
+          "id": "D",
+          "text": "All are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Xung đột có thể xảy ra về kiểu tóc, quan điểm, hay cách ứng xử trên bàn ăn. Cả 3 đều đúng trong ngữ cảnh bài học."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "**g**oal"
+        },
+        {
+          "id": "B",
+          "text": "**g**ap"
+        },
+        {
+          "id": "C",
+          "text": "**g**overnment"
+        },
+        {
+          "id": "D",
+          "text": "**g**ender"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'gender' phát âm là /dʒ/. Các từ còn lại phát âm là /g/."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"Become a member of ASEAN has brought many benefits to Vietnam.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Become"
+        },
+        {
+          "id": "B",
+          "text": "has brought"
+        },
+        {
+          "id": "C",
+          "text": "benefits"
+        },
+        {
+          "id": "D",
+          "text": "to"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lỗi sai ở 'Become'. Khi đứng đầu câu làm chủ ngữ, động từ phải ở dạng V-ing. Sửa thành 'Becoming'."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Viet Nam was the first Indochinese country to join the ______.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "bloc"
+        },
+        {
+          "id": "B",
+          "text": "area"
+        },
+        {
+          "id": "C",
+          "text": "place"
+        },
+        {
+          "id": "D",
+          "text": "grouping"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'The bloc' là từ thường dùng để chỉ khối ASEAN."
+    }
+  ]
+}

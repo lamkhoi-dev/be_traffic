@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "history",
+    "name": "Lịch sử 12 - Chương 1: Thế giới từ năm 1945 đến 1991",
+    "description": "Kiểm tra kiến thức về thế giới sau Thế chiến II, Chiến tranh Lạnh, và các sự kiện chính trị quốc tế.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hội nghị Yalta được tổ chức vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1943" },
+        { "id": "B", "text": "1944" },
+        { "id": "C", "text": "1945" },
+        { "id": "D", "text": "1946" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hội nghị Yalta được tổ chức tháng 2 năm 1945 giữa Roosevelt, Stalin và Churchill."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Liên Hợp Quốc được thành lập năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1944" },
+        { "id": "B", "text": "1945" },
+        { "id": "C", "text": "1946" },
+        { "id": "D", "text": "1947" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên Hợp Quốc được thành lập ngày 24 tháng 10 năm 1945 tại San Francisco."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Nước nào bị chia thành hai phần sau Thế chiến II?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Pháp" },
+        { "id": "B", "text": "Đức" },
+        { "id": "C", "text": "Ý" },
+        { "id": "D", "text": "Nhật Bản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đức bị chia thành Đức Tây và Đức Đông do kết quả Thế chiến II."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Chiến tranh Lạnh là xung đột giữa hai siêu cường nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh và Pháp" },
+        { "id": "B", "text": "Mỹ và Liên Xô" },
+        { "id": "C", "text": "Đức và Italia" },
+        { "id": "D", "text": "Nhật Bản và Trung Quốc" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh Lạnh là xung đột chính trị, kinh tế giữa Mỹ và Liên Xô từ 1945-1991."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Bức tường Berlin được xây dựng vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1957" },
+        { "id": "B", "text": "1959" },
+        { "id": "C", "text": "1961" },
+        { "id": "D", "text": "1963" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Bức tường Berlin được xây dựng năm 1961 để chia cách Berlin Tây và Berlin Đông."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ai là nhà lãnh đạo của Liên Xô từ 1985-1991?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Stalin" },
+        { "id": "B", "text": "Khrushchev" },
+        { "id": "C", "text": "Mikhail Gorbachev" },
+        { "id": "D", "text": "Boris Yeltsin" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mikhail Gorbachev là tổng bí thư Đảng Cộng sản Liên Xô từ 1985-1991."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Chính sách 'Glasnost' của Gorbachev có nghĩa là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cải cách kinh tế" },
+        { "id": "B", "text": "Công khai minh bạch" },
+        { "id": "C", "text": "Tự do chính trị" },
+        { "id": "D", "text": "Cộng hòa hóa" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Glasnost là chính sách công khai, minh bạch được Gorbachev đề ra."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cuộc khủng hoảng Tên lửa Cuba xảy ra năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1961" },
+        { "id": "B", "text": "1962" },
+        { "id": "C", "text": "1963" },
+        { "id": "D", "text": "1964" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc khủng hoảng Tên lửa Cuba xảy ra tháng 10 năm 1962 giữa Mỹ và Liên Xô."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Hội nghị Potsdam được tổ chức vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1944" },
+        { "id": "B", "text": "1945" },
+        { "id": "C", "text": "1946" },
+        { "id": "D", "text": "1947" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hội nghị Potsdam được tổ chức tháng 7-8 năm 1945 về những vấn đề sau Thế chiến II."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Nước nào tuyên bố độc lập vào năm 1947 là đánh dấu sự kết thúc của chủ nghĩa thực dân ở châu Á?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Ấn Độ" },
+        { "id": "B", "text": "Indonesia" },
+        { "id": "C", "text": "Việt Nam" },
+        { "id": "D", "text": "Thái Lan" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ấn Độ tuyên bố độc lập năm 1947, đánh dấu sự suy thoái của chủ nghĩa thực dân ở châu Á."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng Tháng Mười diễn ra ở nước nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trung Quốc" },
+        { "id": "B", "text": "Liên Xô" },
+        { "id": "C", "text": "Mỹ" },
+        { "id": "D", "text": "Đức" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cuộc Cách mạng Tháng Mười 1917 diễn ra ở Liên Xô dưới sự lãnh đạo của Lenin."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Hiệp ước NATO được ký kết năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1947" },
+        { "id": "B", "text": "1948" },
+        { "id": "C", "text": "1949" },
+        { "id": "D", "text": "1950" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hiệp ước NATO được ký kết ngày 4 tháng 4 năm 1949 tại Washington."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Cuộc Cách mạng Văn hóa ở Trung Quốc diễn ra từ năm nào đến năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1956-1976" },
+        { "id": "B", "text": "1960-1970" },
+        { "id": "C", "text": "1966-1976" },
+        { "id": "D", "text": "1970-1980" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc Cách mạng Văn hóa Trung Quốc diễn ra từ 1966-1976 dưới sự lãnh đạo của Mao Trạch Đông."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Pháp rút khỏi Đông Dương vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1952" },
+        { "id": "B", "text": "1953" },
+        { "id": "C", "text": "1954" },
+        { "id": "D", "text": "1955" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Pháp bị đánh bại tại Điện Biên Phủ năm 1954 và rút khỏi Đông Dương."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Hội nghị Genève năm 1954 quyết định chia Việt Nam theo vĩ tuyến nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "15° B" },
+        { "id": "B", "text": "16° B" },
+        { "id": "C", "text": "17° B" },
+        { "id": "D", "text": "18° B" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Hội nghị Genève 1954 quyết định chia Việt Nam theo vĩ tuyến 17° B."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Liên Xô sụp đổ vào năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1989" },
+        { "id": "B", "text": "1990" },
+        { "id": "C", "text": "1991" },
+        { "id": "D", "text": "1992" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Liên Xô chính thức sụp đổ vào ngày 26 tháng 12 năm 1991."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ai là tổng thống đầu tiên của Federasyon Nga sau khi Liên Xô sụp đổ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Gorbachev" },
+        { "id": "B", "text": "Boris Yeltsin" },
+        { "id": "C", "text": "Vladimir Putin" },
+        { "id": "D", "text": "Dmitry Medvedev" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Boris Yeltsin là tổng thống đầu tiên của Cộng hòa Liên bang Nga từ 1991-1999."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trái Tim của mục tiêu kinh tế Marshall Plan là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tái chiếm các thuộc địa" },
+        { "id": "B", "text": "Tái xây dựng nước Anh" },
+        { "id": "C", "text": "Tái xây dựng Tây Âu" },
+        { "id": "D", "text": "Tái xây dựng Liên Xô" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Kế hoạch Marshall (1948-1952) nhằm tái xây dựng Tây Âu sau Thế chiến II."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Chiến tranh Triều Tiên diễn ra từ năm nào đến năm nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1948-1952" },
+        { "id": "B", "text": "1950-1953" },
+        { "id": "C", "text": "1951-1954" },
+        { "id": "D", "text": "1952-1955" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh Triều Tiên diễn ra từ tháng 6 năm 1950 đến tháng 7 năm 1953."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Ai là nhân vật lãnh đạo của Cuba trong cuộc cách mạng năm 1959?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Batista" },
+        { "id": "B", "text": "Fidel Castro" },
+        { "id": "C", "text": "Che Guevara" },
+        { "id": "D", "text": "Raúl Castro" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Fidel Castro lãnh đạo cuộc cách mạng Cuba năm 1959, lật đổ chế độ Batista."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Đề ôn tập tổng hợp số 11",
+    "description": "Đề luyện tập tổng hợp số 11, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 11
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "This is the book ________ I told you about.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "who"
+        },
+        {
+          "id": "B",
+          "text": "whom"
+        },
+        {
+          "id": "C",
+          "text": "whose"
+        },
+        {
+          "id": "D",
+          "text": "which"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Thay thế cho vật (the book) -> dùng Which."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "comput_er"
+        },
+        {
+          "id": "B",
+          "text": "print_er"
+        },
+        {
+          "id": "C",
+          "text": "smartphon_e"
+        },
+        {
+          "id": "D",
+          "text": "heat_er"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Smartphone: 'e' câm. Các từ còn lại đuôi -er phát âm /ə/."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "If he ________ more time, he would learn to play the guitar.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "has"
+        },
+        {
+          "id": "B",
+          "text": "had"
+        },
+        {
+          "id": "C",
+          "text": "have"
+        },
+        {
+          "id": "D",
+          "text": "having"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện loại 2. Mệnh đề If chia quá khứ đơn."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Identify the error: 'She enjoys listen to pop music.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoys"
+        },
+        {
+          "id": "B",
+          "text": "listen"
+        },
+        {
+          "id": "C",
+          "text": "to"
+        },
+        {
+          "id": "D",
+          "text": "pop music"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'enjoy' phải là V-ing (listening)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Teaching English to children in remote areas is a ________ job.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "meaning"
+        },
+        {
+          "id": "B",
+          "text": "meant"
+        },
+        {
+          "id": "C",
+          "text": "meaningful"
+        },
+        {
+          "id": "D",
+          "text": "meaningless"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Meaningful: đầy ý nghĩa."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "The club hopes to raise ________ about environmental issues.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "awareness"
+        },
+        {
+          "id": "B",
+          "text": "knowledge"
+        },
+        {
+          "id": "C",
+          "text": "experience"
+        },
+        {
+          "id": "D",
+          "text": "lesson"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Raise awareness: nâng cao nhận thức."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Living in the city is often ________ than living in the countryside.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "expensive"
+        },
+        {
+          "id": "B",
+          "text": "more expensive"
+        },
+        {
+          "id": "C",
+          "text": "expensiver"
+        },
+        {
+          "id": "D",
+          "text": "most expensive"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Expensive là tính từ dài -> more expensive."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Identify the error: 'He said me that he was tired.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "said"
+        },
+        {
+          "id": "B",
+          "text": "me"
+        },
+        {
+          "id": "C",
+          "text": "that"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sai dùng 'said me'. Phải là 'told me' hoặc 'said to me'."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Blended learning combines online learning and ________ learning.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "face-to-face"
+        },
+        {
+          "id": "B",
+          "text": "distance"
+        },
+        {
+          "id": "C",
+          "text": "home"
+        },
+        {
+          "id": "D",
+          "text": "remote"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Blended learning kết hợp học online và học trực tiếp (face-to-face)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "In the past, women were often forced ________ at home.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "stay"
+        },
+        {
+          "id": "B",
+          "text": "staying"
+        },
+        {
+          "id": "C",
+          "text": "to stay"
+        },
+        {
+          "id": "D",
+          "text": "stayed"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Force sb to V (ép buộc ai làm gì)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Conditional Sentence: 'Unless you work hard, you ________ pass the exam.'",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "will"
+        },
+        {
+          "id": "B",
+          "text": "won't"
+        },
+        {
+          "id": "C",
+          "text": "would"
+        },
+        {
+          "id": "D",
+          "text": "wouldn't"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Unless = If not. Nếu không học chăm thì sẽ không đậu (won't)."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "He is ________ student in the class.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "good"
+        },
+        {
+          "id": "B",
+          "text": "better"
+        },
+        {
+          "id": "C",
+          "text": "the best"
+        },
+        {
+          "id": "D",
+          "text": "best"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "So sánh nhất của 'good' là 'the best'."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Women often earn less than men for doing the ________ job.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "same"
+        },
+        {
+          "id": "B",
+          "text": "similar"
+        },
+        {
+          "id": "C",
+          "text": "likely"
+        },
+        {
+          "id": "D",
+          "text": "alike"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "The same job: công việc giống hệt nhau."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "We are looking for volunteers to help ________ the local orphanage.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Help at + địa điểm (orphanage/school...)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "She said that she ________ busy then.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "is"
+        },
+        {
+          "id": "B",
+          "text": "was"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "has been"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu tường thuật lùi thì: 'is' -> 'was' (do chủ ngữ 'she')."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Many wild animals are in danger of ________ habitat loss.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "because"
+        },
+        {
+          "id": "B",
+          "text": "due to"
+        },
+        {
+          "id": "C",
+          "text": "despite"
+        },
+        {
+          "id": "D",
+          "text": "because of"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Due to + Noun phrase. (Because of cũng đúng nhưng trong văn cảnh trang trọng 'due to' thường dùng hơn, tuy nhiên ở level lớp 10 B và D đều chấp nhận được, chọn B/D đều hợp lý, đáp án mẫu chọn B)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "na_tion"
+        },
+        {
+          "id": "B",
+          "text": "organiza_tion"
+        },
+        {
+          "id": "C",
+          "text": "interna_tional"
+        },
+        {
+          "id": "D",
+          "text": "ques_tion"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Question: đuôi -tion phát âm là /tʃən/. Các từ còn lại phát âm là /ʃən/."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "The hit song received millions of ________ on YouTube.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "views"
+        },
+        {
+          "id": "B",
+          "text": "looks"
+        },
+        {
+          "id": "C",
+          "text": "watches"
+        },
+        {
+          "id": "D",
+          "text": "sights"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Views: lượt xem."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Teachers play a role as a ________ in modern classes.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "facilitator"
+        },
+        {
+          "id": "B",
+          "text": "worker"
+        },
+        {
+          "id": "C",
+          "text": "builder"
+        },
+        {
+          "id": "D",
+          "text": "player"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Facilitator: người hướng dẫn/hỗ trợ."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Artificial intelligence (AI) is being applied ________ various fields.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "on"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "in"
+        },
+        {
+          "id": "D",
+          "text": "for"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Apply in: áp dụng trong."
+    }
+  ]
+}

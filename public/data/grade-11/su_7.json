@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 7: Chiến tranh bảo vệ Tổ quốc",
+    "description": "Kiểm tra kiến thức về các cuộc kháng chiến chống ngoại xâm tiêu biểu, nghệ thuật quân sự và bài học lịch sử.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 7
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tính chất chính nghĩa của các cuộc chiến tranh bảo vệ Tổ quốc trong lịch sử Việt Nam thể hiện ở mục đích nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Mở rộng lãnh thổ sang các nước lân cận" },
+        { "id": "B", "text": "Bảo vệ độc lập, chủ quyền và toàn vẹn lãnh thổ" },
+        { "id": "C", "text": "Trả thù các thế lực thù địch" },
+        { "id": "D", "text": "Thể hiện sức mạnh quân sự" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến tranh bảo vệ Tổ quốc là cuộc chiến chống lại sự xâm lược từ bên ngoài để giữ gìn độc lập."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cuộc kháng chiến chống quân Nam Hán của Ngô Quyền (938) kết thúc bằng chiến thắng lẫy lừng trên dòng sông nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sông Như Nguyệt" },
+        { "id": "B", "text": "Sông Bạch Đằng" },
+        { "id": "C", "text": "Sông Hồng" },
+        { "id": "D", "text": "Sông Mã" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Bạch Đằng năm 938 đã chấm dứt 1000 năm Bắc thuộc."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Câu nói \"Ngồi yên đợi giặc không bằng đem quân đánh trước để chặn thế mạnh của giặc\" (Tiên phát chế nhân) là tư tưởng quân sự của ai?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trần Hưng Đạo" },
+        { "id": "B", "text": "Lý Thường Kiệt" },
+        { "id": "C", "text": "Lê Lợi" },
+        { "id": "D", "text": "Nguyễn Huệ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là chủ trương táo bạo của Lý Thường Kiệt trong cuộc kháng chiến chống Tống (1075-1077)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Kế sách \"Vườn không nhà trống\" được quân dân nhà Trần thực hiện thành công trong cuộc kháng chiến chống:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân Tống" },
+        { "id": "B", "text": "Quân Mông - Nguyên" },
+        { "id": "C", "text": "Quân Minh" },
+        { "id": "D", "text": "Quân Thanh" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kế sách này khiến quân Mông - Nguyên lâm vào tình trạng thiếu lương thực và bị cô lập."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nguyên nhân chính dẫn đến thất bại của nhà Hồ trong cuộc kháng chiến chống quân Minh (1407) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân Minh quá mạnh" },
+        { "id": "B", "text": "Đường lối kháng chiến sai lầm, không đoàn kết được toàn dân" },
+        { "id": "C", "text": "Thiếu vũ khí hiện đại" },
+        { "id": "D", "text": "Không có tướng tài" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hồ Quý Ly quá chú trọng xây thành đắp lũy (phòng ngự thụ động) mà không dựa vào dân ('Chính sự cốt ở lòng dân')."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Chiến thắng Ngọc Hồi - Đống Đa (1789) là đỉnh cao của cuộc kháng chiến chống quân xâm lược nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân Xiêm" },
+        { "id": "B", "text": "Quân Thanh" },
+        { "id": "C", "text": "Quân Minh" },
+        { "id": "D", "text": "Quân Pháp" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Quang Trung đại phá 29 vạn quân Thanh vào dịp Tết Kỷ Dậu 1789."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Nghệ thuật quân sự \"lấy ít địch nhiều, lấy yếu chống mạnh\" là nét độc đáo của:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nghệ thuật quân sự phương Tây" },
+        { "id": "B", "text": "Nghệ thuật quân sự truyền thống Việt Nam" },
+        { "id": "C", "text": "Nghệ thuật quân sự Trung Hoa" },
+        { "id": "D", "text": "Nghệ thuật quân sự Nhật Bản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Do thường xuyên phải chống lại các đội quân xâm lược đông và mạnh hơn, cha ông ta đã đúc kết nghệ thuật này."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Trong ba lần kháng chiến chống quân Mông - Nguyên, vị tướng nào giữ vai trò Quốc công tiết chế (Tổng chỉ huy)?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trần Thủ Độ" },
+        { "id": "B", "text": "Trần Quang Khải" },
+        { "id": "C", "text": "Trần Hưng Đạo (Trần Quốc Tuấn)" },
+        { "id": "D", "text": "Trần Nhật Duật" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trần Hưng Đạo là linh hồn của cuộc kháng chiến chống Mông - Nguyên."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Bài thơ \"Nam quốc sơn hà\" được coi là bản Tuyên ngôn độc lập lần thứ nhất của Việt Nam, ra đời trong cuộc kháng chiến nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kháng chiến chống Tống thời Tiền Lê" },
+        { "id": "B", "text": "Kháng chiến chống Tống thời Lý" },
+        { "id": "C", "text": "Kháng chiến chống Nguyên thời Trần" },
+        { "id": "D", "text": "Kháng chiến chống Minh thời Hồ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bài thơ vang lên trên sông Như Nguyệt trong kháng chiến chống Tống (1077)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Yếu tố quyết định nhất làm nên thắng lợi của các cuộc kháng chiến trong lịch sử Việt Nam là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sự ủng hộ của quốc tế" },
+        { "id": "B", "text": "Sức mạnh của khối đại đoàn kết toàn dân tộc" },
+        { "id": "C", "text": "Địa hình hiểm trở" },
+        { "id": "D", "text": "Vũ khí hiện đại" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lòng yêu nước và tinh thần đoàn kết toàn dân là cội nguồn sức mạnh (như \"Vua tôi đồng lòng, anh em hòa thuận\" thời Trần)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cuộc kháng chiến chống thực dân Pháp (1945-1954) kết thúc bằng thắng lợi nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng tháng Tám" },
+        { "id": "B", "text": "Chiến dịch Điện Biên Phủ" },
+        { "id": "C", "text": "Chiến dịch Hồ Chí Minh" },
+        { "id": "D", "text": "Trận \"Điện Biên Phủ trên không\"" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Điện Biên Phủ lừng lẫy năm châu đã kết thúc 9 năm kháng chiến chống Pháp."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Chiến thắng Rạch Gầm - Xoài Mút (1785) của Nguyễn Huệ đã đánh tan quân xâm lược nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quân Thanh" },
+        { "id": "B", "text": "Quân Xiêm" },
+        { "id": "C", "text": "Quân Minh" },
+        { "id": "D", "text": "Quân Hà Lan" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đánh tan 5 vạn quân Xiêm ở đoạn sông Tiền (Tiền Giang)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Một trong những bài học lịch sử rút ra từ các cuộc kháng chiến chống ngoại xâm là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Luôn dựa vào sự giúp đỡ từ bên ngoài" },
+        { "id": "B", "text": "Dựng nước đi đôi với giữ nước" },
+        { "id": "C", "text": "Chỉ chú trọng phát triển kinh tế" },
+        { "id": "D", "text": "Xây dựng quân đội đông nhưng không cần tinh nhuệ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dựng nước đi đôi với giữ nước là quy luật tồn tại và phát triển của dân tộc Việt Nam."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong cuộc kháng chiến chống Mỹ (1954-1975), chiến dịch nào mang tên Bác Hồ kính yêu?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến dịch Tây Nguyên" },
+        { "id": "B", "text": "Chiến dịch Huế - Đà Nẵng" },
+        { "id": "C", "text": "Chiến dịch giải phóng Sài Gòn - Gia Định" },
+        { "id": "D", "text": "Chiến dịch Đường 9 - Khe Sanh" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chiến dịch giải phóng Sài Gòn được Bộ Chính trị quyết định đổi tên thành Chiến dịch Hồ Chí Minh (4/1975)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Triều đại nào đã lãnh đạo nhân dân ta 3 lần đánh bại quân Mông - Nguyên?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhà Lý" },
+        { "id": "B", "text": "Nhà Trần" },
+        { "id": "C", "text": "Nhà Lê sơ" },
+        { "id": "D", "text": "Nhà Nguyễn" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hào khí Đông A của nhà Trần (thế kỷ XIII)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nghệ thuật \"Chiến tranh nhân dân\" được vận dụng đỉnh cao trong thời đại nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thời Lý - Trần" },
+        { "id": "B", "text": "Thời Lê sơ" },
+        { "id": "C", "text": "Thời đại Hồ Chí Minh (Chống Pháp và Mỹ)" },
+        { "id": "D", "text": "Thời Nguyễn" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đường lối \"Toàn dân, toàn diện\" là sự phát triển cao nhất của tư tưởng chiến tranh nhân dân."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Hội nghị Diên Hồng (thời Trần) thể hiện tinh thần gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tinh thần dân chủ và ý chí quyết chiến của toàn dân" },
+        { "id": "B", "text": "Sự sợ hãi trước kẻ thù mạnh" },
+        { "id": "C", "text": "Sự chia rẽ trong nội bộ triều đình" },
+        { "id": "D", "text": "Ý muốn cầu hòa" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khi vua hỏi \"Nên hòa hay nên đánh\", muôn người cùng hô \"Đánh!\"."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Chiến thắng nào đã chấm dứt hoàn toàn mưu đồ xâm lược của nhà Tống đối với nước ta?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiến thắng Bạch Đằng (938)" },
+        { "id": "B", "text": "Chiến thắng Chi Lăng - Xương Giang (1427)" },
+        { "id": "C", "text": "Chiến thắng trên phòng tuyến sông Như Nguyệt (1077)" },
+        { "id": "D", "text": "Chiến thắng Rạch Gầm - Xoài Mút (1785)" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Sau thất bại trên sông Như Nguyệt, nhà Tống buộc phải giảng hòa và từ bỏ dã tâm xâm lược."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "\"Hịch tướng sĩ\" là áng văn bất hủ do ai soạn thảo để khích lệ tinh thần quân sĩ?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nguyễn Trãi" },
+        { "id": "B", "text": "Lý Thường Kiệt" },
+        { "id": "C", "text": "Trần Quốc Tuấn" },
+        { "id": "D", "text": "Quang Trung" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Trần Quốc Tuấn viết Hịch tướng sĩ trước cuộc kháng chiến chống Mông - Nguyên lần 2."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Cuộc chiến tranh bảo vệ biên giới Tây Nam (1975-1979) của nhân dân Việt Nam chống lại lực lượng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thực dân Pháp" },
+        { "id": "B", "text": "Đế quốc Mỹ" },
+        { "id": "C", "text": "Tập đoàn Pôn Pốt - Iêng Xari (Khmer Đỏ)" },
+        { "id": "D", "text": "Quân đội Trung Quốc" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Cuộc chiến tranh chính nghĩa bảo vệ biên giới và giúp nhân dân Campuchia thoát khỏi họa diệt chủng."
+    }
+  ]
+}

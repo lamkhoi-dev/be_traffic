@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "math",
+    "name": "Toán 10 - Bài 10: Ôn tập tổng hợp",
+    "description": "Đề tổng hợp kiến thức cả năm học (Hàm số, Hình học, Thống kê, Xác suất).",
+    "duration": 60,
+    "questionCount": 20,
+    "difficulty": "hard",
+    "grade": 10,
+    "chapter": 10
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tìm tập xác định của hàm số $y = \\frac{x+1}{x-3} + \\sqrt{x-2}$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$[2; +\\infty) \\setminus \\{3\\}$" },
+        { "id": "B", "text": "$(2; +\\infty) \\setminus \\{3\\}$" },
+        { "id": "C", "text": "$[2; 3)$" },
+        { "id": "D", "text": "$\\mathbb{R} \\setminus \\{3\\}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $x - 3 \\ne 0$ và $x - 2 \\ge 0 \\Leftrightarrow x \\ne 3$ và $x \\ge 2$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Parabol $y = x^2 - 2x + 3$ có trục đối xứng là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$x = 1$" },
+        { "id": "B", "text": "$x = -1$" },
+        { "id": "C", "text": "$x = 2$" },
+        { "id": "D", "text": "$y = 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x = -b/2a = 2/2 = 1$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cho tam giác ABC có $a=3, c=4, \\widehat{B}=60^\\circ$. Độ dài cạnh b là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{13}$" },
+        { "id": "B", "text": "$13$" },
+        { "id": "C", "text": "$5$" },
+        { "id": "D", "text": "$\\sqrt{37}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$b^2 = a^2 + c^2 - 2ac\\cos B = 9 + 16 - 2.3.4.(1/2) = 25 - 12 = 13 \\Rightarrow b=\\sqrt{13}$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phương trình tham số của đường thẳng đi qua $M(2; -3)$ và vuông góc với đường thẳng $d: x - 2y + 1 = 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\begin{cases} x = 2 + t \\\\ y = -3 - 2t \\end{cases}$" },
+        { "id": "B", "text": "$\\begin{cases} x = 2 + 2t \\\\ y = -3 + t \\end{cases}$" },
+        { "id": "C", "text": "$\\begin{cases} x = 2 + t \\\\ y = -3 + 2t \\end{cases}$" },
+        { "id": "D", "text": "$\\begin{cases} x = 2 - 2t \\\\ y = -3 - t \\end{cases}$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "d có VTPT $\\vec{n}=(1; -2) \\Rightarrow$ VTCP $\\vec{u}=(2; 1)$. Đường thẳng cần tìm vuông góc d nên nhận $\\vec{n_d}$ làm VTCP $\\vec{u'} = (1; -2)$. PT: $x=2+t, y=-3-2t$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Tính bán kính đường tròn tâm $I(1; -2)$ và tiếp xúc với đường thẳng $\\Delta: 3x - 4y - 1 = 0$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "10/5" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$R = d(I, \\Delta) = \\frac{|3(1) - 4(-2) - 1|}{\\sqrt{3^2+4^2}} = \\frac{|3+8-1|}{5} = 10/5 = 2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Số nghiệm nguyên dương của bất phương trình $x^2 - 5x + 4 \\le 0$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "5" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$1 \\le x \\le 4$. Nghiệm nguyên dương: 1, 2, 3, 4. Có 4 nghiệm."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong mặt phẳng Oxy, cho $\\vec{a}=(2; 5), \\vec{b}=(3; -7)$. Góc giữa hai vectơ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$135^\\circ$" },
+        { "id": "B", "text": "$45^\\circ$" },
+        { "id": "C", "text": "$120^\\circ$" },
+        { "id": "D", "text": "$150^\\circ$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\cos(\\vec{a}, \\vec{b}) = \\frac{6 - 35}{\\sqrt{29}\\sqrt{58}} = \\frac{-29}{\\sqrt{29}.\\sqrt{29}.\\sqrt{2}} = \\frac{-1}{\\sqrt{2}}$. Góc $135^\\circ$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Có bao nhiêu số có 4 chữ số khác nhau lập từ {0, 1, 2, 3, 4, 5}?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "300" },
+        { "id": "B", "text": "360" },
+        { "id": "C", "text": "120" },
+        { "id": "D", "text": "720" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chữ số đầu khác 0 (5 cách). 3 chữ số sau lấy từ 5 số còn lại ($A_5^3$). $5 \\times 60 = 300$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Gieo 2 con xúc xắc. Xác suất để tổng số chấm lớn hơn 10 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "1/12" },
+        { "id": "B", "text": "1/6" },
+        { "id": "C", "text": "1/18" },
+        { "id": "D", "text": "1/36" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tổng > 10 là 11, 12. Các cặp: (5,6), (6,5), (6,6). Có 3 cặp. $P = 3/36 = 1/12$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Phương sai của dãy số liệu: 1, 2, 3, 4, 5 là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "1,41" },
+        { "id": "C", "text": "2,5" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mean = 3. $S^2 = [(1-3)^2 + (2-3)^2 + 0 + 1 + 4]/5 = (4+1+0+1+4)/5 = 10/5 = 2$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hệ số của $x^3$ trong khai triển $(2x - 1)^5$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "80" },
+        { "id": "B", "text": "-80" },
+        { "id": "C", "text": "40" },
+        { "id": "D", "text": "-40" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$C_5^2 (2x)^3 (-1)^2 = 10 . 8x^3 . 1 = 80x^3$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đường tròn $(C): x^2 + y^2 - 4x + 2y - 3 = 0$ có bán kính bằng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$\\sqrt{8}$" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "$2\\sqrt{2}$" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "$R = \\sqrt{2^2 + (-1)^2 - (-3)} = \\sqrt{4+1+3} = \\sqrt{8} = 2\\sqrt{2}$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Trong mặt phẳng Oxy, cho tam giác ABC có trọng tâm G(1; 1), A(2; 3), B(-1; 4). Tọa độ đỉnh C là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$(2; -4)$" },
+        { "id": "B", "text": "$(2; 4)$" },
+        { "id": "C", "text": "$(-2; -4)$" },
+        { "id": "D", "text": "$(0; 0)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$x_C = 3x_G - x_A - x_B = 3(1) - 2 - (-1) = 2$. $y_C = 3y_G - y_A - y_B = 3(1) - 3 - 4 = -4$. Vậy $C(2; -4)$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Bất phương trình $\\sqrt{x-1} < 1$ có tập nghiệm là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$[1; 2)$" },
+        { "id": "B", "text": "$(1; 2)$" },
+        { "id": "C", "text": "$(-\\infty; 2)$" },
+        { "id": "D", "text": "$[1; +\\infty)$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "ĐK: $x \\ge 1$. Bình phương: $x-1 < 1 \\Rightarrow x < 2$. Giao lại: $1 \\le x < 2$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cho elip $(E): \\frac{x^2}{25} + \\frac{y^2}{9} = 1$. Tiêu cự của elip là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "8" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$a^2=25, b^2=9 \\Rightarrow c^2 = 16 \\Rightarrow c=4$. Tiêu cự $2c = 8$."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Số cách chia 6 học sinh thành 3 nhóm, mỗi nhóm 2 người là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "15" },
+        { "id": "B", "text": "90" },
+        { "id": "C", "text": "15" },
+        { "id": "D", "text": "30" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chọn 2 người cho nhóm 1: $C_6^2$. Nhóm 2: $C_4^2$. Nhóm 3: $C_2^2$. Vì 3 nhóm không phân biệt tên gọi nên chia cho $3!$. Kết quả: $(15 \\times 6 \\times 1)/6 = 15$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Phương trình $x^2 - 2(m-1)x + m^2 - 3m = 0$ có 2 nghiệm phân biệt khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$m > -1$" },
+        { "id": "B", "text": "$m < -1$" },
+        { "id": "C", "text": "$m > 1$" },
+        { "id": "D", "text": "$m < 1$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$\\Delta' > 0 \\Leftrightarrow (m-1)^2 - (m^2 - 3m) > 0 \\Leftrightarrow m^2 - 2m + 1 - m^2 + 3m > 0 \\Leftrightarrow m + 1 > 0 \\Leftrightarrow m > -1$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho $A = (-2; 5)$ và $B = [m; m+2]$. Tìm m để $A \\subset B$.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không tồn tại m" },
+        { "id": "B", "text": "$m = -2$" },
+        { "id": "C", "text": "$m \\le -2$" },
+        { "id": "D", "text": "$m \\ge 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Độ dài tập A là 7. Độ dài tập B là 2. Tập con không thể lớn hơn tập mẹ. Vậy không tồn tại m."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Hàm số $y = ax^2 + bx + c$ có giá trị lớn nhất bằng 5 tại $x=1$ và đi qua điểm $(2; 4)$. Hàm số đó là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$y = -x^2 + 2x + 4$" },
+        { "id": "B", "text": "$y = -x^2 + 2x + 5$" },
+        { "id": "C", "text": "$y = x^2 - 2x + 5$" },
+        { "id": "D", "text": "$y = -2x^2 + 4x + 3$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đỉnh $(1; 5)$. Phương trình dạng $y = a(x-1)^2 + 5$. Qua $(2; 4) \\Rightarrow 4 = a(2-1)^2 + 5 \\Rightarrow a = -1$. Vậy $y = -(x^2-2x+1) + 5 = -x^2 + 2x + 4$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Trong lớp học, xác suất bạn An thuộc bài là 0,8 và bạn Bình thuộc bài là 0,9. Xác suất để cả hai bạn cùng thuộc bài là (giả sử độc lập):",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,72" },
+        { "id": "B", "text": "0,1" },
+        { "id": "C", "text": "0,98" },
+        { "id": "D", "text": "0,85" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = 0,8 \\times 0,9 = 0,72$."
+    }
+  ]
+}

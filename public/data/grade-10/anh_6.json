@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 6: Gender Equality",
+    "description": "Kiểm tra từ vựng về Bình đẳng giới và ngữ pháp Câu bị động với động từ khuyết thiếu (Modals).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "g_ender" },
+        { "id": "B", "text": "enrol_" },
+        { "id": "C", "text": "p_reference" },
+        { "id": "D", "text": "s_econdary" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gender: 'e' phát âm /e/ nhưng chú ý âm 'g' là /dʒ/. Ở đây câu hỏi về nguyên âm/phụ âm kết hợp. Nếu xét nguyên âm: gender /e/, enroll /əʊ/, preference /e/, secondary /e/. (Enroll khác). Nếu xét phụ âm đầu (thường gặp ở bài này): gender /dʒ/, còn lại /g/ không áp dụng. Đáp án đúng nhất cho sự khác biệt rõ rệt là Enroll (/əʊ/ vs /e/)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "equal" },
+        { "id": "B", "text": "women" },
+        { "id": "C", "text": "eliminate" },
+        { "id": "D", "text": "gender" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Eliminate nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "We should ________ gender discrimination in education.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "eliminate" },
+        { "id": "B", "text": "elimination" },
+        { "id": "C", "text": "eliminating" },
+        { "id": "D", "text": "eliminates" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Should + V nguyên thể. Eliminate: xóa bỏ."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Gender ________ should be promoted in all areas of life.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "equal" },
+        { "id": "B", "text": "equality" },
+        { "id": "C", "text": "equally" },
+        { "id": "D", "text": "quality" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần danh từ làm chủ ngữ. Gender equality: bình đẳng giới."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Women should be given equal ________ to men.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "rights" },
+        { "id": "B", "text": "lefts" },
+        { "id": "C", "text": "sides" },
+        { "id": "D", "text": "hands" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Equal rights: quyền bình đẳng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "This job can ________ by both men and women.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "done" },
+        { "id": "B", "text": "be done" },
+        { "id": "C", "text": "do" },
+        { "id": "D", "text": "doing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bị động với độn từ khuyết thiếu: Can + be + V3."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "More girls should be allowed ________ to school.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "go" },
+        { "id": "B", "text": "to go" },
+        { "id": "C", "text": "going" },
+        { "id": "D", "text": "gone" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Allow sb to V / Be allowed to V."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Discrimination based on gender must ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "abolish" },
+        { "id": "B", "text": "abolished" },
+        { "id": "C", "text": "be abolished" },
+        { "id": "D", "text": "be abolish" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Must be + V3 (bị động)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "In the past, women were often forced ________ at home.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "stay" },
+        { "id": "B", "text": "staying" },
+        { "id": "C", "text": "to stay" },
+        { "id": "D", "text": "stayed" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Force sb to V (ép buộc ai làm gì)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The government has made efforts to ________ the gap between men and women.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "bridge" },
+        { "id": "B", "text": "break" },
+        { "id": "C", "text": "build" },
+        { "id": "D", "text": "stop" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bridge the gap: thu hẹp khoảng cách."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Both genders should be treated ________ at work.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "equal" },
+        { "id": "B", "text": "equally" },
+        { "id": "C", "text": "equality" },
+        { "id": "D", "text": "same" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cần trạng từ bổ nghĩa cho động từ 'treated'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Choose the correct sentence with Modal Passive.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "The report must be finish by tomorrow." },
+        { "id": "B", "text": "The report must finished by tomorrow." },
+        { "id": "C", "text": "The report must be finished by tomorrow." },
+        { "id": "D", "text": "The report must finish by tomorrow." }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Must be + V3 (finished)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Domestic ________ is a serious problem in many countries.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "violence" },
+        { "id": "B", "text": "violent" },
+        { "id": "C", "text": "violently" },
+        { "id": "D", "text": "violate" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Domestic violence: bạo lực gia đình."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Women often earn less than men for doing the ________ job.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "same" },
+        { "id": "B", "text": "similar" },
+        { "id": "C", "text": "likely" },
+        { "id": "D", "text": "alike" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "The same job: công việc giống hệt nhau."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Find the synonym of 'prevent'.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "allow" },
+        { "id": "B", "text": "stop" },
+        { "id": "C", "text": "promote" },
+        { "id": "D", "text": "encourage" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Prevent = Stop (ngăn chặn)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Many women struggle to balance work and ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "family life" },
+        { "id": "B", "text": "office" },
+        { "id": "C", "text": "salary" },
+        { "id": "D", "text": "boss" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cân bằng giữa công việc và gia đình."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Education is key to ________ women.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "empower" },
+        { "id": "B", "text": "empowering" },
+        { "id": "C", "text": "empowered" },
+        { "id": "D", "text": "power" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Key to + V-ing/Noun (chìa khóa để làm gì)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "A surgeon is a doctor who performs ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "operations" },
+        { "id": "B", "text": "medicines" },
+        { "id": "C", "text": "checks" },
+        { "id": "D", "text": "hospital" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Perform operations: thực hiện phẫu thuật."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Information should be ________ with everyone in the team.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "share" },
+        { "id": "B", "text": "shared" },
+        { "id": "C", "text": "sharing" },
+        { "id": "D", "text": "shares" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Should be shared (cần được chia sẻ)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "We must not ________ people based on their gender.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "respect" },
+        { "id": "B", "text": "discriminate" },
+        { "id": "C", "text": "love" },
+        { "id": "D", "text": "help" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Discriminate: phân biệt đối xử."
+    }
+  ]
+}

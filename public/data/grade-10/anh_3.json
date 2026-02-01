@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 3: Music",
+    "description": "Kiểm tra từ vựng Âm nhạc, Nghệ thuật và ngữ pháp Câu ghép, Động từ nguyên mẫu (To V / Bare V).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 3
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "talent" },
+        { "id": "B", "text": "contest" },
+        { "id": "C", "text": "comment" },
+        { "id": "D", "text": "event" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Event nhấn âm 2, 'e' đọc là /ɪ/ hoặc /ə/. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "perform" },
+        { "id": "B", "text": "idol" },
+        { "id": "C", "text": "singer" },
+        { "id": "D", "text": "judge" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Perform nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "The show attracted a large ________ of over 5,000 people.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "audience" },
+        { "id": "B", "text": "spectator" },
+        { "id": "C", "text": "watcher" },
+        { "id": "D", "text": "viewer" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Audience: khán giả (ngồi xem biểu diễn)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "He is a ________ pianist. He can play difficult pieces perfectly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "talented" },
+        { "id": "B", "text": "talent" },
+        { "id": "C", "text": "talents" },
+        { "id": "D", "text": "untalented" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Talented (tính từ): tài năng."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "My parents let me ________ out late on weekends.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "stay" },
+        { "id": "B", "text": "to stay" },
+        { "id": "C", "text": "staying" },
+        { "id": "D", "text": "stayed" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc: Let + O + V (bare infinitive - nguyên thể không to)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "She decided ________ part in the singing contest.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "take" },
+        { "id": "B", "text": "taking" },
+        { "id": "C", "text": "to take" },
+        { "id": "D", "text": "taken" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Decide + to V."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "The band released their ________ album last month.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "debut" },
+        { "id": "B", "text": "start" },
+        { "id": "C", "text": "begin" },
+        { "id": "D", "text": "opening" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Debut album: album đầu tay/ra mắt."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "I wanted to go to the concert, ________ the tickets were too expensive.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "and" },
+        { "id": "B", "text": "but" },
+        { "id": "C", "text": "so" },
+        { "id": "D", "text": "or" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Diễn tả sự tương phản -> dùng 'but'."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "You can choose to play the guitar, ________ you can learn the violin.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "so" },
+        { "id": "B", "text": "and" },
+        { "id": "C", "text": "or" },
+        { "id": "D", "text": "but" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Diễn tả sự lựa chọn -> dùng 'or'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The judges will ________ the contestants based on their voice and performance.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "eliminate" },
+        { "id": "B", "text": "evaluate" },
+        { "id": "C", "text": "watch" },
+        { "id": "D", "text": "sing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Evaluate: đánh giá."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "It is important ________ a musical instrument.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "to learn" },
+        { "id": "B", "text": "learn" },
+        { "id": "C", "text": "learning" },
+        { "id": "D", "text": "learned" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc: It is + adj + to V."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "He made me ________ his homework.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "to do" },
+        { "id": "B", "text": "do" },
+        { "id": "C", "text": "doing" },
+        { "id": "D", "text": "did" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Make + O + V (bare infinitive)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Identify the error: 'She enjoys listen to pop music.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "enjoys" },
+        { "id": "B", "text": "listen" },
+        { "id": "C", "text": "to" },
+        { "id": "D", "text": "pop music" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'enjoy' phải là V-ing (listening)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "The hit song received millions of ________ on YouTube.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "views" },
+        { "id": "B", "text": "looks" },
+        { "id": "C", "text": "watches" },
+        { "id": "D", "text": "sights" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Views: lượt xem."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "He was very nervous, ________ he performed brilliantly.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "so" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "yet" },
+        { "id": "D", "text": "or" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Yet' ở đây tương đương 'but' (tuy nhiên), dùng trong câu ghép."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Don't hesitate ________ us if you have questions.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "call" },
+        { "id": "B", "text": "to call" },
+        { "id": "C", "text": "calling" },
+        { "id": "D", "text": "called" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hesitate + to V."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Which word is a musical instrument?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trumpet" },
+        { "id": "B", "text": "Concert" },
+        { "id": "C", "text": "Stage" },
+        { "id": "D", "text": "Singer" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Trumpet: kèn trumpet."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "This TV show is in search of a new Vietnam ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Idol" },
+        { "id": "B", "text": "Fan" },
+        { "id": "C", "text": "Stage" },
+        { "id": "D", "text": "Judge" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vietnam Idol (Thần tượng âm nhạc)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "She plans ________ a famous singer one day.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "become" },
+        { "id": "B", "text": "to become" },
+        { "id": "C", "text": "becoming" },
+        { "id": "D", "text": "became" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Plan + to V."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "The music was loud, ________ we couldn't hear each other talk.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "because" },
+        { "id": "B", "text": "but" },
+        { "id": "C", "text": "so" },
+        { "id": "D", "text": "or" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chỉ kết quả -> dùng 'so'."
+    }
+  ]
+}   

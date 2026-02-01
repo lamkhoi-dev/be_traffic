@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "history",
+    "name": "Lịch sử 10 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Câu nói 'Lịch sử là thầy dạy của cuộc sống' (Cicero) nhấn mạnh điều gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch sử rất khó học."
+        },
+        {
+          "id": "B",
+          "text": "Vai trò, ý nghĩa to lớn của tri thức lịch sử."
+        },
+        {
+          "id": "C",
+          "text": "Lịch sử chỉ dành cho giáo viên."
+        },
+        {
+          "id": "D",
+          "text": "Lịch sử không liên quan đến hiện tại."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lịch sử cung cấp bài học kinh nghiệm quý báu cho hiện tại và tương lai."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Nhà soạn kịch vĩ đại người Anh thời Phục hưng là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vich-to Huy-gô."
+        },
+        {
+          "id": "B",
+          "text": "Uy-li-am Sếch-xpia (Shakespeare)."
+        },
+        {
+          "id": "C",
+          "text": "Đan-tê."
+        },
+        {
+          "id": "D",
+          "text": "Gơ-tê."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tác giả của Romeo và Juliet, Hamlet..."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Di sản văn hóa phi vật thể (như Dân ca) là đối tượng nghiên cứu của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Văn hóa học, Âm nhạc học và Sử học."
+        },
+        {
+          "id": "B",
+          "text": "chỉ riêng Sử học."
+        },
+        {
+          "id": "C",
+          "text": "Toán học."
+        },
+        {
+          "id": "D",
+          "text": "Vật lý."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cần tiếp cận liên ngành để hiểu đầy đủ giá trị của di sản."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Văn hóa Chăm-pa ở Việt Nam chịu ảnh hưởng chủ yếu của nền văn minh nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trung Hoa."
+        },
+        {
+          "id": "B",
+          "text": "Ấn Độ."
+        },
+        {
+          "id": "C",
+          "text": "Lưỡng Hà."
+        },
+        {
+          "id": "D",
+          "text": "Ai Cập."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Di tích Mỹ Sơn và văn hóa Chăm mang đậm dấu ấn Hin-đu giáo của Ấn Độ."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "So với hiện thực lịch sử, nhận thức lịch sử có đặc điểm gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Luôn đồng nhất với hiện thực."
+        },
+        {
+          "id": "B",
+          "text": "Thường lạc hậu hơn hiện thực."
+        },
+        {
+          "id": "C",
+          "text": "Có thể thay đổi và ngày càng tiệm cận sự thật."
+        },
+        {
+          "id": "D",
+          "text": "Là duy nhất và bất biến."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Khi có thêm tư liệu mới hoặc góc nhìn mới, nhận thức lịch sử có thể thay đổi để đúng hơn."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ngành Khảo cổ học có vai trò đặc biệt quan trọng trong việc nghiên cứu giai đoạn nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch sử hiện đại."
+        },
+        {
+          "id": "B",
+          "text": "Thời kỳ Tiền sử và Cổ đại."
+        },
+        {
+          "id": "C",
+          "text": "Thời kỳ Cận đại."
+        },
+        {
+          "id": "D",
+          "text": "Thế kỷ XXI."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Khi chưa có hoặc rất ít chữ viết, hiện vật khảo cổ là nguồn sử liệu chính."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Phát minh nào được coi là quan trọng nhất, đánh dấu sự khởi đầu của Cách mạng công nghiệp lần thứ nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thoi bay."
+        },
+        {
+          "id": "B",
+          "text": "Máy kéo sợi Gien-ni."
+        },
+        {
+          "id": "C",
+          "text": "Máy hơi nước (cải tiến bởi Giêm Oát)."
+        },
+        {
+          "id": "D",
+          "text": "Đầu máy xe lửa."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Máy hơi nước giúp con người chuyển từ lao động thủ công sang lao động bằng máy móc."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Nền văn minh Ai Cập cổ đại hình thành trên lưu vực con sông nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Ấn."
+        },
+        {
+          "id": "B",
+          "text": "Sông Hằng."
+        },
+        {
+          "id": "C",
+          "text": "Sông Nin (Nile)."
+        },
+        {
+          "id": "D",
+          "text": "Sông Ơ-phrát."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Ai Cập là 'tặng phẩm của sông Nin'."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Giai cấp nào là người khởi xướng phong trào Văn hóa Phục hưng?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nông dân."
+        },
+        {
+          "id": "B",
+          "text": "Quý tộc phong kiến."
+        },
+        {
+          "id": "C",
+          "text": "Tư sản."
+        },
+        {
+          "id": "D",
+          "text": "Tăng lữ giáo hội."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Giai cấp tư sản mới ra đời, có thế lực kinh tế nhưng chưa có địa vị xã hội tương xứng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khái niệm 'Cách mạng công nghiệp 4.0' lần đầu tiên được đưa ra tại đâu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tại Mỹ (2000)."
+        },
+        {
+          "id": "B",
+          "text": "Tại Hội chợ Hannover, Đức (2011)."
+        },
+        {
+          "id": "C",
+          "text": "Tại Nhật Bản (2015)."
+        },
+        {
+          "id": "D",
+          "text": "Tại Trung Quốc (2008)."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đức là nước khởi xướng khái niệm Industrie 4.0."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Mạng xã hội (Facebook, Zalo...) là sản phẩm của",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng công nghiệp hiện đại (Kết nối toàn cầu)."
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng công nghiệp hơi nước."
+        },
+        {
+          "id": "C",
+          "text": "Thời kỳ Phục hưng."
+        },
+        {
+          "id": "D",
+          "text": "Thời kỳ đồ đá."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Kết nối con người qua không gian mạng."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Trong Y học, người Ấn Độ cổ đại nổi tiếng với",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phẫu thuật thẩm mỹ và sử dụng thảo mộc."
+        },
+        {
+          "id": "B",
+          "text": "Châm cứu."
+        },
+        {
+          "id": "C",
+          "text": "Vắc-xin đậu mùa."
+        },
+        {
+          "id": "D",
+          "text": "Kháng sinh."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Họ biết phẫu thuật tạo hình và sử dụng cây thuốc."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Vật liệu viết chủ yếu của người Ai Cập cổ đại là",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giấy làm từ cây Papyrus."
+        },
+        {
+          "id": "B",
+          "text": "Mai rùa, xương thú."
+        },
+        {
+          "id": "C",
+          "text": "Thẻ tre."
+        },
+        {
+          "id": "D",
+          "text": "Đất sét nung."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giấy Papyrus là đặc trưng của Ai Cập."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Lịch mà chúng ta đang sử dụng phổ biến ngày nay (Dương lịch) có nguồn gốc từ",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lịch Ai Cập."
+        },
+        {
+          "id": "B",
+          "text": "Lịch Trung Quốc."
+        },
+        {
+          "id": "C",
+          "text": "Lịch La Mã cổ đại (Lịch Ju-li-us)."
+        },
+        {
+          "id": "D",
+          "text": "Lịch Maya."
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Người La Mã đã hoàn thiện Dương lịch dựa trên tính toán của người Ai Cập."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Quy trình sản xuất dây chuyền (lắp ráp) được Hen-ry Pho (Ford) ứng dụng lần đầu trong ngành nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dệt may."
+        },
+        {
+          "id": "B",
+          "text": "Sản xuất ô tô."
+        },
+        {
+          "id": "C",
+          "text": "Chế biến thực phẩm."
+        },
+        {
+          "id": "D",
+          "text": "Đóng tàu."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Dây chuyền lắp ráp giúp giảm giá thành ô tô, biến nó thành phương tiện phổ thông."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Để thích ứng với CMCN 4.0, học sinh cần trang bị gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ cần học thuộc lòng sách giáo khoa."
+        },
+        {
+          "id": "B",
+          "text": "Kỹ năng số, ngoại ngữ, tư duy sáng tạo và khả năng tự học."
+        },
+        {
+          "id": "C",
+          "text": "Học võ thuật."
+        },
+        {
+          "id": "D",
+          "text": "Không cần học gì vì máy làm hết."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kỹ năng mềm và tư duy số là chìa khóa trong kỷ nguyên số."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "CMCN lần thứ nhất bắt đầu từ ngành công nghiệp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Luyện kim."
+        },
+        {
+          "id": "B",
+          "text": "Công nghiệp dệt (nhẹ)."
+        },
+        {
+          "id": "C",
+          "text": "Hóa chất."
+        },
+        {
+          "id": "D",
+          "text": "Khai thác than."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhu cầu mặc tăng cao thúc đẩy cải tiến máy dệt (thoi bay, máy kéo sợi...)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Văn hóa Phục hưng đã mở đường cho",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sự sụp đổ hoàn toàn của châu Âu."
+        },
+        {
+          "id": "B",
+          "text": "Các cuộc cách mạng tư sản và sự phát triển của khoa học."
+        },
+        {
+          "id": "C",
+          "text": "Chế độ phong kiến củng cố vững chắc hơn."
+        },
+        {
+          "id": "D",
+          "text": "Sự thống trị của Hồi giáo."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là cuộc cách mạng tư tưởng dọn đường cho biến đổi chính trị - xã hội sau này."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Công nghệ In 3D (Additive Manufacturing) cho phép",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In văn bản nhanh hơn."
+        },
+        {
+          "id": "B",
+          "text": "Tạo ra các vật thể 3 chiều từ bản vẽ số bằng cách đắp lớp."
+        },
+        {
+          "id": "C",
+          "text": "In ảnh màu sắc nét."
+        },
+        {
+          "id": "D",
+          "text": "In tiền giả."
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chế tạo nhanh các chi tiết phức tạp, thậm chí in nhà cửa, bộ phận cơ thể."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Sự phát triển của Thống kê học giúp Sử học",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "định lượng hóa các sự kiện lịch sử (như dân số, sản lượng)."
+        },
+        {
+          "id": "B",
+          "text": "viết văn hay hơn."
+        },
+        {
+          "id": "C",
+          "text": "sáng tác thơ ca."
+        },
+        {
+          "id": "D",
+          "text": "vẽ bản đồ đẹp hơn."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương pháp định lượng giúp sử học chính xác và khách quan hơn."
+    }
+  ]
+}

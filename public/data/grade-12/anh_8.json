@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "english",
+    "name": "Tiếng Anh 12 - Unit 8: The World of Work",
+    "description": "Chủ đề Công việc. Ngữ pháp: Câu tường thuật (Reported Speech) và Động từ khuyết thiếu (Modal Verbs).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 8
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word whose underlined part differs from the other three in pronunciation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "resume" },
+        { "id": "B", "text": "pressure" },
+        { "id": "C", "text": "suppose" },
+        { "id": "D", "text": "sense" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đáp án A 'resume' (sơ yếu lý lịch) thường đọc là /rez.jʊˈmeɪ/ (âm cuối là /eɪ/). Các từ còn lại âm e cuối câm hoặc đọc khác."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Mark the letter A, B, C, or D to indicate the word that differs from the other three in the position of primary stress.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "interview" },
+        { "id": "B", "text": "vacancy" },
+        { "id": "C", "text": "company" },
+        { "id": "D", "text": "position" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Đáp án D 'position' nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "She decided to apply ______ the position of marketing manager.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "to" },
+        { "id": "C", "text": "with" },
+        { "id": "D", "text": "in" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cấu trúc 'apply for a job/position' (nộp đơn xin việc)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "A ______ is a brief account of a person's education, qualifications, and previous experience.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "CV" },
+        { "id": "B", "text": "degree" },
+        { "id": "C", "text": "certificate" },
+        { "id": "D", "text": "interview" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'CV' (Curriculum Vitae) là bản sơ yếu lý lịch tóm tắt."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "He asked me ______ I had previous experience in sales.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "that" },
+        { "id": "B", "text": "if" },
+        { "id": "C", "text": "what" },
+        { "id": "D", "text": "which" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu tường thuật dạng Yes/No question dùng 'if' hoặc 'whether'."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "The interviewer told the candidate ______ down.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "sit" },
+        { "id": "B", "text": "sitting" },
+        { "id": "C", "text": "to sit" },
+        { "id": "D", "text": "sat" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Câu tường thuật mệnh lệnh: 'tell sb to do sth'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Candidates must have good ______ skills to work effectively in a team.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "interpersonal" },
+        { "id": "B", "text": "personal" },
+        { "id": "C", "text": "intrapersonal" },
+        { "id": "D", "text": "personnel" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Interpersonal skills' là kỹ năng giao tiếp/ứng xử giữa các cá nhân."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Before being hired officially, you usually have to undergo a ______ period.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "probation" },
+        { "id": "B", "text": "training" },
+        { "id": "C", "text": "working" },
+        { "id": "D", "text": "learning" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Probation period' là thời gian thử việc."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Closest meaning: He was 'sacked' because of his poor performance.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "promoted" },
+        { "id": "B", "text": "hired" },
+        { "id": "C", "text": "dismissed" },
+        { "id": "D", "text": "trained" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "'Sacked' (bị sa thải) đồng nghĩa với 'dismissed' hoặc 'fired'."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Opposite meaning: It is a 'challenging' job, but very rewarding.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "difficult" },
+        { "id": "B", "text": "easy" },
+        { "id": "C", "text": "demanding" },
+        { "id": "D", "text": "hard" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Challenging' (đầy thách thức/khó khăn) trái nghĩa với 'easy'."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "She said that she ______ for a new job then.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is looking" },
+        { "id": "B", "text": "was looking" },
+        { "id": "C", "text": "looked" },
+        { "id": "D", "text": "has looked" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tường thuật lùi thì: Hiện tại tiếp diễn -> Quá khứ tiếp diễn. 'Then' thay cho 'now'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "You ______ be late for the interview, or you will lose the chance.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "mustn't" },
+        { "id": "B", "text": "needn't" },
+        { "id": "C", "text": "don't have to" },
+        { "id": "D", "text": "should" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Mustn't' chỉ sự cấm đoán (không được phép muộn)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "The company decided to ______ new staff next month.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "recruit" },
+        { "id": "B", "text": "rent" },
+        { "id": "C", "text": "buy" },
+        { "id": "D", "text": "create" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Recruit' (tuyển dụng)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "My boss has high ______ of his employees.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "expect" },
+        { "id": "B", "text": "expectations" },
+        { "id": "C", "text": "expectant" },
+        { "id": "D", "text": "expectancy" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'High expectations' (kỳ vọng cao)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Communication: 'When will I know the result?' - '______'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "We will contact you shortly." },
+        { "id": "B", "text": "Yes, you will." },
+        { "id": "C", "text": "I don't know him." },
+        { "id": "D", "text": "Good luck." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu trả lời tiêu chuẩn trong phỏng vấn xin việc."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify mistake: 'He said me that he was busy.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "said" },
+        { "id": "B", "text": "me" },
+        { "id": "C", "text": "that" },
+        { "id": "D", "text": "was" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Dùng 'said to me' hoặc 'told me'. Không dùng 'said me'. Chọn A sửa thành 'told'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "To get this job, you need a university ______.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "degree" },
+        { "id": "B", "text": "license" },
+        { "id": "C", "text": "mark" },
+        { "id": "D", "text": "grade" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'University degree' (bằng đại học)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "We are looking for a ______ candidate who is reliable and honest.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "trustworthy" },
+        { "id": "B", "text": "trust" },
+        { "id": "C", "text": "trusting" },
+        { "id": "D", "text": "truster" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Trustworthy' (đáng tin cậy)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Transformation: '\"I will finish the report tomorrow,\" Tom said.' -> Tom said that...",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "he would finish the report the next day." },
+        { "id": "B", "text": "he will finish the report tomorrow." },
+        { "id": "C", "text": "he finished the report the next day." },
+        { "id": "D", "text": "he would finish the report tomorrow." }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lùi thì (will -> would) và đổi trạng từ (tomorrow -> the next day)."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Flexible working hours can help employees achieve a better ______ balance.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "work-life" },
+        { "id": "B", "text": "day-night" },
+        { "id": "C", "text": "job-career" },
+        { "id": "D", "text": "time-money" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Work-life balance' (cân bằng giữa công việc và cuộc sống)."
+    }
+  ]
+}

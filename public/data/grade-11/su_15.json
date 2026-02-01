@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự mở rộng của chủ nghĩa tư bản sang châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng Tân Hợi (Trung Quốc)"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Duy tân Minh Trị (Nhật Bản)"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào Xô viết Nghệ Tĩnh (Việt Nam)"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng ở Ấn Độ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Duy tân Minh Trị (1868) đưa Nhật Bản thoát khỏi phong kiến, trở thành nước TBCN."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Bốn nước cộng hòa đầu tiên gia nhập Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nga, U-crai-na, Bê-la-rút, Ngoại Cáp-ca-dơ"
+        },
+        {
+          "id": "B",
+          "text": "Nga, U-crai-na, Ca-dắc-xtan, U-dơ-bê-ki-xtan"
+        },
+        {
+          "id": "C",
+          "text": "Nga, Bê-la-rút, Lát-vi-a, Ét-tô-ni-a"
+        },
+        {
+          "id": "D",
+          "text": "Nga, U-crai-na, Môn-đô-va, Ác-mê-ni-a"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là 4 nước cộng hòa đầu tiên hợp nhất thành Liên Xô."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Cuộc kháng chiến chống quân Nam Hán của Ngô Quyền (938) kết thúc bằng chiến thắng lẫy lừng trên dòng sông nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sông Như Nguyệt"
+        },
+        {
+          "id": "B",
+          "text": "Sông Bạch Đằng"
+        },
+        {
+          "id": "C",
+          "text": "Sông Hồng"
+        },
+        {
+          "id": "D",
+          "text": "Sông Mã"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chiến thắng Bạch Đằng năm 938 đã chấm dứt 1000 năm Bắc thuộc."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Phong trào Thakin (1930) là phong trào yêu nước tiêu biểu ở:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lào"
+        },
+        {
+          "id": "B",
+          "text": "Mi-an-ma"
+        },
+        {
+          "id": "C",
+          "text": "Thái Lan"
+        },
+        {
+          "id": "D",
+          "text": "Cam-pu-chia"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Phong trào của trí thức trẻ Myanmar, tự gọi mình là 'Thakin' (người chủ đất nước)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Phong trào Tây Sơn (cuối thế kỷ XVIII) ban đầu là một cuộc khởi nghĩa nông dân, sau đó phát triển thành:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuộc chiến tranh bảo vệ tổ quốc thuần túy"
+        },
+        {
+          "id": "B",
+          "text": "Phong trào giải phóng dân tộc, thống nhất đất nước và bảo vệ tổ quốc"
+        },
+        {
+          "id": "C",
+          "text": "Cuộc nội chiến giữa các tập đoàn phong kiến"
+        },
+        {
+          "id": "D",
+          "text": "Cuộc cách mạng tư sản"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tây Sơn đã lật đổ các tập đoàn phong kiến (Nguyễn, Trịnh, Lê), thống nhất đất nước và đánh tan quân Xiêm, Thanh."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Điểm độc đáo trong nghệ thuật quân sự của cuộc khởi nghĩa Lam Sơn là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vây thành diệt viện"
+        },
+        {
+          "id": "B",
+          "text": "Tiên phát chế nhân"
+        },
+        {
+          "id": "C",
+          "text": "Vườn không nhà trống"
+        },
+        {
+          "id": "D",
+          "text": "Đánh nhanh thắng nhanh"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lê Lợi và Nguyễn Trãi chủ trương vây hãm các thành (như Đông Quan) và tập trung tiêu diệt quân viện trợ (Chi Lăng)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Việc xuất khẩu tư bản (đầu tư ra nước ngoài) nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giúp đỡ các nước nghèo phát triển"
+        },
+        {
+          "id": "B",
+          "text": "Tìm kiếm lợi nhuận cao ở nơi có nhân công rẻ, tài nguyên dồi dào"
+        },
+        {
+          "id": "C",
+          "text": "Giải quyết vấn đề thừa tiền trong nước"
+        },
+        {
+          "id": "D",
+          "text": "Giao lưu văn hóa"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Mục đích tối thượng của tư bản là lợi nhuận siêu ngạch."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Cây trồng nào được thực dân phương Tây tập trung phát triển mạnh ở các đồn điền Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Lúa mì"
+        },
+        {
+          "id": "B",
+          "text": "Cao su, cà phê, chè, lúa gạo"
+        },
+        {
+          "id": "C",
+          "text": "Nho và ô liu"
+        },
+        {
+          "id": "D",
+          "text": "Táo và lê"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là các cây công nghiệp nhiệt đới có giá trị xuất khẩu cao."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Sự ra đời của Liên bang Xô viết có ý nghĩa như thế nào đối với nước Nga?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Tăng cường sức mạnh kinh tế, quốc phòng cho các nước cộng hòa"
+        },
+        {
+          "id": "B",
+          "text": "Làm suy yếu vai trò của nước Nga"
+        },
+        {
+          "id": "C",
+          "text": "Gây ra mâu thuẫn sắc tộc"
+        },
+        {
+          "id": "D",
+          "text": "Phụ thuộc vào viện trợ nước ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sự liên kết giúp tập trung nguồn lực để xây dựng và bảo vệ đất nước."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Đảng Cộng sản Việt Nam ra đời năm 1930 có ý nghĩa gì đối với phong trào cách mạng Đông Nam Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đánh dấu sự thắng thế hoàn toàn của khuynh hướng vô sản trong khu vực"
+        },
+        {
+          "id": "B",
+          "text": "Mở ra thời kỳ giai cấp công nhân nắm quyền lãnh đạo cách mạng Việt Nam và ảnh hưởng đến Đông Dương"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt sự cai trị của thực dân Pháp"
+        },
+        {
+          "id": "D",
+          "text": "Thành lập được mặt trận thống nhất toàn khu vực"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Chấm dứt sự khủng hoảng về đường lối ở VN và lãnh đạo phong trào ở cả Lào, Campuchia."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Nội dung cơ bản của Chính sách kinh tế mới (NEP) trong nông nghiệp là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Thay chế độ trưng thu lương thực thừa bằng thuế lương thực"
+        },
+        {
+          "id": "B",
+          "text": "Tịch thu toàn bộ ruộng đất của địa chủ"
+        },
+        {
+          "id": "C",
+          "text": "Thành lập các nông trang tập thể"
+        },
+        {
+          "id": "D",
+          "text": "Nhà nước nắm độc quyền thu mua lúa mì"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thay trưng thu bằng thuế lương thực khuyến khích nông dân sản xuất và tự do bán phần dư thừa."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Câu nói \"Ngồi yên đợi giặc không bằng đem quân đánh trước để chặn thế mạnh của giặc\" (Tiên phát chế nhân) là tư tưởng quân sự của ai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trần Hưng Đạo"
+        },
+        {
+          "id": "B",
+          "text": "Lý Thường Kiệt"
+        },
+        {
+          "id": "C",
+          "text": "Lê Lợi"
+        },
+        {
+          "id": "D",
+          "text": "Nguyễn Huệ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là chủ trương táo bạo của Lý Thường Kiệt trong cuộc kháng chiến chống Tống (1075-1077)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Lãnh tụ của phong trào độc lập In-đô-nê-xi-a và là Tổng thống đầu tiên của nước này là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "B",
+          "text": "Xu-các-nô"
+        },
+        {
+          "id": "C",
+          "text": "Li Quan Diệu"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ha-thia Mô-ha-mát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ahmed Sukarno là người đọc Tuyên ngôn độc lập khai sinh ra nước CH Indonesia."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Sự sụp đổ của chế độ phong kiến Nga hoàng là kết quả của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tháng Mười 1917"
+        },
+        {
+          "id": "B",
+          "text": "Cách mạng tháng Hai 1917"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng 1905-1907"
+        },
+        {
+          "id": "D",
+          "text": "Nội chiến 1918-1920"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cách mạng tháng Hai lật đổ Nga hoàng, dẫn đến tình trạng hai chính quyền song song tồn tại."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu chấm dứt chế độ phân biệt chủng tộc A-pác-thai ở Nam Phi nhưng có sự ủng hộ của các nước XHCN?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Nen-xơn Man-đê-la làm Tổng thống (1994)"
+        },
+        {
+          "id": "B",
+          "text": "Nam Phi độc lập"
+        },
+        {
+          "id": "C",
+          "text": "Thành lập Liên minh châu Phi"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng An-giê-ri thành công"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ thống XHCN luôn ủng hộ phong trào giải phóng dân tộc, bao gồm chống A-pác-thai."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Trong cuộc kháng chiến chống Mỹ (1954-1975), chiến dịch nào mang tên Bác Hồ kính yêu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiến dịch Tây Nguyên"
+        },
+        {
+          "id": "B",
+          "text": "Chiến dịch Huế - Đà Nẵng"
+        },
+        {
+          "id": "C",
+          "text": "Chiến dịch giải phóng Sài Gòn - Gia Định"
+        },
+        {
+          "id": "D",
+          "text": "Chiến dịch Đường 9 - Khe Sanh"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Chiến dịch giải phóng Sài Gòn được Bộ Chính trị quyết định đổi tên thành Chiến dịch Hồ Chí Minh (4/1975)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Chính quyền Xô viết được thiết lập dựa trên liên minh của giai cấp nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Công nhân và tư sản"
+        },
+        {
+          "id": "B",
+          "text": "Công nhân và nông dân"
+        },
+        {
+          "id": "C",
+          "text": "Nông dân và trí thức"
+        },
+        {
+          "id": "D",
+          "text": "Công nhân, nông dân và binh lính"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên minh công - nông là nòng cốt của chính quyền Xô viết."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của lịch sử Đông Nam Á nửa sau thế kỷ XX là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Các nước lần lượt giành độc lập và bắt tay vào xây dựng đất nước"
+        },
+        {
+          "id": "B",
+          "text": "Vẫn chịu sự cai trị của thực dân phương Tây"
+        },
+        {
+          "id": "C",
+          "text": "Khủng hoảng kinh tế triền miên"
+        },
+        {
+          "id": "D",
+          "text": "Xung đột tôn giáo gay gắt không thể giải quyết"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đây là giai đoạn 'biến đổi to lớn nhất' của khu vực: từ thân phận thuộc địa trở thành các quốc gia độc lập."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu chấm dứt hoàn toàn chế độ phong kiến ở Việt Nam?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Vua Bảo Đại thoái vị (30/8/1945)"
+        },
+        {
+          "id": "B",
+          "text": "Thành lập nước Việt Nam Dân chủ Cộng hòa"
+        },
+        {
+          "id": "C",
+          "text": "Chiến thắng Điện Biên Phủ"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất đất nước năm 1976"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vua Bảo Đại trao ấn kiếm cho chính quyền cách mạng, chấm dứt triều đại phong kiến cuối cùng."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Chủ nghĩa tư bản chuyển từ giai đoạn tự do cạnh tranh sang giai đoạn độc quyền vào thời gian nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đầu thế kỷ XVIII"
+        },
+        {
+          "id": "B",
+          "text": "Giữa thế kỷ XIX"
+        },
+        {
+          "id": "C",
+          "text": "Cuối thế kỷ XIX - đầu thế kỷ XX"
+        },
+        {
+          "id": "D",
+          "text": "Sau Chiến tranh thế giới thứ hai"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Do tác động của tiến bộ khoa học kỹ thuật và tập trung sản xuất."
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "math",
+    "name": "Toán 12 - Đề ôn tập tổng hợp số 12",
+    "description": "Đề luyện tập tổng hợp số 12, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 12
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^2$ và đường thẳng $y = 2x$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{4}{3}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{2}{3}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{5}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hoành độ giao điểm: $x^2 = 2x \\Leftrightarrow x=0, x=2$. $S = \\int_{0}^{2} |x^2 - 2x| \\text{d}x = \\int_{0}^{2} (2x - x^2) \\text{d}x = \\frac{4}{3}$."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Cho hai số phức $z_1 = 1 + i$ và $z_2 = 2 - 3i$. Tính tổng $z_1 + z_2$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$3 - 2i$"
+        },
+        {
+          "id": "B",
+          "text": "$3 + 2i$"
+        },
+        {
+          "id": "C",
+          "text": "$1 - 4i$"
+        },
+        {
+          "id": "D",
+          "text": "$1 + 2i$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$z_1 + z_2 = (1 + 2) + (1 - 3)i = 3 - 2i$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Thể tích của khối trụ có bán kính đáy $r = 2$ và chiều cao $h = 5$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$20\\pi$"
+        },
+        {
+          "id": "B",
+          "text": "$10\\pi$"
+        },
+        {
+          "id": "C",
+          "text": "$40\\pi$"
+        },
+        {
+          "id": "D",
+          "text": "$100\\pi$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$V = \\pi r^2 h = \\pi (2^2) (5) = 20\\pi$."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Cho $a$ là số thực dương tùy ý. Biểu thức $P = \\log_3(3a^2)$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$1 + 2\\log_3 a$"
+        },
+        {
+          "id": "B",
+          "text": "$3 + 2\\log_3 a$"
+        },
+        {
+          "id": "C",
+          "text": "$1 + \\log_3 a^2$"
+        },
+        {
+          "id": "D",
+          "text": "$1 + \\frac{1}{2}\\log_3 a$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = \\log_3 3 + \\log_3 a^2 = 1 + 2\\log_3 a$."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Nghiệm của phương trình $2^{2x-1} = 8$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1$"
+        },
+        {
+          "id": "B",
+          "text": "$x = 2$"
+        },
+        {
+          "id": "C",
+          "text": "$x = \\frac{3}{2}$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 4$"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "$2^{2x-1} = 2^3 \\Leftrightarrow 2x - 1 = 3 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đồ thị hàm số $y = x^3 - x$ và trục hoành bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{4}$"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nghiệm: $x^3 - x = 0 \\Leftrightarrow x=0, x=\\pm 1$. Vì hàm lẻ và đối xứng qua gốc tọa độ nên diện tích là $2 \\int_{0}^{1} |x^3-x| \\text{d}x = 2 \\int_{0}^{1} (x - x^3) \\text{d}x = 2(\\frac{1}{2} - \\frac{1}{4}) = 2(\\frac{1}{4}) = \\frac{1}{2}$."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Diện tích hình phẳng giới hạn bởi đường thẳng $y = x$ và parabol $y = x^2$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\frac{1}{6}$"
+        },
+        {
+          "id": "B",
+          "text": "$\\frac{1}{2}$"
+        },
+        {
+          "id": "C",
+          "text": "$\\frac{1}{3}$"
+        },
+        {
+          "id": "D",
+          "text": "$\\frac{5}{6}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Giao điểm: $x^2 = x \\Leftrightarrow x=0, x=1$. $S = \\int_{0}^{1} |x - x^2| \\text{d}x = \\int_{0}^{1} (x - x^2) \\text{d}x = (\\frac{x^2}{2} - \\frac{x^3}{3})\\Big|_0^1 = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tập nghiệm của bất phương trình $2^{x+1} > 4$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$(1; +\\infty)$"
+        },
+        {
+          "id": "B",
+          "text": "$(2; +\\infty)$"
+        },
+        {
+          "id": "C",
+          "text": "$(-\\infty; 1)$"
+        },
+        {
+          "id": "D",
+          "text": "$\\mathbb{R}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$2^{x+1} > 2^2 \\Leftrightarrow x + 1 > 2 \\Leftrightarrow x > 1$."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Cho $a$ là số thực dương. Giá trị của biểu thức $P = a^{\\frac{2}{3}} \\cdot \\sqrt{a}$ bằng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$a^{\\frac{7}{6}}$"
+        },
+        {
+          "id": "B",
+          "text": "$a^{\\frac{5}{6}}$"
+        },
+        {
+          "id": "C",
+          "text": "$a^{\\frac{2}{3}}$"
+        },
+        {
+          "id": "D",
+          "text": "$a^{\\frac{1}{6}}$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$P = a^{\\frac{2}{3}} \\cdot a^{\\frac{1}{2}} = a^{\\frac{2}{3} + \\frac{1}{2}} = a^{\\frac{4+3}{6}} = a^{\\frac{7}{6}}$."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Tập hợp các điểm biểu diễn số phức $z$ thỏa mãn $|z + 2 - i| = 3$ là đường tròn có tâm $I$ và bán kính $R$:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$I(-2; 1), R = 3$"
+        },
+        {
+          "id": "B",
+          "text": "$I(2; -1), R = 3$"
+        },
+        {
+          "id": "C",
+          "text": "$I(-2; 1), R = 9$"
+        },
+        {
+          "id": "D",
+          "text": "$I(2; -1), R = 9$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Phương trình có dạng $|z - (-2 + i)| = 3$. Tâm $I(-2; 1)$, bán kính $R=3$."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = \\frac{mx - 4}{x - m}$. Tìm tất cả các giá trị thực của tham số $m$ để hàm số đồng biến trên từng khoảng xác định.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$-2 < m < 2$"
+        },
+        {
+          "id": "B",
+          "text": "$m > 2$"
+        },
+        {
+          "id": "C",
+          "text": "$m < -2$"
+        },
+        {
+          "id": "D",
+          "text": "$m > 2$ hoặc $m < -2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = \\frac{-m^2 + 4}{(x-m)^2}$. Để hàm số đồng biến thì $y' > 0 \\Leftrightarrow -m^2 + 4 > 0 \\Leftrightarrow m^2 < 4 \\Leftrightarrow -2 < m < 2$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Thể tích khối lăng trụ có diện tích đáy $B$ và chiều cao $h$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$V = Bh$"
+        },
+        {
+          "id": "B",
+          "text": "$V = \\frac{1}{3}Bh$"
+        },
+        {
+          "id": "C",
+          "text": "$V = 3Bh$"
+        },
+        {
+          "id": "D",
+          "text": "$V = \\frac{1}{2}Bh$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức thể tích lăng trụ là $V = B.h$."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tìm các số thực $x, y$ thỏa mãn: $(2x + 1) + (3y - 2)i = (x + 2) + (y + 4)i$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$x = 1; y = 3$"
+        },
+        {
+          "id": "B",
+          "text": "$x = -1; y = 3$"
+        },
+        {
+          "id": "C",
+          "text": "$x = 1; y = -3$"
+        },
+        {
+          "id": "D",
+          "text": "$x = 3; y = 1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Thực bằng thực, ảo bằng ảo: $2x+1 = x+2 \\Rightarrow x=1$. $3y-2 = y+4 \\Rightarrow 2y=6 \\Rightarrow y=3$."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tính tích phân $I = \\int_{1}^{2} \\frac{1}{x} \\text{d}x$.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\ln 2$"
+        },
+        {
+          "id": "B",
+          "text": "$\\ln 3$"
+        },
+        {
+          "id": "C",
+          "text": "$e$"
+        },
+        {
+          "id": "D",
+          "text": "$1$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$I = \\ln|x| \\Big|_1^2 = \\ln 2 - \\ln 1 = \\ln 2 - 0 = \\ln 2$."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = f(x)$ xác định trên $\\mathbb{R}$ và có đạo hàm $f'(x) = x(x-1)^2(x+2)$. Số điểm cực trị của hàm số là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đạo hàm bằng 0 tại $x=0, x=1, x=-2$. Tuy nhiên, qua $x=1$ đạo hàm không đổi dấu (nghiệm bội chẵn). Chỉ đổi dấu tại $x=0$ và $x=-2$. Vậy có 2 cực trị."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Cho số phức $z = 1 - 2i$. Điểm biểu diễn của số phức $w = iz$ trên mặt phẳng tọa độ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$M(2; 1)$"
+        },
+        {
+          "id": "B",
+          "text": "$M(1; -2)$"
+        },
+        {
+          "id": "C",
+          "text": "$M(2; -1)$"
+        },
+        {
+          "id": "D",
+          "text": "$M(-2; 1)$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$w = i(1 - 2i) = i - 2i^2 = i - 2(-1) = 2 + i$. Điểm biểu diễn là $(2; 1)$."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Giá trị nhỏ nhất của hàm số $y = x^3 - 3x + 4$ trên đoạn $[0; 2]$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$y' = 3x^2 - 3$. $y'=0 \\Leftrightarrow x=1$ (thuộc đoạn). $y(0)=4, y(1)=2, y(2)=6$. Min là 2."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Cho hàm số $y = x^4 - 2x^2 - 1$. Kết luận nào sau đây sai?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hàm số có 3 điểm cực trị."
+        },
+        {
+          "id": "B",
+          "text": "Đồ thị hàm số nhận trục tung làm trục đối xứng."
+        },
+        {
+          "id": "C",
+          "text": "Hàm số nghịch biến trên khoảng $(0; 1)$."
+        },
+        {
+          "id": "D",
+          "text": "Giá trị cực đại của hàm số bằng -2."
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Tại $x=0$, $y=-1$ (Cực đại). Tại $x=\\pm 1$, $y=-2$ (Cực tiểu). Vậy giá trị cực đại là -1, đáp án D nói -2 là sai."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cho số phức $z$ thỏa mãn $(1 + i)z = 3 - i$. Môđun của số phức $z$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$\\sqrt{5}$"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "$\\sqrt{2}$"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$|1+i| \\cdot |z| = |3-i| \\Rightarrow \\sqrt{2} |z| = \\sqrt{10} \\Rightarrow |z| = \\sqrt{5}$."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Diện tích mặt cầu ngoại tiếp hình lập phương cạnh $a$ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$3\\pi a^2$"
+        },
+        {
+          "id": "B",
+          "text": "$4\\pi a^2$"
+        },
+        {
+          "id": "C",
+          "text": "$\\pi a^2$"
+        },
+        {
+          "id": "D",
+          "text": "$12\\pi a^2$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường chéo lập phương $d = a\\sqrt{3} = 2R \\Rightarrow R = \\frac{a\\sqrt{3}}{2}$. $S = 4\\pi R^2 = 4\\pi \\frac{3a^2}{4} = 3\\pi a^2$."
+    }
+  ]
+}

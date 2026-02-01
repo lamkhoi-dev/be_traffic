@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật lý 12 - Đề ôn tập tổng hợp số 15",
+    "description": "Đề luyện tập tổng hợp số 15, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 15
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hiện tượng quang dẫn là hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện trở của chất bán dẫn giảm mạnh khi được chiếu sáng"
+        },
+        {
+          "id": "B",
+          "text": "Điện trở của kim loại giảm mạnh khi được chiếu sáng"
+        },
+        {
+          "id": "C",
+          "text": "Chất bán dẫn phát sáng khi có dòng điện chạy qua"
+        },
+        {
+          "id": "D",
+          "text": "Kim loại phát xạ electron khi được chiếu sáng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Ánh sáng giải phóng electron liên kết thành electron dẫn, làm tăng độ dẫn điện (giảm điện trở)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Biên độ dao động tổng hợp của hai dao động cùng phương, cùng tần số không phụ thuộc vào:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Biên độ của dao động thứ nhất"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ của dao động thứ hai"
+        },
+        {
+          "id": "C",
+          "text": "Tần số chung của hai dao động"
+        },
+        {
+          "id": "D",
+          "text": "Độ lệch pha giữa hai dao động"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Công thức $A^2 = A_1^2 + A_2^2 + 2A_1A_2\\cos(\\Delta \\varphi)$. Không chứa $\\omega$ (tần số)."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Một vật dao động điều hòa theo phương trình $x = A\\cos(\\omega t + \\varphi)$. Đại lượng $A$ được gọi là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Li độ dao động"
+        },
+        {
+          "id": "B",
+          "text": "Biên độ dao động"
+        },
+        {
+          "id": "C",
+          "text": "Pha ban đầu"
+        },
+        {
+          "id": "D",
+          "text": "Tần số góc"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Trong phương trình dao động điều hòa, A là biên độ dao động (giá trị cực đại của li độ)."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Trong giao thoa sóng nước, hai nguồn kết hợp A, B dao động cùng pha. Điểm M nằm trên đường trung trực của AB sẽ dao động với biên độ:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cực đại"
+        },
+        {
+          "id": "B",
+          "text": "Cực tiểu"
+        },
+        {
+          "id": "C",
+          "text": "Bằng biên độ nguồn"
+        },
+        {
+          "id": "D",
+          "text": "Bằng 0"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đường trung trực của hai nguồn cùng pha là vân cực đại trung tâm ($k=0$)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Sóng điện từ dùng trong thông tin liên lạc dưới nước là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng dài"
+        },
+        {
+          "id": "B",
+          "text": "Sóng trung"
+        },
+        {
+          "id": "C",
+          "text": "Sóng ngắn"
+        },
+        {
+          "id": "D",
+          "text": "Sóng cực ngắn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng dài ít bị nước hấp thụ, dùng để liên lạc tàu ngầm."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mạch chọn sóng trong máy thu thanh vô tuyến hoạt động dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cộng hưởng điện từ"
+        },
+        {
+          "id": "B",
+          "text": "Cảm ứng điện từ"
+        },
+        {
+          "id": "C",
+          "text": "Giao thoa sóng"
+        },
+        {
+          "id": "D",
+          "text": "Phản xạ sóng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mạch thu sóng (LC) thay đổi C hoặc L để tần số riêng mạch bằng tần số sóng cần thu (cộng hưởng)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Hiện tượng tán sắc ánh sáng xảy ra khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiếu chùm ánh sáng trắng qua lăng kính"
+        },
+        {
+          "id": "B",
+          "text": "Chiếu chùm ánh sáng đơn sắc qua lăng kính"
+        },
+        {
+          "id": "C",
+          "text": "Ánh sáng phản xạ trên gương phẳng"
+        },
+        {
+          "id": "D",
+          "text": "Ánh sáng truyền qua tấm thủy tinh phẳng song song"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tán sắc là hiện tượng lăng kính phân tách chùm sáng phức tạp thành các thành phần đơn sắc."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hiện tượng quang điện ngoài là hiện tượng electron bị bật ra khỏi bề mặt kim loại khi:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Chiếu vào kim loại ánh sáng thích hợp"
+        },
+        {
+          "id": "B",
+          "text": "Nung nóng kim loại"
+        },
+        {
+          "id": "C",
+          "text": "Đặt kim loại vào từ trường mạnh"
+        },
+        {
+          "id": "D",
+          "text": "Cho dòng điện chạy qua kim loại"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa hiện tượng quang điện ngoài."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Quang trở là một linh kiện hoạt động dựa trên:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hiện tượng quang điện trong"
+        },
+        {
+          "id": "B",
+          "text": "Hiện tượng nhiệt điện"
+        },
+        {
+          "id": "C",
+          "text": "Hiện tượng siêu dẫn"
+        },
+        {
+          "id": "D",
+          "text": "Hiện tượng quang điện ngoài"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang trở làm bằng chất bán dẫn, dựa trên quang điện trong."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Con lắc đơn dao động điều hòa với chu kì 2s tại nơi có $g=\\pi^2$ m/s$^2$. Chiều dài con lắc là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1 m"
+        },
+        {
+          "id": "B",
+          "text": "2 m"
+        },
+        {
+          "id": "C",
+          "text": "0,5 m"
+        },
+        {
+          "id": "D",
+          "text": "4 m"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "$T = 2\\pi\\sqrt{l/g} \\Rightarrow 2 = 2\\sqrt{10}\\sqrt{l/10} \\Rightarrow 2 = 2\\sqrt{l} \\Rightarrow l=1$m."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Hệ thức Anh-xtanh giữa năng lượng và khối lượng là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$E = mc^2$"
+        },
+        {
+          "id": "B",
+          "text": "$E = \\frac{1}{2}mc^2$"
+        },
+        {
+          "id": "C",
+          "text": "$E = mc$"
+        },
+        {
+          "id": "D",
+          "text": "$E = m^2c$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức nổi tiếng $E = mc^2$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Để có giao thoa sóng, hai nguồn sóng phải:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Dao động cùng biên độ"
+        },
+        {
+          "id": "B",
+          "text": "Kết hợp (cùng tần số và hiệu số pha không đổi)"
+        },
+        {
+          "id": "C",
+          "text": "Chuyển động ngược chiều nhau"
+        },
+        {
+          "id": "D",
+          "text": "Có cùng cường độ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Điều kiện giao thoa là hai nguồn kết hợp: cùng phương, cùng tần số, hiệu số pha không đổi theo thời gian."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Phản ứng nhiệt hạch là phản ứng:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kết hợp hai hạt nhân nhẹ thành hạt nhân nặng hơn ở nhiệt độ rất cao"
+        },
+        {
+          "id": "B",
+          "text": "Hạt nhân nặng vỡ thành hai mảnh nhẹ hơn"
+        },
+        {
+          "id": "C",
+          "text": "Phân rã phóng xạ"
+        },
+        {
+          "id": "D",
+          "text": "Kết hợp hai hạt nhân nặng thành hạt nhân siêu nặng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa phản ứng nhiệt hạch."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Trong động cơ không đồng bộ ba pha, tốc độ quay của roto ($n$) so với tốc độ quay của từ trường ($n_0$) luôn thỏa mãn:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$n < n_0$"
+        },
+        {
+          "id": "B",
+          "text": "$n = n_0$"
+        },
+        {
+          "id": "C",
+          "text": "$n > n_0$"
+        },
+        {
+          "id": "D",
+          "text": "$n = 0$"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Gọi là 'không đồng bộ' vì roto luôn quay chậm hơn từ trường quay ($n < n_0$)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Sóng điện từ là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Sóng ngang"
+        },
+        {
+          "id": "B",
+          "text": "Sóng dọc"
+        },
+        {
+          "id": "C",
+          "text": "Sóng cơ học"
+        },
+        {
+          "id": "D",
+          "text": "Sóng âm"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sóng điện từ luôn là sóng ngang, lan truyền được trong chân không. (Các vecto E, B và v vuông góc với nhau)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Chu kì bán rã $T$ là khoảng thời gian để:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một nửa số hạt nhân ban đầu bị phân rã"
+        },
+        {
+          "id": "B",
+          "text": "Toàn bộ số hạt nhân bị phân rã"
+        },
+        {
+          "id": "C",
+          "text": "Khối lượng chất phóng xạ giảm đi 4 lần"
+        },
+        {
+          "id": "D",
+          "text": "Số hạt nhân giảm đi $e$ lần"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa chu kì bán rã."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Trong đoạn mạch RLC nối tiếp, nếu $Z_L > Z_C$ thì:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện áp $u$ sớm pha hơn dòng điện $i$"
+        },
+        {
+          "id": "B",
+          "text": "Điện áp $u$ trễ pha hơn dòng điện $i$"
+        },
+        {
+          "id": "C",
+          "text": "Điện áp $u$ cùng pha với dòng điện $i$"
+        },
+        {
+          "id": "D",
+          "text": "Mạch có tính dung kháng"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nếu $Z_L > Z_C$ (tính cảm kháng) thì $\\varphi > 0$, tức là $u$ sớm pha hơn $i$."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Công suất của một đoạn mạch xoay chiều được tính bằng công thức nào sau đây?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "$P = U^2/Z$"
+        },
+        {
+          "id": "B",
+          "text": "$P = I^2Z$"
+        },
+        {
+          "id": "C",
+          "text": "$P = UI$"
+        },
+        {
+          "id": "D",
+          "text": "$P = RI^2$"
+        }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Công suất tiêu thụ chỉ tỏa nhiệt trên R: $P = I^2R$ (hoặc $UI\\cos\\varphi$). Các công thức khác sai hoặc thiếu hệ số công suất."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Trạng thái dừng của nguyên tử là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Trạng thái electron không chuyển động"
+        },
+        {
+          "id": "B",
+          "text": "Trạng thái hạt nhân không dao động"
+        },
+        {
+          "id": "C",
+          "text": "Trạng thái có năng lượng hoàn toàn xác định"
+        },
+        {
+          "id": "D",
+          "text": "Trạng thái nguyên tử đứng yên"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tiên đề Bo."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Để giảm hao phí điện năng, người ta dùng dây dẫn có:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Điện trở suất nhỏ"
+        },
+        {
+          "id": "B",
+          "text": "Điện trở suất lớn"
+        },
+        {
+          "id": "C",
+          "text": "Tiết diện nhỏ"
+        },
+        {
+          "id": "D",
+          "text": "Chiều dài lớn"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Điện trở $R = \\rho l / S$. Muốn $R$ nhỏ (để giảm hao phí) thì $\\rho$ (điện trở suất) phải nhỏ."
+    }
+  ]
+}

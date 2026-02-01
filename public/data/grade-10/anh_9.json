@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade10",
+    "subject": "english",
+    "name": "Tiếng Anh 10 - Unit 9: Protecting the Environment",
+    "description": "Kiểm tra từ vựng về Bảo vệ môi trường và ngữ pháp Câu tường thuật (Reported Speech).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 10,
+    "chapter": 9
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "pollu_tion" },
+        { "id": "B", "text": "ques_tion" },
+        { "id": "C", "text": "ac_tion" },
+        { "id": "D", "text": "popula_tion" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Question (/tʃən/). Các từ còn lại (/ʃən/)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Choose the word with a different stress pattern.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "animal" },
+        { "id": "B", "text": "practical" },
+        { "id": "C", "text": "energy" },
+        { "id": "D", "text": "pollution" }
+      ],
+      "correctAnswer": "D",
+      "points": 10,
+      "explanation": "Pollution nhấn âm 2. Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Global warming has a negative ________ on our climate.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "impact" },
+        { "id": "B", "text": "affect" },
+        { "id": "C", "text": "result" },
+        { "id": "D", "text": "cause" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Have an impact on: có tác động lên."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "She said that she ________ busy then.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is" },
+        { "id": "B", "text": "was" },
+        { "id": "C", "text": "were" },
+        { "id": "D", "text": "has been" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu tường thuật lùi thì: 'is' -> 'was' (do chủ ngữ 'she')."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Many animals are losing their natural ________ due to deforestation.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "habitats" },
+        { "id": "B", "text": "habits" },
+        { "id": "C", "text": "homes" },
+        { "id": "D", "text": "places" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Natural habitats: môi trường sống tự nhiên."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tom told me that he ________ visit his grandparents the following day.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "will" },
+        { "id": "B", "text": "would" },
+        { "id": "C", "text": "can" },
+        { "id": "D", "text": "may" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tường thuật 'tomorrow' -> 'the following day', nên 'will' -> 'would'."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "We should stop cutting down trees to preserve ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "biodiversity" },
+        { "id": "B", "text": "diversity" },
+        { "id": "C", "text": "university" },
+        { "id": "D", "text": "biology" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Preserve biodiversity: bảo tồn đa dạng sinh học."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "He asked me where I ________ from.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "come" },
+        { "id": "B", "text": "came" },
+        { "id": "C", "text": "coming" },
+        { "id": "D", "text": "to come" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Câu hỏi tường thuật (Wh-question): lùi thì (come -> came)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Illegal hunting can lead to the ________ of rare animals.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "extinct" },
+        { "id": "B", "text": "extinction" },
+        { "id": "C", "text": "dead" },
+        { "id": "D", "text": "death" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lead to extinction: dẫn đến sự tuyệt chủng."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "The teacher asked the students if they ________ their homework.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "finish" },
+        { "id": "B", "text": "had finished" },
+        { "id": "C", "text": "have finished" },
+        { "id": "D", "text": "finishing" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tường thuật câu hỏi Yes/No. Lùi thì: Past Simple/Present Perfect -> Past Perfect."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "________ is the increase in the earth's temperature.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Global warming" },
+        { "id": "B", "text": "Greenhouse effect" },
+        { "id": "C", "text": "Climate change" },
+        { "id": "D", "text": "Pollution" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa của Global warming."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Nam said: 'I am reading a book.' -> Nam said that he ________ a book.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is reading" },
+        { "id": "B", "text": "was reading" },
+        { "id": "C", "text": "read" },
+        { "id": "D", "text": "has read" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Present Continuous (am reading) -> Past Continuous (was reading)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Plastic bags take many years to ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "disappear" },
+        { "id": "B", "text": "decompose" },
+        { "id": "C", "text": "melt" },
+        { "id": "D", "text": "break" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Decompose: phân hủy."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Lan asked Mai: 'Do you like pop music?' -> Lan asked Mai ________ she liked pop music.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "if" },
+        { "id": "B", "text": "that" },
+        { "id": "C", "text": "what" },
+        { "id": "D", "text": "did" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu hỏi Yes/No trong gián tiếp dùng 'if' hoặc 'whether'."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "We need to ________ natural resources for future generations.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "waste" },
+        { "id": "B", "text": "conserve" },
+        { "id": "C", "text": "destroy" },
+        { "id": "D", "text": "use" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Conserve: bảo tồn."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Identify the error: 'He said me that he was tired.'",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "said" },
+        { "id": "B", "text": "me" },
+        { "id": "C", "text": "that" },
+        { "id": "D", "text": "was" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Sai dùng 'said me'. Phải là 'told me' hoặc 'said to me'."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Sea levels are rising because the polar ice caps are ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "freezing" },
+        { "id": "B", "text": "melting" },
+        { "id": "C", "text": "burning" },
+        { "id": "D", "text": "falling" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Melting: tan chảy."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "My father said: 'I will repair the bike tomorrow.' -> My father said he would repair the bike ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "tomorrow" },
+        { "id": "B", "text": "the next day" },
+        { "id": "C", "text": "yesterday" },
+        { "id": "D", "text": "today" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Tomorrow -> the next day / the following day."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Using public transport is a good way to reduce ________.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "emissions" },
+        { "id": "B", "text": "traffic" },
+        { "id": "C", "text": "money" },
+        { "id": "D", "text": "people" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Reduce emissions: giảm khí thải."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "The reporter announced that the forest fire ________ under control.",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "is" },
+        { "id": "B", "text": "was" },
+        { "id": "C", "text": "will be" },
+        { "id": "D", "text": "has been" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lùi thì: is -> was."
+    }
+  ]
+}

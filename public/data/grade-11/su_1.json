@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Bài 1: Cách mạng tư sản",
+    "description": "Kiểm tra kiến thức về tiền đề, mục tiêu, nhiệm vụ, giai cấp lãnh đạo và động lực của các cuộc cách mạng tư sản tiêu biểu.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 1
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Tiền đề kinh tế quan trọng nhất dẫn đến sự bùng nổ của các cuộc cách mạng tư sản là gì?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Kinh tế phong kiến phát triển mạnh mẽ" },
+        { "id": "B", "text": "Phương thức sản xuất tư bản chủ nghĩa ra đời và phát triển trong lòng chế độ phong kiến" },
+        { "id": "C", "text": "Nông nghiệp lạc hậu, mất mùa đói kém" },
+        { "id": "D", "text": "Thương mại quốc tế bị đình trệ" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự phát triển của kinh tế TBCN mâu thuẫn với sự kìm hãm của chế độ phong kiến là nguyên nhân sâu xa."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong xã hội Pháp trước cách mạng 1789, giai cấp nào **không** thuộc Đẳng cấp thứ ba?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nông dân" },
+        { "id": "B", "text": "Tư sản" },
+        { "id": "C", "text": "Tăng lữ giáo hội" },
+        { "id": "D", "text": "Bình dân thành thị" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tăng lữ thuộc Đẳng cấp thứ nhất. Quý tộc thuộc Đẳng cấp thứ hai."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Giai cấp lãnh đạo Cách mạng tư sản Anh (thế kỷ XVII) là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tư sản và nông dân" },
+        { "id": "B", "text": "Tư sản và quý tộc mới" },
+        { "id": "C", "text": "Quý tộc phong kiến và tăng lữ" },
+        { "id": "D", "text": "Công nhân và tư sản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Liên minh giữa tư sản và quý tộc mới (những quý tộc kinh doanh theo lối tư bản) là đặc điểm của CMTS Anh."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Mục tiêu chung của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Lật đổ chế độ phong kiến, thực dân, mở đường cho CNTB phát triển" },
+        { "id": "B", "text": "Xây dựng chế độ xã hội chủ nghĩa" },
+        { "id": "C", "text": "Đưa giai cấp công nhân lên nắm quyền" },
+        { "id": "D", "text": "Bảo vệ quyền lợi cho giai cấp nông dân" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mục tiêu xuyên suốt là xóa bỏ rào cản phong kiến/thực dân để phát triển kinh tế tư bản."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào được coi là cuộc cách mạng tư sản triệt để nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng tư sản Anh" },
+        { "id": "B", "text": "Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ" },
+        { "id": "C", "text": "Cách mạng tư sản Pháp cuối thế kỷ XVIII" },
+        { "id": "D", "text": "Cách mạng Hà Lan" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "CMTS Pháp đã lật đổ hoàn toàn chế độ phong kiến, giải quyết vấn đề ruộng đất và thiết lập nền cộng hòa."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Động lực chính (lực lượng nòng cốt) của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quý tộc và tăng lữ" },
+        { "id": "B", "text": "Giai cấp tư sản" },
+        { "id": "C", "text": "Quần chúng nhân dân (nông dân, bình dân thành thị, công nhân...)" },
+        { "id": "D", "text": "Vua và hoàng gia" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quần chúng nhân dân là lực lượng đông đảo nhất, thúc đẩy cách mạng đi lên."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Tuyên ngôn Độc lập (1776) của Mỹ đã kế thừa tư tưởng tiến bộ của trào lưu nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Triết học ánh sáng Pháp" },
+        { "id": "B", "text": "Phục hưng văn hóa" },
+        { "id": "C", "text": "Cải cách tôn giáo" },
+        { "id": "D", "text": "Chủ nghĩa Mác" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tư tưởng về quyền con người, quyền tự do, bình đẳng của Triết học Ánh sáng đã ảnh hưởng lớn đến Tuyên ngôn."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Hình thức chính quyền được thiết lập sau Cách mạng tư sản Anh là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cộng hòa dân chủ" },
+        { "id": "B", "text": "Quân chủ chuyên chế" },
+        { "id": "C", "text": "Quân chủ lập hiến" },
+        { "id": "D", "text": "Xã hội chủ nghĩa" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Vua vẫn tồn tại nhưng quyền lực bị hạn chế bởi Hiến pháp/Nghị viện (Vua trị vì nhưng không cai trị)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Nhiệm vụ dân tộc của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Xóa bỏ tình trạng phong kiến cát cứ, thống nhất thị trường, giải phóng dân tộc" },
+        { "id": "B", "text": "Xóa bỏ chế độ bóc lột của tư bản" },
+        { "id": "C", "text": "Thiết lập nền chuyên chính vô sản" },
+        { "id": "D", "text": "Thực hiện quyền bình đẳng nam nữ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Nhiệm vụ dân tộc là thống nhất đất nước hoặc giải phóng dân tộc khỏi ách đô hộ (như ở Mỹ)."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Khẩu hiệu nổi tiếng \"Tự do - Bình đẳng - Bác ái\" là của cuộc cách mạng nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cách mạng tư sản Anh" },
+        { "id": "B", "text": "Chiến tranh giành độc lập ở Bắc Mỹ" },
+        { "id": "C", "text": "Cách mạng tư sản Pháp" },
+        { "id": "D", "text": "Cách mạng tháng Mười Nga" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đây là tiêu ngữ của Cộng hòa Pháp, xuất phát từ Cách mạng 1789."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Cuộc Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ thực chất là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Một cuộc nội chiến" },
+        { "id": "B", "text": "Một cuộc cách mạng tư sản" },
+        { "id": "C", "text": "Một cuộc chiến tranh nông dân" },
+        { "id": "D", "text": "Một cuộc cải cách tôn giáo" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nó lật đổ ách thống trị thực dân (tương đương phong kiến), mở đường cho CNTB Mỹ phát triển."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự bùng nổ của Cách mạng tư sản Pháp 1789?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vua Lu-i XVI triệu tập Hội nghị ba đẳng cấp" },
+        { "id": "B", "text": "Quần chúng nhân dân tấn công ngục Ba-xti (14/7/1789)" },
+        { "id": "C", "text": "Thông qua Tuyên ngôn Nhân quyền và Dân quyền" },
+        { "id": "D", "text": "Vua Lu-i XVI bị xử chém" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sự kiện phá ngục Ba-xti là biểu tượng mở đầu cho cách mạng."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Tư tưởng \"Tam quyền phân lập\" (lập pháp, hành pháp, tư pháp) được vận dụng rõ nét nhất trong hiến pháp nước nào?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Anh" },
+        { "id": "B", "text": "Mỹ" },
+        { "id": "C", "text": "Đức" },
+        { "id": "D", "text": "Nhật Bản" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Hiến pháp Mỹ năm 1787 vận dụng triệt để học thuyết của Mông-te-xki-ơ."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Kết quả chung của các cuộc cách mạng tư sản là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thiết lập chế độ tư bản chủ nghĩa" },
+        { "id": "B", "text": "Thiết lập chế độ phong kiến" },
+        { "id": "C", "text": "Thiết lập chế độ xã hội chủ nghĩa" },
+        { "id": "D", "text": "Xóa bỏ hoàn toàn sự bất bình đẳng trong xã hội" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quyền lực chuyển từ tay phong kiến sang tay tư sản."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Trong Cách mạng tư sản Anh, lực lượng nào đại diện cho quan hệ sản xuất mới?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quý tộc cũ" },
+        { "id": "B", "text": "Nông dân" },
+        { "id": "C", "text": "Quý tộc mới và tư sản" },
+        { "id": "D", "text": "Thợ thủ công" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Quý tộc mới và tư sản đại diện cho phương thức sản xuất TBCN."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Nhiệm vụ dân chủ của cách mạng tư sản thể hiện qua việc:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Thống nhất thị trường dân tộc" },
+        { "id": "B", "text": "Xóa bỏ chế độ phong kiến, đem lại quyền tự do chính trị, kinh tế cho người dân" },
+        { "id": "C", "text": "Đánh đuổi ngoại xâm" },
+        { "id": "D", "text": "Thành lập quân đội quốc gia" }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nhiệm vụ dân chủ là giải quyết các vấn đề về quyền con người, ruộng đất và xóa bỏ đặc quyền phong kiến."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Ở Pháp, trước cách mạng, mâu thuẫn cơ bản nhất là mâu thuẫn giữa:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Đẳng cấp thứ ba với Đẳng cấp thứ nhất và thứ hai" },
+        { "id": "B", "text": "Nông dân với tư sản" },
+        { "id": "C", "text": "Tư sản với công nhân" },
+        { "id": "D", "text": "Vua với Tăng lữ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đẳng cấp thứ 3 (chiếm đa số, chịu mọi thứ thuế) mâu thuẫn gay gắt với 2 đẳng cấp đặc quyền."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Người đứng đầu phái Gia-cô-banh trong Cách mạng Pháp là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Rô-be-xpi-e" },
+        { "id": "B", "text": "Na-pô-lê-ông" },
+        { "id": "C", "text": "La Phay-ét" },
+        { "id": "D", "text": "Oa-sinh-tơn" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Rô-be-xpi-e là lãnh tụ tiêu biểu của phái Gia-cô-banh, đưa cách mạng lên đỉnh cao."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Điểm khác biệt của Cách mạng tư sản Mỹ so với Cách mạng tư sản Anh là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Do giai cấp tư sản lãnh đạo" },
+        { "id": "B", "text": "Lật đổ chế độ phong kiến trong nước" },
+        { "id": "C", "text": "Là cuộc chiến tranh giải phóng dân tộc khỏi thực dân" },
+        { "id": "D", "text": "Có động lực là quần chúng nhân dân" }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Mỹ đánh đuổi thực dân Anh để giành độc lập, trong khi Anh là nội chiến lật đổ Vua."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Tính chất chưa triệt để của Cách mạng tư sản Anh thể hiện ở chỗ:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Vẫn duy trì ngôi Vua và không giải quyết vấn đề ruộng đất cho nông dân" },
+        { "id": "B", "text": "Tư sản không nắm quyền lực" },
+        { "id": "C", "text": "Kinh tế không phát triển sau cách mạng" },
+        { "id": "D", "text": "Chưa xóa bỏ được Giáo hội" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Việc thiết lập quân chủ lập hiến và nông dân không có ruộng đất cho thấy sự thỏa hiệp của tư sản."
+    }
+  ]
+}

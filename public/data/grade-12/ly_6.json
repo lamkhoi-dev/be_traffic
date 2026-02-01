@@ -1,0 +1,315 @@
+{
+  "test": {
+    "type": "grade12",
+    "subject": "physics",
+    "name": "Vật Lý 12 - Bài 6: Sóng ánh sáng",
+    "description": "Kiểm tra kiến thức về Tán sắc, Giao thoa ánh sáng, Các loại quang phổ và Các loại tia (Hồng ngoại, Tử ngoại, X).",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 12,
+    "chapter": 6
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Hiện tượng tán sắc ánh sáng xảy ra khi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chiếu chùm ánh sáng trắng qua lăng kính" },
+        { "id": "B", "text": "Chiếu chùm ánh sáng đơn sắc qua lăng kính" },
+        { "id": "C", "text": "Ánh sáng phản xạ trên gương phẳng" },
+        { "id": "D", "text": "Ánh sáng truyền qua tấm thủy tinh phẳng song song" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tán sắc là hiện tượng lăng kính phân tách chùm sáng phức tạp thành các thành phần đơn sắc."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng về giao thoa ánh sáng, khoảng vân $i$ được tính bằng công thức:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$i = \\frac{\\lambda D}{a}$" },
+        { "id": "B", "text": "$i = \\frac{\\lambda a}{D}$" },
+        { "id": "C", "text": "$i = \\frac{a D}{\\lambda}$" },
+        { "id": "D", "text": "$i = \\lambda D a$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Công thức cơ bản: $i = \\lambda D / a$."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Ánh sáng đơn sắc là ánh sáng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Không bị tán sắc khi đi qua lăng kính" },
+        { "id": "B", "text": "Có màu trắng" },
+        { "id": "C", "text": "Bị đổi màu khi đi qua lăng kính" },
+        { "id": "D", "text": "Luôn truyền với tốc độ $3.10^8$ m/s" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Định nghĩa: Ánh sáng đơn sắc có tần số xác định và không bị tán sắc."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Thân thể con người ở nhiệt độ $37^\\circ C$ phát ra bức xạ nào mạnh nhất?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia hồng ngoại" },
+        { "id": "B", "text": "Tia tử ngoại" },
+        { "id": "C", "text": "Ánh sáng nhìn thấy" },
+        { "id": "D", "text": "Tia X" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Mọi vật có nhiệt độ trên 0K đều phát tia hồng ngoại. Ở 37 độ C, cơ thể người phát tia hồng ngoại."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Quang phổ liên tục phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Nhiệt độ của nguồn sáng" },
+        { "id": "B", "text": "Thành phần cấu tạo của nguồn sáng" },
+        { "id": "C", "text": "Kích thước của nguồn sáng" },
+        { "id": "D", "text": "Khoảng cách từ nguồn đến máy quang phổ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang phổ liên tục chỉ phụ thuộc nhiệt độ, không phụ thuộc bản chất nguồn sáng."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Tia tử ngoại có tính chất nào sau đây?",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tác dụng sinh lý mạnh, diệt khuẩn" },
+        { "id": "B", "text": "Không bị nước và thủy tinh hấp thụ" },
+        { "id": "C", "text": "Có tác dụng nhiệt mạnh hơn tia hồng ngoại" },
+        { "id": "D", "text": "Không làm ion hóa không khí" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tia tử ngoại có khả năng diệt khuẩn, chữa bệnh còi xương, làm ion hóa không khí."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Trong chân không, sắp xếp các tia sau theo thứ tự bước sóng giảm dần:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hồng ngoại, Ánh sáng tím, Tử ngoại, Tia X" },
+        { "id": "B", "text": "Tia X, Tử ngoại, Ánh sáng tím, Hồng ngoại" },
+        { "id": "C", "text": "Hồng ngoại, Tử ngoại, Ánh sáng tím, Tia X" },
+        { "id": "D", "text": "Tử ngoại, Hồng ngoại, Tia X, Ánh sáng tím" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bước sóng: Hồng ngoại > Đỏ ... Tím > Tử ngoại > X."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Tia X được tạo ra bằng cách:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Cho chùm electron tốc độ cao đập vào kim loại có nguyên tử lượng lớn" },
+        { "id": "B", "text": "Nung nóng vật rắn lên nhiệt độ rất cao" },
+        { "id": "C", "text": "Chiếu tia tử ngoại vào kim loại" },
+        { "id": "D", "text": "Phóng điện qua chất khí ở áp suất thấp" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cơ chế tạo tia X (ống Culít-giơ)."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Khoảng cách giữa 5 vân sáng liên tiếp là 2,4 mm. Khoảng vân $i$ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "0,6 mm" },
+        { "id": "B", "text": "0,48 mm" },
+        { "id": "C", "text": "2,4 mm" },
+        { "id": "D", "text": "0,8 mm" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "5 vân sáng liên tiếp tương ứng với 4 khoảng vân. $4i = 2,4 \\Rightarrow i = 0,6$ mm."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ứng dụng nổi bật của tia hồng ngoại là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Sấy khô, sưởi ấm" },
+        { "id": "B", "text": "Chụp điện, chiếu điện" },
+        { "id": "C", "text": "Khử trùng dụng cụ y tế" },
+        { "id": "D", "text": "Tìm khuyết tật bên trong vật đúc" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tác dụng nổi bật nhất của tia hồng ngoại là tác dụng nhiệt."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Trong thí nghiệm Y-âng, vân tối thứ 3 cách vân trung tâm một khoảng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "$2,5i$" },
+        { "id": "B", "text": "$3i$" },
+        { "id": "C", "text": "$3,5i$" },
+        { "id": "D", "text": "$1,5i$" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Vân tối thứ $k$ có tọa độ $x = (k - 0,5)i$. Vân tối thứ 3 ứng với $x = 2,5i$."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Quang phổ vạch phát xạ được phát ra bởi:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Chất khí hay hơi ở áp suất thấp bị kích thích" },
+        { "id": "B", "text": "Chất rắn nung nóng" },
+        { "id": "C", "text": "Chất lỏng nung nóng" },
+        { "id": "D", "text": "Chất khí ở áp suất cao nung nóng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Chất khí áp suất thấp khi bị kích thích phát ra quang phổ vạch."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Máy quang phổ lăng kính hoạt động dựa trên hiện tượng:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tán sắc ánh sáng" },
+        { "id": "B", "text": "Giao thoa ánh sáng" },
+        { "id": "C", "text": "Nhiễu xạ ánh sáng" },
+        { "id": "D", "text": "Phản xạ ánh sáng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Bộ phận chính là lăng kính làm nhiệm vụ tán sắc."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Tia X có cùng bản chất với:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tia hồng ngoại" },
+        { "id": "B", "text": "Sóng âm" },
+        { "id": "C", "text": "Tia catot" },
+        { "id": "D", "text": "Tia beta" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Cả hai đều là sóng điện từ. (Tia catot và beta là dòng hạt electron)."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Màu sắc của ánh sáng đơn sắc phụ thuộc vào:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số của ánh sáng" },
+        { "id": "B", "text": "Tốc độ truyền ánh sáng" },
+        { "id": "C", "text": "Bước sóng trong mọi môi trường" },
+        { "id": "D", "text": "Chiết suất của môi trường" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Màu sắc gắn liền với tần số (không đổi khi qua các môi trường)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Khi sóng ánh sáng truyền từ không khí vào thủy tinh thì:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Tần số không đổi, bước sóng giảm" },
+        { "id": "B", "text": "Tần số tăng, bước sóng giảm" },
+        { "id": "C", "text": "Tần số giảm, bước sóng tăng" },
+        { "id": "D", "text": "Tần số không đổi, bước sóng tăng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tần số không đổi. $v = c/n$, $v$ giảm nên $\\lambda$ giảm."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Tính chất nổi bật của tia X là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Khả năng đâm xuyên" },
+        { "id": "B", "text": "Tác dụng nhiệt" },
+        { "id": "C", "text": "Làm ion hóa không khí" },
+        { "id": "D", "text": "Gây ra hiện tượng quang điện" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tính đâm xuyên mạnh dùng để chụp X-quang."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Thí nghiệm giao thoa Y-âng với ánh sáng trắng ($0,38\\mu m \\le \\lambda \\le 0,76\\mu m$). Tại vị trí vân trung tâm có màu:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Trắng" },
+        { "id": "B", "text": "Đỏ" },
+        { "id": "C", "text": "Tím" },
+        { "id": "D", "text": "Cầu vồng" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Tại vân trung tâm, mọi ánh sáng đơn sắc đều cho vân sáng bậc 0 nên chồng chập lại thành ánh sáng trắng."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Để nhận biết sự có mặt của các nguyên tố hóa học trong mẫu vật, người ta nghiên cứu:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Quang phổ vạch" },
+        { "id": "B", "text": "Quang phổ liên tục" },
+        { "id": "C", "text": "Nhiệt độ mẫu vật" },
+        { "id": "D", "text": "Độ sáng mẫu vật" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Quang phổ vạch là đặc trưng cho nguyên tố."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Bộ phận có tác dụng phân tích chùm sáng phức tạp thành các thành phần đơn sắc trong máy quang phổ là:",
+      "image": null,
+      "options": [
+        { "id": "A", "text": "Hệ tán sắc (Lăng kính)" },
+        { "id": "B", "text": "Ống chuẩn trực" },
+        { "id": "C", "text": "Buồng tối" },
+        { "id": "D", "text": "Thấu kính hội tụ" }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Hệ tán sắc (thường là lăng kính) làm nhiệm vụ này."
+    }
+  ]
+}

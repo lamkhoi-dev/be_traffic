@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "english",
+    "name": "Tiếng Anh 11 - Đề ôn tập tổng hợp số 14",
+    "description": "Đề luyện tập tổng hợp số 14, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 14
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "All members agreed ______ a new solution to the economic problem.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "finding"
+        },
+        {
+          "id": "B",
+          "text": "to find"
+        },
+        {
+          "id": "C",
+          "text": "find"
+        },
+        {
+          "id": "D",
+          "text": "found"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cấu trúc 'agree to do something' (đồng ý làm gì)."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "______ young people to take part in social activities is very important.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Encourage"
+        },
+        {
+          "id": "B",
+          "text": "Encouraging"
+        },
+        {
+          "id": "C",
+          "text": "Encouraged"
+        },
+        {
+          "id": "D",
+          "text": "To encouraging"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Danh động từ (Gerund - V-ing) đứng đầu câu làm chủ ngữ."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "The ASEAN ______ serves as a firm foundation for achieving the ASEAN Community.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Motto"
+        },
+        {
+          "id": "B",
+          "text": "Charter"
+        },
+        {
+          "id": "C",
+          "text": "Principle"
+        },
+        {
+          "id": "D",
+          "text": "Block"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ASEAN Charter (Hiến chương ASEAN) là văn bản pháp lý nền tảng."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "ASEAN stands for the Association of ______ Asian Nations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "South"
+        },
+        {
+          "id": "B",
+          "text": "East"
+        },
+        {
+          "id": "C",
+          "text": "Southeast"
+        },
+        {
+          "id": "D",
+          "text": "Northeast"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "ASEAN = Association of Southeast Asian Nations (Hiệp hội các quốc gia Đông Nam Á)."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"The region has maintained **stability** for many decades.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "security"
+        },
+        {
+          "id": "B",
+          "text": "insecurity"
+        },
+        {
+          "id": "C",
+          "text": "safety"
+        },
+        {
+          "id": "D",
+          "text": "peace"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Stability' (sự ổn định) trái nghĩa với 'insecurity' (sự mất an ninh, bất ổn)."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"My parents are quite **open-minded** about my clothes.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "conservative"
+        },
+        {
+          "id": "B",
+          "text": "modern"
+        },
+        {
+          "id": "C",
+          "text": "flexible"
+        },
+        {
+          "id": "D",
+          "text": "easy-going"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Open-minded' (cởi mở/thoáng) trái nghĩa với 'conservative' (bảo thủ)."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "The ASEAN ______ serves as a firm foundation for achieving the ASEAN Community.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Motto"
+        },
+        {
+          "id": "B",
+          "text": "Charter"
+        },
+        {
+          "id": "C",
+          "text": "Principle"
+        },
+        {
+          "id": "D",
+          "text": "Block"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "ASEAN Charter (Hiến chương ASEAN) là văn bản pháp lý nền tảng."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "He considers ______ to Singapore for the exchange program.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "go"
+        },
+        {
+          "id": "B",
+          "text": "going"
+        },
+        {
+          "id": "C",
+          "text": "to go"
+        },
+        {
+          "id": "D",
+          "text": "gone"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau 'consider' (cân nhắc) dùng V-ing."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ch**a**rter"
+        },
+        {
+          "id": "B",
+          "text": "p**a**rtner"
+        },
+        {
+          "id": "C",
+          "text": "**a**ssociation"
+        },
+        {
+          "id": "D",
+          "text": "f**a**ther"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'association' âm 'a' đầu tiên phát âm là /ə/ (âm schwa). Các từ còn lại (charter, partner, father) phát âm là /ɑː/."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "ASEAN stands for the Association of ______ Asian Nations.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "South"
+        },
+        {
+          "id": "B",
+          "text": "East"
+        },
+        {
+          "id": "C",
+          "text": "Southeast"
+        },
+        {
+          "id": "D",
+          "text": "Northeast"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "ASEAN = Association of Southeast Asian Nations (Hiệp hội các quốc gia Đông Nam Á)."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Identify the mistake: \"She enjoys to learn about the cultures of ASEAN countries.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "enjoys"
+        },
+        {
+          "id": "B",
+          "text": "to learn"
+        },
+        {
+          "id": "C",
+          "text": "cultures"
+        },
+        {
+          "id": "D",
+          "text": "countries"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Lỗi sai ở 'to learn'. Sau 'enjoy' phải dùng V-ing. Sửa thành 'learning'."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Choose the word whose underlined part is pronounced differently from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "ch**a**rter"
+        },
+        {
+          "id": "B",
+          "text": "p**a**rtner"
+        },
+        {
+          "id": "C",
+          "text": "**a**ssociation"
+        },
+        {
+          "id": "D",
+          "text": "f**a**ther"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'association' âm 'a' đầu tiên phát âm là /ə/ (âm schwa). Các từ còn lại (charter, partner, father) phát âm là /ɑː/."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Communication: \"I think we should take part in the ASEAN Youth Festival.\" - \"______ It's a great opportunity.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "I don't agree."
+        },
+        {
+          "id": "C",
+          "text": "It's wrong."
+        },
+        {
+          "id": "D",
+          "text": "You must be kidding."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' (Tôi hoàn toàn đồng ý). Vế sau 'It's a great opportunity' ủng hộ ý kiến đó."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Communication: \"I think we should take part in the ASEAN Youth Festival.\" - \"______ It's a great opportunity.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "I couldn't agree more."
+        },
+        {
+          "id": "B",
+          "text": "I don't agree."
+        },
+        {
+          "id": "C",
+          "text": "It's wrong."
+        },
+        {
+          "id": "D",
+          "text": "You must be kidding."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'I couldn't agree more' (Tôi hoàn toàn đồng ý). Vế sau 'It's a great opportunity' ủng hộ ý kiến đó."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"ASEAN aims to **promote** peace and stability in the region.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boost"
+        },
+        {
+          "id": "B",
+          "text": "prevent"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "damage"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Promote' (thúc đẩy) đồng nghĩa với 'boost' (tăng cường, đẩy mạnh)."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "My friends suggested ______ up for the ASEAN scholarship.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "sign"
+        },
+        {
+          "id": "B",
+          "text": "signing"
+        },
+        {
+          "id": "C",
+          "text": "to sign"
+        },
+        {
+          "id": "D",
+          "text": "signed"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau động từ 'suggest' (gợi ý) dùng V-ing."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Communication: \"Would you mind helping me with this ASEAN project?\" - \"______\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "No, not at all."
+        },
+        {
+          "id": "B",
+          "text": "Yes, I would."
+        },
+        {
+          "id": "C",
+          "text": "You're welcome."
+        },
+        {
+          "id": "D",
+          "text": "I don't think so."
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Câu hỏi 'Would you mind...' (Bạn có phiền không?). Trả lời 'No, not at all' nghĩa là 'Không phiền đâu' (Đồng ý giúp)."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Mark the word OPPOSITE in meaning to the underlined word: \"The region has maintained **stability** for many decades.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "security"
+        },
+        {
+          "id": "B",
+          "text": "insecurity"
+        },
+        {
+          "id": "C",
+          "text": "safety"
+        },
+        {
+          "id": "D",
+          "text": "peace"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "'Stability' (sự ổn định) trái nghĩa với 'insecurity' (sự mất an ninh, bất ổn)."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Choose the word that has a different stress pattern from the others.",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "dominate"
+        },
+        {
+          "id": "B",
+          "text": "principle"
+        },
+        {
+          "id": "C",
+          "text": "volunteer"
+        },
+        {
+          "id": "D",
+          "text": "scholarship"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Đáp án C 'volunteer' nhấn âm 3 (/ˌvɒlənˈtɪər/). Các từ còn lại nhấn âm 1."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Mark the word CLOSEST in meaning to the underlined word: \"ASEAN aims to **promote** peace and stability in the region.\"",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "boost"
+        },
+        {
+          "id": "B",
+          "text": "prevent"
+        },
+        {
+          "id": "C",
+          "text": "stop"
+        },
+        {
+          "id": "D",
+          "text": "damage"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "'Promote' (thúc đẩy) đồng nghĩa với 'boost' (tăng cường, đẩy mạnh)."
+    }
+  ]
+}

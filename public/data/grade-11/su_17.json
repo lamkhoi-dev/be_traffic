@@ -1,0 +1,555 @@
+{
+  "test": {
+    "type": "grade11",
+    "subject": "history",
+    "name": "Lịch sử 11 - Đề ôn tập tổng hợp số 17",
+    "description": "Đề luyện tập tổng hợp số 17, câu hỏi được chọn ngẫu nhiên từ các đề gốc.",
+    "duration": 45,
+    "questionCount": 20,
+    "difficulty": "medium",
+    "grade": 11,
+    "chapter": 17
+  },
+  "questions": [
+    {
+      "order": 1,
+      "type": "single_choice",
+      "question": "Cuộc cách mạng nào được coi là cuộc cách mạng tư sản triệt để nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng tư sản Anh"
+        },
+        {
+          "id": "B",
+          "text": "Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ"
+        },
+        {
+          "id": "C",
+          "text": "Cách mạng tư sản Pháp cuối thế kỷ XVIII"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng Hà Lan"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "CMTS Pháp đã lật đổ hoàn toàn chế độ phong kiến, giải quyết vấn đề ruộng đất và thiết lập nền cộng hòa."
+    },
+    {
+      "order": 2,
+      "type": "single_choice",
+      "question": "Điểm giống nhau cơ bản trong phong trào giải phóng dân tộc ở Đông Nam Á sau Chiến tranh thế giới thứ nhất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đều do Đảng Cộng sản lãnh đạo"
+        },
+        {
+          "id": "B",
+          "text": "Sự phát triển mạnh mẽ của phong trào dân tộc tư sản và sự lớn mạnh của giai cấp công nhân"
+        },
+        {
+          "id": "C",
+          "text": "Đều giành được thắng lợi"
+        },
+        {
+          "id": "D",
+          "text": "Đều đấu tranh vũ trang"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Đây là giai đoạn thức tỉnh của chủ nghĩa dân tộc và sự lớn mạnh của phong trào công nhân."
+    },
+    {
+      "order": 3,
+      "type": "single_choice",
+      "question": "Khối liên minh quân sự SEATO (1954) do Mỹ thành lập nhằm mục đích gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển kinh tế Đông Nam Á"
+        },
+        {
+          "id": "B",
+          "text": "Ngăn chặn sự ảnh hưởng của chủ nghĩa xã hội và phong trào giải phóng dân tộc"
+        },
+        {
+          "id": "C",
+          "text": "Giúp đỡ các nước Đông Dương"
+        },
+        {
+          "id": "D",
+          "text": "Đoàn kết các nước châu Á"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "SEATO là khối quân sự nhằm chống lại CNCS ở khu vực."
+    },
+    {
+      "order": 4,
+      "type": "single_choice",
+      "question": "Tổ chức Hiệp ước Vác-sa-va (1955) là liên minh về:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kinh tế"
+        },
+        {
+          "id": "B",
+          "text": "Văn hóa"
+        },
+        {
+          "id": "C",
+          "text": "Chính trị và quân sự"
+        },
+        {
+          "id": "D",
+          "text": "Giáo dục"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Là liên minh quân sự - chính trị của các nước XHCN để đối trọng với NATO."
+    },
+    {
+      "order": 5,
+      "type": "single_choice",
+      "question": "Đông Ti-mo tách ra khỏi quốc gia nào để trở thành một nhà nước độc lập (2002)?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bồ Đào Nha"
+        },
+        {
+          "id": "B",
+          "text": "In-đô-nê-xi-a"
+        },
+        {
+          "id": "C",
+          "text": "Ma-lai-xi-a"
+        },
+        {
+          "id": "D",
+          "text": "Hà Lan"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Sau khi Bồ Đào Nha rút đi (1975), Indonesia sáp nhập Đông Ti-mo. Đến 2002 mới chính thức độc lập."
+    },
+    {
+      "order": 6,
+      "type": "single_choice",
+      "question": "Ở Pháp, trước cách mạng, mâu thuẫn cơ bản nhất là mâu thuẫn giữa:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đẳng cấp thứ ba với Đẳng cấp thứ nhất và thứ hai"
+        },
+        {
+          "id": "B",
+          "text": "Nông dân với tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Tư sản với công nhân"
+        },
+        {
+          "id": "D",
+          "text": "Vua với Tăng lữ"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Đẳng cấp thứ 3 (chiếm đa số, chịu mọi thứ thuế) mâu thuẫn gay gắt với 2 đẳng cấp đặc quyền."
+    },
+    {
+      "order": 7,
+      "type": "single_choice",
+      "question": "Ý nghĩa quốc tế to lớn của sự ra đời Liên bang Xô viết là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cổ vũ mạnh mẽ phong trào giải phóng dân tộc trên thế giới"
+        },
+        {
+          "id": "B",
+          "text": "Làm cho chủ nghĩa tư bản sụp đổ hoàn toàn"
+        },
+        {
+          "id": "C",
+          "text": "Chấm dứt chiến tranh thế giới thứ nhất"
+        },
+        {
+          "id": "D",
+          "text": "Thống nhất toàn bộ châu Âu"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Liên Xô trở thành chỗ dựa tinh thần và vật chất cho phong trào cách mạng thế giới."
+    },
+    {
+      "order": 8,
+      "type": "single_choice",
+      "question": "Sau khi Lê-nin qua đời (1924), ai là người tiếp tục lãnh đạo công cuộc xây dựng chủ nghĩa xã hội ở Liên Xô?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Goóc-ba-chốp"
+        },
+        {
+          "id": "B",
+          "text": "Xta-lin"
+        },
+        {
+          "id": "C",
+          "text": "Khru-xthốp"
+        },
+        {
+          "id": "D",
+          "text": "Pu-tin"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Giô-xép Xta-lin là người kế nhiệm lãnh đạo Liên Xô trong giai đoạn công nghiệp hóa."
+    },
+    {
+      "order": 9,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự mở rộng của chủ nghĩa tư bản sang châu Á?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Cách mạng Tân Hợi (Trung Quốc)"
+        },
+        {
+          "id": "B",
+          "text": "Cuộc Duy tân Minh Trị (Nhật Bản)"
+        },
+        {
+          "id": "C",
+          "text": "Phong trào Xô viết Nghệ Tĩnh (Việt Nam)"
+        },
+        {
+          "id": "D",
+          "text": "Cách mạng ở Ấn Độ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Duy tân Minh Trị (1868) đưa Nhật Bản thoát khỏi phong kiến, trở thành nước TBCN."
+    },
+    {
+      "order": 10,
+      "type": "single_choice",
+      "question": "Ý nghĩa lớn nhất của các cuộc chiến tranh giải phóng trong lịch sử Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Giành lại độc lập, chủ quyền, thống nhất đất nước"
+        },
+        {
+          "id": "B",
+          "text": "Mở rộng lãnh thổ"
+        },
+        {
+          "id": "C",
+          "text": "Trả thù kẻ xâm lược"
+        },
+        {
+          "id": "D",
+          "text": "Khẳng định sức mạnh quân sự"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Khôi phục nền độc lập và thống nhất non sông là mục tiêu tối thượng."
+    },
+    {
+      "order": 11,
+      "type": "single_choice",
+      "question": "Về kinh tế, chính sách nổi bật của các nước thực dân tại Đông Nam Á là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Phát triển công nghiệp nặng"
+        },
+        {
+          "id": "B",
+          "text": "Biến thuộc địa thành nơi cung cấp nguyên liệu và tiêu thụ hàng hóa"
+        },
+        {
+          "id": "C",
+          "text": "Xóa bỏ chế độ phong kiến lạc hậu"
+        },
+        {
+          "id": "D",
+          "text": "Đầu tư phát triển giáo dục và y tế"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Kinh tế thuộc địa bị cột chặt vào chính quốc, què quặt và lệ thuộc."
+    },
+    {
+      "order": 12,
+      "type": "single_choice",
+      "question": "Đặc điểm chung của công cuộc cải cách ở Trung Quốc và Đổi mới ở Việt Nam là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Từ bỏ hoàn toàn chủ nghĩa xã hội"
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng chủ nghĩa xã hội mang bản sắc/đặc sắc của mỗi nước"
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện đa nguyên, đa đảng về chính trị"
+        },
+        {
+          "id": "D",
+          "text": "Phụ thuộc hoàn toàn vào tư bản nước ngoài"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Cả hai nước đều kiên định mục tiêu XHCN nhưng đổi mới phương thức thực hiện cho phù hợp (Kinh tế thị trường định hướng XHCN/Đặc sắc TQ)."
+    },
+    {
+      "order": 13,
+      "type": "single_choice",
+      "question": "Năm 1945, ba quốc gia nào ở Đông Nam Á tuyên bố độc lập sớm nhất?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "In-đô-nê-xi-a, Việt Nam, Lào"
+        },
+        {
+          "id": "B",
+          "text": "Việt Nam, Lào, Cam-pu-chia"
+        },
+        {
+          "id": "C",
+          "text": "In-đô-nê-xi-a, Ma-lai-xi-a, Phi-líp-pin"
+        },
+        {
+          "id": "D",
+          "text": "Việt Nam, Thái Lan, Mi-an-ma"
+        }
+      ],
+      "correctAnswer": "A",
+      "points": 10,
+      "explanation": "Lợi dụng Nhật đầu hàng Đồng minh, 3 nước này đã chớp thời cơ giành độc lập (Indo: 17/8, VN: 2/9, Lào: 12/10)."
+    },
+    {
+      "order": 14,
+      "type": "single_choice",
+      "question": "Sự kiện nào đánh dấu sự sụp đổ của chế độ xã hội chủ nghĩa ở Liên Xô và Đông Âu?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Bức tường Béc-lin sụp đổ (1989)"
+        },
+        {
+          "id": "B",
+          "text": "Liên Xô tan rã (1991)"
+        },
+        {
+          "id": "C",
+          "text": "Khủng hoảng dầu mỏ (1973)"
+        },
+        {
+          "id": "D",
+          "text": "Mỹ rút quân khỏi Việt Nam (1973)"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Năm 1991, sự tan rã của Liên Xô đánh dấu sự sụp đổ của mô hình CNXH hiện thực tại đây."
+    },
+    {
+      "order": 15,
+      "type": "single_choice",
+      "question": "Lãnh tụ của phong trào độc lập In-đô-nê-xi-a và là Tổng thống đầu tiên của nước này là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hồ Chí Minh"
+        },
+        {
+          "id": "B",
+          "text": "Xu-các-nô"
+        },
+        {
+          "id": "C",
+          "text": "Li Quan Diệu"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ha-thia Mô-ha-mát"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Ahmed Sukarno là người đọc Tuyên ngôn độc lập khai sinh ra nước CH Indonesia."
+    },
+    {
+      "order": 16,
+      "type": "single_choice",
+      "question": "Bài thơ \"Nam quốc sơn hà\" được coi là bản Tuyên ngôn độc lập lần thứ nhất của Việt Nam, ra đời trong cuộc kháng chiến nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Kháng chiến chống Tống thời Tiền Lê"
+        },
+        {
+          "id": "B",
+          "text": "Kháng chiến chống Tống thời Lý"
+        },
+        {
+          "id": "C",
+          "text": "Kháng chiến chống Nguyên thời Trần"
+        },
+        {
+          "id": "D",
+          "text": "Kháng chiến chống Minh thời Hồ"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Bài thơ vang lên trên sông Như Nguyệt trong kháng chiến chống Tống (1077)."
+    },
+    {
+      "order": 17,
+      "type": "single_choice",
+      "question": "Năm 1967, Hiệp hội các quốc gia Đông Nam Á (ASEAN) được thành lập tại:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Hà Nội"
+        },
+        {
+          "id": "B",
+          "text": "Gia-các-ta"
+        },
+        {
+          "id": "C",
+          "text": "Băng Cốc"
+        },
+        {
+          "id": "D",
+          "text": "Ma-ni-la"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tuyên bố Băng Cốc (Thái Lan) khai sinh ra ASEAN."
+    },
+    {
+      "order": 18,
+      "type": "single_choice",
+      "question": "Trung Quốc bắt đầu thực hiện công cuộc cải cách mở cửa vào năm nào?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "1949"
+        },
+        {
+          "id": "B",
+          "text": "1956"
+        },
+        {
+          "id": "C",
+          "text": "1978"
+        },
+        {
+          "id": "D",
+          "text": "1986"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Tháng 12/1978, TƯ Đảng CS Trung Quốc đề ra đường lối cải cách mở cửa."
+    },
+    {
+      "order": 19,
+      "type": "single_choice",
+      "question": "Cuộc Chiến tranh giành độc lập của 13 thuộc địa Anh ở Bắc Mỹ thực chất là:",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Một cuộc nội chiến"
+        },
+        {
+          "id": "B",
+          "text": "Một cuộc cách mạng tư sản"
+        },
+        {
+          "id": "C",
+          "text": "Một cuộc chiến tranh nông dân"
+        },
+        {
+          "id": "D",
+          "text": "Một cuộc cải cách tôn giáo"
+        }
+      ],
+      "correctAnswer": "B",
+      "points": 10,
+      "explanation": "Nó lật đổ ách thống trị thực dân (tương đương phong kiến), mở đường cho CNTB Mỹ phát triển."
+    },
+    {
+      "order": 20,
+      "type": "single_choice",
+      "question": "Lý Bí (Lý Nam Đế) sau khi khởi nghĩa thắng lợi đã đặt tên nước là gì?",
+      "image": null,
+      "options": [
+        {
+          "id": "A",
+          "text": "Đại Cồ Việt"
+        },
+        {
+          "id": "B",
+          "text": "Đại Việt"
+        },
+        {
+          "id": "C",
+          "text": "Vạn Xuân"
+        },
+        {
+          "id": "D",
+          "text": "Đại Nam"
+        }
+      ],
+      "correctAnswer": "C",
+      "points": 10,
+      "explanation": "Nước Vạn Xuân (mong muốn đất nước mãi mãi tươi đẹp như mùa xuân)."
+    }
+  ]
+}
