@@ -212,7 +212,7 @@ postSchema.index({
 })
 
 // Auto-generate slug from title
-postSchema.pre('save', function(next) {
+postSchema.pre('save', async function() {
   if (this.isModified('title') && !this.slug) {
     this.slug = this.title
       .toLowerCase()
@@ -238,8 +238,6 @@ postSchema.pre('save', function(next) {
     })
     this.readingTime = Math.ceil(wordCount / 200) // 200 words per minute
   }
-  
-  next()
 })
 
 // Virtual for full URL
