@@ -179,11 +179,16 @@ router.get('/:id', async (req, res) => {
     }
     
     // Get all questions for this test to show detailed results
-    const questions = await Question.find({ testId: session.testId }).sort({ order: 1 })
+    // After populate, session.testId is an object, need to use _id for query
+    const testIdForQuery = session.testId?._id || session.testId
+    const questions = await Question.find({ testId: testIdForQuery }).sort({ order: 1 })
     
     // Debug: Log session answers structure
-    console.log('[Get Session] Session answers:', JSON.stringify(session.answers?.slice(0, 2), null, 2))
-    console.log('[Get Session] First question ID:', questions[0]?._id?.toString())
+    console.log('[Get Session] TestId for query:', testIdForQuery?.toString())
+    console.log('[Get Session] Questions found:', questions.length)
+    console.log('[Get Session] Session answers count:', session.answers?.length)
+    console.log('[Get Session] Sample answer:', JSON.stringify(session.answers?.[0], null, 2))
+    console.log('[Get Session] Sample question ID:', questions[0]?._id?.toString())
     
     // Build detailed question results
     const questionDetails = questions.map((q, index) => {
