@@ -21,6 +21,9 @@ const postsRoutes = require('./routes/posts')
 
 const app = express()
 
+// Trust proxy - Required for Railway/Heroku/etc behind reverse proxy
+app.set('trust proxy', 1)
+
 // Security middleware
 app.use(helmet({
   crossOriginResourcePolicy: { policy: "cross-origin" }
