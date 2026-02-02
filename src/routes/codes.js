@@ -71,13 +71,20 @@ router.post('/verify', async (req, res) => {
     task.verifiedAt = new Date()
     await task.save()
     
+    console.log('[Verify Code] Task sessionId:', task.sessionId?.toString())
+    
     // Update session and get test type
-    const session = await Session.findById(sessionId).populate('testId')
+    const session = await Session.findById(task.sessionId).populate('testId')
+    console.log('[Verify Code] Session found:', session?._id?.toString(), 'current unlocked:', session?.unlocked)
+    
     if (session) {
       session.unlocked = true
       session.status = 'completed'
       session.completedAt = new Date()
       await session.save()
+      console.log('[Verify Code] Session unlocked successfully:', session._id?.toString())
+    } else {
+      console.log('[Verify Code] WARNING: Session not found for task!')
     }
     
     // Get test type for frontend redirect
