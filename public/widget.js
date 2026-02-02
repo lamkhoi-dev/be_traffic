@@ -131,6 +131,13 @@
     async init() {
       if (!this.siteKey) return;
 
+      // Check incognito first - don't show widget in incognito mode
+      const isIncognito = await detectIncognito();
+      if (isIncognito) {
+        log('Incognito mode detected - widget disabled');
+        return;
+      }
+
       // Get fingerprint first (async due to incognito detection)
       this.fingerprint = await getFingerprint();
 
