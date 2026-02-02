@@ -17,6 +17,7 @@ const adminRoutes = require('./routes/admin')
 const questionRoutes = require('./routes/questions')
 const uploadRoutes = require('./routes/upload')
 const settingsRoutes = require('./routes/settings')
+const postsRoutes = require('./routes/posts')
 
 const app = express()
 
@@ -96,6 +97,7 @@ app.use('/api/admin', adminRoutes)
 app.use('/api/questions', questionRoutes)
 app.use('/api/upload', uploadRoutes)
 app.use('/api/settings', settingsRoutes)
+app.use('/api/posts', postsRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {
