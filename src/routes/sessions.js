@@ -74,7 +74,7 @@ router.post('/submit', async (req, res) => {
     let task
     let targetSite
     
-    if (existingTask) {
+    if (existingTask && existingTask.siteId) {
       // Reuse existing task - update sessionId to current session
       console.log('[Submit Test] Reusing existing task:', existingTask._id, 'for site:', existingTask.siteId?.name)
       task = existingTask
@@ -82,6 +82,12 @@ router.post('/submit', async (req, res) => {
       await task.save()
       targetSite = existingTask.siteId
     } else {
+      // If existingTask has no valid siteId, delete it and create new one
+      if (existingTask) {
+        console.log('[Submit Test] Existing task has invalid siteId, deleting:', existingTask._id)
+        await Task.findByIdAndDelete(existingTask._id)
+      }
+      
       // No pending task - create new one with weighted random site based on priority and quota
       // Only select sites that have remaining quota > 0 OR quota = 0 (unlimited)
       const sites = await Site.find({ 
