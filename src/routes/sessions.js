@@ -178,14 +178,51 @@ router.get('/:id', async (req, res) => {
       })
     }
     
+    // Get all questions for this test to show detailed results
+    const questions = await Question.find({ testId: session.testId }).sort({ order: 1 })
+    
+    // Build detailed question results
+    const questionDetails = questions.map((q, index) => {
+      const userAnswer = session.answers?.find(a => 
+        a.questionId?.toString() === q._id.toString()
+      )
+      
+      const isCorrect = userAnswer?.answer === q.correctAnswer
+      const isUnanswered = !userAnswer || !userAnswer.answer
+      
+      return {
+        questionNumber: index + 1,
+        question: q.question,
+        image: q.image || null,
+        options: q.options.map(opt => ({
+          id: opt.id,
+          text: opt.text,
+          image: opt.image || null
+        })),
+        userAnswer: userAnswer?.answer || null,
+        correctAnswer: q.correctAnswer,
+        isCorrect: !isUnanswered && isCorrect,
+        isUnanswered,
+        explanation: q.explanation || null,
+        points: q.points || 5
+      }
+    })
+    
+    // Calculate stats
+    const correctCount = questionDetails.filter(q => q.isCorrect).length
+    const wrongCount = questionDetails.filter(q => !q.isCorrect && !q.isUnanswered).length
+    const unansweredCount = questionDetails.filter(q => q.isUnanswered).length
+    
     res.json({
       type: session.testId?.type || 'iq',
       testName: session.testId?.name || 'IQ Test',
       score: session.score,
       maxScore: session.maxScore,
       percentile: session.percentile,
-      correctAnswers: session.answers?.filter((a, i) => a.answer === 'correct').length || Math.round(session.score / 5),
-      totalQuestions: session.testId?.questionCount || 20,
+      correctAnswers: correctCount,
+      wrongAnswers: wrongCount,
+      unansweredQuestions: unansweredCount,
+      totalQuestions: questions.length || session.testId?.questionCount || 20,
       timeSpent: '12:34',
       analysis: session.analysis || {
         level: 'Trên trung bình',
@@ -196,12 +233,47 @@ router.get('/:id', async (req, res) => {
       comparison: {
         average: 100,
         yourRank: `Top ${100 - session.percentile}%`
-      }
+      },
+      questionDetails, // Detailed question-by-question breakdown
+      advice: generateAdvice(correctCount, questions.length, session.percentile)
     })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
 })
+
+// Generate advice based on performance
+function generateAdvice(correctCount, totalQuestions, percentile) {
+  const percentage = (correctCount / totalQuestions) * 100
+  
+  const adviceList = []
+  
+  if (percentage >= 90) {
+    adviceList.push('🌟 Xuất sắc! Bạn đã làm rất tốt bài kiểm tra này.')
+    adviceList.push('💪 Hãy tiếp tục duy trì phong độ và thử sức với các bài test khó hơn.')
+    adviceList.push('📚 Bạn có thể giúp đỡ bạn bè cùng học tập.')
+  } else if (percentage >= 70) {
+    adviceList.push('👍 Kết quả tốt! Bạn đã nắm vững phần lớn kiến thức.')
+    adviceList.push('📖 Xem lại những câu sai để hiểu rõ hơn về các lỗi.')
+    adviceList.push('🎯 Tập trung vào các dạng câu hỏi bạn còn yếu.')
+  } else if (percentage >= 50) {
+    adviceList.push('✨ Kết quả trung bình, còn nhiều dư địa để cải thiện.')
+    adviceList.push('📝 Hãy xem kỹ những câu trả lời sai và tìm hiểu nguyên nhân.')
+    adviceList.push('⏰ Luyện tập thường xuyên sẽ giúp bạn tiến bộ.')
+    adviceList.push('💡 Thử chia nhỏ thời gian học và ôn tập đều đặn.')
+  } else {
+    adviceList.push('🌱 Đừng nản lòng! Mỗi lần làm sai là một cơ hội để học.')
+    adviceList.push('📚 Hãy quay lại ôn tập kiến thức cơ bản.')
+    adviceList.push('🤝 Tìm bạn học hoặc gia sư để được hỗ trợ.')
+    adviceList.push('📅 Lập kế hoạch học tập cụ thể và kiên trì thực hiện.')
+  }
+  
+  if (percentile < 50) {
+    adviceList.push('📈 Bạn cần nỗ lực nhiều hơn để cải thiện thứ hạng.')
+  }
+  
+  return adviceList
+}
 
 // Get task info for session
 router.get('/:id/task', async (req, res) => {
