@@ -296,6 +296,16 @@ router.get('/:id/task', async (req, res) => {
       return res.status(404).json({ success: false, message: 'Task not found' })
     }
     
+    // Get custom task steps or use defaults
+    const defaultSteps = {
+      step1: { label: '1', title: 'Tìm kiếm trên Google', description: 'Mở Google và tìm kiếm từ khóa:' },
+      step2: { label: '2', title: 'Truy cập website', description: 'Tìm và click vào kết quả' },
+      step3: { label: '3', title: 'Lấy mã xác nhận', description: 'Cuộn xuống footer, bấm vào chữ "Mã Code" và đợi 60 giây để nhận mã xác nhận' },
+      step4: { label: '4', title: 'Nhập mã bên dưới', description: 'Copy mã và dán vào ô bên dưới để xem kết quả' }
+    }
+    
+    const taskSteps = task.siteId?.taskSteps || defaultSteps
+    
     res.json({
       taskId: task._id,
       siteName: task.siteId?.name || 'Target Website',
@@ -304,6 +314,12 @@ router.get('/:id/task', async (req, res) => {
       instruction: task.siteId?.instruction || 'Truy cập website và lấy mã xác nhận',
       step2Image: task.siteId?.step2Image || '',
       step3Image: task.siteId?.step3Image || '',
+      taskSteps: {
+        step1: { ...defaultSteps.step1, ...taskSteps.step1 },
+        step2: { ...defaultSteps.step2, ...taskSteps.step2 },
+        step3: { ...defaultSteps.step3, ...taskSteps.step3 },
+        step4: { ...defaultSteps.step4, ...taskSteps.step4 }
+      },
       status: task.status
     })
   } catch (error) {

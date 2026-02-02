@@ -60,6 +60,29 @@ const siteSchema = new mongoose.Schema({
   totalCompleted: {
     type: Number,
     default: 0
+  },
+  // Custom step configuration for task page
+  taskSteps: {
+    step1: {
+      label: { type: String, default: '1' },
+      title: { type: String, default: 'Tìm kiếm trên Google' },
+      description: { type: String, default: 'Mở Google và tìm kiếm từ khóa:' }
+    },
+    step2: {
+      label: { type: String, default: '2' },
+      title: { type: String, default: 'Truy cập website' },
+      description: { type: String, default: 'Tìm và click vào kết quả' }
+    },
+    step3: {
+      label: { type: String, default: '3' },
+      title: { type: String, default: 'Lấy mã xác nhận' },
+      description: { type: String, default: 'Cuộn xuống footer, bấm vào chữ "Mã Code" và đợi 60 giây để nhận mã xác nhận' }
+    },
+    step4: {
+      label: { type: String, default: '4' },
+      title: { type: String, default: 'Nhập mã bên dưới' },
+      description: { type: String, default: 'Copy mã và dán vào ô bên dưới để xem kết quả' }
+    }
   }
 }, {
   timestamps: true
