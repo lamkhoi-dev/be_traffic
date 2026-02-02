@@ -205,6 +205,8 @@
       text-align: center;
       padding: 6px 0;
       cursor: pointer;
+      position: relative;
+      z-index: 2147483647;
     }
     .tbw-text:hover {
       color: #667eea;
