@@ -80,6 +80,7 @@ app.get('/widget-test.js', (req, res) => {
 
 // Debug incognito page
 app.get('/debug-incognito.html', (req, res) => {
+  res.setHeader('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'")
   res.sendFile(path.join(__dirname, '../public/debug-incognito.html'))
 })
 
