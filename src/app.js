@@ -78,6 +78,11 @@ app.get('/widget-test.js', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/widget-test.js'))
 })
 
+// Debug incognito page
+app.get('/debug-incognito.html', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/debug-incognito.html'))
+})
+
 // API Routes
 app.use('/api/tests', testRoutes)
 app.use('/api/sessions', sessionRoutes)
