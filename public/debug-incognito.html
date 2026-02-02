@@ -162,8 +162,178 @@
     <button onclick="runAllTests()">🔄 Chạy lại tất cả tests</button>
   </div>
 
-  <!-- detectIncognito library from GitHub Joe12387 -->
-  <script src="https://cdn.jsdelivr.net/gh/Joe12387/detectIncognito@main/dist/detectIncognito.bundle.js"></script>
+  <script>
+    // Inline detectIncognito library (from Joe12387/detectIncognito)
+    function detectIncognito() {
+      return new Promise(function(resolve, reject) {
+        var browserName = 'Unknown';
+
+        function callback(isPrivate) {
+          resolve({ isPrivate: isPrivate, browserName: browserName });
+        }
+
+        function feid() {
+          var toFixedEngineID = 0;
+          try {
+            var neg = parseInt("-1");
+            neg.toFixed(neg);
+          } catch (e) {
+            toFixedEngineID = e.message.length;
+          }
+          return toFixedEngineID;
+        }
+
+        function isSafari() {
+          return feid() === 44 || feid() === 43;
+        }
+
+        function isChrome() {
+          return feid() === 51;
+        }
+
+        function isFirefox() {
+          return feid() === 25;
+        }
+
+        function isMSIE() {
+          return navigator.msSaveBlob !== undefined;
+        }
+
+        function identifyChromium() {
+          var ua = navigator.userAgent;
+          if (ua.match(/Chrome/)) {
+            if (navigator.brave !== undefined) return 'Brave';
+            else if (ua.match(/Edg/)) return 'Edge';
+            else if (ua.match(/OPR/)) return 'Opera';
+            return 'Chrome';
+          }
+          return 'Chromium';
+        }
+
+        // Safari test using OPFS
+        async function safariPrivateTest() {
+          if (typeof navigator.storage?.getDirectory === 'function') {
+            try {
+              await navigator.storage.getDirectory();
+              callback(false);
+            } catch (e) {
+              var message = e instanceof Error ? e.message : String(e);
+              callback(message.includes('unknown transient reason'));
+            }
+          } else if (navigator.maxTouchPoints !== undefined) {
+            // Safari 13-18 test using IndexedDB blob
+            try {
+              var tmp = String(Math.random());
+              var dbReq = indexedDB.open(tmp, 1);
+              dbReq.onupgradeneeded = function(ev) {
+                var db = ev.target.result;
+                try {
+                  db.createObjectStore('t', { autoIncrement: true }).put(new Blob());
+                  callback(false);
+                } catch (err) {
+                  var msg = err instanceof Error ? err.message : String(err);
+                  callback(msg.includes('are not yet supported'));
+                } finally {
+                  db.close();
+                  indexedDB.deleteDatabase(tmp);
+                }
+              };
+              dbReq.onerror = function() { callback(false); };
+            } catch (e) {
+              callback(false);
+            }
+          } else {
+            // Old Safari test
+            try {
+              window.openDatabase(null, null, null, null);
+            } catch (e) {
+              callback(true);
+              return;
+            }
+            try {
+              localStorage.setItem('test', '1');
+              localStorage.removeItem('test');
+            } catch (e) {
+              callback(true);
+              return;
+            }
+            callback(false);
+          }
+        }
+
+        // Chrome test using storage quota
+        function chromePrivateTest() {
+          if (navigator.webkitTemporaryStorage) {
+            navigator.webkitTemporaryStorage.queryUsageAndQuota(
+              function(usage, quota) {
+                var quotaInMib = Math.round(quota / (1024 * 1024));
+                var heapLimit = window.performance?.memory?.jsHeapSizeLimit || 1073741824;
+                var quotaLimitInMib = Math.round(heapLimit / (1024 * 1024)) * 2;
+                callback(quotaInMib < quotaLimitInMib);
+              },
+              function(e) {
+                reject(new Error('Failed to query storage quota: ' + e.message));
+              }
+            );
+          } else if (window.webkitRequestFileSystem) {
+            window.webkitRequestFileSystem(0, 1, 
+              function() { callback(false); },
+              function() { callback(true); }
+            );
+          } else {
+            callback(false);
+          }
+        }
+
+        // Firefox test using OPFS or IndexedDB
+        async function firefoxPrivateTest() {
+          if (typeof navigator.storage?.getDirectory === 'function') {
+            try {
+              await navigator.storage.getDirectory();
+              callback(false);
+            } catch (e) {
+              var message = e instanceof Error ? e.message : String(e);
+              callback(message.includes('Security error'));
+            }
+          } else {
+            var request = indexedDB.open('inPrivate');
+            request.onerror = function(event) {
+              if (request.error && request.error.name === 'InvalidStateError') {
+                event.preventDefault();
+              }
+              callback(true);
+            };
+            request.onsuccess = function() {
+              indexedDB.deleteDatabase('inPrivate');
+              callback(false);
+            };
+          }
+        }
+
+        // MSIE test
+        function msiePrivateTest() {
+          callback(window.indexedDB === undefined);
+        }
+
+        // Main detection
+        if (isSafari()) {
+          browserName = 'Safari';
+          safariPrivateTest();
+        } else if (isChrome()) {
+          browserName = identifyChromium();
+          chromePrivateTest();
+        } else if (isFirefox()) {
+          browserName = 'Firefox';
+          firefoxPrivateTest();
+        } else if (isMSIE()) {
+          browserName = 'Internet Explorer';
+          msiePrivateTest();
+        } else {
+          reject(new Error('detectIncognito cannot determine the browser'));
+        }
+      });
+    }
+  </script>
   
   <script>
     const logs = [];
