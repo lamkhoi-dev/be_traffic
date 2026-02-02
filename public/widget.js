@@ -1,5 +1,5 @@
 /**
- * Traffic Boost Widget v2.1
+ * Traffic Boost Widget v2.2
  * Chỉ hiện "Mã Code" - bấm vào đếm ngược - xong hiện mã - bấm để copy
  * 
  * Usage: <script src="https://yourserver.com/widget.js?siteKey=SITE_KEY"></script>
@@ -8,7 +8,7 @@
 (function() {
   'use strict';
 
-  const WIDGET_VERSION = '2.1.0';
+  const WIDGET_VERSION = '2.2.0';
   const COUNTDOWN_SECONDS = 60;
   const API_BASE = 'https://betraffic-production.up.railway.app';
 
@@ -23,7 +23,47 @@
     return null;
   };
 
-  const getFingerprint = () => {
+  // Detect incognito/private browsing mode
+  const detectIncognito = () => {
+    return new Promise((resolve) => {
+      // Method 1: Check storage quota (Chrome/Edge)
+      if ('storage' in navigator && 'estimate' in navigator.storage) {
+        navigator.storage.estimate().then(({ quota }) => {
+          if (quota && quota < 200 * 1024 * 1024) {
+            resolve(1);
+            return;
+          }
+        }).catch(() => {});
+      }
+
+      // Method 2: Check FileSystem API (older Chrome)
+      if (window.webkitRequestFileSystem) {
+        window.webkitRequestFileSystem(
+          window.TEMPORARY, 
+          1,
+          () => resolve(0),
+          () => resolve(1)
+        );
+        return;
+      }
+
+      // Method 3: Safari - check localStorage
+      try {
+        localStorage.setItem('test_incognito', '1');
+        localStorage.removeItem('test_incognito');
+      } catch (e) {
+        resolve(1);
+        return;
+      }
+
+      // Default: assume not incognito after 100ms
+      setTimeout(() => resolve(0), 100);
+    });
+  };
+
+  const getFingerprint = async () => {
+    const isIncognito = await detectIncognito();
+    
     const dataArray = [
       screen.width,
       screen.height,
@@ -31,7 +71,8 @@
       Intl.DateTimeFormat().resolvedOptions().timeZone,
       new Date().getTimezoneOffset(),
       navigator.hardwareConcurrency || 0,
-      navigator.maxTouchPoints || 0
+      navigator.maxTouchPoints || 0,
+      isIncognito
     ];
     const data = dataArray.join('|');
     let hash = 0;
@@ -78,7 +119,7 @@
   class TrafficWidget {
     constructor() {
       this.siteKey = getSiteKey();
-      this.fingerprint = getFingerprint();
+      this.fingerprint = null;
       this.task = null;
       this.countdown = COUNTDOWN_SECONDS;
       this.intervalId = null;
@@ -89,6 +130,9 @@
 
     async init() {
       if (!this.siteKey) return;
+
+      // Get fingerprint first (async due to incognito detection)
+      this.fingerprint = await getFingerprint();
 
       const hasTask = await this.checkTask();
       if (hasTask) {
