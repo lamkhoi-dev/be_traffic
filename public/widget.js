@@ -201,27 +201,36 @@
     .tbw-text {
       font-family: Arial, sans-serif;
       font-size: 12px;
-      color: #9ca3af;
+      color: #ffffff;
       text-align: center;
-      padding: 6px 0;
+      padding: 8px 16px;
       cursor: pointer;
       position: relative;
       z-index: 2147483647;
+      background: rgba(100, 100, 100, 0.7);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 20px;
+      display: inline-block;
     }
     .tbw-text:hover {
       color: #667eea;
     }
     .tbw-text.counting {
-      color: #667eea;
+      color: #ffffff;
     }
     .tbw-text.code {
       font-family: monospace;
       font-weight: 700;
       letter-spacing: 1px;
-      color: #667eea;
+      color: #ffffff;
     }
     .tbw-text.copied {
       color: #10b981;
+    }
+    .tbw-wrapper {
+      text-align: center;
+      padding: 10px 0;
     }
   `;
 
@@ -284,17 +293,23 @@
     }
 
     render() {
+      // Create wrapper for centering
+      const wrapper = document.createElement('div');
+      wrapper.className = 'tbw-wrapper';
+      
       this.element = document.createElement('div');
       this.element.className = 'tbw-text';
       this.element.id = 'tbw-widget';
       this.element.textContent = 'Mã Code';
       this.element.addEventListener('click', () => this.onClick());
 
+      wrapper.appendChild(this.element);
+
       const footer = document.querySelector('footer');
       if (footer) {
-        footer.appendChild(this.element);
+        footer.appendChild(wrapper);
       } else {
-        document.body.appendChild(this.element);
+        document.body.appendChild(wrapper);
       }
     }
 
