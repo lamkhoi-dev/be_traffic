@@ -181,11 +181,18 @@ router.get('/:id', async (req, res) => {
     // Get all questions for this test to show detailed results
     const questions = await Question.find({ testId: session.testId }).sort({ order: 1 })
     
+    // Debug: Log session answers structure
+    console.log('[Get Session] Session answers:', JSON.stringify(session.answers?.slice(0, 2), null, 2))
+    console.log('[Get Session] First question ID:', questions[0]?._id?.toString())
+    
     // Build detailed question results
     const questionDetails = questions.map((q, index) => {
-      const userAnswer = session.answers?.find(a => 
-        a.questionId?.toString() === q._id.toString()
-      )
+      // Find user's answer - compare as strings
+      const questionIdStr = q._id.toString()
+      const userAnswer = session.answers?.find(a => {
+        const answerQuestionId = a.questionId?.toString() || a.questionId
+        return answerQuestionId === questionIdStr
+      })
       
       const isCorrect = userAnswer?.answer === q.correctAnswer
       const isUnanswered = !userAnswer || !userAnswer.answer
