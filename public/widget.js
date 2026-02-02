@@ -13,15 +13,18 @@
   const COUNTDOWN_SECONDS = 60;
   const API_BASE = 'https://betraffic-production.up.railway.app';
 
-  const getSiteKey = () => {
+  const getScriptParams = () => {
     const scripts = document.getElementsByTagName('script');
     for (let i = 0; i < scripts.length; i++) {
       if (scripts[i].src.includes('widget.js')) {
         const url = new URL(scripts[i].src);
-        return url.searchParams.get('siteKey') || url.searchParams.get('id');
+        return {
+          siteKey: url.searchParams.get('siteKey') || url.searchParams.get('id'),
+          position: url.searchParams.get('position') || 'before' // before, inside, after
+        };
       }
     }
-    return null;
+    return { siteKey: null, position: 'before' };
   };
 
   // Robust incognito detection (from Joe12387/detectIncognito)
@@ -249,7 +252,9 @@
 
   class TrafficWidget {
     constructor() {
-      this.siteKey = getSiteKey();
+      const params = getScriptParams();
+      this.siteKey = params.siteKey;
+      this.position = params.position;
       this.fingerprint = null;
       this.task = null;
       this.countdown = COUNTDOWN_SECONDS;
@@ -316,7 +321,21 @@
 
       const footer = document.querySelector('footer');
       if (footer) {
-        footer.appendChild(wrapper);
+        switch (this.position) {
+          case 'before':
+            // Chèn trước footer (widget nằm trên footer)
+            footer.parentNode.insertBefore(wrapper, footer);
+            break;
+          case 'inside':
+            // Chèn vào đầu footer
+            footer.insertBefore(wrapper, footer.firstChild);
+            break;
+          case 'after':
+          default:
+            // Chèn vào cuối footer (mặc định cũ)
+            footer.appendChild(wrapper);
+            break;
+        }
       } else {
         document.body.appendChild(wrapper);
       }
