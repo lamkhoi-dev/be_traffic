@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Debug Incognito Detection</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #1a1a2e;
+      color: #fff;
+      padding: 20px;
+      margin: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      color: #00d9ff;
+      margin-bottom: 30px;
+    }
+    .result-card {
+      background: #16213e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #0f3460;
+    }
+    .result-card h3 {
+      margin-top: 0;
+      color: #e94560;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .status {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    .status.incognito { background: #e94560; }
+    .status.normal { background: #00d9ff; color: #000; }
+    .status.pending { background: #ffc107; color: #000; }
+    .status.error { background: #ff6b6b; }
+    .test-item {
+      background: #0f3460;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .test-item .name {
+      font-weight: bold;
+      color: #00d9ff;
+      margin-bottom: 5px;
+    }
+    .test-item .value {
+      font-family: monospace;
+      color: #a0a0a0;
+      word-break: break-all;
+    }
+    .final-result {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 30px;
+      border-radius: 16px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .final-result h2 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+    }
+    .final-result .big-status {
+      font-size: 48px;
+      margin: 20px 0;
+    }
+    .fingerprint-box {
+      background: #0f3460;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .fingerprint-box code {
+      font-size: 24px;
+      color: #00ff88;
+    }
+    button {
+      background: #e94560;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      background: #ff6b8a;
+    }
+    .log-box {
+      background: #000;
+      padding: 15px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 12px;
+      max-height: 300px;
+      overflow-y: auto;
+      margin-top: 20px;
+    }
+    .log-box .log-line {
+      margin-bottom: 5px;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    .log-box .log-line.info { background: #1a3a5c; }
+    .log-box .log-line.success { background: #1a5c3a; }
+    .log-box .log-line.error { background: #5c1a1a; }
+    .log-box .log-line.warn { background: #5c4a1a; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔍 Debug Incognito Detection</h1>
+    
+    <div class="final-result" id="finalResult">
+      <h2>Đang kiểm tra...</h2>
+      <div class="big-status">⏳</div>
+      <p id="finalText">Vui lòng đợi...</p>
+    </div>
+
+    <div class="fingerprint-box">
+      <p>Fingerprint của bạn:</p>
+      <code id="fingerprintCode">Đang tính...</code>
+    </div>
+
+    <div class="result-card">
+      <h3>📊 Kết quả từng phương pháp</h3>
+      <div id="testResults"></div>
+    </div>
+
+    <div class="result-card">
+      <h3>📋 Raw Data</h3>
+      <div id="rawData"></div>
+    </div>
+
+    <div class="result-card">
+      <h3>📝 Console Log</h3>
+      <div class="log-box" id="logBox"></div>
+    </div>
+
+    <button onclick="runAllTests()">🔄 Chạy lại tất cả tests</button>
+  </div>
+
+  <script>
+    const logs = [];
+    
+    function log(message, type = 'info') {
+      const timestamp = new Date().toISOString().split('T')[1].split('.')[0];
+      logs.push({ timestamp, message, type });
+      renderLogs();
+      console.log(`[${type.toUpperCase()}] ${message}`);
+    }
+
+    function renderLogs() {
+      const logBox = document.getElementById('logBox');
+      logBox.innerHTML = logs.map(l => 
+        `<div class="log-line ${l.type}">[${l.timestamp}] ${l.message}</div>`
+      ).join('');
+      logBox.scrollTop = logBox.scrollHeight;
+    }
+
+    // Test 1: Storage Quota (Chrome/Edge)
+    async function testStorageQuota() {
+      log('Testing Storage Quota...');
+      try {
+        if (!('storage' in navigator) || !('estimate' in navigator.storage)) {
+          log('Storage API not available', 'warn');
+          return { method: 'Storage Quota', available: false, result: null, reason: 'API not available' };
+        }
+        
+        const { quota, usage } = await navigator.storage.estimate();
+        const quotaMB = Math.round(quota / (1024 * 1024));
+        const usageMB = Math.round(usage / (1024 * 1024));
+        
+        log(`Storage quota: ${quotaMB} MB, usage: ${usageMB} MB`);
+        
+        // Chrome incognito typically has quota < 200MB
+        const isIncognito = quota < 200 * 1024 * 1024;
+        log(`Storage Quota result: ${isIncognito ? 'INCOGNITO' : 'NORMAL'}`, isIncognito ? 'warn' : 'success');
+        
+        return {
+          method: 'Storage Quota (Chrome/Edge)',
+          available: true,
+          result: isIncognito,
+          quota: quotaMB + ' MB',
+          usage: usageMB + ' MB',
+          threshold: '< 200 MB = incognito'
+        };
+      } catch (e) {
+        log(`Storage Quota error: ${e.message}`, 'error');
+        return { method: 'Storage Quota', available: false, result: null, error: e.message };
+      }
+    }
+
+    // Test 2: IndexedDB (Firefox)
+    async function testIndexedDB() {
+      log('Testing IndexedDB...');
+      return new Promise((resolve) => {
+        try {
+          const db = indexedDB.open('test_incognito_db');
+          
+          db.onerror = () => {
+            log('IndexedDB error - likely incognito', 'warn');
+            resolve({
+              method: 'IndexedDB (Firefox)',
+              available: true,
+              result: true,
+              reason: 'IndexedDB blocked'
+            });
+          };
+          
+          db.onsuccess = () => {
+            log('IndexedDB works - normal mode', 'success');
+            db.result.close();
+            indexedDB.deleteDatabase('test_incognito_db');
+            resolve({
+              method: 'IndexedDB (Firefox)',
+              available: true,
+              result: false,
+              reason: 'IndexedDB accessible'
+            });
+          };
+
+          // Timeout fallback
+          setTimeout(() => {
+            resolve({
+              method: 'IndexedDB (Firefox)',
+              available: true,
+              result: false,
+              reason: 'Timeout - assuming normal'
+            });
+          }, 1000);
+        } catch (e) {
+          log(`IndexedDB exception: ${e.message}`, 'error');
+          resolve({
+            method: 'IndexedDB (Firefox)',
+            available: true,
+            result: true,
+            error: e.message
+          });
+        }
+      });
+    }
+
+    // Test 3: FileSystem API (older Chrome)
+    async function testFileSystem() {
+      log('Testing FileSystem API...');
+      return new Promise((resolve) => {
+        if (!window.webkitRequestFileSystem) {
+          log('FileSystem API not available', 'warn');
+          resolve({
+            method: 'FileSystem API (Chrome Legacy)',
+            available: false,
+            result: null,
+            reason: 'API not available'
+          });
+          return;
+        }
+
+        window.webkitRequestFileSystem(
+          window.TEMPORARY,
+          1,
+          () => {
+            log('FileSystem works - normal mode', 'success');
+            resolve({
+              method: 'FileSystem API (Chrome Legacy)',
+              available: true,
+              result: false,
+              reason: 'FileSystem accessible'
+            });
+          },
+          () => {
+            log('FileSystem blocked - incognito', 'warn');
+            resolve({
+              method: 'FileSystem API (Chrome Legacy)',
+              available: true,
+              result: true,
+              reason: 'FileSystem blocked'
+            });
+          }
+        );
+      });
+    }
+
+    // Test 4: localStorage (Safari)
+    function testLocalStorage() {
+      log('Testing localStorage...');
+      try {
+        const testKey = '__incognito_test__';
+        localStorage.setItem(testKey, '1');
+        localStorage.removeItem(testKey);
+        log('localStorage works - normal mode', 'success');
+        return {
+          method: 'localStorage (Safari)',
+          available: true,
+          result: false,
+          reason: 'localStorage accessible'
+        };
+      } catch (e) {
+        log(`localStorage blocked - incognito: ${e.message}`, 'warn');
+        return {
+          method: 'localStorage (Safari)',
+          available: true,
+          result: true,
+          error: e.message
+        };
+      }
+    }
+
+    // Test 5: Service Worker
+    async function testServiceWorker() {
+      log('Testing Service Worker...');
+      try {
+        if (!('serviceWorker' in navigator)) {
+          log('Service Worker not available', 'warn');
+          return {
+            method: 'Service Worker',
+            available: false,
+            result: null,
+            reason: 'API not available'
+          };
+        }
+
+        // In incognito, service worker registration may fail
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        log(`Service Worker registrations: ${registrations.length}`, 'info');
+        
+        return {
+          method: 'Service Worker',
+          available: true,
+          result: null,
+          registrations: registrations.length,
+          reason: 'Cannot determine from this alone'
+        };
+      } catch (e) {
+        log(`Service Worker error: ${e.message}`, 'error');
+        return {
+          method: 'Service Worker',
+          available: false,
+          result: null,
+          error: e.message
+        };
+      }
+    }
+
+    // Test 6: Performance Memory (Chrome only)
+    function testPerformanceMemory() {
+      log('Testing Performance Memory...');
+      try {
+        if (!performance.memory) {
+          log('Performance Memory not available', 'warn');
+          return {
+            method: 'Performance Memory',
+            available: false,
+            result: null,
+            reason: 'API not available (non-Chrome)'
+          };
+        }
+
+        const { jsHeapSizeLimit, totalJSHeapSize, usedJSHeapSize } = performance.memory;
+        log(`Heap limit: ${Math.round(jsHeapSizeLimit / (1024 * 1024))} MB`);
+        
+        return {
+          method: 'Performance Memory',
+          available: true,
+          result: null,
+          heapLimit: Math.round(jsHeapSizeLimit / (1024 * 1024)) + ' MB',
+          totalHeap: Math.round(totalJSHeapSize / (1024 * 1024)) + ' MB',
+          usedHeap: Math.round(usedJSHeapSize / (1024 * 1024)) + ' MB',
+          reason: 'Reference only'
+        };
+      } catch (e) {
+        log(`Performance Memory error: ${e.message}`, 'error');
+        return {
+          method: 'Performance Memory',
+          available: false,
+          result: null,
+          error: e.message
+        };
+      }
+    }
+
+    // Calculate fingerprint
+    async function calculateFingerprint(isIncognito) {
+      const dataArray = [
+        screen.width,
+        screen.height,
+        screen.colorDepth,
+        Intl.DateTimeFormat().resolvedOptions().timeZone,
+        new Date().getTimezoneOffset(),
+        navigator.hardwareConcurrency || 0,
+        navigator.maxTouchPoints || 0,
+        isIncognito ? 1 : 0
+      ];
+      
+      const data = dataArray.join('|');
+      let hash = 0;
+      for (let i = 0; i < data.length; i++) {
+        const char = data.charCodeAt(i);
+        hash = ((hash << 5) - hash) + char;
+        hash = hash & hash;
+      }
+      
+      return {
+        fingerprint: 'FP_' + Math.abs(hash).toString(36).toUpperCase(),
+        dataArray: dataArray,
+        raw: data
+      };
+    }
+
+    // Run all tests
+    async function runAllTests() {
+      logs.length = 0;
+      log('=== Starting all tests ===');
+      
+      const results = [];
+      
+      // Run all tests
+      results.push(await testStorageQuota());
+      results.push(await testIndexedDB());
+      results.push(await testFileSystem());
+      results.push(testLocalStorage());
+      results.push(await testServiceWorker());
+      results.push(testPerformanceMemory());
+      
+      // Render results
+      const testResultsDiv = document.getElementById('testResults');
+      testResultsDiv.innerHTML = results.map(r => `
+        <div class="test-item">
+          <div class="name">
+            ${r.method} 
+            <span class="status ${r.result === true ? 'incognito' : r.result === false ? 'normal' : 'pending'}">
+              ${r.result === true ? '🔒 INCOGNITO' : r.result === false ? '🔓 NORMAL' : '❓ N/A'}
+            </span>
+          </div>
+          <div class="value">${JSON.stringify(r, null, 2)}</div>
+        </div>
+      `).join('');
+
+      // Determine final result
+      const incognitoVotes = results.filter(r => r.result === true).length;
+      const normalVotes = results.filter(r => r.result === false).length;
+      
+      log(`Votes: Incognito=${incognitoVotes}, Normal=${normalVotes}`);
+      
+      // Final decision: if any test says incognito, consider incognito
+      const isIncognito = incognitoVotes > 0;
+      
+      // Update final result
+      const finalResult = document.getElementById('finalResult');
+      const finalText = document.getElementById('finalText');
+      
+      if (isIncognito) {
+        finalResult.style.background = 'linear-gradient(135deg, #e94560 0%, #ff6b8a 100%)';
+        finalResult.querySelector('h2').textContent = '🔒 CHẾ ĐỘ ẨN DANH';
+        finalResult.querySelector('.big-status').textContent = '🕵️';
+        finalText.textContent = `Phát hiện ${incognitoVotes} test(s) cho kết quả incognito`;
+      } else {
+        finalResult.style.background = 'linear-gradient(135deg, #00d9ff 0%, #00ff88 100%)';
+        finalResult.querySelector('h2').textContent = '🔓 CHẾ ĐỘ THƯỜNG';
+        finalResult.querySelector('h2').style.color = '#000';
+        finalResult.querySelector('.big-status').textContent = '👤';
+        finalText.textContent = `Tất cả ${normalVotes} test(s) cho kết quả normal`;
+        finalText.style.color = '#000';
+      }
+
+      // Calculate fingerprint
+      const fpData = await calculateFingerprint(isIncognito);
+      document.getElementById('fingerprintCode').textContent = fpData.fingerprint;
+      
+      // Raw data
+      document.getElementById('rawData').innerHTML = `
+        <div class="test-item">
+          <div class="name">Fingerprint Data Array</div>
+          <div class="value">${JSON.stringify(fpData.dataArray)}</div>
+        </div>
+        <div class="test-item">
+          <div class="name">Raw String</div>
+          <div class="value">${fpData.raw}</div>
+        </div>
+        <div class="test-item">
+          <div class="name">Browser Info</div>
+          <div class="value">
+User Agent: ${navigator.userAgent}
+Platform: ${navigator.platform}
+Vendor: ${navigator.vendor}
+Language: ${navigator.language}
+Cookies Enabled: ${navigator.cookieEnabled}
+Do Not Track: ${navigator.doNotTrack}
+          </div>
+        </div>
+      `;
+
+      log('=== Tests completed ===', 'success');
+    }
+
+    // Auto run on page load
+    window.addEventListener('DOMContentLoaded', runAllTests);
+  </script>
+</body>
+</html>
