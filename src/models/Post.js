@@ -151,7 +151,10 @@ const postSchema = new mongoose.Schema({
   },
   
   // SEO
-  seo: seoSchema,
+  seo: {
+    type: seoSchema,
+    default: () => ({})
+  },
   
   // Stats
   views: {

@@ -273,6 +273,8 @@ router.post('/', async (req, res) => {
       authorName
     } = req.body
     
+    console.log('Creating post with data:', { title, status, seo })
+    
     if (!title) {
       return res.status(400).json({ success: false, message: 'Title is required' })
     }
@@ -280,22 +282,28 @@ router.post('/', async (req, res) => {
     // Generate unique slug
     const finalSlug = slug || await generateUniqueSlug(title)
     
-    const post = new Post({
+    const postData = {
       title,
       slug: finalSlug,
-      excerpt,
-      thumbnail,
+      excerpt: excerpt || '',
+      thumbnail: thumbnail || '',
       blocks: blocks || [],
       category: category || 'general',
       tags: tags || [],
       status: status || 'draft',
       publishedAt: status === 'published' ? new Date() : null,
       scheduledAt: status === 'scheduled' ? scheduledAt : null,
-      seo: seo || {},
       isFeatured: isFeatured || false,
       featuredOrder: featuredOrder || 0,
       authorName: authorName || 'Admin'
-    })
+    }
+    
+    // Only add seo if it has valid content
+    if (seo && Object.keys(seo).length > 0) {
+      postData.seo = seo
+    }
+    
+    const post = new Post(postData)
     
     await post.save()
     
@@ -348,7 +356,9 @@ router.put('/:id', async (req, res) => {
     if (blocks) post.blocks = blocks
     if (category) post.category = category
     if (tags) post.tags = tags
-    if (seo) post.seo = { ...post.seo, ...seo }
+    if (seo && Object.keys(seo).length > 0) {
+      post.seo = { ...post.seo, ...seo }
+    }
     if (isFeatured !== undefined) post.isFeatured = isFeatured
     if (featuredOrder !== undefined) post.featuredOrder = featuredOrder
     if (authorName !== undefined) post.authorName = authorName
