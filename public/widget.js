@@ -1,6 +1,7 @@
 /**
- * Traffic Boost Widget v2.2
+ * Traffic Boost Widget v2.3
  * Chỉ hiện "Mã Code" - bấm vào đếm ngược - xong hiện mã - bấm để copy
+ * Block widget in incognito/private browsing mode
  * 
  * Usage: <script src="https://yourserver.com/widget.js?siteKey=SITE_KEY"></script>
  */
@@ -8,7 +9,7 @@
 (function() {
   'use strict';
 
-  const WIDGET_VERSION = '2.2.0';
+  const WIDGET_VERSION = '2.3.0';
   const COUNTDOWN_SECONDS = 60;
   const API_BASE = 'https://betraffic-production.up.railway.app';
 
@@ -23,46 +24,156 @@
     return null;
   };
 
-  // Detect incognito/private browsing mode
+  // Robust incognito detection (from Joe12387/detectIncognito)
   const detectIncognito = () => {
-    return new Promise((resolve) => {
-      // Method 1: Check storage quota (Chrome/Edge)
-      if ('storage' in navigator && 'estimate' in navigator.storage) {
-        navigator.storage.estimate().then(({ quota }) => {
-          if (quota && quota < 200 * 1024 * 1024) {
-            resolve(1);
-            return;
+    return new Promise((resolve, reject) => {
+      let browserName = 'Unknown';
+
+      function callback(isPrivate) {
+        resolve({ isPrivate, browserName });
+      }
+
+      function feid() {
+        let toFixedEngineID = 0;
+        try {
+          const neg = parseInt("-1");
+          neg.toFixed(neg);
+        } catch (e) {
+          toFixedEngineID = e.message.length;
+        }
+        return toFixedEngineID;
+      }
+
+      function isSafari() { return feid() === 44 || feid() === 43; }
+      function isChrome() { return feid() === 51; }
+      function isFirefox() { return feid() === 25; }
+      function isMSIE() { return navigator.msSaveBlob !== undefined; }
+
+      function identifyChromium() {
+        const ua = navigator.userAgent;
+        if (ua.match(/Chrome/)) {
+          if (navigator.brave !== undefined) return 'Brave';
+          else if (ua.match(/Edg/)) return 'Edge';
+          else if (ua.match(/OPR/)) return 'Opera';
+          return 'Chrome';
+        }
+        return 'Chromium';
+      }
+
+      // Safari test using OPFS
+      async function safariPrivateTest() {
+        if (typeof navigator.storage?.getDirectory === 'function') {
+          try {
+            await navigator.storage.getDirectory();
+            callback(false);
+          } catch (e) {
+            const message = e instanceof Error ? e.message : String(e);
+            callback(message.includes('unknown transient reason'));
           }
-        }).catch(() => {});
+        } else if (navigator.maxTouchPoints !== undefined) {
+          try {
+            const tmp = String(Math.random());
+            const dbReq = indexedDB.open(tmp, 1);
+            dbReq.onupgradeneeded = function(ev) {
+              const db = ev.target.result;
+              try {
+                db.createObjectStore('t', { autoIncrement: true }).put(new Blob());
+                callback(false);
+              } catch (err) {
+                const msg = err instanceof Error ? err.message : String(err);
+                callback(msg.includes('are not yet supported'));
+              } finally {
+                db.close();
+                indexedDB.deleteDatabase(tmp);
+              }
+            };
+            dbReq.onerror = function() { callback(false); };
+          } catch (e) {
+            callback(false);
+          }
+        } else {
+          try { window.openDatabase(null, null, null, null); } 
+          catch (e) { callback(true); return; }
+          try { localStorage.setItem('test', '1'); localStorage.removeItem('test'); } 
+          catch (e) { callback(true); return; }
+          callback(false);
+        }
       }
 
-      // Method 2: Check FileSystem API (older Chrome)
-      if (window.webkitRequestFileSystem) {
-        window.webkitRequestFileSystem(
-          window.TEMPORARY, 
-          1,
-          () => resolve(0),
-          () => resolve(1)
-        );
-        return;
+      // Chrome test using storage quota
+      function chromePrivateTest() {
+        if (navigator.webkitTemporaryStorage) {
+          navigator.webkitTemporaryStorage.queryUsageAndQuota(
+            function(usage, quota) {
+              const quotaInMib = Math.round(quota / (1024 * 1024));
+              const heapLimit = window.performance?.memory?.jsHeapSizeLimit || 1073741824;
+              const quotaLimitInMib = Math.round(heapLimit / (1024 * 1024)) * 2;
+              callback(quotaInMib < quotaLimitInMib);
+            },
+            function(e) { callback(false); }
+          );
+        } else if (window.webkitRequestFileSystem) {
+          window.webkitRequestFileSystem(0, 1, 
+            function() { callback(false); },
+            function() { callback(true); }
+          );
+        } else {
+          callback(false);
+        }
       }
 
-      // Method 3: Safari - check localStorage
-      try {
-        localStorage.setItem('test_incognito', '1');
-        localStorage.removeItem('test_incognito');
-      } catch (e) {
-        resolve(1);
-        return;
+      // Firefox test using OPFS or IndexedDB
+      async function firefoxPrivateTest() {
+        if (typeof navigator.storage?.getDirectory === 'function') {
+          try {
+            await navigator.storage.getDirectory();
+            callback(false);
+          } catch (e) {
+            const message = e instanceof Error ? e.message : String(e);
+            callback(message.includes('Security error'));
+          }
+        } else {
+          const request = indexedDB.open('inPrivate');
+          request.onerror = function(event) {
+            if (request.error && request.error.name === 'InvalidStateError') {
+              event.preventDefault();
+            }
+            callback(true);
+          };
+          request.onsuccess = function() {
+            indexedDB.deleteDatabase('inPrivate');
+            callback(false);
+          };
+        }
       }
 
-      // Default: assume not incognito after 100ms
-      setTimeout(() => resolve(0), 100);
+      function msiePrivateTest() {
+        callback(window.indexedDB === undefined);
+      }
+
+      // Main detection
+      if (isSafari()) {
+        browserName = 'Safari';
+        safariPrivateTest();
+      } else if (isChrome()) {
+        browserName = identifyChromium();
+        chromePrivateTest();
+      } else if (isFirefox()) {
+        browserName = 'Firefox';
+        firefoxPrivateTest();
+      } else if (isMSIE()) {
+        browserName = 'Internet Explorer';
+        msiePrivateTest();
+      } else {
+        // Unknown browser - assume not private
+        callback(false);
+      }
     });
   };
 
   const getFingerprint = async () => {
-    const isIncognito = await detectIncognito();
+    const result = await detectIncognito();
+    const isIncognito = result.isPrivate ? 1 : 0;
     
     const dataArray = [
       screen.width,
@@ -132,10 +243,15 @@
       if (!this.siteKey) return;
 
       // Check incognito first - don't show widget in incognito mode
-      const isIncognito = await detectIncognito();
-      if (isIncognito) {
-        log('Incognito mode detected - widget disabled');
-        return;
+      try {
+        const result = await detectIncognito();
+        if (result.isPrivate) {
+          log(`Incognito mode detected (${result.browserName}) - widget disabled`);
+          return;
+        }
+        log(`Normal mode detected (${result.browserName})`);
+      } catch (e) {
+        log('Could not detect incognito mode, continuing...');
       }
 
       // Get fingerprint first (async due to incognito detection)
