@@ -58,71 +58,147 @@ const calculateScore = (answers, questions) => {
 }
 
 /**
- * Generate analysis based on score
+ * Generate analysis based on score using settings from DB
  * @param {number} score 
  * @param {number} maxScore 
+ * @param {Array} scoreLevels - Score levels from ResultSettings
  * @returns {Object} analysis
  */
-const generateAnalysis = (score, maxScore) => {
-  let level, description, strengths, improvements
+const generateAnalysis = (score, maxScore, scoreLevels = null) => {
+  // Default levels if no settings provided
+  const defaultLevels = [
+    {
+      minScore: 130,
+      maxScore: 150,
+      level: 'Xuất sắc',
+      emoji: '🏆',
+      description: 'Bạn có năng lực trí tuệ vượt trội, thuộc nhóm 2% người có điểm số cao nhất.',
+      strengths: ['Tư duy logic xuất sắc', 'Khả năng phân tích vượt trội'],
+      improvements: ['Tiếp tục thử thách bản thân']
+    },
+    {
+      minScore: 115,
+      maxScore: 129,
+      level: 'Trên trung bình',
+      emoji: '⭐',
+      description: 'Bạn có khả năng tư duy logic tốt, thuộc nhóm 15% người có điểm số cao.',
+      strengths: ['Suy luận logic tốt', 'Nhận diện quy luật nhanh'],
+      improvements: ['Cải thiện tốc độ làm bài', 'Rèn luyện thêm']
+    },
+    {
+      minScore: 100,
+      maxScore: 114,
+      level: 'Trung bình',
+      emoji: '👍',
+      description: 'Bạn có năng lực trí tuệ ở mức trung bình, tương đương với đa số mọi người.',
+      strengths: ['Nền tảng tư duy logic ổn định', 'Khả năng học hỏi tốt'],
+      improvements: ['Rèn luyện thêm các bài tập suy luận', 'Cải thiện khả năng tập trung']
+    },
+    {
+      minScore: 70,
+      maxScore: 99,
+      level: 'Cần cải thiện',
+      emoji: '💪',
+      description: 'Kết quả cho thấy bạn cần rèn luyện thêm. Với sự kiên trì, bạn hoàn toàn có thể cải thiện!',
+      strengths: ['Có tiềm năng phát triển', 'Sẵn sàng học hỏi'],
+      improvements: ['Bắt đầu với các bài tập cơ bản', 'Rèn luyện đều đặn mỗi ngày']
+    }
+  ]
+
+  const levels = scoreLevels && scoreLevels.length > 0 ? scoreLevels : defaultLevels
   
-  if (score >= 130) {
-    level = 'Xuất sắc'
-    description = 'Bạn có năng lực trí tuệ vượt trội, thuộc nhóm 2% người có điểm số cao nhất. Khả năng tư duy logic, phân tích và giải quyết vấn đề của bạn rất ấn tượng.'
-    strengths = [
-      'Tư duy logic xuất sắc',
-      'Khả năng phân tích vượt trội',
-      'Giải quyết vấn đề phức tạp nhanh chóng',
-      'Nhận diện mẫu hình chính xác'
-    ]
-    improvements = [
-      'Tiếp tục thử thách bản thân với các bài toán khó hơn'
-    ]
-  } else if (score >= 115) {
-    level = 'Trên trung bình'
-    description = 'Bạn có khả năng tư duy logic tốt, thuộc nhóm 15% người có điểm số cao. Điểm mạnh của bạn nằm ở khả năng phân tích và nhận diện quy luật.'
-    strengths = [
-      'Suy luận logic tốt',
-      'Nhận diện quy luật nhanh',
-      'Tư duy phân tích ổn định'
-    ]
-    improvements = [
-      'Cải thiện tốc độ làm bài',
-      'Rèn luyện thêm với các bài tập về dãy số'
-    ]
-  } else if (score >= 100) {
-    level = 'Trung bình'
-    description = 'Bạn có năng lực trí tuệ ở mức trung bình, tương đương với đa số mọi người. Với việc rèn luyện thường xuyên, bạn có thể cải thiện đáng kể.'
-    strengths = [
-      'Nền tảng tư duy logic ổn định',
-      'Khả năng học hỏi tốt'
-    ]
-    improvements = [
-      'Rèn luyện thêm các bài tập suy luận',
-      'Tăng cường bài tập về không gian và hình học',
-      'Cải thiện khả năng tập trung'
-    ]
-  } else {
-    level = 'Cần cải thiện'
-    description = 'Kết quả cho thấy bạn cần rèn luyện thêm trong lĩnh vực tư duy logic. Đừng lo lắng, với sự kiên trì, bạn hoàn toàn có thể cải thiện!'
-    strengths = [
-      'Có tiềm năng phát triển',
-      'Sẵn sàng học hỏi'
-    ]
-    improvements = [
-      'Bắt đầu với các bài tập cơ bản',
-      'Rèn luyện đều đặn mỗi ngày',
-      'Học các phương pháp giải quyết vấn đề',
-      'Tăng cường đọc sách và giải đố'
-    ]
+  // Find matching level
+  const matchedLevel = levels.find(l => score >= l.minScore && score <= l.maxScore)
+  
+  if (matchedLevel) {
+    return {
+      level: matchedLevel.level,
+      emoji: matchedLevel.emoji,
+      description: matchedLevel.description,
+      strengths: matchedLevel.strengths || [],
+      improvements: matchedLevel.improvements || []
+    }
   }
   
-  return { level, description, strengths, improvements }
+  // Fallback to last level if no match
+  const lastLevel = levels[levels.length - 1]
+  return {
+    level: lastLevel.level,
+    emoji: lastLevel.emoji,
+    description: lastLevel.description,
+    strengths: lastLevel.strengths || [],
+    improvements: lastLevel.improvements || []
+  }
+}
+
+/**
+ * Generate advice based on percentage correct using settings from DB
+ * @param {number} correctCount 
+ * @param {number} totalQuestions 
+ * @param {Array} adviceRanges - Advice ranges from ResultSettings
+ * @returns {Array} advice list
+ */
+const generateAdvice = (correctCount, totalQuestions, adviceRanges = null) => {
+  const percent = Math.round((correctCount / totalQuestions) * 100)
+  
+  // Default advice ranges if no settings provided
+  const defaultRanges = [
+    {
+      minPercent: 80,
+      maxPercent: 100,
+      advices: [
+        '👏 Xuất sắc! Bạn đã nắm vững hầu hết kiến thức.',
+        '🎯 Tiếp tục duy trì phong độ này nhé!',
+        '📚 Thử thách bản thân với các bài test khó hơn.'
+      ]
+    },
+    {
+      minPercent: 60,
+      maxPercent: 79,
+      advices: [
+        '👍 Kết quả tốt! Bạn đã nắm được phần lớn kiến thức.',
+        '📖 Xem lại những câu sai để hiểu rõ hơn.',
+        '🎯 Tập trung vào các dạng câu hỏi bạn còn yếu.'
+      ]
+    },
+    {
+      minPercent: 40,
+      maxPercent: 59,
+      advices: [
+        '💡 Bạn đã có nền tảng cơ bản.',
+        '📚 Cần ôn tập thêm để cải thiện kết quả.',
+        '🔄 Thử làm lại bài test sau khi ôn tập.'
+      ]
+    },
+    {
+      minPercent: 0,
+      maxPercent: 39,
+      advices: [
+        '💪 Đừng nản chí! Ai cũng có thể cải thiện.',
+        '📖 Hãy dành thời gian học và ôn tập kỹ hơn.',
+        '🎯 Bắt đầu từ những kiến thức cơ bản nhất.'
+      ]
+    }
+  ]
+  
+  const ranges = adviceRanges && adviceRanges.length > 0 ? adviceRanges : defaultRanges
+  
+  // Find matching range
+  const matchedRange = ranges.find(r => percent >= r.minPercent && percent <= r.maxPercent)
+  
+  if (matchedRange) {
+    return matchedRange.advices || []
+  }
+  
+  // Fallback to last range
+  const lastRange = ranges[ranges.length - 1]
+  return lastRange.advices || []
 }
 
 module.exports = {
   generateCode,
   generateSiteKey,
   calculateScore,
-  generateAnalysis
+  generateAnalysis,
+  generateAdvice
 }

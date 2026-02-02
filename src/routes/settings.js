@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const Settings = require('../models/Settings')
+const ResultSettings = require('../models/ResultSettings')
 
 // Default content for terms page
 const defaultTerms = {
@@ -153,6 +154,266 @@ router.get('/', async (req, res) => {
   } catch (error) {
     console.error('Error fetching all settings:', error)
     res.status(500).json({ message: 'Server error' })
+  }
+})
+
+// ==================== RESULT SETTINGS ====================
+
+// GET result settings
+router.get('/result/config', async (req, res) => {
+  try {
+    const settings = await ResultSettings.getSettings()
+    res.json({ success: true, settings })
+  } catch (error) {
+    console.error('Error fetching result settings:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// PUT update result settings
+router.put('/result/config', async (req, res) => {
+  try {
+    const { 
+      pageTitle,
+      scoreLevels,
+      adviceRanges,
+      comparison,
+      labels,
+      colors
+    } = req.body
+    
+    let settings = await ResultSettings.findOne({ key: 'result_config' })
+    
+    if (!settings) {
+      settings = await ResultSettings.getSettings() // Creates default
+    }
+    
+    // Update fields
+    if (pageTitle !== undefined) settings.pageTitle = pageTitle
+    if (scoreLevels !== undefined) settings.scoreLevels = scoreLevels
+    if (adviceRanges !== undefined) settings.adviceRanges = adviceRanges
+    if (comparison !== undefined) settings.comparison = comparison
+    if (labels !== undefined) settings.labels = { ...settings.labels, ...labels }
+    if (colors !== undefined) settings.colors = { ...settings.colors, ...colors }
+    
+    settings.updatedAt = new Date()
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Result settings updated successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error updating result settings:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// POST add new score level
+router.post('/result/score-level', async (req, res) => {
+  try {
+    const { minScore, maxScore, level, emoji, description, strengths, improvements } = req.body
+    
+    if (minScore === undefined || maxScore === undefined || !level || !description) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'minScore, maxScore, level, and description are required' 
+      })
+    }
+    
+    const settings = await ResultSettings.getSettings()
+    
+    settings.scoreLevels.push({
+      minScore,
+      maxScore,
+      level,
+      emoji: emoji || '⭐',
+      description,
+      strengths: strengths || [],
+      improvements: improvements || []
+    })
+    
+    // Sort by minScore descending
+    settings.scoreLevels.sort((a, b) => b.minScore - a.minScore)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Score level added successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error adding score level:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// PUT update specific score level
+router.put('/result/score-level/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+    const updates = req.body
+    
+    const settings = await ResultSettings.getSettings()
+    
+    const levelIndex = settings.scoreLevels.findIndex(l => l._id.toString() === id)
+    if (levelIndex === -1) {
+      return res.status(404).json({ success: false, message: 'Score level not found' })
+    }
+    
+    // Update fields
+    Object.keys(updates).forEach(key => {
+      if (updates[key] !== undefined) {
+        settings.scoreLevels[levelIndex][key] = updates[key]
+      }
+    })
+    
+    // Re-sort
+    settings.scoreLevels.sort((a, b) => b.minScore - a.minScore)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Score level updated successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error updating score level:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// DELETE score level
+router.delete('/result/score-level/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+    
+    const settings = await ResultSettings.getSettings()
+    
+    settings.scoreLevels = settings.scoreLevels.filter(l => l._id.toString() !== id)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Score level deleted successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error deleting score level:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// POST add advice range
+router.post('/result/advice-range', async (req, res) => {
+  try {
+    const { minPercent, maxPercent, advices } = req.body
+    
+    if (minPercent === undefined || maxPercent === undefined || !advices) {
+      return res.status(400).json({ 
+        success: false, 
+        message: 'minPercent, maxPercent, and advices are required' 
+      })
+    }
+    
+    const settings = await ResultSettings.getSettings()
+    
+    settings.adviceRanges.push({
+      minPercent,
+      maxPercent,
+      advices
+    })
+    
+    // Sort by minPercent descending
+    settings.adviceRanges.sort((a, b) => b.minPercent - a.minPercent)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Advice range added successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error adding advice range:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// PUT update advice range
+router.put('/result/advice-range/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+    const updates = req.body
+    
+    const settings = await ResultSettings.getSettings()
+    
+    const rangeIndex = settings.adviceRanges.findIndex(r => r._id.toString() === id)
+    if (rangeIndex === -1) {
+      return res.status(404).json({ success: false, message: 'Advice range not found' })
+    }
+    
+    Object.keys(updates).forEach(key => {
+      if (updates[key] !== undefined) {
+        settings.adviceRanges[rangeIndex][key] = updates[key]
+      }
+    })
+    
+    settings.adviceRanges.sort((a, b) => b.minPercent - a.minPercent)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Advice range updated successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error updating advice range:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// DELETE advice range
+router.delete('/result/advice-range/:id', async (req, res) => {
+  try {
+    const { id } = req.params
+    
+    const settings = await ResultSettings.getSettings()
+    
+    settings.adviceRanges = settings.adviceRanges.filter(r => r._id.toString() !== id)
+    
+    await settings.save()
+    
+    res.json({ 
+      success: true, 
+      message: 'Advice range deleted successfully',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error deleting advice range:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
+  }
+})
+
+// POST reset to default settings
+router.post('/result/reset', async (req, res) => {
+  try {
+    await ResultSettings.deleteOne({ key: 'result_config' })
+    const settings = await ResultSettings.getSettings() // Creates new default
+    
+    res.json({ 
+      success: true, 
+      message: 'Result settings reset to default',
+      settings 
+    })
+  } catch (error) {
+    console.error('Error resetting result settings:', error)
+    res.status(500).json({ success: false, message: 'Server error' })
   }
 })
 

@@ -5,7 +5,8 @@ const Session = require('../models/Session')
 const Task = require('../models/Task')
 const Site = require('../models/Site')
 const Question = require('../models/Question')
-const { generateCode, calculateScore, generateAnalysis } = require('../utils/helpers')
+const ResultSettings = require('../models/ResultSettings')
+const { generateCode, calculateScore, generateAnalysis, generateAdvice } = require('../utils/helpers')
 
 // Start a new session
 router.post('/start', async (req, res) => {
@@ -225,6 +226,24 @@ router.get('/:id', async (req, res) => {
     const wrongCount = questionDetails.filter(q => !q.isCorrect && !q.isUnanswered).length
     const unansweredCount = questionDetails.filter(q => q.isUnanswered).length
     
+    // Get result settings from DB
+    const resultSettings = await ResultSettings.getSettings()
+    
+    // Regenerate analysis with settings from DB
+    const analysis = generateAnalysis(session.score, session.maxScore, resultSettings.scoreLevels)
+    
+    // Generate advice with settings from DB
+    const advice = generateAdvice(correctCount, questions.length, resultSettings.adviceRanges)
+    
+    // Calculate rank based on percentile
+    let yourRank = 'Cần cố gắng'
+    for (const rank of resultSettings.comparison?.percentileRanks || []) {
+      if (session.percentile >= rank.maxPercentile) {
+        yourRank = rank.label
+        break
+      }
+    }
+    
     res.json({
       type: session.testId?.type || 'iq',
       testName: session.testId?.name || 'IQ Test',
@@ -236,56 +255,22 @@ router.get('/:id', async (req, res) => {
       unansweredQuestions: unansweredCount,
       totalQuestions: questions.length || session.testId?.questionCount || 20,
       timeSpent: '12:34',
-      analysis: session.analysis || {
-        level: 'Trên trung bình',
-        description: 'Bạn có khả năng tư duy tốt',
-        strengths: ['Suy luận logic', 'Nhận diện quy luật'],
-        improvements: ['Cần cải thiện tốc độ']
-      },
+      analysis: analysis,
       comparison: {
-        average: 100,
-        yourRank: `Top ${100 - session.percentile}%`
+        average: resultSettings.comparison?.averageScore || 100,
+        yourRank
       },
       questionDetails, // Detailed question-by-question breakdown
-      advice: generateAdvice(correctCount, questions.length, session.percentile)
+      advice,
+      // Include settings for frontend reference
+      labels: resultSettings.labels,
+      colors: resultSettings.colors,
+      pageTitle: resultSettings.pageTitle
     })
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }
 })
-
-// Generate advice based on performance
-function generateAdvice(correctCount, totalQuestions, percentile) {
-  const percentage = (correctCount / totalQuestions) * 100
-  
-  const adviceList = []
-  
-  if (percentage >= 90) {
-    adviceList.push('🌟 Xuất sắc! Bạn đã làm rất tốt bài kiểm tra này.')
-    adviceList.push('💪 Hãy tiếp tục duy trì phong độ và thử sức với các bài test khó hơn.')
-    adviceList.push('📚 Bạn có thể giúp đỡ bạn bè cùng học tập.')
-  } else if (percentage >= 70) {
-    adviceList.push('👍 Kết quả tốt! Bạn đã nắm vững phần lớn kiến thức.')
-    adviceList.push('📖 Xem lại những câu sai để hiểu rõ hơn về các lỗi.')
-    adviceList.push('🎯 Tập trung vào các dạng câu hỏi bạn còn yếu.')
-  } else if (percentage >= 50) {
-    adviceList.push('✨ Kết quả trung bình, còn nhiều dư địa để cải thiện.')
-    adviceList.push('📝 Hãy xem kỹ những câu trả lời sai và tìm hiểu nguyên nhân.')
-    adviceList.push('⏰ Luyện tập thường xuyên sẽ giúp bạn tiến bộ.')
-    adviceList.push('💡 Thử chia nhỏ thời gian học và ôn tập đều đặn.')
-  } else {
-    adviceList.push('🌱 Đừng nản lòng! Mỗi lần làm sai là một cơ hội để học.')
-    adviceList.push('📚 Hãy quay lại ôn tập kiến thức cơ bản.')
-    adviceList.push('🤝 Tìm bạn học hoặc gia sư để được hỗ trợ.')
-    adviceList.push('📅 Lập kế hoạch học tập cụ thể và kiên trì thực hiện.')
-  }
-  
-  if (percentile < 50) {
-    adviceList.push('📈 Bạn cần nỗ lực nhiều hơn để cải thiện thứ hạng.')
-  }
-  
-  return adviceList
-}
 
 // Get task info for session
 router.get('/:id/task', async (req, res) => {
