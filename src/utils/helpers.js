@@ -27,41 +27,51 @@ const generateSiteKey = () => {
 /**
  * Calculate score from answers
  * @param {Array} answers - User's answers
- * @param {Array} questions - Questions with correct answers
- * @param {string} layoutType - 'score' (IQ scale), 'percent' (raw %), 'points' (regular score), or 'mbti'
- * @param {Object} config - Optional config with pointsPerQuestion, maxScore, etc.
- * @returns {Object} score, maxScore, correctCount, percent
+ * @param {Array} questions - Questions with correct answers and points
+ * @param {string} layoutType - 'score' (IQ scale), 'percent' (raw %), 'points' (sum actual points), or 'mbti'
+ * @param {Object} config - Optional config
+ * @returns {Object} score, maxScore, correctCount, percent, questionPoints
  */
 const calculateScore = (answers, questions, layoutType = 'score', config = {}) => {
   let correctCount = 0
+  let earnedPoints = 0  // Điểm đạt được (cộng từ câu đúng)
+  let totalPoints = 0   // Tổng điểm tối đa (cộng từ tất cả câu)
   const answerMap = {}
+  const questionPoints = [] // Chi tiết điểm từng câu
   
   answers.forEach(a => {
     answerMap[a.questionId] = a.answer
   })
   
   questions.forEach(q => {
-    if (answerMap[q._id.toString()] === q.correctAnswer) {
+    const qPoints = q.points || 5 // Điểm của câu hỏi (default 5)
+    totalPoints += qPoints
+    const isCorrect = answerMap[q._id.toString()] === q.correctAnswer
+    if (isCorrect) {
       correctCount++
+      earnedPoints += qPoints
     }
+    questionPoints.push({
+      questionId: q._id.toString(),
+      points: qPoints,
+      isCorrect,
+      earned: isCorrect ? qPoints : 0
+    })
   })
   
   const totalQuestions = questions.length
-  const percent = Math.round((correctCount / totalQuestions) * 100)
+  const percent = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0
   
   // Different score calculation based on layout type
   switch (layoutType) {
     case 'points':
-      // For regular scoring: score = correctCount × pointsPerQuestion
-      const pointsPerQuestion = config.pointsPerQuestion || 10
-      const pointsScore = correctCount * pointsPerQuestion
-      const pointsMaxScore = config.maxScore || (totalQuestions * pointsPerQuestion)
+      // For regular scoring: sum actual points from correct answers
       return {
-        score: pointsScore,
-        maxScore: pointsMaxScore,
+        score: earnedPoints,
+        maxScore: totalPoints,
         correctCount,
         percent,
-        pointsPerQuestion
+        questionPoints // Chi tiết điểm từng câu
       }
     
     case 'percent':

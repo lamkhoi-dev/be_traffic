@@ -64,18 +64,10 @@ router.post('/submit', async (req, res) => {
     
     // Try to get profile to determine layout type and config
     let layoutType = 'score' // default
-    let profileConfig = {}
     try {
       const profile = await ResultProfile.getProfileForTestType(testType)
       if (profile) {
         layoutType = profile.layoutType || 'score'
-        // Get config based on layout type
-        if (layoutType === 'points' && profile.pointsConfig) {
-          profileConfig = {
-            pointsPerQuestion: profile.pointsConfig.pointsPerQuestion || 10,
-            maxScore: profile.pointsConfig.maxScore || 0
-          }
-        }
       }
     } catch (err) {
       // Use default layout type based on test type
@@ -86,10 +78,10 @@ router.post('/submit', async (req, res) => {
       }
     }
     
-    // Calculate score based on layout type and config
+    // Calculate score based on layout type (points come from questions now)
     const testIdForQuery = session.testId?._id || session.testId
     const questions = await Question.find({ testId: testIdForQuery })
-    const { score, maxScore, correctCount, percent, pointsPerQuestion } = calculateScore(answers, questions, layoutType, profileConfig)
+    const { score, maxScore, correctCount, percent, questionPoints } = calculateScore(answers, questions, layoutType)
     
     // Generate analysis
     const analysis = generateAnalysis(score, maxScore, null)
@@ -263,17 +255,10 @@ router.get('/:id', async (req, res) => {
     // Try to get ResultProfile for this test type
     let profile = null
     let layoutType = 'score'
-    let profileConfig = {}
     try {
       profile = await ResultProfile.getProfileForTestType(testType)
       if (profile) {
         layoutType = profile.layoutType || 'score'
-        if (layoutType === 'points' && profile.pointsConfig) {
-          profileConfig = {
-            pointsPerQuestion: profile.pointsConfig.pointsPerQuestion || 10,
-            maxScore: profile.pointsConfig.maxScore || 0
-          }
-        }
       }
     } catch (err) {
       console.log('[Get Session] No profile found for type:', testType)
@@ -281,13 +266,24 @@ router.get('/:id', async (req, res) => {
     
     // RECALCULATE score based on CURRENT profile settings
     // This ensures old sessions get correct score with new profile
-    const recalculated = calculateScore(session.answers || [], questions, layoutType, profileConfig)
+    const recalculated = calculateScore(session.answers || [], questions, layoutType)
     const score = recalculated.score
     const maxScore = recalculated.maxScore
-    const pointsPerQuestion = recalculated.pointsPerQuestion
+    const questionPoints = recalculated.questionPoints || [] // Chi tiết điểm từng câu
     
     // Fallback to old ResultSettings if no profile
     const resultSettings = await ResultSettings.getSettings()
+    
+    // Merge questionPoints into questionDetails for points layout
+    if (layoutType === 'points' && questionPoints.length > 0) {
+      questionDetails.forEach(qd => {
+        const qp = questionPoints.find(p => p.questionId === qd.id)
+        if (qp) {
+          qd.points = qp.points
+          qd.earnedPoints = qp.earned
+        }
+      })
+    }
     
     // Build base result data
     let resultData = {
@@ -295,7 +291,7 @@ router.get('/:id', async (req, res) => {
       testName: session.testId?.name || 'IQ Test',
       score: score, // Use RECALCULATED score
       maxScore: maxScore, // Use RECALCULATED maxScore
-      pointsPerQuestion: pointsPerQuestion, // For points layout
+      questionPoints: questionPoints, // Chi tiết điểm từng câu cho points layout
       percentile: session.percentile,
       correctAnswers: correctCount,
       wrongAnswers: wrongCount,

@@ -120,10 +120,8 @@ const resultProfileSchema = new mongoose.Schema({
     passingPercent: { type: Number, default: 50 }
   },
   
-  // ===== POINTS-BASED CONFIG (Regular scoring: score = correct × points) =====
+  // ===== POINTS-BASED CONFIG (Sum actual points from questions) =====
   pointsConfig: {
-    pointsPerQuestion: { type: Number, default: 10 },  // Điểm mỗi câu đúng
-    maxScore: { type: Number, default: 0 },            // 0 = tự tính (questions × pointsPerQuestion)
     passingScore: { type: Number, default: 0 },        // Điểm đạt (0 = không check)
     showCorrectAnswers: { type: Boolean, default: true },
     showWrongAnswers: { type: Boolean, default: true },
