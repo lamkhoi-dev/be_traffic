@@ -285,30 +285,35 @@ router.post('/:id/set-default', requireAdmin, async (req, res) => {
 })
 
 // POST /api/result-profiles/create-defaults - Create default profiles for all test types
+// CHỈ tạo profile cho các test types THỰC SỰ CÓ trong DB
 router.post('/create-defaults', requireAdmin, async (req, res) => {
   try {
-    const testTypes = ResultProfile.getAvailableTestTypes()
+    // AWAIT vì hàm này bây giờ là async
+    const testTypes = await ResultProfile.getAvailableTestTypes()
     const created = []
     const skipped = []
     
     for (const { value: testType, layoutType } of testTypes) {
-      // Check if profile already exists
-      const existing = await ResultProfile.findOne({ testTypes: testType })
+      // Check if profile already exists for this EXACT test type
+      const existing = await ResultProfile.findOne({ 
+        testTypes: { $in: [testType] }  // More explicit check
+      })
       
       if (existing) {
-        skipped.push(testType)
+        skipped.push({ testType, existingProfile: existing.name })
         continue
       }
       
       const profile = await ResultProfile.createDefaultProfile(testType)
-      created.push({ testType, profileId: profile._id, name: profile.name })
+      created.push({ testType, profileId: profile._id, name: profile.name, layoutType: profile.layoutType })
     }
     
     res.json({ 
       success: true, 
-      message: `Created ${created.length} profiles, skipped ${skipped.length}`,
+      message: `Đã tạo ${created.length} profiles, bỏ qua ${skipped.length} (đã có)`,
       created,
-      skipped
+      skipped,
+      testTypesFromDB: testTypes.map(t => t.value)
     })
   } catch (error) {
     console.error('Error creating defaults:', error)
