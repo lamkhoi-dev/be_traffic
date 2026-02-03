@@ -8,7 +8,7 @@
 **Option A: Dùng Railway MongoDB (Đơn giản)**
 1. Vào Railway → New Project → Add MongoDB
 2. Railway tự động tạo biến `MONGODB_URI`
-
+tt
 **Option B: Dùng MongoDB Atlas (Free tier tốt hơn)**
 1. Tạo tài khoản tại [mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
 2. Tạo cluster miễn phí
