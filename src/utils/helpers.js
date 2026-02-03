@@ -28,10 +28,11 @@ const generateSiteKey = () => {
  * Calculate score from answers
  * @param {Array} answers - User's answers
  * @param {Array} questions - Questions with correct answers
- * @param {string} layoutType - 'score' (IQ scale), 'percent' (raw %), or 'mbti'
+ * @param {string} layoutType - 'score' (IQ scale), 'percent' (raw %), 'points' (regular score), or 'mbti'
+ * @param {Object} config - Optional config with pointsPerQuestion, maxScore, etc.
  * @returns {Object} score, maxScore, correctCount, percent
  */
-const calculateScore = (answers, questions, layoutType = 'score') => {
+const calculateScore = (answers, questions, layoutType = 'score', config = {}) => {
   let correctCount = 0
   const answerMap = {}
   
@@ -50,6 +51,19 @@ const calculateScore = (answers, questions, layoutType = 'score') => {
   
   // Different score calculation based on layout type
   switch (layoutType) {
+    case 'points':
+      // For regular scoring: score = correctCount × pointsPerQuestion
+      const pointsPerQuestion = config.pointsPerQuestion || 10
+      const pointsScore = correctCount * pointsPerQuestion
+      const pointsMaxScore = config.maxScore || (totalQuestions * pointsPerQuestion)
+      return {
+        score: pointsScore,
+        maxScore: pointsMaxScore,
+        correctCount,
+        percent,
+        pointsPerQuestion
+      }
+    
     case 'percent':
       // For school tests: score = correctCount, maxScore = totalQuestions
       return {

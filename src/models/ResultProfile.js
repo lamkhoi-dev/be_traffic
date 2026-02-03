@@ -96,7 +96,7 @@ const resultProfileSchema = new mongoose.Schema({
   // Layout type determines which config to use
   layoutType: {
     type: String,
-    enum: ['score', 'percent', 'mbti', 'custom'],
+    enum: ['score', 'percent', 'points', 'mbti', 'custom'],
     required: true,
     default: 'score'
   },
@@ -118,6 +118,17 @@ const resultProfileSchema = new mongoose.Schema({
     showUnanswered: { type: Boolean, default: true },
     showQuestionReview: { type: Boolean, default: true },
     passingPercent: { type: Number, default: 50 }
+  },
+  
+  // ===== POINTS-BASED CONFIG (Regular scoring: score = correct × points) =====
+  pointsConfig: {
+    pointsPerQuestion: { type: Number, default: 10 },  // Điểm mỗi câu đúng
+    maxScore: { type: Number, default: 0 },            // 0 = tự tính (questions × pointsPerQuestion)
+    passingScore: { type: Number, default: 0 },        // Điểm đạt (0 = không check)
+    showCorrectAnswers: { type: Boolean, default: true },
+    showWrongAnswers: { type: Boolean, default: true },
+    showQuestionReview: { type: Boolean, default: true },
+    scoreLevels: [scoreLevelSchema]  // Các mức điểm (VD: Giỏi >= 80, Khá >= 60...)
   },
   
   // ===== MBTI CONFIG =====

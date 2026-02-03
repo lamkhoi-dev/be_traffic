@@ -62,12 +62,20 @@ router.post('/submit', async (req, res) => {
     // Get test type and determine layout type
     const testType = session.testId?.type || 'iq'
     
-    // Try to get profile to determine layout type
+    // Try to get profile to determine layout type and config
     let layoutType = 'score' // default
+    let profileConfig = {}
     try {
       const profile = await ResultProfile.getProfileForTestType(testType)
       if (profile) {
         layoutType = profile.layoutType || 'score'
+        // Get config based on layout type
+        if (layoutType === 'points' && profile.pointsConfig) {
+          profileConfig = {
+            pointsPerQuestion: profile.pointsConfig.pointsPerQuestion || 10,
+            maxScore: profile.pointsConfig.maxScore || 0
+          }
+        }
       }
     } catch (err) {
       // Use default layout type based on test type
@@ -78,10 +86,10 @@ router.post('/submit', async (req, res) => {
       }
     }
     
-    // Calculate score based on layout type
+    // Calculate score based on layout type and config
     const testIdForQuery = session.testId?._id || session.testId
     const questions = await Question.find({ testId: testIdForQuery })
-    const { score, maxScore, correctCount, percent } = calculateScore(answers, questions, layoutType)
+    const { score, maxScore, correctCount, percent, pointsPerQuestion } = calculateScore(answers, questions, layoutType, profileConfig)
     
     // Generate analysis
     const analysis = generateAnalysis(score, maxScore, null)
