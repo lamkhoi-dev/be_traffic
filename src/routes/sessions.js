@@ -262,11 +262,29 @@ router.get('/:id', async (req, res) => {
     
     // Try to get ResultProfile for this test type
     let profile = null
+    let layoutType = 'score'
+    let profileConfig = {}
     try {
       profile = await ResultProfile.getProfileForTestType(testType)
+      if (profile) {
+        layoutType = profile.layoutType || 'score'
+        if (layoutType === 'points' && profile.pointsConfig) {
+          profileConfig = {
+            pointsPerQuestion: profile.pointsConfig.pointsPerQuestion || 10,
+            maxScore: profile.pointsConfig.maxScore || 0
+          }
+        }
+      }
     } catch (err) {
       console.log('[Get Session] No profile found for type:', testType)
     }
+    
+    // RECALCULATE score based on CURRENT profile settings
+    // This ensures old sessions get correct score with new profile
+    const recalculated = calculateScore(session.answers || [], questions, layoutType, profileConfig)
+    const score = recalculated.score
+    const maxScore = recalculated.maxScore
+    const pointsPerQuestion = recalculated.pointsPerQuestion
     
     // Fallback to old ResultSettings if no profile
     const resultSettings = await ResultSettings.getSettings()
@@ -275,8 +293,9 @@ router.get('/:id', async (req, res) => {
     let resultData = {
       type: testType,
       testName: session.testId?.name || 'IQ Test',
-      score: session.score,
-      maxScore: session.maxScore,
+      score: score, // Use RECALCULATED score
+      maxScore: maxScore, // Use RECALCULATED maxScore
+      pointsPerQuestion: pointsPerQuestion, // For points layout
       percentile: session.percentile,
       correctAnswers: correctCount,
       wrongAnswers: wrongCount,
@@ -291,8 +310,8 @@ router.get('/:id', async (req, res) => {
     if (profile) {
       resultData = applyProfileToResult(resultData, profile)
     } else {
-      // Fallback to old system
-      const analysis = generateAnalysis(session.score, session.maxScore, resultSettings.scoreLevels)
+      // Fallback to old system - use recalculated score
+      const analysis = generateAnalysis(score, maxScore, resultSettings.scoreLevels)
       const advice = generateAdvice(correctCount, questions.length, resultSettings.adviceRanges)
       
       // Calculate rank based on percentile
