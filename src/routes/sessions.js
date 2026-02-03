@@ -6,7 +6,8 @@ const Task = require('../models/Task')
 const Site = require('../models/Site')
 const Question = require('../models/Question')
 const ResultSettings = require('../models/ResultSettings')
-const { generateCode, calculateScore, generateAnalysis, generateAdvice } = require('../utils/helpers')
+const ResultProfile = require('../models/ResultProfile')
+const { generateCode, calculateScore, generateAnalysis, generateAdvice, generatePercentAnalysis, applyProfileToResult } = require('../utils/helpers')
 
 // Start a new session
 router.post('/start', async (req, res) => {
@@ -226,26 +227,23 @@ router.get('/:id', async (req, res) => {
     const wrongCount = questionDetails.filter(q => !q.isCorrect && !q.isUnanswered).length
     const unansweredCount = questionDetails.filter(q => q.isUnanswered).length
     
-    // Get result settings from DB
-    const resultSettings = await ResultSettings.getSettings()
+    // Get test type
+    const testType = session.testId?.type || 'iq'
     
-    // Regenerate analysis with settings from DB
-    const analysis = generateAnalysis(session.score, session.maxScore, resultSettings.scoreLevels)
-    
-    // Generate advice with settings from DB
-    const advice = generateAdvice(correctCount, questions.length, resultSettings.adviceRanges)
-    
-    // Calculate rank based on percentile
-    let yourRank = 'Cần cố gắng'
-    for (const rank of resultSettings.comparison?.percentileRanks || []) {
-      if (session.percentile >= rank.maxPercentile) {
-        yourRank = rank.label
-        break
-      }
+    // Try to get ResultProfile for this test type
+    let profile = null
+    try {
+      profile = await ResultProfile.getProfileForTestType(testType)
+    } catch (err) {
+      console.log('[Get Session] No profile found for type:', testType)
     }
     
-    res.json({
-      type: session.testId?.type || 'iq',
+    // Fallback to old ResultSettings if no profile
+    const resultSettings = await ResultSettings.getSettings()
+    
+    // Build base result data
+    let resultData = {
+      type: testType,
       testName: session.testId?.name || 'IQ Test',
       score: session.score,
       maxScore: session.maxScore,
@@ -254,19 +252,40 @@ router.get('/:id', async (req, res) => {
       wrongAnswers: wrongCount,
       unansweredQuestions: unansweredCount,
       totalQuestions: questions.length || session.testId?.questionCount || 20,
+      correctCount,
       timeSpent: '12:34',
-      analysis: analysis,
-      comparison: {
+      questionDetails
+    }
+    
+    // Apply profile if available
+    if (profile) {
+      resultData = applyProfileToResult(resultData, profile)
+    } else {
+      // Fallback to old system
+      const analysis = generateAnalysis(session.score, session.maxScore, resultSettings.scoreLevels)
+      const advice = generateAdvice(correctCount, questions.length, resultSettings.adviceRanges)
+      
+      // Calculate rank based on percentile
+      let yourRank = 'Cần cố gắng'
+      for (const rank of resultSettings.comparison?.percentileRanks || []) {
+        if (session.percentile >= rank.maxPercentile) {
+          yourRank = rank.label
+          break
+        }
+      }
+      
+      resultData.analysis = analysis
+      resultData.advice = advice
+      resultData.comparison = {
         average: resultSettings.comparison?.averageScore || 100,
         yourRank
-      },
-      questionDetails, // Detailed question-by-question breakdown
-      advice,
-      // Include settings for frontend reference
-      labels: resultSettings.labels,
-      colors: resultSettings.colors,
-      pageTitle: resultSettings.pageTitle
-    })
+      }
+      resultData.labels = resultSettings.labels
+      resultData.colors = resultSettings.colors
+      resultData.pageTitle = resultSettings.pageTitle
+    }
+    
+    res.json(resultData)
   } catch (error) {
     res.status(500).json({ success: false, message: error.message })
   }

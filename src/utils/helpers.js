@@ -195,10 +195,147 @@ const generateAdvice = (correctCount, totalQuestions, adviceRanges = null) => {
   return lastRange.advices || []
 }
 
+/**
+ * Generate analysis for percent-based tests (school tests)
+ * @param {number} correctCount 
+ * @param {number} totalQuestions 
+ * @param {Array} percentRanges - Percent ranges from profile
+ * @returns {Object} analysis
+ */
+const generatePercentAnalysis = (correctCount, totalQuestions, percentRanges = null) => {
+  const percent = Math.round((correctCount / totalQuestions) * 100)
+  
+  const defaultRanges = [
+    { minPercent: 90, maxPercent: 100, level: 'Xuất sắc', emoji: '🏆', color: '#f59e0b', description: 'Bạn đã nắm vững kiến thức!' },
+    { minPercent: 70, maxPercent: 89, level: 'Giỏi', emoji: '⭐', color: '#10b981', description: 'Kết quả rất tốt!' },
+    { minPercent: 50, maxPercent: 69, level: 'Khá', emoji: '👍', color: '#3b82f6', description: 'Bạn đã qua mức trung bình' },
+    { minPercent: 30, maxPercent: 49, level: 'Trung bình', emoji: '📚', color: '#8b5cf6', description: 'Cần cố gắng thêm' },
+    { minPercent: 0, maxPercent: 29, level: 'Yếu', emoji: '💪', color: '#ef4444', description: 'Cần ôn tập lại' }
+  ]
+  
+  const ranges = percentRanges && percentRanges.length > 0 ? percentRanges : defaultRanges
+  const matchedRange = ranges.find(r => percent >= r.minPercent && percent <= r.maxPercent)
+  
+  if (matchedRange) {
+    return {
+      percent,
+      level: matchedRange.level,
+      emoji: matchedRange.emoji,
+      color: matchedRange.color,
+      description: matchedRange.description,
+      advices: matchedRange.advices || []
+    }
+  }
+  
+  const lastRange = ranges[ranges.length - 1]
+  return {
+    percent,
+    level: lastRange.level,
+    emoji: lastRange.emoji,
+    color: lastRange.color,
+    description: lastRange.description,
+    advices: lastRange.advices || []
+  }
+}
+
+/**
+ * Apply profile settings to result data
+ * @param {Object} resultData - Raw result data
+ * @param {Object} profile - ResultProfile document
+ * @returns {Object} Enhanced result with profile settings
+ */
+const applyProfileToResult = (resultData, profile) => {
+  if (!profile) return resultData
+  
+  const enhanced = { ...resultData }
+  
+  // Add profile info
+  enhanced.profile = {
+    id: profile._id,
+    name: profile.name,
+    layoutType: profile.layoutType
+  }
+  
+  // Add display options
+  enhanced.displayOptions = profile.displayOptions || {}
+  
+  // Add theme
+  enhanced.theme = profile.theme || {}
+  
+  // Add labels
+  enhanced.labels = profile.labels || {}
+  
+  // Apply layout-specific enhancements
+  switch (profile.layoutType) {
+    case 'score':
+      if (profile.scoreConfig) {
+        enhanced.scoreConfig = {
+          minScore: profile.scoreConfig.minScore,
+          maxScore: profile.scoreConfig.maxScore,
+          comparison: profile.scoreConfig.comparison
+        }
+        // Generate analysis using profile's score levels
+        if (enhanced.score !== undefined) {
+          enhanced.analysis = generateAnalysis(
+            enhanced.score, 
+            enhanced.maxScore, 
+            profile.scoreConfig.scoreLevels
+          )
+          // Generate advice
+          if (enhanced.correctCount !== undefined && enhanced.totalQuestions !== undefined) {
+            enhanced.advice = generateAdvice(
+              enhanced.correctCount,
+              enhanced.totalQuestions,
+              profile.scoreConfig.adviceRanges
+            )
+          }
+        }
+      }
+      break
+      
+    case 'percent':
+      if (profile.percentConfig) {
+        enhanced.percentConfig = profile.percentConfig
+        // Generate percent-based analysis
+        if (enhanced.correctCount !== undefined && enhanced.totalQuestions !== undefined) {
+          enhanced.percentAnalysis = generatePercentAnalysis(
+            enhanced.correctCount,
+            enhanced.totalQuestions,
+            profile.percentConfig.percentRanges
+          )
+        }
+      }
+      break
+      
+    case 'mbti':
+      if (profile.mbtiConfig) {
+        enhanced.mbtiConfig = {
+          dimensions: profile.mbtiConfig.dimensions,
+          showDimensionScores: profile.mbtiConfig.showDimensionScores,
+          showPersonalityDetails: profile.mbtiConfig.showPersonalityDetails,
+          showCareerSuggestions: profile.mbtiConfig.showCareerSuggestions,
+          showCelebrities: profile.mbtiConfig.showCelebrities
+        }
+        // If we have MBTI type, find matching type config
+        if (enhanced.mbtiType && profile.mbtiConfig.types?.length > 0) {
+          const typeConfig = profile.mbtiConfig.types.find(t => t.type === enhanced.mbtiType)
+          if (typeConfig) {
+            enhanced.mbtiTypeConfig = typeConfig
+          }
+        }
+      }
+      break
+  }
+  
+  return enhanced
+}
+
 module.exports = {
   generateCode,
   generateSiteKey,
   calculateScore,
   generateAnalysis,
-  generateAdvice
+  generateAdvice,
+  generatePercentAnalysis,
+  applyProfileToResult
 }

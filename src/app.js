@@ -18,6 +18,7 @@ const questionRoutes = require('./routes/questions')
 const uploadRoutes = require('./routes/upload')
 const settingsRoutes = require('./routes/settings')
 const postsRoutes = require('./routes/posts')
+const resultProfilesRoutes = require('./routes/resultProfiles')
 
 const app = express()
 
@@ -101,6 +102,7 @@ app.use('/api/questions', questionRoutes)
 app.use('/api/upload', uploadRoutes)
 app.use('/api/settings', settingsRoutes)
 app.use('/api/posts', postsRoutes)
+app.use('/api/result-profiles', resultProfilesRoutes)
 
 // Health check
 app.get('/api/health', (req, res) => {
