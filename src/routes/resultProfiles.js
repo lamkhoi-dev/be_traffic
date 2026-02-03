@@ -16,10 +16,10 @@ const requireAdmin = (req, res, next) => {
 
 // ============ PUBLIC ROUTES ============
 
-// GET /api/result-profiles/test-types - Get available test types
+// GET /api/result-profiles/test-types - Get available test types from DB
 router.get('/test-types', async (req, res) => {
   try {
-    const testTypes = ResultProfile.getAvailableTestTypes()
+    const testTypes = await ResultProfile.getAvailableTestTypes()
     res.json({ success: true, testTypes })
   } catch (error) {
     console.error('Error getting test types:', error)

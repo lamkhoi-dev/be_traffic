@@ -298,23 +298,41 @@ resultProfileSchema.statics.createDefaultProfile = async function(testType) {
   return profile
 }
 
-// Get all available test types
-resultProfileSchema.statics.getAvailableTestTypes = function() {
-  return [
-    { value: 'iq', label: 'IQ Test', layoutType: 'score' },
-    { value: 'eq', label: 'EQ Test', layoutType: 'score' },
-    { value: 'mbti', label: 'MBTI Test', layoutType: 'mbti' },
-    { value: 'grade10', label: 'Lớp 10', layoutType: 'percent' },
-    { value: 'grade11', label: 'Lớp 11', layoutType: 'percent' },
-    { value: 'grade12', label: 'Lớp 12', layoutType: 'percent' },
-    { value: 'toan', label: 'Toán', layoutType: 'percent' },
-    { value: 'ly', label: 'Vật lý', layoutType: 'percent' },
-    { value: 'hoa', label: 'Hóa học', layoutType: 'percent' },
-    { value: 'anh', label: 'Tiếng Anh', layoutType: 'percent' },
-    { value: 'sinh', label: 'Sinh học', layoutType: 'percent' },
-    { value: 'su', label: 'Lịch sử', layoutType: 'percent' },
-    { value: 'dia', label: 'Địa lý', layoutType: 'percent' }
-  ]
+// Get all available test types - NOW DYNAMIC from DB
+resultProfileSchema.statics.getAvailableTestTypes = async function() {
+  // Import Test model dynamically to avoid circular dependency
+  const Test = require('./Test')
+  
+  // Get all unique test types from Test collection
+  const testTypes = await Test.distinct('type', { isActive: true })
+  
+  // Define layout type mapping
+  const layoutTypeMap = {
+    'iq': 'score',
+    'eq': 'score', 
+    'mbti': 'mbti'
+  }
+  
+  // Convert to array with labels and auto-detect layout type
+  const result = testTypes.map(type => {
+    let layoutType = layoutTypeMap[type] || 'percent' // Default to percent for school tests
+    
+    // Auto-detect percent for grade/subject tests
+    if (type.startsWith('grade') || ['toan', 'ly', 'hoa', 'anh', 'sinh', 'su', 'dia', 'van', 'gdcd'].includes(type)) {
+      layoutType = 'percent'
+    }
+    
+    return {
+      value: type,
+      label: type.charAt(0).toUpperCase() + type.slice(1).replace(/([A-Z])/g, ' $1'),
+      layoutType
+    }
+  })
+  
+  // Sort alphabetically
+  result.sort((a, b) => a.label.localeCompare(b.label))
+  
+  return result
 }
 
 // ============ HELPER FUNCTIONS ============
