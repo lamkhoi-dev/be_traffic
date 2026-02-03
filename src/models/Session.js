@@ -36,7 +36,7 @@ const sessionSchema = new mongoose.Schema({
   },
   layoutType: {
     type: String,
-    enum: ['score', 'percent', 'mbti'],
+    enum: ['score', 'percent', 'mbti', 'points'],
     default: 'score'
   },
   analysis: {
