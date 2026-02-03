@@ -50,7 +50,7 @@ router.post('/submit', async (req, res) => {
       return res.status(400).json({ success: false, message: 'Invalid sessionId format' })
     }
     
-    const session = await Session.findById(sessionId)
+    const session = await Session.findById(sessionId).populate('testId')
     if (!session) {
       return res.status(404).json({ success: false, message: 'Session not found' })
     }
@@ -59,12 +59,32 @@ router.post('/submit', async (req, res) => {
       return res.status(400).json({ success: false, message: 'Session already submitted' })
     }
     
-    // Calculate score
-    const questions = await Question.find({ testId: session.testId })
-    const { score, maxScore, correctCount } = calculateScore(answers, questions)
+    // Get test type and determine layout type
+    const testType = session.testId?.type || 'iq'
+    
+    // Try to get profile to determine layout type
+    let layoutType = 'score' // default
+    try {
+      const profile = await ResultProfile.getProfileForTestType(testType)
+      if (profile) {
+        layoutType = profile.layoutType || 'score'
+      }
+    } catch (err) {
+      // Use default layout type based on test type
+      if (testType.startsWith('grade') || ['toan', 'ly', 'hoa', 'anh', 'sinh', 'su', 'dia'].includes(testType)) {
+        layoutType = 'percent'
+      } else if (testType === 'mbti') {
+        layoutType = 'mbti'
+      }
+    }
+    
+    // Calculate score based on layout type
+    const testIdForQuery = session.testId?._id || session.testId
+    const questions = await Question.find({ testId: testIdForQuery })
+    const { score, maxScore, correctCount, percent } = calculateScore(answers, questions, layoutType)
     
     // Generate analysis
-    const analysis = generateAnalysis(score, maxScore, session.testId)
+    const analysis = generateAnalysis(score, maxScore, null)
     
     // Check if already has any pending/in_progress task for this fingerprint (any site)
     let existingTask = await Task.findOne({
@@ -133,11 +153,13 @@ router.post('/submit', async (req, res) => {
       console.log('[Submit Test] Created new task:', task._id)
     }
     
-    // Update session
+    // Update session - save both score and percent for flexibility
     session.answers = answers
     session.score = score
     session.maxScore = maxScore
-    session.percentile = Math.min(99, Math.max(1, Math.round((score / maxScore) * 100)))
+    session.percentile = layoutType === 'percent' ? percent : Math.min(99, Math.max(1, Math.round((score / maxScore) * 100)))
+    session.percent = percent // Store raw percent
+    session.layoutType = layoutType // Store layout type
     session.analysis = analysis
     session.status = 'submitted'
     session.submittedAt = new Date()

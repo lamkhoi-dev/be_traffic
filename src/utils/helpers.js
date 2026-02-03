@@ -28,9 +28,10 @@ const generateSiteKey = () => {
  * Calculate score from answers
  * @param {Array} answers - User's answers
  * @param {Array} questions - Questions with correct answers
- * @returns {Object} score, maxScore, correctCount
+ * @param {string} layoutType - 'score' (IQ scale), 'percent' (raw %), or 'mbti'
+ * @returns {Object} score, maxScore, correctCount, percent
  */
-const calculateScore = (answers, questions) => {
+const calculateScore = (answers, questions, layoutType = 'score') => {
   let correctCount = 0
   const answerMap = {}
   
@@ -44,16 +45,40 @@ const calculateScore = (answers, questions) => {
     }
   })
   
-  const maxScore = questions.length * 5
-  const score = correctCount * 5
+  const totalQuestions = questions.length
+  const percent = Math.round((correctCount / totalQuestions) * 100)
   
-  // Convert to IQ scale (70-150)
-  const iqScore = Math.round(70 + (correctCount / questions.length) * 80)
-  
-  return {
-    score: iqScore,
-    maxScore: 150,
-    correctCount
+  // Different score calculation based on layout type
+  switch (layoutType) {
+    case 'percent':
+      // For school tests: score = correctCount, maxScore = totalQuestions
+      return {
+        score: correctCount,
+        maxScore: totalQuestions,
+        correctCount,
+        percent
+      }
+    
+    case 'mbti':
+      // For MBTI: no score, just return correct count for now
+      // MBTI scoring will be handled separately
+      return {
+        score: 0,
+        maxScore: 0,
+        correctCount,
+        percent
+      }
+    
+    case 'score':
+    default:
+      // For IQ/EQ: convert to IQ scale (70-150)
+      const iqScore = Math.round(70 + (correctCount / totalQuestions) * 80)
+      return {
+        score: iqScore,
+        maxScore: 150,
+        correctCount,
+        percent
+      }
   }
 }
 

@@ -30,6 +30,15 @@ const sessionSchema = new mongoose.Schema({
     type: Number,
     default: 50
   },
+  percent: {
+    type: Number,
+    default: 0
+  },
+  layoutType: {
+    type: String,
+    enum: ['score', 'percent', 'mbti'],
+    default: 'score'
+  },
   analysis: {
     // For IQ/EQ tests
     level: String,
