@@ -51,8 +51,8 @@ router.post('/', upload.single('image'), (req, res) => {
       })
     }
 
-    // Build the URL for the uploaded file
-    const serverUrl = process.env.SERVER_URL || 'https://betraffic-production.up.railway.app'
+    // Build absolute URL from configured server URL or current host
+    const serverUrl = process.env.SERVER_URL || `${req.protocol}://${req.get('host')}`
     const imageUrl = `${serverUrl}/uploads/${req.file.filename}`
 
     res.json({

@@ -4,8 +4,11 @@
  */
 (function() {
   'use strict';
-  
-  const API_BASE = 'https://betraffic-production.up.railway.app';
+
+  const currentScript = document.currentScript;
+  const API_BASE = currentScript && currentScript.src
+    ? new URL(currentScript.src).origin
+    : window.location.origin;
   
   // Tạo styles
   const styles = `

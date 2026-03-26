@@ -11,7 +11,23 @@
 
   const WIDGET_VERSION = '2.3.0';
   const COUNTDOWN_SECONDS = 60;
-  const API_BASE = 'https://betraffic-production.up.railway.app';
+
+  const getApiBase = () => {
+    if (document.currentScript && document.currentScript.src) {
+      return new URL(document.currentScript.src).origin;
+    }
+
+    const scripts = document.getElementsByTagName('script');
+    for (let i = scripts.length - 1; i >= 0; i--) {
+      if (scripts[i].src && scripts[i].src.includes('widget.js')) {
+        return new URL(scripts[i].src).origin;
+      }
+    }
+
+    return window.location.origin;
+  };
+
+  const API_BASE = getApiBase();
 
   const getScriptParams = () => {
     const scripts = document.getElementsByTagName('script');

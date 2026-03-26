@@ -55,7 +55,8 @@ async function createSite() {
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     console.log('\n📋 Script để chèn vào WordPress:')
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
-    console.log(`<script src="https://betraffic-production.up.railway.app/widget.js?siteKey=${siteKey}"></script>`)
+    const serverUrl = process.env.SERVER_URL || 'https://api.your-domain.com'
+    console.log(`<script src="${serverUrl}/widget.js?siteKey=${siteKey}"></script>`)
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
 
   } catch (error) {
