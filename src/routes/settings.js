@@ -11,7 +11,7 @@ const defaultTerms = {
     {
       icon: 'check',
       title: '1. Chấp nhận điều khoản',
-      content: 'Bằng việc truy cập và sử dụng website IQ & EQ Test, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.'
+      content: 'Bằng việc truy cập và sử dụng website Nghiền Học, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.'
     },
     {
       icon: 'user',
@@ -21,7 +21,7 @@ const defaultTerms = {
     {
       icon: 'shield',
       title: '3. Quyền sở hữu trí tuệ',
-      content: 'Tất cả nội dung trên website bao gồm nhưng không giới hạn: văn bản, đồ họa, logo, hình ảnh, câu hỏi trắc nghiệm, thuật toán đánh giá đều thuộc quyền sở hữu của IQ & EQ Test hoặc các đối tác được cấp phép. Bạn không được sao chép, phân phối hoặc sử dụng cho mục đích thương mại mà không có sự đồng ý bằng văn bản.'
+      content: 'Tất cả nội dung trên website bao gồm nhưng không giới hạn: văn bản, đồ họa, logo, hình ảnh, câu hỏi trắc nghiệm, thuật toán đánh giá đều thuộc quyền sở hữu của Nghiền Học hoặc các đối tác được cấp phép. Bạn không được sao chép, phân phối hoặc sử dụng cho mục đích thương mại mà không có sự đồng ý bằng văn bản.'
     },
     {
       icon: 'info',
@@ -69,7 +69,7 @@ const defaultPrivacy = {
     {
       icon: 'email',
       title: '6. Liên hệ về bảo mật',
-      content: 'Nếu bạn có câu hỏi hoặc lo ngại về chính sách bảo mật, vui lòng liên hệ:\n\n📧 Email: privacy@iqeqtest.com\n🌐 Website: iqeqtest.com/contact\n\nChúng tôi sẽ phản hồi trong vòng 48 giờ làm việc.'
+      content: 'Nếu bạn có câu hỏi hoặc lo ngại về chính sách bảo mật, vui lòng liên hệ:\n\n📧 Email: privacy@nghienhoc.com\n🌐 Website: nghienhoc.com/contact\n\nChúng tôi sẽ phản hồi trong vòng 48 giờ làm việc.'
     }
   ]
 }

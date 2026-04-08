@@ -13,7 +13,7 @@ tt
 1. Tạo tài khoản tại [mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
 2. Tạo cluster miễn phí
 3. Lấy connection string: `mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>`
-
+ 
 ## Bước 3: Deploy Backend
 1. Railway → New Project → Deploy from GitHub
 2. Chọn repository của bạn

@@ -52,7 +52,8 @@ router.post('/', upload.single('image'), (req, res) => {
     }
 
     // Build absolute URL from configured server URL or current host
-    const serverUrl = process.env.SERVER_URL || `${req.protocol}://${req.get('host')}`
+    let serverUrl = process.env.SERVER_URL || `${req.protocol}://${req.get('host')}`
+    serverUrl = serverUrl.replace(/\/+$/, '') // Remove trailing slashes
     const imageUrl = `${serverUrl}/uploads/${req.file.filename}`
 
     res.json({

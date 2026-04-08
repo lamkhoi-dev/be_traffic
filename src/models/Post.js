@@ -95,7 +95,7 @@ const seoSchema = new mongoose.Schema({
   twitterImage: { type: String },
   // Structured Data
   articleType: { type: String, enum: ['Article', 'BlogPosting', 'NewsArticle'], default: 'BlogPosting' },
-  author: { type: String, default: 'IQ & EQ Test' }
+  author: { type: String, default: 'Nghiền Học' }
 }, { _id: false })
 
 const postSchema = new mongoose.Schema({
